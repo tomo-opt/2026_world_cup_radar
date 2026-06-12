@@ -1,0 +1,129 @@
+{
+  "stop_terms": [
+    "football",
+    "soccer",
+    "world cup",
+    "match",
+    "team",
+    "fifa",
+    "news",
+    "update",
+    "goal",
+    "fans"
+  ],
+  "keyword_stop_terms": [
+    "football",
+    "soccer",
+    "match",
+    "team",
+    "news",
+    "update",
+    "goal",
+    "fans",
+    "world cup"
+  ],
+  "excluded_content_terms": [
+    "how to watch",
+    "live stream",
+    "streaming",
+    "tv guide",
+    "tv schedule",
+    "subscribe",
+    "watch on",
+    "download",
+    "app",
+    "podcast",
+    "daily",
+    "newsletter",
+    "bracket",
+    "fantasy",
+    "predictor",
+    "standings table",
+    "live blog",
+    "video playlist",
+    "full match schedule",
+    "group stage explained",
+    "how does offside work",
+    "what to know",
+    "rules explained",
+    "eligible stars"
+  ],
+  "invalid_topic_suffixes": [
+    "update",
+    "news",
+    "goal",
+    "fans",
+    "football",
+    "soccer",
+    "world cup",
+    "match"
+  ],
+  "topic_categories": [
+    {
+      "key": "referee_assignment",
+      "label_zh": "裁判与执法安排",
+      "label_en": "referee and officiating setup",
+      "match_terms": ["referee", "official", "officiating", "match official", "barred", "visa", "entry", "banned", "appointment"]
+    },
+    {
+      "key": "var_officiating",
+      "label_zh": "VAR 与判罚争议",
+      "label_en": "var and officiating controversy",
+      "match_terms": ["var", "penalty", "red card", "controversial decision", "referee decision", "offside call", "handball"]
+    },
+    {
+      "key": "injury_training",
+      "label_zh": "伤病与训练情况",
+      "label_en": "injury and training",
+      "match_terms": ["injury", "fitness", "fit", "training", "missed training", "ruled out", "returns to training", "absence", "injury scare"]
+    },
+    {
+      "key": "lineup_selection",
+      "label_zh": "首发与阵容选择",
+      "label_en": "lineup and selection",
+      "match_terms": ["lineup", "starting xi", "selection", "squad", "goalkeeper race", "bench", "rotation", "starting lineup"]
+    },
+    {
+      "key": "coach_tactics",
+      "label_zh": "战术与教练安排",
+      "label_en": "coaching and tactics",
+      "match_terms": ["coach", "manager", "tactics", "formation", "strategy", "system", "midfield setup"]
+    },
+    {
+      "key": "qualification_race",
+      "label_zh": "出线形势",
+      "label_en": "qualification race",
+      "match_terms": ["qualification", "group stage", "standings", "knockout", "advance", "elimination", "qualified"]
+    },
+    {
+      "key": "fans_atmosphere",
+      "label_zh": "球迷与现场氛围",
+      "label_en": "fans and atmosphere",
+      "match_terms": ["fans", "crowd", "atmosphere", "supporters", "welcome", "chants"]
+    },
+    {
+      "key": "event_operations",
+      "label_zh": "赛事组织与场外事件",
+      "label_en": "event operations and off-field issues",
+      "match_terms": ["visa", "travel", "stadium", "security", "logistics", "ticket", "entry ban", "host city", "transport"]
+    },
+    {
+      "key": "star_form",
+      "label_zh": "球星状态",
+      "label_en": "star player form",
+      "match_terms": ["form", "sharp", "stars", "confidence", "returns", "captaincy", "fitness doubt"]
+    },
+    {
+      "key": "opening_host_pressure",
+      "label_zh": "揭幕战与主场压力",
+      "label_en": "opening match and host pressure",
+      "match_terms": ["opening match", "opener", "host", "pressure", "buildup", "home pressure"]
+    },
+    {
+      "key": "pre_match_storylines",
+      "label_zh": "赛前看点",
+      "label_en": "pre-match storylines",
+      "match_terms": ["preview", "key date", "must know", "build-up", "storylines", "before clash", "ahead of"]
+    }
+  ]
+}

@@ -1,0 +1,705 @@
+{
+  "generated_at": "2026-06-12T05:14:28.035Z",
+  "raw_items": 589,
+  "normalized_items": 589,
+  "event_frames": 589,
+  "topic_evidence_items": 98,
+  "low_confidence_items": 493,
+  "unclustered_items": 32,
+  "truly_discarded_items": 0,
+  "discard_reason_counts": {},
+  "low_confidence_reason_counts": {
+    "general_discussion_only": 426,
+    "event_frame_incomplete": 20,
+    "summary_missing": 26,
+    "topic_title_low_quality": 14,
+    "language_rule_missing": 1,
+    "page_reference_only": 6
+  },
+  "per_source": [
+    {
+      "source_id": "media_abola_futebol",
+      "source_name": "A Bola Futebol",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 1,
+      "low_confidence_items": 25,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_as_futbol",
+      "source_name": "AS Fútbol",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 6,
+      "low_confidence_items": 18,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_as_futbol_mundial2026",
+      "source_name": "AS Fútbol Mundial 2026",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 7,
+      "low_confidence_items": 16,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_bein_sports_football",
+      "source_name": "beIN SPORTS Football",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 2,
+      "low_confidence_items": 20,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_cbs_sports_world_cup",
+      "source_name": "CBS Sports World Cup News Page",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 8,
+      "low_confidence_items": 12,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_daily_mail_football",
+      "source_name": "Daily Mail Football Page",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 1,
+      "low_confidence_items": 22,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_daily_mail_worldcup",
+      "source_name": "Daily Mail World Cup Page",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 1,
+      "low_confidence_items": 23,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "espn_worldcup_schedule",
+      "source_name": "ESPN 2026 FIFA World Cup Match Schedule",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_espn_deportes_futbol",
+      "source_name": "ESPN Deportes Fútbol",
+      "raw_items": 24,
+      "normalized_items": 24,
+      "topic_evidence_items": 6,
+      "low_confidence_items": 22,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_espn_deportes_futbol_mundial",
+      "source_name": "ESPN Deportes Fútbol Mundial",
+      "raw_items": 22,
+      "normalized_items": 22,
+      "topic_evidence_items": 15,
+      "low_confidence_items": 7,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_espn_soccer",
+      "source_name": "ESPN Soccer",
+      "raw_items": 24,
+      "normalized_items": 24,
+      "topic_evidence_items": 8,
+      "low_confidence_items": 18,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_espn_rss_info",
+      "source_name": "ESPN Soccer RSS Feeds Info Page",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_espn_soccer_worldcup",
+      "source_name": "ESPN Soccer Worldcup Page",
+      "raw_items": 24,
+      "normalized_items": 24,
+      "topic_evidence_items": 14,
+      "low_confidence_items": 12,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "official_fifa_schedule_article",
+      "source_name": "FIFA World Cup 2026 Official Match Schedule Article",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "official_fifa_scores_fixtures",
+      "source_name": "FIFA World Cup 2026 Scores & Fixtures",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_fourfourtwo_news",
+      "source_name": "Four Four Two News",
+      "raw_items": 24,
+      "normalized_items": 24,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 23,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_fox_sports_world_cup",
+      "source_name": "Fox Sports World Cup News Page",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 1,
+      "low_confidence_items": 24,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_goal_world_cup",
+      "source_name": "Goal World Cup News Page",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 6,
+      "low_confidence_items": 20,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_dz",
+      "source_name": "Google Trends Sports - Algeria",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_ar",
+      "source_name": "Google Trends Sports - Argentina",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_au",
+      "source_name": "Google Trends Sports - Australia",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_at",
+      "source_name": "Google Trends Sports - Austria",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_be",
+      "source_name": "Google Trends Sports - Belgium",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_ba",
+      "source_name": "Google Trends Sports - Bosnia and Herzegovina",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_br",
+      "source_name": "Google Trends Sports - Brazil",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_ca",
+      "source_name": "Google Trends Sports - Canada",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_cv",
+      "source_name": "Google Trends Sports - Cape Verde",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_co",
+      "source_name": "Google Trends Sports - Colombia",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_hr",
+      "source_name": "Google Trends Sports - Croatia",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_cw",
+      "source_name": "Google Trends Sports - Curaçao",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_cz",
+      "source_name": "Google Trends Sports - Czechia",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_cd",
+      "source_name": "Google Trends Sports - DR Congo",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_ec",
+      "source_name": "Google Trends Sports - Ecuador",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_eg",
+      "source_name": "Google Trends Sports - Egypt",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_fr",
+      "source_name": "Google Trends Sports - France",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_de",
+      "source_name": "Google Trends Sports - Germany",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_gh",
+      "source_name": "Google Trends Sports - Ghana",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_ht",
+      "source_name": "Google Trends Sports - Haiti",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_ir",
+      "source_name": "Google Trends Sports - Iran",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_iq",
+      "source_name": "Google Trends Sports - Iraq",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_it",
+      "source_name": "Google Trends Sports - Italy",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_ci",
+      "source_name": "Google Trends Sports - Ivory Coast",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_jp",
+      "source_name": "Google Trends Sports - Japan",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_jo",
+      "source_name": "Google Trends Sports - Jordan",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_mx",
+      "source_name": "Google Trends Sports - Mexico",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_ma",
+      "source_name": "Google Trends Sports - Morocco",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_nl",
+      "source_name": "Google Trends Sports - Netherlands",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_nz",
+      "source_name": "Google Trends Sports - New Zealand",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_no",
+      "source_name": "Google Trends Sports - Norway",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_pa",
+      "source_name": "Google Trends Sports - Panama",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_py",
+      "source_name": "Google Trends Sports - Paraguay",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_pt",
+      "source_name": "Google Trends Sports - Portugal",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_qa",
+      "source_name": "Google Trends Sports - Qatar",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_sa",
+      "source_name": "Google Trends Sports - Saudi Arabia",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_sn",
+      "source_name": "Google Trends Sports - Senegal",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_za",
+      "source_name": "Google Trends Sports - South Africa",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_kr",
+      "source_name": "Google Trends Sports - South Korea",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_es",
+      "source_name": "Google Trends Sports - Spain",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_se",
+      "source_name": "Google Trends Sports - Sweden",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_ch",
+      "source_name": "Google Trends Sports - Switzerland",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_tn",
+      "source_name": "Google Trends Sports - Tunisia",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_tr",
+      "source_name": "Google Trends Sports - Türkiye",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_gb",
+      "source_name": "Google Trends Sports - United Kingdom",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_us",
+      "source_name": "Google Trends Sports - United States",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_uy",
+      "source_name": "Google Trends Sports - Uruguay",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "google_trends_sports_uz",
+      "source_name": "Google Trends Sports - Uzbekistan",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_lequipe_football",
+      "source_name": "L'Équipe Football",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 25,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_lequipe_football_coupedumonde",
+      "source_name": "L'Équipe Football Coupe du Monde",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 2,
+      "low_confidence_items": 24,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_marca_futbol",
+      "source_name": "Marca Fútbol",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 2,
+      "low_confidence_items": 25,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_marca_futbol_noticias",
+      "source_name": "Marca Fútbol Noticias",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 2,
+      "low_confidence_items": 25,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_nbc_sports_world_cup",
+      "source_name": "NBC Sports World Cup Page",
+      "raw_items": 14,
+      "normalized_items": 14,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 11,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_one_football_world_cup",
+      "source_name": "One Football World Cup Page",
+      "raw_items": 13,
+      "normalized_items": 13,
+      "topic_evidence_items": 3,
+      "low_confidence_items": 12,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "sky_worldcup_scores_fixtures",
+      "source_name": "Sky Sports FIFA World Cup Scores & Fixtures",
+      "raw_items": 1,
+      "normalized_items": 1,
+      "topic_evidence_items": 0,
+      "low_confidence_items": 1,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_sky_sports_football",
+      "source_name": "Sky Sports Football",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 4,
+      "low_confidence_items": 20,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_sky_sports_football_news",
+      "source_name": "Sky Sports Football News Page",
+      "raw_items": 16,
+      "normalized_items": 16,
+      "topic_evidence_items": 3,
+      "low_confidence_items": 13,
+      "truly_discarded_items": 0
+    },
+    {
+      "source_id": "media_si_world_cup",
+      "source_name": "Sports Illustrated World Cup Page",
+      "raw_items": 25,
+      "normalized_items": 25,
+      "topic_evidence_items": 6,
+      "low_confidence_items": 23,
+      "truly_discarded_items": 0
+    }
+  ]
+}
