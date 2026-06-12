@@ -1352,14 +1352,21 @@ function inferFromSpecificTitle(item: NormalizedItem, text: string) {
     };
   }
 
-  if (/la ciencia coreana frente al colectivo checo|amargar a m[eé]xico|guadalajara/.test(text)) {
-    return {
-      action: 'match_preview',
-      object: '韩捷战术对比',
-      candidateTitle: '韩捷之战前瞻聚焦韩国个人能力与捷克整体性对抗',
-      candidateSummary: '该线索围绕韩国与捷克在小组赛前的战术特点和高原备战展开。',
-    };
-  }
+if (
+  /la ciencia coreana frente al colectivo checo/.test(text) ||
+  (
+    /(south korea|korea republic|republic of korea|czechia|czech republic)/.test(text) &&
+    /preview|ahead of|build-up|storylines|crucial clash|showdown/.test(text) &&
+    !/2-1|1-0|3-0|comeback win|come from behind|beat|rallying from goal down|winning start|late winner|match report|post match/.test(text)
+  )
+) {
+  return {
+    action: 'match_preview',
+    object: '韩国与捷克赛前对位',
+    candidateTitle: '韩国队与捷克队赛前对位和比赛看点受到关注',
+    candidateSummary: '该线索围绕韩国与捷克交锋前的人员对位、战术特点和小组赛首战前景展开。',
+  };
+}
 
   if (/no me arrepiento de que estados unidos organice el mundial/.test(text) && text.includes('infantino')) {
     return {
