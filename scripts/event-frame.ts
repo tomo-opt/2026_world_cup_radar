@@ -1549,6 +1549,31 @@ function extractActionObject(item: NormalizedItem, matches: Match[]) {
     };
   }
 
+if (
+  /(south korea|korea republic|republic of korea)/.test(text) &&
+  /(czechia|czech republic)/.test(text) &&
+  /2-1|comeback win|come from behind|rallying from goal down|winning start|late winner|match report|post match/.test(text)
+) {
+  return {
+    action: 'post_match_result',
+    object: '韩国逆转捷克的赛后结果',
+    candidateTitle: '韩国队逆转捷克后以胜利开启世界杯征程',
+    candidateSummary: '该线索围绕韩国队对捷克一战中的逆转取胜、关键进球和赛后评价展开。',
+  };
+}
+
+if (
+  /(post match thread|match report|come from behind|comeback win|winning start|late winner|rallied from|rallying from goal down)/.test(text) &&
+  item.matched_teams.length > 0
+) {
+  return {
+    action: 'post_match_result',
+    object: `${team || '相关球队'}赛后结果`,
+    candidateTitle: `${team || '相关球队'}的赛后表现与比赛结果成为海外讨论焦点`,
+    candidateSummary: firstMeaningfulSentence(item) ?? '该线索围绕比赛结果、关键进球、逆转过程或赛后讨论展开。',
+  };
+}
+  
   if (/preview|ahead of|build-up|storylines/.test(text)) {
     if (firstMeaningfulSentence(item)?.includes('ready to challenge')) {
       return {
