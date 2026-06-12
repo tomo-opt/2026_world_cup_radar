@@ -4,18 +4,24 @@
     "topic_key": "世界杯票务::ticket_issue::观赛票务::世界杯",
     "issue_type": "fans_atmosphere",
     "topic_title": "世界杯票务分配与购票安排引发争议",
-    "lead_source_title": "How to buy Mexico World Cup 2026 tickets: Mexican stadium information, team fixtures, prices & more | Goal.com US",
-    "lead_source_summary": "Everything you need to know about buying Mexico match tickets for FIFA World Cup 2026, including sale dates, prices, packages and how to safely buy or resell tickets for the biggest tournament yet.",
-    "topic_summary": "目前仅 1 个海外来源提到“世界杯票务分配与购票安排引发争议”，暂作为话题线索展示。该线索主要围绕球迷购票与观赛安排。",
+    "lead_source_title": "FIFA’s Worst Nightmare Comes True on Day One of 2026 World Cup",
+    "lead_source_summary": "Prohibitive ticket prices have been at the center of controversies surrounding the World Cup.",
+    "topic_summary": "共有 2 个海外来源提到该话题。该线索主要围绕球迷购票与观赛安排。",
     "summary_zh": "该线索主要围绕球迷购票与观赛安排。",
     "heat_score": 78,
     "related_matches": [
-      "M001"
+      "M001",
+      "M002",
+      "M025",
+      "M028",
+      "M053",
+      "M054"
     ],
     "related_teams": [
       "墨西哥",
       "南非",
-      "美国"
+      "韩国",
+      "捷克"
     ],
     "related_players": [],
     "regions": [
@@ -27,13 +33,13 @@
       "multi"
     ],
     "source_count": 5,
-    "evidence_count": 5,
+    "evidence_count": 6,
     "source_names": [
       "The Guardian Football Worldcup 2026 Page",
-      "Mastodon hashtag #soccer",
+      "Mastodon hashtag #WorldCup2026",
       "Reddit r/soccer",
-      "The Guardian Football",
-      "Goal World Cup News Page"
+      "Sports Illustrated World Cup Page",
+      "The Guardian Football"
     ],
     "sources": [
       {
@@ -42,8 +48,8 @@
         "title": "Petrol bombs and bricks hurled at Mexican police during pre-match unrest at Azteca",
         "summary": "A group of ticketless fans tried to charge the gate of the stadium and threw missiles at officers",
         "url": "https://www.theguardian.com/football/2026/jun/11/petrol-bombs-bricks-hurled-mexican-police-unrest-azteca-world-cup",
-        "published_at": "2026-06-12T10:50:21.942Z",
-        "fetched_at": "2026-06-12T10:50:21.942Z",
+        "published_at": "2026-06-12T14:12:26.521Z",
+        "fetched_at": "2026-06-12T14:12:26.521Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -54,13 +60,30 @@
         "item_type": "article"
       },
       {
-        "source_id": "social_mastodon_soccer",
-        "source_name": "Mastodon hashtag #soccer",
+        "source_id": "social_mastodon_worldcup2026",
+        "source_name": "Mastodon hashtag #WorldCup2026",
         "title": "Untitled item",
-        "summary": "World Cup Ticket Prices in Mexico City Too Expensive for Most Fans https://www.nytimes.com/2026/06/12/us/world-cup-tickets-expensive-mexico.html #Soccer #WorldCup #Economics",
-        "url": "https://www.nytimes.com/2026/06/12/us/world-cup-tickets-expensive-mexico.html",
-        "published_at": "2026-06-12T09:05:39.000Z",
-        "fetched_at": "2026-06-12T10:50:20.027Z",
+        "summary": "#WorldCup2026 #ticket_prices #FIFA",
+        "url": "https://mastodon.social/@franciswashere/116737345202860403",
+        "published_at": "2026-06-12T13:22:06.000Z",
+        "fetched_at": "2026-06-12T14:12:23.855Z",
+        "language": "multi",
+        "region": "全球/英语圈",
+        "source_type": "open_social",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      },
+      {
+        "source_id": "social_mastodon_worldcup2026",
+        "source_name": "Mastodon hashtag #WorldCup2026",
+        "title": "Untitled item",
+        "summary": "#WorldCup2026 #ticket_prices #FIFA",
+        "url": "https://mastodon.social/@franciswashere/116737338251541694",
+        "published_at": "2026-06-12T13:20:20.000Z",
+        "fetched_at": "2026-06-12T14:12:23.855Z",
         "language": "multi",
         "region": "全球/英语圈",
         "source_type": "open_social",
@@ -77,7 +100,7 @@
         "summary": "submitted by /u/lee7on1 [link] [comments]",
         "url": "https://www.reddit.com/r/soccer/comments/1u3mxjd/fifa_world_cup_match_sees_thousands_of_empty/",
         "published_at": "2026-06-12T06:02:18.000Z",
-        "fetched_at": "2026-06-12T10:50:17.089Z",
+        "fetched_at": "2026-06-12T14:12:20.930Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -88,30 +111,13 @@
         "item_type": "article"
       },
       {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Triumph at the Azteca offers respite from strife on Mexico City’s streets  | Pablo Iglesias Maurer",
-        "summary": "One of football’s great arenas roared as El Tri eased past South Africa, offering fans a fleeting escape from the tensions gripping the capital The walk to Estadio Ciudad de México – most fans know it as the Azteca – on Thursday did a pretty good job of laying out the two sides of Mexico as the World Cup kicked off. Flanked by volunteers and channeled towards the stadium by steel barriers, the lucky few to have scored a ticket to the tournament’s opener between Mexico and South Africa chanted, waved the country’s tricolor flag and cracked beers in the middle of the street. The path was flanked with performers, the sound of traditional banda music providing a festive atmosphere. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jun/11/mexico-south-africa-world-cup-2026",
-        "published_at": "2026-06-12T01:23:37.000Z",
-        "fetched_at": "2026-06-12T10:50:16.351Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_goal_world_cup",
-        "source_name": "Goal World Cup News Page",
-        "title": "How to buy Mexico World Cup 2026 tickets: Mexican stadium information, team fixtures, prices & more | Goal.com US",
-        "summary": "Everything you need to know about buying Mexico match tickets for FIFA World Cup 2026, including sale dates, prices, packages and how to safely buy or resell tickets for the biggest tournament yet.",
-        "url": "https://www.goal.com/en-us/news/mexico-world-cup-tickets/blte7738f8c838ae337",
-        "published_at": "2026-06-12T10:51:40.331Z",
-        "fetched_at": "2026-06-12T10:51:40.331Z",
+        "source_id": "media_si_world_cup",
+        "source_name": "Sports Illustrated World Cup Page",
+        "title": "FIFA’s Worst Nightmare Comes True on Day One of 2026 World Cup",
+        "summary": "Prohibitive ticket prices have been at the center of controversies surrounding the World Cup.",
+        "url": "https://www.si.com/soccer/fifa-worst-nightmare-comes-true-day-one-2026-world-cup",
+        "published_at": "2026-06-12T14:13:57.876Z",
+        "fetched_at": "2026-06-12T14:13:57.876Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -120,14 +126,31 @@
         "data_origin": "live",
         "extraction_level": "public_article_text",
         "item_type": "article"
+      },
+      {
+        "source_id": "media_guardian_football",
+        "source_name": "The Guardian Football",
+        "title": "Triumph at the Azteca offers respite from strife on Mexico City’s streets  | Pablo Iglesias Maurer",
+        "summary": "One of football’s great arenas roared as El Tri eased past South Africa, offering fans a fleeting escape from the tensions gripping the capital The walk to Estadio Ciudad de México – most fans know it as the Azteca – on Thursday did a pretty good job of laying out the two sides of Mexico as the World Cup kicked off. Flanked by volunteers and channeled towards the stadium by steel barriers, the lucky few to have scored a ticket to the tournament’s opener between Mexico and South Africa chanted, waved the country’s tricolor flag and cracked beers in the middle of the street. The path was flanked with performers, the sound of traditional banda music providing a festive atmosphere. Continue reading...",
+        "url": "https://www.theguardian.com/football/2026/jun/11/mexico-south-africa-world-cup-2026",
+        "published_at": "2026-06-12T01:23:37.000Z",
+        "fetched_at": "2026-06-12T14:12:20.196Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:51:40.331Z",
+    "last_updated": "2026-06-12T14:13:57.876Z",
     "source_count_score": 78,
     "recency_score": 94,
     "cross_region_score": 68,
-    "source_priority_score": 67,
+    "source_priority_score": 65,
     "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开正文片段识别",
@@ -135,45 +158,202 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_加拿大_odds_prediction_untitled_item",
-    "topic_key": "加拿大::odds_prediction::untitled_item",
-    "issue_type": "star_form",
-    "topic_title": "海外媒体正在重新评估加拿大的世界杯前景",
-    "lead_source_title": "Untitled item",
-    "lead_source_summary": "⚽ Canada vs Qatar (Jun 19) 6 AI agents broke this one down. The picture they built: Canada come in as clear favorites — a big Elo edge, FIFA 25th vs 96th, and steadier recent form. The agents leaned toward a Qatar upset being a long shot. Low confidence overall, but a rare case where nearly all six lined up the same way. See how they got there 👉 https://openfifa.me Advisory only. #football #soccer #CanMNT #WorldCup #AIagents",
-    "topic_summary": "共有 3 个海外来源提到该话题。该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
-    "summary_zh": "该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
-    "heat_score": 73,
+    "topic_id": "topic_son_heung-min_post_match_result_韩国逆转捷克的赛后结果_墨西哥_vs_南非",
+    "topic_key": "son_heung-min::post_match_result::韩国逆转捷克的赛后结果::墨西哥_vs_南非",
+    "issue_type": "opening_host_pressure",
+    "topic_title": "韩国队逆转捷克后以胜利开启世界杯征程",
+    "lead_source_title": "World Cup 2026: South Korea fights back for 2-1 win over Czechia in pivotal opener",
+    "lead_source_summary": "South Korea took a major step toward the knockout round in its World Cup opener.",
+    "topic_summary": "共有 2 个海外来源提到该话题。该线索围绕韩国队对捷克一战中的逆转取胜、关键进球和赛后评价展开。",
+    "summary_zh": "该线索围绕韩国队对捷克一战中的逆转取胜、关键进球和赛后评价展开。",
+    "heat_score": 74,
     "related_matches": [
-      "M027"
+      "M001",
+      "M002",
+      "M025",
+      "M028",
+      "M053",
+      "M054"
     ],
     "related_teams": [
-      "加拿大",
-      "卡塔尔"
+      "墨西哥",
+      "南非",
+      "韩国",
+      "捷克",
+      "巴西"
     ],
-    "related_players": [],
+    "related_players": [
+      "Son Heung-min",
+      "Hwang In-beom",
+      "Ladislav Krejci"
+    ],
     "regions": [
-      "全球/英语圈"
+      "全球/英语圈",
+      "欧洲",
+      "中东与北非"
     ],
     "languages": [
-      "multi"
+      "en"
     ],
-    "source_count": 3,
-    "evidence_count": 3,
+    "source_count": 4,
+    "evidence_count": 4,
     "source_names": [
-      "Mastodon hashtag #WorldCup",
-      "Mastodon hashtag #football",
-      "Mastodon hashtag #soccer"
+      "Yahoo Sport World Cup Page",
+      "The Guardian Football Worldcup 2026 Page",
+      "Reddit r/soccer",
+      "beIN SPORTS Football"
     ],
     "sources": [
       {
-        "source_id": "social_mastodon_worldcup",
-        "source_name": "Mastodon hashtag #WorldCup",
+        "source_id": "media_yahoo_world_cup",
+        "source_name": "Yahoo Sport World Cup Page",
+        "title": "World Cup 2026: South Korea fights back for 2-1 win over Czechia in pivotal opener",
+        "summary": "South Korea took a major step toward the knockout round in its World Cup opener.",
+        "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-south-korea-fights-back-for-2-1-win-over-czechia-in-pivotal-opener-035558969.html",
+        "published_at": "2026-06-12T14:13:43.495Z",
+        "fetched_at": "2026-06-12T14:13:43.495Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_guardian_football_worldcup2026",
+        "source_name": "The Guardian Football Worldcup 2026 Page",
+        "title": "South Korea get off to winning start after rallying from goal down to beat Czechia",
+        "summary": "Ladislav Krejci’s opener for Czechia in Guadalajara was cancelled out by Hwang In-beom before Oh Hyeon-gyu gave South Korea a 2-1 win",
+        "url": "https://www.theguardian.com/football/2026/jun/12/south-korea-czechia-world-cup-2026-group-a-match-report",
+        "published_at": "2026-06-12T14:12:26.520Z",
+        "fetched_at": "2026-06-12T14:12:26.520Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      },
+      {
+        "source_id": "forum_reddit_soccer",
+        "source_name": "Reddit r/soccer",
+        "title": "[Official] South Korea defeat Czechia 2-1",
+        "summary": "submitted by /u/IamBrazilian_AMA [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1u3kl24/official_south_korea_defeat_czechia_21/",
+        "published_at": "2026-06-12T03:58:05.000Z",
+        "fetched_at": "2026-06-12T14:12:20.930Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_bein_sports_football",
+        "source_name": "beIN SPORTS Football",
+        "title": "South Korea hero Oh reveals he played through illness in World Cup opener",
+        "summary": "Besiktas striker Oh Hyeon-gyu scored South Korea's winner against Czechia at the World Cup, having overcome a pre-match bout of illness.",
+        "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/south-korea-hero-oh-reveals-he-played-through-illness-in-world-cup-opener-2026-06-12",
+        "published_at": "2026-06-12T10:52:02.330Z",
+        "fetched_at": "2026-06-12T10:52:02.330Z",
+        "language": "en",
+        "region": "中东与北非",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "韩国逆转捷克的赛后结果",
+      "Son Heung-min",
+      "Hwang In-beom"
+    ],
+    "last_updated": "2026-06-12T14:13:43.495Z",
+    "source_count_score": 52,
+    "recency_score": 100,
+    "cross_region_score": 68,
+    "source_priority_score": 82,
+    "match_relevance_score": 92,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开正文片段识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_加拿大_schedule_guide_波黑队赛程与观赛信息_加拿大_vs_波黑",
+    "topic_key": "加拿大::schedule_guide::波黑队赛程与观赛信息::加拿大_vs_波黑",
+    "issue_type": "pre_match_storylines",
+    "topic_title": "波黑队世界杯赛程与观赛信息汇总",
+    "lead_source_title": "World Cup hosts enhanced to 3/1 to win as Canada & USA open campaigns",
+    "lead_source_summary": "One of the three host nations at the 2026 World Cup got their campaign off to the perfect start on Thursday. Now, attention turns to the tournament's other two hosts, Canada and the USA.",
+    "topic_summary": "目前仅 1 个海外来源提到“波黑队世界杯赛程与观赛信息汇总”，暂作为话题线索展示。该线索整理波黑队在本届世界杯的赛程、对手与观赛信息。",
+    "summary_zh": "该线索整理波黑队在本届世界杯的赛程、对手与观赛信息。",
+    "heat_score": 72,
+    "related_matches": [
+      "M003",
+      "M001",
+      "M004"
+    ],
+    "related_teams": [
+      "加拿大",
+      "波黑",
+      "墨西哥",
+      "南非",
+      "美国",
+      "巴拉圭"
+    ],
+    "related_players": [],
+    "regions": [
+      "欧洲",
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en",
+      "multi"
+    ],
+    "source_count": 3,
+    "evidence_count": 4,
+    "source_names": [
+      "Sky Sports Football News Page",
+      "Mastodon hashtag #FIFAWorldCup",
+      "Daily Mail World Cup Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_sky_sports_football_news",
+        "source_name": "Sky Sports Football News Page",
+        "title": "Live Commentary - Canada vs Bos&Herz | 12.06.2026",
+        "summary": "FIFA World Cup match Canada vs Bos&Herz 12.06.2026. Preview and stats followed by live commentary, video highlights and match report.",
+        "url": "https://www.skysports.com/football/canada-vs-bos-and-herz/live/549768",
+        "published_at": "2026-06-12T14:12:30.751Z",
+        "fetched_at": "2026-06-12T14:12:30.751Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      },
+      {
+        "source_id": "social_mastodon_fifaworldcup",
+        "source_name": "Mastodon hashtag #FIFAWorldCup",
         "title": "Untitled item",
-        "summary": "⚽ Canada vs Qatar (Jun 19) 6 AI agents broke this one down. The picture they built: Canada come in as clear favorites — a big Elo edge, FIFA 25th vs 96th, and steadier recent form. The agents leaned toward a Qatar upset being a long shot. Low confidence overall, but a rare case where nearly all six lined up the same way. See how they got there 👉 https://openfifa.me Advisory only. #football #soccer #CanMNT #WorldCup #AIagents",
-        "url": "https://mastodon.social/@openfifa/116736454505500346",
-        "published_at": "2026-06-12T09:35:35.000Z",
-        "fetched_at": "2026-06-12T10:50:18.095Z",
+        "summary": "#FIFAWorldCup MATCH DAY - What's the mood like around the Canadian team heading into this home World Cup? How is the head coach of Bosnia and Herzegovina preparing his team for the environment? More from @TSNScianitti & @clahanna: https://www.tsn.ca/soccer/fifa-world-cup/video/2026/06/12/scianitti-on-team-canadas-mood-ahead-of-home-world-cup/",
+        "url": "https://twitter.com/SportsCentre/status/2065431489911673262",
+        "published_at": "2026-06-12T13:50:15.000Z",
+        "fetched_at": "2026-06-12T14:12:23.370Z",
         "language": "multi",
         "region": "全球/英语圈",
         "source_type": "open_social",
@@ -184,13 +364,177 @@
         "item_type": "article"
       },
       {
-        "source_id": "social_mastodon_football",
-        "source_name": "Mastodon hashtag #football",
+        "source_id": "social_mastodon_fifaworldcup",
+        "source_name": "Mastodon hashtag #FIFAWorldCup",
         "title": "Untitled item",
-        "summary": "⚽ Canada vs Qatar (Jun 19) 6 AI agents broke this one down. The picture they built: Canada come in as clear favorites — a big Elo edge, FIFA 25th vs 96th, and steadier recent form. The agents leaned toward a Qatar upset being a long shot. Low confidence overall, but a rare case where nearly all six lined up the same way. See how they got there 👉 https://openfifa.me Advisory only. #football #soccer #CanMNT #WorldCup #AIagents",
-        "url": "https://mastodon.social/@openfifa/116736454505500346",
-        "published_at": "2026-06-12T09:35:35.000Z",
-        "fetched_at": "2026-06-12T10:50:19.672Z",
+        "summary": "#FIFAWorldCup MATCH DAY - Ahead of the biggest Canadian soccer game in the history of the nation, @clahanna & @TSNScianitti join @jenniferhedger@twitter.com to discuss how Canada makes sure that they don't underestimate Bosnia and Herzegovina in their opener: https://www.tsn.ca/soccer/fifa-world-cup/video/2026/06/12/should-canada-make-sure-they-dont-underestimate-bosnia-and-herzegovina/",
+        "url": "https://twitter.com/SportsCentre/status/2065427424360251844",
+        "published_at": "2026-06-12T13:34:06.000Z",
+        "fetched_at": "2026-06-12T14:12:23.370Z",
+        "language": "multi",
+        "region": "全球/英语圈",
+        "source_type": "open_social",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_daily_mail_worldcup",
+        "source_name": "Daily Mail World Cup Page",
+        "title": "World Cup hosts enhanced to 3/1 to win as Canada & USA open campaigns",
+        "summary": "One of the three host nations at the 2026 World Cup got their campaign off to the perfect start on Thursday. Now, attention turns to the tournament's other two hosts, Canada and the USA.",
+        "url": "https://www.dailymail.com/sport/skybet/article-15894493/World-Cup-Canada-USA-Sky-Bet.html",
+        "published_at": "2026-06-12T14:13:21.113Z",
+        "fetched_at": "2026-06-12T14:13:21.113Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "波黑队赛程与观赛信息"
+    ],
+    "last_updated": "2026-06-12T14:13:21.113Z",
+    "source_count_score": 52,
+    "recency_score": 99,
+    "cross_region_score": 68,
+    "source_priority_score": 66,
+    "match_relevance_score": 92,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开正文片段识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_海地_kit_issue_球衣图案争议_世界杯",
+    "topic_key": "海地::kit_issue::球衣图案争议::世界杯",
+    "issue_type": "coach_tactics",
+    "topic_title": "海地队因球衣图案涉政治含义被要求赛前紧急换装",
+    "lead_source_title": "Alisson: Carlo Ancelotti Has 'Transformed' Brazil After 'Very Difficult Period'",
+    "lead_source_summary": "Liverpool goalkeeper Alisson Becker has hailed the impact of Carlo Ancelotti, claiming the Italian manager has completely revitalised the Brazil national team.",
+    "topic_summary": "目前仅 1 个海外来源提到“海地队因球衣图案涉政治含义被要求赛前紧急换装”，暂作为话题线索展示。该线索围绕海地队世界杯球衣因被视为政治表达而被临时要求修改。",
+    "summary_zh": "该线索围绕海地队世界杯球衣因被视为政治表达而被临时要求修改。",
+    "heat_score": 70,
+    "related_matches": [
+      "M007",
+      "M006",
+      "M030",
+      "M031",
+      "M051",
+      "M052"
+    ],
+    "related_teams": [
+      "海地",
+      "苏格兰",
+      "巴西",
+      "摩洛哥"
+    ],
+    "related_players": [
+      "Scott McTominay",
+      "Alisson"
+    ],
+    "regions": [
+      "全球/英语圈",
+      "欧洲"
+    ],
+    "languages": [
+      "multi",
+      "en"
+    ],
+    "source_count": 6,
+    "evidence_count": 7,
+    "source_names": [
+      "Mastodon hashtag #WorldCup",
+      "BBC Sport Football",
+      "The Guardian Football Worldcup 2026 Page",
+      "Sky Sports Football",
+      "Mastodon hashtag #soccer",
+      "Fox Sports World Cup News Page"
+    ],
+    "sources": [
+      {
+        "source_id": "social_mastodon_worldcup",
+        "source_name": "Mastodon hashtag #WorldCup",
+        "title": "Untitled item",
+        "summary": "You are Steve Clarke... what would you do against Haiti? https://www.bbc.com/sport/football/articles/cy06gkd521wo?at_medium=RSS&at_campaign=rss Put yourself in the shoes of Steve Clarke and pick the side, tactics and decide what your pre-match team talk would be for their World Cup opener. #WorldCup #fifawc",
+        "url": "https://sportsfeed.me/@BBC_WC/116737376593179718",
+        "published_at": "2026-06-12T13:30:05.000Z",
+        "fetched_at": "2026-06-12T14:12:22.429Z",
+        "language": "multi",
+        "region": "全球/英语圈",
+        "source_type": "open_social",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_bbc_sport_football",
+        "source_name": "BBC Sport Football",
+        "title": "You are Steve Clarke... what would you do against Haiti?",
+        "summary": "Put yourself in the shoes of Steve Clarke and pick the side, tactics and decide what your pre-match team talk would be for their World Cup opener.",
+        "url": "https://www.bbc.com/sport/football/articles/cy06gkd521wo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-06-12T13:07:48.000Z",
+        "fetched_at": "2026-06-12T14:12:19.858Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_guardian_football_worldcup2026",
+        "source_name": "The Guardian Football Worldcup 2026 Page",
+        "title": "McTominay should be fit for Scotland’s World Cup opener despite stomach bug",
+        "summary": "Scott McTominay has missed Scotland’s final training session as a precaution before their opening Group C game against Haiti",
+        "url": "https://www.theguardian.com/football/2026/jun/11/scott-mctominay-scotland-world-cup-opener-stomach-bug",
+        "published_at": "2026-06-12T14:12:26.521Z",
+        "fetched_at": "2026-06-12T14:12:26.521Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_sky_sports_football",
+        "source_name": "Sky Sports Football",
+        "title": "World Cup news: Haiti forced to redesign kit before opener with Scotland",
+        "summary": "",
+        "url": "https://www.skysports.com/football/live-blog/12098/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-build-up-plus-latest-on-trump-tickets-and-fans",
+        "published_at": "2026-06-12T14:12:29.571Z",
+        "fetched_at": "2026-06-12T14:12:29.571Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "title_only",
+        "item_type": "article"
+      },
+      {
+        "source_id": "social_mastodon_soccer",
+        "source_name": "Mastodon hashtag #soccer",
+        "title": "Untitled item",
+        "summary": "Haiti and the curious case of a banned World Cup kit that could become a collectors' item https://www.nytimes.com/athletic/7353721/2026/06/12/haiti-kit-world-cup-ban/ Did FIFA make the right decision to ask Haiti to change their kit from one depicting a scene from the Haitian Revolution? #Soccer #Football",
+        "url": "https://sportsfeed.me/@athletic_af/116736846012813898",
+        "published_at": "2026-06-12T11:15:09.000Z",
+        "fetched_at": "2026-06-12T14:12:24.570Z",
         "language": "multi",
         "region": "全球/英语圈",
         "source_type": "open_social",
@@ -204,10 +548,10 @@
         "source_id": "social_mastodon_soccer",
         "source_name": "Mastodon hashtag #soccer",
         "title": "Untitled item",
-        "summary": "⚽ Canada vs Qatar (Jun 19) 6 AI agents broke this one down. The picture they built: Canada come in as clear favorites — a big Elo edge, FIFA 25th vs 96th, and steadier recent form. The agents leaned toward a Qatar upset being a long shot. Low confidence overall, but a rare case where nearly all six lined up the same way. See how they got there 👉 https://openfifa.me Advisory only. #football #soccer #CanMNT #WorldCup #AIagents",
-        "url": "https://mastodon.social/@openfifa/116736454505500346",
-        "published_at": "2026-06-12T09:35:35.000Z",
-        "fetched_at": "2026-06-12T10:50:20.027Z",
+        "summary": "Haiti and the curious case of a banned World Cup kit that could become a collectors' item https://www.nytimes.com/athletic/7353721/2026/06/12/haiti-kit-world-cup-ban/ #Soccer #Fashion #History",
+        "url": "https://www.nytimes.com/athletic/7353721/2026/06/12/haiti-kit-world-cup-ban/",
+        "published_at": "2026-06-12T11:00:18.000Z",
+        "fetched_at": "2026-06-12T14:12:24.570Z",
         "language": "multi",
         "region": "全球/英语圈",
         "source_type": "open_social",
@@ -216,15 +560,35 @@
         "data_origin": "live",
         "extraction_level": "title_and_summary",
         "item_type": "article"
+      },
+      {
+        "source_id": "media_fox_sports_world_cup",
+        "source_name": "Fox Sports World Cup News Page",
+        "title": "Alisson: Carlo Ancelotti Has 'Transformed' Brazil After 'Very Difficult Period'",
+        "summary": "Liverpool goalkeeper Alisson Becker has hailed the impact of Carlo Ancelotti, claiming the Italian manager has completely revitalised the Brazil national team.",
+        "url": "https://www.foxsports.com/stories/soccer/alisson-explains-how-carlo-ancelotti-has-transformed-brazil-national-team-after-very-difficult-period",
+        "published_at": "2026-06-12T14:14:10.478Z",
+        "fetched_at": "2026-06-12T14:14:10.478Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
       }
     ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-12T09:35:35.000Z",
-    "source_count_score": 78,
-    "recency_score": 97,
-    "cross_region_score": 35,
-    "source_priority_score": 58,
-    "match_relevance_score": 92,
+    "topic_phrases": [
+      "Scott McTominay",
+      "Alisson"
+    ],
+    "last_updated": "2026-06-12T14:14:10.478Z",
+    "source_count_score": 52,
+    "recency_score": 98,
+    "cross_region_score": 68,
+    "source_priority_score": 70,
+    "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题与摘要识别",
     "confidence": "中",
@@ -274,8 +638,8 @@
         "title": "Jude Bellingham: England got things wrong off the pitch at Euro 2024",
         "summary": "England kick off their 2026 World Cup campaign against Croatia at the AT&T Stadium on Wednesday night; Jude Bellingham and Morgan Rogers are battling for the No 10 role in Thomas Tuchels side; the Real Madrid playmaker has claimed things were not right off the pitch at Euro 2024",
         "url": "https://www.skysports.com/football/news/12016/13553275/jude-bellingham-england-got-things-wrong-off-the-pitch-at-euro-2024",
-        "published_at": "2026-06-12T10:50:25.876Z",
-        "fetched_at": "2026-06-12T10:50:25.876Z",
+        "published_at": "2026-06-12T14:12:30.752Z",
+        "fetched_at": "2026-06-12T14:12:30.752Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -291,8 +655,8 @@
         "title": "Jude Bellingham: England got things wrong off the pitch at Euro 2024",
         "summary": "England kick off their 2026 World Cup campaign against Croatia at the AT&T Stadium on Wednesday night; Jude Bellingham and Morgan Rogers are battling for the No 10 role in Thomas Tuchels side; the Real Madrid playmaker has claimed things were not right off the pitch at Euro 2024",
         "url": "https://www.skysports.com/football/news/12016/13553275/jude-bellingham-england-got-things-wrong-off-the-pitch-at-euro-2024",
-        "published_at": "2026-06-12T10:50:24.636Z",
-        "fetched_at": "2026-06-12T10:50:24.636Z",
+        "published_at": "2026-06-12T14:12:29.568Z",
+        "fetched_at": "2026-06-12T14:12:29.568Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -304,7 +668,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:25.876Z",
+    "last_updated": "2026-06-12T14:12:30.752Z",
     "source_count_score": 52,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -316,44 +680,45 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_raphinha_general_discussion_militao_gran_entrenador_tengo",
-    "topic_key": "raphinha::general_discussion::militao_gran_entrenador_tengo",
+    "topic_id": "topic_fallback_rodri_general_discussion_cristiano_ronaldo_fala_saída",
+    "topic_key": "rodri::general_discussion::cristiano_ronaldo_fala_saída",
     "issue_type": "general",
-    "topic_title": "Raphinha的赛前身体状况受到关注",
-    "lead_source_title": "Militao: \"Mou es un gran entrenador, tengo ganas de que empiece la temporada\"",
-    "lead_source_summary": "El central del Madrid y Brasil habla de su última lesión y sus expectativas de cara al futuro",
-    "topic_summary": "共有 2 个海外来源提到该话题。El central del Madrid y Brasil habla de su última lesión y sus expectativas de cara al futuro El central del Madrid y Brasil habla de su última lesión y sus expectativas de cara al futuro Eder Militao concedió una entrevista a SportyNet en la que habló de su última lesion, que le mantendrá varios meses de baja y que le ha hecho perderse el Mundial, y de sus expectativas de cara al futuro, tanto en lo relativo a Brasil como al Real Madrid.",
-    "summary_zh": "El central del Madrid y Brasil habla de su última lesión y sus expectativas de cara al futuro El central del Madrid y Brasil habla de su última lesión y sus expectativas de cara al futuro Eder Militao concedió una entrevista a SportyNet en la que habló de su última lesion, que le mantendrá varios meses de baja y que le ha hecho perderse el Mundial, y de sus expectativas de cara al futuro, tanto en lo relativo a Brasil como al Real Madrid.",
+    "topic_title": "Rodri热身赛表现引发赛前关注",
+    "lead_source_title": "Cristiano Ronaldo fala em saída de Portugal: \"Geração vai dar muita alegria\" | Ge",
+    "lead_source_summary": "Astro português falou com a imprensa antes do embarque de Portugal rumo aos Estados Unidos.",
+    "topic_summary": "共有 2 个海外来源提到该话题。Astro português falou com a imprensa antes do embarque de Portugal rumo aos Estados Unidos.",
+    "summary_zh": "Astro português falou com a imprensa antes do embarque de Portugal rumo aos Estados Unidos.",
     "heat_score": 65,
     "related_matches": [],
     "related_teams": [
-      "巴西"
+      "葡萄牙"
     ],
     "related_players": [
-      "Raphinha"
+      "Rodri",
+      "Cristiano Ronaldo"
     ],
     "regions": [
       "拉美"
     ],
     "languages": [
-      "es"
+      "pt"
     ],
     "source_count": 2,
     "evidence_count": 2,
     "source_names": [
-      "Marca Fútbol Noticias",
-      "Marca Fútbol"
+      "Globo Esporte Futebol Copa do Mundo",
+      "Globo Esporte Futebol"
     ],
     "sources": [
       {
-        "source_id": "media_marca_futbol_noticias",
-        "source_name": "Marca Fútbol Noticias",
-        "title": "Militao: \"Mou es un gran entrenador, tengo ganas de que empiece la temporada\"",
-        "summary": "El central del Madrid y Brasil habla de su última lesión y sus expectativas de cara al futuro",
-        "url": "https://www.marca.com/futbol/real-madrid/2026/06/11/militao-mou-gran-entrenador-ganas-empiece-temporada.html",
-        "published_at": "2026-06-12T10:50:33.402Z",
-        "fetched_at": "2026-06-12T10:50:33.402Z",
-        "language": "es",
+        "source_id": "media_globo_esporte_copadomundo",
+        "source_name": "Globo Esporte Futebol Copa do Mundo",
+        "title": "Cristiano Ronaldo fala em saída de Portugal: \"Geração vai dar muita alegria\" | Ge",
+        "summary": "Astro português falou com a imprensa antes do embarque de Portugal rumo aos Estados Unidos.",
+        "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/12/cristiano-ronaldo-fala-em-saida-de-portugal-geracao-vai-dar-muita-alegria.ghtml",
+        "published_at": "2026-06-12T14:13:01.615Z",
+        "fetched_at": "2026-06-12T14:13:01.615Z",
+        "language": "pt",
         "region": "拉美",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
@@ -363,14 +728,14 @@
         "item_type": "article"
       },
       {
-        "source_id": "media_marca_futbol",
-        "source_name": "Marca Fútbol",
-        "title": "Militao: \"Mou es un gran entrenador, tengo ganas de que empiece la temporada\"",
-        "summary": "El central del Madrid y Brasil habla de su última lesión y sus expectativas de cara al futuro",
-        "url": "https://www.marca.com/futbol/real-madrid/2026/06/11/militao-mou-gran-entrenador-ganas-empiece-temporada.html",
-        "published_at": "2026-06-12T10:50:31.598Z",
-        "fetched_at": "2026-06-12T10:50:31.598Z",
-        "language": "es",
+        "source_id": "media_globo_esporte_futebol",
+        "source_name": "Globo Esporte Futebol",
+        "title": "Cristiano Ronaldo fala em saída de Portugal: \"Geração vai dar muita alegria\" | Ge",
+        "summary": "Astro português falou com a imprensa antes do embarque de Portugal rumo aos Estados Unidos.",
+        "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/12/cristiano-ronaldo-fala-em-saida-de-portugal-geracao-vai-dar-muita-alegria.ghtml",
+        "published_at": "2026-06-12T14:12:53.201Z",
+        "fetched_at": "2026-06-12T14:12:53.201Z",
+        "language": "pt",
         "region": "拉美",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
@@ -380,10 +745,8 @@
         "item_type": "article"
       }
     ],
-    "topic_phrases": [
-      "Militao"
-    ],
-    "last_updated": "2026-06-12T10:50:33.402Z",
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T14:13:01.615Z",
     "source_count_score": 52,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -395,63 +758,43 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_son_heung-min_post_match_result_韩国逆转捷克的赛后结果_墨西哥_vs_南非",
-    "topic_key": "son_heung-min::post_match_result::韩国逆转捷克的赛后结果::墨西哥_vs_南非",
-    "issue_type": "opening_host_pressure",
-    "topic_title": "韩国队逆转捷克后以胜利开启世界杯征程",
-    "lead_source_title": "South Korea hero Oh reveals he played through illness in World Cup opener",
-    "lead_source_summary": "Besiktas striker Oh Hyeon-gyu scored South Korea's winner against Czechia at the World Cup, having overcome a pre-match bout of illness.",
-    "topic_summary": "共有 2 个海外来源提到该话题。该线索围绕韩国队对捷克一战中的逆转取胜、关键进球和赛后评价展开。",
-    "summary_zh": "该线索围绕韩国队对捷克一战中的逆转取胜、关键进球和赛后评价展开。",
-    "heat_score": 58,
-    "related_matches": [
-      "M001",
-      "M002",
-      "M025",
-      "M028",
-      "M053",
-      "M054"
-    ],
+    "topic_id": "topic_fallback_巴西_general_discussion_torcedores_bósnia_fazem_carreata",
+    "topic_key": "巴西::general_discussion::torcedores_bósnia_fazem_carreata",
+    "issue_type": "general",
+    "topic_title": "巴西的世界杯晋级前景受到讨论",
+    "lead_source_title": "Torcedores da Bósnia fazem carreata nas ruas de Toronto  | Ge",
+    "lead_source_summary": "Seleção bósnia fará seu primeiro jogo nesta sexta-feira (12), contra o Canadá, um dos países sede do torneio",
+    "topic_summary": "共有 2 个海外来源提到该话题。Seleção bósnia fará seu primeiro jogo nesta sexta-feira (12), contra o Canadá, um dos países sede do torneio Por Redação do ge — Rio de Janeiro 12/06/2026 10h58 Atualizado 12/06/2026 Quantos nomes de jogadores da Bósnia você consegue pronunciar corretamente?",
+    "summary_zh": "Seleção bósnia fará seu primeiro jogo nesta sexta-feira (12), contra o Canadá, um dos países sede do torneio Por Redação do ge — Rio de Janeiro 12/06/2026 10h58 Atualizado 12/06/2026 Quantos nomes de jogadores da Bósnia você consegue pronunciar corretamente?",
+    "heat_score": 65,
+    "related_matches": [],
     "related_teams": [
-      "墨西哥",
-      "南非",
-      "韩国",
-      "捷克",
       "巴西"
     ],
-    "related_players": [
-      "Son Heung-min",
-      "Hwang In-beom",
-      "Ladislav Krejci"
-    ],
+    "related_players": [],
     "regions": [
-      "欧洲",
-      "全球/英语圈",
-      "中东与北非"
+      "拉美"
     ],
     "languages": [
-      "en"
+      "pt"
     ],
-    "source_count": 5,
-    "evidence_count": 5,
+    "source_count": 2,
+    "evidence_count": 2,
     "source_names": [
-      "The Guardian Football Worldcup 2026 Page",
-      "The Guardian Football",
-      "Reddit r/soccer",
-      "beIN SPORTS Football",
-      "AP News Soccer"
+      "Globo Esporte Futebol Copa do Mundo",
+      "Globo Esporte Futebol"
     ],
     "sources": [
       {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "South Korea get off to winning start after rallying from goal down to beat Czechia",
-        "summary": "Ladislav Krejci’s opener for Czechia in Guadalajara was cancelled out by Hwang In-beom before Oh Hyeon-gyu gave South Korea a 2-1 win",
-        "url": "https://www.theguardian.com/football/2026/jun/12/south-korea-czechia-world-cup-2026-group-a-match-report",
-        "published_at": "2026-06-12T10:50:21.940Z",
-        "fetched_at": "2026-06-12T10:50:21.940Z",
-        "language": "en",
-        "region": "欧洲",
+        "source_id": "media_globo_esporte_copadomundo",
+        "source_name": "Globo Esporte Futebol Copa do Mundo",
+        "title": "Torcedores da Bósnia fazem carreata nas ruas de Toronto  | Ge",
+        "summary": "Seleção bósnia fará seu primeiro jogo nesta sexta-feira (12), contra o Canadá, um dos países sede do torneio",
+        "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/12/torcedores-da-bosnia-fazem-carreata-nas-ruas-de-toronto-antes-de-estreia-na-copa-video.ghtml",
+        "published_at": "2026-06-12T14:13:01.626Z",
+        "fetched_at": "2026-06-12T14:13:01.626Z",
+        "language": "pt",
+        "region": "拉美",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
         "crawl_mode": "html_list",
@@ -460,66 +803,15 @@
         "item_type": "article"
       },
       {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "South Korea get off to winning start after rallying from goal down to beat Czechia",
-        "summary": "South Korea rallied from a goal down to defeat Czechia 2-1 and make a winning start to their World Cup Group A campaign, much to the delight of their fans and the sizable local Mexican support they enjoyed in a festive Guadalajara. South Korea joined Mexico on three points at the top of the group after the co-hosts beat nine-man South Africa 2-0 in the tournament opener in Mexico City. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jun/12/south-korea-czechia-world-cup-2026-group-a-match-report",
-        "published_at": "2026-06-12T04:08:39.000Z",
-        "fetched_at": "2026-06-12T10:50:16.351Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      },
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "[Official] South Korea defeat Czechia 2-1",
-        "summary": "submitted by /u/IamBrazilian_AMA [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1u3kl24/official_south_korea_defeat_czechia_21/",
-        "published_at": "2026-06-12T03:58:05.000Z",
-        "fetched_at": "2026-06-12T10:50:17.089Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_bein_sports_football",
-        "source_name": "beIN SPORTS Football",
-        "title": "South Korea hero Oh reveals he played through illness in World Cup opener",
-        "summary": "Besiktas striker Oh Hyeon-gyu scored South Korea's winner against Czechia at the World Cup, having overcome a pre-match bout of illness.",
-        "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/south-korea-hero-oh-reveals-he-played-through-illness-in-world-cup-opener-2026-06-12",
-        "published_at": "2026-06-12T10:52:02.330Z",
-        "fetched_at": "2026-06-12T10:52:02.330Z",
-        "language": "en",
-        "region": "中东与北非",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "public_article_text",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_ap_news_soccer",
-        "source_name": "AP News Soccer",
-        "title": "Hwang In-beom sparks South Korea’s 2-1 comeback win over the Czech Republic at the World Cup",
-        "summary": "Hwang In-beom has led South Korea to a 2-1 comeback win over the Czech Republic in the World Cup. Hwang scored the Koreans' first goal and assisted on Oh Hyeon-gyu’s decisive strike in a game played in front of hundreds of empty seats at Mexico's Guadalajara Stadium.",
-        "url": "https://apnews.com/article/world-cup-south-korea-czech-republic-score-496e7772dde95ca0af90b5074fdb13d9",
-        "published_at": "2026-06-12T10:51:58.134Z",
-        "fetched_at": "2026-06-12T10:51:58.134Z",
-        "language": "en",
-        "region": "全球/英语圈",
+        "source_id": "media_globo_esporte_futebol",
+        "source_name": "Globo Esporte Futebol",
+        "title": "Torcedores da Bósnia fazem carreata nas ruas de Toronto  | Ge",
+        "summary": "Seleção bósnia fará seu primeiro jogo nesta sexta-feira (12), contra o Canadá, um dos países sede do torneio",
+        "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/12/torcedores-da-bosnia-fazem-carreata-nas-ruas-de-toronto-antes-de-estreia-na-copa-video.ghtml",
+        "published_at": "2026-06-12T14:12:53.201Z",
+        "fetched_at": "2026-06-12T14:12:53.201Z",
+        "language": "pt",
+        "region": "拉美",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
         "crawl_mode": "html_list",
@@ -528,243 +820,34 @@
         "item_type": "article"
       }
     ],
-    "topic_phrases": [
-      "韩国逆转捷克的赛后结果",
-      "Son Heung-min",
-      "Hwang In-beom"
-    ],
-    "last_updated": "2026-06-12T10:52:02.330Z",
-    "source_count_score": 26,
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T14:13:01.626Z",
+    "source_count_score": 52,
     "recency_score": 100,
     "cross_region_score": 35,
     "source_priority_score": 82,
-    "match_relevance_score": 92,
+    "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开正文片段识别",
-    "confidence": "低",
+    "confidence": "中",
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_scott_mctominay_kit_issue_球衣图案争议_海地_vs_苏格兰",
-    "topic_key": "scott_mctominay::kit_issue::球衣图案争议::海地_vs_苏格兰",
-    "issue_type": "injury_training",
-    "topic_title": "海地队因球衣图案涉政治含义被要求赛前紧急换装",
-    "lead_source_title": "Alisson: Carlo Ancelotti Has 'Transformed' Brazil After 'Very Difficult Period'",
-    "lead_source_summary": "Liverpool goalkeeper Alisson Becker has hailed the impact of Carlo Ancelotti, claiming the Italian manager has completely revitalised the Brazil national team.",
-    "topic_summary": "目前仅 1 个海外来源提到“海地队因球衣图案涉政治含义被要求赛前紧急换装”，暂作为话题线索展示。该线索围绕海地队世界杯球衣因被视为政治表达而被临时要求修改。",
-    "summary_zh": "该线索围绕海地队世界杯球衣因被视为政治表达而被临时要求修改。",
-    "heat_score": 58,
-    "related_matches": [
-      "M007",
-      "M006",
-      "M030",
-      "M031",
-      "M051",
-      "M052"
-    ],
-    "related_teams": [
-      "海地",
-      "苏格兰",
-      "巴西",
-      "摩洛哥"
-    ],
-    "related_players": [
-      "Scott McTominay",
-      "Alisson"
-    ],
-    "regions": [
-      "欧洲",
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 4,
-    "evidence_count": 4,
-    "source_names": [
-      "The Guardian Football Worldcup 2026 Page",
-      "Daily Mail World Cup Page",
-      "Sky Sports Football",
-      "Fox Sports World Cup News Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "McTominay should be fit for Scotland’s World Cup opener despite stomach bug",
-        "summary": "Scott McTominay has missed Scotland’s final training session as a precaution before their opening Group C game against Haiti",
-        "url": "https://www.theguardian.com/football/2026/jun/11/scott-mctominay-scotland-world-cup-opener-stomach-bug",
-        "published_at": "2026-06-12T10:50:21.941Z",
-        "fetched_at": "2026-06-12T10:50:21.941Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "public_article_text",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_daily_mail_worldcup",
-        "source_name": "Daily Mail World Cup Page",
-        "title": "American's shock as Scottish fans play the bagpipes at 6.30am",
-        "summary": "Members of the Tartan Army arrived at the property in Massachusetts 'in the dead of night' on Wednesday, bedecked it in Scotland flags and treated the neighbourhood to a musical performance.",
-        "url": "https://www.dailymail.com/news/article-15894397/Americans-shock-Scottish-World-Cup-fans-Airbnb-bagpipes.html",
-        "published_at": "2026-06-12T10:51:02.896Z",
-        "fetched_at": "2026-06-12T10:51:02.896Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "public_article_text",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_sky_sports_football",
-        "source_name": "Sky Sports Football",
-        "title": "World Cup news: Haiti forced to redesign kit before opener with Scotland",
-        "summary": "",
-        "url": "https://www.skysports.com/football/live-blog/12098/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-build-up-plus-latest-on-trump-tickets-and-fans",
-        "published_at": "2026-06-12T10:50:24.638Z",
-        "fetched_at": "2026-06-12T10:50:24.638Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "title_only",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_fox_sports_world_cup",
-        "source_name": "Fox Sports World Cup News Page",
-        "title": "Alisson: Carlo Ancelotti Has 'Transformed' Brazil After 'Very Difficult Period'",
-        "summary": "Liverpool goalkeeper Alisson Becker has hailed the impact of Carlo Ancelotti, claiming the Italian manager has completely revitalised the Brazil national team.",
-        "url": "https://www.foxsports.com/stories/soccer/alisson-explains-how-carlo-ancelotti-has-transformed-brazil-national-team-after-very-difficult-period",
-        "published_at": "2026-06-12T10:51:43.859Z",
-        "fetched_at": "2026-06-12T10:51:43.859Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "public_article_text",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Scott McTominay",
-      "Alisson"
-    ],
-    "last_updated": "2026-06-12T10:51:43.859Z",
-    "source_count_score": 26,
-    "recency_score": 100,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 92,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开正文片段识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_son_heung-min_injury_concern_墨西哥赛前安排_墨西哥_vs_南非",
-    "topic_key": "son_heung-min::injury_concern::墨西哥赛前安排::墨西哥_vs_南非",
-    "issue_type": "coach_tactics",
-    "topic_title": "Son Heung-min的身体状况影响墨西哥赛前安排",
-    "lead_source_title": "World Cup 2026: Highlights & reaction, tactics talk",
-    "lead_source_summary": "All the latest reaction, highlights and talking points as the 2026 Fifa World Cup gets under way.",
-    "topic_summary": "目前仅 1 个海外来源提到“Son Heung-min的身体状况影响墨西哥赛前安排”，暂作为话题线索展示。该线索主要围绕Son Heung-min的训练或身体情况对墨西哥排兵布阵的影响。",
-    "summary_zh": "该线索主要围绕Son Heung-min的训练或身体情况对墨西哥排兵布阵的影响。",
-    "heat_score": 58,
-    "related_matches": [
-      "M001",
-      "M002",
-      "M025",
-      "M028",
-      "M053",
-      "M054"
-    ],
-    "related_teams": [
-      "墨西哥",
-      "南非",
-      "韩国",
-      "捷克",
-      "加拿大",
-      "苏格兰",
-      "美国",
-      "英格兰"
-    ],
-    "related_players": [
-      "Son Heung-min",
-      "Scott McTominay"
-    ],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football Worldcup Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football_worldcup",
-        "source_name": "BBC Sport Football Worldcup Page",
-        "title": "World Cup 2026: Highlights & reaction, tactics talk",
-        "summary": "All the latest reaction, highlights and talking points as the 2026 Fifa World Cup gets under way.",
-        "url": "https://www.bbc.co.uk/sport/football/live/c7vy32qj1zdt",
-        "published_at": "2026-06-12T10:50:16.934Z",
-        "fetched_at": "2026-06-12T10:50:16.934Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "public_article_text",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "墨西哥赛前安排",
-      "Son Heung-min"
-    ],
-    "last_updated": "2026-06-12T10:50:16.934Z",
-    "source_count_score": 26,
-    "recency_score": 100,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 92,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开正文片段识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_墨西哥_post_match_result_墨西哥赛后结果_墨西哥_vs_南非",
-    "topic_key": "墨西哥::post_match_result::墨西哥赛后结果::墨西哥_vs_南非",
+    "topic_id": "topic_卡塔尔_post_match_result_卡塔尔赛后结果_卡塔尔_vs_瑞士",
+    "topic_key": "卡塔尔::post_match_result::卡塔尔赛后结果::卡塔尔_vs_瑞士",
     "issue_type": "pre_match_storylines",
-    "topic_title": "墨西哥的赛后表现与比赛结果成为海外讨论焦点",
-    "lead_source_title": "Live Commentary - Mexico vs S. Africa | 11.06.2026",
-    "lead_source_summary": "FIFA World Cup match Mexico vs S. Africa 11.06.2026. Preview and stats followed by live commentary, video highlights and match report.",
-    "topic_summary": "目前仅 1 个海外来源提到“墨西哥的赛后表现与比赛结果成为海外讨论焦点”，暂作为话题线索展示。FIFA World Cup match Mexico vs S.",
-    "summary_zh": "FIFA World Cup match Mexico vs S.",
+    "topic_title": "卡塔尔的赛后表现与比赛结果成为海外讨论焦点",
+    "lead_source_title": "Live Commentary - Qatar vs Switzerland | 13.06.2026",
+    "lead_source_summary": "FIFA World Cup match Qatar vs Switzerland 13.06.2026. Preview and stats followed by live commentary, video highlights and match report.",
+    "topic_summary": "目前仅 1 个海外来源提到“卡塔尔的赛后表现与比赛结果成为海外讨论焦点”，暂作为话题线索展示。FIFA World Cup match Qatar vs Switzerland 13.06.2026.",
+    "summary_zh": "FIFA World Cup match Qatar vs Switzerland 13.06.2026.",
     "heat_score": 58,
     "related_matches": [
-      "M001"
+      "M005"
     ],
     "related_teams": [
-      "墨西哥",
-      "南非"
+      "卡塔尔",
+      "瑞士"
     ],
     "related_players": [],
     "regions": [
@@ -776,17 +859,17 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "Sky Sports Football"
+      "Sky Sports Football News Page"
     ],
     "sources": [
       {
-        "source_id": "media_sky_sports_football",
-        "source_name": "Sky Sports Football",
-        "title": "Live Commentary - Mexico vs S. Africa | 11.06.2026",
-        "summary": "FIFA World Cup match Mexico vs S. Africa 11.06.2026. Preview and stats followed by live commentary, video highlights and match report.",
-        "url": "https://www.skysports.com/football/mexico-vs-south-africa/live/549767",
-        "published_at": "2026-06-12T10:50:24.637Z",
-        "fetched_at": "2026-06-12T10:50:24.637Z",
+        "source_id": "media_sky_sports_football_news",
+        "source_name": "Sky Sports Football News Page",
+        "title": "Live Commentary - Qatar vs Switzerland | 13.06.2026",
+        "summary": "FIFA World Cup match Qatar vs Switzerland 13.06.2026. Preview and stats followed by live commentary, video highlights and match report.",
+        "url": "https://www.skysports.com/football/qatar-vs-switzerland/live/549770",
+        "published_at": "2026-06-12T14:12:30.752Z",
+        "fetched_at": "2026-06-12T14:12:30.752Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -798,9 +881,9 @@
       }
     ],
     "topic_phrases": [
-      "墨西哥赛后结果"
+      "卡塔尔赛后结果"
     ],
-    "last_updated": "2026-06-12T10:50:24.637Z",
+    "last_updated": "2026-06-12T14:12:30.752Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -812,25 +895,19 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_墨西哥_schedule_guide_波黑队赛程与观赛信息_墨西哥_vs_南非",
-    "topic_key": "墨西哥::schedule_guide::波黑队赛程与观赛信息::墨西哥_vs_南非",
-    "issue_type": "opening_host_pressure",
-    "topic_title": "波黑队世界杯赛程与观赛信息汇总",
-    "lead_source_title": "World Cup hosts enhanced to 3/1 to win as Canada & USA open campaigns",
-    "lead_source_summary": "One of the three host nations at the 2026 World Cup got their campaign off to the perfect start on Thursday. Now, attention turns to the tournament's other two hosts, Canada and the USA.",
-    "topic_summary": "目前仅 1 个海外来源提到“波黑队世界杯赛程与观赛信息汇总”，暂作为话题线索展示。该线索整理波黑队在本届世界杯的赛程、对手与观赛信息。",
-    "summary_zh": "该线索整理波黑队在本届世界杯的赛程、对手与观赛信息。",
+    "topic_id": "topic_sofi_球场_post_match_result_美国赛后结果_美国_vs_巴拉圭",
+    "topic_key": "sofi_球场::post_match_result::美国赛后结果::美国_vs_巴拉圭",
+    "issue_type": "pre_match_storylines",
+    "topic_title": "美国的赛后表现与比赛结果成为海外讨论焦点",
+    "lead_source_title": "Live Commentary - USA vs Paraguay | 13.06.2026",
+    "lead_source_summary": "FIFA World Cup match USA vs Paraguay 13.06.2026. Preview and stats followed by live commentary, video highlights and match report.",
+    "topic_summary": "目前仅 1 个海外来源提到“美国的赛后表现与比赛结果成为海外讨论焦点”，暂作为话题线索展示。FIFA World Cup match USA vs Paraguay 13.06.2026.",
+    "summary_zh": "FIFA World Cup match USA vs Paraguay 13.06.2026.",
     "heat_score": 58,
     "related_matches": [
-      "M001",
-      "M003",
       "M004"
     ],
     "related_teams": [
-      "墨西哥",
-      "南非",
-      "加拿大",
-      "波黑",
       "美国",
       "巴拉圭"
     ],
@@ -844,17 +921,17 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "Daily Mail World Cup Page"
+      "Sky Sports Football News Page"
     ],
     "sources": [
       {
-        "source_id": "media_daily_mail_worldcup",
-        "source_name": "Daily Mail World Cup Page",
-        "title": "World Cup hosts enhanced to 3/1 to win as Canada & USA open campaigns",
-        "summary": "One of the three host nations at the 2026 World Cup got their campaign off to the perfect start on Thursday. Now, attention turns to the tournament's other two hosts, Canada and the USA.",
-        "url": "https://www.dailymail.com/sport/skybet/article-15894493/World-Cup-Canada-USA-Sky-Bet.html",
-        "published_at": "2026-06-12T10:51:02.896Z",
-        "fetched_at": "2026-06-12T10:51:02.896Z",
+        "source_id": "media_sky_sports_football_news",
+        "source_name": "Sky Sports Football News Page",
+        "title": "Live Commentary - USA vs Paraguay | 13.06.2026",
+        "summary": "FIFA World Cup match USA vs Paraguay 13.06.2026. Preview and stats followed by live commentary, video highlights and match report.",
+        "url": "https://www.skysports.com/football/usa-vs-paraguay/live/549769",
+        "published_at": "2026-06-12T14:12:30.752Z",
+        "fetched_at": "2026-06-12T14:12:30.752Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -866,9 +943,9 @@
       }
     ],
     "topic_phrases": [
-      "波黑队赛程与观赛信息"
+      "SoFi 球场"
     ],
-    "last_updated": "2026-06-12T10:51:02.896Z",
+    "last_updated": "2026-06-12T14:12:30.752Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -877,68 +954,6 @@
     "is_example_heat": false,
     "interpretation_basis": "根据公开正文片段识别",
     "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_南非_match_preview_韩国与捷克赛前对位_捷克_vs_南非",
-    "topic_key": "南非::match_preview::韩国与捷克赛前对位::捷克_vs_南非",
-    "issue_type": "pre_match_storylines",
-    "topic_title": "韩国队与捷克队赛前对位和比赛看点受到关注",
-    "lead_source_title": "Czech Republic vs South Africa FIFA World Cup 2026 preview",
-    "lead_source_summary": "Comprehensive match preview of Czech Republic vs South Africa at World Cup 2026. We talk tactics, team news and more.",
-    "topic_summary": "目前仅 1 个海外来源提到“韩国队与捷克队赛前对位和比赛看点受到关注”，暂作为话题线索展示。该线索围绕韩国与捷克交锋前的人员对位、战术特点和小组赛首战前景展开。",
-    "summary_zh": "该线索围绕韩国与捷克交锋前的人员对位、战术特点和小组赛首战前景展开。",
-    "heat_score": 58,
-    "related_matches": [
-      "M025"
-    ],
-    "related_teams": [
-      "南非",
-      "捷克"
-    ],
-    "related_players": [],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Goal World Cup News Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_goal_world_cup",
-        "source_name": "Goal World Cup News Page",
-        "title": "Czech Republic vs South Africa FIFA World Cup 2026 preview",
-        "summary": "Comprehensive match preview of Czech Republic vs South Africa at World Cup 2026. We talk tactics, team news and more.",
-        "url": "https://www.goal.com/en-us/news/czech-republic-south-africa-world-cup-preview/blt2698eb3974683720",
-        "published_at": "2026-06-12T10:51:40.333Z",
-        "fetched_at": "2026-06-12T10:51:40.333Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "韩国与捷克赛前对位"
-    ],
-    "last_updated": "2026-06-12T10:51:40.333Z",
-    "source_count_score": 26,
-    "recency_score": 100,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 92,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
     "included_in_frontend": true
   },
   {
@@ -978,8 +993,8 @@
         "title": "Marsch says wanted 'responsibility' of leading Canada in home World Cup",
         "summary": "Canada coach Jesse Marsch said on Thursday the chance to lead the team in a World Cup on home soil was the reason he took the job, hours before the co-hosts' opening match against Bosnia-Herzegovina.",
         "url": "https://supersport.com/football/news/b38fe694-030d-4fc3-9018-00c71a77334e/marsch-says-wanted-responsibility-of-leading-canada-in-home-world-cup",
-        "published_at": "2026-06-12T10:52:10.035Z",
-        "fetched_at": "2026-06-12T10:52:10.035Z",
+        "published_at": "2026-06-12T14:14:38.258Z",
+        "fetched_at": "2026-06-12T14:14:38.258Z",
         "language": "en",
         "region": "非洲",
         "source_type": "media",
@@ -991,7 +1006,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:52:10.035Z",
+    "last_updated": "2026-06-12T14:14:38.258Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1038,8 +1053,8 @@
         "title": "FIFA World Cup CanadaCanadaplays BosniaBosnia-Herzegovinaat20:0020:00 onFrithe12 ofJun",
         "summary": "",
         "url": "https://www.bbc.co.uk/sport/football/live/c1dy55edn2yt",
-        "published_at": "2026-06-12T10:50:16.937Z",
-        "fetched_at": "2026-06-12T10:50:16.937Z",
+        "published_at": "2026-06-12T14:12:20.762Z",
+        "fetched_at": "2026-06-12T14:12:20.762Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -1051,7 +1066,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:16.937Z",
+    "last_updated": "2026-06-12T14:12:20.762Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1063,25 +1078,83 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_波黑_general_discussion_qatar_suiza_mundial_horario",
-    "topic_key": "波黑::general_discussion::qatar_suiza_mundial_horario",
-    "issue_type": "event_operations",
-    "topic_title": "波黑热身赛表现引发赛前关注",
-    "lead_source_title": "Qatar vs. Suiza, por el Mundial 2026: día, horario y cómo verlo por TV",
-    "lead_source_summary": "Por el segundo encuentro del Grupo B, asiáticos y europeos se ven las caras en el San Francisco Bay Area Stadium de Santa Clara. Acá los detalles.",
-    "topic_summary": "目前仅 1 个海外来源提到“波黑热身赛表现引发赛前关注”，暂作为话题线索展示。Por el segundo encuentro del Grupo B, asiáticos y europeos se ven las caras en el San Francisco Bay Area Stadium de Santa Clara.",
-    "summary_zh": "Por el segundo encuentro del Grupo B, asiáticos y europeos se ven las caras en el San Francisco Bay Area Stadium de Santa Clara.",
+    "topic_id": "topic_fallback_墨西哥_general_discussion_full-screen_during_hydration_breaks",
+    "topic_key": "墨西哥::general_discussion::full-screen_during_hydration_breaks",
+    "issue_type": "fans_atmosphere",
+    "topic_title": "墨西哥在世界杯前接受采访谈备战",
+    "lead_source_title": "Fox’s full-screen ads during World Cup hydration breaks cause dismay in US: ‘Absolute nonsense’",
+    "lead_source_summary": "Fox is facing criticism from fans in the US after introducing full-screen adverts while players take hydration breaks during its World Cup broadcasts",
+    "topic_summary": "目前仅 1 个海外来源提到“墨西哥在世界杯前接受采访谈备战”，暂作为话题线索展示。Fox is facing criticism from fans in the US after introducing full-screen adverts while players take hydration breaks during its World Cup broadcasts Breaks have been added at World Cup for player safety Fox missed small amount of action during break Fox is facing criticism from fans in the US after introducing full-screen adverts while players take hydration breaks during its World Cup broadcasts.",
+    "summary_zh": "Fox is facing criticism from fans in the US after introducing full-screen adverts while players take hydration breaks during its World Cup broadcasts Breaks have been added at World Cup for player safety Fox missed small amount of action during break Fox is facing criticism from fans in the US after introducing full-screen adverts while players take hydration breaks during its World Cup broadcasts.",
     "heat_score": 58,
     "related_matches": [
-      "M050",
-      "M072"
+      "M001"
     ],
     "related_teams": [
-      "波黑",
-      "卡塔尔",
-      "澳大利亚",
-      "阿根廷",
-      "约旦"
+      "墨西哥",
+      "南非",
+      "美国"
+    ],
+    "related_players": [],
+    "regions": [
+      "欧洲"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "The Guardian Football Worldcup 2026 Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_guardian_football_worldcup2026",
+        "source_name": "The Guardian Football Worldcup 2026 Page",
+        "title": "Fox’s full-screen ads during World Cup hydration breaks cause dismay in US: ‘Absolute nonsense’",
+        "summary": "Fox is facing criticism from fans in the US after introducing full-screen adverts while players take hydration breaks during its World Cup broadcasts",
+        "url": "https://www.theguardian.com/football/2026/jun/12/hydration-breaks-adverts-fox-world-cup",
+        "published_at": "2026-06-12T14:12:26.520Z",
+        "fetched_at": "2026-06-12T14:12:26.520Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T14:12:26.520Z",
+    "source_count_score": 26,
+    "recency_score": 100,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 92,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开正文片段识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_墨西哥_history_generic_sugerente_comparación_hizo_river",
+    "topic_key": "墨西哥::history_generic::sugerente_comparación_hizo_river",
+    "issue_type": "general",
+    "topic_title": "英媒回顾马拉多纳与1986墨西哥世界杯的传奇往事",
+    "lead_source_title": "La sugerente comparación que hizo River tras el partido inaugural del Mundial 2026",
+    "lead_source_summary": "A través de su cuenta internacional, el Millonario trazó un paralelismo entre el estadio Azteca y el Monumental para sacar chapa con sus instalaciones. Mirá...",
+    "topic_summary": "目前仅 1 个海外来源提到“英媒回顾马拉多纳与1986墨西哥世界杯的传奇往事”，暂作为话题线索展示。该线索以历史回顾方式重访 1986 年墨西哥世界杯的经典记忆。",
+    "summary_zh": "该线索以历史回顾方式重访 1986 年墨西哥世界杯的经典记忆。",
+    "heat_score": 58,
+    "related_matches": [
+      "M001"
+    ],
+    "related_teams": [
+      "墨西哥",
+      "南非",
+      "阿根廷"
     ],
     "related_players": [],
     "regions": [
@@ -1099,11 +1172,11 @@
       {
         "source_id": "media_ole_argentina_mundial 2026",
         "source_name": "Olé Argentina Mundial 2026 Page",
-        "title": "Qatar vs. Suiza, por el Mundial 2026: día, horario y cómo verlo por TV",
-        "summary": "Por el segundo encuentro del Grupo B, asiáticos y europeos se ven las caras en el San Francisco Bay Area Stadium de Santa Clara. Acá los detalles.",
-        "url": "https://www.ole.com.ar/mundial/mundial-2026-copa-mundo-suiza-qatar-ver-tv-dia-hora-fechacanal-estadio_0_OKINJQfY1U.html",
-        "published_at": "2026-06-12T10:50:53.786Z",
-        "fetched_at": "2026-06-12T10:50:53.786Z",
+        "title": "La sugerente comparación que hizo River tras el partido inaugural del Mundial 2026",
+        "summary": "A través de su cuenta internacional, el Millonario trazó un paralelismo entre el estadio Azteca y el Monumental para sacar chapa con sus instalaciones. Mirá...",
+        "url": "https://www.ole.com.ar/river-plate/river-mundial-2026-azteca-monumental_0_aDf8KWU8N7.html",
+        "published_at": "2026-06-12T14:13:09.692Z",
+        "fetched_at": "2026-06-12T14:13:09.692Z",
         "language": "es",
         "region": "拉美",
         "source_type": "media",
@@ -1114,8 +1187,10 @@
         "item_type": "article"
       }
     ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:53.786Z",
+    "topic_phrases": [
+      "1986 世界杯回顾"
+    ],
+    "last_updated": "2026-06-12T14:13:09.692Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1127,30 +1202,92 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_墨西哥_odds_prediction_usmnt_paraguay_predictions_lineups",
-    "topic_key": "墨西哥::odds_prediction::usmnt_paraguay_predictions_lineups",
-    "issue_type": "pre_match_storylines",
-    "topic_title": "海外媒体正在重新评估墨西哥的世界杯前景",
-    "lead_source_title": "USMNT vs. Paraguay—World Cup: Preview, Predictions and Lineups",
-    "lead_source_summary": "The USMNT enters Friday’s World Cup opener having lost three of its last four matches.",
-    "topic_summary": "目前仅 1 个海外来源提到“海外媒体正在重新评估墨西哥的世界杯前景”，暂作为话题线索展示。该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
+    "topic_id": "topic_fallback_西班牙_odds_prediction_spain_cape_verde_referee",
+    "topic_key": "西班牙::odds_prediction::spain_cape_verde_referee",
+    "issue_type": "referee_assignment",
+    "topic_title": "海外媒体正在重新评估西班牙的世界杯前景",
+    "lead_source_title": "Spain v Cape Verde now has a referee: Adham Makhadmeh",
+    "lead_source_summary": "Read this news on OneFootball.",
+    "topic_summary": "目前仅 1 个海外来源提到“海外媒体正在重新评估西班牙的世界杯前景”，暂作为话题线索展示。该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
+    "summary_zh": "该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
+    "heat_score": 58,
+    "related_matches": [
+      "M013"
+    ],
+    "related_teams": [
+      "西班牙",
+      "佛得角"
+    ],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "One Football World Cup Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_one_football_world_cup",
+        "source_name": "One Football World Cup Page",
+        "title": "Spain v Cape Verde now has a referee: Adham Makhadmeh",
+        "summary": "Read this news on OneFootball.",
+        "url": "https://onefootball.com/en/news/spain-v-cape-verde-now-has-a-referee-adham-makhadmeh-42999985",
+        "published_at": "2026-06-12T14:13:51.092Z",
+        "fetched_at": "2026-06-12T14:13:51.092Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T14:13:51.092Z",
+    "source_count_score": 26,
+    "recency_score": 100,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 92,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开正文片段识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_lionel_messi_odds_prediction_supercomputer_predicts_usmnt_route",
+    "topic_key": "lionel messi::odds_prediction::supercomputer_predicts_usmnt_route",
+    "issue_type": "general",
+    "topic_title": "海外媒体正在重新评估美国的世界杯前景",
+    "lead_source_title": "Supercomputer Predicts USMNT’s Route to 2026 World Cup Final: Messi, Ronaldo Await",
+    "lead_source_summary": "A daunting series of global giants stand between the USMNT and the World Cup final.",
+    "topic_summary": "目前仅 1 个海外来源提到“海外媒体正在重新评估美国的世界杯前景”，暂作为话题线索展示。该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
     "summary_zh": "该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
     "heat_score": 58,
     "related_matches": [
       "M004",
       "M029",
+      "M038",
       "M060"
     ],
     "related_teams": [
-      "墨西哥",
       "美国",
       "巴拉圭",
       "澳大利亚",
-      "德国",
-      "日本",
-      "塞内加尔"
+      "比利时",
+      "伊朗"
     ],
-    "related_players": [],
+    "related_players": [
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
     "regions": [
       "全球/英语圈"
     ],
@@ -1166,11 +1303,11 @@
       {
         "source_id": "media_si_world_cup",
         "source_name": "Sports Illustrated World Cup Page",
-        "title": "USMNT vs. Paraguay—World Cup: Preview, Predictions and Lineups",
-        "summary": "The USMNT enters Friday’s World Cup opener having lost three of its last four matches.",
-        "url": "https://www.si.com/soccer/usmnt-vs-paraguay-world-cup-preview-predictions-lineups-6-12-26",
-        "published_at": "2026-06-12T10:51:35.678Z",
-        "fetched_at": "2026-06-12T10:51:35.678Z",
+        "title": "Supercomputer Predicts USMNT’s Route to 2026 World Cup Final: Messi, Ronaldo Await",
+        "summary": "A daunting series of global giants stand between the USMNT and the World Cup final.",
+        "url": "https://www.si.com/soccer/supercomputer-usmnt-route-2026-world-cup-final-messi-ronaldo-await",
+        "published_at": "2026-06-12T14:13:57.877Z",
+        "fetched_at": "2026-06-12T14:13:57.877Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -1182,9 +1319,9 @@
       }
     ],
     "topic_phrases": [
-      "SoFi 球场"
+      "Lionel Messi"
     ],
-    "last_updated": "2026-06-12T10:51:35.678Z",
+    "last_updated": "2026-06-12T14:13:57.877Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1196,21 +1333,21 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_韩国_general_discussion_south_korea_czechia_live",
-    "topic_key": "韩国::general_discussion::south_korea_czechia_live",
-    "issue_type": "general",
-    "topic_title": "韩国热身赛表现引发赛前关注",
-    "lead_source_title": "South Korea vs. Czechia—World Cup: Live Score and Match Stats",
-    "lead_source_summary": "The second game of the 2026 World Cup takes place at the Estadio Akron.",
-    "topic_summary": "目前仅 1 个海外来源提到“韩国热身赛表现引发赛前关注”，暂作为话题线索展示。The second game of the 2026 World Cup takes place at the Estadio Akron.",
-    "summary_zh": "The second game of the 2026 World Cup takes place at the Estadio Akron.",
+    "topic_id": "topic_fallback_加拿大_odds_prediction_canada_bosnia_herzegovina_predictions",
+    "topic_key": "加拿大::odds_prediction::canada_bosnia_herzegovina_predictions",
+    "issue_type": "pre_match_storylines",
+    "topic_title": "海外媒体正在重新评估加拿大的世界杯前景",
+    "lead_source_title": "Canada vs. Bosnia & Herzegovina—World Cup: Preview, Predictions and Lineups",
+    "lead_source_summary": "",
+    "topic_summary": "目前仅 1 个海外来源提到“海外媒体正在重新评估加拿大的世界杯前景”，暂作为话题线索展示。该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
+    "summary_zh": "该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
     "heat_score": 58,
     "related_matches": [
-      "M002"
+      "M003"
     ],
     "related_teams": [
-      "韩国",
-      "捷克"
+      "加拿大",
+      "波黑"
     ],
     "related_players": [],
     "regions": [
@@ -1228,30 +1365,30 @@
       {
         "source_id": "media_si_world_cup",
         "source_name": "Sports Illustrated World Cup Page",
-        "title": "South Korea vs. Czechia—World Cup: Live Score and Match Stats",
-        "summary": "The second game of the 2026 World Cup takes place at the Estadio Akron.",
-        "url": "https://www.si.com/soccer/south-korea-vs-czechia-world-cup-live-score-match-stats",
-        "published_at": "2026-06-12T10:51:35.678Z",
-        "fetched_at": "2026-06-12T10:51:35.678Z",
+        "title": "Canada vs. Bosnia & Herzegovina—World Cup: Preview, Predictions and Lineups",
+        "summary": "",
+        "url": "https://www.si.com/soccer/canada-vs-bosnia-herzegovina-world-cup-preview-predictions-lineups-6-12-26",
+        "published_at": "2026-06-12T14:13:57.877Z",
+        "fetched_at": "2026-06-12T14:13:57.877Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
         "crawl_mode": "html_list",
         "data_origin": "live",
-        "extraction_level": "public_article_text",
+        "extraction_level": "title_only",
         "item_type": "article"
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:51:35.678Z",
+    "last_updated": "2026-06-12T14:13:57.877Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 92,
     "is_example_heat": false,
-    "interpretation_basis": "根据公开正文片段识别",
+    "interpretation_basis": "根据公开标题识别",
     "confidence": "低",
     "included_in_frontend": true
   },
@@ -1291,8 +1428,8 @@
         "title": "USMNT coach Mauricio Pochettino aims high, hours away from World Cup debut: 'For me, success is winning'",
         "summary": "Pochettino was hired in September 2024 in the hopes of leading the USMNT to a statement-making performance at a World cup on home soil",
         "url": "https://www.cbssports.com/soccer/news/usmnt-coach-mauricio-pochettino-aims-high-on-eve-of-world-cup-debut/",
-        "published_at": "2026-06-12T10:51:48.594Z",
-        "fetched_at": "2026-06-12T10:51:48.594Z",
+        "published_at": "2026-06-12T14:14:17.972Z",
+        "fetched_at": "2026-06-12T14:14:17.972Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -1306,7 +1443,7 @@
     "topic_phrases": [
       "SoFi 球场"
     ],
-    "last_updated": "2026-06-12T10:51:48.594Z",
+    "last_updated": "2026-06-12T14:14:17.972Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1354,8 +1491,8 @@
         "title": "Australia coach Popovic signs contract extension ahead of Socceroos' opener at World Cup",
         "summary": "Australia coach Tony Popovic has signed a contract extension through early 2027 on the eve of his team’s World Cup opening match against Turkey on Saturday.",
         "url": "https://apnews.com/article/australia-popovic-contract-world-cup-coach-7f9fcd01981f6ea68038698e9671fa86",
-        "published_at": "2026-06-12T10:51:58.134Z",
-        "fetched_at": "2026-06-12T10:51:58.134Z",
+        "published_at": "2026-06-12T14:14:31.606Z",
+        "fetched_at": "2026-06-12T14:14:31.606Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -1367,7 +1504,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:51:58.134Z",
+    "last_updated": "2026-06-12T14:14:31.606Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1416,8 +1553,8 @@
         "title": "Australia coach Popovic extends contract ahead of World Cup opener",
         "summary": "Australia coach Tony Popovic signed a contract extension Thursday ahead of their World Cup opener against Turkey that will take him through to the Asian Cup early next year.",
         "url": "https://supersport.com/football/news/aab1857e-803a-4306-8510-7b30768f5827/australia-coach-popovic-extends-contract-ahead-of-world-cup-opener",
-        "published_at": "2026-06-12T10:52:10.035Z",
-        "fetched_at": "2026-06-12T10:52:10.035Z",
+        "published_at": "2026-06-12T14:14:38.258Z",
+        "fetched_at": "2026-06-12T14:14:38.258Z",
         "language": "en",
         "region": "非洲",
         "source_type": "media",
@@ -1429,7 +1566,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:52:10.035Z",
+    "last_updated": "2026-06-12T14:14:38.258Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1473,8 +1610,8 @@
         "title": "Predicting the USMNT's World Cup six months out",
         "summary": "",
         "url": "https://www.cbssports.com/soccer/news/usmnt-2026-world-cup-roster-projection-predicting-squads-26-mauricio-pochettino/",
-        "published_at": "2026-06-12T10:51:48.595Z",
-        "fetched_at": "2026-06-12T10:51:48.595Z",
+        "published_at": "2026-06-12T14:14:17.973Z",
+        "fetched_at": "2026-06-12T14:14:17.973Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -1490,8 +1627,8 @@
         "title": "Predicting the USMNT's World Cup six months out",
         "summary": "",
         "url": "https://www.cbssports.com/soccer/news/usmnt-2026-world-cup-roster-projection-christian-pulisic-weston-mckennie-mauricio-pochettino/",
-        "published_at": "2026-06-12T10:51:48.595Z",
-        "fetched_at": "2026-06-12T10:51:48.595Z",
+        "published_at": "2026-06-12T14:14:17.973Z",
+        "fetched_at": "2026-06-12T14:14:17.973Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -1503,7 +1640,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:51:48.595Z",
+    "last_updated": "2026-06-12T14:14:17.973Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1517,10 +1654,10 @@
   {
     "topic_id": "topic_图赫尔_news_hub_备战动态汇总_世界杯",
     "topic_key": "图赫尔::news_hub::备战动态汇总::世界杯",
-    "issue_type": "coach_tactics",
+    "issue_type": "star_form",
     "topic_title": "英格兰队世界杯备战动态持续更新",
-    "lead_source_title": "It's coming home! Why England WILL win the World Cup",
-    "lead_source_summary": "For England, the time for talk is almost over. Soon, all that will matter is the task at hand: Winning the 2026 World Cup. The Football Association (FA) and manager Thomas Tuchel have spoken forthrightly about that being their only objective in North America, and as the days tick down to the Three Lions getting their campaign underway, there is no reason to ",
+    "lead_source_title": "Three Lions stars ditch suits for traditional World Cup team photo",
+    "lead_source_summary": "England have released their pre-World Cup squad photo as they aim to end 60 years of hurt in North America - and it could hold a big suggestion of who Thomas Tuchel considers his Three Lions leaders.",
     "topic_summary": "目前仅 1 个海外来源提到“英格兰队世界杯备战动态持续更新”，暂作为话题线索展示。该线索汇总英格兰队赛前的赛程、训练与阵容动态。",
     "summary_zh": "该线索汇总英格兰队赛前的赛程、训练与阵容动态。",
     "heat_score": 56,
@@ -1530,7 +1667,7 @@
     ],
     "related_players": [],
     "regions": [
-      "全球/英语圈"
+      "欧洲"
     ],
     "languages": [
       "en"
@@ -1538,37 +1675,99 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "Goal World Cup News Page"
+      "Daily Mail Football Page"
     ],
     "sources": [
       {
-        "source_id": "media_goal_world_cup",
-        "source_name": "Goal World Cup News Page",
-        "title": "It's coming home! Why England WILL win the World Cup",
-        "summary": "For England, the time for talk is almost over. Soon, all that will matter is the task at hand: Winning the 2026 World Cup. The Football Association (FA) and manager Thomas Tuchel have spoken forthrightly about that being their only objective in North America, and as the days tick down to the Three Lions getting their campaign underway, there is no reason to ",
-        "url": "https://www.goal.com/en-us/lists/why-england-will-win-2026-world-cup/blt55797693e6d5c85c",
-        "published_at": "2026-06-12T10:51:40.333Z",
-        "fetched_at": "2026-06-12T10:51:40.333Z",
+        "source_id": "media_daily_mail_football",
+        "source_name": "Daily Mail Football Page",
+        "title": "Three Lions stars ditch suits for traditional World Cup team photo",
+        "summary": "England have released their pre-World Cup squad photo as they aim to end 60 years of hurt in North America - and it could hold a big suggestion of who Thomas Tuchel considers his Three Lions leaders.",
+        "url": "https://www.dailymail.com/sport/football/article-15894991/England-World-Cup-team-photo.html",
+        "published_at": "2026-06-12T14:13:11.461Z",
+        "fetched_at": "2026-06-12T14:13:11.461Z",
         "language": "en",
-        "region": "全球/英语圈",
+        "region": "欧洲",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
         "crawl_mode": "html_list",
         "data_origin": "live",
-        "extraction_level": "title_and_summary",
+        "extraction_level": "public_article_text",
         "item_type": "article"
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:51:40.333Z",
+    "last_updated": "2026-06-12T14:13:11.461Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 70,
     "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
+    "interpretation_basis": "根据公开正文片段识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_墨西哥_post_match_result_liveworld_mexico_winning_start",
+    "topic_key": "墨西哥::post_match_result::liveworld_mexico_winning_start",
+    "issue_type": "general",
+    "topic_title": "墨西哥的赛后表现与比赛结果成为海外讨论焦点",
+    "lead_source_title": "LiveWorld Cup 2026: Mexico’s winning start; empty seats; USA and Canada enter fray; Endo’s Japan retirement – live",
+    "lead_source_summary": "",
+    "topic_summary": "目前仅 1 个海外来源提到“墨西哥的赛后表现与比赛结果成为海外讨论焦点”，暂作为话题线索展示。该线索围绕比赛结果、关键进球、逆转过程或赛后讨论展开。",
+    "summary_zh": "该线索围绕比赛结果、关键进球、逆转过程或赛后讨论展开。",
+    "heat_score": 56,
+    "related_matches": [],
+    "related_teams": [
+      "墨西哥",
+      "加拿大",
+      "美国",
+      "日本"
+    ],
+    "related_players": [],
+    "regions": [
+      "欧洲"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "The Guardian Football Worldcup 2026 Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_guardian_football_worldcup2026",
+        "source_name": "The Guardian Football Worldcup 2026 Page",
+        "title": "LiveWorld Cup 2026: Mexico’s winning start; empty seats; USA and Canada enter fray; Endo’s Japan retirement – live",
+        "summary": "",
+        "url": "https://www.theguardian.com/football/live/2026/jun/12/world-cup-2026-news-updates-live-usa-canada-paraguay-bosnia-herzegovina",
+        "published_at": "2026-06-12T14:12:26.524Z",
+        "fetched_at": "2026-06-12T14:12:26.524Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "title_only",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "墨西哥赛后结果"
+    ],
+    "last_updated": "2026-06-12T14:12:26.524Z",
+    "source_count_score": 26,
+    "recency_score": 100,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
     "included_in_frontend": true
   },
   {
@@ -1604,8 +1803,8 @@
         "title": "Qui remportera la Coupe du monde de foot 2026 ?",
         "summary": "À l'approche de la Coupe du monde 2026 aux États-Unis, au Canada et au Mexique, notre simulateur de tableau final vous permet de façonner le tournoi selon vos prédictions. Commencez par sélectionner les équipes qui avanceront depuis les phases de groupes",
         "url": "https://www.lequipe.fr/Football/coupe-du-monde-de-football-2026/page-bracket",
-        "published_at": "2026-06-12T10:50:36.692Z",
-        "fetched_at": "2026-06-12T10:50:36.692Z",
+        "published_at": "2026-06-12T14:12:45.129Z",
+        "fetched_at": "2026-06-12T14:12:45.129Z",
         "language": "fr",
         "region": "欧洲",
         "source_type": "media",
@@ -1617,7 +1816,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:36.692Z",
+    "last_updated": "2026-06-12T14:12:45.129Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1629,43 +1828,44 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_巴西_general_discussion_alemanha_copa_mundo_favorita",
-    "topic_key": "巴西::general_discussion::alemanha_copa_mundo_favorita",
+    "topic_id": "topic_fallback_son_heung-min_team_momentum_figura_selección_chilena_dijo",
+    "topic_key": "son heung-min::team_momentum::figura_selección_chilena_dijo",
     "issue_type": "general",
-    "topic_title": "巴西的世界杯晋级前景受到讨论",
-    "lead_source_title": "Alemanha na Copa do Mundo: de favorita a desafiante após o 7 a 1 | Ge",
-    "lead_source_summary": "A seleção da Alemanha na Copa do Mundo tenta superar o histórico de decepções recentes e aposta em uma reformulação liderada pelo técnico Julian Nagelsmann.",
-    "topic_summary": "目前仅 1 个海外来源提到“巴西的世界杯晋级前景受到讨论”，暂作为话题线索展示。A seleção da Alemanha na Copa do Mundo tenta superar o histórico de decepções recentes e aposta em uma reformulação liderada pelo técnico Julian Nagelsmann.",
-    "summary_zh": "A seleção da Alemanha na Copa do Mundo tenta superar o histórico de decepções recentes e aposta em uma reformulação liderada pelo técnico Julian Nagelsmann.",
+    "topic_title": "葡媒称“斯卡洛尼战车”继续托起阿根廷争冠希望",
+    "lead_source_title": "La ex figura de la selección chilena que dijo que \"Argentina va a ser la gran decepción\" y que Bielsa \"es un maleducado\"",
+    "lead_source_summary": "Patricio Yáñez, futbolista que pasó por Colo Colo y jugó 44 partidos en La Roja, dio su pronóstico para el Mundial y le tiró un palito a la Scaloneta.",
+    "topic_summary": "目前仅 1 个海外来源提到“葡媒称“斯卡洛尼战车”继续托起阿根廷争冠希望”，暂作为话题线索展示。该线索围绕阿根廷队延续冠军班底与争冠气氛展开。",
+    "summary_zh": "该线索围绕阿根廷队延续冠军班底与争冠气氛展开。",
     "heat_score": 56,
     "related_matches": [],
     "related_teams": [
-      "巴西",
-      "德国",
+      "乌拉圭",
       "阿根廷"
     ],
-    "related_players": [],
+    "related_players": [
+      "Son Heung-min"
+    ],
     "regions": [
       "拉美"
     ],
     "languages": [
-      "pt"
+      "es"
     ],
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "Globo Esporte Futebol"
+      "Olé Argentina Mundial 2026 Page"
     ],
     "sources": [
       {
-        "source_id": "media_globo_esporte_futebol",
-        "source_name": "Globo Esporte Futebol",
-        "title": "Alemanha na Copa do Mundo: de favorita a desafiante após o 7 a 1 | Ge",
-        "summary": "A seleção da Alemanha na Copa do Mundo tenta superar o histórico de decepções recentes e aposta em uma reformulação liderada pelo técnico Julian Nagelsmann.",
-        "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/12/maldicao-pos-7-a-1-alemanha-acumula-decepcoes-em-copas-do-mundo-apos-titulo-no-brasil.ghtml",
-        "published_at": "2026-06-12T10:50:41.881Z",
-        "fetched_at": "2026-06-12T10:50:41.881Z",
-        "language": "pt",
+        "source_id": "media_ole_argentina_mundial 2026",
+        "source_name": "Olé Argentina Mundial 2026 Page",
+        "title": "La ex figura de la selección chilena que dijo que \"Argentina va a ser la gran decepción\" y que Bielsa \"es un maleducado\"",
+        "summary": "Patricio Yáñez, futbolista que pasó por Colo Colo y jugó 44 partidos en La Roja, dio su pronóstico para el Mundial y le tiró un palito a la Scaloneta.",
+        "url": "https://www.ole.com.ar/mundial/mundial-2026/mundial-chile-pato-patricio-yanez-argentina-bielsa-seleccion_0_nHeUQnza7V.html",
+        "published_at": "2026-06-12T14:13:09.692Z",
+        "fetched_at": "2026-06-12T14:13:09.692Z",
+        "language": "es",
         "region": "拉美",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
@@ -1675,8 +1875,10 @@
         "item_type": "article"
       }
     ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:41.881Z",
+    "topic_phrases": [
+      "Son Heung-min"
+    ],
+    "last_updated": "2026-06-12T14:13:09.692Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1688,25 +1890,136 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_son_heung-min_general_discussion_australia_turquía_mundial_horario",
-    "topic_key": "son heung-min::general_discussion::australia_turquía_mundial_horario",
+    "topic_id": "topic_fallback_巴拉圭_general_discussion_juega_mundial_angeles_sede",
+    "topic_key": "巴拉圭::general_discussion::juega_mundial_angeles_sede",
+    "issue_type": "event_operations",
+    "topic_title": "巴拉圭的世界杯晋级前景受到讨论",
+    "lead_source_title": "Así se juega el Mundial 2026 en Los Angeles: sede, partidos y calendario",
+    "lead_source_summary": "El SoFi Stadium será el escenario del partido en el que Estados Unidos, uno de los anfitriones, haga su debut ante Paraguay. Los detalles.",
+    "topic_summary": "目前仅 1 个海外来源提到“巴拉圭的世界杯晋级前景受到讨论”，暂作为话题线索展示。El SoFi Stadium será el escenario del partido en el que Estados Unidos, uno de los anfitriones, haga su debut ante Paraguay.",
+    "summary_zh": "El SoFi Stadium será el escenario del partido en el que Estados Unidos, uno de los anfitriones, haga su debut ante Paraguay.",
+    "heat_score": 56,
+    "related_matches": [],
+    "related_teams": [
+      "巴拉圭"
+    ],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Olé Argentina Mundial 2026 Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_ole_argentina_mundial 2026",
+        "source_name": "Olé Argentina Mundial 2026 Page",
+        "title": "Así se juega el Mundial 2026 en Los Angeles: sede, partidos y calendario",
+        "summary": "El SoFi Stadium será el escenario del partido en el que Estados Unidos, uno de los anfitriones, haga su debut ante Paraguay. Los detalles.",
+        "url": "https://www.ole.com.ar/mundial/mundial-2026/juega-mundial-2026-angeles-sede-partidos-calendario-detalles_0_Xc51AXL16h.html",
+        "published_at": "2026-06-12T14:13:09.692Z",
+        "fetched_at": "2026-06-12T14:13:09.692Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "SoFi 球场"
+    ],
+    "last_updated": "2026-06-12T14:13:09.692Z",
+    "source_count_score": 26,
+    "recency_score": 100,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开正文片段识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_波黑_general_discussion_canadá_bosnia_mundial_vivo",
+    "topic_key": "波黑::general_discussion::canadá_bosnia_mundial_vivo",
     "issue_type": "general",
-    "topic_title": "Son Heung-min热身赛表现引发赛前关注",
+    "topic_title": "波黑的世界杯晋级前景受到讨论",
+    "lead_source_title": "Canadá vs. Bosnia, por el Mundial 2026, EN VIVO: a qué hora juegan, formaciones y cómo ver el partido del Grupo B",
+    "lead_source_summary": "Debuta el segundo de los tres anfitriones: en Toronto, los canandienses comienzan su camino ante los europeos. Seguilo en Olé.",
+    "topic_summary": "目前仅 1 个海外来源提到“波黑的世界杯晋级前景受到讨论”，暂作为话题线索展示。Debuta el segundo de los tres anfitriones: en Toronto, los canandienses comienzan su camino ante los europeos.",
+    "summary_zh": "Debuta el segundo de los tres anfitriones: en Toronto, los canandienses comienzan su camino ante los europeos.",
+    "heat_score": 56,
+    "related_matches": [],
+    "related_teams": [
+      "波黑"
+    ],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Olé Argentina Mundial 2026 Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_ole_argentina_mundial 2026",
+        "source_name": "Olé Argentina Mundial 2026 Page",
+        "title": "Canadá vs. Bosnia, por el Mundial 2026, EN VIVO: a qué hora juegan, formaciones y cómo ver el partido del Grupo B",
+        "summary": "Debuta el segundo de los tres anfitriones: en Toronto, los canandienses comienzan su camino ante los europeos. Seguilo en Olé.",
+        "url": "https://www.ole.com.ar/mundial/mundial-2026/canada-vs-bosnia-mundial-2026-dia-hora-ver-vivo-tv-online-formaciones-minuto-minuto_0_RJjDYlvG7a.html",
+        "published_at": "2026-06-12T14:13:09.692Z",
+        "fetched_at": "2026-06-12T14:13:09.692Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T14:13:09.692Z",
+    "source_count_score": 26,
+    "recency_score": 100,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_澳大利亚_general_discussion_australia_turquía_mundial_horario",
+    "topic_key": "澳大利亚::general_discussion::australia_turquía_mundial_horario",
+    "issue_type": "general",
+    "topic_title": "澳大利亚的世界杯晋级前景受到讨论",
     "lead_source_title": "Australia vs. Turquía, por el Mundial 2026: día, horario y por dónde ver",
     "lead_source_summary": "En la madrugada del domingo, Australia y Turquía se enfrentan en Vancouver por la primera jornada del Grupo D de la Copa del Mundo. Acá los detalles.",
-    "topic_summary": "目前仅 1 个海外来源提到“Son Heung-min热身赛表现引发赛前关注”，暂作为话题线索展示。En la madrugada del domingo, Australia y Turquía se enfrentan en Vancouver por la primera jornada del Grupo D de la Copa del Mundo.",
+    "topic_summary": "目前仅 1 个海外来源提到“澳大利亚的世界杯晋级前景受到讨论”，暂作为话题线索展示。En la madrugada del domingo, Australia y Turquía se enfrentan en Vancouver por la primera jornada del Grupo D de la Copa del Mundo.",
     "summary_zh": "En la madrugada del domingo, Australia y Turquía se enfrentan en Vancouver por la primera jornada del Grupo D de la Copa del Mundo.",
     "heat_score": 56,
     "related_matches": [],
     "related_teams": [
-      "卡塔尔",
-      "澳大利亚",
-      "哥伦比亚"
+      "澳大利亚"
     ],
-    "related_players": [
-      "Son Heung-min",
-      "Kenan Yildiz"
-    ],
+    "related_players": [],
     "regions": [
       "拉美"
     ],
@@ -1725,124 +2038,8 @@
         "title": "Australia vs. Turquía, por el Mundial 2026: día, horario y por dónde ver",
         "summary": "En la madrugada del domingo, Australia y Turquía se enfrentan en Vancouver por la primera jornada del Grupo D de la Copa del Mundo. Acá los detalles.",
         "url": "https://www.ole.com.ar/mundial/mundial-2026/australia-vs-turquia-partido-fecha-1-grupo-d-mundial-2026-dia-horario-tv_0_UBvI14Y8KV.html",
-        "published_at": "2026-06-12T10:50:53.786Z",
-        "fetched_at": "2026-06-12T10:50:53.786Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "public_article_text",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Son Heung-min"
-    ],
-    "last_updated": "2026-06-12T10:50:53.786Z",
-    "source_count_score": 26,
-    "recency_score": 100,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开正文片段识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_阿根廷_general_discussion_videos_partido_entre_corea",
-    "topic_key": "阿根廷::general_discussion::videos_partido_entre_corea",
-    "issue_type": "general",
-    "topic_title": "阿根廷的世界杯晋级前景受到讨论",
-    "lead_source_title": "Los videos del partido entre Corea del Sur y República Checa",
-    "lead_source_summary": "Asiáticos y europeos se enfrentan en el segundo encuentro del Grupo A. Acá, los mejores momentos.",
-    "topic_summary": "目前仅 1 个海外来源提到“阿根廷的世界杯晋级前景受到讨论”，暂作为话题线索展示。Asiáticos y europeos se enfrentan en el segundo encuentro del Grupo A.",
-    "summary_zh": "Asiáticos y europeos se enfrentan en el segundo encuentro del Grupo A.",
-    "heat_score": 56,
-    "related_matches": [],
-    "related_teams": [
-      "阿根廷"
-    ],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Olé Argentina Mundial 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_ole_argentina_mundial 2026",
-        "source_name": "Olé Argentina Mundial 2026 Page",
-        "title": "Los videos del partido entre Corea del Sur y República Checa",
-        "summary": "Asiáticos y europeos se enfrentan en el segundo encuentro del Grupo A. Acá, los mejores momentos.",
-        "url": "https://www.ole.com.ar/mundial/mundial-2026/videos-goles-corea-sur-republica-checha-resumen-mejores-momentos_0_3vxy9fJcG9.html",
-        "published_at": "2026-06-12T10:50:53.786Z",
-        "fetched_at": "2026-06-12T10:50:53.786Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "public_article_text",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:53.786Z",
-    "source_count_score": 26,
-    "recency_score": 100,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开正文片段识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_阿根廷_team_momentum_armá_argentina_para_debut",
-    "topic_key": "阿根廷::team_momentum::armá_argentina_para_debut",
-    "issue_type": "general",
-    "topic_title": "葡媒称“斯卡洛尼战车”继续托起阿根廷争冠希望",
-    "lead_source_title": "Armá tu 11 de Argentina para el debut en el Mundial",
-    "lead_source_summary": "La Scaloneta pondrá primera en el campeonato del mundo y en Olé te invitamos a ser Scaloni por un ratito: armá tu XI y compartilo en redes.",
-    "topic_summary": "目前仅 1 个海外来源提到“葡媒称“斯卡洛尼战车”继续托起阿根廷争冠希望”，暂作为话题线索展示。该线索围绕阿根廷队延续冠军班底与争冠气氛展开。",
-    "summary_zh": "该线索围绕阿根廷队延续冠军班底与争冠气氛展开。",
-    "heat_score": 56,
-    "related_matches": [],
-    "related_teams": [
-      "阿根廷"
-    ],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Olé Argentina Mundial 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_ole_argentina_mundial 2026",
-        "source_name": "Olé Argentina Mundial 2026 Page",
-        "title": "Armá tu 11 de Argentina para el debut en el Mundial",
-        "summary": "La Scaloneta pondrá primera en el campeonato del mundo y en Olé te invitamos a ser Scaloni por un ratito: armá tu XI y compartilo en redes.",
-        "url": "https://www.ole.com.ar/seleccion/argentina-equipo-titular-argelia-debut-mundial_0_QfLMR7kGMG.html",
-        "published_at": "2026-06-12T10:50:53.786Z",
-        "fetched_at": "2026-06-12T10:50:53.786Z",
+        "published_at": "2026-06-12T14:13:09.693Z",
+        "fetched_at": "2026-06-12T14:13:09.693Z",
         "language": "es",
         "region": "拉美",
         "source_type": "media",
@@ -1854,7 +2051,64 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:53.786Z",
+    "last_updated": "2026-06-12T14:13:09.693Z",
+    "source_count_score": 26,
+    "recency_score": 100,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_卡塔尔_general_discussion_qatar_suiza_mundial_horario",
+    "topic_key": "卡塔尔::general_discussion::qatar_suiza_mundial_horario",
+    "issue_type": "event_operations",
+    "topic_title": "卡塔尔的世界杯晋级前景受到讨论",
+    "lead_source_title": "Qatar vs. Suiza, por el Mundial 2026: día, horario y cómo verlo por TV",
+    "lead_source_summary": "Por el segundo encuentro del Grupo B, asiáticos y europeos se ven las caras en el San Francisco Bay Area Stadium de Santa Clara. Acá los detalles.",
+    "topic_summary": "目前仅 1 个海外来源提到“卡塔尔的世界杯晋级前景受到讨论”，暂作为话题线索展示。Por el segundo encuentro del Grupo B, asiáticos y europeos se ven las caras en el San Francisco Bay Area Stadium de Santa Clara.",
+    "summary_zh": "Por el segundo encuentro del Grupo B, asiáticos y europeos se ven las caras en el San Francisco Bay Area Stadium de Santa Clara.",
+    "heat_score": 56,
+    "related_matches": [],
+    "related_teams": [
+      "卡塔尔"
+    ],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Olé Argentina Mundial 2026 Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_ole_argentina_mundial 2026",
+        "source_name": "Olé Argentina Mundial 2026 Page",
+        "title": "Qatar vs. Suiza, por el Mundial 2026: día, horario y cómo verlo por TV",
+        "summary": "Por el segundo encuentro del Grupo B, asiáticos y europeos se ven las caras en el San Francisco Bay Area Stadium de Santa Clara. Acá los detalles.",
+        "url": "https://www.ole.com.ar/mundial/mundial-2026-copa-mundo-suiza-qatar-ver-tv-dia-hora-fechacanal-estadio_0_OKINJQfY1U.html",
+        "published_at": "2026-06-12T14:13:09.693Z",
+        "fetched_at": "2026-06-12T14:13:09.693Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T14:13:09.693Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1898,8 +2152,8 @@
         "title": "Tottenham star cuts short Ibiza holiday after late World Cup call-up",
         "summary": "Senesi, whose free transfer from Bournemouth to Tottenham was confirmed this week, had been waiting to hear whether he would join the reigning world champions' 26-man squad.",
         "url": "https://www.dailymail.com/sport/football/article-15893461/From-Ibiza-World-Cup-Tottenham-star-cuts-short-holiday-receiving-late-call-world-champions-Argentina.html",
-        "published_at": "2026-06-12T10:50:55.579Z",
-        "fetched_at": "2026-06-12T10:50:55.579Z",
+        "published_at": "2026-06-12T14:13:11.461Z",
+        "fetched_at": "2026-06-12T14:13:11.461Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -1911,7 +2165,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:55.579Z",
+    "last_updated": "2026-06-12T14:13:11.461Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1957,8 +2211,8 @@
         "title": "England 3-0 Costa Rica - PLAYER RATINGS: 'Electric' star has given Thomas Tuchel a big decision to make - and why Noni Madueke IS an able deputy for Bukayo Saka despite woeful miss",
         "summary": "",
         "url": "https://www.dailymail.com/sport/football/article-15886041/England-3-0-Costa-Rica-PLAYER-RATINGS.html",
-        "published_at": "2026-06-12T10:50:55.579Z",
-        "fetched_at": "2026-06-12T10:50:55.579Z",
+        "published_at": "2026-06-12T14:13:11.462Z",
+        "fetched_at": "2026-06-12T14:13:11.462Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -1972,7 +2226,7 @@
     "topic_phrases": [
       "热身赛表现与首发竞争"
     ],
-    "last_updated": "2026-06-12T10:50:55.579Z",
+    "last_updated": "2026-06-12T14:13:11.462Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -1980,6 +2234,124 @@
     "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_伊朗_general_discussion_iran-linked_group_claims_have",
+    "topic_key": "伊朗::general_discussion::iran-linked_group_claims_have",
+    "issue_type": "general",
+    "topic_title": "伊朗的世界杯晋级前景受到讨论",
+    "lead_source_title": "Iran-linked group claims to have hacked FBI drones and threatens to target the World Cup in chilling warning",
+    "lead_source_summary": "",
+    "topic_summary": "目前仅 1 个海外来源提到“伊朗的世界杯晋级前景受到讨论”，暂作为话题线索展示。该线索目前只能识别到宽泛讨论，等待更多信源补充。",
+    "summary_zh": "该线索目前只能识别到宽泛讨论，等待更多信源补充。",
+    "heat_score": 56,
+    "related_matches": [],
+    "related_teams": [
+      "伊朗"
+    ],
+    "related_players": [],
+    "regions": [
+      "欧洲"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Daily Mail Football Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_daily_mail_football",
+        "source_name": "Daily Mail Football Page",
+        "title": "Iran-linked group claims to have hacked FBI drones and threatens to target the World Cup in chilling warning",
+        "summary": "",
+        "url": "https://www.dailymail.com/sport/football/article-15894993/iran-hacker-group-fbi-drones-world-cup.html",
+        "published_at": "2026-06-12T14:13:11.471Z",
+        "fetched_at": "2026-06-12T14:13:11.471Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "title_only",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T14:13:11.471Z",
+    "source_count_score": 26,
+    "recency_score": 100,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_墨西哥_odds_prediction_will_vote_poll",
+    "topic_key": "墨西哥::odds_prediction::will_vote_poll",
+    "issue_type": "general",
+    "topic_title": "海外媒体正在重新评估墨西哥的世界杯前景",
+    "lead_source_title": "Who will win the 2026 World Cup? Vote in our poll",
+    "lead_source_summary": "Read this news on OneFootball.",
+    "topic_summary": "目前仅 1 个海外来源提到“海外媒体正在重新评估墨西哥的世界杯前景”，暂作为话题线索展示。该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
+    "summary_zh": "该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
+    "heat_score": 56,
+    "related_matches": [],
+    "related_teams": [
+      "墨西哥",
+      "加拿大",
+      "美国",
+      "西班牙",
+      "阿根廷"
+    ],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "One Football World Cup Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_one_football_world_cup",
+        "source_name": "One Football World Cup Page",
+        "title": "Who will win the 2026 World Cup? Vote in our poll",
+        "summary": "Read this news on OneFootball.",
+        "url": "https://onefootball.com/en/news/who-will-win-the-2026-world-cup-vote-in-our-poll-42999958",
+        "published_at": "2026-06-12T14:13:51.093Z",
+        "fetched_at": "2026-06-12T14:13:51.093Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T14:13:51.093Z",
+    "source_count_score": 26,
+    "recency_score": 100,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开正文片段识别",
     "confidence": "低",
     "included_in_frontend": true
   },
@@ -2016,8 +2388,8 @@
         "title": "Betting South Africa",
         "summary": "",
         "url": "https://onefootball.com/en/betting/za",
-        "published_at": "2026-06-12T10:51:29.782Z",
-        "fetched_at": "2026-06-12T10:51:29.782Z",
+        "published_at": "2026-06-12T14:13:51.098Z",
+        "fetched_at": "2026-06-12T14:13:51.098Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -2029,7 +2401,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:51:29.782Z",
+    "last_updated": "2026-06-12T14:13:51.098Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2041,23 +2413,24 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_kylian_mbappe_odds_prediction_ultimate_finishing_performance_kylian",
-    "topic_key": "kylian mbappe::odds_prediction::ultimate_finishing_performance_kylian",
+    "topic_id": "topic_fallback_lamine_yamal_player_focus_simply_best_michael_olise",
+    "topic_key": "lamine yamal::player_focus::simply_best_michael_olise",
     "issue_type": "general",
-    "topic_title": "海外媒体正在重新评估卡塔尔的世界杯前景",
-    "lead_source_title": "The Ultimate World Cup Finishing Performance: Kylian Mbappe in 2022",
-    "lead_source_summary": "When audiences across the globe tune into the World Cup, they scramble in front of television sets hoping to see one thing: goals. The purest currency at socce",
-    "topic_summary": "目前仅 1 个海外来源提到“海外媒体正在重新评估卡塔尔的世界杯前景”，暂作为话题线索展示。该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
-    "summary_zh": "该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
+    "topic_title": "英媒盘点可能在本届世界杯成名的潜力新星",
+    "lead_source_title": "‘Simply the best’ - Michael Olise ranked above Lamine Yamal as French World Cup winner reacts to Real Madrid transfer rumours raging around Bayern Munich winger | Goal.com US",
+    "lead_source_summary": "Michael Olise is considered to be “simply the best” right winger in world football at the moment, with Frank Leboeuf telling GOAL why the Bayern Munich star can currently be ranked above Barcelona wonderkid Lamine Yamal.",
+    "topic_summary": "目前仅 1 个海外来源提到“英媒盘点可能在本届世界杯成名的潜力新星”，暂作为话题线索展示。该线索关注有望借世界杯舞台提升身价或名气的年轻球员。",
+    "summary_zh": "该线索关注有望借世界杯舞台提升身价或名气的年轻球员。",
     "heat_score": 56,
     "related_matches": [],
     "related_teams": [
-      "卡塔尔",
-      "法国",
-      "克罗地亚"
+      "美国",
+      "德国",
+      "法国"
     ],
     "related_players": [
-      "Kylian Mbappe"
+      "Lamine Yamal",
+      "Lionel Messi"
     ],
     "regions": [
       "全球/英语圈"
@@ -2068,17 +2441,17 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "Sports Illustrated World Cup Page"
+      "Goal World Cup News Page"
     ],
     "sources": [
       {
-        "source_id": "media_si_world_cup",
-        "source_name": "Sports Illustrated World Cup Page",
-        "title": "The Ultimate World Cup Finishing Performance: Kylian Mbappe in 2022",
-        "summary": "When audiences across the globe tune into the World Cup, they scramble in front of television sets hoping to see one thing: goals. The purest currency at socce",
-        "url": "https://www.si.com/soccer/ultimate-world-cup-finishing-performance-kylian-mbappe-2022",
-        "published_at": "2026-06-12T10:51:35.678Z",
-        "fetched_at": "2026-06-12T10:51:35.678Z",
+        "source_id": "media_goal_world_cup",
+        "source_name": "Goal World Cup News Page",
+        "title": "‘Simply the best’ - Michael Olise ranked above Lamine Yamal as French World Cup winner reacts to Real Madrid transfer rumours raging around Bayern Munich winger | Goal.com US",
+        "summary": "Michael Olise is considered to be “simply the best” right winger in world football at the moment, with Frank Leboeuf telling GOAL why the Bayern Munich star can currently be ranked above Barcelona wonderkid Lamine Yamal.",
+        "url": "https://www.goal.com/en-us/lists/michael-olise-lamine-yamal-world-cup-real-madrid-transfer-bayern-munich-winger/blte10b76c443c5ff24",
+        "published_at": "2026-06-12T14:14:03.742Z",
+        "fetched_at": "2026-06-12T14:14:03.742Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -2090,9 +2463,9 @@
       }
     ],
     "topic_phrases": [
-      "Kylian Mbappe"
+      "Lamine Yamal"
     ],
-    "last_updated": "2026-06-12T10:51:35.678Z",
+    "last_updated": "2026-06-12T14:14:03.742Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2138,8 +2511,8 @@
         "title": "USMNT's Richards trains fully but Adams misses through load management",
         "summary": "",
         "url": "https://www.cbssports.com/soccer/news/usmnts-chris-richards-returns-to-full-training-days-world-cup-paraguay/",
-        "published_at": "2026-06-12T10:51:48.595Z",
-        "fetched_at": "2026-06-12T10:51:48.595Z",
+        "published_at": "2026-06-12T14:14:17.973Z",
+        "fetched_at": "2026-06-12T14:14:17.973Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -2153,7 +2526,7 @@
     "topic_phrases": [
       "Chris Richards"
     ],
-    "last_updated": "2026-06-12T10:51:48.595Z",
+    "last_updated": "2026-06-12T14:14:17.973Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2165,19 +2538,18 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_巴西_general_discussion_brito_helped_brazil_1970",
-    "topic_key": "巴西::general_discussion::brito_helped_brazil_1970",
+    "topic_id": "topic_fallback_卡塔尔_general_discussion_ireland_home_game_against",
+    "topic_key": "卡塔尔::general_discussion::ireland_home_game_against",
     "issue_type": "general",
-    "topic_title": "巴西在世界杯前接受采访谈备战",
-    "lead_source_title": "Brito, who helped Brazil win the 1970 World Cup, dies at 86",
-    "lead_source_summary": "Brito, a center back on Brazil's 1970 World Cup-winning team, has died at age 86. The Brazilian Football Confederation announced that Brito died Thursday.",
-    "topic_summary": "目前仅 1 个海外来源提到“巴西在世界杯前接受采访谈备战”，暂作为话题线索展示。Brito, a center back on Brazil's 1970 World Cup-winning team, has died at age 86.",
-    "summary_zh": "Brito, a center back on Brazil's 1970 World Cup-winning team, has died at age 86.",
+    "topic_title": "卡塔尔热身赛表现引发赛前关注",
+    "lead_source_title": "Ireland's home game against Israel in Nations League to be played at neutral site",
+    "lead_source_summary": "Ireland’s home game against Israel in the Nations League will be played at a neutral site and behind closed doors.",
+    "topic_summary": "目前仅 1 个海外来源提到“卡塔尔热身赛表现引发赛前关注”，暂作为话题线索展示。Ireland’s home game against Israel in the Nations League will be played at a neutral site and behind closed doors.",
+    "summary_zh": "Ireland’s home game against Israel in the Nations League will be played at a neutral site and behind closed doors.",
     "heat_score": 56,
     "related_matches": [],
     "related_teams": [
-      "巴西",
-      "伊朗"
+      "卡塔尔"
     ],
     "related_players": [],
     "regions": [
@@ -2195,11 +2567,11 @@
       {
         "source_id": "media_ap_news_soccer",
         "source_name": "AP News Soccer",
-        "title": "Brito, who helped Brazil win the 1970 World Cup, dies at 86",
-        "summary": "Brito, a center back on Brazil's 1970 World Cup-winning team, has died at age 86. The Brazilian Football Confederation announced that Brito died Thursday.",
-        "url": "https://apnews.com/article/brazil-brito-dies-soccer-world-cup-873b6026e446c2cea3d45ea95211f866",
-        "published_at": "2026-06-12T10:51:58.135Z",
-        "fetched_at": "2026-06-12T10:51:58.135Z",
+        "title": "Ireland's home game against Israel in Nations League to be played at neutral site",
+        "summary": "Ireland’s home game against Israel in the Nations League will be played at a neutral site and behind closed doors.",
+        "url": "https://apnews.com/article/ireland-israel-neutral-site-uefa-nations-league-fdbfa971ba5c75f5643ffa6049b21649",
+        "published_at": "2026-06-12T14:14:31.605Z",
+        "fetched_at": "2026-06-12T14:14:31.605Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -2211,65 +2583,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:51:58.135Z",
-    "source_count_score": 26,
-    "recency_score": 100,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开正文片段识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_西班牙_general_discussion_benfica_president_costa_wanted",
-    "topic_key": "西班牙::general_discussion::benfica_president_costa_wanted",
-    "issue_type": "general",
-    "topic_title": "西班牙在世界杯前接受采访谈备战",
-    "lead_source_title": "Benfica president Costa wanted to keep Mourinho but sees Silva as 'ideal' successor",
-    "lead_source_summary": "Benfica president Rui Costa is excited about working with Marco Silva, even if the Portuguese club were disappointed to lose Jose Mourinho.",
-    "topic_summary": "目前仅 1 个海外来源提到“西班牙在世界杯前接受采访谈备战”，暂作为话题线索展示。Benfica president Rui Costa is excited about working with Marco Silva, even if the Portuguese club were disappointed to lose Jose Mourinho.",
-    "summary_zh": "Benfica president Rui Costa is excited about working with Marco Silva, even if the Portuguese club were disappointed to lose Jose Mourinho.",
-    "heat_score": 56,
-    "related_matches": [],
-    "related_teams": [
-      "西班牙",
-      "葡萄牙"
-    ],
-    "related_players": [],
-    "regions": [
-      "中东与北非"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "beIN SPORTS Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bein_sports_football",
-        "source_name": "beIN SPORTS Football",
-        "title": "Benfica president Costa wanted to keep Mourinho but sees Silva as 'ideal' successor",
-        "summary": "Benfica president Rui Costa is excited about working with Marco Silva, even if the Portuguese club were disappointed to lose Jose Mourinho.",
-        "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/benfica-president-costa-wanted-to-keep-mourinho-but-sees-silva-as-ideal-successor-2026-06-12",
-        "published_at": "2026-06-12T10:52:02.331Z",
-        "fetched_at": "2026-06-12T10:52:02.331Z",
-        "language": "en",
-        "region": "中东与北非",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "public_article_text",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-12T10:52:02.331Z",
+    "last_updated": "2026-06-12T14:14:31.605Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2316,8 +2630,8 @@
         "title": "Socceroos look to upset Turkiye",
         "summary": "Australia will chase an upset win against Turkiye in a 2026 FIFA World Cup Group D clash at BC Place in Vancouver on the morning of Sunday 14 June, kick-off at 6am CAT.",
         "url": "https://supersport.com/football/news/3a701d48-bee5-49c1-9674-ed4725e5fe89/socceroos-look-to-upset-turkiye",
-        "published_at": "2026-06-12T10:52:10.037Z",
-        "fetched_at": "2026-06-12T10:52:10.037Z",
+        "published_at": "2026-06-12T14:14:38.259Z",
+        "fetched_at": "2026-06-12T14:14:38.259Z",
         "language": "en",
         "region": "非洲",
         "source_type": "media",
@@ -2329,7 +2643,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:52:10.037Z",
+    "last_updated": "2026-06-12T14:14:38.259Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2341,23 +2655,22 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_苏格兰_general_discussion_tartan_army_toast_scotland",
-    "topic_key": "苏格兰::general_discussion::tartan_army_toast_scotland",
-    "issue_type": "fans_atmosphere",
-    "topic_title": "世界杯球迷与观赛安排成为讨论焦点",
-    "lead_source_title": "Tartan Army toast Scotland’s World Cup return: ‘It’s a once-in-a-lifetime opportunity’",
-    "lead_source_summary": "Of all the bases Scotland fans could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town Sam Adams is the beer of Boston, named after the fourth governor of Massachusetts and founding father of the United States. Downtown, there’s a tap room where you can drink it all day. On Thursday lunchtime the bar was packed, full of Scotland fans, and hanging over the first floor balcony was a big yellow flag. It bore the legend “Remember Bannockburn 1315”. Of all the bases the Tartan Army could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town. Supporters dressed like William Wallace have been bonding with tour guides dressed like Paul Revere. Others have been walking around wearing “Boston T Party” T-shirts, where the T stands for Tennent’s. Meanwhile, next to the site of the Battle of Bunker Hill, the Scottish Football Association has rebranded a local pub as Scotland House, and even had it sponsored by M&S Food. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“世界杯球迷与观赛安排成为讨论焦点”，暂作为话题线索展示。Of all the bases Scotland fans could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town Sam Adams is the beer of Boston, named after the fourth governor of Massachusetts and founding father of the United States.",
-    "summary_zh": "Of all the bases Scotland fans could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town Sam Adams is the beer of Boston, named after the fourth governor of Massachusetts and founding father of the United States.",
-    "heat_score": 55,
+    "topic_id": "topic_fallback_墨西哥_general_discussion_duck_mexico_wearing_mexican",
+    "topic_key": "墨西哥::general_discussion::duck_mexico_wearing_mexican",
+    "issue_type": "general",
+    "topic_title": "墨西哥相关球衣或装备话题引发讨论",
+    "lead_source_title": "A duck in Mexico wearing a Mexican jersey",
+    "lead_source_summary": "submitted by /u/AgeNovel3566 [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“墨西哥相关球衣或装备话题引发讨论”，暂作为话题线索展示。submitted by /u/AgeNovel3566 [link] [comments]",
+    "summary_zh": "submitted by /u/AgeNovel3566 [link] [comments]",
+    "heat_score": 54,
     "related_matches": [],
     "related_teams": [
-      "苏格兰",
-      "美国"
+      "墨西哥"
     ],
     "related_players": [],
     "regions": [
-      "欧洲"
+      "全球/英语圈"
     ],
     "languages": [
       "en"
@@ -2365,20 +2678,20 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "The Guardian Football"
+      "Reddit r/soccer"
     ],
     "sources": [
       {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Tartan Army toast Scotland’s World Cup return: ‘It’s a once-in-a-lifetime opportunity’",
-        "summary": "Of all the bases Scotland fans could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town Sam Adams is the beer of Boston, named after the fourth governor of Massachusetts and founding father of the United States. Downtown, there’s a tap room where you can drink it all day. On Thursday lunchtime the bar was packed, full of Scotland fans, and hanging over the first floor balcony was a big yellow flag. It bore the legend “Remember Bannockburn 1315”. Of all the bases the Tartan Army could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town. Supporters dressed like William Wallace have been bonding with tour guides dressed like Paul Revere. Others have been walking around wearing “Boston T Party” T-shirts, where the T stands for Tennent’s. Meanwhile, next to the site of the Battle of Bunker Hill, the Scottish Football Association has rebranded a local pub as Scotland House, and even had it sponsored by M&S Food. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jun/12/tartan-army-toast-scotland-world-cup-return-boston",
-        "published_at": "2026-06-12T09:00:42.000Z",
-        "fetched_at": "2026-06-12T10:50:16.351Z",
+        "source_id": "forum_reddit_soccer",
+        "source_name": "Reddit r/soccer",
+        "title": "A duck in Mexico wearing a Mexican jersey",
+        "summary": "submitted by /u/AgeNovel3566 [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1u3vppf/a_duck_in_mexico_wearing_a_mexican_jersey/",
+        "published_at": "2026-06-12T13:45:12.000Z",
+        "fetched_at": "2026-06-12T14:12:20.930Z",
         "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
+        "region": "全球/英语圈",
+        "source_type": "forum",
         "crawl_strategy": "rss",
         "crawl_mode": "rss",
         "data_origin": "live",
@@ -2387,11 +2700,11 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T09:00:42.000Z",
+    "last_updated": "2026-06-12T13:45:12.000Z",
     "source_count_score": 26,
-    "recency_score": 95,
+    "recency_score": 99,
     "cross_region_score": 35,
-    "source_priority_score": 82,
+    "source_priority_score": 62,
     "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题与摘要识别",
@@ -2399,118 +2712,43 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_美国_odds_prediction_untitled_item",
-    "topic_key": "美国::odds_prediction::untitled_item",
+    "topic_id": "topic_fallback_西班牙_general_discussion_benfica_president_costa_wanted",
+    "topic_key": "西班牙::general_discussion::benfica_president_costa_wanted",
     "issue_type": "general",
-    "topic_title": "海外媒体正在重新评估美国的世界杯前景",
-    "lead_source_title": "Untitled item",
-    "lead_source_summary": "USMNT vs. Paraguay World Cup mega-preview: Predictions, odds, must-reads and more https://www.nytimes.com/athletic/7348861/2026/06/12/usmnt-paraguay-world-cup-preview-odds-predictions-lineups/ All you need to know before the USMNT opens the World Cup against Paraguay #Soccer #Football",
-    "topic_summary": "目前仅 1 个海外来源提到“海外媒体正在重新评估美国的世界杯前景”，暂作为话题线索展示。该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
-    "summary_zh": "该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
-    "heat_score": 55,
-    "related_matches": [
-      "M004"
-    ],
+    "topic_title": "西班牙在世界杯前接受采访谈备战",
+    "lead_source_title": "Benfica president Costa wanted to keep Mourinho but sees Silva as 'ideal' successor",
+    "lead_source_summary": "Benfica president Rui Costa is excited about working with Marco Silva, even if the Portuguese club were disappointed to lose Jose Mourinho.",
+    "topic_summary": "目前仅 1 个海外来源提到“西班牙在世界杯前接受采访谈备战”，暂作为话题线索展示。Benfica president Rui Costa is excited about working with Marco Silva, even if the Portuguese club were disappointed to lose Jose Mourinho.",
+    "summary_zh": "Benfica president Rui Costa is excited about working with Marco Silva, even if the Portuguese club were disappointed to lose Jose Mourinho.",
+    "heat_score": 54,
+    "related_matches": [],
     "related_teams": [
-      "美国",
-      "巴拉圭"
+      "西班牙",
+      "葡萄牙"
     ],
     "related_players": [],
     "regions": [
-      "全球/英语圈"
+      "中东与北非"
     ],
     "languages": [
-      "multi"
+      "en"
     ],
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "Mastodon hashtag #soccer"
+      "beIN SPORTS Football"
     ],
     "sources": [
       {
-        "source_id": "social_mastodon_soccer",
-        "source_name": "Mastodon hashtag #soccer",
-        "title": "Untitled item",
-        "summary": "USMNT vs. Paraguay World Cup mega-preview: Predictions, odds, must-reads and more https://www.nytimes.com/athletic/7348861/2026/06/12/usmnt-paraguay-world-cup-preview-odds-predictions-lineups/ All you need to know before the USMNT opens the World Cup against Paraguay #Soccer #Football",
-        "url": "https://sportsfeed.me/@athletic_af/116736374444663903",
-        "published_at": "2026-06-12T09:15:13.000Z",
-        "fetched_at": "2026-06-12T10:50:20.027Z",
-        "language": "multi",
-        "region": "全球/英语圈",
-        "source_type": "open_social",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-12T09:15:13.000Z",
-    "source_count_score": 26,
-    "recency_score": 96,
-    "cross_region_score": 35,
-    "source_priority_score": 58,
-    "match_relevance_score": 92,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_fan_activity_gran_porra_mundial_vota",
-    "topic_key": "fan_activity::gran_porra_mundial_vota",
-    "issue_type": "general",
-    "topic_title": "西媒围绕世界杯推出每日竞猜互动活动",
-    "lead_source_title": "La Gran Porra del Mundial: vota, suma puntos y gana premios increíbles",
-    "lead_source_summary": "",
-    "topic_summary": "共有 2 个海外来源提到该话题。该线索反映世界杯开赛前媒体通过竞猜活动吸引球迷参与。",
-    "summary_zh": "该线索反映世界杯开赛前媒体通过竞猜活动吸引球迷参与。",
-    "heat_score": 54,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 2,
-    "evidence_count": 2,
-    "source_names": [
-      "AS Fútbol Mundial 2026",
-      "AS Fútbol"
-    ],
-    "sources": [
-      {
-        "source_id": "media_as_futbol_mundial2026",
-        "source_name": "AS Fútbol Mundial 2026",
-        "title": "La Gran Porra del Mundial: vota, suma puntos y gana premios increíbles",
-        "summary": "",
-        "url": "https://as.com/futbol/mundial/la-gran-porra-del-mundial-2026-f202606-n/",
-        "published_at": "2026-06-12T10:50:30.023Z",
-        "fetched_at": "2026-06-12T10:50:30.023Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "live",
-        "extraction_level": "title_only",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_as_futbol",
-        "source_name": "AS Fútbol",
-        "title": "La Gran Porra del Mundial: vota, suma puntos y gana premios increíbles",
-        "summary": "",
-        "url": "https://as.com/futbol/mundial/la-gran-porra-del-mundial-2026-f202606-n/",
-        "published_at": "2026-06-11T06:21:47.695Z",
-        "fetched_at": "2026-06-11T06:21:47.695Z",
-        "language": "es",
-        "region": "拉美",
+        "source_id": "media_bein_sports_football",
+        "source_name": "beIN SPORTS Football",
+        "title": "Benfica president Costa wanted to keep Mourinho but sees Silva as 'ideal' successor",
+        "summary": "Benfica president Rui Costa is excited about working with Marco Silva, even if the Portuguese club were disappointed to lose Jose Mourinho.",
+        "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/benfica-president-costa-wanted-to-keep-mourinho-but-sees-silva-as-ideal-successor-2026-06-12",
+        "published_at": "2026-06-12T10:52:02.331Z",
+        "fetched_at": "2026-06-12T10:52:02.331Z",
+        "language": "en",
+        "region": "中东与北非",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
         "crawl_mode": "html_list",
@@ -2520,15 +2758,15 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:30.023Z",
-    "source_count_score": 52,
-    "recency_score": 64,
+    "last_updated": "2026-06-12T10:52:02.331Z",
+    "source_count_score": 26,
+    "recency_score": 92,
     "cross_region_score": 35,
     "source_priority_score": 82,
-    "match_relevance_score": 42,
+    "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题识别",
-    "confidence": "中",
+    "confidence": "低",
     "included_in_frontend": true
   },
   {
@@ -2562,8 +2800,8 @@
         "title": "Somali ref Omar Abdulkadir Artan denied U.S. entry ahead of World Cup",
         "summary": "",
         "url": "https://www.cbssports.com/soccer/news/somali-referee-omar-abdulkadir-artan-denied-entry-united-states-2026-world-cup/",
-        "published_at": "2026-06-12T10:51:48.595Z",
-        "fetched_at": "2026-06-12T10:51:48.595Z",
+        "published_at": "2026-06-12T14:14:17.973Z",
+        "fetched_at": "2026-06-12T14:14:17.973Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -2575,7 +2813,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:51:48.595Z",
+    "last_updated": "2026-06-12T14:14:17.973Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2617,8 +2855,8 @@
         "title": "Meet the World Cup's potential breakout stars",
         "summary": "",
         "url": "https://www.cbssports.com/soccer/news/potential-world-cup-2026-breakout-stars-argentinas-nico-paz-brazils-endrick/",
-        "published_at": "2026-06-12T10:51:48.595Z",
-        "fetched_at": "2026-06-12T10:51:48.595Z",
+        "published_at": "2026-06-12T14:14:17.973Z",
+        "fetched_at": "2026-06-12T14:14:17.973Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -2630,7 +2868,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:51:48.595Z",
+    "last_updated": "2026-06-12T14:14:17.973Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2642,17 +2880,20 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_odds_prediction_will_pundits_make_their",
-    "topic_key": "odds_prediction::will_pundits_make_their",
-    "issue_type": "general",
-    "topic_title": "海外媒体正在重新评估本届世界杯争冠前景",
-    "lead_source_title": "Who will win the World Cup? BBC pundits make their predictions",
-    "lead_source_summary": "Who will win the World Cup? BBC pundits make their predictions",
-    "topic_summary": "目前仅 1 个海外来源提到“海外媒体正在重新评估本届世界杯争冠前景”，暂作为话题线索展示。该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
-    "summary_zh": "该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
+    "topic_id": "topic_fallback_苏格兰_general_discussion_tartan_army_toast_scotland",
+    "topic_key": "苏格兰::general_discussion::tartan_army_toast_scotland",
+    "issue_type": "fans_atmosphere",
+    "topic_title": "世界杯球迷与观赛安排成为讨论焦点",
+    "lead_source_title": "Tartan Army toast Scotland’s World Cup return: ‘It’s a once-in-a-lifetime opportunity’",
+    "lead_source_summary": "Of all the bases Scotland fans could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town Sam Adams is the beer of Boston, named after a founding father of the United States who was the fourth governor of Massachusetts. Downtown, there’s a tap room where you can drink it all day. On Thursday lunchtime the bar was packed, full of Scotland fans, and hanging over the first-floor balcony was a big yellow flag. It bore the legend “Remember Bannockburn 1314”. Of all the bases the Tartan Army could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town. Supporters dressed like William Wallace have been bonding with tour guides dressed as Paul Revere. Continue reading...",
+    "topic_summary": "目前仅 1 个海外来源提到“世界杯球迷与观赛安排成为讨论焦点”，暂作为话题线索展示。Of all the bases Scotland fans could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town Sam Adams is the beer of Boston, named after a founding father of the United States who was the fourth governor of Massachusetts.",
+    "summary_zh": "Of all the bases Scotland fans could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town Sam Adams is the beer of Boston, named after a founding father of the United States who was the fourth governor of Massachusetts.",
     "heat_score": 53,
     "related_matches": [],
-    "related_teams": [],
+    "related_teams": [
+      "苏格兰",
+      "美国"
+    ],
     "related_players": [],
     "regions": [
       "欧洲"
@@ -2663,36 +2904,34 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "BBC Sport Football Worldcup Page"
+      "The Guardian Football"
     ],
     "sources": [
       {
-        "source_id": "media_bbc_sport_football_worldcup",
-        "source_name": "BBC Sport Football Worldcup Page",
-        "title": "Who will win the World Cup? BBC pundits make their predictions",
-        "summary": "Who will win the World Cup? BBC pundits make their predictions",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cg7485gyxz9o",
-        "published_at": "2026-06-12T10:50:16.950Z",
-        "fetched_at": "2026-06-12T10:50:16.950Z",
+        "source_id": "media_guardian_football",
+        "source_name": "The Guardian Football",
+        "title": "Tartan Army toast Scotland’s World Cup return: ‘It’s a once-in-a-lifetime opportunity’",
+        "summary": "Of all the bases Scotland fans could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town Sam Adams is the beer of Boston, named after a founding father of the United States who was the fourth governor of Massachusetts. Downtown, there’s a tap room where you can drink it all day. On Thursday lunchtime the bar was packed, full of Scotland fans, and hanging over the first-floor balcony was a big yellow flag. It bore the legend “Remember Bannockburn 1314”. Of all the bases the Tartan Army could have found for their World Cup journey, it had to be the city renowned for chasing the English out of town. Supporters dressed like William Wallace have been bonding with tour guides dressed as Paul Revere. Continue reading...",
+        "url": "https://www.theguardian.com/football/2026/jun/12/tartan-army-toast-scotland-world-cup-return-boston",
+        "published_at": "2026-06-12T09:00:42.000Z",
+        "fetched_at": "2026-06-12T14:12:20.196Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
         "data_origin": "live",
         "extraction_level": "title_and_summary",
         "item_type": "article"
       }
     ],
-    "topic_phrases": [
-      "赛前赔率与预测"
-    ],
-    "last_updated": "2026-06-12T10:50:16.950Z",
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T09:00:42.000Z",
     "source_count_score": 26,
-    "recency_score": 100,
+    "recency_score": 87,
     "cross_region_score": 35,
     "source_priority_score": 82,
-    "match_relevance_score": 42,
+    "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题与摘要识别",
     "confidence": "中",
@@ -2729,8 +2968,8 @@
         "title": "Toute l'actu de la Coupe du monde",
         "summary": "",
         "url": "https://www.lequipe.fr/Football/Coupe-du-monde/",
-        "published_at": "2026-06-12T10:50:34.224Z",
-        "fetched_at": "2026-06-12T10:50:34.224Z",
+        "published_at": "2026-06-12T14:12:40.672Z",
+        "fetched_at": "2026-06-12T14:12:40.672Z",
         "language": "fr",
         "region": "欧洲",
         "source_type": "media",
@@ -2744,7 +2983,7 @@
     "topic_phrases": [
       "世界杯动态汇总"
     ],
-    "last_updated": "2026-06-12T10:50:34.224Z",
+    "last_updated": "2026-06-12T14:12:40.672Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2791,8 +3030,8 @@
         "title": "Une Corée du Sud séduisante se défait de la Tchéquie et lance idéalement sa Coupe du monde",
         "summary": "Enthousiasmante et entreprenante, la Corée du Sud a fini par battre la Tchéquie (2-1), ce vendredi à Guadalajara, dans le groupe A de la Coupe du monde. Les partenaires de Lee Kang-in rejoignent le Mexique en tête de la poule.",
         "url": "https://www.lequipe.fr/Football/Actualites/Une-coree-du-sud-seduisante-se-defait-de-la-tchequie-et-lance-idealement-sa-coupe-du-monde/1684096",
-        "published_at": "2026-06-12T10:50:36.692Z",
-        "fetched_at": "2026-06-12T10:50:36.692Z",
+        "published_at": "2026-06-12T14:12:45.130Z",
+        "fetched_at": "2026-06-12T14:12:45.130Z",
         "language": "fr",
         "region": "欧洲",
         "source_type": "media",
@@ -2806,7 +3045,7 @@
     "topic_phrases": [
       "Son Heung-min"
     ],
-    "last_updated": "2026-06-12T10:50:36.692Z",
+    "last_updated": "2026-06-12T14:12:45.130Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2815,6 +3054,63 @@
     "is_example_heat": false,
     "interpretation_basis": "根据公开正文片段识别",
     "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_厄瓜多尔_general_discussion_untitled_item",
+    "topic_key": "厄瓜多尔::general_discussion::untitled_item",
+    "issue_type": "general",
+    "topic_title": "厄瓜多尔相关球衣或装备话题引发讨论",
+    "lead_source_title": "Untitled item",
+    "lead_source_summary": "🇪🇨 Ecuador National Team \"La Tricolor\" 2026 World Cup Kit If you’d like one, I sell these 5.5-inch tall brick collectibles on Etsy: https://www.etsy.com/listing/4467180317/55-inch-ecuador-national-team-brick #Ecuador #WorldCup #LaTricolor #3dPrinting",
+    "topic_summary": "目前仅 1 个海外来源提到“厄瓜多尔相关球衣或装备话题引发讨论”，暂作为话题线索展示。🇪🇨 Ecuador National Team \"La Tricolor\" 2026 World Cup Kit If you’d like one, I sell these 5.5-inch tall brick collectibles on Etsy: https://www.etsy.com/listing/4467180317/55-inch-ecuador-national-team-brick #Ecuador #WorldCup #LaTricolor #3dPrinting",
+    "summary_zh": "🇪🇨 Ecuador National Team \"La Tricolor\" 2026 World Cup Kit If you’d like one, I sell these 5.5-inch tall brick collectibles on Etsy: https://www.etsy.com/listing/4467180317/55-inch-ecuador-national-team-brick #Ecuador #WorldCup #LaTricolor #3dPrinting",
+    "heat_score": 53,
+    "related_matches": [],
+    "related_teams": [
+      "厄瓜多尔"
+    ],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "multi"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Mastodon hashtag #WorldCup"
+    ],
+    "sources": [
+      {
+        "source_id": "social_mastodon_worldcup",
+        "source_name": "Mastodon hashtag #WorldCup",
+        "title": "Untitled item",
+        "summary": "🇪🇨 Ecuador National Team \"La Tricolor\" 2026 World Cup Kit If you’d like one, I sell these 5.5-inch tall brick collectibles on Etsy: https://www.etsy.com/listing/4467180317/55-inch-ecuador-national-team-brick #Ecuador #WorldCup #LaTricolor #3dPrinting",
+        "url": "https://graphics.social/@1996ny/116737317883596506",
+        "published_at": "2026-06-12T13:15:09.000Z",
+        "fetched_at": "2026-06-12T14:12:22.429Z",
+        "language": "multi",
+        "region": "全球/英语圈",
+        "source_type": "open_social",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T13:15:09.000Z",
+    "source_count_score": 26,
+    "recency_score": 98,
+    "cross_region_score": 35,
+    "source_priority_score": 58,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
     "included_in_frontend": true
   },
   {
@@ -2848,8 +3144,8 @@
         "title": "Every final. Every iconic moment (including THAT headbutt, Pele's wizardry and an assassination). DEEP DIVE's nostalgic guide to the history of the World Cup",
         "summary": "",
         "url": "https://www.dailymail.com/sport/football/article-15715871/nostalgic-guide-history-world-cup-final-moments.html",
-        "published_at": "2026-06-12T10:50:55.595Z",
-        "fetched_at": "2026-06-12T10:50:55.595Z",
+        "published_at": "2026-06-12T14:13:11.471Z",
+        "fetched_at": "2026-06-12T14:13:11.471Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -2861,7 +3157,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:55.595Z",
+    "last_updated": "2026-06-12T14:13:11.471Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2905,8 +3201,8 @@
         "title": "Is the World Cup Harry Kane's last ever shot at international glory?",
         "summary": "",
         "url": "https://www.cbssports.com/soccer/news/2026-world-cup-harry-kane-england-international-glory/",
-        "published_at": "2026-06-12T10:51:48.595Z",
-        "fetched_at": "2026-06-12T10:51:48.595Z",
+        "published_at": "2026-06-12T14:14:17.973Z",
+        "fetched_at": "2026-06-12T14:14:17.973Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "media",
@@ -2920,7 +3216,7 @@
     "topic_phrases": [
       "Harry Kane"
     ],
-    "last_updated": "2026-06-12T10:51:48.595Z",
+    "last_updated": "2026-06-12T14:14:17.973Z",
     "source_count_score": 26,
     "recency_score": 100,
     "cross_region_score": 35,
@@ -2932,15 +3228,147 @@
     "included_in_frontend": true
   },
   {
+    "topic_id": "topic_fallback_fan_activity_gran_porra_mundial_vota",
+    "topic_key": "fan_activity::gran_porra_mundial_vota",
+    "issue_type": "general",
+    "topic_title": "西媒围绕世界杯推出每日竞猜互动活动",
+    "lead_source_title": "La Gran Porra del Mundial: vota, suma puntos y gana premios increíbles",
+    "lead_source_summary": "",
+    "topic_summary": "共有 2 个海外来源提到该话题。该线索反映世界杯开赛前媒体通过竞猜活动吸引球迷参与。",
+    "summary_zh": "该线索反映世界杯开赛前媒体通过竞猜活动吸引球迷参与。",
+    "heat_score": 52,
+    "related_matches": [],
+    "related_teams": [],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 2,
+    "evidence_count": 2,
+    "source_names": [
+      "AS Fútbol Mundial 2026",
+      "AS Fútbol"
+    ],
+    "sources": [
+      {
+        "source_id": "media_as_futbol_mundial2026",
+        "source_name": "AS Fútbol Mundial 2026",
+        "title": "La Gran Porra del Mundial: vota, suma puntos y gana premios increíbles",
+        "summary": "",
+        "url": "https://as.com/futbol/mundial/la-gran-porra-del-mundial-2026-f202606-n/",
+        "published_at": "2026-06-12T10:50:30.023Z",
+        "fetched_at": "2026-06-12T10:50:30.023Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_as_futbol",
+        "source_name": "AS Fútbol",
+        "title": "La Gran Porra del Mundial: vota, suma puntos y gana premios increíbles",
+        "summary": "",
+        "url": "https://as.com/futbol/mundial/la-gran-porra-del-mundial-2026-f202606-n/",
+        "published_at": "2026-06-11T06:21:47.695Z",
+        "fetched_at": "2026-06-11T06:21:47.695Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-12T10:50:30.023Z",
+    "source_count_score": 52,
+    "recency_score": 56,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 42,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_son_heung-min_general_discussion_untitled_item",
+    "topic_key": "son heung-min::general_discussion::untitled_item",
+    "issue_type": "general",
+    "topic_title": "Son Heung-min在世界杯前接受采访谈备战",
+    "lead_source_title": "Untitled item",
+    "lead_source_summary": "My teenage son - who's far less apathetic about the FIFA World Cup than I am - came back from his mates last night at half-time in the first match. 'The game was rubbish,' he said. 'Don't know if I can be bothered watching it all.' I certainly never felt like that at the 1990 World Cup when I was about his age. If even the football-loving teens are already jaded, then something has gone significantly wrong. #FIFA #FIFAWorldCup #WorldCup #Football",
+    "topic_summary": "目前仅 1 个海外来源提到“Son Heung-min在世界杯前接受采访谈备战”，暂作为话题线索展示。My teenage son - who's far less apathetic about the FIFA World Cup than I am - came back from his mates last night at half-time in the first match.",
+    "summary_zh": "My teenage son - who's far less apathetic about the FIFA World Cup than I am - came back from his mates last night at half-time in the first match.",
+    "heat_score": 50,
+    "related_matches": [],
+    "related_teams": [],
+    "related_players": [
+      "Son Heung-min"
+    ],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "multi"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Mastodon hashtag #football"
+    ],
+    "sources": [
+      {
+        "source_id": "social_mastodon_football",
+        "source_name": "Mastodon hashtag #football",
+        "title": "Untitled item",
+        "summary": "My teenage son - who's far less apathetic about the FIFA World Cup than I am - came back from his mates last night at half-time in the first match. 'The game was rubbish,' he said. 'Don't know if I can be bothered watching it all.' I certainly never felt like that at the 1990 World Cup when I was about his age. If even the football-loving teens are already jaded, then something has gone significantly wrong. #FIFA #FIFAWorldCup #WorldCup #Football",
+        "url": "https://mastodon.green/@mathzy/116737076148451141",
+        "published_at": "2026-06-12T12:13:40.000Z",
+        "fetched_at": "2026-06-12T14:12:24.194Z",
+        "language": "multi",
+        "region": "全球/英语圈",
+        "source_type": "open_social",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "Son Heung-min"
+    ],
+    "last_updated": "2026-06-12T12:13:40.000Z",
+    "source_count_score": 26,
+    "recency_score": 95,
+    "cross_region_score": 35,
+    "source_priority_score": 58,
+    "match_relevance_score": 42,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
     "topic_id": "topic_墨西哥_opening_ceremony_夏奇拉彩排_墨西哥_vs_南非",
     "topic_key": "墨西哥::opening_ceremony::夏奇拉彩排::墨西哥_vs_南非",
     "issue_type": "event_operations",
     "topic_title": "夏奇拉为世界杯揭幕式彩排引发场边关注",
-    "lead_source_title": "World Cup kicks off in Mexico with Shakira, dancing, and protests",
-    "lead_source_summary": "There was a star-studded opening ceremony, and some sporadic clashes between police and protesters around the Azteca stadium.",
+    "lead_source_title": "Shakira among the performers at World Cup opening ceremony",
+    "lead_source_summary": "Shakira was among the performers during the opening ceremony of the 2026 World Cup at the Mexico City Stadium ahead of the opening game between Mexico and South Africa.",
     "topic_summary": "目前仅 1 个海外来源提到“夏奇拉为世界杯揭幕式彩排引发场边关注”，暂作为话题线索展示。该线索围绕揭幕战前夏奇拉的彩排和场边花絮展开。",
     "summary_zh": "该线索围绕揭幕战前夏奇拉的彩排和场边花絮展开。",
-    "heat_score": 50,
+    "heat_score": 48,
     "related_matches": [
       "M001"
     ],
@@ -2956,7 +3384,7 @@
       "en"
     ],
     "source_count": 1,
-    "evidence_count": 2,
+    "evidence_count": 1,
     "source_names": [
       "BBC Sport Football"
     ],
@@ -2968,24 +3396,7 @@
         "summary": "Shakira was among the performers during the opening ceremony of the 2026 World Cup at the Mexico City Stadium ahead of the opening game between Mexico and South Africa.",
         "url": "https://www.bbc.com/sport/football/videos/cg532q9zjppo?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-06-11T21:06:59.000Z",
-        "fetched_at": "2026-06-12T10:50:16.173Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_bbc_sport_football",
-        "source_name": "BBC Sport Football",
-        "title": "World Cup kicks off in Mexico with Shakira, dancing, and protests",
-        "summary": "There was a star-studded opening ceremony, and some sporadic clashes between police and protesters around the Azteca stadium.",
-        "url": "https://www.bbc.com/news/articles/c2ly928xz8go?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-06-11T23:41:14.000Z",
-        "fetched_at": "2026-06-12T10:50:16.173Z",
+        "fetched_at": "2026-06-12T14:12:19.858Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -2997,9 +3408,9 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-11T23:41:14.000Z",
+    "last_updated": "2026-06-11T21:06:59.000Z",
     "source_count_score": 26,
-    "recency_score": 66,
+    "recency_score": 57,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 92,
@@ -3013,18 +3424,21 @@
     "topic_key": "scott_mctominay::logistics_issue::赛事组织::世界杯",
     "issue_type": "opening_host_pressure",
     "topic_title": "世界杯观赛交通与现场组织成为赛前焦点",
-    "lead_source_title": "Violent clashes mar Mexico's World Cup opening match",
-    "lead_source_summary": "Violent clashes erupted outside the Estadio Azteca on Thursday night, marring the opening match of the 2026 World Cup in Mexico City. Riot police deployed tear gas after coming under attack from projectiles, overshadowing co-hosts Mexico's subsequent victory on the pitch as long-standing local political tensions spilled over into the tournament's security pe",
+    "lead_source_title": "Report: Iran-linked group claims FBI drone hack, threatens World Cup",
+    "lead_source_summary": "Handala, a pro-Palestine cyber threat group, alleged that it had hacked first-person view (FPV) drones used by the FBI, obtaining access to 'every image and every suspect' ahead of the World Cup.",
     "topic_summary": "目前仅 1 个海外来源提到“世界杯观赛交通与现场组织成为赛前焦点”，暂作为话题线索展示。该线索围绕交通、安保或观赛组织安排展开。",
     "summary_zh": "该线索围绕交通、安保或观赛组织安排展开。",
-    "heat_score": 49,
+    "heat_score": 47,
     "related_matches": [
-      "M001"
+      "M004"
     ],
     "related_teams": [
       "苏格兰",
       "墨西哥",
-      "南非"
+      "美国",
+      "伊朗",
+      "加拿大",
+      "巴拉圭"
     ],
     "related_players": [
       "Scott McTominay"
@@ -3034,13 +3448,18 @@
       "全球/英语圈"
     ],
     "languages": [
-      "en"
+      "en",
+      "multi"
     ],
-    "source_count": 2,
-    "evidence_count": 3,
+    "source_count": 6,
+    "evidence_count": 7,
     "source_names": [
       "BBC Sport Football",
-      "Goal World Cup News Page"
+      "The Guardian Football Worldcup 2026 Page",
+      "Mastodon hashtag #FIFAWorldCup",
+      "Mastodon hashtag #WorldCup2026",
+      "Mastodon hashtag #football",
+      "Daily Mail World Cup Page"
     ],
     "sources": [
       {
@@ -3050,7 +3469,7 @@
         "summary": "Key midfielder Scott McTominay travelled with a doctor as a precaution prior to Scotland's World Cup opener.",
         "url": "https://www.bbc.com/sport/football/articles/c78y50pmd2go?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-06-11T23:39:32.000Z",
-        "fetched_at": "2026-06-12T10:50:16.173Z",
+        "fetched_at": "2026-06-12T14:12:19.858Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -3061,46 +3480,114 @@
         "item_type": "article"
       },
       {
-        "source_id": "media_goal_world_cup",
-        "source_name": "Goal World Cup News Page",
-        "title": "Violent clashes mar Mexico's World Cup opening match",
-        "summary": "Violent clashes erupted outside the Estadio Azteca on Thursday night, marring the opening match of the 2026 World Cup in Mexico City. Riot police deployed tear gas after coming under attack from projectiles, overshadowing co-hosts Mexico's subsequent victory on the pitch as long-standing local political tensions spilled over into the tournament's security pe",
-        "url": "https://www.goal.com/en-us/lists/world-cup-news-mexico-south-africa-estadio-azteca-protests-violence/blt28aafcae7b9d7cfd",
-        "published_at": "2026-06-12T10:51:40.333Z",
-        "fetched_at": "2026-06-12T10:51:40.333Z",
+        "source_id": "media_guardian_football_worldcup2026",
+        "source_name": "The Guardian Football Worldcup 2026 Page",
+        "title": "Iran’s World Cup camp in Tijuana unfolds under armed guard and political shadow",
+        "summary": "Iran’s World Cup preparations have moved to Tijuana, where armed security, exile politics and improvised logistics surround Team Melli",
+        "url": "https://www.theguardian.com/football/2026/jun/11/iran-world-cup-tijuana-security-camp-mexico",
+        "published_at": "2026-06-12T14:12:26.522Z",
+        "fetched_at": "2026-06-12T14:12:26.522Z",
         "language": "en",
-        "region": "全球/英语圈",
+        "region": "欧洲",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
         "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      },
+      {
+        "source_id": "social_mastodon_fifaworldcup",
+        "source_name": "Mastodon hashtag #FIFAWorldCup",
+        "title": "Untitled item",
+        "summary": "Training ➡️ Travel ➡️ Arrivals #FIFAWorldCup | @FIFAWorldCup",
+        "url": "https://twitter.com/ScotlandNT/status/2065428673423933892",
+        "published_at": "2026-06-12T13:39:04.000Z",
+        "fetched_at": "2026-06-12T14:12:23.370Z",
+        "language": "multi",
+        "region": "全球/英语圈",
+        "source_type": "open_social",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
         "data_origin": "live",
         "extraction_level": "title_and_summary",
         "item_type": "article"
       },
       {
-        "source_id": "media_goal_world_cup",
-        "source_name": "Goal World Cup News Page",
-        "title": "Mexico vs South Africa",
-        "summary": "Violent clashes erupted outside the Estadio Azteca on Thursday night, marring the opening match of the 2026 World Cup in Mexico City. Riot police deployed tear gas after coming under attack from projectiles, overshadowing co-hosts Mexico's subsequent victory on the pitch as long-standing local political tensions spilled over into the tournament's security pe",
-        "url": "https://www.goal.com/en-us/match/mexico-vs-south-africa/kmC15xNAExEGFTumq0d9r",
-        "published_at": "2026-06-12T10:51:40.333Z",
-        "fetched_at": "2026-06-12T10:51:40.333Z",
-        "language": "en",
+        "source_id": "social_mastodon_worldcup2026",
+        "source_name": "Mastodon hashtag #WorldCup2026",
+        "title": "Untitled item",
+        "summary": "A record 10 African teams are competing in the 2026 FIFA World Cup. 🌍⚽ To celebrate, here's a schedule of all African teams through the Group Stage. We’ve also created an image deck spotlighting each African team taking the field—sharing their football histories, players to watch, group-stage matchups, and an African security fact about each country. … 1/3 #WorldCup2026 #AfricanFootball #Africa #Football #SecurityStudies #BafanaBafana #BlackStars #AtlasLions #TerangaLions 1/3",
+        "url": "https://mastodon.social/@africacenter/116737260184073671",
+        "published_at": "2026-06-12T13:00:28.000Z",
+        "fetched_at": "2026-06-12T14:12:23.855Z",
+        "language": "multi",
         "region": "全球/英语圈",
+        "source_type": "open_social",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      },
+      {
+        "source_id": "social_mastodon_football",
+        "source_name": "Mastodon hashtag #football",
+        "title": "Untitled item",
+        "summary": "A record 10 African teams are competing in the 2026 FIFA World Cup. 🌍⚽ To celebrate, here's a schedule of all African teams through the Group Stage. We’ve also created an image deck spotlighting each African team taking the field—sharing their football histories, players to watch, group-stage matchups, and an African security fact about each country. … 1/3 #WorldCup2026 #AfricanFootball #Africa #Football #SecurityStudies #BafanaBafana #BlackStars #AtlasLions #TerangaLions 1/3",
+        "url": "https://mastodon.social/@africacenter/116737260184073671",
+        "published_at": "2026-06-12T13:00:28.000Z",
+        "fetched_at": "2026-06-12T14:12:24.194Z",
+        "language": "multi",
+        "region": "全球/英语圈",
+        "source_type": "open_social",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_daily_mail_worldcup",
+        "source_name": "Daily Mail World Cup Page",
+        "title": "Report: Iran-linked group claims FBI drone hack, threatens World Cup",
+        "summary": "Handala, a pro-Palestine cyber threat group, alleged that it had hacked first-person view (FPV) drones used by the FBI, obtaining access to 'every image and every suspect' ahead of the World Cup.",
+        "url": "https://www.dailymail.com/galleries/article-15895187/Report-Iran-linked-group-claims-FBI-drones-hack-threatens-World-Cup.html",
+        "published_at": "2026-06-12T14:13:21.113Z",
+        "fetched_at": "2026-06-12T14:13:21.113Z",
+        "language": "en",
+        "region": "欧洲",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
         "crawl_mode": "html_list",
         "data_origin": "live",
-        "extraction_level": "title_and_summary",
+        "extraction_level": "public_article_text",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_daily_mail_worldcup",
+        "source_name": "Daily Mail World Cup Page",
+        "title": "Iran-linked group 'hacked FBI drones and threatens World Cup'",
+        "summary": "Handala, a pro-Palestine cyber threat group, alleged that it had hacked first-person view (FPV) drones used by the FBI, obtaining access to 'every image and every suspect' ahead of the World Cup.",
+        "url": "https://www.dailymail.com/sport/football/article-15894993/iran-hacker-group-fbi-drones-world-cup.html",
+        "published_at": "2026-06-12T14:13:21.113Z",
+        "fetched_at": "2026-06-12T14:13:21.113Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "live",
+        "extraction_level": "public_article_text",
         "item_type": "article"
       }
     ],
     "topic_phrases": [
       "Scott McTominay"
     ],
-    "last_updated": "2026-06-12T10:51:40.333Z",
+    "last_updated": "2026-06-12T14:13:21.113Z",
     "source_count_score": 26,
-    "recency_score": 72,
+    "recency_score": 64,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 70,
@@ -3511,63 +3998,6 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_美国_general_discussion_welcome_trump_depressingly_angry",
-    "topic_key": "美国::general_discussion::welcome_trump_depressingly_angry",
-    "issue_type": "fans_atmosphere",
-    "topic_title": "美国的世界杯晋级前景受到讨论",
-    "lead_source_title": "Welcome to Trump’s World Cup, a depressingly angry version of football uniting the planet | Barney Ronay",
-    "lead_source_summary": "Ted Lasso will deliver a message of hope before the USA’s first game, in an America that is not a fit or desirable host right now Shortly before 6pm local time on Friday night at the Los Angeles Stadium, the actor who plays Ted Lasso – the fictional manager of a fake team in a falsely heartwarming version of football – will tell hundreds of millions of TV viewers tuning in to watch the start of the American leg of the Fifa World Cup that football unites the world. In an interesting twist, the actor Jason Sudeikis will do this at a time when the World Cup host is simultaneously bombing the second-ranked country in Group G, having recently murdered its head of state. The message of unity is one likely to be heard by the US president, Donald Trump, who has initiated six military conflicts in his second term, and whose brutally divisive immigration policies have now led to the barring of Omar Artan, the reigning African referee of the year. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“美国的世界杯晋级前景受到讨论”，暂作为话题线索展示。Ted Lasso will deliver a message of hope before the USA’s first game, in an America that is not a fit or desirable host right now Shortly before 6pm local time on Friday night at the Los Angeles Stadium, the actor who plays Ted Lasso – the fictional manager of a fake team in a falsely heartwarming version of football – will tell hundreds of millions of TV viewers tuning in to watch the start of the American leg of the Fifa World Cup that football unites the world.",
-    "summary_zh": "Ted Lasso will deliver a message of hope before the USA’s first game, in an America that is not a fit or desirable host right now Shortly before 6pm local time on Friday night at the Los Angeles Stadium, the actor who plays Ted Lasso – the fictional manager of a fake team in a falsely heartwarming version of football – will tell hundreds of millions of TV viewers tuning in to watch the start of the American leg of the Fifa World Cup that football unites the world.",
-    "heat_score": 42,
-    "related_matches": [],
-    "related_teams": [
-      "美国"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Welcome to Trump’s World Cup, a depressingly angry version of football uniting the planet | Barney Ronay",
-        "summary": "Ted Lasso will deliver a message of hope before the USA’s first game, in an America that is not a fit or desirable host right now Shortly before 6pm local time on Friday night at the Los Angeles Stadium, the actor who plays Ted Lasso – the fictional manager of a fake team in a falsely heartwarming version of football – will tell hundreds of millions of TV viewers tuning in to watch the start of the American leg of the Fifa World Cup that football unites the world. In an interesting twist, the actor Jason Sudeikis will do this at a time when the World Cup host is simultaneously bombing the second-ranked country in Group G, having recently murdered its head of state. The message of unity is one likely to be heard by the US president, Donald Trump, who has initiated six military conflicts in his second term, and whose brutally divisive immigration policies have now led to the barring of Omar Artan, the reigning African referee of the year. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jun/11/donald-trump-world-cup-ted-lasso-usa",
-        "published_at": "2026-06-11T12:44:08.000Z",
-        "fetched_at": "2026-06-12T10:50:16.351Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-11T12:44:08.000Z",
-    "source_count_score": 26,
-    "recency_score": 45,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_fallback_odds_prediction_final_power_rankings_before",
     "topic_key": "odds_prediction::final_power_rankings_before",
     "issue_type": "general",
@@ -3714,6 +4144,63 @@
     "included_in_frontend": true
   },
   {
+    "topic_id": "topic_fallback_美国_general_discussion_welcome_trump_depressingly_angry",
+    "topic_key": "美国::general_discussion::welcome_trump_depressingly_angry",
+    "issue_type": "fans_atmosphere",
+    "topic_title": "美国的世界杯晋级前景受到讨论",
+    "lead_source_title": "Welcome to Trump’s World Cup, a depressingly angry version of football uniting the planet | Barney Ronay",
+    "lead_source_summary": "Ted Lasso will deliver a message of hope before the USA’s first game, in an America that is not a fit or desirable host right now Shortly before 6pm local time on Friday night at the Los Angeles Stadium, the actor who plays Ted Lasso – the fictional manager of a fake team in a falsely heartwarming version of football – will tell hundreds of millions of TV viewers tuning in to watch the start of the American leg of the Fifa World Cup that football unites the world. In an interesting twist, the actor Jason Sudeikis will do this at a time when the World Cup host is simultaneously bombing the second-ranked country in Group G, having recently murdered its head of state. The message of unity is one likely to be heard by the US president, Donald Trump, who has initiated six military conflicts in his second term, and whose brutally divisive immigration policies have now led to the barring of Omar Artan, the reigning African referee of the year. Continue reading...",
+    "topic_summary": "目前仅 1 个海外来源提到“美国的世界杯晋级前景受到讨论”，暂作为话题线索展示。Ted Lasso will deliver a message of hope before the USA’s first game, in an America that is not a fit or desirable host right now Shortly before 6pm local time on Friday night at the Los Angeles Stadium, the actor who plays Ted Lasso – the fictional manager of a fake team in a falsely heartwarming version of football – will tell hundreds of millions of TV viewers tuning in to watch the start of the American leg of the Fifa World Cup that football unites the world.",
+    "summary_zh": "Ted Lasso will deliver a message of hope before the USA’s first game, in an America that is not a fit or desirable host right now Shortly before 6pm local time on Friday night at the Los Angeles Stadium, the actor who plays Ted Lasso – the fictional manager of a fake team in a falsely heartwarming version of football – will tell hundreds of millions of TV viewers tuning in to watch the start of the American leg of the Fifa World Cup that football unites the world.",
+    "heat_score": 40,
+    "related_matches": [],
+    "related_teams": [
+      "美国"
+    ],
+    "related_players": [],
+    "regions": [
+      "欧洲"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "The Guardian Football"
+    ],
+    "sources": [
+      {
+        "source_id": "media_guardian_football",
+        "source_name": "The Guardian Football",
+        "title": "Welcome to Trump’s World Cup, a depressingly angry version of football uniting the planet | Barney Ronay",
+        "summary": "Ted Lasso will deliver a message of hope before the USA’s first game, in an America that is not a fit or desirable host right now Shortly before 6pm local time on Friday night at the Los Angeles Stadium, the actor who plays Ted Lasso – the fictional manager of a fake team in a falsely heartwarming version of football – will tell hundreds of millions of TV viewers tuning in to watch the start of the American leg of the Fifa World Cup that football unites the world. In an interesting twist, the actor Jason Sudeikis will do this at a time when the World Cup host is simultaneously bombing the second-ranked country in Group G, having recently murdered its head of state. The message of unity is one likely to be heard by the US president, Donald Trump, who has initiated six military conflicts in his second term, and whose brutally divisive immigration policies have now led to the barring of Omar Artan, the reigning African referee of the year. Continue reading...",
+        "url": "https://www.theguardian.com/football/2026/jun/11/donald-trump-world-cup-ted-lasso-usa",
+        "published_at": "2026-06-11T12:44:08.000Z",
+        "fetched_at": "2026-06-12T14:12:20.196Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-11T12:44:08.000Z",
+    "source_count_score": 26,
+    "recency_score": 36,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
     "topic_id": "topic_fallback_vinicius_junior_political_commentary_arranca_mundial_trump",
     "topic_key": "vinicius junior::political_commentary::arranca_mundial_trump",
     "issue_type": "general",
@@ -3722,7 +4209,7 @@
     "lead_source_summary": "En medio de guerras, protestas... un Mundial es algo diferente. Está muy por encima de lo terrenal y más cuando España llega como una de las favoritas.",
     "topic_summary": "目前仅 1 个海外来源提到“西媒关注世界杯在特朗普政治语境下开幕”，暂作为话题线索展示。该线索以评论视角讨论世界杯开幕与美国国内外政治环境的交织。",
     "summary_zh": "该线索以评论视角讨论世界杯开幕与美国国内外政治环境的交织。",
-    "heat_score": 38,
+    "heat_score": 36,
     "related_matches": [],
     "related_teams": [
       "巴西",
@@ -3771,7 +4258,7 @@
     ],
     "last_updated": "2026-06-11T06:21:47.693Z",
     "source_count_score": 26,
-    "recency_score": 29,
+    "recency_score": 20,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 70,
@@ -3789,7 +4276,7 @@
     "lead_source_summary": "Capaz de ver seis partidos en un día, empezó a estudiar el curso cuando se fue a Manchester. Le encanta embarcarse en proyectos solidarios",
     "topic_summary": "目前仅 1 个海外来源提到“埃里克·加西亚自称从16岁起就在为未来执教做准备”，暂作为话题线索展示。该线索聚焦西班牙国脚埃里克·加西亚的成长经历与职业规划。",
     "summary_zh": "该线索聚焦西班牙国脚埃里克·加西亚的成长经历与职业规划。",
-    "heat_score": 36,
+    "heat_score": 34,
     "related_matches": [],
     "related_teams": [],
     "related_players": [
@@ -3830,7 +4317,7 @@
     ],
     "last_updated": "2026-06-11T06:21:47.693Z",
     "source_count_score": 26,
-    "recency_score": 29,
+    "recency_score": 20,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 42,
@@ -3848,7 +4335,7 @@
     "lead_source_summary": "",
     "topic_summary": "目前仅 1 个海外来源提到“皮门塔希望借世界杯舞台推高旗下新星身价”，暂作为话题线索展示。该线索聚焦经纪人皮门塔如何借世界杯为球员制造市场关注。",
     "summary_zh": "该线索聚焦经纪人皮门塔如何借世界杯为球员制造市场关注。",
-    "heat_score": 36,
+    "heat_score": 34,
     "related_matches": [],
     "related_teams": [],
     "related_players": [],
@@ -3887,7 +4374,7 @@
     ],
     "last_updated": "2026-06-11T06:21:47.694Z",
     "source_count_score": 26,
-    "recency_score": 29,
+    "recency_score": 20,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 42,
@@ -3905,7 +4392,7 @@
     "lead_source_summary": "",
     "topic_summary": "目前仅 1 个海外来源提到“西媒称西班牙在气势上先赢了荷兰和德国”，暂作为话题线索展示。该线索以评论角度讨论西班牙在世界杯开赛前的心理与舆论优势。",
     "summary_zh": "该线索以评论角度讨论西班牙在世界杯开赛前的心理与舆论优势。",
-    "heat_score": 36,
+    "heat_score": 34,
     "related_matches": [],
     "related_teams": [],
     "related_players": [],
@@ -3942,7 +4429,7 @@
     "topic_phrases": [],
     "last_updated": "2026-06-11T06:21:47.695Z",
     "source_count_score": 26,
-    "recency_score": 29,
+    "recency_score": 20,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 42,
@@ -3960,7 +4447,7 @@
     "lead_source_summary": "",
     "topic_summary": "目前仅 1 个海外来源提到“莫拉塔在世界杯前仍是西班牙锋线焦点人物”，暂作为话题线索展示。该线索围绕莫拉塔在西班牙队中的角色与期待展开。",
     "summary_zh": "该线索围绕莫拉塔在西班牙队中的角色与期待展开。",
-    "heat_score": 36,
+    "heat_score": 34,
     "related_matches": [],
     "related_teams": [],
     "related_players": [],
@@ -3997,7 +4484,7 @@
     "topic_phrases": [],
     "last_updated": "2026-06-11T06:21:47.697Z",
     "source_count_score": 26,
-    "recency_score": 29,
+    "recency_score": 20,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 42,
@@ -4229,7 +4716,7 @@
         "summary": "Questioned in France but championed from afar, the departing head coach has forged a legacy that no one – bar, perhaps, himself – would dare dispute Follow the verdant path towards the Château de Clairefontaine and you are met by a three-metre replica of the World Cup trophy accompanied by two stars, representing France’s World Cup triumphs. Didier Deschamps had his hand in both of them, captaining his side to victory in 1998 before repeating the feat as manager in 2018. The ‘98 World Cup final was France’s first ever but Les Bleus have now participated in four of the last seven end games, with Deschamps involved in three of them. In North America, he will have one final shot at reaching another. These are the expectations, moulded by past success. Deschamps has taken France to three major finals in his 14-year stint as manager. “We’re among the favourites,” he says as he sits down for the interview. “It isn’t a taboo word for me. If we have this status today, which seems logical and legitimate to me, it’s because of everything that we have done, the results we achieved.” Continue reading...",
         "url": "https://www.theguardian.com/football/2026/jun/09/didier-deschamps-france-world-cup-kylian-mbappe",
         "published_at": "2026-06-09T19:00:02.000Z",
-        "fetched_at": "2026-06-12T10:50:16.351Z",
+        "fetched_at": "2026-06-12T14:12:20.196Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -5125,6 +5612,63 @@
     "included_in_frontend": true
   },
   {
+    "topic_id": "topic_fallback_odds_prediction_early_shocks_sutton_score",
+    "topic_key": "odds_prediction::early_shocks_sutton_score",
+    "issue_type": "general",
+    "topic_title": "海外媒体正在重新评估本届世界杯争冠前景",
+    "lead_source_title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
+    "lead_source_summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup.",
+    "topic_summary": "目前仅 1 个海外来源提到“海外媒体正在重新评估本届世界杯争冠前景”，暂作为话题线索展示。该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
+    "summary_zh": "该线索主要来自海外媒体对夺冠前景、赔率与冷门风险的赛前判断。",
+    "heat_score": 31,
+    "related_matches": [],
+    "related_teams": [],
+    "related_players": [],
+    "regions": [
+      "欧洲"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "BBC Sport Football"
+    ],
+    "sources": [
+      {
+        "source_id": "media_bbc_sport_football",
+        "source_name": "BBC Sport Football",
+        "title": "Any early shocks? Sutton's World Cup 2026 score predictions - opening group games",
+        "summary": "BBC Sport's football expert Chris Sutton gives his predictions for the scores of the first round of group games at the 2026 World Cup.",
+        "url": "https://www.bbc.com/sport/football/articles/cvgdxg2v5d7o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-06-10T17:25:38.000Z",
+        "fetched_at": "2026-06-12T14:12:19.858Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "赛前赔率与预测"
+    ],
+    "last_updated": "2026-06-10T17:25:38.000Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 42,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
     "topic_id": "topic_fallback_bracketology_general_discussion_bracketology_predict_path_victory",
     "topic_key": "bracketology::general_discussion::bracketology_predict_path_victory",
     "issue_type": "qualification_race",
@@ -5156,7 +5700,7 @@
         "summary": "Click your way through the group stage and the knockouts to crown champion Continue reading...",
         "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/bracketology-predict-a-path-to-world-cup-victory",
         "published_at": "2026-06-04T10:00:48.000Z",
-        "fetched_at": "2026-06-12T10:50:16.351Z",
+        "fetched_at": "2026-06-12T14:12:20.196Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
