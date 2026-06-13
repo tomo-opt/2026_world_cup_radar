@@ -116,7 +116,7 @@ function buildRawItem(
     canonical_url: sanitizeUrl(input.url, source.homepage_url),
     summary: safeSummary(input.summary).slice(0, 360),
     content_text: safeSummary(input.content_text).slice(0, 1400),
-    published_at: input.published_at ?? fetchedAt,
+    published_at: input.published_at ?? '',
     fetched_at: fetchedAt,
     platform: source.source_type,
     crawl_strategy: source.crawl_strategy,
@@ -531,11 +531,11 @@ export async function fetchHtmlListSources(): Promise<{ rawItems: RawItem[]; sta
 
         if (!homepageHtml) homepageHtml = html;
         const reference = extractPageReference(source, html, pageUrl);
-        if (reference) {
-          attempted.add('og_meta');
-          collected.push(reference);
+        if (reference && isReferenceOnlySource) {
+        attempted.add('og_meta');
+        collected.push(reference);
         }
-
+    
         if (isReferenceOnlySource) {
           continue;
         }
@@ -577,7 +577,24 @@ export async function fetchHtmlListSources(): Promise<{ rawItems: RawItem[]; sta
       ).slice(0, source.max_items_per_source);
 
       const enriched = await enrichTopItems(deduped);
-      const validItems = dedupeByUrl(enriched).filter((item) => item.title && item.url).slice(0, source.max_items_per_source);
+      const validItems = dedupeByUrl(enriched)
+        .filter((item) => item.title && item.url)
+        .filter((item) => {
+          const text = `${item.title} ${item.summary} ${item.url}`.toLowerCase();
+
+          if (item.item_type === 'page_reference' && !isReferenceOnlySource) return false;
+
+          if (
+            /live commentary|live score|scores-fixtures|fixtures|schedule|how to watch|watch guide|tv channel|standings|bracket|en vivo y directo|sigue el partido/.test(
+              text,
+            )
+          ) {
+            return false;
+          }
+
+          return true;
+        })
+        .slice(0, source.max_items_per_source);
 
       const finalStatus: SourceStatus = {
         ...status,
