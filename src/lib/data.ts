@@ -8,10 +8,14 @@ function withBase(path: string): string {
 }
 
 async function loadJson<T>(path: string): Promise<T> {
-  const response = await fetch(withBase(path));
+  const response = await fetch(withBase(path), {
+    cache: 'no-store',
+  });
+
   if (!response.ok) {
-    throw new Error(`Failed to load ${path}`);
+    throw new Error(`Failed to load ${withBase(path)}`);
   }
+
   return response.json() as Promise<T>;
 }
 
