@@ -583,7 +583,7 @@
     "content_text": "",
     "url": "https://www.theguardian.com/football/2026/jun/13/rodrygo-world-cup-injury-support-brazil",
     "published_at": "2026-06-13T04:00:04.000Z",
-    "fetched_at": "2026-06-13T08:38:54.883Z",
+    "fetched_at": "2026-06-13T11:21:16.988Z",
     "language": "en",
     "raw_region": "UK / Global",
     "ui_region": "欧洲",
@@ -638,6 +638,93 @@
       "evidence_basis": "title_and_summary"
     },
     "event_fingerprint": "巴西::logistics_issue::赛事组织::世界杯",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_152",
+    "raw_id": "media_guardian_football_usa-blast-out-of-the-blocks-and-canada-get-first-ever-point-_19",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "source_type": "media",
+    "title": "USA blast out of the blocks and Canada get first ever point | World Cup Daily",
+    "normalized_title": "usa blast out of the blocks and canada get first ever point world cup daily",
+    "summary": "On the podcast today: the USA … might actually be very good? They blew Paraguay away in their opening game in LA. Christian Pulisic, we owe you a huge apology. Elsewhere; Canada come back to draw with Bosnia and Herzegovina, an inspired triple substitution from Jesse Marsch turning things around, and if not for some brilliant Bosnian blocks they should have won it. Plus, a preview of the next batch of games including Haiti v Scotland, the developing domestic bliss between Max and Barry, and your questions answered. Continue reading...",
+    "content_text": "",
+    "url": "https://www.theguardian.com/football/video/2026/jun/13/usa-blast-out-of-the-blocks-and-canada-get-first-ever-point-world-cup-daily",
+    "published_at": "2026-06-13T07:33:32.000Z",
+    "fetched_at": "2026-06-13T11:21:16.988Z",
+    "language": "en",
+    "raw_region": "UK / Global",
+    "ui_region": "欧洲",
+    "matched_teams": [
+      "加拿大",
+      "波黑",
+      "海地",
+      "苏格兰",
+      "美国",
+      "巴拉圭"
+    ],
+    "matched_players": [
+      "Christian Pulisic"
+    ],
+    "matched_matches": [
+      "M003",
+      "M004",
+      "M007"
+    ],
+    "topic_terms": [
+      "pre_match_storylines"
+    ],
+    "topic_labels_zh": [
+      "赛前看点"
+    ],
+    "topic_labels_en": [
+      "pre-match storylines"
+    ],
+    "sports_context_score": 60,
+    "entity_match_score": 100,
+    "trend_bonus": 0,
+    "excluded_reason": "podcast",
+    "crawl_strategy": "rss",
+    "crawl_mode": "rss",
+    "data_origin": "live",
+    "extraction_level": "title_and_summary",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_152",
+      "source_id": "media_guardian_football",
+      "original_title": "USA blast out of the blocks and Canada get first ever point | World Cup Daily",
+      "original_summary": "On the podcast today: the USA … might actually be very good? They blew Paraguay away in their opening game in LA. Christian Pulisic, we owe you a huge apology. Elsewhere; Canada come back to draw with Bosnia and Herzegovina, an inspired triple substitution from Jesse Marsch turning things around, and if not for some brilliant Bosnian blocks they should have won it. Plus, a preview of the next batch of games including Haiti v Scotland, the developing domestic bliss between Max and Barry, and your questions answered. Continue reading...",
+      "public_text_excerpt": "",
+      "subject": "Christian Pulisic",
+      "action": "schedule_guide",
+      "object": "波黑队赛程与观赛信息",
+      "context": "加拿大 vs 波黑",
+      "issue_type": "pre_match_storylines",
+      "teams": [
+        "加拿大",
+        "波黑",
+        "海地",
+        "苏格兰",
+        "美国",
+        "巴拉圭"
+      ],
+      "players": [
+        "Christian Pulisic"
+      ],
+      "venues": [],
+      "match_ids": [
+        "M003",
+        "M004",
+        "M007"
+      ],
+      "candidate_event_title_zh": "波黑队世界杯赛程与观赛信息汇总",
+      "candidate_summary_zh": "该线索整理波黑队在本届世界杯的赛程、对手与观赛信息。",
+      "event_fingerprint": "christian_pulisic::schedule_guide::波黑队赛程与观赛信息::加拿大_vs_波黑",
+      "confidence": "medium",
+      "evidence_basis": "title_and_summary"
+    },
+    "event_fingerprint": "christian_pulisic::schedule_guide::波黑队赛程与观赛信息::加拿大_vs_波黑",
     "low_confidence_reason": null
   },
   {
@@ -1021,7 +1108,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_472",
+    "item_id": "norm_473",
     "raw_id": "forum_reddit_football_post-match-thread-korea-republic-2-1-czech-republic-world-cu_4",
     "source_id": "forum_reddit_football",
     "source_name": "Reddit r/football",
@@ -1057,7 +1144,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_472",
+      "item_id": "norm_473",
       "source_id": "forum_reddit_football",
       "original_title": "Post-Match Thread: Korea Republic 2-1 Czech Republic | World Cup | Group A",
       "original_summary": "Korea Republic 2-1 Czech Republic — MatchPal post-match thread This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
@@ -1086,31 +1173,33 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_517",
-    "raw_id": "social_mastodon_fifaworldcup_item_5",
-    "source_id": "social_mastodon_fifaworldcup",
-    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "item_id": "norm_499",
+    "raw_id": "social_mastodon_worldcup_item_5",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
     "source_type": "open_social",
     "title": "Untitled item",
     "normalized_title": "untitled item",
-    "summary": "#FIFAWorldCup jde do svého třetího hracího dne. 🏆⚽️ Poprvé do akce jde Haiti. 🇭🇹 Proti němu bude stát Skotsko, ke kterému má blízko i trojice expertů. Předzápasové studio startuje na Nova Action a Oneplay ve 2:15. 📺 #NovaSport | #NovaAction",
+    "summary": "BBC Alba: Ochd Bliadhna Fichead ⚽️ EP 3 - Tadhal | BBC ALBA Tha Eòghann MacEunraig agus Robaidh Mac ‘Illebhàin a’ tadhal air Calum MacIlleathain agus Hannah McKirdy 'son sùil spòrsail a thoirt air Cupa na Cruinne 2026. 00:00 EP 3 00:50 Rud as fhèarr 5:02 Seona ann am Boston 11:43 Beachd a choin 14:33 Alba an aghaidh Haiti 25:55 Cairtean 32:24 A chiad geam 36:34 Cà bheil sibh coimhead 40:23 Keepy-uppies #BBCALBA #Football #WorldCup #Gaelic Làrach-lìn a ' phrògram 👉 https://www.bbc.co.uk/programmes/m002xsl8 Fo-Sgrìobh gu BBC ALBA agus brùth air a' 🔔 👉 https://bit.ly/BBCALBAsubscribe Faic seo agus barrachd air BBC iPlayer 👉 https://bbc.co.uk/tv/bbcalba ---------- Lean sinn air sòisealtan eile 🔍 Instagram: https://instagram.com/bbc.alba TikTok: https://www.tiktok.com/@‌‌bbc.alba Facebook: https://facebook.com/bbcalba X: https://twitter.com/bbcalba Coimhead air: https://www.youtube.com/watch?v=79x_d_biDyU",
     "content_text": "",
-    "url": "https://zpravobot.news/@novasport_cz/116741631876734742",
-    "published_at": "2026-06-13T07:32:15.000Z",
-    "fetched_at": "2026-06-13T08:38:56.910Z",
+    "url": "https://ailbhean.co-shaoghal.net/@youtube/116742394434759957",
+    "published_at": "2026-06-13T10:46:11.000Z",
+    "fetched_at": "2026-06-13T11:21:19.244Z",
     "language": "multi",
     "raw_region": "Global / open social",
     "ui_region": "全球/英语圈",
     "matched_teams": [
       "海地"
     ],
-    "matched_players": [],
+    "matched_players": [
+      "Son Heung-min"
+    ],
     "matched_matches": [],
     "topic_terms": [],
     "topic_labels_zh": [],
     "topic_labels_en": [],
     "sports_context_score": 36,
-    "entity_match_score": 22,
+    "entity_match_score": 54,
     "trend_bonus": 0,
     "excluded_reason": null,
     "crawl_strategy": "rss",
@@ -1119,12 +1208,12 @@
     "extraction_level": "title_and_summary",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_517",
-      "source_id": "social_mastodon_fifaworldcup",
+      "item_id": "norm_499",
+      "source_id": "social_mastodon_worldcup",
       "original_title": "Untitled item",
-      "original_summary": "#FIFAWorldCup jde do svého třetího hracího dne. 🏆⚽️ Poprvé do akce jde Haiti. 🇭🇹 Proti němu bude stát Skotsko, ke kterému má blízko i trojice expertů. Předzápasové studio startuje na Nova Action a Oneplay ve 2:15. 📺 #NovaSport | #NovaAction",
+      "original_summary": "BBC Alba: Ochd Bliadhna Fichead ⚽️ EP 3 - Tadhal | BBC ALBA Tha Eòghann MacEunraig agus Robaidh Mac ‘Illebhàin a’ tadhal air Calum MacIlleathain agus Hannah McKirdy 'son sùil spòrsail a thoirt air Cupa na Cruinne 2026. 00:00 EP 3 00:50 Rud as fhèarr 5:02 Seona ann am Boston 11:43 Beachd a choin 14:33 Alba an aghaidh Haiti 25:55 Cairtean 32:24 A chiad geam 36:34 Cà bheil sibh coimhead 40:23 Keepy-uppies #BBCALBA #Football #WorldCup #Gaelic Làrach-lìn a ' phrògram 👉 https://www.bbc.co.uk/programmes/m002xsl8 Fo-Sgrìobh gu BBC ALBA agus brùth air a' 🔔 👉 https://bit.ly/BBCALBAsubscribe Faic seo agus barrachd air BBC iPlayer 👉 https://bbc.co.uk/tv/bbcalba ---------- Lean sinn air sòisealtan eile 🔍 Instagram: https://instagram.com/bbc.alba TikTok: https://www.tiktok.com/@‌‌bbc.alba Facebook: https://facebook.com/bbcalba X: https://twitter.com/bbcalba Coimhead air: https://www.youtube.com/watch?v=79x_d_biDyU",
       "public_text_excerpt": "",
-      "subject": "海地",
+      "subject": "Son Heung-min",
       "action": "kit_issue",
       "object": "球衣图案争议",
       "context": "世界杯",
@@ -1132,21 +1221,23 @@
       "teams": [
         "海地"
       ],
-      "players": [],
+      "players": [
+        "Son Heung-min"
+      ],
       "venues": [],
       "match_ids": [],
       "candidate_event_title_zh": "海地队因球衣图案涉政治含义被要求赛前紧急换装",
       "candidate_summary_zh": "该线索围绕海地队世界杯球衣因被视为政治表达而被临时要求修改。",
-      "event_fingerprint": "海地::kit_issue::球衣图案争议::世界杯",
+      "event_fingerprint": "son_heung-min::kit_issue::球衣图案争议::世界杯",
       "confidence": "medium",
       "evidence_basis": "title_and_summary"
     },
-    "event_fingerprint": "海地::kit_issue::球衣图案争议::世界杯",
+    "event_fingerprint": "son_heung-min::kit_issue::球衣图案争议::世界杯",
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_539",
-    "raw_id": "social_mastodon_worldcup2026_item_8",
+    "item_id": "norm_550",
+    "raw_id": "social_mastodon_worldcup2026_item_17",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "source_type": "open_social",
@@ -1156,7 +1247,7 @@
     "content_text": "",
     "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/entertainment/video-games/video-games-news/scotland-haiti-world-cup-simulated-37284299",
     "published_at": "2026-06-13T04:01:00.000Z",
-    "fetched_at": "2026-06-13T08:38:57.161Z",
+    "fetched_at": "2026-06-13T11:21:20.379Z",
     "language": "multi",
     "raw_region": "Global / open social",
     "ui_region": "全球/英语圈",
@@ -1183,7 +1274,7 @@
     "extraction_level": "title_and_summary",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_539",
+      "item_id": "norm_550",
       "source_id": "social_mastodon_worldcup2026",
       "original_title": "Untitled item",
       "original_summary": "McTominay strikes, Gunn's clean sheet - Scotland's dream World Cup start v Haiti https://fed.brid.gy/r/https://www.dailyrecord.co.uk/entertainment/video-games/video-games-news/scotland-haiti-world-cup-simulated-37284299",
@@ -1214,34 +1305,33 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_543",
-    "raw_id": "social_mastodon_worldcup2026_item_12",
-    "source_id": "social_mastodon_worldcup2026",
-    "source_name": "Mastodon hashtag #WorldCup2026",
+    "item_id": "norm_555",
+    "raw_id": "social_mastodon_football_item_2",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
     "source_type": "open_social",
     "title": "Untitled item",
     "normalized_title": "untitled item",
-    "summary": "Haiti smashed four past my team in World Cup warm up - here's how Scotland can beat them https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/haiti-smashed-four-past-team-37288308",
+    "summary": "BBC Alba: Ochd Bliadhna Fichead ⚽️ EP 3 - Tadhal | BBC ALBA Tha Eòghann MacEunraig agus Robaidh Mac ‘Illebhàin a’ tadhal air Calum MacIlleathain agus Hannah McKirdy 'son sùil spòrsail a thoirt air Cupa na Cruinne 2026. 00:00 EP 3 00:50 Rud as fhèarr 5:02 Seona ann am Boston 11:43 Beachd a choin 14:33 Alba an aghaidh Haiti 25:55 Cairtean 32:24 A chiad geam 36:34 Cà bheil sibh coimhead 40:23 Keepy-uppies #BBCALBA #Football #WorldCup #Gaelic Làrach-lìn a ' phrògram 👉 https://www.bbc.co.uk/programmes/m002xsl8 Fo-Sgrìobh gu BBC ALBA agus brùth air a' 🔔 👉 https://bit.ly/BBCALBAsubscribe Faic seo agus barrachd air BBC iPlayer 👉 https://bbc.co.uk/tv/bbcalba ---------- Lean sinn air sòisealtan eile 🔍 Instagram: https://instagram.com/bbc.alba TikTok: https://www.tiktok.com/@‌‌bbc.alba Facebook: https://facebook.com/bbcalba X: https://twitter.com/bbcalba Coimhead air: https://www.youtube.com/watch?v=79x_d_biDyU",
     "content_text": "",
-    "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/haiti-smashed-four-past-team-37288308",
-    "published_at": "2026-06-13T05:00:00.000Z",
-    "fetched_at": "2026-06-13T08:38:57.161Z",
+    "url": "https://ailbhean.co-shaoghal.net/@youtube/116742394434759957",
+    "published_at": "2026-06-13T10:46:11.000Z",
+    "fetched_at": "2026-06-13T11:21:20.734Z",
     "language": "multi",
     "raw_region": "Global / open social",
     "ui_region": "全球/英语圈",
     "matched_teams": [
-      "海地",
-      "苏格兰"
+      "海地"
     ],
-    "matched_players": [],
-    "matched_matches": [
-      "M007"
+    "matched_players": [
+      "Son Heung-min"
     ],
+    "matched_matches": [],
     "topic_terms": [],
     "topic_labels_zh": [],
     "topic_labels_en": [],
     "sports_context_score": 36,
-    "entity_match_score": 82,
+    "entity_match_score": 54,
     "trend_bonus": 0,
     "excluded_reason": null,
     "crawl_strategy": "rss",
@@ -1250,60 +1340,133 @@
     "extraction_level": "title_and_summary",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_543",
-      "source_id": "social_mastodon_worldcup2026",
+      "item_id": "norm_555",
+      "source_id": "social_mastodon_football",
       "original_title": "Untitled item",
-      "original_summary": "Haiti smashed four past my team in World Cup warm up - here's how Scotland can beat them https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/haiti-smashed-four-past-team-37288308",
+      "original_summary": "BBC Alba: Ochd Bliadhna Fichead ⚽️ EP 3 - Tadhal | BBC ALBA Tha Eòghann MacEunraig agus Robaidh Mac ‘Illebhàin a’ tadhal air Calum MacIlleathain agus Hannah McKirdy 'son sùil spòrsail a thoirt air Cupa na Cruinne 2026. 00:00 EP 3 00:50 Rud as fhèarr 5:02 Seona ann am Boston 11:43 Beachd a choin 14:33 Alba an aghaidh Haiti 25:55 Cairtean 32:24 A chiad geam 36:34 Cà bheil sibh coimhead 40:23 Keepy-uppies #BBCALBA #Football #WorldCup #Gaelic Làrach-lìn a ' phrògram 👉 https://www.bbc.co.uk/programmes/m002xsl8 Fo-Sgrìobh gu BBC ALBA agus brùth air a' 🔔 👉 https://bit.ly/BBCALBAsubscribe Faic seo agus barrachd air BBC iPlayer 👉 https://bbc.co.uk/tv/bbcalba ---------- Lean sinn air sòisealtan eile 🔍 Instagram: https://instagram.com/bbc.alba TikTok: https://www.tiktok.com/@‌‌bbc.alba Facebook: https://facebook.com/bbcalba X: https://twitter.com/bbcalba Coimhead air: https://www.youtube.com/watch?v=79x_d_biDyU",
       "public_text_excerpt": "",
-      "subject": "海地",
+      "subject": "Son Heung-min",
       "action": "kit_issue",
       "object": "球衣图案争议",
-      "context": "海地 vs 苏格兰",
+      "context": "世界杯",
       "issue_type": "general",
       "teams": [
-        "海地",
-        "苏格兰"
+        "海地"
       ],
-      "players": [],
+      "players": [
+        "Son Heung-min"
+      ],
       "venues": [],
-      "match_ids": [
-        "M007"
-      ],
+      "match_ids": [],
       "candidate_event_title_zh": "海地队因球衣图案涉政治含义被要求赛前紧急换装",
       "candidate_summary_zh": "该线索围绕海地队世界杯球衣因被视为政治表达而被临时要求修改。",
-      "event_fingerprint": "海地::kit_issue::球衣图案争议::海地_vs_苏格兰",
+      "event_fingerprint": "son_heung-min::kit_issue::球衣图案争议::世界杯",
       "confidence": "medium",
       "evidence_basis": "title_and_summary"
     },
-    "event_fingerprint": "海地::kit_issue::球衣图案争议::海地_vs_苏格兰",
+    "event_fingerprint": "son_heung-min::kit_issue::球衣图案争议::世界杯",
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_548",
-    "raw_id": "social_mastodon_worldcup2026_item_17",
-    "source_id": "social_mastodon_worldcup2026",
-    "source_name": "Mastodon hashtag #WorldCup2026",
+    "item_id": "norm_568",
+    "raw_id": "social_mastodon_football_item_15",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
     "source_type": "open_social",
     "title": "Untitled item",
     "normalized_title": "untitled item",
-    "summary": "Paraguay Fall 4-1 to USA as World Cup 2026 Opens for North American Hosts The 2026 World Cup’s North American co-hosts seized the spotlight Friday, as the United States overwhelmed Paraguay 4-1 behind a Folarin Balogun brace and, earlier in the day, Canada rallied for a 1-1 draw with Bosnia and Herzegovina to claim the first World Cup point in their history. For Latin America, the night belonged to […] The post Paraguay [...] #News #Sport #Sports #Sports #WorldCup2026 https://ticotimes.net/2026/06/12/paraguay-fall-4-1-to-usa-as-world-cup-2026-opens-for-north-american-hosts",
+    "summary": "🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽️The England national team had their football boots and almost all of their balls stolen at the World Cup ➡️According to the Daily Mail, a van transporting the athletes' belongings from Florida to Kansas City also lost training equipment. The footballers are left with only one ball, and there are just five days until their first game. ➡️Security services believe that local drivers may be involved in the theft. The police have arrested one suspect. #US #Football 🔘 Subscribe now! Chat",
     "content_text": "",
-    "url": "https://bots.fedi.cr/@the_tico_times/116741184394656714",
-    "published_at": "2026-06-13T05:38:29.000Z",
-    "fetched_at": "2026-06-13T08:38:57.161Z",
+    "url": "https://mastodon.london/@exinuv/116742198541512583",
+    "published_at": "2026-06-13T09:56:22.000Z",
+    "fetched_at": "2026-06-13T11:21:20.734Z",
     "language": "multi",
     "raw_region": "Global / open social",
     "ui_region": "全球/英语圈",
     "matched_teams": [
-      "加拿大",
-      "波黑",
       "美国",
-      "巴拉圭"
+      "英格兰"
+    ],
+    "matched_players": [],
+    "matched_matches": [],
+    "topic_terms": [
+      "injury_training",
+      "event_operations"
+    ],
+    "topic_labels_zh": [
+      "伤病与训练情况",
+      "赛事组织与场外事件"
+    ],
+    "topic_labels_en": [
+      "injury and training",
+      "event operations and off-field issues"
+    ],
+    "sports_context_score": 84,
+    "entity_match_score": 44,
+    "trend_bonus": 0,
+    "excluded_reason": "subscribe",
+    "crawl_strategy": "rss",
+    "crawl_mode": "rss",
+    "data_origin": "live",
+    "extraction_level": "title_and_summary",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_568",
+      "source_id": "social_mastodon_football",
+      "original_title": "Untitled item",
+      "original_summary": "🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽️The England national team had their football boots and almost all of their balls stolen at the World Cup ➡️According to the Daily Mail, a van transporting the athletes' belongings from Florida to Kansas City also lost training equipment. The footballers are left with only one ball, and there are just five days until their first game. ➡️Security services believe that local drivers may be involved in the theft. The police have arrested one suspect. #US #Football 🔘 Subscribe now! Chat",
+      "public_text_excerpt": "",
+      "subject": "美国",
+      "action": "logistics_issue",
+      "object": "赛事组织",
+      "context": "世界杯",
+      "issue_type": "injury_training",
+      "teams": [
+        "美国",
+        "英格兰"
+      ],
+      "players": [],
+      "venues": [],
+      "match_ids": [],
+      "candidate_event_title_zh": "世界杯观赛交通与现场组织成为赛前焦点",
+      "candidate_summary_zh": "该线索围绕交通、安保或观赛组织安排展开。",
+      "event_fingerprint": "美国::logistics_issue::赛事组织::世界杯",
+      "confidence": "medium",
+      "evidence_basis": "title_and_summary"
+    },
+    "event_fingerprint": "美国::logistics_issue::赛事组织::世界杯",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_587",
+    "raw_id": "social_mastodon_soccer_item_15",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "source_type": "open_social",
+    "title": "Untitled item",
+    "normalized_title": "untitled item",
+    "summary": "World Cup predictions: Brazil vs Morocco, Haiti vs Scotland and rest of matchday 3 https://www.nytimes.com/athletic/7340315/2026/06/13/world-cup-predictions-md3/ Who knows more about soccer? Us ‘experts’, you the subscribers, a child, a dog or an algorithm? Come join us to predict each World Cup game #Soccer #Football",
+    "content_text": "",
+    "url": "https://sportsfeed.me/@athletic_af/116741918465346657",
+    "published_at": "2026-06-13T08:45:08.000Z",
+    "fetched_at": "2026-06-13T11:21:21.056Z",
+    "language": "multi",
+    "raw_region": "Global / open social",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [
+      "巴西",
+      "摩洛哥",
+      "海地",
+      "苏格兰"
     ],
     "matched_players": [],
     "matched_matches": [
-      "M003",
-      "M004"
+      "M006",
+      "M007",
+      "M030",
+      "M031",
+      "M051",
+      "M052"
     ],
     "topic_terms": [],
     "topic_labels_zh": [],
@@ -1318,39 +1481,43 @@
     "extraction_level": "title_and_summary",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_548",
-      "source_id": "social_mastodon_worldcup2026",
+      "item_id": "norm_587",
+      "source_id": "social_mastodon_soccer",
       "original_title": "Untitled item",
-      "original_summary": "Paraguay Fall 4-1 to USA as World Cup 2026 Opens for North American Hosts The 2026 World Cup’s North American co-hosts seized the spotlight Friday, as the United States overwhelmed Paraguay 4-1 behind a Folarin Balogun brace and, earlier in the day, Canada rallied for a 1-1 draw with Bosnia and Herzegovina to claim the first World Cup point in their history. For Latin America, the night belonged to […] The post Paraguay [...] #News #Sport #Sports #Sports #WorldCup2026 https://ticotimes.net/2026/06/12/paraguay-fall-4-1-to-usa-as-world-cup-2026-opens-for-north-american-hosts",
+      "original_summary": "World Cup predictions: Brazil vs Morocco, Haiti vs Scotland and rest of matchday 3 https://www.nytimes.com/athletic/7340315/2026/06/13/world-cup-predictions-md3/ Who knows more about soccer? Us ‘experts’, you the subscribers, a child, a dog or an algorithm? Come join us to predict each World Cup game #Soccer #Football",
       "public_text_excerpt": "",
-      "subject": "加拿大",
-      "action": "schedule_guide",
-      "object": "波黑队赛程与观赛信息",
-      "context": "加拿大 vs 波黑",
+      "subject": "巴西",
+      "action": "kit_issue",
+      "object": "球衣图案争议",
+      "context": "巴西 vs 摩洛哥",
       "issue_type": "general",
       "teams": [
-        "加拿大",
-        "波黑",
-        "美国",
-        "巴拉圭"
+        "巴西",
+        "摩洛哥",
+        "海地",
+        "苏格兰"
       ],
       "players": [],
       "venues": [],
       "match_ids": [
-        "M003",
-        "M004"
+        "M006",
+        "M007",
+        "M030",
+        "M031",
+        "M051",
+        "M052"
       ],
-      "candidate_event_title_zh": "波黑队世界杯赛程与观赛信息汇总",
-      "candidate_summary_zh": "该线索整理波黑队在本届世界杯的赛程、对手与观赛信息。",
-      "event_fingerprint": "加拿大::schedule_guide::波黑队赛程与观赛信息::加拿大_vs_波黑",
+      "candidate_event_title_zh": "海地队因球衣图案涉政治含义被要求赛前紧急换装",
+      "candidate_summary_zh": "该线索围绕海地队世界杯球衣因被视为政治表达而被临时要求修改。",
+      "event_fingerprint": "巴西::kit_issue::球衣图案争议::巴西_vs_摩洛哥",
       "confidence": "medium",
       "evidence_basis": "title_and_summary"
     },
-    "event_fingerprint": "加拿大::schedule_guide::波黑队赛程与观赛信息::加拿大_vs_波黑",
+    "event_fingerprint": "巴西::kit_issue::球衣图案争议::巴西_vs_摩洛哥",
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_591",
+    "item_id": "norm_593",
     "raw_id": "media_daily_mail_football_world-cup-breakfast-opening-ceremony-gaffe-match-highlights-_2",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
@@ -1391,7 +1558,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_591",
+      "item_id": "norm_593",
       "source_id": "media_daily_mail_football",
       "original_title": "World Cup Breakfast: The Beckhams cheer on the USA",
       "original_summary": "Hello and welcome to Daily Mail Sport's World Cup Breakfast from day two at the tournament - your one-stop shop for everything you've missed overnight in North America.",
@@ -1419,7 +1586,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_593",
+    "item_id": "norm_595",
     "raw_id": "media_daily_mail_football_fifa-make-desperate-excuse-for-world-cup-empty-seats-embarra_4",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
@@ -1455,7 +1622,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_593",
+      "item_id": "norm_595",
       "source_id": "media_daily_mail_football",
       "original_title": "FIFA makes desperate excuse for World Cup empty seats embarrassment",
       "original_summary": "FIFA have provided a remarkable and bizarre excuse for the embarrassing number of empty seats captured by TV cameras at the World Cup.",
@@ -1484,7 +1651,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_615",
+    "item_id": "norm_617",
     "raw_id": "media_daily_mail_worldcup_world-cup-breakfast-opening-ceremony-gaffe-match-highlights-_0",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
@@ -1525,7 +1692,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_615",
+      "item_id": "norm_617",
       "source_id": "media_daily_mail_worldcup",
       "original_title": "World Cup Breakfast: The Beckhams cheer on the USA",
       "original_summary": "Hello and welcome to Daily Mail Sport's World Cup Breakfast from day two at the tournament - your one-stop shop for everything you've missed overnight in North America.",
@@ -1553,7 +1720,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_648",
+    "item_id": "norm_650",
     "raw_id": "media_fourfourtwo_news_united-states-vs-paraguay-prediction-as-mauricio-pochettino-_16",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -1589,7 +1756,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_648",
+      "item_id": "norm_650",
       "source_id": "media_fourfourtwo_news",
       "original_title": "United States vs Paraguay prediction as Mauricio Pochettino's side aim for winning start on home turf",
       "original_summary": "By Kedar Bayley published 13 June 26",
@@ -1618,7 +1785,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_676",
+    "item_id": "norm_678",
     "raw_id": "media_yahoo_world_cup_1canadacanft1bosnia-and-herzegovinabih_10",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
@@ -1654,7 +1821,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_676",
+      "item_id": "norm_678",
       "source_id": "media_yahoo_world_cup",
       "original_title": "Canada 1 - 1 Bosnia and Herzegovina: Final score, results, recap, box score, stats - Yahoo Sports",
       "original_summary": "Sports News, Scores, Fantasy Games",
@@ -1683,7 +1850,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_680",
+    "item_id": "norm_682",
     "raw_id": "media_yahoo_world_cup_haitihti0-0-0haitihtiscotlandsco0-0-0scotlandscohti-1o/u-2-5_14",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
@@ -1719,7 +1886,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_680",
+      "item_id": "norm_682",
       "source_id": "media_yahoo_world_cup",
       "original_title": "HaitiHTI0-0-0HaitiHTIScotlandSCO0-0-0ScotlandSCOHTI +1O/U 2.5",
       "original_summary": "",
@@ -1748,7 +1915,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_723",
+    "item_id": "norm_725",
     "raw_id": "media_si_world_cup_canada-vs-bosnia-and-herzegovina-world-cup-live-score-and-ma_32",
     "source_id": "media_si_world_cup",
     "source_name": "Sports Illustrated World Cup Page",
@@ -1784,7 +1951,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_723",
+      "item_id": "norm_725",
       "source_id": "media_si_world_cup",
       "original_title": "Canada vs. Bosnia and Herzegovina—World Cup: Live Score and Match Stats for Group B Clash",
       "original_summary": "",
@@ -1813,7 +1980,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_743",
+    "item_id": "norm_745",
     "raw_id": "media_nbc_sports_world_cup_canada-1-1-bosnia-and-herzegovina-world-cup-hosts-saved-by-c_80",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
@@ -1849,7 +2016,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_743",
+      "item_id": "norm_745",
       "source_id": "media_nbc_sports_world_cup",
       "original_title": "Canada 1-1 Bosnia and Herzegovina: World Cup hosts saved by Cyle Larin’s late equalizer",
       "original_summary": "",
@@ -1878,7 +2045,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_744",
+    "item_id": "norm_746",
     "raw_id": "media_nbc_sports_world_cup_bosnia-and-herzegovina_28",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
@@ -1911,7 +2078,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_744",
+      "item_id": "norm_746",
       "source_id": "media_nbc_sports_world_cup",
       "original_title": "Bosnia and Herzegovina",
       "original_summary": "",
@@ -1937,7 +2104,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_753",
+    "item_id": "norm_755",
     "raw_id": "media_goal_world_cup_haiti-vs-scotland-stream-tv-channels-where-to-watch_17",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -1980,7 +2147,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_753",
+      "item_id": "norm_755",
       "source_id": "media_goal_world_cup",
       "original_title": "Haiti vs Scotland live stream, TV channel & kick-off time | World Cup 2026 | Goal.com US",
       "original_summary": "Find out how to watch Haiti vs Scotland at the 2026 World Cup. Full TV channel and live stream options, kick-off time, team news, and Group C standings.",
@@ -2010,7 +2177,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_760",
+    "item_id": "norm_762",
     "raw_id": "media_goal_world_cup_canada-vs-bosnia-and-herzegovina-stream-tv-channels-where-to_45",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -2046,7 +2213,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_760",
+      "item_id": "norm_762",
       "source_id": "media_goal_world_cup",
       "original_title": "Canada vs Bosnia and Herzegovina: Stream, TV channels & where to watch",
       "original_summary": "How to watch the World Cup match between Canada and Bosnia and Herzegovina, as well as kick-off time and team news",
@@ -2075,7 +2242,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_761",
+    "item_id": "norm_763",
     "raw_id": "media_goal_world_cup_canada-vs-bosnia-and-herzegovina_47",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -2111,7 +2278,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_761",
+      "item_id": "norm_763",
       "source_id": "media_goal_world_cup",
       "original_title": "Canada vs Bosnia and Herzegovina",
       "original_summary": "How to watch the World Cup match between Canada and Bosnia and Herzegovina, as well as kick-off time and team news",
@@ -2140,7 +2307,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_765",
+    "item_id": "norm_767",
     "raw_id": "media_goal_world_cup_zidane-esque-why-cherki-deserves-comparison-with-french-goat_61",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -2171,7 +2338,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_765",
+      "item_id": "norm_767",
       "source_id": "media_goal_world_cup",
       "original_title": "Zidane-esque? Why Cherki deserves comparison with French GOAT",
       "original_summary": "Rayan Cherki has been earning plenty of plaudits at Manchester City, with Frank Leboeuf telling GOAL why the mercurial playmaker deserves to be compared with Zinedine Zidane - the GOAT of French football. That is some billing, but two magical midfielders are considered to share a number of traits - including on-field skill sets and off-pitch ticket-selling q",
@@ -2195,7 +2362,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_788",
+    "item_id": "norm_790",
     "raw_id": "media_fox_sports_world_cup_scotland-vs-haiti-prediction-odds-picks-for-world-cup-match_26",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
@@ -2231,7 +2398,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_788",
+      "item_id": "norm_790",
       "source_id": "media_fox_sports_world_cup",
       "original_title": "Scotland vs. Haiti Prediction, Odds, Picks For World Cup Match",
       "original_summary": "",
@@ -2260,7 +2427,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_801",
+    "item_id": "norm_803",
     "raw_id": "media_cbs_sports_world_cup_all-26-usmnt-players-ranked-ahead-of-world-cup-opener_4",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -2293,7 +2460,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_801",
+      "item_id": "norm_803",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "CBS Sports",
       "original_summary": "CBS Sports features live scoring, news, stats, and player info for NFL football, MLB baseball, NBA basketball, NHL hockey, college basketball and football.",
@@ -2319,7 +2486,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_804",
+    "item_id": "norm_806",
     "raw_id": "media_cbs_sports_world_cup_print-your-2026-world-cup-wall-chart-as-tournament-kicks-off_7",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -2375,7 +2542,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_804",
+      "item_id": "norm_806",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "World Cup 2026 wall chart: Printable tournament tracker, bracket to fill out groups, knockout stage and more",
       "original_summary": "Get ready for the 2026 World Cup with a blank, printable wall chart to fill out",
@@ -2418,7 +2585,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_810",
+    "item_id": "norm_812",
     "raw_id": "media_cbs_sports_world_cup_predicting-mauricio-pochettino-s-final-26-man-usmnt-world-cu_14",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -2451,7 +2618,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_810",
+      "item_id": "norm_812",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "Predicting Mauricio Pochettino's final 26-man USMNT World Cup roster.",
       "original_summary": "",
@@ -2477,7 +2644,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_813",
+    "item_id": "norm_815",
     "raw_id": "media_cbs_sports_world_cup_predicting-the-usmnt-s-world-cup-roster-11-months-out_17",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -2510,7 +2677,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_813",
+      "item_id": "norm_815",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "Predicting the USMNT's World Cup roster 11 months out",
       "original_summary": "",
@@ -2536,7 +2703,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_814",
+    "item_id": "norm_816",
     "raw_id": "media_cbs_sports_world_cup_predicting-the-usmnt-s-world-cup-roster-11-months-out_18",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -2569,7 +2736,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_814",
+      "item_id": "norm_816",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "Predicting the USMNT's World Cup roster 11 months out",
       "original_summary": "",
@@ -2595,7 +2762,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_815",
+    "item_id": "norm_817",
     "raw_id": "media_cbs_sports_world_cup_predicting-the-2024-copa-america-roster_19",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -2626,7 +2793,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_815",
+      "item_id": "norm_817",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "Predicting the 2024 Copa America roster",
       "original_summary": "",
@@ -2650,7 +2817,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_876",
+    "item_id": "norm_878",
     "raw_id": "media_supersport_football_world-cup-underway-in-united-states-and-the-winner-is-freddy_23",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -2686,7 +2853,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_876",
+      "item_id": "norm_878",
       "source_id": "media_supersport_football",
       "original_title": "World Cup underway in United States and the winner is Freddy",
       "original_summary": "The World Cup is officially underway in the United States and the biggest breakout star is...Freddy.",
