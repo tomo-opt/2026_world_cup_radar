@@ -323,9 +323,19 @@ async function main() {
 
   const mergedRawItems: RawItem[] = sources.flatMap((source): RawItem[] => {
     const currentForSource = liveRawItems.filter((item) => item.source_id === source.source_id);
-    if (currentForSource.length > 0) return currentForSource;
-    if (source.source_type === 'trends') return [];
 
+    const currentRealArticles = currentForSource.filter(
+      (item) =>
+        item.item_type === 'article' &&
+        !!item.published_at &&
+        !/live commentary|live score|scores-fixtures|fixtures|schedule|how to watch|watch guide|tv channel|standings|bracket|en vivo y directo|sigue el partido/i.test(
+          `${item.title} ${item.summary} ${item.url}`,
+        ),
+    );
+  
+    if (currentRealArticles.length > 0) return currentRealArticles;
+    if (source.source_type === 'trends') return [];
+  
     return (previousMap.get(source.source_id) ?? []).map((item) => ({
       ...item,
       data_origin: 'cache' as const,
