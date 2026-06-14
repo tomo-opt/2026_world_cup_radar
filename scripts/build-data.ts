@@ -347,7 +347,7 @@ async function main() {
   const finalRawItems = [...mergedRawItems, ...fallbackSeedItems];
 
   const normalized = normalizeItems(finalRawItems, seeds.topicRules);
-  const matched = matchEntities(normalized, seeds.entities, seeds.matches);
+    const matched = await matchEntities(normalized, seeds.entities, seeds.matches);
   const lowConfidenceItems = buildLowConfidenceItems(matched);
   const topicCards = clusterTopics(matched, seeds.topicRules, seeds.matches);
 
