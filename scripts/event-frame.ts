@@ -163,39 +163,87 @@ function pickExcerptSource(item: NormalizedItem) {
   return cleanFragment(excerpt);
 }
 
-async function translateToChinese(text: string) {
+function normalizeSourceLanguage(language?: string) {
+  const normalized = (language ?? '').toLowerCase().trim();
+
+  if (!normalized) return 'en';
+  if (normalized.startsWith('en')) return 'en';
+  if (normalized.startsWith('es')) return 'es';
+  if (normalized.startsWith('pt')) return 'pt';
+  if (normalized.startsWith('fr')) return 'fr';
+  if (normalized.startsWith('de')) return 'de';
+  if (normalized.startsWith('it')) return 'it';
+  if (normalized.startsWith('nl')) return 'nl';
+  if (normalized.startsWith('ja')) return 'ja';
+  if (normalized.startsWith('ko')) return 'ko';
+  if (normalized.startsWith('ar')) return 'ar';
+
+  return 'en';
+}
+
+async function translateToChinese(text: string, sourceLanguage?: string) {
   const trimmed = cleanFragment(text);
   if (!trimmed) return '';
   if (looksMostlyChinese(trimmed)) return trimmed;
 
-  const cacheKey = trimmed.slice(0, 1200);
+  const normalizedLanguage = normalizeSourceLanguage(sourceLanguage);
+  const cacheKey = `${normalizedLanguage}::${trimmed.slice(0, 1200)}`;
   const cached = TRANSLATE_CACHE.get(cacheKey);
   if (cached) return cached;
 
   const promise = (async () => {
     try {
-      const params = new URLSearchParams({
-        client: 'gtx',
-        sl: 'auto',
-        tl: 'zh-CN',
-        dt: 't',
-        q: cacheKey,
+      const memoryParams = new URLSearchParams({
+        q: trimmed.slice(0, 1200),
+        langpair: `${normalizedLanguage}|zh-CN`,
       });
 
-      const response = await fetch(`https://translate.googleapis.com/translate_a/single?${params.toString()}`, {
+      const memoryResponse = await fetch(`https://api.mymemory.translated.net/get?${memoryParams.toString()}`, {
         headers: {
           'user-agent':
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
         },
       });
 
-      if (!response.ok) return trimmed;
+      if (memoryResponse.ok) {
+        const memoryData = (await memoryResponse.json()) as {
+          responseData?: { translatedText?: string };
+        };
 
-      const data = (await response.json()) as unknown;
+        const translatedText = memoryData?.responseData?.translatedText?.trim() ?? '';
+        if (translatedText && !/INVALID SOURCE LANGUAGE/i.test(translatedText)) {
+          return sanitizeTranslatedLine(translatedText);
+        }
+      }
+    } catch {
+      // ignore and fall through
+    }
 
-      if (!Array.isArray(data) || !Array.isArray(data[0])) return trimmed;
+    try {
+      const googleParams = new URLSearchParams({
+        client: 'gtx',
+        sl: normalizedLanguage,
+        tl: 'zh-CN',
+        dt: 't',
+        q: trimmed.slice(0, 1200),
+      });
 
-      const translated = (data[0] as unknown[])
+      const googleResponse = await fetch(
+        `https://translate.googleapis.com/translate_a/single?${googleParams.toString()}`,
+        {
+          headers: {
+            'user-agent':
+              'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
+          },
+        },
+      );
+
+      if (!googleResponse.ok) return trimmed;
+
+      const googleData = (await googleResponse.json()) as unknown;
+      if (!Array.isArray(googleData) || !Array.isArray(googleData[0])) return trimmed;
+
+      const translated = (googleData[0] as unknown[])
         .map((part) => (Array.isArray(part) ? String(part[0] ?? '') : ''))
         .join('');
 
@@ -233,21 +281,15 @@ async function buildTranslatedEvidence(item: NormalizedItem) {
   const titleSource = pickTitleSource(item);
   const summarySource = pickSummarySource(item);
   const excerptSource = pickExcerptSource(item);
+  const sourceLanguage = item.language || 'en';
 
   const [titleZh, summaryZh, excerptZh] = await Promise.all([
-    translateToChinese(titleSource),
-    translateToChinese(summarySource),
-    translateToChinese(excerptSource),
+    translateToChinese(titleSource, sourceLanguage),
+    translateToChinese(summarySource, sourceLanguage),
+    translateToChinese(excerptSource, sourceLanguage),
   ]);
 
-  const candidateTitle = !isLowSignalTranslatedTitle(titleZh)
-    ? titleZh
-    : !isLowSignalTranslatedTitle(summaryZh)
-      ? summaryZh
-      : !isLowSignalTranslatedTitle(excerptZh)
-        ? excerptZh
-        : '';
-
+  const candidateTitle = titleZh || summaryZh || excerptZh || '';
   const candidateSummary = summaryZh || excerptZh || titleZh || '';
 
   return {
@@ -294,7 +336,7 @@ async function extractActionObject(item: NormalizedItem, matches: Match[]) {
     return {
       action: 'non_topic_page',
       object: 'utility_page',
-      candidateTitle: '',
+      candidateTitle: translated.titleZh || translated.summaryZh || '',
       candidateSummary: translated.candidateSummary,
     };
   }
