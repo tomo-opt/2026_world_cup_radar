@@ -2,15 +2,20 @@ name: Update radar data
 
 on:
   schedule:
-    - cron: '7,37 * * * *'
+    - cron: '3,18,33,48 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-radar-data
+  cancel-in-progress: true
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
