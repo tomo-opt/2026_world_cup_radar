@@ -57,7 +57,7 @@ function selectMatchedMatches(matches: Match[], matchedTeams: string[], normaliz
   return [] as string[];
 }
 
-export function matchEntities(
+export async function matchEntities(
   items: Array<
     Omit<
       NormalizedItem,
@@ -67,7 +67,8 @@ export function matchEntities(
   entities: EntitiesSeed,
   matches: Match[],
 ) {
-  return items.map((item) => {
+  return Promise.all(
+    items.map(async (item) => {
     const text = `${item.title} ${item.summary} ${item.content_text ?? ''}`;
     const normalized = normalizeText(text);
     const suppressTeamInference = shouldSuppressTeamInference(item);
@@ -115,7 +116,7 @@ export function matchEntities(
       event_fingerprint: '',
     };
 
-    const eventFrame = inferEventFrame(itemWithEntities, matches);
+    const eventFrame = await inferEventFrame(itemWithEntities, matches);
 
     return {
       ...itemWithEntities,
@@ -123,5 +124,6 @@ export function matchEntities(
       event_fingerprint: eventFrame.event_fingerprint,
       low_confidence_reason: item.low_confidence_reason ?? null,
     };
-  });
+    }),
+  );
 }
