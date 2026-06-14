@@ -257,26 +257,6 @@ async function translateToChinese(text: string, sourceLanguage?: string) {
   return promise;
 }
 
-function isLowSignalTranslatedTitle(text: string) {
-  if (!text) return true;
-  if (text.length < 8) return true;
-  if (detectUtilityPage(normalizeText(text), '')) return true;
-
-  return [
-    /^最新$/,
-    /^更新$/,
-    /^分析$/,
-    /^独家$/,
-    /^报道$/,
-    /^观察$/,
-    /^排名$/,
-    /^预告$/,
-    /^预览$/,
-    /^世界杯$/,
-    /^足球$/,
-  ].some((pattern) => pattern.test(text));
-}
-
 async function buildTranslatedEvidence(item: NormalizedItem) {
   const titleSource = pickTitleSource(item);
   const summarySource = pickSummarySource(item);
