@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
+    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
     "item_id": "norm_2",
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
-    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
+    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
     "item_id": "norm_3",
@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -48,8 +48,21 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
-    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
+    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
+    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
   },
   {
     "item_id": "norm_27",
@@ -78,6 +91,19 @@
     "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
   },
   {
+    "item_id": "norm_42",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
+  },
+  {
     "item_id": "norm_50",
     "source_id": "media_espn_soccer_worldcup",
     "source_name": "ESPN Soccer Worldcup Page",
@@ -100,8 +126,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_event_title_zh": "ESPN 足球 RSS 提要信息页面",
+    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
     "item_id": "norm_54",
@@ -113,8 +139,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "世界杯",
-    "candidate_summary_zh": "最新消息、更新和视频集锦 美国队以时尚的方式开始世界杯 - 但他们最终会跻身精英行列吗？"
+    "candidate_event_title_zh": "2026 年国际足联世界杯",
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
     "item_id": "norm_98",
@@ -127,7 +153,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球日报",
-    "candidate_summary_zh": "蒂姆·维克里（Tim Vickery）评估巴西时，帕特·内文（Pat Nevin）对苏格"
+    "candidate_summary_zh": "帕特·内文对苏格兰的失败做出反应，蒂姆·维克里评估巴西"
   },
   {
     "item_id": "norm_107",
@@ -140,20 +166,20 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "2026 年世界杯 |卫报双引号双引号",
-    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+    "candidate_summary_zh": "来自世界领先自由派声音《卫报》的最新 2026 年世界杯新闻、评论和分析"
   },
   {
-    "item_id": "norm_114",
+    "item_id": "norm_111",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
-    "candidate_summary_zh": "离开科尔·帕尔默让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练离开科尔·帕尔默在家里让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练在英格兰的托马斯·图切尔有一个精英教练"
+    "candidate_event_title_zh": "赛尔·拉林 (Cyle Larin) 的罢工释放了欢乐，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "红红军团在男子世界杯历史上首次取得一分"
   },
   {
     "item_id": "norm_130",
@@ -165,21 +191,47 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
+    "candidate_event_title_zh": "超级替补赛尔·拉林 (Cyle Larin) 在对阵波斯尼亚和黑塞哥维那的比赛中为加拿大队挽救一分",
+    "candidate_summary_zh": "超级替补赛尔·拉林 (Cyle Larin) 在对阵波斯尼亚和黑塞哥维那的比赛中为加拿大队挽救一分"
   },
   {
-    "item_id": "norm_136",
+    "item_id": "norm_145",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "I don’t like the World Cup hydration breaks but trust me – they help the coaches | Emma Hayes",
-    "summary": "Nobody wants more stoppages in the game but it allows us, whether on TV or the touchline, to analyse what we see In the NFL or NBA, a head coach can sometimes affect momentum in the game during a timeout. Even as a head coach in American football you get three timeouts per half. In most cases in soccer, players have to problem-solve and think on their feet. I’m not a fan of the hydration breaks that have been introduced at this World Cup, but they’re here for now and it is fascinating from a coaching perspective because the momentum has swung straight after several hydration breaks. That could suggest coach involvement has helped teams to tweak things. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/jun/20/i-dont-like-the-world-cup-hydration-breaks-but-trust-me-they-help-the-coaches",
+    "title": "Yoane Wissa gives DR Congo first ever World Cup point in draw with Portugal",
+    "summary": "The clock was about to hit 83 minutes when Roberto Martínez rolled the dice one last time. His team certainly needed extra movement up front so it hardly confounded logic that Gonçalo Ramos was stripped and ready. What made less sense was that Vitinha departed while Cristiano Ronaldo, peripheral save for two earlier half-chances, remained on and slogged his way towards the end of a draw that could check Portugal’s summer ambitions. Ronaldo’s baying followers, swathes of them with local accents and wearing his No 7 shirt, had done their best to cajole a meaningful contribution from their idol but ultimately they had to settle for being under the same roof. Perhaps they expected a repeat of Lionel Messi’s staggering performance the previous night but Ronaldo did little to assuage concerns that his presence, once glorious, is nowadays a dead weight. The watching Gianni Infantino could have been forgiven for wondering whether Fifa’s contortions in freeing him from suspension for this game had been worthwhile. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/jun/17/portugal-dr-congo-world-cup-2026-group-k-match-report",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "我不喜欢世界杯补水休息，但相信我–他们帮助教练| Emma Hayes",
-    "candidate_summary_zh": "没有人希望在比赛中停赛更多，但无论是在电视上还是在边线上，它都允许我们分析我们在NFL或NBA中看到的内容，主教练有时会在超时期间影响比赛的势头"
+    "candidate_event_title_zh": "尤阿内·维萨 (Yoane Wissa) 战平葡萄牙，帮助刚果民主共和国获得世界杯首分",
+    "candidate_summary_zh": "当罗伯托·马丁内斯最后一次掷骰子时，时钟即将到达第 83 分钟"
+  },
+  {
+    "item_id": "norm_146",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Marko Arnautovic adds gloss to scoreline as Austria see off World Cup debutants Jordan",
+    "summary": "Austria celebrated their long-awaited return to the World Cup with a 3-1 win over determined ⁠debutants Jordan, with substitute Marko Arnautovic the difference in a gritty, end-to-end Group J match. On a brisk night in the San Francisco Bay Area, ⁠Austria went ahead with ⁠a 21st minute ​thunderbolt from Romano Schmid before Jordan fought back after the break through Ali Olwan’s exquisite strike in off the post. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/jun/17/austria-jordan-group-j-world-cup-match-report",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "马尔科·阿瑙托维奇 (Marko Arnautovic) 为奥地利队击败世界杯首次亮相的约旦队增添光彩",
+    "candidate_summary_zh": "奥地利队以 3-1 的比分战胜了初出茅庐的约旦队，庆祝了他们期待已久的重返世界杯，替补出场的马尔科·阿瑙托维奇在一场激烈的 J 组比赛中取得了胜利"
+  },
+  {
+    "item_id": "norm_155",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Sign up for the Moving the Goalposts newsletter: our free women’s football email",
+    "summary": "Get our roundup of women’s football for free twice a week, featuring the insights of experts such as Ada Hegerberg and Magdalena Eriksson Join us as we delve deeper into the wonderful world of women’s football in our weekly newsletter. It is informative, entertaining, global, critical – when needed – and, above all, passionate. Written mainly by Júlia Belas Trindade and Sophie Downey, expect guest appearances from stars such as Anita Asante, Ada Hegerberg and many more. Try our other sports emails: as well as the occasionally funny football email The Fiver from Monday to Friday, there are weekly catch-ups for cricket in The Spin and rugby union in The Breakdown, and our seven-day roundup of the best of our sports journalism in The Recap. Living in Australia? Try the Guardian Australia’s daily sports newsletter Continue reading...",
+    "url": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "订阅 Moving the Goalposts 时事通讯：我们的免费女足电子邮件",
+    "candidate_summary_zh": "每周两次免费获取我们的女足综述，其中包括 Ada Hegerberg 和 Magdalena Eriksson 等专家的见解加入我们，在每周时事通讯中深入探讨女足的精彩世界"
   },
   {
     "item_id": "norm_159",
@@ -192,7 +244,59 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "足球比赛、结果、比分、转会、新闻 |天空体育",
-    "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
+    "candidate_summary_zh": "天空体育足球 - 从英超到冠军联赛的现场比赛、比分、最新足球新闻、转会、结果、赛程和球队新闻"
+  },
+  {
+    "item_id": "norm_160",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "World Cup 2026: USA 4-1 Paraguay - Folarin Balogun at double as Mauricio Pochettino's hosts deliver statement victory",
+    "summary": "The USA kicked off their World Cup on home soil with their joint best-ever victory in the tournament's history as a sizzling performance saw them thrash Paraguay 4-1 in Los Angeles.",
+    "url": "https://www.skysports.com/football/united-states-of-america-vs-paraguay/report/549769",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：美国 4-1 巴拉圭 - 福拉林·巴洛贡 (Folarin Balogun) 梅开二度，毛里西奥·波切蒂诺斯 (Mauricio Pochettinos) 东道主宣布胜利",
+    "candidate_summary_zh": "美国队在洛杉矶以 4-1 击败巴拉圭队，在主场取得了世界杯历史上最好的胜利，拉开了世界杯的序幕。"
+  },
+  {
+    "item_id": "norm_162",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "World Cup 2026: Canada 1-1 Bosnia-Herzegovina - Cyle Larin rescues point for Jesse Marsch's co-hosts in Toronto",
+    "summary": "Canada claimed their first ever World Cup point as the co-hosts came from behind to rescue a 1-1 draw against Bosnia-Herzegovina.",
+    "url": "https://www.skysports.com/football/canada-vs-bosnia-and-herzegovina/report/549768",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：加拿大 1-1 波斯尼亚和黑塞哥维那 - 赛尔·拉林 (Cyle Larin) 为多伦多联合主办国杰西·马什 (Jesse Marsch) 救回一分",
+    "candidate_summary_zh": "加拿大队在世界杯上以1-1战平波斯尼亚和黑塞哥维那，夺得队史首个世界杯积分。"
+  },
+  {
+    "item_id": "norm_164",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "World Cup 2026: Thomas Partey refused entry to Canada ahead of Ghana's opener with Panama in Toronto",
+    "summary": "Thomas Partey has been refused entry to Canada ahead of Ghanas World Cup opener with Panama; Ghana play England on June 23 in Boston, USA, where Partey and the squad have been training; Partey is on bail for allegations of rape and sexual assault. He denies the charges.",
+    "url": "https://www.skysports.com/football/news/17243/13553454/world-cup-2026-thomas-partey-refused-entry-to-canada-ahead-of-ghana-match-with-panama",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：托马斯·帕蒂 (Thomas Partey) 在多伦多加纳队与巴拿马队的揭幕战之前拒绝进入加拿大",
+    "candidate_summary_zh": "托马斯·帕蒂在加纳对阵巴拿马的世界杯揭幕战之前被加拿大拒绝入境；加纳队将于 6 月 23 日在美国波士顿对阵英格兰队，帕蒂和球队一直在那里训练；帕蒂因强奸和性侵犯指控而获保释"
+  },
+  {
+    "item_id": "norm_166",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "Man Utd transfer news: Mateus Fernandes keen on Old Trafford move despite Arsenal interest - Paper Talk",
+    "summary": "Saturdays top stories also include: Bruno Fernandes urging the Manchester United hierarchy to sign Mateus Fernandes; Man City make enquiries over Chelseas Malo Gusto; Crystal Palace look to match Hayden Hackneys asking price",
+    "url": "https://www.skysports.com/football/transfer-paper-talk/12709/13553551/man-utd-transfer-news-mateus-fernandes-keen-on-old-trafford-move-despite-arsenal-interest-paper-talk",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "曼联转会消息：尽管阿森纳感兴趣，但马特乌斯·费尔南德斯仍热衷于老特拉福德的转会 - Paper Talk",
+    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
     "item_id": "norm_184",
@@ -204,8 +308,47 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+    "candidate_event_title_zh": "足球新闻|天空体育",
+    "candidate_summary_zh": "观看您喜爱的运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会和比分"
+  },
+  {
+    "item_id": "norm_185",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "Man Utd transfer news: Mateus Fernandes keen on Old Trafford move despite Arsenal interest - Paper Talk",
+    "summary": "Saturdays top stories also include: Bruno Fernandes urging the Manchester United hierarchy to sign Mateus Fernandes; Man City make enquiries over Chelseas Malo Gusto; Crystal Palace look to match Hayden Hackneys asking price",
+    "url": "https://www.skysports.com/football/transfer-paper-talk/12709/13553551/man-utd-transfer-news-mateus-fernandes-keen-on-old-trafford-move-despite-arsenal-interest-paper-talk",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "曼联转会消息：尽管阿森纳感兴趣，但马特乌斯·费尔南德斯仍热衷于老特拉福德的转会 - Paper Talk",
+    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+  },
+  {
+    "item_id": "norm_190",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "World Cup 2026: Thomas Partey refused entry to Canada ahead of Ghana's opener with Panama in Toronto",
+    "summary": "Thomas Partey has been refused entry to Canada ahead of Ghanas World Cup opener with Panama; Ghana play England on June 23 in Boston, USA, where Partey and the squad have been training; Partey is on bail for allegations of rape and sexual assault. He denies the charges.",
+    "url": "https://www.skysports.com/football/news/17243/13553454/world-cup-2026-thomas-partey-refused-entry-to-canada-ahead-of-ghana-match-with-panama",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：托马斯·帕蒂 (Thomas Partey) 在多伦多加纳队与巴拿马队的揭幕战之前拒绝进入加拿大",
+    "candidate_summary_zh": "托马斯·帕蒂在加纳对阵巴拿马的世界杯揭幕战之前被加拿大拒绝入境；加纳队将于 6 月 23 日在美国波士顿对阵英格兰队，帕蒂和球队一直在那里训练；帕蒂因强奸和性侵犯指控而获保释"
+  },
+  {
+    "item_id": "norm_198",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "Scottish Championship",
+    "summary": "",
+    "url": "https://www.skysports.com/scottish-football",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "苏格兰锦标赛",
+    "candidate_summary_zh": "苏格兰锦标赛"
   },
   {
     "item_id": "norm_199",
@@ -217,8 +360,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+    "candidate_event_title_zh": "足球新闻|天空体育",
+    "candidate_summary_zh": "观看您喜爱的运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会和比分"
   },
   {
     "item_id": "norm_201",
@@ -231,7 +374,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "ESPN Deportes - 直播体育赛事和 ESPN 原创节目",
-    "candidate_summary_zh": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN"
+    "candidate_summary_zh": "通过 ESPN Deportes，您可以直播体育赛事和 ESPN 原创节目，观看最新比赛和精彩片段的重播；另外，还可观看 ESPN 特殊节目"
   },
   {
     "item_id": "norm_202",
@@ -260,6 +403,19 @@
     "candidate_summary_zh": "Liga MX 公布 Apertura 26 赛程表"
   },
   {
+    "item_id": "norm_229",
+    "source_id": "media_espn_deportes_futbol_mundial",
+    "source_name": "ESPN Deportes Fútbol Mundial",
+    "title": "¿Cómo fue el desempeño de Oliver Sonne ante Haití y España?",
+    "summary": "La selección peruana ganó un partido y perdió otro, en ambos jugó el danés-peruano.",
+    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818546/asi-jugo-oliver-sonne-los-amistosos-de-peru-vs-haiti-vs-espana",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "奥利弗·索内 (Oliver Sonne) 在对阵海地和西班牙的比赛中表现如何？",
+    "candidate_summary_zh": "丹麦队与秘鲁队的两场比赛中，秘鲁队赢了一场又输了一场"
+  },
+  {
     "item_id": "norm_246",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
@@ -270,7 +426,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "AS.com 上的足球 - AS.com",
-    "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
+    "candidate_summary_zh": "来自一级和二级足球队、冠军、欧洲联赛、国王杯、国家队、英超联赛等的新闻、结果和直接信息"
   },
   {
     "item_id": "norm_252",
@@ -286,6 +442,19 @@
     "candidate_summary_zh": "Víctor Muñoz...和 ​​collejas 的新闻"
   },
   {
+    "item_id": "norm_263",
+    "source_id": "media_as_futbol",
+    "source_name": "AS Fútbol",
+    "title": "El ojo que todo lo ve",
+    "summary": "",
+    "url": "https://as.com/futbol/el-ojo-que-todo-lo-ve-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "全视之眼",
+    "candidate_summary_zh": "全视之眼"
+  },
+  {
     "item_id": "norm_271",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
@@ -295,7 +464,7 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
+    "candidate_event_title_zh": "2026 年世界杯 - 足球世界杯 - AS.com",
     "candidate_summary_zh": "关注卡塔尔 2026 年世界杯的最新消息：新闻、比赛、赛程以及您需要了解的有关世界足球盛事的一切 As.com"
   },
   {
@@ -312,6 +481,19 @@
     "candidate_summary_zh": "恩德里克全胜"
   },
   {
+    "item_id": "norm_280",
+    "source_id": "media_as_futbol_mundial2026",
+    "source_name": "AS Fútbol Mundial 2026",
+    "title": "Solo ha entrenado a Bosnia y era jugador profesional de póker: la historia de Sergej Barbarez, el seleccionador bosnio",
+    "summary": "",
+    "url": "https://as.com/futbol/mundial/solo-ha-entrenado-a-bosnia-y-era-jugador-profesional-de-poker-la-historia-de-sergej-barbarez-el-seleccionador-bosnio-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "他只执教过波斯尼亚，并且是一名职业扑克玩家：波斯尼亚教练谢尔盖·巴尔巴雷斯 (Sergej Barbarez) 的故事",
+    "candidate_summary_zh": "他只执教过波斯尼亚，并且是一名职业扑克玩家：波斯尼亚教练谢尔盖·巴尔巴雷斯 (Sergej Barbarez) 的故事"
+  },
+  {
     "item_id": "norm_296",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
@@ -321,8 +503,21 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Fútbol - Últimas noticias",
+    "candidate_event_title_zh": "足球 - 最新消息",
     "candidate_summary_zh": "足球"
+  },
+  {
+    "item_id": "norm_302",
+    "source_id": "media_marca_futbol",
+    "source_name": "Marca Fútbol",
+    "title": "El Girona hace oficial la llegada de Oleksandr Pyshchur",
+    "summary": "El ariete ucraniano llega procedente del ETO FC húngaro y firma hasta el 2031",
+    "url": "https://www.marca.com/futbol/girona/2026/06/12/girona-oficial-llegada-oleksandr-pyshchur.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "赫罗纳正式宣布 Oleksandr Pyshchur 的到来",
+    "candidate_summary_zh": "乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 赫罗纳正式宣布 2026/27 赛季第一位新面孔的到来，他将再次参加乙级联赛"
   },
   {
     "item_id": "norm_306",
@@ -360,8 +555,21 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Fútbol - Últimas noticias",
+    "candidate_event_title_zh": "足球 - 最新消息",
     "candidate_summary_zh": "足球"
+  },
+  {
+    "item_id": "norm_327",
+    "source_id": "media_marca_futbol_noticias",
+    "source_name": "Marca Fútbol Noticias",
+    "title": "El Girona hace oficial la llegada de Oleksandr Pyshchur",
+    "summary": "El ariete ucraniano llega procedente del ETO FC húngaro y firma hasta el 2031",
+    "url": "https://www.marca.com/futbol/girona/2026/06/12/girona-oficial-llegada-oleksandr-pyshchur.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "赫罗纳正式宣布 Oleksandr Pyshchur 的到来",
+    "candidate_summary_zh": "乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 赫罗纳正式宣布 2026/27 赛季第一位新面孔的到来，他将再次参加乙级联赛"
   },
   {
     "item_id": "norm_331",
@@ -585,33 +793,7 @@
     "candidate_summary_zh": "欢迎来到 r/soccer 每日讨论！"
   },
   {
-    "item_id": "norm_448",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Rebecca Lowe: \"Chaps, Alexi [Lalas] left us\" Zlatan: \"America, you're welcome\"",
-    "summary": "submitted by /u/Imbasauce [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1uae9xf/rebecca_lowe_chaps_alexi_lalas_left_us_zlatan/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "丽贝卡·洛（Rebecca Lowe）：伙计们，亚历克西（拉拉斯）离开了我们 兹拉坦（Zlatan）：美国，不客气",
-    "candidate_summary_zh": "submitted by /u/Imbasauce [link] [comments]"
-  },
-  {
-    "item_id": "norm_450",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Referee Felix Zwayer down with muscle cramps 90'+3'",
-    "summary": "submitted by /u/50lipaa [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1uadmhx/referee_felix_zwayer_down_with_muscle_cramps_903/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "裁判 Felix Zwayer 因肌肉痉挛倒地 90+3",
-    "candidate_summary_zh": "由 /u/50lipaa 提交 [链接] [评论]"
-  },
-  {
-    "item_id": "norm_462",
+    "item_id": "norm_444",
     "source_id": "forum_reddit_soccer",
     "source_name": "Reddit r/soccer",
     "title": "[Fabrizio Romano] Arda Güler: “We want to apologize, we feel ashamed. We all play for top clubs and we should do way better on this competition”. “In two games, we scored zero goals and it’s not acceptable”.",
@@ -624,6 +806,45 @@
     "candidate_summary_zh": "由 /u/cocacolapepsifanta 提交 [链接] [评论]"
   },
   {
+    "item_id": "norm_451",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Rebecca Lowe: \"Chaps, Alexi [Lalas] left us\" Zlatan: \"America, you're welcome\"",
+    "summary": "submitted by /u/Imbasauce [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1uae9xf/rebecca_lowe_chaps_alexi_lalas_left_us_zlatan/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "丽贝卡·洛（Rebecca Lowe）：伙计们，亚历克西（拉拉斯）离开了我们 兹拉坦（Zlatan）：美国，不客气",
+    "candidate_summary_zh": "由 /u/Imbasauce 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_452",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Referee Felix Zwayer down with muscle cramps 90'+3'",
+    "summary": "submitted by /u/50lipaa [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1uadmhx/referee_felix_zwayer_down_with_muscle_cramps_903/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "裁判 Felix Zwayer 因肌肉痉挛倒地 90+3",
+    "candidate_summary_zh": "由 /u/50lipaa 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_458",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Thierry Henry and Zlatan having a kick about backstage in the studio",
+    "summary": "submitted by /u/WarriorkingNL [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1uary3n/thierry_henry_and_zlatan_having_a_kick_about/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "蒂埃里·亨利 (Thierry Henry) 和兹拉坦 (Zlatan) 在工作室后台嬉戏",
+    "candidate_summary_zh": "由 /u/WarriorkingNL 提交 [链接] [评论]"
+  },
+  {
     "item_id": "norm_483",
     "source_id": "forum_reddit_football",
     "source_name": "Reddit r/football",
@@ -633,7 +854,7 @@
     "language": "en",
     "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Reddit 球迷：告诉我你最疯狂的 FIFA 世界杯故事",
+    "candidate_event_title_zh": "Reddit的足球迷：告诉我你最疯狂的FIFA世界杯故事",
     "candidate_summary_zh": "阿根廷在首场比赛中输给沙特阿拉伯后，我真的以为梅西的上届世界杯​​即将以灾难告终"
   },
   {
@@ -641,770 +862,991 @@
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Scotland’s World Cup flame continues to flicker on a night of good, bad and ugly – Keith Jackson's big match verdict https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-match-reports/scotlands-world-cup-flame-continues-37323606",
-    "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-match-reports/scotlands-world-cup-flame-continues-37323606",
+    "summary": "Ranking every match at the 2026 World Cup https://www.nytimes.com/athletic/7370101/2026/06/20/world-cup-2026-matches-ranked/ #Soccer #WorldCup #Sports",
+    "url": "https://www.nytimes.com/athletic/7370101/2026/06/20/world-cup-2026-matches-ranked/",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "苏格兰世界杯的火焰在一个美好、糟糕和丑陋的夜晚继续闪烁——基思·杰克逊的重大比赛判决 https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-match-reports/scotlands-world-cup-flame-continues-37323606"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "2026 年世界杯每场比赛排名 https://www.nytimes.com/athletic/7370101/2026/06/20/world-cup-2026-matches-ranked/ #Soccer #WorldCup #Sports"
   },
   {
     "item_id": "norm_491",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Brazilian media don't hold back on Matheus Cunha after Man United star's display at World Cup https://fed.brid.gy/r/https://www.manchestereveningnews.co.uk/sport/football/football-news/matheus-cunha-brazil-world-cup-34155811",
-    "url": "https://fed.brid.gy/r/https://www.manchestereveningnews.co.uk/sport/football/football-news/matheus-cunha-brazil-world-cup-34155811",
+    "summary": "This is so typically Dutch in several ways. Bicycles are the answer. Bring them with you for 125 Euros on a plane and skip paying through your nose on transport during the World Cup. I brought my bike on trips when travelling, never regretted it “They like guns here, we like bikes” #worldcup",
+    "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:7zkt5375kb4jsatspnd2yxis/post/3mopo3r2kn22h",
     "language": "multi",
-    "reason": "general_discussion_only",
+    "reason": "title_too_short",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "在曼联球星参加世界杯后，巴西媒体对马修斯·库尼亚毫不犹豫 https://fed.brid.gy/r/https://www.manchestereveningnews.co.uk/sport/football/football-news/matheus-cunha-brazil-world-cup-34155811"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "这在几个方面非常典型的荷兰语"
   },
   {
     "item_id": "norm_492",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Matheus Cunha issues loud World Cup statement as Man United star gets what he wants https://fed.brid.gy/r/https://www.manchestereveningnews.co.uk/sport/football/football-news/matheus-cunha-world-cup-brazil-34155904",
-    "url": "https://fed.brid.gy/r/https://www.manchestereveningnews.co.uk/sport/football/football-news/matheus-cunha-world-cup-brazil-34155904",
+    "summary": "Today's Google logo in Japan celebrates the 2026 FIFA World Cup and features the save. It's the same logo as June 16. #googledoodle #save #worldcup2026 #fifaworldcup #worldcup #fedibird https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://fedibird.com/@txt/116781995323680354",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "马修斯·库尼亚发表响亮的世界杯声明，曼联球星得到了他想要的 https://fed.brid.gy/r/https://www.manchestereveningnews.co.uk/sport/football/football-news/matheus-cunha-world-cup-brazil-34155904"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本今天的 Google 徽标庆祝 2026 年 FIFA 世界杯，并以保存为特色"
   },
   {
     "item_id": "norm_493",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Heute Gegner auf dem Platz, aber im Herzen Teamkollegen. 🇩🇪🤝🇨🇮 Viel Erfolg für das heutige Gruppenspiel 🤞⚽️ #worldcup",
-    "url": "https://twitter.com/RBLeipzig/status/2068244532269863217",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #save #worldcup2026 #fifaworldcup #worldcup #fedibird https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://fedibird.com/@txt/116781981455812993",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Heute Gegner auf dem Platz, aber im Herzen Teamkollegen"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_494",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Nottingham Forest told under-the-radar World Cup ace they must sign before transfer fee rockets https://www.nottinghampost.com/sport/football/transfer-news/nottingham-forest-transfers-helio-varela-11021611 Nottingham Forest will look to add to Vitor Pereira's squad before the summer transfer window closes #NFFC #NottinghamForesttransfernews #SummerTransferWindow #Transferdeadlineday #NottinghamForestFC #WorldCup",
-    "url": "https://sportsfeed.me/@NottsLive/116781396946379663",
+    "summary": "Lol, Scotland. #worldcup",
+    "url": "https://mastodon.ie/@ownohmanny/116781975785318916",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "诺丁汉森林告诉低调的世界杯王牌，他们必须在转会费火箭之前签约 https://www.nottinghampost.com/sport/football/transfer-news/nottingham-forest-transfers-helio-varela-11021611 诺丁汉森林将寻求在夏季转会窗口关闭之前加入维托·佩雷拉斯阵容#NFFC #NottinghamForesttransfernews #SummerTransferWindow #Transferdeadlineday #NottinghamForestFC #WorldCup"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "苏格兰LOL。#世界杯"
   },
   {
     "item_id": "norm_495",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "‘Pay attention!’ – Emma Hayes hits back at ‘sexism’ storm after ITV World Cup criticism https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/emma-hayes-hits-back-sexism-storm-itv-world-cup-criticism-28852718/",
-    "url": "https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/emma-hayes-hits-back-sexism-storm-itv-world-cup-criticism-28852718/",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #save #worldcup2026 #fifaworldcup #worldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://submarin.online/notes/anps5x6q3z",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "‘Pay attention!’ – Emma Hayes hits back at ‘sexism’ storm after ITV World Cup criticism https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/emma-hayes-hits-back-sexism-storm-itv-world-cup-criticism-28852718/"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_496",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "World Cup star becomes first player sent off for breaking new Fifa rule https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/world-cup-star-becomes-first-player-sent-off-breaking-new-fifa-rule-28853281/",
-    "url": "https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/world-cup-star-becomes-first-player-sent-off-breaking-new-fifa-rule-28853281/",
+    "summary": "Today's Google logo in Japan celebrates the 2026 FIFA World Cup and features the save. It's the same logo as June 16. #googledoodle #save #worldcup2026 #fifaworldcup #worldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://social.vivaldi.net/@tomoletter/116781964183663844",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "世界杯球星成为第一位因违反国际足联新规则而被罚下场的球员 https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/world-cup-star-becomes-first-player-sent-off-writing-new-fifa-rule-28853281/"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本今天的 Google 徽标庆祝 2026 年 FIFA 世界杯，并以保存为特色"
   },
   {
     "item_id": "norm_497",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Türkiye 0-1 Paraguay Stats: Ten-Man Paraguay Secure Vital Victory to Knock Türkiye Out | Opta Analyst Ten-man Paraguay held on for a vital victory in their Group D clash with Turkiye, which saw Vincenzo Montella's team crash out of the 2026 FIFA World Cup. https://theanalyst.com/articles/turkiye-vs-paraguay-stats-fifa-world-cup-2026-live #TopNews #News #Paraguay #WorldCup #Türkiye",
-    "url": "https://mastodon.social/@top_news/116781270358116424",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #save #worldcup2026 #fifaworldcup #worldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://social.vivaldi.net/@tomoletter/116781963453654320",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "土耳其0-1巴拉圭 统计：巴拉圭十人大胜，击败土耳其| Opta 分析师十人巴拉圭队在 D 组与土耳其队的比赛中取得了至关重要的胜利，文森佐·蒙特拉斯队在 2026 年 FIFA 世界杯上惨遭淘汰"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_498",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "World Cup 2026: Scotland fall flat; USA into knockouts; Turkey’s exit and Almíron’s red for covering mouth – live https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan #WorldCup2026 #WorldCup #Football #Sport #UsSports #AustraliaSport",
-    "url": "https://halo.nu/@theguardian_us_news/116781254025568612",
+    "summary": "CBS Sports has released top anytime goalscorer predictions for today's World Cup matches. Cody Gakpo (+190) is favored against Sweden, while Leroy Sane (+250) is backed to score against Ivory Coast following his strong 0.82 xG opener. #WorldCup #Soccer #SportsBetting #CodyGakpo https://blazetrends.com/world-cup-anytime-goalscorer-picks-cody-gakpo-and-leroy-sane-lead-saturdays-betting-slate/?fsp_sid=37911",
+    "url": "https://mastodon.social/@theblazetrends/116781957040212614",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "2026 年世界杯：苏格兰表现平平；美国队进入淘汰赛；土耳其出局和阿尔米龙因捂嘴而红牌 – 直播 https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan #WorldCup2026 #WorldCup #Football #Sport #UsSports #AustraliaSport"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "哥伦比亚广播公司体育频道（CBS Sports）发布了当今世界杯比赛的最高得分手预测"
   },
   {
     "item_id": "norm_499",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Irankunda complaining about the ref. in the herald. Pissweak. #worldcup #AustraliaSuxxx",
-    "url": "https://mstdn.social/@mike_k/116781252534177994",
+    "summary": "World Cup fans can get free Top Trumps football sets with nifty double deal https://fed.brid.gy/r/https://www.dailyrecord.co.uk/lifestyle/world-cup-fans-can-free-37324073",
+    "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/lifestyle/world-cup-fans-can-free-37324073",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "伊兰昆达抱怨裁判"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "世界杯球迷可以通过漂亮的双重交易获得免费的顶级特朗普足球套装 https://fed.brid.gy/r/https://www.dailyrecord.co.uk/lifestyle/world-cup-fans-can-free-37324073"
   },
   {
     "item_id": "norm_500",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "World Cup still waits for real Brazil to show up https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss #Football #WorldCup #Sports",
-    "url": "https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss",
+    "summary": "What Scotland need to reach World Cup 2026 knockout stage as Tartan Army face prospect of torturous four day wait https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/what-scotland-need-reach-world-37324094",
+    "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/what-scotland-need-reach-world-37324094",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "世界杯仍在等待真正的巴西队出现 https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss #Football #WorldCup #Sports"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "苏格兰需要达到2026年世界杯淘汰赛阶段，因为格子呢军队面临为期四天的折磨等待https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/what-scotland-need-reach-world-37324094"
   },
   {
     "item_id": "norm_501",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Spaceship stadiums and Ronaldo-mania: Guardian writers’ first impressions of the World Cup https://www.theguardian.com/football/2026/jun/20/spaceship-stadiums-and-ronaldo-mania-guardian-writers-first-impressions-of-the-world-cup #WorldCup2026 #WorldCup #Football #Sport #UsSports",
-    "url": "https://halo.nu/@theguardian_us_news/116781197495926891",
+    "summary": "*Subject: Request for Clarification and Review of Transparency Regarding FIFA World Cup 2026 Broadcasting Rights by TVRI* To: @FIFAcom @FIFAWorldCup Dear FIFA, We, Indonesian football fans, would like to express serious concerns regarding the acquisition and use of FIFA World Cup 2026 broadcasting rights by LPP TVRI in Indonesia. TVRI has obtained exclusive rights to all 104 matches for approximately IDR 1.3 trillion, or about USD 80–85 million, funded directly from the State Budget/APBN. Public funds were used under the justification that the tournament would be freely accessible to all Indonesians through free-to-air TV and streaming. However, the implementation raises several critical questions, especially due to allegations of corruption, collusion, and nepotism: *1. SUB-LICENSING TO PAID PLATFORMS* While TVRI’s terrestrial broadcast is free, the exclusive digital streaming rights were reportedly sublicensed to private platforms such as Maxstream and Folaplay, which require paid subscriptions. We understand paying for sports content on private platforms. But when public tax money is used to buy the rights, diverting access to paid platforms without clear accountability becomes a public interest issue. To date, there is no transparent information on: - The sublicensing fees paid by these platforms to TVRI — if any — or whether access was granted for free. - Why streaming is not provided for free through TVRI’s own official platforms, such as TVRI Klik and its official YouTube channel. Public funds should serve the public interest to the maximum extent, not be redirected to commercial paid models without transparency. *2. POTENTIAL CONFLICT OF INTEREST* There are public concerns about possible connections between one of the recipient platforms and parties close to the government. Folaplay is linked to the Internet Rakyat/IRA business ecosystem, which is associated with Mr. Hashim Djojohadikusumo, brother of President Prabowo Subianto. This relationship raises serious conflict-of-interest concerns, where public funds could potentially benefit specific private entities. We stress that this requires independent verification through a transparent process — and only FIFA can initiate it. *3. COMPARISON WITH INTERNATIONAL PRACTICE* For comparison, in the UK and Brazil the 2026 World Cup rights are held by public broadcasters BBC, ITV, and CazéTV. All matches are broadcast free-to-air on TV and streamed free on official platforms like BBC iPlayer and ITVX, funded by public licensing fees. This model ensures maximum public access. *4. FIFA’S INTEGRITY CONTEXT* FIFA itself faced a major scandal in 2015 related to media rights, where over USD 150 million in bribes and kickbacks were alleged in the commercialization of tournament rights, including Copa América and World Cup qualifiers. This history underscores why transparency and integrity in all broadcasting deals involving FIFA are non-negotiable. *OUR REQUEST AS INDONESIAN FOOTBALL FANS* We respectfully request that FIFA: 1. Seek official clarification from TVRI regarding the digital sublicensing process and the use of public funds. 2. Urge TVRI to publicly disclose: - The amount paid by Maxstream and Folaplay for sublicensing rights, if any. - The reason TVRI’s own free platforms were not used for streaming the tournament. We believe football belongs to the people, and public money must serve the people. Transparency from FIFA on this matter will reinforce trust in the integrity of the game worldwide. Thank you for your attention and action. Sincerely, Indonesian Football Fans / Pecinta Bola Indonesia #fifa #worldcup #scandal #Corruption",
+    "url": "https://mementomori.social/@Alkafnow/116781906180710599",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "宇宙飞船体育场和罗纳尔多狂热：《卫报》作家对世界杯的第一印象 https://www.theguardian.com/football/2026/jun/20/spaceship-stadiums-and-ronaldo-mania-guardian-writers-first-impressions-of-the-world-cup #WorldCup2026 #WorldCup #Football #Sport #UsSports"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "*主题：要求 TVRI 对 FIFA 2026 年世界杯转播权的透明度进行澄清和审查* 致：@FIFAcom @FIFAWorldCup 亲爱的 FIFA： 我们，印度尼西亚球迷，对 LPP TVRI 在印度尼西亚收购和使用 FIFA 2026 年世界杯转播权表示严重关切"
   },
   {
     "item_id": "norm_502",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "RT by @christia_allard: Scotland fans applaud Tartan Army member Donny Strathie on the 76th minute after he passed away in Boston Live updates: https://i.stv.tv/4gwQVMV #Scotland #News #UK #ScottishFootball #WorldCup #FIFAWorldCup #WorldCup #FWC26 #SCOMOR Scotland fans applaud Tartan Army member Donny Strathie on the 76th minute after he passed away in Boston Live updates: i.stv.tv/4gwQVMV #Scotland #News #UK #ScottishFootball #WorldCup #FIFAWorldCup #WorldCup #FWC26 #SCOMOR Video --- https://nitter.net/STVSport/status/2068120922825928907#m",
-    "url": "https://respublicae.eu/@christia_allard/116781176381011376",
+    "summary": "Team USA coming to the Bay Area for World Cup knockout rounds The knockout rounds begin at Levi's Stadium on July 1. https://www.sfgate.com/sports/article/world-cup-levis-stadium-knockout-22312914.php #TopNews #News #WorldCup #LevisStadium #theBayArea",
+    "url": "https://mastodon.social/@top_news/116781905655084607",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "美国队将前往湾区参加世界杯淘汰赛 淘汰赛将于 7 月 1 日在李维斯体育场开始"
   },
   {
     "item_id": "norm_503",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "As it stands now Canada would play Belgium in round of 32 but lot could change here . Canada in first now . Belgium in 3rd but i doubt Belgium ends up 3rd in group and Canada still need a win or draw to win group vs tough swiss team #WorldCup",
-    "url": "https://twitter.com/sportsrage/status/2068227408935972913",
+    "summary": "#worldcup : this shows that Latinos have soccer in blood: “Despite facing 10 men for more than a half, Turkey slumped to a 1-0 defeat against the spirited South Americans “",
+    "url": "https://mastodon.cloud/@thecsb/116781888016068916",
     "language": "multi",
-    "reason": "title_too_short",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "按照目前的情况，加拿大队将在 32 强赛中迎战比利时队，但情况可能会发生变化"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "#世界杯：这表明拉丁裔拥有血腥的足球：尽管面对10名男子超过一半，但土耳其以1比0击败了充满活力的南美人"
   },
   {
     "item_id": "norm_504",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Der #WM-Planer von @heiseonline wurde inzwischen noch mehrfach überarbeitet und sieht jetzt viel hübscher aus. Das erste Land ist auf der Weltkarte jetzt auch schon rot 😔 #WM2026 #Fußball #FußballWM #WorldCup https://www.heise.de/wm-planer",
-    "url": "https://social.heise.de/@mho/116781147273633172",
+    "summary": "Ranking the best and worst World Cup kits of all time: 2026 update https://www.nytimes.com/athletic/7370519/2026/06/20/world-cup-kits-jerseys-best-worst-vintage/ #Sports #WorldCup #Fashion",
+    "url": "https://www.nytimes.com/athletic/7370519/2026/06/20/world-cup-kits-jerseys-best-worst-vintage/",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "#WM-Planer von @heiseonline wurde inzwischen noch mehrfach überarbeitet und sieht jetzt viel hübscher aus"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "排名有史以来最好和最差的世界杯套装： 2026年更新https://www.nytimes.com/athletic/7370519/2026/06/20/world-cup-kits-jerseys-best-worst-vintage/ #体育#世界杯#时尚"
   },
   {
     "item_id": "norm_505",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Reihe „WM 2026“ – Heute: Carol Campbell zeichnet die Schulreformen Ontarios zwischen 2013 und 2018 nach. Vom partnerschaftlichen Arbeiten zur Leistungssteigerung bis zum Paradigmenwechsel hin zu kollaborativer Professionalität mit Fokus auf Bildungsgerechtigkeit. ⬇️ https://www.pedocs.de/frontdoor.php?source_opus=22076&pk_campaign=SocMed&pk_kwd=mastodon #WM2026 #FWC26 #FIFAWorldCup #WeAre26 #WorldCup #Kanada #Bildungsforschung #peDOCS",
-    "url": "https://eduresearch.social/@peDOCS/116781142526529252",
+    "summary": "Asda makes major change to online deliveries with a new two hour rule https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/asda-makes-major-change-online-deliveries-a-two-hour-rule-28841068/",
+    "url": "https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/asda-makes-major-change-online-deliveries-a-two-hour-rule-28841068/",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Reihe „WM 2026 – Heute: Carol Campbell zeichnet die Schulreformen Ontarios zwischen 2013 和 2018 nach"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "Asda对在线交付做出了重大改变，推出了新的两小时规则https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/asda-makes-major-change-online-deliveries-a-two-hour-rule-28841068/"
   },
   {
     "item_id": "norm_506",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "As it stands now USA would play Bosnia in round 32 knock out game #WorldCup",
-    "url": "https://twitter.com/sportsrage/status/2068226525657489550",
+    "summary": "🎯 Call him Mr. Precision 😎 Two shots on target from Matheus Cunha to score his first World Cup goals. #WorldCup",
+    "url": "https://twitter.com/DAZNFootball/status/2068272651508879808",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "按照目前的情况，美国将在第 32 轮淘汰赛中对阵波斯尼亚#WorldCup"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "Precision Matheus Cunha😎两次命中目标，打进他的第一个世界杯进球"
   },
   {
     "item_id": "norm_507",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "Japan coach Hajime Moriyasu wants his side to match Tunisia's expected increase in ⁠intensity when the teams meet on Saturday in the 1,000th match in World Cup history. https://www.japantimes.co.jp/sports/2026/06/20/soccer/world-cup/world-cup-japan-intensity/?utm_medium=Social&utm_source=mastodon #soccer #worldcup #hajimemoriyasu #samuraiblue #tunisia #2026fifaworldcup",
-    "url": "https://mastodon.social/@thejapantimes/116781090115081086",
+    "summary": "Brazil and Haiti fans celebrate together after World Cup match http://newsfeed.facilit8.network/TT7RBr #WorldCup #Brazil #Haiti #Soccer #FootballFans",
+    "url": "https://journa.host/@africa/116781800432519432",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "日本队教练 Hajime Moriyasu 希望他的球队能与突尼斯队相媲美，预计两队将于周六相遇，这是世界杯历史上的第 1000 场比赛"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "巴西和海地球迷在世界杯比赛结束后共同庆祝http://newsfeed.facilit8.network/TT7RBr #世界杯#巴西#海地#足球#足球迷"
   },
   {
     "item_id": "norm_508",
     "source_id": "social_mastodon_worldcup",
     "source_name": "Mastodon hashtag #WorldCup",
     "title": "Untitled item",
-    "summary": "USA vs. Australia takeaways: Winners of Group D, USMNT is redefining World Cup expectations — 'There's something about this one that feels different' Make no mistake: This is not normal. https://sports.yahoo.com/soccer/article/usa-vs-australia-takeaways-winners-of-group-d-usmnt-is-redefining-world-cup-expectations--theres-something-about-this-one-that-feels-different-013909800.html #TopNews #News #US #Australia #WorldCup",
-    "url": "https://mastodon.social/@top_news/116781088931615169",
+    "summary": "Der Ausschlafen-Gag ist immer noch das einzige was euch einfällt? Meine Fresse. #TURPAR #WM2026 #WorldCup #Fußball",
+    "url": "https://norden.social/@werdersee/116781733790796572",
     "language": "multi",
-    "reason": "title_too_short",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Australia takeaways: Winners of Group D, USMNT is redefining World Cup expectations — Theres something about this one that feels different Make no mistake: This is not normal"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "Der Ausschlafen-Gag ist immer noch das einzige was euch einfällt？"
   },
   {
     "item_id": "norm_509",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Matheus Cunha gets Brazil going in the #FIFAWorldCup! 🏄‍♂️🇧🇷 A brace for our man against Haiti 🙌",
-    "url": "https://twitter.com/ManUtd/status/2068245002044481949",
+    "summary": "Van Dijk v Isak later should be interesting #NEDSWE #FIFAWorldCup #LFC",
+    "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:wuojeafwvlqn7devygjbcdjk/post/3mopodmilc22n",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "马修斯·库尼亚带领巴西队参加#FIFAWorldCup！"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "范迪克对阵伊萨克之后应该会很有趣#NEDSWE #FIFAWorldCup #LFC"
   },
   {
     "item_id": "norm_510",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Japanese joy in 2022 🇯🇵 #FIFAWorldCup",
-    "url": "https://twitter.com/FIFAWorldCup/status/2068242309398077667",
+    "summary": "Today's Google logo in Japan celebrates the 2026 FIFA World Cup and features the save. It's the same logo as June 16. #googledoodle #save #worldcup2026 #fifaworldcup #worldcup #fedibird https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://fedibird.com/@txt/116781995323680354",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Japanese joy in 2022 🇯🇵 #FIFAWorldCup"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本今天的 Google 徽标庆祝 2026 年 FIFA 世界杯，并以保存为特色"
   },
   {
     "item_id": "norm_511",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Naprostá statistická dominance Turků i proti deseti, která nikam nevedla a znamená konec už ve skupině bez jediné vstřelené branky. 🤯 🇹🇷 Sledujte #FIFAWorldCup na Nova Action a Oneplay. 📺⁣ #NovaSport #NovaAction https://www.instagram.com/p/DZzANgPl51r",
-    "url": "https://zpravobot.news/@novasport_cz/116781378959417013",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #save #worldcup2026 #fifaworldcup #worldcup #fedibird https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://fedibird.com/@txt/116781981455812993",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Naprostá statistická 统治地位 Turků i proti deseti, která nikam nevedla a znamená konec už ve skupině bez jediné vstřelené branky"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_512",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "\"Prawo Viniciusa\" 🫢 #FIFAWorldCup",
-    "url": "https://twitter.com/Eurosport_PL/status/2068241149421039731",
+    "summary": "Today's Google logo in Japan celebrates the 2026 FIFA World Cup and features the save. It's the same logo as June 16. #googledoodle #worldcup2026 #fifaworldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://flipboard.social/@tomo/116781979468624732",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "普拉沃·维尼西乌萨🫢#FIFAWorldCup"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本今天的 Google 徽标庆祝 2026 年 FIFA 世界杯，并以保存为特色"
   },
   {
     "item_id": "norm_513",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Game times, wherever you are. #FIFAWorldCup #KickOffTimes @McDonalds@twitter.com",
-    "url": "https://twitter.com/FIFAWorldCup/status/2068235739004109063",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #worldcup2026 #fifaworldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://flipboard.social/@tomo/116781975849647425",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "#FIFAWorldCup #KickOffTimes @McDonalds@twitter.com"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_514",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Three points for Diego and @Albirroja@twitter.com as they look towards the final 32 of the #FIFAWorldCup… 🇵🇾💫",
-    "url": "https://twitter.com/OfficialBHAFC/status/2068235254238720411",
+    "summary": "Say: Have you considered if Allah made night continuous for you till the Day of Resurrection, what god other than Allah could bring you light? Will you not then listen? Quran 28:71 https://youtu.be/aG0JZs2-PEs?si=EECrJMyCAOGFlvpC #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781974042039455",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "迭戈和@Albirroja@twitter.com 为 #FIFAWorldCup 的最后 32 强赢得三分……🇵🇾💫"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "说：你有没有想过，如果真主让黑夜持续到复活日，除了真主之外，还有什么神能为你带来光明呢？"
   },
   {
     "item_id": "norm_515",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "❌️ C'est bien Haïti qui est entré le premier sur cette carte et à la maison. La Turquie juste après, rentre déjà aussi, après 2 petits matchs..! ➡️ La carte des nations ÉLIMINÉES de la Coupe du Monde. ❌️ Haïti 🇭🇹 ❌️ Turquie 🇹🇷 #FIFAWorldCup #CDM2026",
-    "url": "https://mastodon.fibre74.fr/@meteofootbot/116781259370555208",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #save #worldcup2026 #fifaworldcup #worldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://submarin.online/notes/anps5x6q3z",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "❌️ Cest bien Haiti qui est entré le prime sur cette carte et à la maison"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_516",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Another #FIFAWorldCup outing for Soutts 🇦🇺 Australia were defeated 2-0 by co-hosts USA in Seattle on Friday.",
-    "url": "https://twitter.com/LCFC/status/2068233619638808784",
+    "summary": "Today's Google logo in Japan celebrates the 2026 FIFA World Cup and features the save. It's the same logo as June 16. #googledoodle #save #worldcup2026 #fifaworldcup #worldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://social.vivaldi.net/@tomoletter/116781964183663844",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "周五，Soutts 🇦🇺 的另一场 #FIFAWorldCup 比赛在西雅图被东道主美国队以 2-0 击败"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本今天的 Google 徽标庆祝 2026 年 FIFA 世界杯，并以保存为特色"
   },
   {
     "item_id": "norm_517",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "RT by @christia_allard: Scotland fans applaud Tartan Army member Donny Strathie on the 76th minute after he passed away in Boston Live updates: https://i.stv.tv/4gwQVMV #Scotland #News #UK #ScottishFootball #WorldCup #FIFAWorldCup #WorldCup #FWC26 #SCOMOR Scotland fans applaud Tartan Army member Donny Strathie on the 76th minute after he passed away in Boston Live updates: i.stv.tv/4gwQVMV #Scotland #News #UK #ScottishFootball #WorldCup #FIFAWorldCup #WorldCup #FWC26 #SCOMOR Video --- https://nitter.net/STVSport/status/2068120922825928907#m",
-    "url": "https://respublicae.eu/@christia_allard/116781176381011376",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #save #worldcup2026 #fifaworldcup #worldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://social.vivaldi.net/@tomoletter/116781963453654320",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_518",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "RT by @christia_allard: Thank you for your support tonight 🏴󠁧󠁢󠁳󠁣󠁴󠁿 It’s all on Miami – see you there. #FIFAWorldCup --- https://nitter.net/ScotlandNT/status/2068125870808547624#m",
-    "url": "https://respublicae.eu/@christia_allard/116781176352311172",
+    "summary": "Have you tried listening to something from the Holy Quran? https://youtu.be/nW__OpwaoMk?si=QccgCMnQhWR5hSRH #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781954351535962",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "RT by @christia_allard：感谢您今晚的支持 🏴Ÿ筛选 筛选 筛选 筛选 筛选 一切都在迈阿密 – 在那里见"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "您是否尝试过聆听《古兰经》中的内容？"
   },
   {
     "item_id": "norm_519",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Kibice Manchesteru United teraz: 😃😃😃 #TURPAR #BRAHAI #SCOMAR #FIFAWorldCup",
-    "url": "https://twitter.com/Eurosport_PL/status/2068229030826979428",
+    "summary": "Kanada uvidí souboj dvou neporažených týmů. ⚔️ Německo vyzve ve druhém duelu na #FIFAWorldCup Pobřeží slonoviny. Vše i s bohatým předzápasovým studiem startuje v 21:15 na Nova Action a Oneplay. 📺 #NovaSport | #NovaAction",
+    "url": "https://zpravobot.news/@novasport_cz/116781939127738736",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "基比斯曼彻斯特联队特拉兹：😃😃😃#TURPAR #BRAHAI #SCOMAR #FIFAWorldCup"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "Kanada uvidí souboj dvou neporažených týmů"
   },
   {
     "item_id": "norm_520",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Das Gedicht \"Videobeweis\" als Video, freilich dem Thema wegen nur ein Standbild. #FußballWM #WM6 #Weltmeisterschaft #FW26 #FIFAWorldCup #WeAre26",
-    "url": "https://mastodon.social/@Tontrug/116781162548482383",
+    "summary": "Love for Jesus led me to follow Muhammad ﷺ https://youtu.be/V1C81Gv5AMw?si=yn_8q90Xeqj83twQ #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781934681833011",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Das Gedicht Videobeweis als Video, freilich dem Thema wegen nur ein Standbild"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "对耶稣的爱让我关注穆罕默德https://youtu.be/V1C81Gv5AMw?si=yn_8q90Xeqj83twQ # WeAre26 # FIFAWorldCup # WorldCup2026"
   },
   {
     "item_id": "norm_521",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "RE: https://twitter.com/TheAthletic/status/2068078548133552493 So back-to-back means two. Got it. #worldcup2026 #fifaworldcup #fedifc",
-    "url": "https://toot.community/@duc/116781161125841332",
+    "summary": "Islam forbade interest... so money doesn’t become a weapon against you https://youtu.be/pj9dBPqEVGM?si=cTxHz7PM_OXuZXG9 #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781915050298592",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "RE: https://twitter.com/TheAthletic/status/2068078548133552493 所以背靠背意味着两个"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "因此，金钱不会成为对付您的武器https://youtu.be/pj9dBPqEVGM?si=cTxHz7PM_OXuZXG9 # WeAre26 # FIFAWorldCup # WorldCup2026"
   },
   {
     "item_id": "norm_522",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Matchday für Nadiem: In Toronto gegen die Elfenbeinküste 🙌🇩🇪 #Mainz05 #FIFAWorldCup",
-    "url": "https://twitter.com/1FSVMainz05/status/2068227351654154277",
+    "summary": "RE: https://sportsbots.xyz/users/Squawka/statuses/2068271569042804980 Turkey have lost consecutive games without scoring for the first time ever at the FIFA World Cup. 😬 #FIFAWorldCup",
+    "url": "https://twitter.com/Squawka/status/2068275440578363633",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "纳迪姆的比赛日：在多伦多 gegen die Elfenbeinküste 🙌🇩🇪 #Mainz05 #FIFAWorldCup"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "回复： https://sportsbots.xyz/users/Squawka/statuses/2068271569042804980土耳其有史以来第一次在国际足联世界杯上连续输掉比赛而没有得分"
   },
   {
     "item_id": "norm_523",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Reihe „WM 2026“ – Heute: Carol Campbell zeichnet die Schulreformen Ontarios zwischen 2013 und 2018 nach. Vom partnerschaftlichen Arbeiten zur Leistungssteigerung bis zum Paradigmenwechsel hin zu kollaborativer Professionalität mit Fokus auf Bildungsgerechtigkeit. ⬇️ https://www.pedocs.de/frontdoor.php?source_opus=22076&pk_campaign=SocMed&pk_kwd=mastodon #WM2026 #FWC26 #FIFAWorldCup #WeAre26 #WorldCup #Kanada #Bildungsforschung #peDOCS",
-    "url": "https://eduresearch.social/@peDOCS/116781142526529252",
+    "summary": "Zakat 2.5% yearly... purifies your wealth and helps the poor https://youtu.be/WYHRNiaEH2k?si=9-SjzKdHD6eUY46Q #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781895364872125",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Reihe „WM 2026 – Heute: Carol Campbell zeichnet die Schulreformen Ontarios zwischen 2013 和 2018 nach"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "净化您的财富并帮助穷人 https://youtu.be/WYHRNiaEH2k?si=9-SjzKdHD6eUY46Q #WeAre26 #FIFAWorldCup #WorldCup2026"
   },
   {
     "item_id": "norm_524",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Eleven players have scored two goals or more in a single game so far at #FIFAWorldCup 2026 🤯",
-    "url": "https://twitter.com/FIFAWorldCup/status/2068219716272054292",
+    "summary": "The stadium unites nationalities... and Islam united hearts on truth https://youtu.be/ZISCSmwIyGM?si=jv8p374N-8bzpjZt #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781875725628293",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "迄今为止，#FIFAWorldCup 2026 上已有 11 名球员在单场比赛中打进两个或以上进球 🤯"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "体育场汇集了各民族"
   },
   {
     "item_id": "norm_525",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "SPEED BROKE THE INTERNET! IShowSpeed just became the REAL MVP of the 2026 World Cup! His song Champions is going MORE viral than Shakira official FIFA anthem! He led a 70,000 fan stadium wave at Portugal vs DR Congo, got featured on the... #IShowSpeed #WorldCup2026 #FIFAWorldCup #Champions #SpeedWorldCup #ViralMoment #StadiumWave #Jumbotron #Portugal #Shakira #WorldCupSong #FIFA #Soccer #Football #Trending #Viral #QuietCipher #WorldCupVibes #SpeedChampions #FanMoments #WorldCupFans #StreamerLife",
-    "url": "https://mastodon.social/@quietcipher1/116780970242849303",
+    "summary": "Here's how 10-man Paraguay held on to knock Turkey out of the World Cup. 👇 ✍️ @guilherme_mirra@twitter.com #FIFAWorldCup https://www.squawka.com/en/features/post-match-analysis-turkey-vs-paraguay-20-06-26/?utm_source=x&utm_medium=social&utm_campaign=reply&utm_content=news",
+    "url": "https://twitter.com/Squawka/status/2068273313441300718",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "IShowSpeed 刚刚成为 2026 年世界杯真正的 MVP！"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "这就是10人制巴拉圭如何将土耳其淘汰出世界杯"
   },
   {
     "item_id": "norm_526",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Naprostá statistická dominance Turků i proti deseti, která nikam nevedla a znamená konec už ve skupině bez jediné vstřelené branky. 🤯 🇹🇷 Sledujte #FIFAWorldCup na Nova Action a Oneplay. 📺⁣ #NovaSport | #NovaAction",
-    "url": "https://zpravobot.news/@novasport_cz/116780955927137386",
+    "summary": "On today's agenda 📋 #FIFAWorldCup",
+    "url": "https://twitter.com/FIFAWorldCup/status/2068272647352533154",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Naprostá statistická 统治地位 Turků i proti deseti, která nikam nevedla a znamená konec už ve skupině bez jediné vstřelené branky"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "今天的议程📋# FIFAWorldCup"
   },
   {
     "item_id": "norm_527",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "New football laws strike as Almirón sent off By Simon Smale Paraguay's Miguel Almirón fell victim to new laws put in place at this World Cup to counter discriminatory behaviour. So what are the new laws in place? https://www.abc.net.au/news/2026-06-20/world-cup-laws-paraguay-miguel-almir%C3%B3n-sent-off-covering-mouth/106823206 #FIFAWorldCup #Soccer #Sport #SimonSmale",
-    "url": "https://rssfeed.media/@abcfeeds/116780905455341917",
+    "summary": "In Islam: dignity for every human, whatever their color https://youtu.be/rSYraWg8ceM?si=9rI4CuMEubsdkHcC #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781856035671268",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "新足球法因阿尔米龙被罚下而受到影响 巴拉圭人西蒙·斯梅尔 米格尔·阿尔米龙成为本届世界杯为打击歧视行为而制定的新法律的受害者"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "在伊斯兰教中：每个人的尊严，无论其肤色如何https://youtu.be/rSYraWg8ceM?si=9rI4CuMEubsdkHcC # WeAre26 # FIFAWorldCup # WorldCup2026"
   },
   {
     "item_id": "norm_528",
     "source_id": "social_mastodon_fifaworldcup",
     "source_name": "Mastodon hashtag #FIFAWorldCup",
     "title": "Untitled item",
-    "summary": "Cristian Volpato shows why the Socceroos wanted him By Tom Wildie Cristian Volpato only made a 30-minute cameo for the Socceroos in their 2-0 World Cup defeat against the USA, but in doing so showed his quality and desire to excel for Australia. https://www.abc.net.au/news/2026-06-20/world-cup-cristian-volpato-is-now-bonded-to-the-socceroos/106822788 #FIFAWorldCup #Soccer #Sport #Socceroos #TomWildie",
-    "url": "https://rssfeed.media/@abcfeeds/116780905534713031",
+    "summary": "Islam unites humanity... we all are from Adam, and Adam from dust https://youtu.be/_6mgrjG3Spk?si=fap1GN2Q8nVmH0Dr #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781836371734788",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "克里斯蒂安·沃尔帕托 (Cristian Volpato) 展示了为什么澳大利亚队想要他 作者：汤姆·维尔迪 (Tom Wildie) 克里斯蒂安·沃尔帕托 (Cristian Volpato) 在世界杯 0-2 输给美国队的比赛中只为澳大利亚队客串了 30 分钟，但这样做却显示了他的能力和为澳大利亚队取得优异成绩的渴望"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "我们都来自亚当，亚当来自尘埃https://youtu.be/_6mgrjG3Spk?si=fap1GN2Q8nVmH0Dr # WeAre26 # FIFAWorldCup # WorldCup2026"
   },
   {
     "item_id": "norm_529",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "World media reacts as 'limited' Scotland see party halted while uninvited powerhouse rubs eyes in disbelief https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/world-media-reacts-limited-scotland-37323822",
-    "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/world-media-reacts-limited-scotland-37323822",
+    "summary": "Today's Google logo in Japan celebrates the 2026 FIFA World Cup and features the save. It's the same logo as June 16. #googledoodle #save #worldcup2026 #fifaworldcup #worldcup #fedibird https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://fedibird.com/@txt/116781995323680354",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "世界媒体做出反应，有限的苏格兰看到派对被叫停，而不请自来的强队则难以置信地揉着眼睛 https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/world-media-reacts-limited-scotland-37323822"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本今天的 Google 徽标庆祝 2026 年 FIFA 世界杯，并以保存为特色"
   },
   {
     "item_id": "norm_530",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "Brazilian media's comments about Matheus Cunha at World Cup speak volumes for Man Utd https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/matheus-cunha-world-cup-brazil-37323831",
-    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/matheus-cunha-world-cup-brazil-37323831",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #save #worldcup2026 #fifaworldcup #worldcup #fedibird https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://fedibird.com/@txt/116781981455812993",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Brazilian medias comments about Matheus Cunha at World Cup speak volumes for Man Utd https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/matheus-cunha-world-cup-brazil-37323831"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_531",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "Netherlands Face Group Leaders Sweden in Crucial FIFA World Cup 2026 Clash https://www.cashlesstime.com/2026/06/netherlands-face-group-leaders-sweden.html?m=1 #NetherlandsVsSweden #FIFAWorldCup2026 #WorldCup2026 #GroupF #FootballNews #SoccerNews #DutchFootball #SwedenFootball #WorldCupMatchday #SportsNews",
-    "url": "https://mastodon.social/@cashlesstime/116781257711472028",
+    "summary": "Today's Google logo in Japan celebrates the 2026 FIFA World Cup and features the save. It's the same logo as June 16. #googledoodle #worldcup2026 #fifaworldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://flipboard.social/@tomo/116781979468624732",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "荷兰队在 2026 年 FIFA 世界杯关键比赛中对阵小组领头羊瑞典 https://www.cashlesstime.com/2026/06/netherlands-face-group-leaders-sweden.html?m=1 #NetherlandsVsSweden #FIFAWorldCup2026 #WorldCup2026 #GroupF #FootballNews #SoccerNews #DutchFootball #SwedenFootball #WorldCupMatchday #SportsNews"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本今天的 Google 徽标庆祝 2026 年 FIFA 世界杯，并以保存为特色"
   },
   {
     "item_id": "norm_532",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "World Cup 2026: Scotland fall flat; USA into knockouts; Turkey’s exit and Almíron’s red for covering mouth – live https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan #WorldCup2026 #WorldCup #Football #Sport #UsSports #AustraliaSport",
-    "url": "https://halo.nu/@theguardian_us_news/116781254025568612",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #worldcup2026 #fifaworldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://flipboard.social/@tomo/116781975849647425",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "2026 年世界杯：苏格兰表现平平；美国队进入淘汰赛；土耳其出局和阿尔米龙因捂嘴而红牌 – 直播 https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan #WorldCup2026 #WorldCup #Football #Sport #UsSports #AustraliaSport"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_533",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "Spaceship stadiums and Ronaldo-mania: Guardian writers’ first impressions of the World Cup https://www.theguardian.com/football/2026/jun/20/spaceship-stadiums-and-ronaldo-mania-guardian-writers-first-impressions-of-the-world-cup #WorldCup2026 #WorldCup #Football #Sport #UsSports",
-    "url": "https://halo.nu/@theguardian_us_news/116781197495926891",
+    "summary": "Say: Have you considered if Allah made night continuous for you till the Day of Resurrection, what god other than Allah could bring you light? Will you not then listen? Quran 28:71 https://youtu.be/aG0JZs2-PEs?si=EECrJMyCAOGFlvpC #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781974042039455",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "宇宙飞船体育场和罗纳尔多狂热：《卫报》作家对世界杯的第一印象 https://www.theguardian.com/football/2026/jun/20/spaceship-stadiums-and-ronaldo-mania-guardian-writers-first-impressions-of-the-world-cup #WorldCup2026 #WorldCup #Football #Sport #UsSports"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "说：你有没有想过，如果真主让黑夜持续到复活日，除了真主之外，还有什么神能为你带来光明呢？"
   },
   {
     "item_id": "norm_534",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "RE: https://twitter.com/TheAthletic/status/2068078548133552493 So back-to-back means two. Got it. #worldcup2026 #fifaworldcup #fedifc",
-    "url": "https://toot.community/@duc/116781161125841332",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #save #worldcup2026 #fifaworldcup #worldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://submarin.online/notes/anps5x6q3z",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "RE: https://twitter.com/TheAthletic/status/2068078548133552493 所以背靠背意味着两个"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_535",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "The USMNT has clinched the top spot in Group D of the 2026 World Cup. Turkey has been eliminated from the tournament following a 1-0 loss to Paraguay in Santa Clara. #USMNT #WorldCup2026 #FIFA #Soccer https://blazetrends.com/usmnt-clinches-group-d-top-spot-following-paraguays-1-0-win-over-turkey/?fsp_sid=37751",
-    "url": "https://mastodon.social/@theblazetrends/116781060931189197",
+    "summary": "Today's Google logo in Japan celebrates the 2026 FIFA World Cup and features the save. It's the same logo as June 16. #googledoodle #save #worldcup2026 #fifaworldcup #worldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://social.vivaldi.net/@tomoletter/116781964183663844",
     "language": "multi",
-    "reason": "title_too_short",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "USMNT 锁定 2026 年世界杯 D 组头名位置"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本今天的 Google 徽标庆祝 2026 年 FIFA 世界杯，并以保存为特色"
   },
   {
     "item_id": "norm_536",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "Group H is wide open! Can Spain break down Saudi Arabia's defense in Atlanta? https://english.mathrubhumi.com/sports/football/football-world-cup-2026-spain-vs-saudi-arabia-match-preview-cp4hdzfc?utm_source=dlvr.it&utm_medium=mastodon #WorldCup2026 #ESPSAU #Spain #SaudiArabia #GroupH",
-    "url": "https://mastodon.social/@Mathrubhumi_English/116781059955774512",
+    "summary": "日本でのGoogleのロゴ、本日はFIFAワールドカップ2026・セーブver.です。6月16日と同様のロゴ。 #googledoodle #save #worldcup2026 #fifaworldcup #worldcup https://doodles.google/doodle/world-cup-2026-the-art-of-the-save-615/",
+    "url": "https://social.vivaldi.net/@tomoletter/116781963453654320",
     "language": "multi",
-    "reason": "title_too_short",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "西班牙能否在亚特兰大打破沙特阿拉伯的防守？"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "日本でのGoogleのロゴ、本日は FIFAワールドカップ 2026・セーブ版本です。6月 16日と同様のロゴ。"
   },
   {
     "item_id": "norm_537",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "When players go to the World Cup, how much do their clubs pocket? Think clubs just sit around worrying when their players head off to the World Cup? In reality, FIFA pays out a record sum to put their minds at ease. Here's how the money gets split at the 2026 World Cup. #worldcup2026 #fifa #soccer",
-    "url": "https://mastodon.social/@walletsum95/116781031372164416",
+    "summary": "Have you tried listening to something from the Holy Quran? https://youtu.be/nW__OpwaoMk?si=QccgCMnQhWR5hSRH #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781954351535962",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "当球员参加世界杯时，他们的俱乐部口袋里有多少钱？"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "您是否尝试过聆听《古兰经》中的内容？"
   },
   {
     "item_id": "norm_538",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "SPEED BROKE THE INTERNET! IShowSpeed just became the REAL MVP of the 2026 World Cup! His song Champions is going MORE viral than Shakira official FIFA anthem! He led a 70,000 fan stadium wave at Portugal vs DR Congo, got featured on the... #IShowSpeed #WorldCup2026 #FIFAWorldCup #Champions #SpeedWorldCup #ViralMoment #StadiumWave #Jumbotron #Portugal #Shakira #WorldCupSong #FIFA #Soccer #Football #Trending #Viral #QuietCipher #WorldCupVibes #SpeedChampions #FanMoments #WorldCupFans #StreamerLife",
-    "url": "https://mastodon.social/@quietcipher1/116780970242849303",
+    "summary": "Love for Jesus led me to follow Muhammad ﷺ https://youtu.be/V1C81Gv5AMw?si=yn_8q90Xeqj83twQ #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781934681833011",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "IShowSpeed 刚刚成为 2026 年世界杯真正的 MVP！"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "对耶稣的爱让我关注穆罕默德https://youtu.be/V1C81Gv5AMw?si=yn_8q90Xeqj83twQ # WeAre26 # FIFAWorldCup # WorldCup2026"
   },
   {
     "item_id": "norm_539",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "Three Scotland stars hand Steve Clarke a Morocco silver lining as World Cup dream isn't dead yet – player ratings https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/two-scotland-stars-hand-steve-37323270",
-    "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/two-scotland-stars-hand-steve-37323270",
+    "summary": "Islam forbade interest... so money doesn’t become a weapon against you https://youtu.be/pj9dBPqEVGM?si=cTxHz7PM_OXuZXG9 #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781915050298592",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "三位苏格兰球星为史蒂夫·克拉克带来了摩洛哥一线希望，世界杯梦想尚未破灭——球员评分 https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/two-scotland-stars-hand-steve-37323270"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "因此，金钱不会成为对付您的武器https://youtu.be/pj9dBPqEVGM?si=cTxHz7PM_OXuZXG9 # WeAre26 # FIFAWorldCup # WorldCup2026"
   },
   {
     "item_id": "norm_540",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "BBC's sack stance after pundit's World Cup 'disaster' and apology for 'embarrassing' mistake https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/bbc-world-cup-coverage-apology-37322337",
-    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/bbc-world-cup-coverage-apology-37322337",
+    "summary": "World Cup fans can get free Top Trumps football sets with nifty double deal https://fed.brid.gy/r/https://www.dailyrecord.co.uk/lifestyle/world-cup-fans-can-free-37324073",
+    "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/lifestyle/world-cup-fans-can-free-37324073",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "英国广播公司在专家世界杯灾难后解除立场，并为令人尴尬的错误道歉 https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/bbc-world-cup-coverage-apology-37322337"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "世界杯球迷可以通过漂亮的双重交易获得免费的顶级特朗普足球套装 https://fed.brid.gy/r/https://www.dailyrecord.co.uk/lifestyle/world-cup-fans-can-free-37324073"
   },
   {
     "item_id": "norm_541",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "England star retired from football five years after World Cup heroics for unusual career switch https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/world-cup-winner-undertaker-football-37315569",
-    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/world-cup-winner-undertaker-football-37315569",
+    "summary": "What Scotland need to reach World Cup 2026 knockout stage as Tartan Army face prospect of torturous four day wait https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/what-scotland-need-reach-world-37324094",
+    "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/what-scotland-need-reach-world-37324094",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "英格兰球星在世界杯英雄事迹五年后因不寻常的职业转变而从足球界退役 https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/world-cup-winner-undertaker-football-37315569"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "苏格兰需要达到2026年世界杯淘汰赛阶段，因为格子呢军队面临为期四天的折磨等待https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/what-scotland-need-reach-world-37324094"
   },
   {
     "item_id": "norm_542",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "And Paraguay! When fucking Almirón did the one fucking thing they told everyone would be a red card. All he had to do was not do it! The time wasting after that… otherworldly. If a Paraguayan was so unlucky as to spy a Turkish player out the corner of their eye, they hit the turf like a lawn dart. So many exploded thigh muscles! Apparently! Oh look it’s the stretcher again, that player got Jerusalem Syndrome #TURPAR #FediFC #WorldCup #WorldCup2026",
-    "url": "https://wandering.shop/@CoolerPseudonym/116780840342184679",
+    "summary": "Zakat 2.5% yearly... purifies your wealth and helps the poor https://youtu.be/WYHRNiaEH2k?si=9-SjzKdHD6eUY46Q #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781895364872125",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "当他妈的阿尔米隆做了他们告诉每个人都会被红牌罚下的一件该死的事情时"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "净化您的财富并帮助穷人 https://youtu.be/WYHRNiaEH2k?si=9-SjzKdHD6eUY46Q #WeAre26 #FIFAWorldCup #WorldCup2026"
   },
   {
     "item_id": "norm_543",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "Paraguay's Miguel Almirón became the first player to receive a red card under FIFA's new mouth-covering rule during the 2026 World Cup clash against Turkey. https://english.mathrubhumi.com/sports/football/almiron-makes-unwanted-history-with-first-red-card-under-fifa-mouth-covering-ban-cm203rtc?utm_source=dlvr.it&utm_medium=mastodon #MiguelAlmiron #Paraguay #Turkey #FIFAWorldCup2026 #WorldCup2026",
-    "url": "https://mastodon.social/@Mathrubhumi_English/116780831679851916",
+    "summary": "The stadium unites nationalities... and Islam united hearts on truth https://youtu.be/ZISCSmwIyGM?si=jv8p374N-8bzpjZt #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781875725628293",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "巴拉圭队球员米格尔·阿尔米龙在 2026 年世界杯对阵土耳其的比赛中，成为首位根据国际足联新的捂嘴规则吃到红牌的球员"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "体育场汇集了各民族"
   },
   {
     "item_id": "norm_544",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "Honestly some of the funniest shit I’ve ever seen Every time Turkey took another pointless shot from out past Fremont or San Mateo, and missed by the same 2 yard margin Turkey had 62 shots in two games. SIXTY-TWO SHOTS. zero goals. Nil of goals. None goals Staggering #TURPAR #FediFC #WorldCup #WorldCup2026",
-    "url": "https://wandering.shop/@CoolerPseudonym/116780813792840120",
+    "summary": "In Islam: dignity for every human, whatever their color https://youtu.be/rSYraWg8ceM?si=9rI4CuMEubsdkHcC #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781856035671268",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "老实说，这是我见过的最有趣的事情每次土耳其队从弗里蒙特或圣马特奥队再一次毫无意义的射门，并且以同样的 2 码优势错过时，土耳其队在两场比赛中射门 62 次"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "在伊斯兰教中：每个人的尊严，无论其肤色如何https://youtu.be/rSYraWg8ceM?si=9rI4CuMEubsdkHcC # WeAre26 # FIFAWorldCup # WorldCup2026"
   },
   {
     "item_id": "norm_545",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "We just kicked Turkey from the #WorldCup2026 First European team to get eliminated.",
-    "url": "https://indieweb.social/@jbz/116780805401764428",
+    "summary": "Islam unites humanity... we all are from Adam, and Adam from dust https://youtu.be/_6mgrjG3Spk?si=fap1GN2Q8nVmH0Dr #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781836371734788",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "我们刚刚将土耳其踢出了 #WorldCup2026 第一支被淘汰的欧洲球队"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "我们都来自亚当，亚当来自尘埃https://youtu.be/_6mgrjG3Spk?si=fap1GN2Q8nVmH0Dr # WeAre26 # FIFAWorldCup # WorldCup2026"
   },
   {
     "item_id": "norm_546",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "https://www.tkhunt.com/2397079/ 【広島の豪邸】マツダ創業家・綾瀬はるか・岸田文雄・森保一（サッカー日本代表監督）・ポプラ創業者・フマキラー社長の豪邸と中国放送＆広島テレビ社屋や広島城などの名所を巡ってみた #worldcup2026 #F蘭大学から成功 #お笑い芸人 #お金持ちの家 #ニュースな家 #不動産 #不動産投資 #住みやすい家 #大金持ち #憧れの家 #有名人の家 #有名人の豪邸 #物件紹介 #社長のご自宅 #社長の豪邸 #綾瀬はるか #芸能人のご自宅 #芸能人自宅 #豪邸 #豪邸見学 #高級住宅街",
-    "url": "https://jpmstdn.com/@tkhunt/116780799582730048",
+    "summary": "No difference between white and black... except by piety https://youtu.be/04BNC37dy4k?si=CQ9JU7sAtcUoN6S_ #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781816711606924",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "https://www.tkhunt.com/2397079/ 【広島の豪邸】マツダ創業家・綾瀬はるか・岸田文雄・森保一（サッカー日本代表監督）・ポプラ創業者・フマキラー社長の豪邸と中国放送＆広島テレビ社屋や広島城などの名所を巡ってみた #worldcup2026 #F蘭大学から成功 #お笑い芸人 #お金持ちの家 #ニュースな家 #不動産 #不動産投資 #住みやすい家 #大金持ち #憧れの家 #有名人の家 #有名人の豪邸 #物件紹介 #社長のご自宅 #社長の豪邸 #綾瀬はるか #芸能人のご自宅 #芸能人自宅 #豪邸 #豪邸見学 #高級住宅街"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "白色和黑色没有区别"
   },
   {
     "item_id": "norm_547",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "the Cabo Verde curse (n.) when you got terrible attacks and the supposedly weaker team has extraordinary defence, to the point they can keep a draw or even win against you #worldcup2026 #fifaworldcup #fedifc #TURPAR #ESPCPV",
-    "url": "https://toot.community/@duc/116780798917603193",
+    "summary": "Allah sees you, hears you, knows your heart... you are not alone https://youtu.be/dVarHOjxdhY?si=eJ0OBfr43AV14pOi #WeAre26 #FIFAWorldCup #WorldCup2026",
+    "url": "https://mastodon.social/@Dawahudhud/116781797048554134",
     "language": "multi",
-    "reason": "title_too_short",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "佛得角诅咒（n.），当你遭受可怕的攻击，而据称较弱的球队却拥有非凡的防守时，他们可以保持平局甚至战胜你#worldcup2026 #fifaworldcup #fedifc #TURPAR #ESPCPV"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "真主看着你，听着你，知道你的心"
   },
   {
     "item_id": "norm_548",
     "source_id": "social_mastodon_worldcup2026",
     "source_name": "Mastodon hashtag #WorldCup2026",
     "title": "Untitled item",
-    "summary": "Group F showdown! New-look Tunisia battles Japan in Monterrey for a vital World Cup win. https://english.mathrubhumi.com/sports/football/football-world-cup-2026-tunisia-vs-japan-match-preview-oklmi5rp?utm_source=dlvr.it&utm_medium=mastodon #WorldCup2026 #TUNJPN #Tunisia #Japan #GroupF",
-    "url": "https://mastodon.social/@Mathrubhumi_English/116780796298349470",
+    "summary": "Roy Keane lays into WAGs over 'ridiculous' World Cup behaviour as Gary Neville loses it https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/keane-england-wags-world-cup-37324106",
+    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/keane-england-wags-world-cup-37324106",
     "language": "multi",
-    "reason": "title_too_short",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "New-look Tunisia battles Japan in Monterrey for a vital World Cup win"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "罗伊·基恩（Roy Keane）因加里·内维尔（Gary Neville）在世界杯上的荒谬行为而陷入WAG https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/keane-england-wags-world-cup-37324106"
   },
   {
     "item_id": "norm_549",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Morocco captain Achraf Hakimi booed by Scotland fans on day he is ordered to stand trial on rape charges https://www.nytimes.com/athletic/7377919/2026/06/20/achraf-hakimi-booed-morocco-scotland/ Morocco's coach spoke on the day the team's captain had been ordered to stand trial on rape charges #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/116781967815474438",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "摩洛哥队长阿克拉夫·哈基米（Achraf Hakimi）在苏格兰球迷的嘘声中被命令以强奸罪受审https://www.nytimes.com/athletic/7377919/2026/06/20/achraf-hakimi-booed-morocco-scotland/摩洛哥教练在球队队长被命令以强奸罪受审的当天发表讲话#足球#足球"
+  },
+  {
+    "item_id": "norm_550",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Coupe du Monde : France / Irak en direct sur M6 lundi 22 juin 2026 #Mondial2026 #CoupeDuMonde #Football #France #M6 https://zurl.co/eIi9d",
+    "url": "https://mastodon.social/@coulissestv/116781926029704157",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "Coupe du Monde：法国/Irak en direct sur M6 lundi 2026年6月22日# Mondial2026 # CoupeDuMonde #足球#法国# M6 https://zurl.co/eIi9d"
+  },
+  {
+    "item_id": "norm_551",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "🏆 WORLD POWER RANKINGS 🏆 🥇 Paris Saint-Germain FC (1056) 🥈 FC Bayern München (1051) 🥉 Arsenal FC (1043) 4️⃣ Manchester City FC (1043) 5️⃣ Lille OSC (1041) #FutePower #Ranking #Football",
+    "url": "https://mastodon.social/@futepower/116781911966009309",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "🏆 世界权力排名🏆 🥇巴黎圣日耳曼足🥈球俱乐部（1056）拜仁慕尼黑足球俱乐部（1051）🥉阿森纳足️球俱乐部（1043） 4曼城足球俱乐部️（1043） 5里尔OSC （1041） # FutePower #排名#足球"
+  },
+  {
+    "item_id": "norm_552",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Morocco captain Achraf Hakimi booed by Scotland fans on day he is ordered to stand trial on rape charges https://www.nytimes.com/athletic/7377919/2026/06/20/achraf-hakimi-booed-morocco-scotland/ #Sports #Football #News",
+    "url": "https://www.nytimes.com/athletic/7377919/2026/06/20/achraf-hakimi-booed-morocco-scotland/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "摩洛哥队长阿克拉夫·哈基米（Achraf Hakimi）在苏格兰球迷的嘘声中被命令接受强奸指控的审判https://www.nytimes.com/athletic/7377919/2026/06/20/achraf-hakimi-booed-morocco-scotland/ #体育#足球#新闻"
+  },
+  {
+    "item_id": "norm_553",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "English Premier League 2026-08-21 Scores. Upcoming Games: 21/08/2026 19:00 UTC #ARS - #COV #premierleague #englishpremierleague #premier #epl #football #soccer #scores #scoreboard #futbol #mastodonfc",
+    "url": "https://mastodon.world/@premierleaguescores/116781849166482236",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "英超2026-08-21比分"
+  },
+  {
+    "item_id": "norm_554",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Inside the biggest, most heartbreaking day in Canada soccer history — by those who lived it https://www.nytimes.com/athletic/7377086/2026/06/20/world-cup-canada-inside-qatar/ Canada's 6-0 win and the distressing injury suffered by Ismaël Koné showed what this team is all about: friendship and commitment #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/116781731686501095",
+    "language": "multi",
+    "reason": "title_too_short",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "在加拿大足球历史上最大，最令人心碎的一天—由那些经历过的人https://www.nytimes.com/athletic/7377086/2026/06/20/world-cup-canada-inside-qatar/加拿大队以6-0获胜以及IsmaëlKoné遭受的痛苦伤害展示了这支球队的全部意义：友谊和承诺#足球#足球"
+  },
+  {
+    "item_id": "norm_555",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Want to keep the Boston-Scotland party going? Get the New England Patriots involved https://www.nytimes.com/athletic/7377988/2026/06/20/world-cup-scotland-party-boston-patriots-morocco/ The Scottish Invasion is next level. But this sister city business, if it's to be lasting, must be more than photo ops and Christmas cards. #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/116781672546158026",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "想继续举办波士顿-苏格兰派对吗？"
+  },
+  {
+    "item_id": "norm_556",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Want to keep the Boston-Scotland party going? Get the New England Patriots involved https://www.nytimes.com/athletic/7377988/2026/06/20/world-cup-scotland-party-boston-patriots-morocco/ #Sports #Football #WorldCup",
+    "url": "https://www.nytimes.com/athletic/7377988/2026/06/20/world-cup-scotland-party-boston-patriots-morocco/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "想继续举办波士顿-苏格兰派对吗？"
+  },
+  {
+    "item_id": "norm_557",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Turkey down and out! Re-ranking the 48 World Cup teams after day nine https://www.nytimes.com/athletic/7329359/2026/06/20/world-cup-2026-teams-ranked/ Canada won a World Cup game for the first time and Mexico are the first team into the last 32. How did Thursday's games affect out rankings? #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/116781554621514325",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "第九天后重新排名48支世界杯球队https://www.nytimes.com/athletic/7329359/2026/06/20/world-cup-2026-teams-ranked/加拿大首次赢得世界杯比赛，墨西哥是进入最后32强的第一支球队"
+  },
+  {
+    "item_id": "norm_558",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "World Cup predictions: Netherlands vs Sweden, Germany vs Ivory Coast and rest of matchday 10 https://www.nytimes.com/athletic/7368380/2026/06/20/world-cup-predictions-md-10/ Who knows more about soccer? Us ‘experts’, you the subscribers, a child, a dog or an algorithm? Come join us to predict each World Cup game #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/116781554626138917",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "世界杯预测：荷兰vs瑞典、德国vs象牙海岸和比赛日剩余时间10 https://www.nytimes.com/athletic/7368380/2026/06/20/world-cup-predictions-md-10/谁更了解足球？"
+  },
+  {
+    "item_id": "norm_559",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Socceroos crash back to earth after being humbled by superior USA https://feddit.uk/post/51030224",
+    "url": "https://feddit.uk/post/51030224",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "Socceroos在被优越的美国谦卑之后重返地球https://feddit.uk/post/51030224"
+  },
+  {
+    "item_id": "norm_560",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "‘That penalty changed my life’: Panenka’s pride 50 years on from special spot-kick https://feddit.uk/post/51030166",
+    "url": "https://feddit.uk/post/51030166",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "“那个点球改变了我的生活”：特别点球 50 年后帕年卡的骄傲 https://feddit.uk/post/51030166"
+  },
+  {
+    "item_id": "norm_561",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "[rtbf] Coupe du monde 2026 : un joueur paraguayen exclu pour avoir parlé avec sa main devant la bouche #FOOTBALL https://www.rtbf.be/article/coupe-du-monde-2026-un-joueur-paraguayen-exclu-pour-avoir-parle-avec-sa-main-devant-la-bouche-11744206",
+    "url": "https://mastodon.social/@actu_be_fr/116781514986189480",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "[rtbf] Coupe du monde 2026: un joueur paraguayen exclu pour avoir parlé avec sa main devant la bouche #足球https://www.rtbf.be/article/coupe-du-monde-2026-un-joueur-paraguayen-exclu-pour-avoir-parle-avec-sa-main-devant-la-bouche-11744206"
+  },
+  {
+    "item_id": "norm_562",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "US players agree with Zlatan Ibrahimovic that World Cup title is possible: ‘That’s our mindset’ https://feddit.uk/post/51030061",
+    "url": "https://feddit.uk/post/51030061",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "美国球员同意兹拉坦·伊布拉希莫维奇的观点，即世界杯冠军是可能的：“这就是我们的心态” https://feddit.uk/post/51030061"
+  },
+  {
+    "item_id": "norm_563",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Socceroos aggrieved by referee’s ‘stinker’ in World Cup defeat to USA https://feddit.uk/post/51030060",
+    "url": "https://feddit.uk/post/51030060",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "足球运动员对裁判在世界杯上击败美国的“臭人”感到愤慨https://feddit.uk/post/51030060"
+  },
+  {
+    "item_id": "norm_564",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "The #cat has been enjoying the #WorldCup #football #caturday",
+    "url": "https://mastodon.me.uk/@pikesley/116781486636282024",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "# cat一直在享受# WorldCup #足球# caturday"
+  },
+  {
+    "item_id": "norm_565",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Why not US? Amusingly, this is the most united I've seen the country in a while. #soccer #football #worldcup #fifa2026",
+    "url": "https://civv.es/notes/anpndkbr8xgv01n0",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "有趣的是，这是我见过的最团结的国家在一段时间"
+  },
+  {
+    "item_id": "norm_566",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1413,11 +1855,11 @@
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "李维斯体育场 https://en.wikipedia.org/wiki/Levi%27s_Stadium 容量：68500 地点：美国加利福尼亚州圣克拉拉 球队：旧金山 49 人队 #SantaClara #UnitedStates #stadium #soccer #football #fussball #fedifc #mastodonFC"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "Levis体育场https://en.wikipedia.org/wiki/Levi %27s_体育场容量： 68500地点：加利福尼亚州圣克拉拉美国队：旧金山49人队# SantaClara #美国#体育场#足球#足球# fussball # fedifc # mastodonFC"
   },
   {
-    "item_id": "norm_550",
+    "item_id": "norm_567",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1426,479 +1868,245 @@
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "切斯敦引进经验丰富的中场 https://lichfieldlive.co.uk/2026/06/20/chasetown-bring-in-experienced-midfielder/"
-  },
-  {
-    "item_id": "norm_551",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "‘Pay attention!’ – Emma Hayes hits back at ‘sexism’ storm after ITV World Cup criticism https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/emma-hayes-hits-back-sexism-storm-itv-world-cup-criticism-28852718/",
-    "url": "https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/emma-hayes-hits-back-sexism-storm-itv-world-cup-criticism-28852718/",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "‘Pay attention!’ – Emma Hayes hits back at ‘sexism’ storm after ITV World Cup criticism https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/emma-hayes-hits-back-sexism-storm-itv-world-cup-criticism-28852718/"
-  },
-  {
-    "item_id": "norm_552",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "World Cup star becomes first player sent off for breaking new Fifa rule https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/world-cup-star-becomes-first-player-sent-off-breaking-new-fifa-rule-28853281/",
-    "url": "https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/world-cup-star-becomes-first-player-sent-off-breaking-new-fifa-rule-28853281/",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "世界杯球星成为第一位因违反国际足联新规则而被罚下场的球员 https://fed.brid.gy/r/https://metro.co.uk/2026/06/20/world-cup-star-becomes-first-player-sent-off-writing-new-fifa-rule-28853281/"
-  },
-  {
-    "item_id": "norm_553",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "Avez-vous remarqué ce petit détail sur les vidéos YouTube qui parlent de la Coupe du monde ? #Tech #Web #CoupeDuMonde2026 #Football Dans certaines vidéos, Google remplace le curseur rouge qui permet d'avancer dans une vidéo par un ballon de football. Un hommage à la Coupe du monde avec laquelle il a passé un partenariat sur certa--> https://www.numerama.com/tech/2281155-avez-vous-remarque-ce-petit-detail-sur-les-videos-youtube-qui-parlent-de-la-coupe-du-monde.html Sat, 20 Jun 2026 07:41:51 +0000",
-    "url": "https://news.piaf.im/@numerama/116781309391119893",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "您是否对 YouTube 视频中的小细节有何评论？"
-  },
-  {
-    "item_id": "norm_554",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "World Cup 2026: Scotland fall flat; USA into knockouts; Turkey’s exit and Almíron’s red for covering mouth – live https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan #WorldCup2026 #WorldCup #Football #Sport #UsSports #AustraliaSport",
-    "url": "https://halo.nu/@theguardian_us_news/116781254025568612",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "2026 年世界杯：苏格兰表现平平；美国队进入淘汰赛；土耳其出局和阿尔米龙因捂嘴而红牌 – 直播 https://www.theguardian.com/football/live/2026/jun/20/world-cup-2026-scotland-morocco-usa-australia-netherlands-sweden-germany-cote-d-ivoire-ecuador-curacao-tunisia-japan #WorldCup2026 #WorldCup #Football #Sport #UsSports #AustraliaSport"
-  },
-  {
-    "item_id": "norm_555",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "World Cup still waits for real Brazil to show up https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss #Football #WorldCup #Sports",
-    "url": "https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "世界杯仍在等待真正的巴西队出现 https://www.bbc.com/sport/football/articles/c4gy8lldwqyo?at_medium=RSS&at_campaign=rss #Football #WorldCup #Sports"
-  },
-  {
-    "item_id": "norm_556",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "Flawed but relentless Scotland show themselves as men of substance https://www.bbc.com/sport/football/articles/c33y5v4mer3o?at_medium=RSS&at_campaign=rss #Football #Sports #Analysis",
-    "url": "https://www.bbc.com/sport/football/articles/c33y5v4mer3o?at_medium=RSS&at_campaign=rss",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "有缺陷但无情的苏格兰将自己展现为有内涵的人 https://www.bbc.com/sport/football/articles/c33y5v4mer3o?at_medium=RSS&at_campaign=rss #Football #Sports #Analysis"
-  },
-  {
-    "item_id": "norm_557",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "Spaceship stadiums and Ronaldo-mania: Guardian writers’ first impressions of the World Cup https://www.theguardian.com/football/2026/jun/20/spaceship-stadiums-and-ronaldo-mania-guardian-writers-first-impressions-of-the-world-cup #WorldCup2026 #WorldCup #Football #Sport #UsSports",
-    "url": "https://halo.nu/@theguardian_us_news/116781197495926891",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "宇宙飞船体育场和罗纳尔多狂热：《卫报》作家对世界杯的第一印象 https://www.theguardian.com/football/2026/jun/20/spaceship-stadiums-and-ronaldo-mania-guardian-writers-first-impressions-of-the-world-cup #WorldCup2026 #WorldCup #Football #Sport #UsSports"
-  },
-  {
-    "item_id": "norm_558",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "Paraguay's Almiron first player sent off for covering mouth https://www.bbc.com/sport/football/articles/cvg58m7n1plo?at_medium=RSS&at_campaign=rss #Football #Sports #News",
-    "url": "https://www.bbc.com/sport/football/articles/cvg58m7n1plo?at_medium=RSS&at_campaign=rss",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "巴拉圭阿尔米隆第一位球员因捂嘴被罚下 https://www.bbc.com/sport/football/articles/cvg58m7n1plo?at_medium=RSS&at_campaign=rss #Football #Sports #News"
-  },
-  {
-    "item_id": "norm_559",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "[lalibre] Deux premiers pays éliminés et une expulsion historique: que s'est-il passé cette nuit ? #Football https://www.lalibre.be/sports/football/2026/06/20/deux-premiers-pays-elimines-et-une-expulsion-historique-que-sest-il-passe-cette-nuit-NBLBULN3SNGB7AFWYUWU4JKCEM/",
-    "url": "https://mastodon.social/@actu_be_fr/116781161129186816",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "[lalibre] 双重总理支付 éliminés et une 驱逐历史： que sest-il passé cette nuit？"
-  },
-  {
-    "item_id": "norm_560",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "Gli incontri odierni della postseason di #FootballAmericano 1° Div - Semifinali 16:00 - GUELFI Firenze [8-0] vs DOLPHINS Ancona [6-3] 2° Div - Semifinali 18:00 - SEAMEN Milano [6-2] vs SAINTS Padova [7-2] 9fl - Finali Conference 16:00 - CRUSADERS Cagliari [7-0] vs WOLVERINES Piacenza [7-1] 20:30 - H. BADGERS Formigine [7-0] vs CHIEFS Ravenna [7-1] #Football #AmericanFootball",
-    "url": "https://mastodon.uno/@Godai71/116781145292247603",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "#FootballAmericano 1° Div - 半决赛 16:00 - GUELFI Firenze [8-0] vs DOLPHINS Ancona [6-3] 2° Div - 半决赛 18:00 - SEAMEN Milano [6-2] vs SAINTS Padova [7-2] 9fl - 决赛 16:00 -十字军卡利亚里 [7-0] vs 狼獾皮亚琴察 [7-1] 20:30 - H"
-  },
-  {
-    "item_id": "norm_561",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "The Scott McTominay mural on a tenement gable end on Somerville Drive in the Southside of Glasgow, created by Global Street Art. #glasgow #streetart #mural #football #scottmctominay",
-    "url": "https://mastodon.scot/@thisismyglasgow/116781139657744413",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "The Scott McTominay mural on a tenement gable end on Somerville Drive in the Southside of Glasgow, created by Global Street Art"
-  },
-  {
-    "item_id": "norm_562",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "SPEED BROKE THE INTERNET! IShowSpeed just became the REAL MVP of the 2026 World Cup! His song Champions is going MORE viral than Shakira official FIFA anthem! He led a 70,000 fan stadium wave at Portugal vs DR Congo, got featured on the... #IShowSpeed #WorldCup2026 #FIFAWorldCup #Champions #SpeedWorldCup #ViralMoment #StadiumWave #Jumbotron #Portugal #Shakira #WorldCupSong #FIFA #Soccer #Football #Trending #Viral #QuietCipher #WorldCupVibes #SpeedChampions #FanMoments #WorldCupFans #StreamerLife",
-    "url": "https://mastodon.social/@quietcipher1/116780970242849303",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "IShowSpeed 刚刚成为 2026 年世界杯真正的 MVP！"
-  },
-  {
-    "item_id": "norm_563",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "Heute spielen die Chemnitz Crusaders gegen die Berlin Adler. Auf der großen Bühne im Sportforum. Da müssen sie über sich hinauswachsen, um eine Chance zu haben. Ich drücke die Daumen. #Football #crusaders #Chemnitz",
-    "url": "https://mastodon.social/@itsmealexander/116780963521410556",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "开姆尼茨十字军在柏林阿德勒的精彩表演"
-  },
-  {
-    "item_id": "norm_564",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "9/13 - 4:25 PM EDT #ARI @ #LAC 9/13 - 8:20 PM EDT #DAL @ #NYG 9/14 - 8:15 PM EDT #DEN @ #KC #nfl #nflfootball #football",
-    "url": "https://mastodon.online/@nflscores/116780905489957908",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "9/13 - 4:25 PM EDT #ARI @ #LAC 9/13 - 8:20 PM EDT #DAL @ #NYG 9/14 - 8:15 PM EDT #DEN @ #KC #nfl #nflfootball #football"
-  },
-  {
-    "item_id": "norm_565",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "#Football. Les poules départementales 2026-2027 de D1 à D4 sont connues dans les Deux-Sèvres. → https://nrt79.link/ab775p",
-    "url": "https://mastodon.top/@e_niort/116780873829449136",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "2026-2027 年第 1 日和第 4 日的各组比赛将在双塞夫尔继续进行"
-  },
-  {
-    "item_id": "norm_566",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "#Paraguay played as Arsenal but with less set-pieces and more times wasting. It worked even down to 10 men (Almirón mouth covering). #Turkey witnessed how missing a world-class goalscorer shrinks your goal chances at low-box defending. Second eliminated from the #WorldCup. And they had two good long-shooters 90+ minutes. #Football #TURPAR #FIFA #FIFAWorldCup #USA",
-    "url": "https://mastodon.social/@darkghosthunter/116780873425048810",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "#巴拉圭队像阿森纳队一样踢球，但定位球更少，浪费时间更多"
-  },
-  {
-    "item_id": "norm_567",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "#Football. Les horaires des finales des Coupes départementales à nouveau décalé. → https://nrt79.link/hfc42f",
-    "url": "https://mastodon.top/@e_niort/116780846910256155",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "新德卡勒分区杯决赛的早晨"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "Chasetown引进经验丰富的中场https://lichfieldlive.co.uk/2026/06/20/chasetown-bring-in-experienced-midfielder/"
   },
   {
     "item_id": "norm_568",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "Levi's Stadium https://en.wikipedia.org/wiki/Levi%27s_Stadium Capacity: 68500 Location: Santa Clara, California, United States Team: San Francisco 49ers #SantaClara #UnitedStates #stadium #soccer #football #fussball #fedifc #mastodonFC",
-    "url": "https://mastodon.social/@stadium_bot/116781428567968706",
+    "summary": "Ranking every match at the 2026 World Cup https://www.nytimes.com/athletic/7370101/2026/06/20/world-cup-2026-matches-ranked/ #Soccer #WorldCup #Sports",
+    "url": "https://www.nytimes.com/athletic/7370101/2026/06/20/world-cup-2026-matches-ranked/",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "李维斯体育场 https://en.wikipedia.org/wiki/Levi%27s_Stadium 容量：68500 地点：美国加利福尼亚州圣克拉拉 球队：旧金山 49 人队 #SantaClara #UnitedStates #stadium #soccer #football #fussball #fedifc #mastodonFC"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "2026 年世界杯每场比赛排名 https://www.nytimes.com/athletic/7370101/2026/06/20/world-cup-2026-matches-ranked/ #Soccer #WorldCup #Sports"
   },
   {
     "item_id": "norm_569",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "Japan coach Hajime Moriyasu wants his side to match Tunisia's expected increase in ⁠intensity when the teams meet on Saturday in the 1,000th match in World Cup history. https://www.japantimes.co.jp/sports/2026/06/20/soccer/world-cup/world-cup-japan-intensity/?utm_medium=Social&utm_source=mastodon #soccer #worldcup #hajimemoriyasu #samuraiblue #tunisia #2026fifaworldcup",
-    "url": "https://mastodon.social/@thejapantimes/116781090115081086",
+    "summary": "Morocco captain Achraf Hakimi booed by Scotland fans on day he is ordered to stand trial on rape charges https://www.nytimes.com/athletic/7377919/2026/06/20/achraf-hakimi-booed-morocco-scotland/ Morocco's coach spoke on the day the team's captain had been ordered to stand trial on rape charges #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/116781967815474438",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "日本队教练 Hajime Moriyasu 希望他的球队能与突尼斯队相媲美，预计两队将于周六相遇，这是世界杯历史上的第 1000 场比赛"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "摩洛哥队长阿克拉夫·哈基米（Achraf Hakimi）在苏格兰球迷的嘘声中被命令以强奸罪受审https://www.nytimes.com/athletic/7377919/2026/06/20/achraf-hakimi-booed-morocco-scotland/摩洛哥教练在球队队长被命令以强奸罪受审的当天发表讲话#足球#足球"
   },
   {
     "item_id": "norm_570",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "The USMNT has clinched the top spot in Group D of the 2026 World Cup. Turkey has been eliminated from the tournament following a 1-0 loss to Paraguay in Santa Clara. #USMNT #WorldCup2026 #FIFA #Soccer https://blazetrends.com/usmnt-clinches-group-d-top-spot-following-paraguays-1-0-win-over-turkey/?fsp_sid=37751",
-    "url": "https://mastodon.social/@theblazetrends/116781060931189197",
+    "summary": "CBS Sports has released top anytime goalscorer predictions for today's World Cup matches. Cody Gakpo (+190) is favored against Sweden, while Leroy Sane (+250) is backed to score against Ivory Coast following his strong 0.82 xG opener. #WorldCup #Soccer #SportsBetting #CodyGakpo https://blazetrends.com/world-cup-anytime-goalscorer-picks-cody-gakpo-and-leroy-sane-lead-saturdays-betting-slate/?fsp_sid=37911",
+    "url": "https://mastodon.social/@theblazetrends/116781957040212614",
     "language": "multi",
-    "reason": "title_too_short",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "USMNT 锁定 2026 年世界杯 D 组头名位置"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "哥伦比亚广播公司体育频道（CBS Sports）发布了当今世界杯比赛的最高得分手预测"
   },
   {
     "item_id": "norm_571",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "When players go to the World Cup, how much do their clubs pocket? Think clubs just sit around worrying when their players head off to the World Cup? In reality, FIFA pays out a record sum to put their minds at ease. Here's how the money gets split at the 2026 World Cup. #worldcup2026 #fifa #soccer",
-    "url": "https://mastodon.social/@walletsum95/116781031372164416",
+    "summary": "Germany vs. Ivory Coast Prediction, Odds, Picks For World Cup Match https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/2026-world-cup-germany-ivory-coast-odds-prediction-picks",
+    "url": "https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/2026-world-cup-germany-ivory-coast-odds-prediction-picks",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "当球员参加世界杯时，他们的俱乐部口袋里有多少钱？"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "象牙海岸世界杯比赛的预测、赔率、精选https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/2026-world-cup-germany-ivory-coast-odds-prediction-picks"
   },
   {
     "item_id": "norm_572",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "Neymar Expected To Return For Brazil In Final World Cup Group Stage Match https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/neymar-expected-return-brazil-final-world-cup-group-stage-match",
-    "url": "https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/neymar-expected-return-brazil-final-world-cup-group-stage-match",
+    "summary": "English Premier League 2026-08-21 Scores. Upcoming Games: 21/08/2026 19:00 UTC #ARS - #COV #premierleague #englishpremierleague #premier #epl #football #soccer #scores #scoreboard #futbol #mastodonfc",
+    "url": "https://mastodon.world/@premierleaguescores/116781849166482236",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "内马尔预计将在世界杯小组赛最后一场比赛中重返巴西队 https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/neymar-expected-return-brazil-final-world-cup-group-stage-match"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "英超2026-08-21比分"
   },
   {
     "item_id": "norm_573",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "Germany, Netherlands, Japan Among Top World Cup Teams In Action On Match Day 10 https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/world-cup-netherlands-sweden-germany-curacao-ecuador-japan-tunisia-matchday-10",
-    "url": "https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/world-cup-netherlands-sweden-germany-curacao-ecuador-japan-tunisia-matchday-10",
+    "summary": "Brazil and Haiti fans celebrate together after World Cup match http://newsfeed.facilit8.network/TT7RBr #WorldCup #Brazil #Haiti #Soccer #FootballFans",
+    "url": "https://journa.host/@africa/116781800432519432",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "德国、荷兰、日本等世界杯顶级球队在第 10 比赛日进行比赛 https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/world-cup-netherlands-sweden-germany-curacao-ecuador-japan-tunisia-matchday-10"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "巴西和海地球迷在世界杯比赛结束后共同庆祝http://newsfeed.facilit8.network/TT7RBr #世界杯#巴西#海地#足球#足球迷"
   },
   {
     "item_id": "norm_574",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "World Cup Roundup: USA Wins Group D; Morocco, Brazil Get First Wins https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/world-cup-roundup-usa-impresses-again-morocco-brazil-get-first-wins",
-    "url": "https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/world-cup-roundup-usa-impresses-again-morocco-brazil-get-first-wins",
+    "summary": "Inside the biggest, most heartbreaking day in Canada soccer history — by those who lived it https://www.nytimes.com/athletic/7377086/2026/06/20/world-cup-canada-inside-qatar/ Canada's 6-0 win and the distressing injury suffered by Ismaël Koné showed what this team is all about: friendship and commitment #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/116781731686501095",
     "language": "multi",
     "reason": "title_too_short",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "世界杯综述：美国队夺得D组冠军；摩洛哥、巴西取得首胜 https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/world-cup-roundup-usa-impresses-again-morocco-brazil-get-first-wins"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "在加拿大足球历史上最大，最令人心碎的一天—由那些经历过的人https://www.nytimes.com/athletic/7377086/2026/06/20/world-cup-canada-inside-qatar/加拿大队以6-0获胜以及IsmaëlKoné遭受的痛苦伤害展示了这支球队的全部意义：友谊和承诺#足球#足球"
   },
   {
     "item_id": "norm_575",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "4 Takeaways From Paraguay's Win That Knocked Türkiye Out Of World Cup https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/turkiye-paraguay-world-cup-4-takeaways",
-    "url": "https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/turkiye-paraguay-world-cup-4-takeaways",
+    "summary": "Inside the biggest, most heartbreaking day in Canada soccer history -- by those who lived it https://www.nytimes.com/athletic/7377086/2026/06/20/world-cup-canada-inside-qatar/ #Soccer #WorldCup #Sports",
+    "url": "https://www.nytimes.com/athletic/7377086/2026/06/20/world-cup-canada-inside-qatar/",
     "language": "multi",
-    "reason": "title_too_short",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "巴拉圭赢得世界杯的 4 个要点 https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/turkiye-paraguay-world-cup-4-takeaways"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "在加拿大足球历史上最大、最令人心碎的一天里--由生活在这里的人们https://www.nytimes.com/athletic/7377086/2026/06/20/world-cup-canada-inside-qatar/ #足球#世界杯#体育"
   },
   {
     "item_id": "norm_576",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "SPEED BROKE THE INTERNET! IShowSpeed just became the REAL MVP of the 2026 World Cup! His song Champions is going MORE viral than Shakira official FIFA anthem! He led a 70,000 fan stadium wave at Portugal vs DR Congo, got featured on the... #IShowSpeed #WorldCup2026 #FIFAWorldCup #Champions #SpeedWorldCup #ViralMoment #StadiumWave #Jumbotron #Portugal #Shakira #WorldCupSong #FIFA #Soccer #Football #Trending #Viral #QuietCipher #WorldCupVibes #SpeedChampions #FanMoments #WorldCupFans #StreamerLife",
-    "url": "https://mastodon.social/@quietcipher1/116780970242849303",
+    "summary": "Want to keep the Boston-Scotland party going? Get the New England Patriots involved https://www.nytimes.com/athletic/7377988/2026/06/20/world-cup-scotland-party-boston-patriots-morocco/ The Scottish Invasion is next level. But this sister city business, if it's to be lasting, must be more than photo ops and Christmas cards. #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/116781672546158026",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "IShowSpeed 刚刚成为 2026 年世界杯真正的 MVP！"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "想继续举办波士顿-苏格兰派对吗？"
   },
   {
     "item_id": "norm_577",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "【2026 関東クラブユースU-15】9位決定戦② 鹿島アントラーズ vs 横浜Fマリノス追浜 https://www.vivizine.com/1234189/ #CloudTen #Soccer #インターハイ #クラブユース #サッカー #ライブ配信 #新人戦 #日本代表 #木村陽 #高校サッカー #高校総体",
-    "url": "https://ol2ol.com/@vivizine/116780961707150572",
+    "summary": "World Cup odds, best bets for Saturday's games with Germany, Netherlands in action https://www.nytimes.com/athletic/7376622/2026/06/20/world-cup-odds-best-bets-germany-netherlands/ #Sports #WorldCup #Soccer",
+    "url": "https://www.nytimes.com/athletic/7376622/2026/06/20/world-cup-odds-best-bets-germany-netherlands/",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "【2026 关东クラブユーsuU-15】9位决定戦② 鹿岛アントラーズ vs 横浜Fマ里ノsu追浜 https://www.vivizine.com/1234189/ #CloudTen #Soccer #インターハイ #kuraブユーsu #サッカー#ライブ配信 #新人戦 #日本代表 #木村阳 #高校サッカ #高校総体"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "世界杯赔率，周六与德国、荷兰比赛的最佳投注 https://www.nytimes.com/athletic/7376622/2026/06/20/world-cup-odds-best-bets-germany-netherlands/ #Sports #WorldCup #Soccer"
   },
   {
     "item_id": "norm_578",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "Cape Verde Will Count on Vozinha Against Uruguay at the World Cup https://fed.brid.gy/r/https://www.nytimes.com/2026/06/20/world/africa/cape-verde-world-cup-uruguay.html",
-    "url": "https://fed.brid.gy/r/https://www.nytimes.com/2026/06/20/world/africa/cape-verde-world-cup-uruguay.html",
+    "summary": "Tension Builds Between USMNT and Australia While Scotland Fans Take Over Boston https://www.nytimes.com/athletic/7375070/2026/06/20/tension-builds-between-usmnt-and-australia-while-scotland-fans-take-over-boston/ #Soccer #Sports #News",
+    "url": "https://www.nytimes.com/athletic/7375070/2026/06/20/tension-builds-between-usmnt-and-australia-while-scotland-fans-take-over-boston/",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "佛得角将依靠沃齐尼亚在世界杯上对阵乌拉圭 https://fed.brid.gy/r/https://www.nytimes.com/2026/06/20/world/africa/cape-verde-world-cup-uruguay.html"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "当苏格兰球迷接管波士顿时，美国国家队和澳大利亚之间的紧张局势加剧 https://www.nytimes.com/athletic/7375070/2026/06/20/tension-builds- Between-usmnt-and-australia-while-scotland-fans-take-over-boston/ #Soccer #Sports #News"
   },
   {
     "item_id": "norm_579",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "Seattle Is Now a World Cup Draw: ‘Just a Great Soccer City’ https://fed.brid.gy/r/https://www.nytimes.com/2026/06/19/us/seattle-world-cup-fans.html",
-    "url": "https://fed.brid.gy/r/https://www.nytimes.com/2026/06/19/us/seattle-world-cup-fans.html",
+    "summary": "American Cities Are Hosting and Embracing World Cup Athletes https://www.nytimes.com/2026/06/20/style/world-cup-us-host-cities-fans.html #WorldCup #Soccer #Style",
+    "url": "https://www.nytimes.com/2026/06/20/style/world-cup-us-host-cities-fans.html",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "西雅图现在是世界杯抽签：“只是一个伟大的足球城市” https://fed.brid.gy/r/https://www.nytimes.com/2026/06/19/us/seattle-world-cup-fans.html"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "美国城市正在主办和拥抱世界杯运动员https://www.nytimes.com/2026/06/20/style/world-cup-us-host-cities-fans.html #世界杯#足球#风格"
   },
   {
     "item_id": "norm_580",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "New football laws strike as Almirón sent off By Simon Smale Paraguay's Miguel Almirón fell victim to new laws put in place at this World Cup to counter discriminatory behaviour. So what are the new laws in place? https://www.abc.net.au/news/2026-06-20/world-cup-laws-paraguay-miguel-almir%C3%B3n-sent-off-covering-mouth/106823206 #FIFAWorldCup #Soccer #Sport #SimonSmale",
-    "url": "https://rssfeed.media/@abcfeeds/116780905455341917",
+    "summary": "Shut out of the World Cup again, China roots for a referee https://www.washingtonpost.com/world/2026/06/20/shut-out-world-cup-again-china-roots-referee/ #WorldNews #Sports #Soccer",
+    "url": "https://www.washingtonpost.com/world/2026/06/20/shut-out-world-cup-again-china-roots-referee/",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "新足球法因阿尔米龙被罚下而受到影响 巴拉圭人西蒙·斯梅尔 米格尔·阿尔米龙成为本届世界杯为打击歧视行为而制定的新法律的受害者"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "再次被排除在世界杯之外，中国队要求裁判 https://www.washingtonpost.com/world/2026/06/20/shut-out-world-cup-again-china-roots-referee/ #WorldNews #Sports #Soccer"
   },
   {
     "item_id": "norm_581",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "Cristian Volpato shows why the Socceroos wanted him By Tom Wildie Cristian Volpato only made a 30-minute cameo for the Socceroos in their 2-0 World Cup defeat against the USA, but in doing so showed his quality and desire to excel for Australia. https://www.abc.net.au/news/2026-06-20/world-cup-cristian-volpato-is-now-bonded-to-the-socceroos/106822788 #FIFAWorldCup #Soccer #Sport #Socceroos #TomWildie",
-    "url": "https://rssfeed.media/@abcfeeds/116780905534713031",
+    "summary": "Turkey down and out! Re-ranking the 48 World Cup teams after day nine https://www.nytimes.com/athletic/7329359/2026/06/20/world-cup-2026-teams-ranked/ #Soccer #WorldCup #Sports",
+    "url": "https://www.nytimes.com/athletic/7329359/2026/06/20/world-cup-2026-teams-ranked/",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "克里斯蒂安·沃尔帕托 (Cristian Volpato) 展示了为什么澳大利亚队想要他 作者：汤姆·维尔迪 (Tom Wildie) 克里斯蒂安·沃尔帕托 (Cristian Volpato) 在世界杯 0-2 输给美国队的比赛中只为澳大利亚队客串了 30 分钟，但这样做却显示了他的能力和为澳大利亚队取得优异成绩的渴望"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "第九天后重新排名48支世界杯球队https://www.nytimes.com/athletic/7329359/2026/06/20/world-cup-2026-teams-ranked/ #足球#世界杯#体育"
   },
   {
     "item_id": "norm_582",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "Soccer Mix #papabubble #soccer #worldcup #candy",
-    "url": "https://fedisnap.com/p/moongirl15/973824959863647660",
+    "summary": "Turkey down and out! Re-ranking the 48 World Cup teams after day nine https://www.nytimes.com/athletic/7329359/2026/06/20/world-cup-2026-teams-ranked/ Canada won a World Cup game for the first time and Mexico are the first team into the last 32. How did Thursday's games affect out rankings? #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/116781554621514325",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "足球混合#papabubble #soccer #worldcup #candy"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "第九天后重新排名48支世界杯球队https://www.nytimes.com/athletic/7329359/2026/06/20/world-cup-2026-teams-ranked/加拿大首次赢得世界杯比赛，墨西哥是进入最后32强的第一支球队"
   },
   {
     "item_id": "norm_583",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "Wereldkampionschap voetbal 2026. Donyell Malen AS Roma Aston Villa Borussia Dortmund PSV Jong PSV Film: Drakre52 & ai Muziek: “De Krang Blues” door Karpa - http://www.jaqverstappen.nl/ en Jo Stals https://www.youtube.com/@JoJoStals film: https://www.facebook.com/reel/2085146279013389 film: https://youtu.be/0lWbZMmW94o #drakre52 #karpa #jostals #wk #voetbal #soccer #selectie #nederland #dutch #brons #portret #donyellmalen",
-    "url": "https://mastodon.nl/@Drakre52/116780874413481049",
+    "summary": "World Cup predictions: Netherlands vs Sweden, Germany vs Ivory Coast and rest of matchday 10 https://www.nytimes.com/athletic/7368380/2026/06/20/world-cup-predictions-md-10/ Who knows more about soccer? Us ‘experts’, you the subscribers, a child, a dog or an algorithm? Come join us to predict each World Cup game #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/116781554626138917",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "2026 年世界锦标赛"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "世界杯预测：荷兰vs瑞典、德国vs象牙海岸和比赛日剩余时间10 https://www.nytimes.com/athletic/7368380/2026/06/20/world-cup-predictions-md-10/谁更了解足球？"
   },
   {
     "item_id": "norm_584",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "U.S. are (unofficial) world champions, and will we see a new World Cup winner? Day 9 Recap https://www.nytimes.com/athletic/7378072/2026/06/20/world-cup-united-states-world-champions/ The Athletic brings you the best of another bumper day at the 2026 World Cup #Soccer #Football",
-    "url": "https://sportsfeed.me/@athletic_af/116780846797989329",
+    "summary": "World Cup predictions: Netherlands vs Sweden, Germany vs Ivory Coast and rest of matchday 10 https://www.nytimes.com/athletic/7368380/2026/06/20/world-cup-predictions-md-10/ #Sports #Soccer #WorldCup",
+    "url": "https://www.nytimes.com/athletic/7368380/2026/06/20/world-cup-predictions-md-10/",
     "language": "multi",
-    "reason": "title_too_short",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "是（非官方）世界冠军，我们会看到新的世界杯冠军吗？"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "世界杯预测：荷兰vs瑞典、德国vs象牙海岸和比赛日剩余时间10 https://www.nytimes.com/athletic/7368380/2026/06/20/world-cup-predictions-md-10/ #体育#足球#世界杯"
   },
   {
     "item_id": "norm_585",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
-    "summary": "U.S. are (unofficial) world champions, and will we see a new World Cup winner? Day 9 Recap https://www.nytimes.com/athletic/7378072/2026/06/20/world-cup-united-states-world-champions/ #Soccer #WorldCup #Sports",
-    "url": "https://www.nytimes.com/athletic/7378072/2026/06/20/world-cup-united-states-world-champions/",
-    "language": "multi",
-    "reason": "title_too_short",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "是（非官方）世界冠军，我们会看到新的世界杯冠军吗？"
-  },
-  {
-    "item_id": "norm_586",
-    "source_id": "social_mastodon_soccer",
-    "source_name": "Mastodon hashtag #soccer",
-    "title": "Untitled item",
-    "summary": "Japan coach Hajime Moriyasu said Friday that he was proud that the country's fans had forged a global reputation for tidying up after themselves at the World Cup — as long as it does not put cleaners out of work. https://www.japantimes.co.jp/sports/2026/06/20/soccer/world-cup/moriyasu-fans-reputation-praise/?utm_medium=Social&utm_source=mastodon #soccer #worldcup #hajimemoriyasu #samuraiblue #2026fifaworldcup",
-    "url": "https://mastodon.social/@thejapantimes/116780846381222546",
+    "summary": "Netherlands vs. Sweden Prediction, Odds, Picks For World Cup Match https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/2026-world-cup-netherlands-sweden-odds-prediction-picks",
+    "url": "https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/2026-world-cup-netherlands-sweden-odds-prediction-picks",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "日本教练 Hajime Moriyasu 周五表示，他感到自豪的是，日本球迷在世界杯上因自己收拾行李而享誉全球，只要这不会导致清洁工失业"
+    "candidate_event_title_zh": "未命名项目",
+    "candidate_summary_zh": "瑞典世界杯比赛预测、赔率、选秀 https://fed.brid.gy/r/https://www.foxsports.com/stories/soccer/2026-world-cup-netherlands-sweden-odds-prediction-picks"
   },
   {
-    "item_id": "norm_587",
+    "item_id": "norm_586",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -1911,7 +2119,7 @@
     "candidate_summary_zh": "了解足球新闻，包括转会、结果和头条新闻"
   },
   {
-    "item_id": "norm_593",
+    "item_id": "norm_592",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Jermaine Jenas' awkward and tone-deaf comeback interview",
@@ -1924,7 +2132,7 @@
     "candidate_summary_zh": "杰纳斯曾担任 BBC 足球报道的主演并主持 The One Show，但因向该广播公司的女性员工发送多条露骨短信而于 2025 年 8 月被 BBC 解雇"
   },
   {
-    "item_id": "norm_610",
+    "item_id": "norm_609",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "The hottest World Cup hunks revealed: Rock hard and battle ready. JANA HOCKING knows what these boys all have in common (and it's not their washboard abs)",
@@ -1933,11 +2141,11 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "世界杯最炙手可热的帅哥揭晓：坚韧不拔，做好战斗准备。贾娜·霍金 (JANA HOCKING) 知道这些男孩的共同点（但不是他们的洗衣板腹肌）",
-    "candidate_summary_zh": "世界杯最炙手可热的帅哥揭晓：坚韧不拔，做好战斗准备。贾娜·霍金 (JANA HOCKING) 知道这些男孩的共同点（但不是他们的洗衣板腹肌）"
+    "candidate_event_title_zh": "最炙手可热的世界杯冠军揭晓：用力摇滚，做好战斗准备。JANA HOCKING知道这些男孩的共同点（而不是他们的洗脸板腹肌）",
+    "candidate_summary_zh": "最炙手可热的世界杯冠军揭晓：用力摇滚，做好战斗准备。JANA HOCKING知道这些男孩的共同点（而不是他们的洗脸板腹肌）"
   },
   {
-    "item_id": "norm_611",
+    "item_id": "norm_610",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "USA vs Paraguay - World Cup RECAP: America in dreamland as Folarin Balogun seals dominant win in LA",
@@ -1950,7 +2158,7 @@
     "candidate_summary_zh": "美国 vs 巴拉圭 - 世界杯回顾：美国进入梦乡，福拉林·巴洛贡 (Folarin Balogun) 在洛杉矶取得压倒性胜利"
   },
   {
-    "item_id": "norm_612",
+    "item_id": "norm_611",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -1963,7 +2171,7 @@
     "candidate_summary_zh": "FIFA 世界杯 2026 - 赛事的最新消息，包括比分和亮点"
   },
   {
-    "item_id": "norm_616",
+    "item_id": "norm_615",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "Tom Cruise hangs with David and Victoria Beckham at World Cup match",
@@ -1976,7 +2184,7 @@
     "candidate_summary_zh": "周五，汤姆·克鲁斯在洛杉矶观看世界杯比赛时被发现与好友大卫·贝克汉姆和妻子维多利亚在一起"
   },
   {
-    "item_id": "norm_617",
+    "item_id": "norm_616",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "Katy Perry's 'trainwreck' World Cup opening ceremony slammed by fans",
@@ -1989,7 +2197,7 @@
     "candidate_summary_zh": "周五晚上，2026 年世界杯在美国的第一场比赛以莫名其妙的方式拉开帷幕，凯蒂·佩里 (Katy Perry) 在洛杉矶开球前表演了一首平淡无奇的民谣"
   },
   {
-    "item_id": "norm_620",
+    "item_id": "norm_619",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "The hottest World Cup hunks revealed: Rock hard and battle ready. JANA HOCKING knows what these boys all have in common (and it's not their washboard abs)",
@@ -1998,11 +2206,11 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "世界杯最炙手可热的帅哥揭晓：坚韧不拔，做好战斗准备。贾娜·霍金 (JANA HOCKING) 知道这些男孩的共同点（但不是他们的洗衣板腹肌）",
-    "candidate_summary_zh": "世界杯最炙手可热的帅哥揭晓：坚韧不拔，做好战斗准备。贾娜·霍金 (JANA HOCKING) 知道这些男孩的共同点（但不是他们的洗衣板腹肌）"
+    "candidate_event_title_zh": "最炙手可热的世界杯冠军揭晓：用力摇滚，做好战斗准备。JANA HOCKING知道这些男孩的共同点（而不是他们的洗脸板腹肌）",
+    "candidate_summary_zh": "最炙手可热的世界杯冠军揭晓：用力摇滚，做好战斗准备。JANA HOCKING知道这些男孩的共同点（而不是他们的洗脸板腹肌）"
   },
   {
-    "item_id": "norm_621",
+    "item_id": "norm_620",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "USA vs Paraguay: Sky Bet odds and Price Boosts for the hosts' World Cup opener in Los Angeles - including Christian Pulisic to score or assist at 7/4",
@@ -2015,7 +2223,20 @@
     "candidate_summary_zh": "美国 vs 巴拉圭：东道主洛杉矶世界杯揭幕战的 Sky Bet 赔率和价格提升 - 包括克里斯蒂安·普利西奇 (Christian Pulisic) 进球或助攻 7/4"
   },
   {
-    "item_id": "norm_630",
+    "item_id": "norm_626",
+    "source_id": "media_daily_mail_worldcup",
+    "source_name": "Daily Mail World Cup Page",
+    "title": "Fans slam 'defrosted' Michael Buble over 'garbage' Canada World Cup opening ceremony in Toronto",
+    "summary": "",
+    "url": "https://www.dailymail.com/sport/football/article-15896159/canada-michael-buble-world-cup-toronto.html",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "球迷猛烈抨击迈克尔·布布尔 (Michael Buble) 因垃圾加拿大世界杯开幕式在多伦多举行",
+    "candidate_summary_zh": "球迷猛烈抨击迈克尔·布布尔 (Michael Buble) 因垃圾加拿大世界杯开幕式在多伦多举行"
+  },
+  {
+    "item_id": "norm_629",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "Michael Buble launches Canada's World Cup with glitzy ceremony as thousands of fans go wild in Toronto",
@@ -2028,7 +2249,7 @@
     "candidate_summary_zh": "迈克尔·布布尔 (Michael Buble) 在多伦多举办了一场盛大的加拿大世界杯开幕式，数千名球迷为之疯狂"
   },
   {
-    "item_id": "norm_637",
+    "item_id": "norm_636",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -2041,7 +2262,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_650",
+    "item_id": "norm_649",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -2054,7 +2275,7 @@
     "candidate_summary_zh": "新闻 |四四二"
   },
   {
-    "item_id": "norm_654",
+    "item_id": "norm_653",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "United States goalkeeper could become a 'world star' at 2026 World Cup, says Brad Friedel",
@@ -2067,7 +2288,7 @@
     "candidate_summary_zh": "作者：詹姆斯·安德鲁 发表于 6 月 12 日 26"
   },
   {
-    "item_id": "norm_661",
+    "item_id": "norm_660",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -2076,11 +2297,11 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "World Cup - All news about this competition",
-    "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
+    "candidate_event_title_zh": "世界杯 - 有关本次比赛的所有新闻",
+    "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs 世界杯"
   },
   {
-    "item_id": "norm_663",
+    "item_id": "norm_662",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -2090,10 +2311,10 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "世界杯 - 有关本次比赛的所有新闻 |第2页",
-    "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
+    "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs 世界杯"
   },
   {
-    "item_id": "norm_664",
+    "item_id": "norm_663",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -2103,10 +2324,10 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "世界杯 - 有关本次比赛的所有新闻 |第2页",
-    "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
+    "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs 世界杯"
   },
   {
-    "item_id": "norm_665",
+    "item_id": "norm_664",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -2119,7 +2340,7 @@
     "candidate_summary_zh": "验证设备"
   },
   {
-    "item_id": "norm_666",
+    "item_id": "norm_665",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -2132,7 +2353,7 @@
     "candidate_summary_zh": "验证设备"
   },
   {
-    "item_id": "norm_667",
+    "item_id": "norm_666",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -2145,7 +2366,7 @@
     "candidate_summary_zh": "验证设备"
   },
   {
-    "item_id": "norm_668",
+    "item_id": "norm_667",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -2158,7 +2379,7 @@
     "candidate_summary_zh": "体育新闻、比分、奇幻游戏"
   },
   {
-    "item_id": "norm_676",
+    "item_id": "norm_675",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "QatarQAT0-0-0QatarQATSwitzerlandSUI0-0-0SwitzerlandSUISUI -1.5O/U 2.5",
@@ -2171,7 +2392,7 @@
     "candidate_summary_zh": "卡塔尔QAT0-0-0卡塔尔QATS瑞士SUI0-0-0瑞士SUISUI -1.5O/U 2.5"
   },
   {
-    "item_id": "norm_677",
+    "item_id": "norm_676",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "BrazilBRA0-0-0BrazilBRAMoroccoMAR0-0-0MoroccoMARBRA -0.75O/U 2.5",
@@ -2184,7 +2405,7 @@
     "candidate_summary_zh": "巴西BRA0-0-0巴西BRAM摩洛哥MAR0-0-0摩洛哥MARBRA -0.75O/U 2.5"
   },
   {
-    "item_id": "norm_678",
+    "item_id": "norm_677",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "HaitiHTI0-0-0HaitiHTIScotlandSCO0-0-0ScotlandSCOHTI +1O/U 2.5",
@@ -2197,7 +2418,7 @@
     "candidate_summary_zh": "海地HTI0-0-0海地HTIS苏格兰SCO0-0-0苏格兰SCOHTI +1O/U 2.5"
   },
   {
-    "item_id": "norm_682",
+    "item_id": "norm_681",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "Ivory CoastCIV0-0-0Ivory CoastCIVEcuadorECU0-0-0EcuadorECUCIV +0.25O/U 1.5",
@@ -2210,7 +2431,7 @@
     "candidate_summary_zh": "科特迪瓦CIV0-0-0科特迪瓦CIVE瓜多尔ECU0-0-0厄瓜多尔ECUCIV +0.25O/U 1.5"
   },
   {
-    "item_id": "norm_685",
+    "item_id": "norm_684",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "BelgiumBEL0-0-0BelgiumBELEgyptEGY0-0-0EgyptEGYBEL -0.75O/U 2.5",
@@ -2223,7 +2444,7 @@
     "candidate_summary_zh": "比利时BEL0-0-0比利时BELE埃及EGY0-0-0埃及EGYBEL -0.75O/U 2.5"
   },
   {
-    "item_id": "norm_686",
+    "item_id": "norm_685",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "Saudi ArabiaKSA0-0-0Saudi ArabiaKSAUruguayURU0-0-0UruguayURUKSA +1.5O/U 2.5",
@@ -2236,7 +2457,20 @@
     "candidate_summary_zh": "沙特阿拉伯KSA0-0-0沙特阿拉伯KSAU拉圭URU0-0-0乌拉圭URUKSA +1.5O/U 2.5"
   },
   {
-    "item_id": "norm_690",
+    "item_id": "norm_687",
+    "source_id": "media_yahoo_world_cup",
+    "source_name": "Yahoo Sport World Cup Page",
+    "title": "FranceFRA0-0-0FranceFRASenegalSEN0-0-0SenegalSENSEN +1.5O/U 2.5",
+    "summary": "",
+    "url": "https://sports.yahoo.com/soccer/fifa-world-cup/senegal-france-13587227/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "法国FRA0-0-0法国FRAS内加尔SEN0-0-0塞内加尔SENSEN +1.5O/U 2.5",
+    "candidate_summary_zh": "法国FRA0-0-0法国FRAS内加尔SEN0-0-0塞内加尔SENSEN +1.5O/U 2.5"
+  },
+  {
+    "item_id": "norm_689",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "ArgentinaARG0-0-0ArgentinaARGAlgeriaALG0-0-0AlgeriaALGALG +1.5O/U 2.5",
@@ -2249,7 +2483,7 @@
     "candidate_summary_zh": "阿根廷ARG0-0-0阿根廷ARGA阿尔及利亚ALG0-0-0阿尔及利亚ALGALG +1.5O/U 2.5"
   },
   {
-    "item_id": "norm_692",
+    "item_id": "norm_691",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "PortugalPOR0-0-0PortugalPORCongo DRCOD0-0-0Congo DRCODPOR -1.5O/U 2.5",
@@ -2262,7 +2496,7 @@
     "candidate_summary_zh": "葡萄牙POR0-0-0葡萄牙POR刚果DRCOD0-0-0刚果DRCODPOR -1.5O/U 2.5"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_692",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -2275,7 +2509,7 @@
     "candidate_summary_zh": "在 OneFootball 上查看所有比赛新闻 打开菜单 OneFootballs 主页 搜索 设置 登录 FIFA 世界杯™ 德国“使用”Major Tom 作为世界杯进球歌曲 据《图片报》报道，德国已选定将在 2026 年世界杯比赛期间播放的歌曲"
   },
   {
-    "item_id": "norm_703",
+    "item_id": "norm_702",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Betting South Africa",
@@ -2288,7 +2522,7 @@
     "candidate_summary_zh": "南非投注"
   },
   {
-    "item_id": "norm_704",
+    "item_id": "norm_703",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -2301,7 +2535,7 @@
     "candidate_summary_zh": "查看 OneFootball 上的所有比赛新闻"
   },
   {
-    "item_id": "norm_705",
+    "item_id": "norm_704",
     "source_id": "media_si_world_cup",
     "source_name": "Sports Illustrated World Cup Page",
     "title": "2026 World Cup News, Analysis & Coverage | Sports Illustrated",
@@ -2314,7 +2548,7 @@
     "candidate_summary_zh": "随时了解 2026 年世界杯的最新消息"
   },
   {
-    "item_id": "norm_730",
+    "item_id": "norm_729",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -2324,10 +2558,10 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026 年世界杯",
-    "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
+    "candidate_summary_zh": "2026 年 FIFA 男子世界杯新闻、实时比分、赛程表、直播、统计数据、积分榜、分组以及来自 NBC Sports 的更多信息 查看全部 查看全部"
   },
   {
-    "item_id": "norm_731",
+    "item_id": "norm_730",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "Men's College Basketball",
@@ -2340,7 +2574,7 @@
     "candidate_summary_zh": "在 NBC Sports 上查找所有最新的大学篮球新闻、现场报道、视频、亮点、统计数据、预测和结果"
   },
   {
-    "item_id": "norm_732",
+    "item_id": "norm_731",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "Lachlan Turner dominates, wins WMX Moto 1 in Thunder Valley",
@@ -2353,7 +2587,20 @@
     "candidate_summary_zh": "拉克兰·特纳上周在杭城承受着巨大的压力，所以她加强了在雷霆谷的表现"
   },
   {
-    "item_id": "norm_744",
+    "item_id": "norm_742",
+    "source_id": "media_nbc_sports_world_cup",
+    "source_name": "NBC Sports World Cup Page",
+    "title": "Navy All-American Bowl",
+    "summary": "",
+    "url": "https://www.nbcsports.com/college-football/navy-all-american-bowl",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "海军蓝全美碗",
+    "candidate_summary_zh": "海军蓝全美碗"
+  },
+  {
+    "item_id": "norm_743",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -2366,7 +2613,7 @@
     "candidate_summary_zh": "2026 年 FIFA 男子世界杯新闻、实时比分、赛程表、直播、统计数据、积分榜、分组等来自 NBC Sports"
   },
   {
-    "item_id": "norm_745",
+    "item_id": "norm_744",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -2379,7 +2626,7 @@
     "candidate_summary_zh": "与 GOAL 一起了解最新的世界杯新闻 - 了解最新的预测、转会传闻、突发新闻、视频和足球结果 世界杯 克里斯蒂安·普利西奇 (Christian Pulisic) 透露，他在世界杯主场揭幕战中被踢了一脚，最终导致他在下半场被换下，美国队 4-1 击败巴拉圭队"
   },
   {
-    "item_id": "norm_749",
+    "item_id": "norm_748",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "USMNT player ratings vs Paraguay: Folarin Balogun brace powers dream opener as Americans score their most goals ever in a World Cup match and give fans reason to believe | Goal.com US",
@@ -2392,7 +2639,7 @@
     "candidate_summary_zh": "对于毛里西奥·波切蒂诺斯来说，这是一场近乎完美的世界杯揭幕战，他们以一种将被人们铭记很长一段时间的方式横扫对手"
   },
   {
-    "item_id": "norm_756",
+    "item_id": "norm_755",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "USMNT vs Paraguay Predictions: USMNT to start strongly in LA",
@@ -2405,7 +2652,7 @@
     "candidate_summary_zh": "探索我们的足球专家在周五晚上 9:00 ET 世界杯比赛之前对 USMNT 对巴拉圭的预测 (6/12)"
   },
   {
-    "item_id": "norm_770",
+    "item_id": "norm_769",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -2418,7 +2665,7 @@
     "candidate_summary_zh": "及时了解 2026 年 FIFA 世界杯的最新消息"
   },
   {
-    "item_id": "norm_785",
+    "item_id": "norm_784",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "2026 FIFA World Cup Golden Boot Tracker: USA's Folarin Balogun Enters Race",
@@ -2431,7 +2678,7 @@
     "candidate_summary_zh": "2026 年 FIFA 世界杯金靴追踪：美国队福拉林·巴洛贡 (Folarin Balogun) 参赛"
   },
   {
-    "item_id": "norm_795",
+    "item_id": "norm_794",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -2440,11 +2687,24 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "2026 FIFA World Cup News, Scores and Standings",
+    "candidate_event_title_zh": "2026 年 FIFA 世界杯新闻、比分和积分榜",
     "candidate_summary_zh": "在 CBSSports.com 上获取 2026 年 FIFA 世界杯的最新新闻、现场报道、比分和信息"
   },
   {
-    "item_id": "norm_820",
+    "item_id": "norm_800",
+    "source_id": "media_cbs_sports_world_cup",
+    "source_name": "CBS Sports World Cup News Page",
+    "title": "World Cup 2026 odds, futures: USMNT's tournament hopes lie heavily with Tyler Adams, Weston McKennie",
+    "summary": "The Americans have high hopes for this tournament and two standout midfielders will be instrumental in deciding the outcome",
+    "url": "https://www.cbssports.com/soccer/news/world-cup-2026-odds-futures-usmnts-tournament-hopes-lie-heavily-with-tyler-adams-weston-mckennie/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯赔率、未来：USMNT 锦标赛的希望寄托在泰勒·亚当斯 (Tyler Adams) 和韦斯顿·麦肯尼 (Weston McKennie) 身上",
+    "candidate_summary_zh": "美国队对本次比赛寄予厚望，两名出色的中场球员将在决定比赛结果方面发挥重要作用。如果未列出，请联系您的电视提供商"
+  },
+  {
+    "item_id": "norm_819",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -2457,7 +2717,7 @@
     "candidate_summary_zh": "查看有关球员、联赛和预定比赛的最新足球新闻"
   },
   {
-    "item_id": "norm_845",
+    "item_id": "norm_844",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -2470,7 +2730,7 @@
     "candidate_summary_zh": "运动"
   },
   {
-    "item_id": "norm_851",
+    "item_id": "norm_850",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Page Not Found",
@@ -2483,7 +2743,20 @@
     "candidate_summary_zh": "贝因运动说明！"
   },
   {
-    "item_id": "norm_854",
+    "item_id": "norm_852",
+    "source_id": "media_bein_sports_football",
+    "source_name": "beIN SPORTS Football",
+    "title": "CONMEBOL Sudamericana(VIDEO) River Plate destroy Blooming",
+    "summary": "",
+    "url": "https://www.beinsports.com/en-us/soccer/conmebol-sudamericana/articles-video/-video-river-plate-destroy-blooming-and-finish-among-top-group-winners-2026-05-28",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "CONMEBOL Sudamericana（视频）河床队摧毁盛开",
+    "candidate_summary_zh": "CONMEBOL Sudamericana（视频）河床队摧毁盛开"
+  },
+  {
+    "item_id": "norm_853",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "CONMEBOL SudamericanaRiver Plate dominate and secure top spot",
@@ -2496,7 +2769,7 @@
     "candidate_summary_zh": "CONMEBOL SudamericanaRiver Plate 占据主导地位并稳居榜首"
   },
   {
-    "item_id": "norm_855",
+    "item_id": "norm_854",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "CONMEBOL SudamericanaLIVE: River Plate vs Blooming",
@@ -2509,7 +2782,7 @@
     "candidate_summary_zh": "CONMEBOL SudamericanaLIVE：河床 vs 布卢明"
   },
   {
-    "item_id": "norm_856",
+    "item_id": "norm_855",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "UEFA Champions League",
@@ -2522,7 +2795,7 @@
     "candidate_summary_zh": "欧洲冠军联赛"
   },
   {
-    "item_id": "norm_870",
+    "item_id": "norm_869",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -2531,11 +2804,11 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Football Home - SuperSport",
-    "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
+    "candidate_event_title_zh": "足球之家-超级体育",
+    "candidate_summary_zh": "来自 SuperSport 的最新足球新闻、比分和更新"
   },
   {
-    "item_id": "norm_878",
+    "item_id": "norm_877",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "CAF Champions League",
@@ -2548,7 +2821,7 @@
     "candidate_summary_zh": "非洲冠军联赛"
   },
   {
-    "item_id": "norm_882",
+    "item_id": "norm_881",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Africa Cup of Nations",
@@ -2561,7 +2834,7 @@
     "candidate_summary_zh": "非洲国家杯"
   },
   {
-    "item_id": "norm_892",
+    "item_id": "norm_891",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -2570,11 +2843,11 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Football Home - SuperSport",
-    "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
+    "candidate_event_title_zh": "足球之家-超级体育",
+    "candidate_summary_zh": "来自 SuperSport 的最新足球新闻、比分和更新"
   },
   {
-    "item_id": "norm_893",
+    "item_id": "norm_892",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -2587,7 +2860,7 @@
     "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时赛果"
   },
   {
-    "item_id": "norm_895",
+    "item_id": "norm_894",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Mercado Gil Vicente: passos firmes para (tentar) fechar Luís Pinto",
@@ -2597,10 +2870,10 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Mercado Gil Vicente：采取坚定措施（尝试）关闭 Luís Pinto",
-    "candidate_summary_zh": "Primeiras conversas foram positivas e caminho está aberto para a contratação do técnico"
+    "candidate_summary_zh": "第一次谈话是积极的，聘请教练的道路是开放的"
   },
   {
-    "item_id": "norm_907",
+    "item_id": "norm_906",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -2611,5 +2884,18 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球第 2 页 - 新闻、转会和实时比分 |球",
     "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时赛果"
+  },
+  {
+    "item_id": "norm_908",
+    "source_id": "media_abola_futebol",
+    "source_name": "A Bola Futebol",
+    "title": "Mercado oficial: Estrela da Amadora anuncia saída de Cristiano Bacci",
+    "summary": "",
+    "url": "https://www.abola.pt/noticias/mercado-oficial-estrela-da-amadora-anuncia-saida-de-cristiano-bacci-2026061211311508812",
+    "language": "pt",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "官方市场：Estrela da Amadora 宣布 Cristiano Bacci 离职",
+    "candidate_summary_zh": "官方市场：Estrela da Amadora 宣布 Cristiano Bacci 离职"
   }
 ]
