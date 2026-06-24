@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T05:49:24.943Z",
+  "generated_at": "2026-06-24T08:49:39.499Z",
   "total_sources": 102,
   "enabled_sources": 102,
   "success_sources": 88,
@@ -534,7 +534,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 30,
+      "fetched_count": 28,
       "valid_items_count": 30,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -595,7 +595,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 29,
+      "fetched_count": 28,
       "valid_items_count": 30,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -657,8 +657,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 16,
-      "valid_items_count": 13,
-      "discarded_count": 17,
+      "valid_items_count": 10,
+      "discarded_count": 16,
       "discovered_feeds": [
         "https://www.skysports.com/feed",
         "https://www.skysports.com/rss",
@@ -906,7 +906,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 25,
       "valid_items_count": 25,
-      "discarded_count": 13,
+      "discarded_count": 14,
       "discovered_feeds": [
         "https://www.lequipe.fr/feed",
         "https://www.lequipe.fr/rss",
@@ -968,13 +968,24 @@
       "batch": "expanded",
       "crawl_mode": "html_list",
       "attempted_strategies": [
+        "html_list",
+        "json_ld",
         "sitemap"
       ],
       "successful_strategy": null,
       "fetched_count": 0,
       "valid_items_count": 0,
       "discarded_count": 0,
-      "discovered_feeds": [],
+      "discovered_feeds": [
+        "https://www.kicker.de/feed",
+        "https://www.kicker.de/rss",
+        "https://www.kicker.de/rss.xml",
+        "https://www.kicker.de/feed.xml",
+        "https://www.kicker.de/football/rss",
+        "https://www.kicker.de/soccer/rss",
+        "https://www.kicker.de/world-cup/rss",
+        "https://www.kicker.de/feed/"
+      ],
       "discovered_sitemaps": [],
       "status": "partial",
       "failure_category": "html_parse_no_items",
@@ -1175,7 +1186,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 20,
+      "fetched_count": 19,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1201,7 +1212,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 20,
+      "fetched_count": 19,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1253,9 +1264,9 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 20,
-      "valid_items_count": 20,
-      "discarded_count": 0,
+      "fetched_count": 19,
+      "valid_items_count": 19,
+      "discarded_count": 1,
       "discovered_feeds": [
         "https://mastodon.social/tags/football.rss"
       ],
@@ -1278,7 +1289,7 @@
       "attempted_strategies": [
         "rss_direct"
       ],
-      "successful_strategy": "rss_direct",
+      "successful_strategy": null,
       "fetched_count": 20,
       "valid_items_count": 20,
       "discarded_count": 0,
@@ -1286,9 +1297,9 @@
         "https://mastodon.social/tags/soccer.rss"
       ],
       "discovered_sitemaps": [],
-      "status": "ok",
+      "status": "cached",
       "failure_category": null,
-      "failure_reason": null,
+      "failure_reason": "ETIMEDOUT",
       "next_action": "已抓到有效条目，可继续优化相关性。",
       "included_in_frontend": false
     },
@@ -1344,8 +1355,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 24,
-      "discarded_count": 16,
+      "valid_items_count": 25,
+      "discarded_count": 15,
       "discovered_feeds": [
         "https://www.dailymail.com/sport/fifa-world-cup/index.rss",
         "https://www.dailymail.com/sport/fifa-world-cup/articles.rss",
@@ -1381,8 +1392,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 24,
-      "valid_items_count": 24,
-      "discarded_count": 25,
+      "valid_items_count": 18,
+      "discarded_count": 7,
       "discovered_feeds": [
         "https://www.fourfourtwo.com/feeds.xml",
         "https://www.fourfourtwo.com/feeds/articletype/news",
@@ -1522,8 +1533,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 12,
-      "valid_items_count": 10,
-      "discarded_count": 12,
+      "valid_items_count": 9,
+      "discarded_count": 11,
       "discovered_feeds": [
         "https://onefootball.com/feed",
         "https://onefootball.com/rss",
@@ -1557,7 +1568,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 25,
       "valid_items_count": 21,
-      "discarded_count": 74,
+      "discarded_count": 73,
       "discovered_feeds": [
         "https://www.si.com/feed",
         "https://www.si.com/rss",
@@ -1590,8 +1601,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 15,
-      "valid_items_count": 10,
-      "discarded_count": 12,
+      "valid_items_count": 9,
+      "discarded_count": 11,
       "discovered_feeds": [
         "https://www.nbcsports.com/soccer/world-cup.atom",
         "https://www.nbcsports.com/feed",
@@ -1625,8 +1636,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 14,
-      "discarded_count": 55,
+      "valid_items_count": 12,
+      "discarded_count": 58,
       "discovered_feeds": [
         "https://www.goal.com/feed",
         "https://www.goal.com/rss",
@@ -1660,8 +1671,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 22,
-      "discarded_count": 3,
+      "valid_items_count": 21,
+      "discarded_count": 25,
       "discovered_feeds": [
         "https://www.foxsports.com/feed",
         "https://www.foxsports.com/rss",
@@ -2754,8 +2765,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 23,
-      "valid_items_count": 16,
-      "discarded_count": 24,
+      "valid_items_count": 17,
+      "discarded_count": 25,
       "discovered_feeds": [
         "https://supersport.com/feed",
         "https://supersport.com/rss",
