@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T22:33:46.832Z",
+  "generated_at": "2026-06-28T23:45:53.985Z",
   "total_sources": 102,
   "enabled_sources": 102,
   "success_sources": 88,
@@ -563,7 +563,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 25,
       "valid_items_count": 24,
-      "discarded_count": 7,
+      "discarded_count": 4,
       "discovered_feeds": [
         "https://www.theguardian.com/football/world-cup-2026/rss",
         "https://www.theguardian.com/feed",
@@ -968,24 +968,13 @@
       "batch": "expanded",
       "crawl_mode": "html_list",
       "attempted_strategies": [
-        "html_list",
-        "json_ld",
         "sitemap"
       ],
       "successful_strategy": null,
       "fetched_count": 0,
       "valid_items_count": 0,
       "discarded_count": 0,
-      "discovered_feeds": [
-        "https://www.kicker.de/feed",
-        "https://www.kicker.de/rss",
-        "https://www.kicker.de/rss.xml",
-        "https://www.kicker.de/feed.xml",
-        "https://www.kicker.de/football/rss",
-        "https://www.kicker.de/soccer/rss",
-        "https://www.kicker.de/world-cup/rss",
-        "https://www.kicker.de/feed/"
-      ],
+      "discovered_feeds": [],
       "discovered_sitemaps": [],
       "status": "partial",
       "failure_category": "html_parse_no_items",
@@ -1528,12 +1517,13 @@
       "crawl_mode": "html_list",
       "attempted_strategies": [
         "html_list",
-        "json_ld"
+        "json_ld",
+        "wp_json"
       ],
       "successful_strategy": "html_list",
       "fetched_count": 12,
-      "valid_items_count": 11,
-      "discarded_count": 11,
+      "valid_items_count": 9,
+      "discarded_count": 9,
       "discovered_feeds": [
         "https://onefootball.com/feed",
         "https://onefootball.com/rss",
@@ -1600,8 +1590,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 15,
-      "valid_items_count": 15,
-      "discarded_count": 21,
+      "valid_items_count": 16,
+      "discarded_count": 20,
       "discovered_feeds": [
         "https://www.nbcsports.com/soccer/world-cup.atom",
         "https://www.nbcsports.com/feed",
