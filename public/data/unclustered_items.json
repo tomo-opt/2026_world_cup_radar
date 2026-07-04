@@ -45,7 +45,7 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "所有ESPN。所有在一个地方",
+      "candidate_event_title_zh": "所有 ESPN。全部集中在一处",
       "candidate_summary_zh": "在新增强的ESPN应用程序中观看您最喜爱的活动",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
@@ -106,8 +106,8 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "混乱的统治与8张红牌，但USWNT证明它可以在巴西赢得艰难",
-      "candidate_summary_zh": "美国队1-0战胜巴西队是一场丑陋的比赛，但艾玛·海耶斯将为她的年轻球队在逆境中站起来感到自豪",
+      "candidate_event_title_zh": "混乱局面，8张红牌，但美国女足证明他们可以在巴西艰难取胜",
+      "candidate_summary_zh": "美国1-0战胜巴西是一件丑陋的事情，但艾玛·海耶斯（Emma Hayes）将为她的年轻球队在逆境中挺身而出而感到自豪",
       "event_fingerprint": "巴西::warmup_result::巴西::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -161,8 +161,8 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "转移谣言，新闻：阿森纳最受欢迎的阿尔瓦雷斯作为皇家马德里，巴塞罗那出价失败",
-      "candidate_summary_zh": "转移谣言，新闻：阿森纳最受欢迎的阿尔瓦雷斯作为皇家马德里，巴塞罗那出价失败",
+      "candidate_event_title_zh": "转会传闻、新闻：阿森纳最喜欢阿尔瓦雷斯，而皇家马德里和巴塞罗那的报价均失败",
+      "candidate_summary_zh": "转会传闻、新闻：阿森纳最喜欢阿尔瓦雷斯，而皇家马德里和巴塞罗那的报价均失败",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -216,8 +216,8 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "忘记穆里尼奥，明星签约：佩雷斯的下一个重大举动可能永远改变皇家马德里",
-      "candidate_summary_zh": "忘记穆里尼奥，明星签约：佩雷斯的下一个重大举动可能永远改变皇家马德里",
+      "candidate_event_title_zh": "忘记穆里尼奥，明星签约：佩雷斯的下一个重大举动可能会永远改变皇家马德里",
+      "candidate_summary_zh": "忘记穆里尼奥，明星签约：佩雷斯的下一个重大举动可能会永远改变皇家马德里",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -452,13 +452,74 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "皇家马德里愤怒竞技场，出价1.73亿$ Álvarez",
-      "candidate_summary_zh": "皇家马德里愤怒竞技场，出价1.73亿$ Álvarez",
+      "candidate_event_title_zh": "皇马出价1.73亿美元阿尔瓦雷斯激怒马竞",
+      "candidate_summary_zh": "皇马出价1.73亿美元阿尔瓦雷斯激怒马竞",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
     },
     "event_fingerprint": "general_discussion::world_cup::世界杯",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_26",
+    "raw_id": "media_espn_soccer_texas-ag-probes-fifa-over-wc-ticket-practices_4",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "source_type": "media",
+    "title": "Texas AG probes FIFA over WC ticket practices",
+    "normalized_title": "texas ag probes fifa over wc ticket practices",
+    "summary": "",
+    "content_text": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012713/texas-joins-ny-nj-california-probes-fifa-world-cup-ticket-prices",
+    "published_at": "2026-06-10T07:28:50.161Z",
+    "fetched_at": "2026-06-10T07:28:50.161Z",
+    "language": "en",
+    "raw_region": "Global / US",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [],
+    "matched_players": [],
+    "matched_matches": [],
+    "topic_terms": [
+      "event_operations"
+    ],
+    "topic_labels_zh": [
+      "赛事组织与场外事件"
+    ],
+    "topic_labels_en": [
+      "event operations and off-field issues"
+    ],
+    "sports_context_score": 52,
+    "entity_match_score": 0,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_26",
+      "source_id": "media_espn_soccer",
+      "original_title": "Texas AG probes FIFA over WC ticket practices",
+      "original_summary": "",
+      "public_text_excerpt": "",
+      "subject": "世界杯票务",
+      "action": "ticket_issue",
+      "object": "world_cup",
+      "context": "世界杯",
+      "issue_type": "event_operations",
+      "teams": [],
+      "players": [],
+      "venues": [],
+      "match_ids": [],
+      "candidate_event_title_zh": "德克萨斯州股份公司调查国际足联关于WC门票的做法",
+      "candidate_summary_zh": "德克萨斯州股份公司调查国际足联关于WC门票的做法",
+      "event_fingerprint": "世界杯票务::ticket_issue::world_cup::世界杯",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "世界杯票务::ticket_issue::world_cup::世界杯",
     "low_confidence_reason": null
   },
   {
@@ -516,7 +577,7 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "前裁判解释VAR：世界杯将如何运作？",
+      "candidate_event_title_zh": "前裁判解释说：在世界杯上，它将如何运作？",
       "candidate_summary_zh": "今年夏天VAR将再次成为焦点",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
@@ -571,8 +632,8 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "排名：最有可能崩溃的2026年世界杯热门",
-      "candidate_summary_zh": "每届世界杯上，都会有领先者倒下并提前退出比赛",
+      "candidate_event_title_zh": "排名：2026 年世界杯热门球队最有可能出局",
+      "candidate_summary_zh": "每届世界杯，都有一名领跑者摔倒，提前退出比赛",
       "event_fingerprint": "ranked::non_topic_page::utility_page::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -694,67 +755,12 @@
       "venues": [],
       "match_ids": [],
       "candidate_event_title_zh": "越位如何在足球中发挥作用？解释体育运动的关键法律之一",
-      "candidate_summary_zh": "查看美国、加拿大和墨西哥参加2026年世界杯足球赛的团体，以及您需要了解的关于赛事形式的所有信息",
+      "candidate_summary_zh": "查看 2026 年 FIFA 世界杯美国、加拿大和墨西哥的分组，以及您需要了解的有关锦标赛形式的所有信息",
       "event_fingerprint": "墨西哥::general_discussion::墨西哥::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
     },
     "event_fingerprint": "墨西哥::general_discussion::墨西哥::世界杯",
-    "low_confidence_reason": null
-  },
-  {
-    "item_id": "norm_42",
-    "raw_id": "media_espn_soccer_worldcup_inside-nike-s-bet-on-soccer-kits-as-fashion-language_8",
-    "source_id": "media_espn_soccer_worldcup",
-    "source_name": "ESPN Soccer Worldcup Page",
-    "source_type": "media",
-    "title": "Inside Nike's bet on soccer kits as fashion language",
-    "normalized_title": "inside nike s bet on soccer kits as fashion language",
-    "summary": "",
-    "content_text": "",
-    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
-    "published_at": "2026-06-10T07:28:56.631Z",
-    "fetched_at": "2026-06-10T07:28:56.631Z",
-    "language": "en",
-    "raw_region": "Global / US",
-    "ui_region": "全球/英语圈",
-    "matched_teams": [],
-    "matched_players": [],
-    "matched_matches": [],
-    "topic_terms": [],
-    "topic_labels_zh": [],
-    "topic_labels_en": [],
-    "sports_context_score": 28,
-    "entity_match_score": 0,
-    "trend_bonus": 0,
-    "excluded_reason": null,
-    "crawl_strategy": "html_list_test",
-    "crawl_mode": "html_list",
-    "data_origin": "cache",
-    "extraction_level": "cached",
-    "item_type": "article",
-    "event_frame": {
-      "item_id": "norm_42",
-      "source_id": "media_espn_soccer_worldcup",
-      "original_title": "Inside Nike's bet on soccer kits as fashion language",
-      "original_summary": "",
-      "public_text_excerpt": "",
-      "subject": "???",
-      "action": "general_discussion",
-      "object": "world_cup",
-      "context": "世界杯",
-      "issue_type": "general",
-      "teams": [],
-      "players": [],
-      "venues": [],
-      "match_ids": [],
-      "candidate_event_title_zh": "耐克内部将足球装备视为时尚语言",
-      "candidate_summary_zh": "耐克内部将足球装备视为时尚语言",
-      "event_fingerprint": "general_discussion::world_cup::世界杯",
-      "confidence": "low",
-      "evidence_basis": "title_only"
-    },
-    "event_fingerprint": "general_discussion::world_cup::世界杯",
     "low_confidence_reason": null
   },
   {
@@ -864,13 +870,74 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "SoFi工人工会通过交易避免厕所罢工",
-      "candidate_summary_zh": "SoFi工人工会通过交易避免厕所罢工",
+      "candidate_event_title_zh": "SoFi 工会通过协议避免 WC 罢工",
+      "candidate_summary_zh": "SoFi 工会通过协议避免 WC 罢工",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
     },
     "event_fingerprint": "general_discussion::world_cup::世界杯",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_49",
+    "raw_id": "media_espn_soccer_worldcup_texas-ag-probes-fifa-over-wc-ticket-practices_3",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "source_type": "media",
+    "title": "Texas AG probes FIFA over WC ticket practices",
+    "normalized_title": "texas ag probes fifa over wc ticket practices",
+    "summary": "",
+    "content_text": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012713/texas-joins-ny-nj-california-probes-fifa-world-cup-ticket-prices",
+    "published_at": "2026-06-10T07:28:56.631Z",
+    "fetched_at": "2026-06-10T07:28:56.631Z",
+    "language": "en",
+    "raw_region": "Global / US",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [],
+    "matched_players": [],
+    "matched_matches": [],
+    "topic_terms": [
+      "event_operations"
+    ],
+    "topic_labels_zh": [
+      "赛事组织与场外事件"
+    ],
+    "topic_labels_en": [
+      "event operations and off-field issues"
+    ],
+    "sports_context_score": 52,
+    "entity_match_score": 0,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_49",
+      "source_id": "media_espn_soccer_worldcup",
+      "original_title": "Texas AG probes FIFA over WC ticket practices",
+      "original_summary": "",
+      "public_text_excerpt": "",
+      "subject": "世界杯票务",
+      "action": "ticket_issue",
+      "object": "world_cup",
+      "context": "世界杯",
+      "issue_type": "event_operations",
+      "teams": [],
+      "players": [],
+      "venues": [],
+      "match_ids": [],
+      "candidate_event_title_zh": "德克萨斯州股份公司调查国际足联关于WC门票的做法",
+      "candidate_summary_zh": "德克萨斯州股份公司调查国际足联关于WC门票的做法",
+      "event_fingerprint": "世界杯票务::ticket_issue::world_cup::世界杯",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "世界杯票务::ticket_issue::world_cup::世界杯",
     "low_confidence_reason": null
   },
   {
@@ -1042,8 +1109,8 @@
         "M049",
         "M050"
       ],
-      "candidate_event_title_zh": "加拿大vs波斯尼亚和黑塞哥维那现场直播：观看2026年世界杯足球赛B组电视报道、开幕式、比分、评论、更新和统计数据",
-      "candidate_summary_zh": "在多伦多体育场举行的 2026 年 FIFA 世界杯 B 组比赛中，观看 BBC One 报道、收听 BBC Radio 5 直播解说、关注文本和比分更新并追踪最新比赛统计数据",
+      "candidate_event_title_zh": "加拿大 vs 波斯尼亚和黑塞哥维那直播：观看 FIFA 世界杯 2026 B 组电视报道、开幕式、比分、评论、更新和统计数据",
+      "candidate_summary_zh": "在多伦多体育场观看BBC One报道，收听BBC Radio 5现场评论，关注文本和得分更新，并跟踪最新的比赛统计数据，因为加拿大在2026年国际足联世界杯B组比赛中迎战波斯尼亚和黑塞哥维那",
       "event_fingerprint": "加拿大::non_topic_page::utility_page::加拿大_vs_波黑",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -1162,8 +1229,8 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "玩 BBC 体育新推出的世界杯预测游戏",
-      "candidate_summary_zh": "玩 BBC 体育新推出的世界杯预测游戏",
+      "candidate_event_title_zh": "玩BBC体育新世界杯预测游戏",
+      "candidate_summary_zh": "玩BBC体育新世界杯预测游戏",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -1217,8 +1284,8 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "世界杯比以往任何时候都更盛大 - BBC 体育频道有一款应用程序可以与之相媲美",
-      "candidate_summary_zh": "世界杯比以往任何时候都更盛大 - BBC 体育频道有一款应用程序可以与之相媲美",
+      "candidate_event_title_zh": "世界杯的规模比以往任何时候都大- BBC Sport有一款与之匹敌的应用程序",
+      "candidate_summary_zh": "世界杯的规模比以往任何时候都大- BBC Sport有一款与之匹敌的应用程序",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -1286,8 +1353,8 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_93",
-    "raw_id": "media_bbc_sport_football_liverpool-open-to-van-dijk-offers---saturday-s-gossip_15",
+    "item_id": "norm_98",
+    "raw_id": "media_bbc_sport_football_liverpool-open-to-van-dijk-offers---saturday-s-gossip_20",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "source_type": "media",
@@ -1297,7 +1364,7 @@
     "content_text": "",
     "url": "https://www.bbc.co.uk/sport/football/articles/czx59xrgnppo?at_medium=RSS&at_campaign=rss",
     "published_at": "2026-07-03T21:01:04.000Z",
-    "fetched_at": "2026-07-04T11:08:26.188Z",
+    "fetched_at": "2026-07-04T12:37:49.855Z",
     "language": "en",
     "raw_region": "UK / Global",
     "ui_region": "欧洲",
@@ -1319,7 +1386,7 @@
     "extraction_level": "title_and_summary",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_93",
+      "item_id": "norm_98",
       "source_id": "media_bbc_sport_football",
       "original_title": "Liverpool open to Van Dijk offers - Saturday's gossip",
       "original_summary": "Virgil van Dijk's Liverpool future appears a little uncertain with the club prepared to listen to offers for him, Fulham keen on West Ham winger Crysencio Summerville while Inter Milan want Chelsea centre-back Trevoh Chalobah.",
@@ -1335,7 +1402,7 @@
       ],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "利物浦开放Van Dijk优惠-周六八卦",
+      "candidate_event_title_zh": "利物浦对范迪克的报价持开放态度 - 周六八卦",
       "candidate_summary_zh": "利物浦的未来似乎有点不确定，俱乐部准备听取对他的报价，富勒姆热衷于西汉姆边锋克里森西奥·萨默维尔，而国际米兰则希望切尔西中后卫特雷沃·查洛巴",
       "event_fingerprint": "virgil_van_dijk::general_discussion::virgil_van_dijk::世界杯",
       "confidence": "medium",
@@ -1345,8 +1412,8 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_96",
-    "raw_id": "media_bbc_sport_football_slot-nuno-and-kelleher-pay-heartfelt-tributes-to-wonderful-j_18",
+    "item_id": "norm_101",
+    "raw_id": "media_bbc_sport_football_slot-nuno-and-kelleher-pay-heartfelt-tributes-to-wonderful-j_23",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "source_type": "media",
@@ -1356,7 +1423,7 @@
     "content_text": "",
     "url": "https://www.bbc.co.uk/sport/football/articles/cm2j8lzg2wjo?at_medium=RSS&at_campaign=rss",
     "published_at": "2026-07-03T13:18:43.000Z",
-    "fetched_at": "2026-07-04T11:08:26.188Z",
+    "fetched_at": "2026-07-04T12:37:49.855Z",
     "language": "en",
     "raw_region": "UK / Global",
     "ui_region": "欧洲",
@@ -1376,7 +1443,7 @@
     "extraction_level": "title_and_summary",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_96",
+      "item_id": "norm_101",
       "source_id": "media_bbc_sport_football",
       "original_title": "Slot, Nuno and Kelleher pay heartfelt tributes to 'wonderful' Jota",
       "original_summary": "On the first anniversary of Diogo Jota's death, Caoimhin Kelleher, Arne Slot, Nuno Espirito Santo, Conor Coady and Paulo Goncalves share their memories of the former Liverpool and Wolves forward.",
@@ -1390,137 +1457,13 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "Slot, Nuno and Kelleher pay heartfelt tributes to wonderful Jota",
-      "candidate_summary_zh": "在Diogo Jotas去世一周年之际， Caoimhin Kelleher、Arne Slot、Nuno Espirito Santo、Conor Coady和Paulo Goncalves分享了他们对前利物浦和狼队前锋的回忆",
+      "candidate_event_title_zh": "斯洛特、努诺和凯莱赫向精彩的乔塔致以衷心的敬意",
+      "candidate_summary_zh": "在迪奥戈·乔塔斯去世一周年之际，考伊欣·凯莱赫、阿恩·斯洛特、努诺·埃斯皮里托·桑托、康纳·科迪和保罗·贡萨尔维斯分享了他们对这位前利物浦和狼队前锋的回忆",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "medium",
       "evidence_basis": "title_and_summary"
     },
     "event_fingerprint": "general_discussion::world_cup::世界杯",
-    "low_confidence_reason": null
-  },
-  {
-    "item_id": "norm_97",
-    "raw_id": "media_bbc_sport_football_xhaka-set-to-stay-at-sunderland-despite-chelsea-interest_19",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "source_type": "media",
-    "title": "Xhaka set to stay at Sunderland despite Chelsea interest",
-    "normalized_title": "xhaka set to stay at sunderland despite chelsea interest",
-    "summary": "Sunderland captain Granit Xhaka is set to stay at the club this summer, despite interest from Chelsea.",
-    "content_text": "",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5yz8jj0g50o?at_medium=RSS&at_campaign=rss",
-    "published_at": "2026-07-03T18:11:14.000Z",
-    "fetched_at": "2026-07-04T11:08:26.188Z",
-    "language": "en",
-    "raw_region": "UK / Global",
-    "ui_region": "欧洲",
-    "matched_teams": [],
-    "matched_players": [
-      "Granit Xhaka"
-    ],
-    "matched_matches": [],
-    "topic_terms": [],
-    "topic_labels_zh": [],
-    "topic_labels_en": [],
-    "sports_context_score": 36,
-    "entity_match_score": 32,
-    "trend_bonus": 0,
-    "excluded_reason": null,
-    "crawl_strategy": "rss",
-    "crawl_mode": "rss",
-    "data_origin": "live",
-    "extraction_level": "title_and_summary",
-    "item_type": "article",
-    "event_frame": {
-      "item_id": "norm_97",
-      "source_id": "media_bbc_sport_football",
-      "original_title": "Xhaka set to stay at Sunderland despite Chelsea interest",
-      "original_summary": "Sunderland captain Granit Xhaka is set to stay at the club this summer, despite interest from Chelsea.",
-      "public_text_excerpt": "",
-      "subject": "Granit Xhaka",
-      "action": "general_discussion",
-      "object": "Granit Xhaka",
-      "context": "世界杯",
-      "issue_type": "general",
-      "teams": [],
-      "players": [
-        "Granit Xhaka"
-      ],
-      "venues": [],
-      "match_ids": [],
-      "candidate_event_title_zh": "尽管有切尔西的兴趣， Xhaka仍将留在桑德兰",
-      "candidate_summary_zh": "尽管切尔西对桑德兰感兴趣，但队长格拉尼特·扎卡今年夏天仍将留在俱乐部",
-      "event_fingerprint": "granit_xhaka::general_discussion::granit_xhaka::世界杯",
-      "confidence": "medium",
-      "evidence_basis": "title_and_summary"
-    },
-    "event_fingerprint": "granit_xhaka::general_discussion::granit_xhaka::世界杯",
-    "low_confidence_reason": null
-  },
-  {
-    "item_id": "norm_115",
-    "raw_id": "media_guardian_football_worldcup2026_emma-hayesnobody-should-underestimate-what-tuchel-can-do-wit_19",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "source_type": "media",
-    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-    "normalized_title": "nobody should underestimate what thomas tuchel can do with england emma hayes",
-    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
-    "content_text": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach. Don’t underestimate him. In my 12 years working at Chelsea, he and Mauricio Pochettino were my two favourite managers. Thomas is a great communicator, he’s demanding and he articulates himself really well. I admire the way he transfers information to the press and to players in a clear, concise way that is methodical, inspirational and detailed, all at the same time. I’ve seen him work at Chelsea. I’ve watched him in training and I’m a huge fan. He’s honest with his players and very direct. He doesn’t waste time – this is business, this is serious – but he’s also a fantastic guy. He’s warm, friendly, open and he built great relationships with the Chelsea staff. He would invite the women’s staff to watch his sessions and he always made me feel very welcome. I will never forget when we won the 2021 Fifa Best awards for men’s and women’s coach of the year, at home during Covid, both watching on a Zoom call. When Thomas won, I was so happy for him. It has been three weeks since Thomas picked his 26-player squad for this World Cup finals tournament and I know how carefully he will have thought through every decision. He’s the kind of coach who is going to die on his sword. Sometimes we get caught up in the wrong things when a squad is announced for a major tournament. There are always going to be top-quality players le",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
-    "published_at": "2026-06-13T05:28:10.362Z",
-    "fetched_at": "2026-06-13T05:28:10.362Z",
-    "language": "en",
-    "raw_region": "UK / Global",
-    "ui_region": "欧洲",
-    "matched_teams": [
-      "英格兰"
-    ],
-    "matched_players": [],
-    "matched_matches": [],
-    "topic_terms": [
-      "coach_tactics"
-    ],
-    "topic_labels_zh": [
-      "战术与教练安排"
-    ],
-    "topic_labels_en": [
-      "coaching and tactics"
-    ],
-    "sports_context_score": 60,
-    "entity_match_score": 22,
-    "trend_bonus": 0,
-    "excluded_reason": null,
-    "crawl_strategy": "html_list_test",
-    "crawl_mode": "html_list",
-    "data_origin": "cache",
-    "extraction_level": "cached",
-    "item_type": "article",
-    "event_frame": {
-      "item_id": "norm_115",
-      "source_id": "media_guardian_football_worldcup2026",
-      "original_title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-      "original_summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
-      "public_text_excerpt": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach. Don’t underestimate him. In my 12 years working at Chelsea, he and Mauricio",
-      "subject": "图赫尔",
-      "action": "general_discussion",
-      "object": "英格兰",
-      "context": "世界杯",
-      "issue_type": "coach_tactics",
-      "teams": [
-        "英格兰"
-      ],
-      "players": [],
-      "venues": [],
-      "match_ids": [],
-      "candidate_event_title_zh": "没有人应该低估托马斯·图切尔对英格兰队的贡献|艾玛·海耶斯",
-      "candidate_summary_zh": "把科尔·帕尔默留在家里让我很惊讶，但我知道来自切尔西的托马斯——他是那种死于剑下的教练 将科尔·帕尔默留在家里让我感到惊讶，但我知道来自切尔西的托马斯——他是那种死于剑下的教练 在托马斯·图赫尔，英格兰有一位精英教练",
-      "event_fingerprint": "图赫尔::general_discussion::英格兰::世界杯",
-      "confidence": "low",
-      "evidence_basis": "title_only"
-    },
-    "event_fingerprint": "图赫尔::general_discussion::英格兰::世界杯",
     "low_confidence_reason": null
   },
   {
@@ -1738,80 +1681,13 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "查看所有小组和赛程",
-      "candidate_summary_zh": "查看所有小组和赛程",
+      "candidate_event_title_zh": "查看所有组和赛程",
+      "candidate_summary_zh": "查看所有组和赛程",
       "event_fingerprint": "non_topic_page::utility_page::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
     },
     "event_fingerprint": "non_topic_page::utility_page::世界杯",
-    "low_confidence_reason": null
-  },
-  {
-    "item_id": "norm_142",
-    "raw_id": "media_guardian_football_some-americans-are-reluctant-to-cheer-for-the-us-at-the-worl_11",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "source_type": "media",
-    "title": "Some Americans are reluctant to cheer for the US at the World Cup. They shouldn’t be | Alexander Abnos",
-    "normalized_title": "some americans are reluctant to cheer for the us at the world cup they shouldn t be alexander abnos",
-    "summary": "There are plenty of reasons for Americans to feel discomfort about the behavior of their country. But sports have a way of bringing joy and unity The US men’s national team are on the verge of history. One win away from matching their best-ever run in the World Cup’s modern era, they are playing with more verve and quality than they ever have before at this stage. Wednesday’s win over Bosnia and Herzegovina has begotten a rarity: American soccer, in the spotlight, in America. To longtime US soccer fans, the question of whether to support this particular team at this particular time is barely a question. Or if it is one, it’s vaguely along the lines of “should I breathe?” Continue reading...",
-    "content_text": "",
-    "url": "https://www.theguardian.com/football/2026/jul/04/some-americans-are-reluctant-to-cheer-for-the-us-at-the-world-cup-they-shouldnt-be",
-    "published_at": "2026-07-04T09:00:10.000Z",
-    "fetched_at": "2026-07-04T11:08:26.572Z",
-    "language": "en",
-    "raw_region": "UK / Global",
-    "ui_region": "欧洲",
-    "matched_teams": [
-      "波黑",
-      "美国"
-    ],
-    "matched_players": [],
-    "matched_matches": [],
-    "topic_terms": [
-      "fans_atmosphere"
-    ],
-    "topic_labels_zh": [
-      "球迷与现场氛围"
-    ],
-    "topic_labels_en": [
-      "fans and atmosphere"
-    ],
-    "sports_context_score": 60,
-    "entity_match_score": 44,
-    "trend_bonus": 0,
-    "excluded_reason": null,
-    "crawl_strategy": "rss",
-    "crawl_mode": "rss",
-    "data_origin": "live",
-    "extraction_level": "title_and_summary",
-    "item_type": "article",
-    "event_frame": {
-      "item_id": "norm_142",
-      "source_id": "media_guardian_football",
-      "original_title": "Some Americans are reluctant to cheer for the US at the World Cup. They shouldn’t be | Alexander Abnos",
-      "original_summary": "There are plenty of reasons for Americans to feel discomfort about the behavior of their country. But sports have a way of bringing joy and unity The US men’s national team are on the verge of history. One win away from matching their best-ever run in the World Cup’s modern era, they are playing with more verve and quality than they ever have before at this stage. Wednesday’s win over Bosnia and Herzegovina has begotten a rarity: American soccer, in the spotlight, in America. To longtime US soccer fans, the question of whether to support this particular team at this particular time is barely a question. Or if it is one, it’s vaguely along the lines of “should I breathe?” Continue reading...",
-      "public_text_excerpt": "",
-      "subject": "波黑",
-      "action": "warmup_result",
-      "object": "波黑",
-      "context": "世界杯",
-      "issue_type": "fans_atmosphere",
-      "teams": [
-        "波黑",
-        "美国"
-      ],
-      "players": [],
-      "venues": [],
-      "match_ids": [],
-      "candidate_event_title_zh": "Some Americans are reluctant to cheer for the US at the World Cup. They shouldn’t be | Alexander Abnos",
-      "candidate_summary_zh": "美国人有很多理由对自己国家的行为感到不安",
-      "event_fingerprint": "波黑::warmup_result::波黑::世界杯",
-      "confidence": "medium",
-      "evidence_basis": "title_and_summary"
-    },
-    "event_fingerprint": "波黑::warmup_result::波黑::世界杯",
     "low_confidence_reason": null
   },
   {
@@ -1826,7 +1702,7 @@
     "content_text": "",
     "url": "https://www.theguardian.com/football/2026/jul/02/transfer-latest-premier-league-everton-tottenham",
     "published_at": "2026-07-02T09:44:50.000Z",
-    "fetched_at": "2026-07-04T11:08:26.572Z",
+    "fetched_at": "2026-07-04T12:37:50.335Z",
     "language": "en",
     "raw_region": "UK / Global",
     "ui_region": "欧洲",
@@ -1881,7 +1757,7 @@
     "content_text": "",
     "url": "https://www.theguardian.com/football/video/2026/jul/04/cape-verdes-heroics-and-its-gnight-australia-world-cup-daily-video",
     "published_at": "2026-07-04T07:49:19.000Z",
-    "fetched_at": "2026-07-04T11:08:26.572Z",
+    "fetched_at": "2026-07-04T12:37:50.335Z",
     "language": "en",
     "raw_region": "UK / Global",
     "ui_region": "欧洲",
@@ -1923,7 +1799,7 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "佛得角的英雄气概和澳大利亚之夜|世界杯日报–视频",
+      "candidate_event_title_zh": "佛得角的英雄事迹，澳大利亚晚安 |世界杯日报 – 视频",
       "candidate_summary_zh": "马克斯·拉什登 (Max Rushden) 与巴里·格伦登宁 (Barry Glendenning)、阿奇·林德-图特 (Archie Rhind-Tutt) 和拉尔斯·西维特森 (Lars Sivertsen) 联手，帮助佛得角在迄今为止的世界杯比赛中将阿根廷带入加时赛 继续阅读",
       "event_fingerprint": "澳大利亚::general_discussion::澳大利亚::世界杯",
       "confidence": "medium",
@@ -1944,7 +1820,7 @@
     "content_text": "",
     "url": "https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up",
     "published_at": "2022-11-14T09:05:50.000Z",
-    "fetched_at": "2026-07-04T11:08:26.572Z",
+    "fetched_at": "2026-07-04T12:37:50.335Z",
     "language": "en",
     "raw_region": "UK / Global",
     "ui_region": "欧洲",
@@ -2003,7 +1879,7 @@
     "content_text": "",
     "url": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
     "published_at": "2025-10-01T11:00:23.000Z",
-    "fetched_at": "2026-07-04T11:08:26.572Z",
+    "fetched_at": "2026-07-04T12:37:50.335Z",
     "language": "en",
     "raw_region": "UK / Global",
     "ui_region": "欧洲",
@@ -2038,7 +1914,7 @@
       "venues": [],
       "match_ids": [],
       "candidate_event_title_zh": "订阅《焦点体育》时事通讯：照片中的体育周",
-      "candidate_summary_zh": "我们的编辑过去一周最喜欢的体育形象，从壮观到强大，还有一点乐趣继续阅读",
+      "candidate_summary_zh": "我们的编辑过去一周最喜欢的体育图片，从壮观到强大，还有一点乐趣继续阅读",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "medium",
       "evidence_basis": "title_and_summary"
@@ -2058,7 +1934,7 @@
     "content_text": "",
     "url": "https://www.theguardian.com/sport/2017/may/15/the-recap-sign-up-for-the-best-of-the-guardians-sport-coverage",
     "published_at": "2017-05-15T11:00:43.000Z",
-    "fetched_at": "2026-07-04T11:08:26.572Z",
+    "fetched_at": "2026-07-04T12:37:50.335Z",
     "language": "en",
     "raw_region": "UK / Global",
     "ui_region": "欧洲",
@@ -2246,7 +2122,7 @@
       "match_ids": [
         "M003"
       ],
-      "candidate_event_title_zh": "现场评论-加拿大vs Bos&Herz | 2026年6月12日",
+      "candidate_event_title_zh": "现场评论 - 加拿大 vs Bos&Herz | 2026年6月12日",
       "candidate_summary_zh": "FIFA 世界杯比赛 加拿大 vs Bos&Herz 12.06.2026",
       "event_fingerprint": "加拿大::non_topic_page::utility_page::加拿大_vs_波黑",
       "confidence": "low",
@@ -2301,8 +2177,8 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "降级两次-那么为什么费尔南德斯仍然是欧洲最好的通缉对象？",
-      "candidate_summary_zh": "降级两次-那么为什么费尔南德斯仍然是欧洲最好的通缉对象？",
+      "candidate_event_title_zh": "两次降级——为什么费尔南德斯仍然受到欧洲最佳球队的青睐？",
+      "candidate_summary_zh": "两次降级——为什么费尔南德斯仍然受到欧洲最佳球队的青睐？",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -2499,8 +2375,8 @@
       ],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "苏格兰最新消息：麦克托米奈在世界杯揭幕战前恢复训练",
-      "candidate_summary_zh": "苏格兰最新消息：麦克托米奈在世界杯揭幕战前恢复训练",
+      "candidate_event_title_zh": "苏格兰最新消息： McTominay在WC揭幕战前重返训练",
+      "candidate_summary_zh": "苏格兰最新消息： McTominay在WC揭幕战前重返训练",
       "event_fingerprint": "scott_mctominay::non_topic_page::utility_page::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -2939,8 +2815,8 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "巴塞罗那对皇马主席佩雷斯提起诽谤诉讼",
-      "candidate_summary_zh": "巴塞罗那对皇马主席佩雷斯提起诽谤诉讼",
+      "candidate_event_title_zh": "巴塞罗那对皇家马德里主席佩雷斯提出诽谤指控",
+      "candidate_summary_zh": "巴塞罗那对皇家马德里主席佩雷斯提出诽谤指控",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -3280,7 +3156,7 @@
       "venues": [],
       "match_ids": [],
       "candidate_event_title_zh": "过去 25 年最好的 25 支足球队",
-      "candidate_summary_zh": "Elijamos los 25 mejores equipos desde el año 2000",
+      "candidate_summary_zh": "让我们选出 2000 年以来最好的 25 支球队",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -3501,6 +3377,61 @@
       "match_ids": [],
       "candidate_event_title_zh": "穆里尼奥的明确道路：皇马确认阿韦洛亚离开",
       "candidate_summary_zh": "穆里尼奥的明确道路：皇马确认阿韦洛亚离开",
+      "event_fingerprint": "general_discussion::world_cup::世界杯",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "general_discussion::world_cup::世界杯",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_212",
+    "raw_id": "media_espn_deportes_futbol_luis-malagón-aprueba-la-llegada-de-guillermo-almada-al-améri_6",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "source_type": "media",
+    "title": "Luis Malagón aprueba la llegada de Guillermo Almada al América",
+    "normalized_title": "luis malagón aprueba la llegada de guillermo almada al américa",
+    "summary": "",
+    "content_text": "",
+    "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/16811097/america-guillermo-almada-director-tecnico-malagon-elogios-lesion",
+    "published_at": "2026-06-10T07:29:44.003Z",
+    "fetched_at": "2026-06-10T07:29:44.003Z",
+    "language": "es",
+    "raw_region": "Latin America / US Hispanic",
+    "ui_region": "拉美",
+    "matched_teams": [],
+    "matched_players": [],
+    "matched_matches": [],
+    "topic_terms": [],
+    "topic_labels_zh": [],
+    "topic_labels_en": [],
+    "sports_context_score": 28,
+    "entity_match_score": 0,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_212",
+      "source_id": "media_espn_deportes_futbol",
+      "original_title": "Luis Malagón aprueba la llegada de Guillermo Almada al América",
+      "original_summary": "",
+      "public_text_excerpt": "",
+      "subject": "???",
+      "action": "general_discussion",
+      "object": "world_cup",
+      "context": "世界杯",
+      "issue_type": "general",
+      "teams": [],
+      "players": [],
+      "venues": [],
+      "match_ids": [],
+      "candidate_event_title_zh": "路易斯·马拉贡批准吉列尔莫·阿尔马达抵达美国",
+      "candidate_summary_zh": "路易斯·马拉贡批准吉列尔莫·阿尔马达抵达美国",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -3837,8 +3768,8 @@
         "SoFi 球场"
       ],
       "match_ids": [],
-      "candidate_event_title_zh": "达成协议后他们避免了索菲体育场的罢工",
-      "candidate_summary_zh": "达成协议后他们避免了索菲体育场的罢工",
+      "candidate_event_title_zh": "交易后SoFi体育场避免了罢工",
+      "candidate_summary_zh": "交易后SoFi体育场避免了罢工",
       "event_fingerprint": "sofi_球场::general_discussion::sofi_球场::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -4287,123 +4218,13 @@
       ],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "Modric, cerca del adiós",
-      "candidate_summary_zh": "Modric, cerca del adiós",
+      "candidate_event_title_zh": "莫德里奇，即将告别",
+      "candidate_summary_zh": "莫德里奇，即将告别",
       "event_fingerprint": "luka_modric::general_discussion::luka_modric::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
     },
     "event_fingerprint": "luka_modric::general_discussion::luka_modric::世界杯",
-    "low_confidence_reason": null
-  },
-  {
-    "item_id": "norm_257",
-    "raw_id": "media_as_futbol_güler-rompe-su-techo_16",
-    "source_id": "media_as_futbol",
-    "source_name": "AS Fútbol",
-    "source_type": "media",
-    "title": "Güler rompe su techo",
-    "normalized_title": "güler rompe su techo",
-    "summary": "",
-    "content_text": "",
-    "url": "https://as.com/futbol/guler-rompe-su-techo-f202606-n/",
-    "published_at": "2026-06-13T01:38:48.179Z",
-    "fetched_at": "2026-06-13T01:38:48.179Z",
-    "language": "es",
-    "raw_region": "Spain / Latin America",
-    "ui_region": "拉美",
-    "matched_teams": [],
-    "matched_players": [],
-    "matched_matches": [],
-    "topic_terms": [],
-    "topic_labels_zh": [],
-    "topic_labels_en": [],
-    "sports_context_score": 28,
-    "entity_match_score": 0,
-    "trend_bonus": 0,
-    "excluded_reason": null,
-    "crawl_strategy": "html_list_test",
-    "crawl_mode": "html_list",
-    "data_origin": "cache",
-    "extraction_level": "cached",
-    "item_type": "article",
-    "event_frame": {
-      "item_id": "norm_257",
-      "source_id": "media_as_futbol",
-      "original_title": "Güler rompe su techo",
-      "original_summary": "",
-      "public_text_excerpt": "",
-      "subject": "???",
-      "action": "general_discussion",
-      "object": "world_cup",
-      "context": "世界杯",
-      "issue_type": "general",
-      "teams": [],
-      "players": [],
-      "venues": [],
-      "match_ids": [],
-      "candidate_event_title_zh": "古勒打破了他的屋顶",
-      "candidate_summary_zh": "古勒打破了他的屋顶",
-      "event_fingerprint": "general_discussion::world_cup::世界杯",
-      "confidence": "low",
-      "evidence_basis": "title_only"
-    },
-    "event_fingerprint": "general_discussion::world_cup::世界杯",
-    "low_confidence_reason": null
-  },
-  {
-    "item_id": "norm_258",
-    "raw_id": "media_as_futbol_the-objective-la-rfef-de-rubiales-ocultó-que-hacienda-invest_17",
-    "source_id": "media_as_futbol",
-    "source_name": "AS Fútbol",
-    "source_type": "media",
-    "title": "‘The Objective’: la RFEF de Rubiales ocultó que Hacienda investigaba a Negreira",
-    "normalized_title": "the objective la rfef de rubiales ocultó que hacienda investigaba a negreira",
-    "summary": "",
-    "content_text": "",
-    "url": "https://as.com/futbol/primera/la-rfef-de-rubiales-oculto-que-hacienda-investigaba-a-negreira-f202606-n/",
-    "published_at": "2026-06-13T01:38:48.179Z",
-    "fetched_at": "2026-06-13T01:38:48.179Z",
-    "language": "es",
-    "raw_region": "Spain / Latin America",
-    "ui_region": "拉美",
-    "matched_teams": [],
-    "matched_players": [],
-    "matched_matches": [],
-    "topic_terms": [],
-    "topic_labels_zh": [],
-    "topic_labels_en": [],
-    "sports_context_score": 28,
-    "entity_match_score": 0,
-    "trend_bonus": 0,
-    "excluded_reason": null,
-    "crawl_strategy": "html_list_test",
-    "crawl_mode": "html_list",
-    "data_origin": "cache",
-    "extraction_level": "cached",
-    "item_type": "article",
-    "event_frame": {
-      "item_id": "norm_258",
-      "source_id": "media_as_futbol",
-      "original_title": "‘The Objective’: la RFEF de Rubiales ocultó que Hacienda investigaba a Negreira",
-      "original_summary": "",
-      "public_text_excerpt": "",
-      "subject": "???",
-      "action": "general_discussion",
-      "object": "world_cup",
-      "context": "世界杯",
-      "issue_type": "general",
-      "teams": [],
-      "players": [],
-      "venues": [],
-      "match_ids": [],
-      "candidate_event_title_zh": "“目标”：鲁维亚莱斯的 RFEF 隐瞒了财政部正在调查内格雷拉的事实",
-      "candidate_summary_zh": "“目标”：鲁维亚莱斯的 RFEF 隐瞒了财政部正在调查内格雷拉的事实",
-      "event_fingerprint": "general_discussion::world_cup::世界杯",
-      "confidence": "low",
-      "evidence_basis": "title_only"
-    },
-    "event_fingerprint": "general_discussion::world_cup::世界杯",
     "low_confidence_reason": null
   },
   {
@@ -4786,8 +4607,8 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "¿Julián? Queremos jugadores que, como decía Torres, quieran quedarse en el Atleti",
-      "candidate_summary_zh": "¿Julián? Queremos jugadores que, como decía Torres, quieran quedarse en el Atleti",
+      "candidate_event_title_zh": "朱利安？我们想要像托雷斯所说的那样想留在马竞的球员",
+      "candidate_summary_zh": "朱利安？我们想要像托雷斯所说的那样想留在马竞的球员",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -7399,7 +7220,7 @@
       ],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "梅尔卡托：图拉姆、阿克利乌什、拉克鲁瓦、古斯托……蓝军在转会市场上的炎热夏天",
+      "candidate_event_title_zh": "梅尔卡托：图拉姆、阿克利乌什、拉克鲁瓦、加斯托……蓝军在转会市场上的炎热夏天",
       "candidate_summary_zh": "许多蓝军球员，如马库斯·图拉姆、马格尼斯·阿克利乌什、马克森斯·拉克鲁瓦和马洛·古斯托，都不同程度地受到今年夏天离开的影响",
       "event_fingerprint": "mercato::general_discussion::son_heung-min::世界杯",
       "confidence": "low",
@@ -7955,8 +7776,8 @@
       "players": [],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "安切洛蒂确认内马尔退出对阵摩洛哥的比赛",
-      "candidate_summary_zh": "安切洛蒂确认内马尔退出对阵摩洛哥的比赛",
+      "candidate_event_title_zh": "安切洛蒂确认内马尔对阵摩洛哥的一揽子计划",
+      "candidate_summary_zh": "安切洛蒂确认内马尔对阵摩洛哥的一揽子计划",
       "event_fingerprint": "general_discussion::world_cup::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -8953,8 +8774,8 @@
       ],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "在庆祝和挑衅之间，瑞士队队长扎卡第四次闯进世界杯",
-      "candidate_summary_zh": "在庆祝和挑衅之间，瑞士队队长扎卡第四次闯进世界杯",
+      "candidate_event_title_zh": "在庆祝和挑衅之间，瑞士队队长扎卡第四次闯入世界杯",
+      "candidate_summary_zh": "在庆祝和挑衅之间，瑞士队队长扎卡第四次闯入世界杯",
       "event_fingerprint": "granit_xhaka::general_discussion::granit_xhaka::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -9067,8 +8888,8 @@
       ],
       "venues": [],
       "match_ids": [],
-      "candidate_event_title_zh": "在庆祝和挑衅之间，瑞士队队长扎卡第四次闯进世界杯",
-      "candidate_summary_zh": "在庆祝和挑衅之间，瑞士队队长扎卡第四次闯进世界杯",
+      "candidate_event_title_zh": "在庆祝和挑衅之间，瑞士队队长扎卡第四次闯入世界杯",
+      "candidate_summary_zh": "在庆祝和挑衅之间，瑞士队队长扎卡第四次闯入世界杯",
       "event_fingerprint": "granit_xhaka::general_discussion::granit_xhaka::世界杯",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -9198,7 +9019,7 @@
     "content_text": "",
     "url": "https://www.reddit.com/r/soccer/comments/1un37ks/support_your_local_saturday_for_matchgoing_and/",
     "published_at": "2026-07-04T08:00:49.000Z",
-    "fetched_at": "2026-07-04T11:08:27.657Z",
+    "fetched_at": "2026-07-04T12:37:51.226Z",
     "language": "en",
     "raw_region": "Global / English-speaking",
     "ui_region": "全球/英语圈",
@@ -9248,67 +9069,8 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_448",
-    "raw_id": "forum_reddit_soccer_vozinha-saves-lionel-messi-s-freekick-73_7",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "source_type": "forum",
-    "title": "Vozinha saves Lionel Messi's freekick 73'",
-    "normalized_title": "vozinha saves lionel messi s freekick 73",
-    "summary": "submitted by /u/977x [link] [comments]",
-    "content_text": "",
-    "url": "https://www.reddit.com/r/soccer/comments/1umtisk/vozinha_saves_lionel_messis_freekick_73/",
-    "published_at": "2026-07-03T23:33:41.000Z",
-    "fetched_at": "2026-07-04T11:08:27.657Z",
-    "language": "en",
-    "raw_region": "Global / English-speaking",
-    "ui_region": "全球/英语圈",
-    "matched_teams": [],
-    "matched_players": [
-      "Lionel Messi"
-    ],
-    "matched_matches": [],
-    "topic_terms": [],
-    "topic_labels_zh": [],
-    "topic_labels_en": [],
-    "sports_context_score": 30,
-    "entity_match_score": 32,
-    "trend_bonus": 0,
-    "excluded_reason": null,
-    "crawl_strategy": "rss",
-    "crawl_mode": "rss",
-    "data_origin": "live",
-    "extraction_level": "title_and_summary",
-    "item_type": "article",
-    "event_frame": {
-      "item_id": "norm_448",
-      "source_id": "forum_reddit_soccer",
-      "original_title": "Vozinha saves Lionel Messi's freekick 73'",
-      "original_summary": "submitted by /u/977x [link] [comments]",
-      "public_text_excerpt": "",
-      "subject": "Lionel Messi",
-      "action": "general_discussion",
-      "object": "Lionel Messi",
-      "context": "世界杯",
-      "issue_type": "general",
-      "teams": [],
-      "players": [
-        "Lionel Messi"
-      ],
-      "venues": [],
-      "match_ids": [],
-      "candidate_event_title_zh": "沃齐尼亚扑出莱昂内尔·梅西任意球 73",
-      "candidate_summary_zh": "由 /u/977x 提交 [链接] [评论]",
-      "event_fingerprint": "lionel_messi::general_discussion::lionel_messi::世界杯",
-      "confidence": "medium",
-      "evidence_basis": "title_and_summary"
-    },
-    "event_fingerprint": "lionel_messi::general_discussion::lionel_messi::世界杯",
-    "low_confidence_reason": null
-  },
-  {
-    "item_id": "norm_452",
-    "raw_id": "forum_reddit_soccer_vozinha-has-officially-become-the-most-followed-goalkeeper-o_11",
+    "item_id": "norm_443",
+    "raw_id": "forum_reddit_soccer_vozinha-has-officially-become-the-most-followed-goalkeeper-o_2",
     "source_id": "forum_reddit_soccer",
     "source_name": "Reddit r/soccer",
     "source_type": "forum",
@@ -9318,7 +9080,7 @@
     "content_text": "",
     "url": "https://www.reddit.com/r/soccer/comments/1un5b6e/vozinha_has_officially_become_the_most_followed/",
     "published_at": "2026-07-04T10:09:51.000Z",
-    "fetched_at": "2026-07-04T11:08:27.657Z",
+    "fetched_at": "2026-07-04T12:37:51.226Z",
     "language": "en",
     "raw_region": "Global / English-speaking",
     "ui_region": "全球/英语圈",
@@ -9338,7 +9100,7 @@
     "extraction_level": "title_and_summary",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_452",
+      "item_id": "norm_443",
       "source_id": "forum_reddit_soccer",
       "original_title": "Vozinha has officially become the most followed goalkeeper on Instagram, surpassing Iker Casillas",
       "original_summary": "submitted by /u/Dependent_Divide_625 [link] [comments]",
@@ -9362,8 +9124,8 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_463",
-    "raw_id": "forum_reddit_soccer_at-the-full-time-whistle-vozinha-went-around-lifting-his-tea_22",
+    "item_id": "norm_444",
+    "raw_id": "forum_reddit_soccer_at-the-full-time-whistle-vozinha-went-around-lifting-his-tea_3",
     "source_id": "forum_reddit_soccer",
     "source_name": "Reddit r/soccer",
     "source_type": "forum",
@@ -9373,7 +9135,7 @@
     "content_text": "",
     "url": "https://www.reddit.com/r/soccer/comments/1un54tb/at_the_fulltime_whistle_vozinha_went_around/",
     "published_at": "2026-07-04T09:59:18.000Z",
-    "fetched_at": "2026-07-04T11:08:27.657Z",
+    "fetched_at": "2026-07-04T12:37:51.226Z",
     "language": "en",
     "raw_region": "Global / English-speaking",
     "ui_region": "全球/英语圈",
@@ -9393,7 +9155,7 @@
     "extraction_level": "title_and_summary",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_463",
+      "item_id": "norm_444",
       "source_id": "forum_reddit_soccer",
       "original_title": "At the full-time whistle, Vozinha went around lifting his teammates who had thrown themselves to the ground in disappointment, telling them not to be so despondent and instead be proud of their performance.",
       "original_summary": "submitted by /u/OptimusCloyster [link] [comments]",
@@ -9414,6 +9176,65 @@
       "evidence_basis": "title_and_summary"
     },
     "event_fingerprint": "general_discussion::world_cup::世界杯",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_450",
+    "raw_id": "forum_reddit_soccer_vozinha-saves-lionel-messi-s-freekick-73_9",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "source_type": "forum",
+    "title": "Vozinha saves Lionel Messi's freekick 73'",
+    "normalized_title": "vozinha saves lionel messi s freekick 73",
+    "summary": "submitted by /u/977x [link] [comments]",
+    "content_text": "",
+    "url": "https://www.reddit.com/r/soccer/comments/1umtisk/vozinha_saves_lionel_messis_freekick_73/",
+    "published_at": "2026-07-03T23:33:41.000Z",
+    "fetched_at": "2026-07-04T12:37:51.226Z",
+    "language": "en",
+    "raw_region": "Global / English-speaking",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [],
+    "matched_players": [
+      "Lionel Messi"
+    ],
+    "matched_matches": [],
+    "topic_terms": [],
+    "topic_labels_zh": [],
+    "topic_labels_en": [],
+    "sports_context_score": 30,
+    "entity_match_score": 32,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "rss",
+    "crawl_mode": "rss",
+    "data_origin": "live",
+    "extraction_level": "title_and_summary",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_450",
+      "source_id": "forum_reddit_soccer",
+      "original_title": "Vozinha saves Lionel Messi's freekick 73'",
+      "original_summary": "submitted by /u/977x [link] [comments]",
+      "public_text_excerpt": "",
+      "subject": "Lionel Messi",
+      "action": "general_discussion",
+      "object": "Lionel Messi",
+      "context": "世界杯",
+      "issue_type": "general",
+      "teams": [],
+      "players": [
+        "Lionel Messi"
+      ],
+      "venues": [],
+      "match_ids": [],
+      "candidate_event_title_zh": "沃齐尼亚扑出莱昂内尔·梅西任意球 73",
+      "candidate_summary_zh": "由 /u/977x 提交 [链接] [评论]",
+      "event_fingerprint": "lionel_messi::general_discussion::lionel_messi::世界杯",
+      "confidence": "medium",
+      "evidence_basis": "title_and_summary"
+    },
+    "event_fingerprint": "lionel_messi::general_discussion::lionel_messi::世界杯",
     "low_confidence_reason": null
   },
   {
@@ -10416,7 +10237,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_609",
+    "item_id": "norm_614",
     "raw_id": "media_daily_mail_football_world-cup-breakfast-opening-ceremony-gaffe-match-highlights-_2",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
@@ -10457,7 +10278,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_609",
+      "item_id": "norm_614",
       "source_id": "media_daily_mail_football",
       "original_title": "World Cup Breakfast: The Beckhams cheer on the USA",
       "original_summary": "Hello and welcome to Daily Mail Sport's World Cup Breakfast from day two at the tournament - your one-stop shop for everything you've missed overnight in North America.",
@@ -10485,7 +10306,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_633",
+    "item_id": "norm_638",
     "raw_id": "media_daily_mail_worldcup_world-cup-breakfast-opening-ceremony-gaffe-match-highlights-_0",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
@@ -10526,7 +10347,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_633",
+      "item_id": "norm_638",
       "source_id": "media_daily_mail_worldcup",
       "original_title": "World Cup Breakfast: The Beckhams cheer on the USA",
       "original_summary": "Hello and welcome to Daily Mail Sport's World Cup Breakfast from day two at the tournament - your one-stop shop for everything you've missed overnight in North America.",
@@ -10554,7 +10375,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_652",
+    "item_id": "norm_657",
     "raw_id": "media_daily_mail_worldcup_it-s-the-most-expensive-show-on-earth-but-will-that-spoil-th_22",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
@@ -10585,7 +10406,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_652",
+      "item_id": "norm_657",
       "source_id": "media_daily_mail_worldcup",
       "original_title": "It's the most EXPENSIVE show on earth... but will that spoil the party for the Tartan Army? Going by the sheer numbers spending thousands of pounds, probably not!",
       "original_summary": "",
@@ -10609,7 +10430,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_658",
+    "item_id": "norm_663",
     "raw_id": "media_fourfourtwo_news_what-is-the-mistaken-identity-rule-that-debuted-during-usa-v_0",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -10651,7 +10472,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_658",
+      "item_id": "norm_663",
       "source_id": "media_fourfourtwo_news",
       "original_title": "What is the ‘mistaken identity’ rule that debuted during USA vs Paraguay?",
       "original_summary": "Fans have been waiting for this rule, now used during USA vs Paraguay, for a long time",
@@ -10680,7 +10501,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_659",
+    "item_id": "norm_664",
     "raw_id": "media_fourfourtwo_news_england-suffer-huge-setback-ahead-of-croatia-game-in-bizarre_2",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -10722,7 +10543,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_659",
+      "item_id": "norm_664",
       "source_id": "media_fourfourtwo_news",
       "original_title": "England suffer HUGE setback ahead of Croatia game in bizarre World Cup heist",
       "original_summary": "The ramifications of this strange heist against England could be major",
@@ -10751,7 +10572,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_660",
+    "item_id": "norm_665",
     "raw_id": "media_fourfourtwo_news_who-is-the-referee-for-usa-vs-paraguay_4",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -10793,7 +10614,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_660",
+      "item_id": "norm_665",
       "source_id": "media_fourfourtwo_news",
       "original_title": "Who is the referee for USA vs Paraguay?",
       "original_summary": "The tournament co-hosts will aim to start the World Cup strongly against Paraguay",
@@ -10822,7 +10643,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_661",
+    "item_id": "norm_666",
     "raw_id": "media_fourfourtwo_news_who-are-the-bbc-commentators-pundits-and-presenters-for-usa-_6",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -10858,7 +10679,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_661",
+      "item_id": "norm_666",
       "source_id": "media_fourfourtwo_news",
       "original_title": "Who are the BBC commentators, pundits and presenters for USA vs Paraguay?",
       "original_summary": "USA vs Paraguay in Group D sees the co-hosts get their World Cup campaign underway",
@@ -10887,7 +10708,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_662",
+    "item_id": "norm_667",
     "raw_id": "media_fourfourtwo_news_what-are-the-patches-on-players-shirts-at-the-world-cup-and-_8",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -10918,7 +10739,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_662",
+      "item_id": "norm_667",
       "source_id": "media_fourfourtwo_news",
       "original_title": "What are the patches on players' shirts at the World Cup and why are they wearing them?",
       "original_summary": "Certain players' shirts will feature collectable patches denoting special occasions.",
@@ -10942,7 +10763,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_663",
+    "item_id": "norm_668",
     "raw_id": "media_fourfourtwo_news_canada-boss-jesse-marsch-slammed-by-clint-dempsey-after-prov_10",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -10976,7 +10797,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_663",
+      "item_id": "norm_668",
       "source_id": "media_fourfourtwo_news",
       "original_title": "Canada boss Jesse Marsch slammed by Clint Dempsey after provocative USMNT comments",
       "original_summary": "The ex-USA forward didn’t mince his words for Jesse Marsch",
@@ -11003,7 +10824,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_664",
+    "item_id": "norm_669",
     "raw_id": "media_fourfourtwo_news_ex-arsenal-player-makes-astonishing-as-good-as-a-goal-cleara_12",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -11036,7 +10857,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_664",
+      "item_id": "norm_669",
       "source_id": "media_fourfourtwo_news",
       "original_title": "Ex-Arsenal player makes astonishing ‘as good as a goal’ clearance against Canada",
       "original_summary": "How did he keep this one out?",
@@ -11062,7 +10883,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_668",
+    "item_id": "norm_673",
     "raw_id": "media_fourfourtwo_news_make-your-predictions_0",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -11093,7 +10914,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_668",
+      "item_id": "norm_673",
       "source_id": "media_fourfourtwo_news",
       "original_title": "Make your predictions!",
       "original_summary": "FREE World Cup Predictor",
@@ -11117,7 +10938,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_672",
+    "item_id": "norm_677",
     "raw_id": "media_fourfourtwo_news_xabi-alonso-urged-to-sign-big-money-liverpool-flop-who-just-_2",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -11156,7 +10977,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_672",
+      "item_id": "norm_677",
       "source_id": "media_fourfourtwo_news",
       "original_title": "Xabi Alonso urged to sign big-money Liverpool flop who just needs 'confidence and belief'",
       "original_summary": "By James Andrew published 12 June 26",
@@ -11182,7 +11003,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_678",
+    "item_id": "norm_683",
     "raw_id": "media_fourfourtwo_news_elliot-anderson-transfer-hopes-dashed-as-manchester-city-pre_14",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -11215,7 +11036,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_678",
+      "item_id": "norm_683",
       "source_id": "media_fourfourtwo_news",
       "original_title": "Elliot Anderson transfer hopes dashed, as Manchester City prepared to walk away from deal: report",
       "original_summary": "By James Andrew published 12 June 26",
@@ -11241,7 +11062,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_679",
+    "item_id": "norm_684",
     "raw_id": "media_fourfourtwo_news_newcastle-smash-transfer-record-for-spanish-winger-report_16",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -11274,7 +11095,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_679",
+      "item_id": "norm_684",
       "source_id": "media_fourfourtwo_news",
       "original_title": "Newcastle smash transfer record for Spanish winger: report",
       "original_summary": "By James Andrew published 12 June 26",
@@ -11300,7 +11121,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_689",
+    "item_id": "norm_694",
     "raw_id": "media_yahoo_world_cup_2026-world-cup-viewer-s-guide-everything-you-need-to-know_5",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
@@ -11340,7 +11161,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_689",
+      "item_id": "norm_694",
       "source_id": "media_yahoo_world_cup",
       "original_title": "2026 World Cup viewer's guide: Format, new rules, predictions, how to watch and everything you need to know before kickoff",
       "original_summary": "You've got questions. We've got answers. Here's everything you need to know before the World Cup kicks off Thursday.",
@@ -11366,7 +11187,7 @@
         "M004"
       ],
       "candidate_event_title_zh": "2026 年世界杯观众指南：赛制、新规则、预测、如何观看以及开赛前您需要了解的一切",
-      "candidate_summary_zh": "这是周四世界杯开赛前您需要了解的所有信息",
+      "candidate_summary_zh": "这是世界杯周四开幕之前您需要了解的所有信息",
       "event_fingerprint": "sofi_球场::non_topic_page::utility_page::墨西哥_vs_南非",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -11375,7 +11196,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_690",
+    "item_id": "norm_695",
     "raw_id": "media_yahoo_world_cup_england-stars-boots-among-items-reportedly-stolen-during-in-_6",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
@@ -11418,7 +11239,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_690",
+      "item_id": "norm_695",
       "source_id": "media_yahoo_world_cup",
       "original_title": "World Cup: England stars' boots among items reportedly stolen during in-transit theft between Florida and Kansas City",
       "original_summary": "Two subjects of interest have been taken into custody.",
@@ -11448,7 +11269,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_691",
+    "item_id": "norm_696",
     "raw_id": "media_yahoo_world_cup_ghana-s-thomas-partey-will-miss-first-match-after-being-deni_7",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
@@ -11487,7 +11308,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_691",
+      "item_id": "norm_696",
       "source_id": "media_yahoo_world_cup",
       "original_title": "World Cup 2026: Ghana's Thomas Partey will miss first match after being denied entry into Canada",
       "original_summary": "The midfielder has plead not guilty to multiple counts of rape and sexual assault.",
@@ -11513,7 +11334,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_694",
+    "item_id": "norm_699",
     "raw_id": "media_yahoo_world_cup_1canadacanft1bosnia-and-herzegovinabih_10",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
@@ -11549,7 +11370,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_694",
+      "item_id": "norm_699",
       "source_id": "media_yahoo_world_cup",
       "original_title": "Canada 1 - 1 Bosnia and Herzegovina: Final score, results, recap, box score, stats - Yahoo Sports",
       "original_summary": "Sports News, Scores, Fantasy Games",
@@ -11578,7 +11399,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_700",
     "raw_id": "media_yahoo_world_cup_4usausaft1paraguaypar_11",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
@@ -11614,7 +11435,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_695",
+      "item_id": "norm_700",
       "source_id": "media_yahoo_world_cup",
       "original_title": "USA 4 - 1 Paraguay: Final score, results, recap, box score, stats - Yahoo Sports",
       "original_summary": "Sports News, Scores, Fantasy Games",
@@ -11643,7 +11464,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_718",
+    "item_id": "norm_723",
     "raw_id": "media_one_football_world_cup_parisfans-fr-about-an-hour-ago_17",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
@@ -11681,7 +11502,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_718",
+      "item_id": "norm_723",
       "source_id": "media_one_football_world_cup",
       "original_title": "Brazil v Morocco: kick-off time and TV channel",
       "original_summary": "Read this news on OneFootball.",
@@ -11712,7 +11533,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_719",
+    "item_id": "norm_724",
     "raw_id": "media_one_football_world_cup_avante-meu-tricolor-about-an-hour-ago_20",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
@@ -11749,7 +11570,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_719",
+      "item_id": "norm_724",
       "source_id": "media_one_football_world_cup",
       "original_title": "Brazil v Morocco: where to watch, line-ups, time, prediction",
       "original_summary": "Read this news on OneFootball.",
@@ -11779,7 +11600,84 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_735",
+    "item_id": "norm_734",
+    "raw_id": "media_si_world_cup_four-takeaways-from-usmnt-s-record-breaking-world-cup-opener_6",
+    "source_id": "media_si_world_cup",
+    "source_name": "Sports Illustrated World Cup Page",
+    "source_type": "media",
+    "title": "Four Takeaways From USMNT’s Record-Breaking World Cup Opener",
+    "normalized_title": "four takeaways from usmnt s record-breaking world cup opener",
+    "summary": "Mauricio Pochettino’s positivity doesn’t look quite so outlandish anymore.",
+    "content_text": "INGLEWOOD, Calif. — Enrique Rodó’s essay Ariel from 1900 pits the creative, spiritual ideals of Latin America against the primitive impulses of North America, picking apart the latter’s “trained brutality,” “insensibility to soft tones,” and “cult of bigness.” The roles were spectacularly reversed in the World Cup’s clash of Americas on Friday. It was Paraguay who took a distinctly primitive approach to defending, clumsily bumbling around SoFi Stadium without any discernible impact on the remarkably penetrative and persistent waves of U.S. attack. “They were floating,” Paraguay boss Gustavo Alfaro gushed after the contest. Mauricio Pochettino demanded his roster shake off the weight of expectation and “play like they are a child.” The Stars and Stripes lived up to that brief, floating around the turf with an impish weightlessness. Paraguay took on the unwanted connotation of that message, making a series of schoolboy mistakes which undoubtedly made life easier in an impressive and historic 4–1 win few saw coming. USMNT has lift-off. pic.twitter.com/H1DygU7kkD “We want to go and prove ourselves right,” Christian Pulisic declared in a rare statement with any punch on the eve of the tournament. The face of this team has been scrutinized more than anyone else. Despite undoubtedly standing out as the most talented American player of his generation, Pulisic has struggled to live up to the lofty billing foisted upon him. The winger’s last goal in a competitive international came bac",
+    "url": "https://www.si.com/soccer/four-takeaways-from-usmnt-record-breaking-world-cup-opener",
+    "published_at": "2026-06-13T05:29:33.006Z",
+    "fetched_at": "2026-06-13T05:29:33.006Z",
+    "language": "en",
+    "raw_region": "US / Global",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [
+      "美国",
+      "巴拉圭"
+    ],
+    "matched_players": [
+      "Christian Pulisic"
+    ],
+    "matched_matches": [
+      "M004"
+    ],
+    "topic_terms": [
+      "opening_host_pressure"
+    ],
+    "topic_labels_zh": [
+      "揭幕战与主场压力"
+    ],
+    "topic_labels_en": [
+      "opening match and host pressure"
+    ],
+    "sports_context_score": 60,
+    "entity_match_score": 100,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_734",
+      "source_id": "media_si_world_cup",
+      "original_title": "Four Takeaways From USMNT’s Record-Breaking World Cup Opener",
+      "original_summary": "Mauricio Pochettino’s positivity doesn’t look quite so outlandish anymore.",
+      "public_text_excerpt": "INGLEWOOD, Calif. — Enrique Rodó’s essay Ariel from 1900 pits the creative, spiritual ideals of Latin America against the primitive impulses of North America, picking apart the latter’s “trained brutality,” “insensibility to soft tones,” an",
+      "subject": "SoFi 球场",
+      "action": "warmup_result",
+      "object": "Christian Pulisic",
+      "context": "美国 vs 巴拉圭",
+      "issue_type": "opening_host_pressure",
+      "teams": [
+        "美国",
+        "巴拉圭"
+      ],
+      "players": [
+        "Christian Pulisic"
+      ],
+      "venues": [
+        "SoFi 球场"
+      ],
+      "match_ids": [
+        "M004"
+      ],
+      "candidate_event_title_zh": "USMNT 破纪录的世界杯揭幕战的四个要点",
+      "candidate_summary_zh": "毛里西奥·波切蒂诺的积极性看起来不再那么古怪了",
+      "event_fingerprint": "sofi_球场::warmup_result::christian_pulisic::美国_vs_巴拉圭",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "sofi_球场::warmup_result::christian_pulisic::美国_vs_巴拉圭",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_740",
     "raw_id": "media_si_world_cup_usmnt-vs-paraguay-world-cup-live-score-and-match-stats_18",
     "source_id": "media_si_world_cup",
     "source_name": "Sports Illustrated World Cup Page",
@@ -11815,7 +11713,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_735",
+      "item_id": "norm_740",
       "source_id": "media_si_world_cup",
       "original_title": "USMNT vs. Paraguay—World Cup: Live Score and Match Stats",
       "original_summary": "",
@@ -11844,7 +11742,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_741",
+    "item_id": "norm_746",
     "raw_id": "media_si_world_cup_canada-vs-bosnia-and-herzegovina-world-cup-live-score-and-ma_32",
     "source_id": "media_si_world_cup",
     "source_name": "Sports Illustrated World Cup Page",
@@ -11880,7 +11778,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_741",
+      "item_id": "norm_746",
       "source_id": "media_si_world_cup",
       "original_title": "Canada vs. Bosnia and Herzegovina—World Cup: Live Score and Match Stats for Group B Clash",
       "original_summary": "",
@@ -11909,7 +11807,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_749",
+    "item_id": "norm_754",
     "raw_id": "media_si_world_cup_usmnt-2026-world-cup-schedule-potential-opponents-and-venues_62",
     "source_id": "media_si_world_cup",
     "source_name": "Sports Illustrated World Cup Page",
@@ -11942,7 +11840,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_749",
+      "item_id": "norm_754",
       "source_id": "media_si_world_cup",
       "original_title": "USMNT 2026 World Cup Schedule: Potential Opponents and Venues",
       "original_summary": "",
@@ -11968,7 +11866,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_753",
+    "item_id": "norm_758",
     "raw_id": "media_nbc_sports_world_cup_citron-hits-winning-jumper-at-the-buzzer-betts-scores-career_10",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
@@ -11999,7 +11897,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_753",
+      "item_id": "norm_758",
       "source_id": "media_nbc_sports_world_cup",
       "original_title": "Citron hits winning jumper at the buzzer, Betts scores career-high 18 as Mystics beat Tempo 86-85",
       "original_summary": "Sonia Citron scored 17 points and made the winning jumper as time expired, rookie Lauren Betts scored a season-high 18 points on 8-of-9 shooting and the Washington Mystics beat the Toronto Tempo 86-85 on Friday night.",
@@ -12023,7 +11921,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_755",
+    "item_id": "norm_760",
     "raw_id": "media_nbc_sports_world_cup_washington-commanders_15",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
@@ -12060,7 +11958,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_755",
+      "item_id": "norm_760",
       "source_id": "media_nbc_sports_world_cup",
       "original_title": "News: Scores, Stats, Headlines, Injury Updates, Transactions & More",
       "original_summary": "Get all the most recent news, scores, stats, rumors, and more from NBC Sports.",
@@ -12084,7 +11982,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_760",
+    "item_id": "norm_765",
     "raw_id": "media_nbc_sports_world_cup_usmnt-upcoming-schedule-the-2026-world-cup-is-here-for-poche_42",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
@@ -12117,7 +12015,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_760",
+      "item_id": "norm_765",
       "source_id": "media_nbc_sports_world_cup",
       "original_title": "USMNT upcoming schedule — The 2026 World Cup is here for Pochettino’s men",
       "original_summary": "",
@@ -12143,7 +12041,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_767",
+    "item_id": "norm_772",
     "raw_id": "media_goal_world_cup_australia-vs-turkiye-stream-tv-channels-where-to-watch_5",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12185,7 +12083,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_767",
+      "item_id": "norm_772",
       "source_id": "media_goal_world_cup",
       "original_title": "Australia vs Turkiye: Where to watch, TV channel, live stream & kick-off time | World Cup 2026 | Goal.com US",
       "original_summary": "Find out where to watch Australia vs Turkiye at the 2026 FIFA World Cup, including TV channel, live stream options, kick-off time, team news, and form guide.",
@@ -12214,7 +12112,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_768",
+    "item_id": "norm_773",
     "raw_id": "media_goal_world_cup_australia-vs-turkiye_7",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12250,7 +12148,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_768",
+      "item_id": "norm_773",
       "source_id": "media_goal_world_cup",
       "original_title": "Australia v Turkiye | June 14, 2026 | Goal.com US",
       "original_summary": "Latest news, stats and live commentary for the World Cup's meeting between Australia v Turkiye on the June 14, 2026",
@@ -12279,7 +12177,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_770",
+    "item_id": "norm_775",
     "raw_id": "media_goal_world_cup_usa-vs-paraguay-stream-tv-channels-where-to-watch_13",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12321,7 +12219,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_770",
+      "item_id": "norm_775",
       "source_id": "media_goal_world_cup",
       "original_title": "United States vs Paraguay FIFA World Cup 2026 game on demand: How to watch full match replay and highlights | World Cup 2026 | Goal.com US",
       "original_summary": "Find out where to watch USA vs Paraguay at the 2026 FIFA World Cup. Full TV channel listings, live stream options, kick-off time, team news, and match preview.",
@@ -12350,7 +12248,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_771",
+    "item_id": "norm_776",
     "raw_id": "media_goal_world_cup_haiti-vs-scotland-stream-tv-channels-where-to-watch_17",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12393,7 +12291,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_771",
+      "item_id": "norm_776",
       "source_id": "media_goal_world_cup",
       "original_title": "Haiti vs Scotland live stream, TV channel & kick-off time | World Cup 2026 | Goal.com US",
       "original_summary": "Find out how to watch Haiti vs Scotland at the 2026 World Cup. Full TV channel and live stream options, kick-off time, team news, and Group C standings.",
@@ -12423,7 +12321,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_774",
+    "item_id": "norm_779",
     "raw_id": "media_goal_world_cup_brazil-vs-morocco-stream-tv-channels-where-to-watch_29",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12459,7 +12357,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_774",
+      "item_id": "norm_779",
       "source_id": "media_goal_world_cup",
       "original_title": "Brazil vs Morocco: Stream, TV channels & where to watch",
       "original_summary": "How to watch the World Cup match between Brazil and Morocco, as well as kick-off time and team news",
@@ -12488,7 +12386,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_778",
+    "item_id": "norm_783",
     "raw_id": "media_goal_world_cup_canada-vs-bosnia-and-herzegovina-stream-tv-channels-where-to_45",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12524,7 +12422,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_778",
+      "item_id": "norm_783",
       "source_id": "media_goal_world_cup",
       "original_title": "Canada vs Bosnia and Herzegovina: Stream, TV channels & where to watch",
       "original_summary": "How to watch the World Cup match between Canada and Bosnia and Herzegovina, as well as kick-off time and team news",
@@ -12553,7 +12451,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_779",
+    "item_id": "norm_784",
     "raw_id": "media_goal_world_cup_canada-vs-bosnia-and-herzegovina_47",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12589,7 +12487,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_779",
+      "item_id": "norm_784",
       "source_id": "media_goal_world_cup",
       "original_title": "Canada vs Bosnia and Herzegovina",
       "original_summary": "How to watch the World Cup match between Canada and Bosnia and Herzegovina, as well as kick-off time and team news",
@@ -12618,7 +12516,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_780",
+    "item_id": "norm_785",
     "raw_id": "media_goal_world_cup_watch-usmnt-vs-paraguay-for-free_49",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12654,7 +12552,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_780",
+      "item_id": "norm_785",
       "source_id": "media_goal_world_cup",
       "original_title": "Watch USMNT vs Paraguay for FREE",
       "original_summary": "You can leverage 5-day free trials from popular streaming providers like Fubo and DirecTV Stream",
@@ -12683,7 +12581,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_781",
+    "item_id": "norm_786",
     "raw_id": "media_goal_world_cup_qatar-vs-switzerland-stream-tv-channels-where-to-watch_53",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12719,7 +12617,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_781",
+      "item_id": "norm_786",
       "source_id": "media_goal_world_cup",
       "original_title": "Qatar vs Switzerland: Stream, TV channels & where to watch",
       "original_summary": "How to watch the World Cup match between Qatar and Switzerland, as well as kick-off time and team news",
@@ -12748,7 +12646,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_782",
+    "item_id": "norm_787",
     "raw_id": "media_goal_world_cup_qatar-vs-switzerland_55",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12784,7 +12682,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_782",
+      "item_id": "norm_787",
       "source_id": "media_goal_world_cup",
       "original_title": "Qatar vs Switzerland",
       "original_summary": "How to watch the World Cup match between Qatar and Switzerland, as well as kick-off time and team news",
@@ -12813,7 +12711,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_783",
+    "item_id": "norm_788",
     "raw_id": "media_goal_world_cup_zidane-esque-why-cherki-deserves-comparison-with-french-goat_61",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
@@ -12844,7 +12742,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_783",
+      "item_id": "norm_788",
       "source_id": "media_goal_world_cup",
       "original_title": "Zidane-esque? Why Cherki deserves comparison with French GOAT",
       "original_summary": "Rayan Cherki has been earning plenty of plaudits at Manchester City, with Frank Leboeuf telling GOAL why the mercurial playmaker deserves to be compared with Zinedine Zidane - the GOAT of French football. That is some billing, but two magical midfielders are considered to share a number of traits - including on-field skill sets and off-pitch ticket-selling q",
@@ -12868,7 +12766,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_791",
+    "item_id": "norm_796",
     "raw_id": "media_fox_sports_world_cup_fifa-world-cup-2026_0",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
@@ -12903,7 +12801,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_791",
+      "item_id": "norm_796",
       "source_id": "media_fox_sports_world_cup",
       "original_title": "Men's FIFA World Cup 2026 - Watch Live Matches Streaming",
       "original_summary": "Stream live Men's FIFA World Cup 2026 matches and view the latest news, analysis, schedule, groups, odds, predictions, where to watch and more at FOX Sports.",
@@ -12931,7 +12829,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_792",
+    "item_id": "norm_797",
     "raw_id": "media_fox_sports_world_cup_fifa-world-cup-2022_1",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
@@ -12965,7 +12863,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_792",
+      "item_id": "norm_797",
       "source_id": "media_fox_sports_world_cup",
       "original_title": "Men's FIFA World Cup 2022 - Live Stream Soccer Games",
       "original_summary": "View the latest Men's FIFA World Cup news, analysis, schedule, groups, odds, predictions, where to watch and more at FOX Sports.",
@@ -12992,7 +12890,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_793",
+    "item_id": "norm_798",
     "raw_id": "media_fox_sports_world_cup_fifa-world-cup-2018_2",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
@@ -13027,7 +12925,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_793",
+      "item_id": "norm_798",
       "source_id": "media_fox_sports_world_cup",
       "original_title": "FIFA 2018 World Cup - Live Stream Soccer Games",
       "original_summary": "View the latest FIFA 2018 World Cup news, analysis, schedule, groups, odds, predictions, where to watch and more at FOX Sports.",
@@ -13055,7 +12953,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_796",
+    "item_id": "norm_801",
     "raw_id": "media_fox_sports_world_cup_start-believing-ibrahimović-and-henry-back-usa-for-world-cup_6",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
@@ -13091,7 +12989,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_796",
+      "item_id": "norm_801",
       "source_id": "media_fox_sports_world_cup",
       "original_title": "'Start Believing': Ibrahimović And Henry Back USA For World Cup Run",
       "original_summary": "The United States opened its home World Cup with a dominant 4-1 victory over Paraguay, prompting Zlatan Ibrahimović and Thierry Henry to back the Americans as potential contenders for a deep tournament run.",
@@ -13121,6 +13019,82 @@
   },
   {
     "item_id": "norm_822",
+    "raw_id": "media_cbs_sports_world_cup_mauricio-pochettino-s-attacking-masterclass-key-to-usmnt-s-h_2",
+    "source_id": "media_cbs_sports_world_cup",
+    "source_name": "CBS Sports World Cup News Page",
+    "source_type": "media",
+    "title": "Mauricio Pochettino's attacking masterclass leads USMNT to electric, dominant start to World Cup",
+    "normalized_title": "mauricio pochettino s attacking masterclass leads usmnt to electric dominant start to world cup",
+    "summary": "Mauricio Pochettino unleashed a thrilling, attack-heavy lineup in an impressive World Cup opener that showed just how dangerous this squad can be when fully healthy",
+    "content_text": "If not listed, please contact your TV provider. INGLEWOOD, Calif. – International soccer, or so we've been told, is not supposed to be like this. Deep runs at World Cups are created by the sturdy but unglamorous act of defending, so much so that U.S. men's national team head coach Mauricio Pochettino quoted Brazil counterpart Carlo Ancelotti on the topic a few months earlier. For 45 energetic minutes on Friday, though, that was not the USMNT's priority. They were intense, creative, stylish, downright fun at times -- and they scored just enough goals to ensure a World Cup on home soil would start on a high note with a 4-1 win over Paraguay. \"In the first 45 minutes, [we] were amazing,\" Pochettino told DAZN after the game. \"I think [it's] diffuclt to find a team to play like this, no? But so happy, so proud.\" It was easily the best half the USMNT had played since Pochettino assumed the role in the fall of 2024, the coach and his players hitting a variety of stumbling blocks along the way. The plans Pochettino had envisioned for his team, no matter how unlikely it felt at times, were on full display against Paraguay. The first 20 minutes saw balls over the top that would kick off a multipronged U.S. attack and create disarray in Paraguay's defensive shape. There were nutmegs and flicks to be enjoyed, and most importantly, there were goals. By the 31st minute, the U.S. had a 2-0 lead. Shortly before halftime, it was 3-0. Call It What You Want is your front-row seat as the USMNT t",
+    "url": "https://www.cbssports.com/soccer/news/mauricio-pochettinos-attacking-masterclass-usmnt-world-cup-2026/",
+    "published_at": "2026-06-13T05:29:45.219Z",
+    "fetched_at": "2026-06-13T05:29:45.219Z",
+    "language": "en",
+    "raw_region": "US",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [
+      "巴西",
+      "美国",
+      "巴拉圭"
+    ],
+    "matched_players": [],
+    "matched_matches": [
+      "M004"
+    ],
+    "topic_terms": [
+      "lineup_selection",
+      "opening_host_pressure"
+    ],
+    "topic_labels_zh": [
+      "首发与阵容选择",
+      "揭幕战与主场压力"
+    ],
+    "topic_labels_en": [
+      "lineup and selection",
+      "opening match and host pressure"
+    ],
+    "sports_context_score": 84,
+    "entity_match_score": 100,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_822",
+      "source_id": "media_cbs_sports_world_cup",
+      "original_title": "Mauricio Pochettino's attacking masterclass leads USMNT to electric, dominant start to World Cup",
+      "original_summary": "Mauricio Pochettino unleashed a thrilling, attack-heavy lineup in an impressive World Cup opener that showed just how dangerous this squad can be when fully healthy",
+      "public_text_excerpt": "If not listed, please contact your TV provider. INGLEWOOD, Calif. – International soccer, or so we've been told, is not supposed to be like this. Deep runs at World Cups are created by the sturdy but unglamorous act of defending, so much so",
+      "subject": "巴西",
+      "action": "warmup_result",
+      "object": "巴西",
+      "context": "美国 vs 巴拉圭",
+      "issue_type": "lineup_selection",
+      "teams": [
+        "巴西",
+        "美国",
+        "巴拉圭"
+      ],
+      "players": [],
+      "venues": [],
+      "match_ids": [
+        "M004"
+      ],
+      "candidate_event_title_zh": "Mauricio Pochettinos attacking masterclass leads USMNT to electric, dominant start to World Cup",
+      "candidate_summary_zh": "毛里西奥·波切蒂诺在令人印象深刻的世界杯揭幕战中派出了令人兴奋的进攻型阵容，这表明这支球队在完全健康的情况下有多么危险如果未列出，请联系您的电视提供商",
+      "event_fingerprint": "巴西::warmup_result::巴西::美国_vs_巴拉圭",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "巴西::warmup_result::巴西::美国_vs_巴拉圭",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_827",
     "raw_id": "media_cbs_sports_world_cup_print-your-2026-world-cup-wall-chart-as-tournament-kicks-off_7",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -13176,7 +13150,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_822",
+      "item_id": "norm_827",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "World Cup 2026 wall chart: Printable tournament tracker, bracket to fill out groups, knockout stage and more",
       "original_summary": "Get ready for the 2026 World Cup with a blank, printable wall chart to fill out",
@@ -13219,7 +13193,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_833",
+    "item_id": "norm_838",
     "raw_id": "media_cbs_sports_world_cup_predicting-the-2024-copa-america-roster_19",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -13250,7 +13224,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_833",
+      "item_id": "norm_838",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "Predicting the 2024 Copa America roster",
       "original_summary": "",
@@ -13274,7 +13248,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_834",
+    "item_id": "norm_839",
     "raw_id": "media_cbs_sports_world_cup_pelé-funeral-plans-set-for-monday-and-tuesday-in-santos_20",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -13305,7 +13279,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_834",
+      "item_id": "norm_839",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "Pelé funeral plans set for Monday and Tuesday in Santos",
       "original_summary": "",
@@ -13329,7 +13303,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_835",
+    "item_id": "norm_840",
     "raw_id": "media_cbs_sports_world_cup_which-players-data-suggest-might-move-in-january_22",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -13360,7 +13334,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_835",
+      "item_id": "norm_840",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "Which players data suggest might move in January",
       "original_summary": "",
@@ -13384,7 +13358,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_837",
+    "item_id": "norm_842",
     "raw_id": "media_cbs_sports_world_cup_messi-mbappe-neymar-psg-reunion-will-be-complicated_24",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -13418,7 +13392,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_837",
+      "item_id": "norm_842",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "Messi, Mbappe, Neymar PSG reunion will be complicated",
       "original_summary": "",
@@ -13445,7 +13419,66 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_839",
+    "item_id": "norm_843",
+    "raw_id": "media_cbs_sports_world_cup_france-condemn-racist-abuse-faced-by-coman-tchouameni_26",
+    "source_id": "media_cbs_sports_world_cup",
+    "source_name": "CBS Sports World Cup News Page",
+    "source_type": "media",
+    "title": "France condemn racist abuse faced by Coman, Tchouameni",
+    "normalized_title": "france condemn racist abuse faced by coman tchouameni",
+    "summary": "",
+    "content_text": "",
+    "url": "https://www.cbssports.com/soccer/news/fifa-world-cup-france-condemn-racism-directed-at-kingsley-coman-and-aurelien-tchouameni-after-final-loss/",
+    "published_at": "2026-06-13T05:29:45.226Z",
+    "fetched_at": "2026-06-13T05:29:45.226Z",
+    "language": "en",
+    "raw_region": "US",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [
+      "法国"
+    ],
+    "matched_players": [],
+    "matched_matches": [],
+    "topic_terms": [],
+    "topic_labels_zh": [],
+    "topic_labels_en": [],
+    "sports_context_score": 28,
+    "entity_match_score": 22,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_843",
+      "source_id": "media_cbs_sports_world_cup",
+      "original_title": "France condemn racist abuse faced by Coman, Tchouameni",
+      "original_summary": "",
+      "public_text_excerpt": "",
+      "subject": "法国",
+      "action": "general_discussion",
+      "object": "法国",
+      "context": "世界杯",
+      "issue_type": "general",
+      "teams": [
+        "法国"
+      ],
+      "players": [],
+      "venues": [],
+      "match_ids": [],
+      "candidate_event_title_zh": "France condemn racist abuse faced by Coman, Tchouameni",
+      "candidate_summary_zh": "France condemn racist abuse faced by Coman, Tchouameni",
+      "event_fingerprint": "法国::general_discussion::法国::世界杯",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "法国::general_discussion::法国::世界杯",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_844",
     "raw_id": "media_cbs_sports_world_cup_benzema-retires-from-international-soccer_28",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -13476,7 +13509,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_839",
+      "item_id": "norm_844",
       "source_id": "media_cbs_sports_world_cup",
       "original_title": "Benzema retires from international soccer",
       "original_summary": "",
@@ -13500,7 +13533,299 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_861",
+    "item_id": "norm_849",
+    "raw_id": "media_ap_news_soccer_turkey-captain-hakan-calhanoglu-says-his-more-talented-team-_3",
+    "source_id": "media_ap_news_soccer",
+    "source_name": "AP News Soccer",
+    "source_type": "media",
+    "title": "Turkey captain Hakan Calhanoglu says his 'more talented' team will 'dominate' Australia in World Cup",
+    "normalized_title": "turkey captain hakan calhanoglu says his more talented team will dominate australia in world cup",
+    "summary": "Turkey captain Hakan Calhanoglu says his team is “more talented” than Australia, and he's expecting Turkey to “dominate” the teams' World Cup opener.",
+    "content_text": "Copyright 2026 The Associated Press. All Rights Reserved. Copyright 2026 The Associated Press. All Rights Reserved. Turkey’s Hakan Calhanoglu warms up during a training session in Vancouver, British Colombia, Friday, June 12, 2026, ahead of the team’s World Cup soccer match against Australia. (Ethan Cairns/The Canadian Press via AP) Australia’s head coach Tony Popovic answers a question during a press conference, Friday, June 12, 2026, in Vancouver, British Columbia, ahead of the team’s World Cup soccer match against Turkey. (AP Photo/Abbie Parr) Australia’s Aiden O’Neill, left, and head coach Tony Popovic listen to a question during a press conference, Friday, June 12, 2026, in Vancouver, British Columbia, ahead of the team’s World Cup soccer match against Turkey. (AP Photo/Abbie Parr) Turkey’s Hakan Calhanoglu controls the ball during the 2026 World Cup playoff semifinal soccer match between Turkey and Romania, in Istanbul, Turkey, Thursday, March 26, 2026. (AP Photo, File) Turkey’s Hakan Calhanoglu warms up during a training session in Vancouver, British Colombia, Friday, June 12, 2026, ahead of the team’s World Cup soccer match against Australia. (Ethan Cairns/The Canadian Press via AP) Australia’s head coach Tony Popovic answers a question during a press conference, Friday, June 12, 2026, in Vancouver, British Columbia, ahead of the team’s World Cup soccer match against Turkey. (AP Photo/Abbie Parr)",
+    "url": "https://apnews.com/article/world-cup-turkey-australia-calhanoglu-b6a7cc4894295430d63b52a85ad7159c",
+    "published_at": "2026-06-13T05:29:55.942Z",
+    "fetched_at": "2026-06-13T05:29:55.942Z",
+    "language": "en",
+    "raw_region": "Global / US",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [
+      "澳大利亚",
+      "土耳其",
+      "哥伦比亚"
+    ],
+    "matched_players": [
+      "Hakan Calhanoglu"
+    ],
+    "matched_matches": [
+      "M008"
+    ],
+    "topic_terms": [
+      "opening_host_pressure"
+    ],
+    "topic_labels_zh": [
+      "揭幕战与主场压力"
+    ],
+    "topic_labels_en": [
+      "opening match and host pressure"
+    ],
+    "sports_context_score": 60,
+    "entity_match_score": 100,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_849",
+      "source_id": "media_ap_news_soccer",
+      "original_title": "Turkey captain Hakan Calhanoglu says his 'more talented' team will 'dominate' Australia in World Cup",
+      "original_summary": "Turkey captain Hakan Calhanoglu says his team is “more talented” than Australia, and he's expecting Turkey to “dominate” the teams' World Cup opener.",
+      "public_text_excerpt": "Copyright 2026 The Associated Press. All Rights Reserved. Copyright 2026 The Associated Press. All Rights Reserved. Turkey’s Hakan Calhanoglu warms up during a training session in Vancouver, British Colombia, Friday, June 12, 2026, ahead of",
+      "subject": "Hakan Calhanoglu",
+      "action": "pre_match_focus",
+      "object": "Hakan Calhanoglu",
+      "context": "澳大利亚 vs 土耳其",
+      "issue_type": "opening_host_pressure",
+      "teams": [
+        "澳大利亚",
+        "土耳其",
+        "哥伦比亚"
+      ],
+      "players": [
+        "Hakan Calhanoglu"
+      ],
+      "venues": [],
+      "match_ids": [
+        "M008"
+      ],
+      "candidate_event_title_zh": "Turkey captain Hakan Calhanoglu says his more talented team will dominate Australia in World Cup",
+      "candidate_summary_zh": "Turkey captain Hakan Calhanoglu says his team is more talented than Australia, and hes expecting Turkey to dominate the teams World Cup opener",
+      "event_fingerprint": "hakan_calhanoglu::pre_match_focus::hakan_calhanoglu::澳大利亚_vs_土耳其",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "hakan_calhanoglu::pre_match_focus::hakan_calhanoglu::澳大利亚_vs_土耳其",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_851",
+    "raw_id": "media_ap_news_soccer_fifa-blames-empty-seats-at-world-cup-match-in-mexico-on-fans_5",
+    "source_id": "media_ap_news_soccer",
+    "source_name": "AP News Soccer",
+    "source_type": "media",
+    "title": "FIFA blames empty seats at World Cup match in Mexico on fans in the concourses",
+    "normalized_title": "fifa blames empty seats at world cup match in mexico on fans in the concourses",
+    "summary": "FIFA has blamed the empty seats during the World Cup match between South Korea and the Czech Republic in Guadalajara on fans who watched from the concourses.",
+    "content_text": "Copyright 2026 The Associated Press. All Rights Reserved. Copyright 2026 The Associated Press. All Rights Reserved. South Korea fans celebrated Thursday after their team came from behind to defeat the Czech Republic 2-1 in their opening match of the 2026 FIFA World Cup in Guadalajara, Mexico. (AP Video by Martín Silva Rey) Fans look on during the World Cup Group A soccer match between South Korea and Czechia in Zapopan, near Guadalajara, Mexico, Thursday, June 11, 2026. (AP Photo/Moises Castillo) General view of play during the World Cup Group A soccer match between South Korea and Czechia in Zapopan, near Guadalajara, Mexico, Thursday, June 11, 2026. (AP Photo/Matias Delacroix) South Korea reacts after defeating Czechia during the World Cup Group A soccer match in Zapopan, near Guadalajara, Mexico, Thursday, June 11, 2026. (AP Photo/Dolores Ochoa) Fans look on during the World Cup Group A soccer match between South Korea and Czechia in Zapopan, near Guadalajara, Mexico, Thursday, June 11, 2026. (AP Photo/Moises Castillo) General view of play during the World Cup Group A soccer match between South Korea and Czechia in Zapopan, near Guadalajara, Mexico, Thursday, June 11, 2026. (AP Photo/Matias Delacroix)",
+    "url": "https://apnews.com/article/world-cup-fifa-tickets-guadalajara-toronto-e80e3ddc277d653c475a9d8544c7584a",
+    "published_at": "2026-06-13T05:29:55.942Z",
+    "fetched_at": "2026-06-13T05:29:55.942Z",
+    "language": "en",
+    "raw_region": "Global / US",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [
+      "墨西哥",
+      "韩国",
+      "捷克"
+    ],
+    "matched_players": [],
+    "matched_matches": [
+      "M002",
+      "M028",
+      "M053"
+    ],
+    "topic_terms": [
+      "fans_atmosphere"
+    ],
+    "topic_labels_zh": [
+      "球迷与现场氛围"
+    ],
+    "topic_labels_en": [
+      "fans and atmosphere"
+    ],
+    "sports_context_score": 60,
+    "entity_match_score": 100,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_851",
+      "source_id": "media_ap_news_soccer",
+      "original_title": "FIFA blames empty seats at World Cup match in Mexico on fans in the concourses",
+      "original_summary": "FIFA has blamed the empty seats during the World Cup match between South Korea and the Czech Republic in Guadalajara on fans who watched from the concourses.",
+      "public_text_excerpt": "Copyright 2026 The Associated Press. All Rights Reserved. Copyright 2026 The Associated Press. All Rights Reserved. South Korea fans celebrated Thursday after their team came from behind to defeat the Czech Republic 2-1 in their opening mat",
+      "subject": "墨西哥",
+      "action": "general_discussion",
+      "object": "墨西哥",
+      "context": "韩国 vs 捷克",
+      "issue_type": "fans_atmosphere",
+      "teams": [
+        "墨西哥",
+        "韩国",
+        "捷克"
+      ],
+      "players": [],
+      "venues": [],
+      "match_ids": [
+        "M002",
+        "M028",
+        "M053"
+      ],
+      "candidate_event_title_zh": "FIFA blames empty seats at World Cup match in Mexico on fans in the concourses",
+      "candidate_summary_zh": "FIFA has blamed the empty seats during the World Cup match between South Korea and the Czech Republic in Guadalajara on fans who watched from the concourses",
+      "event_fingerprint": "墨西哥::general_discussion::墨西哥::韩国_vs_捷克",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "墨西哥::general_discussion::墨西哥::韩国_vs_捷克",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_853",
+    "raw_id": "media_ap_news_soccer_kids-nonprofit-in-seattle-returns-20-free-world-cup-tickets-_7",
+    "source_id": "media_ap_news_soccer",
+    "source_name": "AP News Soccer",
+    "source_type": "media",
+    "title": "Kids’ nonprofit in Seattle returns 20 free World Cup tickets over barring of Somali referee",
+    "normalized_title": "kids nonprofit in seattle returns 20 free world cup tickets over barring of somali referee",
+    "summary": "",
+    "content_text": "",
+    "url": "https://apnews.com/article/somali-referee-world-cup-tickets-returned-5a0f8ceaa118b04e3d3635eea75e0686",
+    "published_at": "2026-06-13T05:29:55.942Z",
+    "fetched_at": "2026-06-13T05:29:55.942Z",
+    "language": "en",
+    "raw_region": "Global / US",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [],
+    "matched_players": [],
+    "matched_matches": [],
+    "topic_terms": [
+      "referee_assignment",
+      "star_form"
+    ],
+    "topic_labels_zh": [
+      "裁判与执法安排",
+      "球星状态"
+    ],
+    "topic_labels_en": [
+      "referee and officiating setup",
+      "star player form"
+    ],
+    "sports_context_score": 76,
+    "entity_match_score": 0,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_853",
+      "source_id": "media_ap_news_soccer",
+      "original_title": "Kids’ nonprofit in Seattle returns 20 free World Cup tickets over barring of Somali referee",
+      "original_summary": "",
+      "public_text_excerpt": "",
+      "subject": "世界杯票务",
+      "action": "ticket_issue",
+      "object": "world_cup",
+      "context": "世界杯",
+      "issue_type": "referee_assignment",
+      "teams": [],
+      "players": [],
+      "venues": [],
+      "match_ids": [],
+      "candidate_event_title_zh": "Kids’ nonprofit in Seattle returns 20 free World Cup tickets over barring of Somali referee",
+      "candidate_summary_zh": "Kids’ nonprofit in Seattle returns 20 free World Cup tickets over barring of Somali referee",
+      "event_fingerprint": "世界杯票务::ticket_issue::world_cup::世界杯",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "世界杯票务::ticket_issue::world_cup::世界杯",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_854",
+    "raw_id": "media_ap_news_soccer_spain-back-at-full-strength-ahead-of-its-world-cup-opener-ag_8",
+    "source_id": "media_ap_news_soccer",
+    "source_name": "AP News Soccer",
+    "source_type": "media",
+    "title": "Spain back at full strength ahead of its World Cup opener against Cape Verde",
+    "normalized_title": "spain back at full strength ahead of its world cup opener against cape verde",
+    "summary": "",
+    "content_text": "",
+    "url": "https://apnews.com/article/world-cup-spain-injuries-yamal-williams-munoz-9dffd1cf76a107577e21d55e5ad35fea",
+    "published_at": "2026-06-13T05:29:55.943Z",
+    "fetched_at": "2026-06-13T05:29:55.943Z",
+    "language": "en",
+    "raw_region": "Global / US",
+    "ui_region": "全球/英语圈",
+    "matched_teams": [
+      "西班牙",
+      "佛得角"
+    ],
+    "matched_players": [],
+    "matched_matches": [
+      "M013"
+    ],
+    "topic_terms": [
+      "opening_host_pressure",
+      "pre_match_storylines"
+    ],
+    "topic_labels_zh": [
+      "揭幕战与主场压力",
+      "赛前看点"
+    ],
+    "topic_labels_en": [
+      "opening match and host pressure",
+      "pre-match storylines"
+    ],
+    "sports_context_score": 76,
+    "entity_match_score": 82,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_854",
+      "source_id": "media_ap_news_soccer",
+      "original_title": "Spain back at full strength ahead of its World Cup opener against Cape Verde",
+      "original_summary": "",
+      "public_text_excerpt": "",
+      "subject": "西班牙",
+      "action": "pre_match_focus",
+      "object": "西班牙",
+      "context": "西班牙 vs 佛得角",
+      "issue_type": "opening_host_pressure",
+      "teams": [
+        "西班牙",
+        "佛得角"
+      ],
+      "players": [],
+      "venues": [],
+      "match_ids": [
+        "M013"
+      ],
+      "candidate_event_title_zh": "Spain back at full strength ahead of its World Cup opener against Cape Verde",
+      "candidate_summary_zh": "Spain back at full strength ahead of its World Cup opener against Cape Verde",
+      "event_fingerprint": "西班牙::pre_match_focus::西班牙::西班牙_vs_佛得角",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "西班牙::pre_match_focus::西班牙::西班牙_vs_佛得角",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_866",
     "raw_id": "media_ap_news_soccer_beth-mead-says-it-was-a-no-brainer-to-sign-with-manchester-c_20",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
@@ -13531,7 +13856,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_861",
+      "item_id": "norm_866",
       "source_id": "media_ap_news_soccer",
       "original_title": "Beth Mead says it was a ‘no-brainer’ to sign with Manchester City",
       "original_summary": "",
@@ -13555,7 +13880,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_863",
+    "item_id": "norm_868",
     "raw_id": "media_ap_news_soccer_ireland-s-home-game-against-israel-in-nations-league-to-be-p_22",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
@@ -13586,7 +13911,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_863",
+      "item_id": "norm_868",
       "source_id": "media_ap_news_soccer",
       "original_title": "Ireland’s home game against Israel in Nations League to be played at neutral site",
       "original_summary": "",
@@ -13610,7 +13935,82 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_868",
+    "item_id": "norm_872",
+    "raw_id": "media_bein_sports_football_fifa-world-cup-video-all-goals-from-united-states-vs-paragua_1",
+    "source_id": "media_bein_sports_football",
+    "source_name": "beIN SPORTS Football",
+    "source_type": "media",
+    "title": "(VIDEO) All Goals From United States vs Paraguay in the 2026 World Cup",
+    "normalized_title": "video all goals from united states vs paraguay in the 2026 world cup",
+    "summary": "The United States defeated Paraguay 4-1 in its opener. Balogun scored twice, Reyna added a late goal, and Bobadilla netted an own goal. All Goals",
+    "content_text": "Right at the end, Giovanni Reyna added one more for the hosts. Assisted by Alex Freeman, the American midfielder calmly slotted his shot into the corner to seal an emphatic victory and put the finishing touch on a memorable night in Los Angeles. Score: United States 4-1 Paraguay Paraguay gives itself hope. Julio Enciso delivered a dangerous free kick into the box and Mauricio finished with a left-footed strike to beat the goalkeeper and reduce the deficit late in the match. Score: United States 3-1 Paraguay",
+    "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/-video-all-goals-from-united-states-vs-paraguay-in-the-2026-world-cup-2026-06-13",
+    "published_at": "2026-06-13T05:30:00.933Z",
+    "fetched_at": "2026-06-13T05:30:00.933Z",
+    "language": "en",
+    "raw_region": "Middle East / Global",
+    "ui_region": "中东与北非",
+    "matched_teams": [
+      "美国",
+      "巴拉圭"
+    ],
+    "matched_players": [
+      "Julio Enciso"
+    ],
+    "matched_matches": [
+      "M004"
+    ],
+    "topic_terms": [
+      "opening_host_pressure"
+    ],
+    "topic_labels_zh": [
+      "揭幕战与主场压力"
+    ],
+    "topic_labels_en": [
+      "opening match and host pressure"
+    ],
+    "sports_context_score": 60,
+    "entity_match_score": 100,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_872",
+      "source_id": "media_bein_sports_football",
+      "original_title": "(VIDEO) All Goals From United States vs Paraguay in the 2026 World Cup",
+      "original_summary": "The United States defeated Paraguay 4-1 in its opener. Balogun scored twice, Reyna added a late goal, and Bobadilla netted an own goal. All Goals",
+      "public_text_excerpt": "Right at the end, Giovanni Reyna added one more for the hosts. Assisted by Alex Freeman, the American midfielder calmly slotted his shot into the corner to seal an emphatic victory and put the finishing touch on a memorable night in Los Ang",
+      "subject": "Julio Enciso",
+      "action": "warmup_result",
+      "object": "Julio Enciso",
+      "context": "美国 vs 巴拉圭",
+      "issue_type": "opening_host_pressure",
+      "teams": [
+        "美国",
+        "巴拉圭"
+      ],
+      "players": [
+        "Julio Enciso"
+      ],
+      "venues": [],
+      "match_ids": [
+        "M004"
+      ],
+      "candidate_event_title_zh": "(VIDEO) All Goals From United States vs Paraguay in the 2026 World Cup",
+      "candidate_summary_zh": "The United States defeated Paraguay 4-1 in its opener",
+      "event_fingerprint": "julio_enciso::warmup_result::julio_enciso::美国_vs_巴拉圭",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "julio_enciso::warmup_result::julio_enciso::美国_vs_巴拉圭",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_873",
     "raw_id": "media_bein_sports_football_fifa-world-cuplive-blog-united-states-vs-paraguay_2",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -13652,7 +14052,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_868",
+      "item_id": "norm_873",
       "source_id": "media_bein_sports_football",
       "original_title": "Live Blog! United States vs Paraguay in the 2026 World Cup",
       "original_summary": "The USA faces Paraguay in its World Cup 2026 debut, combining home pressure, star power and a spectacular opening ceremony.",
@@ -13671,8 +14071,8 @@
       "match_ids": [
         "M004"
       ],
-      "candidate_event_title_zh": "实时博客！ 2026 年世界杯美国队对阵巴拉圭队",
-      "candidate_summary_zh": "美国队在 2026 年世界杯首秀中迎战巴拉圭，主场压力、明星力量和壮观的开幕式相结合",
+      "candidate_event_title_zh": "Live Blog! United States vs Paraguay in the 2026 World Cup",
+      "candidate_summary_zh": "The USA faces Paraguay in its World Cup 2026 debut, combining home pressure, star power and a spectacular opening ceremony",
       "event_fingerprint": "美国::general_discussion::美国::美国_vs_巴拉圭",
       "confidence": "low",
       "evidence_basis": "title_only"
@@ -13681,7 +14081,155 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_872",
+    "item_id": "norm_874",
+    "raw_id": "media_bein_sports_football_fifa-world-cupunited-states-thrashes-paraguay2026-06-13t03-3_3",
+    "source_id": "media_bein_sports_football",
+    "source_name": "beIN SPORTS Football",
+    "source_type": "media",
+    "title": "United States Crushes Paraguay Behind Folarin Balogun's Brace in 2026 World Cup Debut",
+    "normalized_title": "united states crushes paraguay behind folarin balogun s brace in 2026 world cup debut",
+    "summary": "The United States defeated Paraguay 4-1 in its World Cup opener. Folarin Balogun scored twice while Gio Reyna capped a dominant night in Los Angeles.",
+    "content_text": "The United States did far more than simply win its opening match of the 2026 World Cup. Mauricio Pochettino’s side delivered a display full of confidence, intensity, and attacking quality, defeating Paraguay 4-1 in front of a packed SoFi Stadium eager to see one of the tournament hosts take center stage. The final score tells only part of the story. More importantly, it highlighted a team that looked a step ahead of its opponent throughout most of the night. Paraguay tried to compete, but they found an unexpected rival. If there was one player who stole the headlines, it was Folarin Balogun. The striker constantly troubled Paraguay’s defense and finished the night with a brace that could easily have been even bigger after an earlier goal was ruled out for offside. Balogun developed an excellent connection with Christian Pulisic, who once again demonstrated why he remains the centerpiece of this American generation. The USMNT star was heavily involved in the team’s most dangerous moments and played a key role in breaking down Paraguay’s resistance.",
+    "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/united-states-crushes-paraguay-behind-folarin-balogun-s-brace-in-2026-world-cup-debut-2026-06-13",
+    "published_at": "2026-06-13T05:30:00.933Z",
+    "fetched_at": "2026-06-13T05:30:00.933Z",
+    "language": "en",
+    "raw_region": "Middle East / Global",
+    "ui_region": "中东与北非",
+    "matched_teams": [
+      "美国",
+      "巴拉圭"
+    ],
+    "matched_players": [
+      "Christian Pulisic"
+    ],
+    "matched_matches": [
+      "M004"
+    ],
+    "topic_terms": [
+      "opening_host_pressure"
+    ],
+    "topic_labels_zh": [
+      "揭幕战与主场压力"
+    ],
+    "topic_labels_en": [
+      "opening match and host pressure"
+    ],
+    "sports_context_score": 60,
+    "entity_match_score": 100,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_874",
+      "source_id": "media_bein_sports_football",
+      "original_title": "United States Crushes Paraguay Behind Folarin Balogun's Brace in 2026 World Cup Debut",
+      "original_summary": "The United States defeated Paraguay 4-1 in its World Cup opener. Folarin Balogun scored twice while Gio Reyna capped a dominant night in Los Angeles.",
+      "public_text_excerpt": "The United States did far more than simply win its opening match of the 2026 World Cup. Mauricio Pochettino’s side delivered a display full of confidence, intensity, and attacking quality, defeating Paraguay 4-1 in front of a packed SoFi St",
+      "subject": "SoFi 球场",
+      "action": "warmup_result",
+      "object": "Christian Pulisic",
+      "context": "美国 vs 巴拉圭",
+      "issue_type": "opening_host_pressure",
+      "teams": [
+        "美国",
+        "巴拉圭"
+      ],
+      "players": [
+        "Christian Pulisic"
+      ],
+      "venues": [
+        "SoFi 球场"
+      ],
+      "match_ids": [
+        "M004"
+      ],
+      "candidate_event_title_zh": "United States Crushes Paraguay Behind Folarin Baloguns Brace in 2026 World Cup Debut",
+      "candidate_summary_zh": "The United States defeated Paraguay 4-1 in its World Cup opener",
+      "event_fingerprint": "sofi_球场::warmup_result::christian_pulisic::美国_vs_巴拉圭",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "sofi_球场::warmup_result::christian_pulisic::美国_vs_巴拉圭",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_875",
+    "raw_id": "media_bein_sports_football_primera-divisiónvini-jr-calm-on-real-madrid-future_14",
+    "source_id": "media_bein_sports_football",
+    "source_name": "beIN SPORTS Football",
+    "source_type": "media",
+    "title": "Vinicius Junior calm around Real Madrid contract talks",
+    "normalized_title": "vinicius junior calm around real madrid contract talks",
+    "summary": "Vinicius Junior's future at Real Madrid is uncertain, with the winger's contract at the Santiago Bernabeu expiring in June 2027.",
+    "content_text": "Vinicius Junior says he is not focused on Real Madrid for the time being, despite approaching the final year of his contract at the club. The 25-year-old's current deal with Los Blancos expires in June 2027, with many clubs already said to be interested in acquiring the forward. Among LaLiga players, only Kylian Mbappe (42) and Lamine Yamal (24) scored more goals in all competitions than Vinicius (22) in 2025-26 Only Arda Guler (14) and Federico Valverde (13) provided more assists than Vinicius' 10 among Real Madrid players, though the Brazilian was second overall for goal involvements (32) behind only Mbappe (48). Vinicius also both attempted (304) and completed (123) more dribbles than any other Madrid player; in LaLiga, only Yamal (completed 225/423) could better his tallies. After back-to-back seasons with no silverware for Los Blancos, and a hectic 2025-26 campaign which saw a change in head coach and physical altercations between players, Vinicius could be on the move. Manchester City and Manchester United have both been rumoured to have interest in the winger, but Vinicius' focus is elsewhere at the moment. \"Right now I'm focused on the national team. I'll talk about everything related to Real Madrid after the World Cup,\" said Vinicius. \"I'm at the most special and important moment of my career. I'm at the physical and technical level I've always dreamed of. \"I haven't suffered any injuries this season. I've prepared myself very well to get to this point.\"",
+    "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/vinicius-junior-calm-around-real-madrid-contract-talks-2026-06-13",
+    "published_at": "2026-06-13T05:30:00.934Z",
+    "fetched_at": "2026-06-13T05:30:00.934Z",
+    "language": "en",
+    "raw_region": "Middle East / Global",
+    "ui_region": "中东与北非",
+    "matched_teams": [
+      "巴西"
+    ],
+    "matched_players": [
+      "Vinicius Junior",
+      "Arda Guler",
+      "Federico Valverde",
+      "Kylian Mbappe",
+      "Lamine Yamal"
+    ],
+    "matched_matches": [],
+    "topic_terms": [],
+    "topic_labels_zh": [],
+    "topic_labels_en": [],
+    "sports_context_score": 36,
+    "entity_match_score": 100,
+    "trend_bonus": 0,
+    "excluded_reason": null,
+    "crawl_strategy": "html_list_test",
+    "crawl_mode": "html_list",
+    "data_origin": "cache",
+    "extraction_level": "cached",
+    "item_type": "article",
+    "event_frame": {
+      "item_id": "norm_875",
+      "source_id": "media_bein_sports_football",
+      "original_title": "Vinicius Junior calm around Real Madrid contract talks",
+      "original_summary": "Vinicius Junior's future at Real Madrid is uncertain, with the winger's contract at the Santiago Bernabeu expiring in June 2027.",
+      "public_text_excerpt": "Vinicius Junior says he is not focused on Real Madrid for the time being, despite approaching the final year of his contract at the club. The 25-year-old's current deal with Los Blancos expires in June 2027, with many clubs already said to ",
+      "subject": "Vinicius Junior",
+      "action": "general_discussion",
+      "object": "Vinicius Junior",
+      "context": "世界杯",
+      "issue_type": "general",
+      "teams": [
+        "巴西"
+      ],
+      "players": [
+        "Vinicius Junior",
+        "Arda Guler",
+        "Federico Valverde",
+        "Kylian Mbappe",
+        "Lamine Yamal"
+      ],
+      "venues": [],
+      "match_ids": [],
+      "candidate_event_title_zh": "Vinicius Junior calm around Real Madrid contract talks",
+      "candidate_summary_zh": "维尼修斯在皇家马德里的未来尚不确定，他在伯纳乌的边锋合同将于 2027 年 6 月到期",
+      "event_fingerprint": "vinicius_junior::general_discussion::vinicius_junior::世界杯",
+      "confidence": "low",
+      "evidence_basis": "title_only"
+    },
+    "event_fingerprint": "vinicius_junior::general_discussion::vinicius_junior::世界杯",
+    "low_confidence_reason": null
+  },
+  {
+    "item_id": "norm_877",
     "raw_id": "media_bein_sports_football_conmebol-sudamericanacould-river-and-boca-meet-in-the-sudame_20",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -13712,7 +14260,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_872",
+      "item_id": "norm_877",
       "source_id": "media_bein_sports_football",
       "original_title": "Could River Plate face Boca Juniors in the Copa Sudamericana? Superclásico scenario explained",
       "original_summary": "River Plate are already through to the Copa Sudamericana Round of 16, while Boca Juniors could still drop into the tournament. Here’s how a Superclásico could happen.",
@@ -13736,7 +14284,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_877",
+    "item_id": "norm_882",
     "raw_id": "media_bein_sports_football_uefa-champions-leaguebarcelona-wants-the-2029-champions-leag_25",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -13767,7 +14315,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_877",
+      "item_id": "norm_882",
       "source_id": "media_bein_sports_football",
       "original_title": "UEFA Champions LeagueBarcelona Wants the 2029 Champions League Final",
       "original_summary": "",
@@ -13791,7 +14339,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_878",
+    "item_id": "norm_883",
     "raw_id": "media_bein_sports_football_uefa-champions-leaguevinicius-defines-his-future_26",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -13824,7 +14372,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_878",
+      "item_id": "norm_883",
       "source_id": "media_bein_sports_football",
       "original_title": "UEFA Champions LeagueVinicius Defines His Future",
       "original_summary": "",
@@ -13850,7 +14398,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_879",
+    "item_id": "norm_884",
     "raw_id": "media_bein_sports_football_uefa-champions-leagueatlético-responds-to-real-madrid-on-soc_27",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -13881,7 +14429,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_879",
+      "item_id": "norm_884",
       "source_id": "media_bein_sports_football",
       "original_title": "UEFA Champions LeagueAtlético responds to Real Madrid on social media",
       "original_summary": "",
@@ -13905,7 +14453,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_880",
+    "item_id": "norm_885",
     "raw_id": "media_bein_sports_football_uefa-champions-leaguemourinho-threatens-bernardo-silva-move_28",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -13936,7 +14484,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_880",
+      "item_id": "norm_885",
       "source_id": "media_bein_sports_football",
       "original_title": "UEFA Champions LeagueMourinho threatens Bernardo Silva move",
       "original_summary": "",
@@ -13960,7 +14508,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_881",
+    "item_id": "norm_886",
     "raw_id": "media_bein_sports_football_uefa-champions-leaguepep-ucl-does-not-define-success_29",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -13991,7 +14539,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_881",
+      "item_id": "norm_886",
       "source_id": "media_bein_sports_football",
       "original_title": "UEFA Champions LeaguePep: UCL does not define success",
       "original_summary": "",
@@ -14015,7 +14563,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_882",
+    "item_id": "norm_887",
     "raw_id": "media_bein_sports_football_ligue-1still-back-in-coaching-role_31",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -14046,7 +14594,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_882",
+      "item_id": "norm_887",
       "source_id": "media_bein_sports_football",
       "original_title": "Ligue 1Still back in coaching role",
       "original_summary": "",
@@ -14070,7 +14618,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_883",
+    "item_id": "norm_888",
     "raw_id": "media_bein_sports_football_ligue-1giroud-extends-lille-contract_32",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -14101,7 +14649,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_883",
+      "item_id": "norm_888",
       "source_id": "media_bein_sports_football",
       "original_title": "Ligue 1Giroud extends Lille contract",
       "original_summary": "",
@@ -14125,7 +14673,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_884",
+    "item_id": "norm_889",
     "raw_id": "media_bein_sports_football_ligue-1barcelona-halts-the-sale-of-ansu-fati_33",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -14156,7 +14704,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_884",
+      "item_id": "norm_889",
       "source_id": "media_bein_sports_football",
       "original_title": "Ligue 1Barcelona Halts the Sale of Ansu Fati",
       "original_summary": "",
@@ -14180,7 +14728,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_885",
+    "item_id": "norm_890",
     "raw_id": "media_bein_sports_football_ligue-1davide-ancelotti-named-new-lille-head-coach_34",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -14217,7 +14765,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_885",
+      "item_id": "norm_890",
       "source_id": "media_bein_sports_football",
       "original_title": "Ligue 1Davide Ancelotti Named New Lille Head Coach",
       "original_summary": "",
@@ -14241,7 +14789,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_886",
+    "item_id": "norm_891",
     "raw_id": "media_bein_sports_football_ligue-1davide-ancelotti-named-lille-boss_35",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -14272,7 +14820,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_886",
+      "item_id": "norm_891",
       "source_id": "media_bein_sports_football",
       "original_title": "Ligue 1Davide Ancelotti named Lille boss",
       "original_summary": "",
@@ -14296,7 +14844,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_887",
+    "item_id": "norm_892",
     "raw_id": "media_bein_sports_football_süper-ligicardi-announces-his-departure-from-galatasaray_37",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -14327,7 +14875,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_887",
+      "item_id": "norm_892",
       "source_id": "media_bein_sports_football",
       "original_title": "Süper LigIcardi Announces His Departure From Galatasaray",
       "original_summary": "",
@@ -14351,7 +14899,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_889",
+    "item_id": "norm_894",
     "raw_id": "media_bein_sports_football_süper-ligederson-could-leave-fenerbahçe-after-one-season_39",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -14382,7 +14930,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_889",
+      "item_id": "norm_894",
       "source_id": "media_bein_sports_football",
       "original_title": "Süper LigEderson Could Leave Fenerbahçe After One Season",
       "original_summary": "",
@@ -14406,7 +14954,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_895",
+    "item_id": "norm_900",
     "raw_id": "media_supersport_football_uefa-champions-league_14",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -14437,7 +14985,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_895",
+      "item_id": "norm_900",
       "source_id": "media_supersport_football",
       "original_title": "UEFA Champions League - Football Tournament - SuperSport",
       "original_summary": "Follow UEFA Champions League football tournament on SuperSport. Get fixtures, results, and latest updates",
@@ -14461,7 +15009,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_896",
+    "item_id": "norm_901",
     "raw_id": "media_supersport_football_caf-champions-league_23",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -14492,7 +15040,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_896",
+      "item_id": "norm_901",
       "source_id": "media_supersport_football",
       "original_title": "CAF Champions League - Football Tournament - SuperSport",
       "original_summary": "Follow CAF Champions League football tournament on SuperSport. Get fixtures, results, and latest updates",
@@ -14516,7 +15064,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_897",
+    "item_id": "norm_902",
     "raw_id": "media_supersport_football_uefa-champions-league_26",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -14547,7 +15095,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_897",
+      "item_id": "norm_902",
       "source_id": "media_supersport_football",
       "original_title": "UEFA Champions League - Football Tournament - SuperSport",
       "original_summary": "Follow UEFA Champions League football tournament on SuperSport. Get fixtures, results, and latest updates",
@@ -14571,7 +15119,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_899",
+    "item_id": "norm_904",
     "raw_id": "media_supersport_football_dstv-diski-challenge_35",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -14602,7 +15150,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_899",
+      "item_id": "norm_904",
       "source_id": "media_supersport_football",
       "original_title": "DStv Diski Challenge",
       "original_summary": "",
@@ -14626,7 +15174,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_900",
+    "item_id": "norm_905",
     "raw_id": "media_supersport_football_motsepe-foundation-championship_37",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -14657,7 +15205,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_900",
+      "item_id": "norm_905",
       "source_id": "media_supersport_football",
       "original_title": "Motsepe Foundation Championship",
       "original_summary": "",
@@ -14681,7 +15229,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_901",
+    "item_id": "norm_906",
     "raw_id": "media_supersport_football_caf-confederations-cup_38",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -14712,7 +15260,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_901",
+      "item_id": "norm_906",
       "source_id": "media_supersport_football",
       "original_title": "CAF Confederations Cup",
       "original_summary": "",
@@ -14736,7 +15284,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_905",
+    "item_id": "norm_910",
     "raw_id": "media_supersport_football_caf-women-s-africa-cup-of-nations_45",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -14767,7 +15315,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_905",
+      "item_id": "norm_910",
       "source_id": "media_supersport_football",
       "original_title": "CAF Women's Africa Cup of Nations",
       "original_summary": "",
@@ -14791,7 +15339,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_908",
+    "item_id": "norm_913",
     "raw_id": "media_supersport_football_uefa-women-s-euro-2025_49",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -14822,7 +15370,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_908",
+      "item_id": "norm_913",
       "source_id": "media_supersport_football",
       "original_title": "UEFA Women's EURO 2025",
       "original_summary": "",
@@ -14846,7 +15394,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_910",
+    "item_id": "norm_915",
     "raw_id": "media_supersport_football_substituted-pulisic-plays-down-injury-concerns_86",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -14885,7 +15433,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_910",
+      "item_id": "norm_915",
       "source_id": "media_supersport_football",
       "original_title": "Substituted Pulisic plays down injury concerns",
       "original_summary": "",
@@ -14911,7 +15459,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_916",
+    "item_id": "norm_921",
     "raw_id": "media_abola_futebol_mercado-sporting-clube-francês-negoceia-empréstimo-de-faye_5",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -14945,7 +15493,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_916",
+      "item_id": "norm_921",
       "source_id": "media_abola_futebol",
       "original_title": "Mercado Sporting: clube francês negoceia empréstimo de Faye",
       "original_summary": "Extremo senegalês, de 23 anos, vai deixar os leões e tem solução à vista. FC Lorient está a trabalhar no empréstimo do atacante que tem contrato com os leões até 2030",
@@ -14972,7 +15520,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_917",
+    "item_id": "norm_922",
     "raw_id": "media_abola_futebol_pepa-acende-a-chama-da-reboleira-por-uma-cidade-vamos-fazer-_8",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15005,7 +15553,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_917",
+      "item_id": "norm_922",
       "source_id": "media_abola_futebol",
       "original_title": "Pepa acende a chama da Reboleira: «Por uma cidade, vamos fazer história!»",
       "original_summary": "Novo treinador do Estrela da Amadora diz estar preparado e apela ao 'inferno' do Estádio José Gomes. «Os adversários têm de vir aqui e passar mal», projeta",
@@ -15031,7 +15579,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_920",
+    "item_id": "norm_925",
     "raw_id": "media_abola_futebol_mercado-sporting-assinou-contrato-e-quer-ser-o-novo-eduardo-_17",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15064,7 +15612,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_920",
+      "item_id": "norm_925",
       "source_id": "media_abola_futebol",
       "original_title": "Mercado Sporting: assinou contrato e quer ser o novo Eduardo Quaresma",
       "original_summary": "Gonçalo Gaspar, defesa-central de apenas 16 anos, assinou contrato profissional com os leões. Natural de Gondomar, chegou à Academia com 11 anos, após passagem pelo… FC Porto. «Quero chegar à equipa principal e ser campeão», desejou",
@@ -15090,7 +15638,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_921",
+    "item_id": "norm_926",
     "raw_id": "media_abola_futebol_//-internacional-//_22",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15121,7 +15669,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_921",
+      "item_id": "norm_926",
       "source_id": "media_abola_futebol",
       "original_title": "//\n                                Internacional\n                                //",
       "original_summary": "",
@@ -15145,7 +15693,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_922",
+    "item_id": "norm_927",
     "raw_id": "media_abola_futebol_surpresa-em-maiorca-treinador-renovou-há-duas-semanas-mas-va_23",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15176,7 +15724,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_922",
+      "item_id": "norm_927",
       "source_id": "media_abola_futebol",
       "original_title": "Surpresa em Maiorca: treinador renovou há duas semanas mas vai para a Alemanha",
       "original_summary": "",
@@ -15200,7 +15748,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_923",
+    "item_id": "norm_928",
     "raw_id": "media_abola_futebol_pedro-pontes-com-despedida-emotiva-do-sporting_26",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15231,7 +15779,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_923",
+      "item_id": "norm_928",
       "source_id": "media_abola_futebol",
       "original_title": "Pedro Pontes com despedida emotiva do Sporting",
       "original_summary": "",
@@ -15255,7 +15803,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_924",
+    "item_id": "norm_929",
     "raw_id": "media_abola_futebol_sc-braga-sad-pretende-renovar-com-uma-das-estrelas-mais-cint_29",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15286,7 +15834,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_924",
+      "item_id": "norm_929",
       "source_id": "media_abola_futebol",
       "original_title": "SC Braga: SAD pretende renovar com uma das estrelas mais cintilantes do plantel",
       "original_summary": "",
@@ -15310,7 +15858,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_925",
+    "item_id": "norm_930",
     "raw_id": "media_abola_futebol_mercado-sc-braga-grande-promessa-grega-está-no-radar_35",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15341,7 +15889,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_925",
+      "item_id": "norm_930",
       "source_id": "media_abola_futebol",
       "original_title": "Mercado SC Braga: grande promessa grega está no radar",
       "original_summary": "",
@@ -15365,7 +15913,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_926",
+    "item_id": "norm_931",
     "raw_id": "media_abola_futebol_josé-fonte-terminou-a-carreira-mas-pode-continuar-no-casa-pi_41",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15396,7 +15944,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_926",
+      "item_id": "norm_931",
       "source_id": "media_abola_futebol",
       "original_title": "José Fonte terminou a carreira... mas pode continuar no Casa Pia",
       "original_summary": "",
@@ -15420,7 +15968,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_928",
+    "item_id": "norm_933",
     "raw_id": "media_abola_futebol_mercado-oficial-famalicão-contratou-internacional-jovem-suíç_11",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15451,7 +15999,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_928",
+      "item_id": "norm_933",
       "source_id": "media_abola_futebol",
       "original_title": "Mercado oficial: Famalicão contratou internacional jovem suíço fã de João Cancelo",
       "original_summary": "",
@@ -15475,7 +16023,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_930",
+    "item_id": "norm_935",
     "raw_id": "media_abola_futebol_andré-bernardo-confirma-notícia-de-a-bola-sporting-vai-mesmo_17",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15506,7 +16054,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_930",
+      "item_id": "norm_935",
       "source_id": "media_abola_futebol",
       "original_title": "André Bernardo confirma notícia de A BOLA: Sporting vai mesmo ter novo emblema",
       "original_summary": "",
@@ -15530,7 +16078,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_932",
+    "item_id": "norm_937",
     "raw_id": "media_abola_futebol_sporting-contrata-jovem-extremo-ao-nacional_29",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15561,7 +16109,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_932",
+      "item_id": "norm_937",
       "source_id": "media_abola_futebol",
       "original_title": "Sporting contrata jovem extremo ao Nacional",
       "original_summary": "",
@@ -15585,7 +16133,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_933",
+    "item_id": "norm_938",
     "raw_id": "media_abola_futebol_gostava-de-voltar-ao-sporting_32",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15616,7 +16164,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_933",
+      "item_id": "norm_938",
       "source_id": "media_abola_futebol",
       "original_title": "«Gostava de voltar ao Sporting»",
       "original_summary": "",
@@ -15640,7 +16188,7 @@
     "low_confidence_reason": null
   },
   {
-    "item_id": "norm_934",
+    "item_id": "norm_939",
     "raw_id": "media_abola_futebol_rafael-leão-sabe-que-tem-um-dom-diferente_41",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -15671,7 +16219,7 @@
     "extraction_level": "cached",
     "item_type": "article",
     "event_frame": {
-      "item_id": "norm_934",
+      "item_id": "norm_939",
       "source_id": "media_abola_futebol",
       "original_title": "«Rafael Leão sabe que tem um dom diferente»",
       "original_summary": "",
