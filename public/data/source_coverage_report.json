@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-08T09:18:51.451Z",
+  "generated_at": "2026-07-08T11:22:45.858Z",
   "total_sources": 102,
   "enabled_sources": 102,
   "success_sources": 89,
   "failed_sources": 13,
-  "included_in_frontend_sources": 33,
+  "included_in_frontend_sources": 30,
   "success_rate": 87.25,
   "target_success_rate": 60,
   "items": [
@@ -534,9 +534,9 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 29,
-      "valid_items_count": 29,
-      "discarded_count": 1,
+      "fetched_count": 30,
+      "valid_items_count": 30,
+      "discarded_count": 0,
       "discovered_feeds": [
         "https://feeds.bbci.co.uk/sport/football/rss.xml"
       ],
@@ -563,7 +563,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 25,
       "valid_items_count": 24,
-      "discarded_count": 10,
+      "discarded_count": 9,
       "discovered_feeds": [
         "https://www.theguardian.com/football/world-cup-2026/rss",
         "https://www.theguardian.com/feed",
@@ -640,7 +640,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_sky_sports_football_news",
@@ -657,8 +657,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 16,
-      "valid_items_count": 13,
-      "discarded_count": 15,
+      "valid_items_count": 12,
+      "discarded_count": 14,
       "discovered_feeds": [
         "https://www.skysports.com/feed",
         "https://www.skysports.com/rss",
@@ -852,7 +852,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_marca_futbol_noticias",
@@ -888,7 +888,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_lequipe_football",
@@ -906,7 +906,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 25,
       "valid_items_count": 25,
-      "discarded_count": 13,
+      "discarded_count": 12,
       "discovered_feeds": [
         "https://www.lequipe.fr/feed",
         "https://www.lequipe.fr/rss",
@@ -968,24 +968,13 @@
       "batch": "expanded",
       "crawl_mode": "html_list",
       "attempted_strategies": [
-        "html_list",
-        "json_ld",
         "sitemap"
       ],
       "successful_strategy": null,
       "fetched_count": 0,
       "valid_items_count": 0,
       "discarded_count": 0,
-      "discovered_feeds": [
-        "https://www.kicker.de/feed",
-        "https://www.kicker.de/rss",
-        "https://www.kicker.de/rss.xml",
-        "https://www.kicker.de/feed.xml",
-        "https://www.kicker.de/football/rss",
-        "https://www.kicker.de/soccer/rss",
-        "https://www.kicker.de/world-cup/rss",
-        "https://www.kicker.de/feed/"
-      ],
+      "discovered_feeds": [],
       "discovered_sitemaps": [],
       "status": "partial",
       "failure_category": "html_parse_no_items",
@@ -1186,7 +1175,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 19,
+      "fetched_count": 20,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1212,7 +1201,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 18,
+      "fetched_count": 19,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1238,7 +1227,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 18,
+      "fetched_count": 19,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1301,7 +1290,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_daily_mail_football",
@@ -1392,8 +1381,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 24,
-      "valid_items_count": 18,
-      "discarded_count": 7,
+      "valid_items_count": 25,
+      "discarded_count": 25,
       "discovered_feeds": [
         "https://www.fourfourtwo.com/feeds.xml",
         "https://www.fourfourtwo.com/feeds/articletype/news",
@@ -1411,7 +1400,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "media_transfermarkt_news",
@@ -1429,7 +1418,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 4,
       "valid_items_count": 2,
-      "discarded_count": 3,
+      "discarded_count": 1,
       "discovered_feeds": [
         "https://www.transfermarkt.co.uk/feed",
         "https://www.transfermarkt.co.uk/rss",
@@ -1515,7 +1504,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "media_one_football_world_cup",
@@ -1528,7 +1517,8 @@
       "crawl_mode": "html_list",
       "attempted_strategies": [
         "html_list",
-        "json_ld"
+        "json_ld",
+        "wp_json"
       ],
       "successful_strategy": "html_list",
       "fetched_count": 12,
@@ -1549,7 +1539,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "media_si_world_cup",
@@ -1566,8 +1556,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 22,
-      "discarded_count": 74,
+      "valid_items_count": 23,
+      "discarded_count": 73,
       "discovered_feeds": [
         "https://www.si.com/feed",
         "https://www.si.com/rss",
@@ -1583,7 +1573,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "media_nbc_sports_world_cup",
@@ -1600,8 +1590,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 15,
-      "valid_items_count": 13,
-      "discarded_count": 19,
+      "valid_items_count": 12,
+      "discarded_count": 18,
       "discovered_feeds": [
         "https://www.nbcsports.com/soccer/world-cup.atom",
         "https://www.nbcsports.com/feed",
@@ -1635,8 +1625,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 17,
-      "discarded_count": 47,
+      "valid_items_count": 18,
+      "discarded_count": 43,
       "discovered_feeds": [
         "https://www.goal.com/feed",
         "https://www.goal.com/rss",
@@ -1652,7 +1642,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "media_fox_sports_world_cup",
@@ -1670,8 +1660,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 23,
-      "discarded_count": 4,
+      "valid_items_count": 22,
+      "discarded_count": 5,
       "discovered_feeds": [
         "https://www.foxsports.com/feed",
         "https://www.foxsports.com/rss",
@@ -2731,7 +2721,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 25,
       "valid_items_count": 25,
-      "discarded_count": 8,
+      "discarded_count": 7,
       "discovered_feeds": [
         "https://www.beinsports.com/feed",
         "https://www.beinsports.com/rss",
@@ -2747,7 +2737,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "media_supersport_football",
@@ -2764,7 +2754,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 23,
-      "valid_items_count": 16,
+      "valid_items_count": 14,
       "discarded_count": 24,
       "discovered_feeds": [
         "https://supersport.com/feed",
@@ -2799,7 +2789,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 22,
       "valid_items_count": 25,
-      "discarded_count": 6,
+      "discarded_count": 8,
       "discovered_feeds": [
         "https://www.abola.pt/rss-articles.xml",
         "https://www.abola.pt/feed",
@@ -2816,7 +2806,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "media_voetbalinternational",
