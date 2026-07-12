@@ -317,18 +317,17 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_挪威_general_discussion_挪威_世界杯",
-    "topic_key": "挪威::general_discussion::挪威::世界杯",
-    "issue_type": "coach_tactics",
-    "topic_title": "挪威主帅索尔巴肯对英格兰进球的反应",
-    "lead_source_title": "Norway coach Solbakken reaction to England goal",
-    "lead_source_summary": "submitted by /u/Gato_Puro [link] [comments]",
-    "topic_summary": "共有 2 个海外来源提到该话题。由 /u/Gato_Puro 提交 [链接] [评论]",
-    "summary_zh": "由 /u/Gato_Puro 提交 [链接] [评论]",
-    "heat_score": 66,
+    "topic_id": "topic_英格兰_general_discussion_英格兰_世界杯",
+    "topic_key": "英格兰::general_discussion::英格兰::世界杯",
+    "issue_type": "var_officiating",
+    "topic_title": "英格兰点球被VAR 103推翻",
+    "lead_source_title": "England penalty overturned by VAR 103'",
+    "lead_source_summary": "submitted by /u/50lipaa [link] [comments]",
+    "topic_summary": "共有 3 个海外来源提到该话题。由 /u/50lipaa 提交 [链接] [评论]",
+    "summary_zh": "由 /u/50lipaa 提交 [链接] [评论]",
+    "heat_score": 65,
     "related_matches": [],
     "related_teams": [
-      "挪威",
       "英格兰"
     ],
     "related_players": [],
@@ -339,21 +338,22 @@
     "languages": [
       "en"
     ],
-    "source_count": 2,
-    "evidence_count": 2,
+    "source_count": 3,
+    "evidence_count": 3,
     "source_names": [
       "Reddit r/soccer",
-      "The Guardian Football"
+      "Daily Mail World Cup Page",
+      "The Guardian Football Worldcup 2026 Page"
     ],
     "sources": [
       {
         "source_id": "forum_reddit_soccer",
         "source_name": "Reddit r/soccer",
-        "title": "Norway coach Solbakken reaction to England goal",
-        "summary": "submitted by /u/Gato_Puro [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utwqtv/norway_coach_solbakken_reaction_to_england_goal/",
-        "published_at": "2026-07-11T21:50:20.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "title": "England penalty overturned by VAR 103'",
+        "summary": "submitted by /u/50lipaa [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1utyrxa/england_penalty_overturned_by_var_103/",
+        "published_at": "2026-07-11T23:19:39.000Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -364,33 +364,50 @@
         "item_type": "article"
       },
       {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami",
-        "summary": "England and Norway fans have flocked to Miami in their tens of thousands to enjoy the football and sunshine It is not just another morning on Ocean Drive, where brashness mingles with brilliance and grandeur sits unashamedly alongside the grotesque. A Huddersfield Town flag is being hung from one of the art deco hotels that make this area of Miami Beach a living, decadent museum. Two Norwegians in national team shirts cycle past, the woman adjusting a viking helmet before pedalling to catch up. To locals playing volleyball beneath the sand dunes as usual, the sideshow is at once inescapable and remote. Not even Miami will have seen a party of this nature. Around 30,000 England fans are due to converge here by Saturday but they will be given a run for their money by those baying for Norway, who have offered some of this World Cup’s enduring spectacles. A quarter-final rewards those who have been on the road for a month and is irresistible to the spontaneous too. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/11/whats-the-point-of-working-if-you-cant-do-stuff-like-this-england-fans-descend-on-miami",
-        "published_at": "2026-07-11T07:00:43.000Z",
-        "fetched_at": "2026-07-11T23:06:22.612Z",
+        "source_id": "media_daily_mail_worldcup",
+        "source_name": "Daily Mail World Cup Page",
+        "title": "England's false World Cup start! Premier League referee Michael Oliver pulls out of match with injury",
+        "summary": "",
+        "url": "https://www.dailymail.com/sport/football/article-15896087/Englands-World-Cup-Premier-League-referee.html",
+        "published_at": "2026-06-13T05:28:56.019Z",
+        "fetched_at": "2026-06-13T05:28:56.019Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_guardian_football_worldcup2026",
+        "source_name": "The Guardian Football Worldcup 2026 Page",
+        "title": "England’s World Cup boots stolen before first training session in Kansas City",
+        "summary": "",
+        "url": "https://www.theguardian.com/football/2026/jun/13/england-world-cup-boots-stolen-before-first-training-session-in-kansas-city",
+        "published_at": "2026-06-13T05:28:10.365Z",
+        "fetched_at": "2026-06-13T05:28:10.365Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
         "item_type": "article"
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-07-11T21:50:20.000Z",
-    "source_count_score": 52,
-    "recency_score": 78,
+    "last_updated": "2026-07-11T23:19:39.000Z",
+    "source_count_score": 78,
+    "recency_score": 38,
     "cross_region_score": 68,
-    "source_priority_score": 72,
+    "source_priority_score": 75,
     "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
+    "confidence": "较高",
     "included_in_frontend": true
   },
   {
@@ -1021,78 +1038,30 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_英格兰_general_discussion_england_goal_result_ball",
-    "topic_key": "英格兰::general_discussion::england_goal_result_ball",
-    "issue_type": "general",
-    "topic_title": "英格兰队的进球是球击中摄像机电缆的结果",
-    "lead_source_title": "England's goal was a result of the ball hitting the camera cable",
-    "lead_source_summary": "submitted by /u/handlit33 [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“英格兰队的进球是球击中摄像机电缆的结果”，暂作为话题线索展示。由 /u/handlit33 提交 [链接] [评论]",
-    "summary_zh": "由 /u/handlit33 提交 [链接] [评论]",
+    "topic_id": "topic_post_match_thread_general_discussion_erling_haaland_世界杯",
+    "topic_key": "post_match_thread::general_discussion::erling_haaland::世界杯",
+    "issue_type": "referee_assignment",
+    "topic_title": "赛后主题：挪威 1 - 2 英格兰 | 2026 年国际足联世界杯 |四分之一决赛",
+    "lead_source_title": "Post Match Thread: Norway 1 - 2 England | FIFA World Cup 2026 | Quarterfinals",
+    "lead_source_summary": "FT: Norway 1 - 2 England Desktop note: best viewed on old.reddit. Info Details Competition 2026 FIFA World Cup, Quarterfinals Date Sat, July 11, 2026 Venue Hard Rock Stadium, Miami Gardens, Florida, USA Referee Clément Turpin Kickoff 5:00 PM EDT / 11:00 PM CEST Status AET LINE-UPS Norway (4-3-3) Starting XI Notes Subs Notes Ørjan Nyland Thelo Aasgaard Torbjørn Heggem 🔄 off 90' Jens Petter Hauge Kristoffer Ajer 🟨 117' Fredrik Aursnes 🔄 on 60' David Møller Wolfe 🔄 off 90' Antonio Nusa 🔄 on 68' Julian Ryerson 🔄 off 60' Henrik Falchener Sander Berge Jørgen Strand Larsen 🔄 on 105' Patrick Berg Sondre Langas Martin Ødegaard Leo Østigard 🔄 on 90' Erling Haaland 🔄 off 105' Oscar Bobb 🔄 on 68' Andreas Schjelderup ⚽ 36' · 🔄 off 68' Kristian Thorstvedt Alexander Sørloth 🔄 off 68' Morten Thorsby Marcus Holmgren Pedersen 🔄 on 90' Sander Tangvik Egil Selvik Fredrik André Bjørkan England (4-2-3-1) Starting XI Notes Subs Notes Jordan Pickford Dean Henderson Marc Guéhi Marcus Rashford John Stones Morgan Rogers 🔄 on 89' Nico O'Reilly 🔄 off 86' Eberechi Eze 🔄 on 45' Ezri Konsa 🔄 off 89' Ollie Watkins Jude Bellingham ⚽ 45'+2' · ⚽ 93' · 🔄 off 111' Dan Burn 🔄 on 111' Elliot Anderson James Trafford Declan Rice 🔄 off 45' Trevoh Chalobah Harry Kane Ivan Toney Anthony Gordon 🔄 off 71' Djed Spence 🔄 on 86' Noni Madueke 🔄 off 45' Jordan Henderson Kobbie Mainoo Bukayo Saka 🔄 on 45' Reece James 🔄 on 71' MATCH EVENTS | via ESPN 36' ⚽ Goal! Norway 1, England 0. Andreas Schjelderup (Norway) left footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard. 45' 🔄 Substitution, England. Bukayo Saka replaces Noni Madueke. 45' 🔄 Substitution, England. Eberechi Eze replaces Declan Rice. 45'+2' ⚽ Goal! Norway 1, England 1. Jude Bellingham (England) left footed shot from the left side of the box to the bottom right corner. Assisted by Anthony Gordon. 60' 🔄 Substitution, Norway. Fredrik Aursnes replaces Julian Ryerson because of an injury. 68' 🔄 Substitution, Norway. Oscar Bobb replaces Alexander Sørloth. 68' 🔄 Substitution, Norway. Antonio Nusa replaces Andreas Schjelderup. 71' 🔄 Substitution, England. Reece James replaces Anthony Gordon. 86' 🔄 Substitution, England. Djed Spence replaces Nico O'Reilly. 89' 🔄 Substitution, England. Morgan Rogers replaces Ezri Konsa. 90' 🔄 Substitution, Norway. Marcus Pedersen replaces David Møller Wolfe. 90' 🔄 Substitution, Norway. Leo Østigård replaces Torbjørn Heggem. 93' ⚽ Goal! Norway 1, England 2. Jude Bellingham (England) right footed shot from the centre of the box to the bottom left corner. 105' 🔄 Substitution, Norway. Jørgen Strand Larsen replaces Erling Haaland. 111' 🔄 Substitution, England. Dan Burn replaces Jude Bellingham. 117' 🟨 Kristoffer Ajer (Norway) is shown the yellow card. MATCH STATS Stat Norway England Expected Goals 0.77 1.06 Possession 48% 52% Shots on Goal 4 (31%) 8 (57%) Big Chances Created 1 2 Big Chances Missed 1 1 Accurate Passes 492 (85%) 567 (91%) Duels Won 47 54 Saves 6 3 Fouls Committed 10 8 MATCH ENDED submitted by /u/jiraiya--an [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“赛后主题：挪威 1 - 2 英格兰 | 2026 年国际足联世界杯 |四分之一决赛”，暂作为话题线索展示。FT：挪威1 - 2英格兰桌面备注：最好在old.reddit上查看",
+    "summary_zh": "FT：挪威1 - 2英格兰桌面备注：最好在old.reddit上查看",
     "heat_score": 54,
     "related_matches": [],
     "related_teams": [
-      "英格兰"
-    ],
-    "related_players": [],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/soccer"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "England's goal was a result of the ball hitting the camera cable",
-        "summary": "submitted by /u/handlit33 [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utx6yf/englands_goal_was_a_result_of_the_ball_hitting/",
-        "published_at": "2026-07-11T22:09:18.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-11T22:09:18.000Z",
-    "source_count_score": 26,
-    "recency_score": 98,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_挪威_general_discussion_norway_disallowed_goal_against",
-    "topic_key": "挪威::general_discussion::norway_disallowed_goal_against",
-    "issue_type": "general",
-    "topic_title": "挪威对阵英格兰 55 球被判无效",
-    "lead_source_title": "Norway disallowed goal against England 55'",
-    "lead_source_summary": "submitted by /u/Alsace2025 [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“挪威对阵英格兰 55 球被判无效”，暂作为话题线索展示。由 /u/Alsace2025 提交 [链接] [评论]",
-    "summary_zh": "由 /u/Alsace2025 提交 [链接] [评论]",
-    "heat_score": 54,
-    "related_matches": [],
-    "related_teams": [
+      "美国",
       "挪威",
+      "约旦",
       "英格兰"
     ],
-    "related_players": [],
+    "related_players": [
+      "Erling Haaland",
+      "Martin Odegaard",
+      "Jude Bellingham",
+      "Harry Kane",
+      "Bukayo Saka",
+      "James Rodriguez"
+    ],
     "regions": [
       "全球/英语圈"
     ],
@@ -1108,11 +1077,11 @@
       {
         "source_id": "forum_reddit_soccer",
         "source_name": "Reddit r/soccer",
-        "title": "Norway disallowed goal against England 55'",
-        "summary": "submitted by /u/Alsace2025 [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utxfk5/norway_disallowed_goal_against_england_55/",
-        "published_at": "2026-07-11T22:19:33.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "title": "Post Match Thread: Norway 1 - 2 England | FIFA World Cup 2026 | Quarterfinals",
+        "summary": "FT: Norway 1 - 2 England Desktop note: best viewed on old.reddit. Info Details Competition 2026 FIFA World Cup, Quarterfinals Date Sat, July 11, 2026 Venue Hard Rock Stadium, Miami Gardens, Florida, USA Referee Clément Turpin Kickoff 5:00 PM EDT / 11:00 PM CEST Status AET LINE-UPS Norway (4-3-3) Starting XI Notes Subs Notes Ørjan Nyland Thelo Aasgaard Torbjørn Heggem 🔄 off 90' Jens Petter Hauge Kristoffer Ajer 🟨 117' Fredrik Aursnes 🔄 on 60' David Møller Wolfe 🔄 off 90' Antonio Nusa 🔄 on 68' Julian Ryerson 🔄 off 60' Henrik Falchener Sander Berge Jørgen Strand Larsen 🔄 on 105' Patrick Berg Sondre Langas Martin Ødegaard Leo Østigard 🔄 on 90' Erling Haaland 🔄 off 105' Oscar Bobb 🔄 on 68' Andreas Schjelderup ⚽ 36' · 🔄 off 68' Kristian Thorstvedt Alexander Sørloth 🔄 off 68' Morten Thorsby Marcus Holmgren Pedersen 🔄 on 90' Sander Tangvik Egil Selvik Fredrik André Bjørkan England (4-2-3-1) Starting XI Notes Subs Notes Jordan Pickford Dean Henderson Marc Guéhi Marcus Rashford John Stones Morgan Rogers 🔄 on 89' Nico O'Reilly 🔄 off 86' Eberechi Eze 🔄 on 45' Ezri Konsa 🔄 off 89' Ollie Watkins Jude Bellingham ⚽ 45'+2' · ⚽ 93' · 🔄 off 111' Dan Burn 🔄 on 111' Elliot Anderson James Trafford Declan Rice 🔄 off 45' Trevoh Chalobah Harry Kane Ivan Toney Anthony Gordon 🔄 off 71' Djed Spence 🔄 on 86' Noni Madueke 🔄 off 45' Jordan Henderson Kobbie Mainoo Bukayo Saka 🔄 on 45' Reece James 🔄 on 71' MATCH EVENTS | via ESPN 36' ⚽ Goal! Norway 1, England 0. Andreas Schjelderup (Norway) left footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard. 45' 🔄 Substitution, England. Bukayo Saka replaces Noni Madueke. 45' 🔄 Substitution, England. Eberechi Eze replaces Declan Rice. 45'+2' ⚽ Goal! Norway 1, England 1. Jude Bellingham (England) left footed shot from the left side of the box to the bottom right corner. Assisted by Anthony Gordon. 60' 🔄 Substitution, Norway. Fredrik Aursnes replaces Julian Ryerson because of an injury. 68' 🔄 Substitution, Norway. Oscar Bobb replaces Alexander Sørloth. 68' 🔄 Substitution, Norway. Antonio Nusa replaces Andreas Schjelderup. 71' 🔄 Substitution, England. Reece James replaces Anthony Gordon. 86' 🔄 Substitution, England. Djed Spence replaces Nico O'Reilly. 89' 🔄 Substitution, England. Morgan Rogers replaces Ezri Konsa. 90' 🔄 Substitution, Norway. Marcus Pedersen replaces David Møller Wolfe. 90' 🔄 Substitution, Norway. Leo Østigård replaces Torbjørn Heggem. 93' ⚽ Goal! Norway 1, England 2. Jude Bellingham (England) right footed shot from the centre of the box to the bottom left corner. 105' 🔄 Substitution, Norway. Jørgen Strand Larsen replaces Erling Haaland. 111' 🔄 Substitution, England. Dan Burn replaces Jude Bellingham. 117' 🟨 Kristoffer Ajer (Norway) is shown the yellow card. MATCH STATS Stat Norway England Expected Goals 0.77 1.06 Possession 48% 52% Shots on Goal 4 (31%) 8 (57%) Big Chances Created 1 2 Big Chances Missed 1 1 Accurate Passes 492 (85%) 567 (91%) Duels Won 47 54 Saves 6 3 Fouls Committed 10 8 MATCH ENDED submitted by /u/jiraiya--an [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1utzemb/post_match_thread_norway_1_2_england_fifa_world/",
+        "published_at": "2026-07-11T23:47:47.000Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -1123,66 +1092,11 @@
         "item_type": "article"
       }
     ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-11T22:19:33.000Z",
-    "source_count_score": 26,
-    "recency_score": 98,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_挪威_general_discussion_fredrik_aursnes_norway_hits",
-    "topic_key": "挪威::general_discussion::fredrik_aursnes_norway_hits",
-    "issue_type": "general",
-    "topic_title": "弗雷德里克·奥斯内斯（挪威）对阵英格兰 77 击中横梁",
-    "lead_source_title": "Fredrik Aursnes (Norway) hits the bar against England 77'",
-    "lead_source_summary": "submitted by /u/Alsace2025 [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“弗雷德里克·奥斯内斯（挪威）对阵英格兰 77 击中横梁”，暂作为话题线索展示。由 /u/Alsace2025 提交 [链接] [评论]",
-    "summary_zh": "由 /u/Alsace2025 提交 [链接] [评论]",
-    "heat_score": 54,
-    "related_matches": [],
-    "related_teams": [
-      "挪威",
-      "英格兰"
+    "topic_phrases": [
+      "Erling Haaland",
+      "Post Match Thread"
     ],
-    "related_players": [],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/soccer"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "Fredrik Aursnes (Norway) hits the bar against England 77'",
-        "summary": "submitted by /u/Alsace2025 [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utxvef/fredrik_aursnes_norway_hits_the_bar_against/",
-        "published_at": "2026-07-11T22:38:53.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-11T22:38:53.000Z",
+    "last_updated": "2026-07-11T23:47:47.000Z",
     "source_count_score": 26,
     "recency_score": 99,
     "cross_region_score": 35,
@@ -1194,20 +1108,23 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_英格兰_general_discussion_england_disallowed_goal",
-    "topic_key": "英格兰::general_discussion::england_disallowed_goal",
+    "topic_id": "topic_fallback_jude_bellingham_general_discussion_norway_england_bellingham",
+    "topic_key": "jude bellingham::general_discussion::norway_england_bellingham",
     "issue_type": "general",
-    "topic_title": "英格兰不允许进球",
-    "lead_source_title": "England disallowed goal",
-    "lead_source_summary": "submitted by /u/02bashar [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“英格兰不允许进球”，暂作为话题线索展示。由 /u/02bashar 提交 [链接] [评论]",
-    "summary_zh": "由 /u/02bashar 提交 [链接] [评论]",
+    "topic_title": "挪威 1 - [2] 英格兰 - J. 贝灵厄姆 93",
+    "lead_source_title": "Norway 1 - [2] England - J. Bellingham 93'",
+    "lead_source_summary": "submitted by /u/Alsace2025 [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“挪威 1 - [2] 英格兰 - J. 贝灵厄姆 93”，暂作为话题线索展示。由 /u/Alsace2025 提交 [链接] [评论]",
+    "summary_zh": "由 /u/Alsace2025 提交 [链接] [评论]",
     "heat_score": 54,
     "related_matches": [],
     "related_teams": [
+      "挪威",
       "英格兰"
     ],
-    "related_players": [],
+    "related_players": [
+      "Jude Bellingham"
+    ],
     "regions": [
       "全球/英语圈"
     ],
@@ -1223,11 +1140,11 @@
       {
         "source_id": "forum_reddit_soccer",
         "source_name": "Reddit r/soccer",
-        "title": "England disallowed goal",
-        "summary": "submitted by /u/02bashar [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utwxpl/england_disallowed_goal/",
-        "published_at": "2026-07-11T21:58:47.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "title": "Norway 1 - [2] England - J. Bellingham 93'",
+        "summary": "submitted by /u/Alsace2025 [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1utyk9p/norway_1_2_england_j_bellingham_93/",
+        "published_at": "2026-07-11T23:10:11.000Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -1238,8 +1155,10 @@
         "item_type": "article"
       }
     ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-11T21:58:47.000Z",
+    "topic_phrases": [
+      "Jude Bellingham"
+    ],
+    "last_updated": "2026-07-11T23:10:11.000Z",
     "source_count_score": 26,
     "recency_score": 97,
     "cross_region_score": 35,
@@ -1251,14 +1170,14 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_挪威_general_discussion_england_chance_against_norway",
-    "topic_key": "挪威::general_discussion::england_chance_against_norway",
+    "topic_id": "topic_fallback_挪威_general_discussion_england_defeats_norway_advances",
+    "topic_key": "挪威::general_discussion::england_defeats_norway_advances",
     "issue_type": "general",
-    "topic_title": "英格兰队87次对阵挪威队的机会",
-    "lead_source_title": "England chance against Norway 87'",
-    "lead_source_summary": "submitted by /u/50lipaa [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“英格兰队87次对阵挪威队的机会”，暂作为话题线索展示。由 /u/50lipaa 提交 [链接] [评论]",
-    "summary_zh": "由 /u/50lipaa 提交 [链接] [评论]",
+    "topic_title": "英格兰队击败挪威队晋级世界杯半决赛",
+    "lead_source_title": "England defeats Norway and advances to the semi-final of the World Cup",
+    "lead_source_summary": "submitted by /u/enterpriseF-love [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“英格兰队击败挪威队晋级世界杯半决赛”，暂作为话题线索展示。由 /u/enterpriseF-love 提交 [链接] [评论]",
+    "summary_zh": "由 /u/enterpriseF-love 提交 [链接] [评论]",
     "heat_score": 54,
     "related_matches": [],
     "related_teams": [
@@ -1281,11 +1200,11 @@
       {
         "source_id": "forum_reddit_soccer",
         "source_name": "Reddit r/soccer",
-        "title": "England chance against Norway 87'",
-        "summary": "submitted by /u/50lipaa [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1uty4ub/england_chance_against_norway_87/",
-        "published_at": "2026-07-11T22:50:51.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "title": "England defeats Norway and advances to the semi-final of the World Cup",
+        "summary": "submitted by /u/enterpriseF-love [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1utzdxy/england_defeats_norway_and_advances_to_the/",
+        "published_at": "2026-07-11T23:46:58.000Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -1297,7 +1216,64 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-07-11T22:50:51.000Z",
+    "last_updated": "2026-07-11T23:46:58.000Z",
+    "source_count_score": 26,
+    "recency_score": 99,
+    "cross_region_score": 35,
+    "source_priority_score": 62,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_挪威_general_discussion_norway_goalkeeper_ørjan_nyland",
+    "topic_key": "挪威::general_discussion::norway_goalkeeper_ørjan_nyland",
+    "issue_type": "general",
+    "topic_title": "挪威门将奥扬·尼兰在全职比赛中明显情绪激动",
+    "lead_source_title": "Norway goalkeeper Ørjan Nyland visibly emotional at full-time",
+    "lead_source_summary": "submitted by /u/Goosedukee [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“挪威门将奥扬·尼兰在全职比赛中明显情绪激动”，暂作为话题线索展示。提交者：/u/Goosedukee [link] [comments]",
+    "summary_zh": "提交者：/u/Goosedukee [link] [comments]",
+    "heat_score": 54,
+    "related_matches": [],
+    "related_teams": [
+      "挪威"
+    ],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Reddit r/soccer"
+    ],
+    "sources": [
+      {
+        "source_id": "forum_reddit_soccer",
+        "source_name": "Reddit r/soccer",
+        "title": "Norway goalkeeper Ørjan Nyland visibly emotional at full-time",
+        "summary": "submitted by /u/Goosedukee [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1utzq5r/norway_goalkeeper_%C3%B8rjan_nyland_visibly_emotional/",
+        "published_at": "2026-07-12T00:00:53.000Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-07-12T00:00:53.000Z",
     "source_count_score": 26,
     "recency_score": 99,
     "cross_region_score": 35,
@@ -1417,30 +1393,20 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_match_thread_general_discussion_erling_haaland_世界杯",
-    "topic_key": "match_thread::general_discussion::erling_haaland::世界杯",
-    "issue_type": "referee_assignment",
-    "topic_title": "比赛主题：挪威 vs 英格兰 | 2026 年国际足联世界杯 |四分之一决赛",
-    "lead_source_title": "Match Thread: Norway vs England | FIFA World Cup 2026 | Quarterfinals",
-    "lead_source_summary": "90'+8': Norway 1 - 1 England Desktop note: best viewed on old.reddit. Info Details Competition 2026 FIFA World Cup, Quarterfinals Date Sat, July 11, 2026 Venue Hard Rock Stadium, Miami Gardens, Florida, USA Referee Clément Turpin Kickoff 5:00 PM EDT / 11:00 PM CEST Status 90'+8' LINE-UPS Norway (4-3-3) Starting XI Notes Subs Notes Ørjan Nyland Thelo Aasgaard Torbjørn Heggem Jens Petter Hauge Kristoffer Ajer Fredrik Aursnes 🔄 on 60' David Møller Wolfe 🔄 off 90' Antonio Nusa 🔄 on 68' Julian Ryerson 🔄 off 60' Henrik Falchener Sander Berge Jørgen Strand Larsen Patrick Berg Sondre Langas Martin Ødegaard Leo Østigard Erling Haaland Oscar Bobb 🔄 on 68' Andreas Schjelderup ⚽ 36' · 🔄 off 68' Kristian Thorstvedt Alexander Sørloth 🔄 off 68' Morten Thorsby Marcus Holmgren Pedersen 🔄 on 90' Sander Tangvik Egil Selvik Fredrik André Bjørkan England (4-2-3-1) Starting XI Notes Subs Notes Jordan Pickford Dean Henderson Marc Guéhi Marcus Rashford John Stones Morgan Rogers 🔄 on 89' Nico O'Reilly 🔄 off 86' Eberechi Eze 🔄 on 45' Ezri Konsa 🔄 off 89' Ollie Watkins Jude Bellingham ⚽ 45'+2' Dan Burn Elliot Anderson James Trafford Declan Rice 🔄 off 45' Trevoh Chalobah Harry Kane Ivan Toney Anthony Gordon 🔄 off 71' Djed Spence 🔄 on 86' Noni Madueke 🔄 off 45' Jordan Henderson Kobbie Mainoo Bukayo Saka 🔄 on 45' Reece James 🔄 on 71' MATCH EVENTS | via ESPN 36' ⚽ Goal! Norway 1, England 0. Andreas Schjelderup (Norway) left footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard. 45' 🔄 Substitution, England. Bukayo Saka replaces Noni Madueke. 45' 🔄 Substitution, England. Eberechi Eze replaces Declan Rice. 45'+2' ⚽ Goal! Norway 1, England 1. Jude Bellingham (England) left footed shot from the left side of the box to the bottom right corner. Assisted by Anthony Gordon. 60' 🔄 Substitution, Norway. Fredrik Aursnes replaces Julian Ryerson because of an injury. 68' 🔄 Substitution, Norway. Oscar Bobb replaces Alexander Sørloth. 68' 🔄 Substitution, Norway. Antonio Nusa replaces Andreas Schjelderup. 71' 🔄 Substitution, England. Reece James replaces Anthony Gordon. 86' 🔄 Substitution, England. Djed Spence replaces Nico O'Reilly. 89' 🔄 Substitution, England. Morgan Rogers replaces Ezri Konsa. 90' 🔄 Substitution, Norway. Marcus Pedersen replaces David Møller Wolfe. MATCH STATS Stat Norway England Expected Goals 0.52 0.31 Possession 42% 58% Shots on Goal 4 (44%) 2 (29%) Big Chances Created 1 1 Big Chances Missed 1 0 Accurate Passes 327 (85%) 481 (92%) Duels Won 32 37 Saves 1 3 Fouls Committed 8 5 submitted by /u/jiraiya--an [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“比赛主题：挪威 vs 英格兰 | 2026 年国际足联世界杯 |四分之一决赛”，暂作为话题线索展示。90 +8：挪威1 - 1英格兰桌面备注：最好在old.reddit上查看",
-    "summary_zh": "90 +8：挪威1 - 1英格兰桌面备注：最好在old.reddit上查看",
+    "topic_id": "topic_fallback_英格兰_general_discussion_england_goal_result_ball",
+    "topic_key": "英格兰::general_discussion::england_goal_result_ball",
+    "issue_type": "general",
+    "topic_title": "英格兰队的进球是球击中摄像机电缆的结果",
+    "lead_source_title": "England's goal was a result of the ball hitting the camera cable",
+    "lead_source_summary": "submitted by /u/handlit33 [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“英格兰队的进球是球击中摄像机电缆的结果”，暂作为话题线索展示。由 /u/handlit33 提交 [链接] [评论]",
+    "summary_zh": "由 /u/handlit33 提交 [链接] [评论]",
     "heat_score": 53,
     "related_matches": [],
     "related_teams": [
-      "美国",
-      "挪威",
-      "约旦",
       "英格兰"
     ],
-    "related_players": [
-      "Erling Haaland",
-      "Martin Odegaard",
-      "Jude Bellingham",
-      "Harry Kane",
-      "Bukayo Saka",
-      "James Rodriguez"
-    ],
+    "related_players": [],
     "regions": [
       "全球/英语圈"
     ],
@@ -1456,11 +1422,11 @@
       {
         "source_id": "forum_reddit_soccer",
         "source_name": "Reddit r/soccer",
-        "title": "Match Thread: Norway vs England | FIFA World Cup 2026 | Quarterfinals",
-        "summary": "90'+8': Norway 1 - 1 England Desktop note: best viewed on old.reddit. Info Details Competition 2026 FIFA World Cup, Quarterfinals Date Sat, July 11, 2026 Venue Hard Rock Stadium, Miami Gardens, Florida, USA Referee Clément Turpin Kickoff 5:00 PM EDT / 11:00 PM CEST Status 90'+8' LINE-UPS Norway (4-3-3) Starting XI Notes Subs Notes Ørjan Nyland Thelo Aasgaard Torbjørn Heggem Jens Petter Hauge Kristoffer Ajer Fredrik Aursnes 🔄 on 60' David Møller Wolfe 🔄 off 90' Antonio Nusa 🔄 on 68' Julian Ryerson 🔄 off 60' Henrik Falchener Sander Berge Jørgen Strand Larsen Patrick Berg Sondre Langas Martin Ødegaard Leo Østigard Erling Haaland Oscar Bobb 🔄 on 68' Andreas Schjelderup ⚽ 36' · 🔄 off 68' Kristian Thorstvedt Alexander Sørloth 🔄 off 68' Morten Thorsby Marcus Holmgren Pedersen 🔄 on 90' Sander Tangvik Egil Selvik Fredrik André Bjørkan England (4-2-3-1) Starting XI Notes Subs Notes Jordan Pickford Dean Henderson Marc Guéhi Marcus Rashford John Stones Morgan Rogers 🔄 on 89' Nico O'Reilly 🔄 off 86' Eberechi Eze 🔄 on 45' Ezri Konsa 🔄 off 89' Ollie Watkins Jude Bellingham ⚽ 45'+2' Dan Burn Elliot Anderson James Trafford Declan Rice 🔄 off 45' Trevoh Chalobah Harry Kane Ivan Toney Anthony Gordon 🔄 off 71' Djed Spence 🔄 on 86' Noni Madueke 🔄 off 45' Jordan Henderson Kobbie Mainoo Bukayo Saka 🔄 on 45' Reece James 🔄 on 71' MATCH EVENTS | via ESPN 36' ⚽ Goal! Norway 1, England 0. Andreas Schjelderup (Norway) left footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard. 45' 🔄 Substitution, England. Bukayo Saka replaces Noni Madueke. 45' 🔄 Substitution, England. Eberechi Eze replaces Declan Rice. 45'+2' ⚽ Goal! Norway 1, England 1. Jude Bellingham (England) left footed shot from the left side of the box to the bottom right corner. Assisted by Anthony Gordon. 60' 🔄 Substitution, Norway. Fredrik Aursnes replaces Julian Ryerson because of an injury. 68' 🔄 Substitution, Norway. Oscar Bobb replaces Alexander Sørloth. 68' 🔄 Substitution, Norway. Antonio Nusa replaces Andreas Schjelderup. 71' 🔄 Substitution, England. Reece James replaces Anthony Gordon. 86' 🔄 Substitution, England. Djed Spence replaces Nico O'Reilly. 89' 🔄 Substitution, England. Morgan Rogers replaces Ezri Konsa. 90' 🔄 Substitution, Norway. Marcus Pedersen replaces David Møller Wolfe. MATCH STATS Stat Norway England Expected Goals 0.52 0.31 Possession 42% 58% Shots on Goal 4 (44%) 2 (29%) Big Chances Created 1 1 Big Chances Missed 1 0 Accurate Passes 327 (85%) 481 (92%) Duels Won 32 37 Saves 1 3 Fouls Committed 8 5 submitted by /u/jiraiya--an [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utunqd/match_thread_norway_vs_england_fifa_world_cup/",
-        "published_at": "2026-07-11T20:23:49.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "title": "England's goal was a result of the ball hitting the camera cable",
+        "summary": "submitted by /u/handlit33 [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1utx6yf/englands_goal_was_a_result_of_the_ball_hitting/",
+        "published_at": "2026-07-11T22:09:18.000Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -1471,13 +1437,10 @@
         "item_type": "article"
       }
     ],
-    "topic_phrases": [
-      "Erling Haaland",
-      "Match Thread"
-    ],
-    "last_updated": "2026-07-11T20:23:49.000Z",
+    "topic_phrases": [],
+    "last_updated": "2026-07-11T22:09:18.000Z",
     "source_count_score": 26,
-    "recency_score": 93,
+    "recency_score": 95,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
@@ -1521,7 +1484,7 @@
         "summary": "submitted by /u/ayoefico [link] [comments]",
         "url": "https://www.reddit.com/r/soccer/comments/1utwfug/norway_1_0_england_andreas_schjelderup_36/",
         "published_at": "2026-07-11T21:36:47.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -1535,7 +1498,127 @@
     "topic_phrases": [],
     "last_updated": "2026-07-11T21:36:47.000Z",
     "source_count_score": 26,
-    "recency_score": 96,
+    "recency_score": 93,
+    "cross_region_score": 35,
+    "source_priority_score": 62,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_jude_bellingham_general_discussion_norway_england_jude_bellingham",
+    "topic_key": "jude bellingham::general_discussion::norway_england_jude_bellingham",
+    "issue_type": "general",
+    "topic_title": "挪威 1 - [1] 英格兰 - 裘德·贝林厄姆 45+2",
+    "lead_source_title": "Norway 1 - [1] England - Jude Bellingham 45+2'",
+    "lead_source_summary": "submitted by /u/ayoefico [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“挪威 1 - [1] 英格兰 - 裘德·贝林厄姆 45+2”，暂作为话题线索展示。由/u/ayoefico 提交 [链接] [评论]",
+    "summary_zh": "由/u/ayoefico 提交 [链接] [评论]",
+    "heat_score": 53,
+    "related_matches": [],
+    "related_teams": [
+      "挪威",
+      "英格兰"
+    ],
+    "related_players": [
+      "Jude Bellingham"
+    ],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Reddit r/soccer"
+    ],
+    "sources": [
+      {
+        "source_id": "forum_reddit_soccer",
+        "source_name": "Reddit r/soccer",
+        "title": "Norway 1 - [1] England - Jude Bellingham 45+2'",
+        "summary": "submitted by /u/ayoefico [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1utwp0u/norway_1_1_england_jude_bellingham_452/",
+        "published_at": "2026-07-11T21:48:02.000Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "Jude Bellingham"
+    ],
+    "last_updated": "2026-07-11T21:48:02.000Z",
+    "source_count_score": 26,
+    "recency_score": 94,
+    "cross_region_score": 35,
+    "source_priority_score": 62,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_挪威_general_discussion_norway_disallowed_goal_against",
+    "topic_key": "挪威::general_discussion::norway_disallowed_goal_against",
+    "issue_type": "general",
+    "topic_title": "挪威禁止对英格兰进球55",
+    "lead_source_title": "Norway disallowed goal against England 55'",
+    "lead_source_summary": "submitted by /u/Alsace2025 [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“挪威禁止对英格兰进球55”，暂作为话题线索展示。由 /u/Alsace2025 提交 [链接] [评论]",
+    "summary_zh": "由 /u/Alsace2025 提交 [链接] [评论]",
+    "heat_score": 53,
+    "related_matches": [],
+    "related_teams": [
+      "挪威",
+      "英格兰"
+    ],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Reddit r/soccer"
+    ],
+    "sources": [
+      {
+        "source_id": "forum_reddit_soccer",
+        "source_name": "Reddit r/soccer",
+        "title": "Norway disallowed goal against England 55'",
+        "summary": "submitted by /u/Alsace2025 [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1utxfk5/norway_disallowed_goal_against_england_55/",
+        "published_at": "2026-07-11T22:19:33.000Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-07-11T22:19:33.000Z",
+    "source_count_score": 26,
+    "recency_score": 95,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
@@ -1579,7 +1662,7 @@
         "summary": "submitted by /u/50lipaa [link] [comments]",
         "url": "https://www.reddit.com/r/soccer/comments/1utwndf/norway_chance_against_england_44/",
         "published_at": "2026-07-11T21:45:58.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -1593,7 +1676,7 @@
     "topic_phrases": [],
     "last_updated": "2026-07-11T21:45:58.000Z",
     "source_count_score": 26,
-    "recency_score": 97,
+    "recency_score": 94,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
@@ -1611,7 +1694,7 @@
     "lead_source_summary": "submitted by /u/DiamondPittcairn [link] [comments]",
     "topic_summary": "目前仅 1 个海外来源提到“[Ntd6] 太阿根廷了！：费兰·托雷斯因世界杯期间喝马黛茶在西班牙引发批评浪潮”，暂作为话题线索展示。由 /u/DiamondPittcairn 提交 [链接] [评论]",
     "summary_zh": "由 /u/DiamondPittcairn 提交 [链接] [评论]",
-    "heat_score": 53,
+    "heat_score": 52,
     "related_matches": [],
     "related_teams": [
       "西班牙"
@@ -1636,7 +1719,7 @@
         "summary": "submitted by /u/DiamondPittcairn [link] [comments]",
         "url": "https://www.reddit.com/r/soccer/comments/1utuvjs/ntd6_too_argentine_ferran_torres_sparks_wave_of/",
         "published_at": "2026-07-11T20:32:23.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -1650,66 +1733,7 @@
     "topic_phrases": [],
     "last_updated": "2026-07-11T20:32:23.000Z",
     "source_count_score": 26,
-    "recency_score": 93,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_德国_warmup_result_德国_世界杯",
-    "topic_key": "德国::warmup_result::德国::世界杯",
-    "issue_type": "qualification_race",
-    "topic_title": "西班牙队以 2-0 击败德国队夺得 2026 年欧洲 U-19 锦标赛冠军，并以 19 粒进球、0 失球的成绩完赛",
-    "lead_source_title": "Spain win the 2026 UEFA European Under-19 Championship after beating Germany 2–0, finishing the tournament with 19 goals scored and none conceded",
-    "lead_source_summary": "Spain U19 have been crowned European champions after completing a flawless tournament: Group stage Wales 0–7 Spain Denmark 0–3 Spain Spain 4–0 Germany Semi-final Spain 3–0 Croatia Final Spain 2–0 Germany Five matches, five wins, 19 goals scored and zero conceded. submitted by /u/dirkzlatan [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“西班牙队以 2-0 击败德国队夺得 2026 年欧洲 U-19 锦标赛冠军，并以 19 粒进球、0 失球的成绩完赛”，暂作为话题线索展示。西班牙U19在完美完成比赛后加冕欧洲冠军：小组赛威尔士0-7西班牙丹麦0-3西班牙西班牙4-0德国半决赛西班牙3-0克罗地亚决赛西班牙2-0德国五场比赛，五场胜利，进19球，失球零",
-    "summary_zh": "西班牙U19在完美完成比赛后加冕欧洲冠军：小组赛威尔士0-7西班牙丹麦0-3西班牙西班牙4-0德国半决赛西班牙3-0克罗地亚决赛西班牙2-0德国五场比赛，五场胜利，进19球，失球零",
-    "heat_score": 52,
-    "related_matches": [],
-    "related_teams": [
-      "德国",
-      "西班牙",
-      "克罗地亚"
-    ],
-    "related_players": [],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/soccer"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "Spain win the 2026 UEFA European Under-19 Championship after beating Germany 2–0, finishing the tournament with 19 goals scored and none conceded",
-        "summary": "Spain U19 have been crowned European champions after completing a flawless tournament: Group stage Wales 0–7 Spain Denmark 0–3 Spain Spain 4–0 Germany Semi-final Spain 3–0 Croatia Final Spain 2–0 Germany Five matches, five wins, 19 goals scored and zero conceded. submitted by /u/dirkzlatan [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1uttwhr/spain_win_the_2026_uefa_european_under19/",
-        "published_at": "2026-07-11T19:53:28.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-11T19:53:28.000Z",
-    "source_count_score": 26,
-    "recency_score": 92,
+    "recency_score": 91,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
@@ -2089,124 +2113,6 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_阿根廷_general_discussion_阿根廷_世界杯",
-    "topic_key": "阿根廷::general_discussion::阿根廷::世界杯",
-    "issue_type": "fans_atmosphere",
-    "topic_title": "堪萨斯城市长与阿根廷球迷一同鼓掌演唱市长是阿根廷人！",
-    "lead_source_title": "Kansas City Mayor joins Argentina fans on the drum while they sing \"The mayor is Argentine!\"",
-    "lead_source_summary": "Kansas City Mayor joins Argentina fans on the drum while they sing \"The mayor is Argentine!\" submitted by /u/InevitableAd8003 [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“堪萨斯城市长与阿根廷球迷一同鼓掌演唱市长是阿根廷人！”，暂作为话题线索展示。堪萨斯城市长与阿根廷球迷一起敲鼓，合唱《市长是阿根廷人》！由 /u/InevitableAd8003 提交 [链接] [评论]",
-    "summary_zh": "堪萨斯城市长与阿根廷球迷一起敲鼓，合唱《市长是阿根廷人》！由 /u/InevitableAd8003 提交 [链接] [评论]",
-    "heat_score": 50,
-    "related_matches": [],
-    "related_teams": [
-      "阿根廷"
-    ],
-    "related_players": [],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/soccer"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "Kansas City Mayor joins Argentina fans on the drum while they sing \"The mayor is Argentine!\"",
-        "summary": "Kansas City Mayor joins Argentina fans on the drum while they sing \"The mayor is Argentine!\" submitted by /u/InevitableAd8003 [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utolll/kansas_city_mayor_joins_argentina_fans_on_the/",
-        "published_at": "2026-07-11T16:27:49.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-11T16:27:49.000Z",
-    "source_count_score": 26,
-    "recency_score": 83,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_lautaro_martinez_general_discussion_spanish_journalist_asks_lisandro",
-    "topic_key": "lautaro martinez::general_discussion::spanish_journalist_asks_lisandro",
-    "issue_type": "general",
-    "topic_title": "西班牙记者询问利桑德罗·马丁内斯（曼联和阿根廷后卫）：裁判是否支持阿根廷队？利桑德罗：没什么可说的。裁判们做得非常出色。你才是引发争议的人。我们专注于在球场上竭尽全力",
-    "lead_source_title": "Spanish Journalist asks Lisandro Martinez (ManUtd and Argentina Defender): Do the referees favor Argetina? Lisandro: \"Nothing to say. The referees are doing an excellent job. YOU are the ones who generate the controversies. We focus on giving our best on the field.\"",
-    "lead_source_summary": "submitted by /u/PinReal4448 [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“西班牙记者询问利桑德罗·马丁内斯（曼联和阿根廷后卫）：裁判是否支持阿根廷队？利桑德罗：没什么可说的。裁判们做得非常出色。你才是引发争议的人。我们专注于在球场上竭尽全力”，暂作为话题线索展示。由 /u/PinReal4448 提交 [链接] [评论]",
-    "summary_zh": "由 /u/PinReal4448 提交 [链接] [评论]",
-    "heat_score": 50,
-    "related_matches": [],
-    "related_teams": [
-      "阿根廷"
-    ],
-    "related_players": [
-      "Lautaro Martinez"
-    ],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/soccer"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "Spanish Journalist asks Lisandro Martinez (ManUtd and Argentina Defender): Do the referees favor Argetina? Lisandro: \"Nothing to say. The referees are doing an excellent job. YOU are the ones who generate the controversies. We focus on giving our best on the field.\"",
-        "summary": "submitted by /u/PinReal4448 [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utnle0/spanish_journalist_asks_lisandro_martinez_manutd/",
-        "published_at": "2026-07-11T15:48:34.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Lautaro Martinez"
-    ],
-    "last_updated": "2026-07-11T15:48:34.000Z",
-    "source_count_score": 26,
-    "recency_score": 82,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_世界杯票务_ticket_issue_world_cup_世界杯",
     "topic_key": "世界杯票务::ticket_issue::world_cup::世界杯",
     "issue_type": "referee_assignment",
@@ -2377,21 +2283,21 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_mohamed_salah_general_discussion_salah_singing_celebrating_back",
-    "topic_key": "mohamed salah::general_discussion::salah_singing_celebrating_back",
+    "topic_id": "topic_fallback_lautaro_martinez_general_discussion_spanish_journalist_asks_lisandro",
+    "topic_key": "lautaro martinez::general_discussion::spanish_journalist_asks_lisandro",
     "issue_type": "general",
-    "topic_title": "莫·萨拉赫 (Mo Salah) 与埃及北领地一起唱歌庆祝",
-    "lead_source_title": "Mo Salah is singing and celebrating back home along with Egypt NT.",
-    "lead_source_summary": "submitted by /u/SameCellist3373 [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“莫·萨拉赫 (Mo Salah) 与埃及北领地一起唱歌庆祝”，暂作为话题线索展示。由 /u/SameCellist3373 提交 [链接] [评论]",
-    "summary_zh": "由 /u/SameCellist3373 提交 [链接] [评论]",
+    "topic_title": "西班牙记者询问利桑德罗·马丁内斯（曼联和阿根廷后卫）：裁判是否支持阿根廷队？利桑德罗：没什么可说的。裁判们做得非常出色。你才是引发争议的人。我们专注于在球场上竭尽全力",
+    "lead_source_title": "Spanish Journalist asks Lisandro Martinez (ManUtd and Argentina Defender): Do the referees favor Argetina? Lisandro: \"Nothing to say. The referees are doing an excellent job. YOU are the ones who generate the controversies. We focus on giving our best on the field.\"",
+    "lead_source_summary": "submitted by /u/PinReal4448 [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“西班牙记者询问利桑德罗·马丁内斯（曼联和阿根廷后卫）：裁判是否支持阿根廷队？利桑德罗：没什么可说的。裁判们做得非常出色。你才是引发争议的人。我们专注于在球场上竭尽全力”，暂作为话题线索展示。提交者/u/PinReal4448 [link] [comments]",
+    "summary_zh": "提交者/u/PinReal4448 [link] [comments]",
     "heat_score": 49,
     "related_matches": [],
     "related_teams": [
-      "埃及"
+      "阿根廷"
     ],
     "related_players": [
-      "Mohamed Salah"
+      "Lautaro Martinez"
     ],
     "regions": [
       "全球/英语圈"
@@ -2408,11 +2314,11 @@
       {
         "source_id": "forum_reddit_soccer",
         "source_name": "Reddit r/soccer",
-        "title": "Mo Salah is singing and celebrating back home along with Egypt NT.",
-        "summary": "submitted by /u/SameCellist3373 [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utlpbm/mo_salah_is_singing_and_celebrating_back_home/",
-        "published_at": "2026-07-11T14:33:08.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "title": "Spanish Journalist asks Lisandro Martinez (ManUtd and Argentina Defender): Do the referees favor Argetina? Lisandro: \"Nothing to say. The referees are doing an excellent job. YOU are the ones who generate the controversies. We focus on giving our best on the field.\"",
+        "summary": "submitted by /u/PinReal4448 [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1utnle0/spanish_journalist_asks_lisandro_martinez_manutd/",
+        "published_at": "2026-07-11T15:48:34.000Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -2424,9 +2330,9 @@
       }
     ],
     "topic_phrases": [
-      "Mohamed Salah"
+      "Lautaro Martinez"
     ],
-    "last_updated": "2026-07-11T14:33:08.000Z",
+    "last_updated": "2026-07-11T15:48:34.000Z",
     "source_count_score": 26,
     "recency_score": 79,
     "cross_region_score": 35,
@@ -2492,7 +2398,7 @@
         "summary": "Davinson Sánchez looked to the heavens. Cucho Hernández trudged back to his teammates. By the end, the pair’s penalty misses sent the Colombian team to the grass in anguish as Switzerland danced in front of their supporters, nearly alone in a sea of yellow. Switzerland had prevailed on penalties, 4-3, Ruben Vargas’s decider bringing an emotional end to more than two hours of tense, tentative, and ludicrously goal-free football. Continue reading...",
         "url": "https://www.theguardian.com/football/2026/jul/08/switzerland-colombia-world-cup-2026-last-16-match-report",
         "published_at": "2026-07-07T23:06:57.000Z",
-        "fetched_at": "2026-07-11T23:06:22.612Z",
+        "fetched_at": "2026-07-12T00:13:44.490Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -2516,6 +2422,67 @@
     "included_in_frontend": true
   },
   {
+    "topic_id": "topic_fallback_mohamed_salah_general_discussion_salah_singing_celebrating_back",
+    "topic_key": "mohamed salah::general_discussion::salah_singing_celebrating_back",
+    "issue_type": "general",
+    "topic_title": "Mo Salah与埃及NT一起歌唱和庆祝",
+    "lead_source_title": "Mo Salah is singing and celebrating back home along with Egypt NT.",
+    "lead_source_summary": "submitted by /u/SameCellist3373 [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“Mo Salah与埃及NT一起歌唱和庆祝”，暂作为话题线索展示。提交者/u/SameCellist3373 [link] [comments]",
+    "summary_zh": "提交者/u/SameCellist3373 [link] [comments]",
+    "heat_score": 48,
+    "related_matches": [],
+    "related_teams": [
+      "埃及"
+    ],
+    "related_players": [
+      "Mohamed Salah"
+    ],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Reddit r/soccer"
+    ],
+    "sources": [
+      {
+        "source_id": "forum_reddit_soccer",
+        "source_name": "Reddit r/soccer",
+        "title": "Mo Salah is singing and celebrating back home along with Egypt NT.",
+        "summary": "submitted by /u/SameCellist3373 [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1utlpbm/mo_salah_is_singing_and_celebrating_back_home/",
+        "published_at": "2026-07-11T14:33:08.000Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "Mohamed Salah"
+    ],
+    "last_updated": "2026-07-11T14:33:08.000Z",
+    "source_count_score": 26,
+    "recency_score": 76,
+    "cross_region_score": 35,
+    "source_priority_score": 62,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
     "topic_id": "topic_fallback_南非_general_discussion_south_african_football_mourning",
     "topic_key": "南非::general_discussion::south_african_football_mourning",
     "issue_type": "general",
@@ -2524,7 +2491,7 @@
     "lead_source_summary": "submitted by /u/Dear-Atmosphere1340 [link] [comments]",
     "topic_summary": "目前仅 1 个海外来源提到“南非足球界哀悼世界杯球星杰登·亚当斯去世，享年 25 岁”，暂作为话题线索展示。由 /u/Dear-Atmosphere1340 提交 [链接] [评论]",
     "summary_zh": "由 /u/Dear-Atmosphere1340 提交 [链接] [评论]",
-    "heat_score": 48,
+    "heat_score": 47,
     "related_matches": [],
     "related_teams": [
       "南非"
@@ -2549,7 +2516,7 @@
         "summary": "submitted by /u/Dear-Atmosphere1340 [link] [comments]",
         "url": "https://www.reddit.com/r/soccer/comments/1utis31/south_african_football_in_mourning_as_world_cup/",
         "published_at": "2026-07-11T12:26:16.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "fetched_at": "2026-07-12T00:13:45.103Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -2563,201 +2530,12 @@
     "topic_phrases": [],
     "last_updated": "2026-07-11T12:26:16.000Z",
     "source_count_score": 26,
-    "recency_score": 73,
+    "recency_score": 70,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_general_discussion_transfer_window_summer_deals",
-    "topic_key": "general_discussion::transfer_window_summer_deals",
-    "issue_type": "general",
-    "topic_title": "2026 年夏季男子转会窗口：来自欧洲前五名联赛的所有交易",
-    "lead_source_title": "Men’s transfer window summer 2026: all deals from Europe’s top five leagues",
-    "lead_source_summary": "All the latest Premier League, La Liga, Bundesliga, Ligue 1 and Serie A deals and a club-by-club guide Women’s transfer window interactive guide Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“2026 年夏季男子转会窗口：来自欧洲前五名联赛的所有交易”，暂作为话题线索展示。All the latest Premier League, La Liga, Bundesliga, Ligue 1 and Serie A deals and a club-by-club guide Women’s transfer window interactive guide Continue reading",
-    "summary_zh": "All the latest Premier League, La Liga, Bundesliga, Ligue 1 and Serie A deals and a club-by-club guide Women’s transfer window interactive guide Continue reading",
-    "heat_score": 45,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Men’s transfer window summer 2026: all deals from Europe’s top five leagues",
-        "summary": "All the latest Premier League, La Liga, Bundesliga, Ligue 1 and Serie A deals and a club-by-club guide Women’s transfer window interactive guide Continue reading...",
-        "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/08/mens-transfer-window-summer-2026-all-deals-from-europes-top-five-leagues",
-        "published_at": "2026-07-11T09:15:43.000Z",
-        "fetched_at": "2026-07-11T23:06:22.612Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-07-11T09:15:43.000Z",
-    "source_count_score": 26,
-    "recency_score": 65,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_法国_logistics_issue_distance_travelled_france_does",
-    "topic_key": "法国::logistics_issue::distance_travelled_france_does",
-    "issue_type": "general",
-    "topic_title": "迄今为止世界杯走过的距离。法国看起来确实很新鲜",
-    "lead_source_title": "Distance travelled at the World Cup so far. France does look fresh.",
-    "lead_source_summary": "submitted by /u/Rian245 [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“迄今为止世界杯走过的距离。法国看起来确实很新鲜”，暂作为话题线索展示。由 /u/Rian245 提交 [链接] [评论]",
-    "summary_zh": "由 /u/Rian245 提交 [链接] [评论]",
-    "heat_score": 45,
-    "related_matches": [],
-    "related_teams": [
-      "法国"
-    ],
-    "related_players": [],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/soccer"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "Distance travelled at the World Cup so far. France does look fresh.",
-        "summary": "submitted by /u/Rian245 [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utdorl/distance_travelled_at_the_world_cup_so_far_france/",
-        "published_at": "2026-07-11T07:45:36.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-11T07:45:36.000Z",
-    "source_count_score": 26,
-    "recency_score": 62,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_英格兰_general_discussion_英格兰_世界杯",
-    "topic_key": "英格兰::general_discussion::英格兰::世界杯",
-    "issue_type": "referee_assignment",
-    "topic_title": "英格兰世界杯假开局！英超裁判迈克尔奥利弗因伤退出比赛",
-    "lead_source_title": "England's false World Cup start! Premier League referee Michael Oliver pulls out of match with injury",
-    "lead_source_summary": "",
-    "topic_summary": "共有 2 个海外来源提到该话题。英格兰世界杯假开局！英超裁判迈克尔奥利弗因伤退出比赛",
-    "summary_zh": "英格兰世界杯假开局！英超裁判迈克尔奥利弗因伤退出比赛",
-    "heat_score": 42,
-    "related_matches": [],
-    "related_teams": [
-      "英格兰"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 2,
-    "evidence_count": 2,
-    "source_names": [
-      "Daily Mail World Cup Page",
-      "The Guardian Football Worldcup 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_daily_mail_worldcup",
-        "source_name": "Daily Mail World Cup Page",
-        "title": "England's false World Cup start! Premier League referee Michael Oliver pulls out of match with injury",
-        "summary": "",
-        "url": "https://www.dailymail.com/sport/football/article-15896087/Englands-World-Cup-Premier-League-referee.html",
-        "published_at": "2026-06-13T05:28:56.019Z",
-        "fetched_at": "2026-06-13T05:28:56.019Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "England’s World Cup boots stolen before first training session in Kansas City",
-        "summary": "",
-        "url": "https://www.theguardian.com/football/2026/jun/13/england-world-cup-boots-stolen-before-first-training-session-in-kansas-city",
-        "published_at": "2026-06-13T05:28:10.365Z",
-        "fetched_at": "2026-06-13T05:28:10.365Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:56.019Z",
-    "source_count_score": 52,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
     "confidence": "中",
     "included_in_frontend": true
   },
@@ -2826,6 +2604,81 @@
     ],
     "topic_phrases": [],
     "last_updated": "2026-06-13T05:29:55.943Z",
+    "source_count_score": 52,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_美国_general_discussion_five_questions_facing_usmnt",
+    "topic_key": "美国::general_discussion::five_questions_facing_usmnt",
+    "issue_type": "general",
+    "topic_title": "随着世界杯开幕式临近， USMNT面临的五个问题",
+    "lead_source_title": "Five questions facing the USMNT as World Cup kickoff approaches",
+    "lead_source_summary": "",
+    "topic_summary": "共有 2 个海外来源提到该话题。随着世界杯开幕式临近， USMNT面临的五个问题",
+    "summary_zh": "随着世界杯开幕式临近， USMNT面临的五个问题",
+    "heat_score": 42,
+    "related_matches": [],
+    "related_teams": [
+      "美国"
+    ],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 2,
+    "evidence_count": 2,
+    "source_names": [
+      "ESPN Soccer Worldcup Page",
+      "ESPN Soccer"
+    ],
+    "sources": [
+      {
+        "source_id": "media_espn_soccer_worldcup",
+        "source_name": "ESPN Soccer Worldcup Page",
+        "title": "Five questions facing the USMNT as World Cup kickoff approaches",
+        "summary": "",
+        "url": "https://www.espn.com/soccer/story/_/id/49000751/5-questions-facing-usmnt-world-cup-kickoff-approaches",
+        "published_at": "2026-06-10T07:28:56.631Z",
+        "fetched_at": "2026-06-10T07:28:56.631Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_espn_soccer",
+        "source_name": "ESPN Soccer",
+        "title": "Five questions facing the USMNT as World Cup kickoff approaches",
+        "summary": "",
+        "url": "https://www.espn.com/soccer/story/_/id/49000751/5-questions-facing-usmnt-world-cup-kickoff-approaches",
+        "published_at": "2026-06-10T07:28:50.161Z",
+        "fetched_at": "2026-06-10T07:28:50.161Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-10T07:28:56.631Z",
     "source_count_score": 52,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -2912,14 +2765,89 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_巴拉圭_general_discussion_bobadilla_estados_unidos_paraguay",
-    "topic_key": "巴拉圭::general_discussion::bobadilla_estados_unidos_paraguay",
+    "topic_id": "topic_fallback_伊朗_general_discussion_carcelén_marcha_cádiz",
+    "topic_key": "伊朗::general_discussion::carcelén_marcha_cádiz",
     "issue_type": "general",
-    "topic_title": "博巴迪拉 (p.p.) 进球 (1-0) 美国 4-1 巴拉圭",
-    "lead_source_title": "Gol de Bobadilla (p.p.) (1-0) en el Estados Unidos 4-1 Paraguay",
+    "topic_title": "伊扎·卡塞伦离开加的斯",
+    "lead_source_title": "Iza Carcelén se marcha del Cádiz",
+    "lead_source_summary": "A pesar de que el futbolista portuense había prolongado su vinculación contractual con la entidad hasta el 30 de junio de 2027, las últimas informaciones confirman que el veterano defensor abandonará el Nuevo Mirandilla este verano",
+    "topic_summary": "共有 2 个海外来源提到该话题。尽管这位葡萄牙足球运动员已将与该实体的合同关系延长至2027年6月30日，但最新信息证实，这位资深后卫将于今年夏天离开新米兰迪拉。尽管这位足球运动员已经延长了合同，但这位经验丰富的后卫将在七个赛季和超过 220 场比赛后于今年夏天离开俱乐部。",
+    "summary_zh": "尽管这位葡萄牙足球运动员已将与该实体的合同关系延长至2027年6月30日，但最新信息证实，这位资深后卫将于今年夏天离开新米兰迪拉。尽管这位足球运动员已经延长了合同，但这位经验丰富的后卫将在七个赛季和超过 220 场比赛后于今年夏天离开俱乐部。",
+    "heat_score": 42,
+    "related_matches": [],
+    "related_teams": [
+      "伊朗"
+    ],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 2,
+    "evidence_count": 2,
+    "source_names": [
+      "Marca Fútbol Noticias",
+      "Marca Fútbol"
+    ],
+    "sources": [
+      {
+        "source_id": "media_marca_futbol_noticias",
+        "source_name": "Marca Fútbol Noticias",
+        "title": "Iza Carcelén se marcha del Cádiz",
+        "summary": "A pesar de que el futbolista portuense había prolongado su vinculación contractual con la entidad hasta el 30 de junio de 2027, las últimas informaciones confirman que el veterano defensor abandonará el Nuevo Mirandilla este verano",
+        "url": "https://www.marca.com/futbol/cadiz/2026/06/12/iza-carcelen-marcha-cadiz-siete-temporadas-220-partidos.html",
+        "published_at": "2026-06-13T05:28:22.918Z",
+        "fetched_at": "2026-06-13T05:28:22.918Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_marca_futbol",
+        "source_name": "Marca Fútbol",
+        "title": "Iza Carcelén se marcha del Cádiz",
+        "summary": "A pesar de que el futbolista portuense había prolongado su vinculación contractual con la entidad hasta el 30 de junio de 2027, las últimas informaciones confirman que el veterano defensor abandonará el Nuevo Mirandilla este verano",
+        "url": "https://www.marca.com/futbol/cadiz/2026/06/12/iza-carcelen-marcha-cadiz-siete-temporadas-220-partidos.html",
+        "published_at": "2026-06-13T05:28:21.078Z",
+        "fetched_at": "2026-06-13T05:28:21.078Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-13T05:28:22.918Z",
+    "source_count_score": 52,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_巴拉圭_general_discussion_balogun_estados_unidos_paraguay",
+    "topic_key": "巴拉圭::general_discussion::balogun_estados_unidos_paraguay",
+    "issue_type": "general",
+    "topic_title": "巴洛贡进球（2-0）美国4-1巴拉圭",
+    "lead_source_title": "Gol de Balogun (2-0) en el Estados Unidos 4-1 Paraguay",
     "lead_source_summary": "",
-    "topic_summary": "共有 2 个海外来源提到该话题。博巴迪拉 (p.p.) 进球 (1-0) 美国 4-1 巴拉圭",
-    "summary_zh": "博巴迪拉 (p.p.) 进球 (1-0) 美国 4-1 巴拉圭",
+    "topic_summary": "共有 2 个海外来源提到该话题。巴洛贡进球（2-0）美国4-1巴拉圭",
+    "summary_zh": "巴洛贡进球（2-0）美国4-1巴拉圭",
     "heat_score": 42,
     "related_matches": [],
     "related_teams": [
@@ -2942,11 +2870,11 @@
       {
         "source_id": "media_marca_futbol_noticias",
         "source_name": "Marca Fútbol Noticias",
-        "title": "Gol de Bobadilla (p.p.) (1-0) en el Estados Unidos 4-1 Paraguay",
+        "title": "Gol de Balogun (2-0) en el Estados Unidos 4-1 Paraguay",
         "summary": "",
-        "url": "https://www.marca.com/futbol/mundial/2026/06/13/gol-bobadilla-p-p-1-0-estados-unidos-4-1-paraguay-video.html",
-        "published_at": "2026-06-13T05:28:22.920Z",
-        "fetched_at": "2026-06-13T05:28:22.920Z",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/13/gol-balogun-2-0-estados-unidos-4-1-paraguay-video.html",
+        "published_at": "2026-06-13T05:28:22.919Z",
+        "fetched_at": "2026-06-13T05:28:22.919Z",
         "language": "es",
         "region": "拉美",
         "source_type": "media",
@@ -2959,9 +2887,9 @@
       {
         "source_id": "media_marca_futbol",
         "source_name": "Marca Fútbol",
-        "title": "Gol de Bobadilla (p.p.) (1-0) en el Estados Unidos 4-1 Paraguay",
+        "title": "Gol de Balogun (2-0) en el Estados Unidos 4-1 Paraguay",
         "summary": "",
-        "url": "https://www.marca.com/futbol/mundial/2026/06/13/gol-bobadilla-p-p-1-0-estados-unidos-4-1-paraguay-video.html",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/13/gol-balogun-2-0-estados-unidos-4-1-paraguay-video.html",
         "published_at": "2026-06-13T05:28:21.079Z",
         "fetched_at": "2026-06-13T05:28:21.079Z",
         "language": "es",
@@ -2975,7 +2903,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:22.920Z",
+    "last_updated": "2026-06-13T05:28:22.919Z",
     "source_count_score": 52,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -3068,8 +2996,8 @@
     "topic_title": "小维尼和内马尔都没有：桑巴军团三人组的球衣在官方商店都卖光了；查看名称 |锗",
     "lead_source_title": "Nem Vini Jr., nem Neymar: trio da Seleção esgota camisas na loja oficial; veja os nomes | Ge",
     "lead_source_summary": "Versões com os nomes de Alexsandro, Rayan e Douglas Santos aparecem indisponíveis para compra no site da fornecedora de material esportivo da Seleção Brasileira",
-    "topic_summary": "共有 2 个海外来源提到该话题。在巴西国家队运动装备供应商的网站上，带有亚历山德罗、拉扬和道格拉斯·桑托斯名字的版本似乎无法购买 作者：若昂·维托·多斯桑托斯 — 里约热内卢 06/13/2026 02:13 AM 更新 06/13/2026 安切洛蒂的课程：教练在新闻发布会上用五种语言回答问题 目前最难找到的巴西队球衣不是维尼少年的",
-    "summary_zh": "在巴西国家队运动装备供应商的网站上，带有亚历山德罗、拉扬和道格拉斯·桑托斯名字的版本似乎无法购买 作者：若昂·维托·多斯桑托斯 — 里约热内卢 06/13/2026 02:13 AM 更新 06/13/2026 安切洛蒂的课程：教练在新闻发布会上用五种语言回答问题 目前最难找到的巴西队球衣不是维尼少年的",
+    "topic_summary": "共有 2 个海外来源提到该话题。巴西国家队体育器材供应商的网站上似乎无法购买Alexsandro、Rayan和Douglas Santos的版本。作者： João Vitor dos Santos —里约热内卢06/13/2026 02:13 AM更新日期： 06/13/2026 Ancelotti课程：教练在新闻发布会上用五种语言回答问题。目前最难找到的巴西国家队的衬衫不是Vini Jr的衬衫",
+    "summary_zh": "巴西国家队体育器材供应商的网站上似乎无法购买Alexsandro、Rayan和Douglas Santos的版本。作者： João Vitor dos Santos —里约热内卢06/13/2026 02:13 AM更新日期： 06/13/2026 Ancelotti课程：教练在新闻发布会上用五种语言回答问题。目前最难找到的巴西国家队的衬衫不是Vini Jr的衬衫",
     "heat_score": 42,
     "related_matches": [],
     "related_teams": [
@@ -3144,7 +3072,7 @@
     "topic_id": "topic_fallback_leandro_bacuna_general_discussion_seleção_curaçao_copa_irmãos",
     "topic_key": "leandro bacuna::general_discussion::seleção_curaçao_copa_irmãos",
     "issue_type": "general",
-    "topic_title": "库拉索世界杯队：巴库纳兄弟队历史性首秀| Ge",
+    "topic_title": "库拉索队在世界杯上：巴库纳兄弟带领历史性首秀|锗",
     "lead_source_title": "Seleção de Curaçao na Copa: Irmãos Bacuna lideram estreia histórica | Ge",
     "lead_source_summary": "A seleção de Curaçao na Copa conta com os irmãos Leandro e Juninho Bacuna, que homenageiam o Brasil e lideram a menor nação da história no Mundial.",
     "topic_summary": "共有 2 个海外来源提到该话题。库拉索岛世界杯队包括莱安德罗·巴库纳和儒尼尼奥·巴库纳兄弟，他们向巴西致敬，带领历史上最小的国家队参加世界杯",
@@ -3224,7 +3152,7 @@
     "topic_id": "topic_fallback_阿根廷_general_discussion_técnico_equador_rompeu_atual",
     "topic_key": "阿根廷::general_discussion::técnico_equador_rompeu_atual",
     "issue_type": "general",
-    "topic_title": "厄瓜多尔教练与现任世界冠军决裂| Ge",
+    "topic_title": "厄瓜多尔主帅与现任世界冠军分手锗",
     "lead_source_title": "Técnico do Equador rompeu com atual campeão mundial | Ge",
     "lead_source_summary": "Sebastián Beccacece foi auxiliar de Sampaoli em 2018 e não aprovou que Lionel Scaloni assumisse o comando da Argentina: \"Cada um age de acordo com seus sentimentos\"",
     "topic_summary": "共有 2 个海外来源提到该话题。塞巴斯蒂安·贝卡塞切2018年担任桑保利的助手，不赞成斯卡罗尼执教阿根廷：大家凭感觉行事 ge编辑部 — 圣保罗 06/13/2026 02:00 更新 06/13/2026 厄瓜多尔队是世界杯南美区预选赛中的一大惊喜",
@@ -3457,11 +3385,11 @@
     "topic_id": "topic_fallback_巴西_general_discussion_clima_copa_mundo_veja",
     "topic_key": "巴西::general_discussion::clima_copa_mundo_veja",
     "issue_type": "general",
-    "topic_title": "世界杯氛围：观看用巴西色彩绘制的街道| Ge",
+    "topic_title": "世界杯氛围：看到街道被涂上巴西色彩 |锗",
     "lead_source_title": "Clima de Copa do Mundo: veja ruas pintadas com cores do Brasil | Ge",
     "lead_source_summary": "De homenagens a Weverton até projeto 100% tocado por mulheres, tradição de pintar ruas resiste à modernidade e segue presente na Copa de 2026",
-    "topic_summary": "共有 2 个海外来源提到该话题。从向韦弗顿致敬到 100% 由女性运营的项目，街道绘画传统抵制现代性，并继续出现在 2026 年世界杯中 作者：Eduardo Sousa、Gustavo Di Sarli 和 Sergio Santana — 里约热内卢 13/06/2026 02:00 更新 13/06/2026 马卡帕街道是为世界杯而绘制的；世界杯期间将街道粉刷成绿色和黄色是巴西的传统",
-    "summary_zh": "从向韦弗顿致敬到 100% 由女性运营的项目，街道绘画传统抵制现代性，并继续出现在 2026 年世界杯中 作者：Eduardo Sousa、Gustavo Di Sarli 和 Sergio Santana — 里约热内卢 13/06/2026 02:00 更新 13/06/2026 马卡帕街道是为世界杯而绘制的；世界杯期间将街道粉刷成绿色和黄色是巴西的传统",
+    "topic_summary": "共有 2 个海外来源提到该话题。从向韦弗顿致敬到100 ％由女性经营的项目，街道绘画的传统抵制现代性，并继续出现在2026年世界杯上由Eduardo Sousa， Gustavo Di Sarli和Sergio Santana创作—里约热内卢06/13/2026 02:00 am更新06/13/2026马卡帕的街道是为世界杯绘画的；请参阅世界杯期间绘画街道和装饰绿色和黄色环境是巴西的传统",
+    "summary_zh": "从向韦弗顿致敬到100 ％由女性经营的项目，街道绘画的传统抵制现代性，并继续出现在2026年世界杯上由Eduardo Sousa， Gustavo Di Sarli和Sergio Santana创作—里约热内卢06/13/2026 02:00 am更新06/13/2026马卡帕的街道是为世界杯绘画的；请参阅世界杯期间绘画街道和装饰绿色和黄色环境是巴西的传统",
     "heat_score": 42,
     "related_matches": [],
     "related_teams": [
@@ -3679,15 +3607,15 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_general_discussion_times_several_countries_that",
-    "topic_key": "general_discussion::times_several_countries_that",
+    "topic_id": "topic_fallback_general_discussion_final_power_rankings_before",
+    "topic_key": "general_discussion::final_power_rankings_before",
     "issue_type": "general",
-    "topic_title": "[泰晤士报] 此前支持因凡蒂诺连任的几个国家现在正寻求撤回支持。他们认为，将巴洛贡的禁令推迟到世界杯之后的决定已经越界，因为国际足联可能会操纵比赛结果",
-    "lead_source_title": "[Times] Several countries that had previously backed Infantino’s re-election are now looking to withdraw that support. They believe the decision to defer Balogun’s ban until after the World Cup crossed a line in that Fifa was potentially manipulating the outcome of a match.",
-    "lead_source_summary": "Although Infantino is expected to survive the fallout and be unopposed for re-election next year, the scandal has caused such damage to his standing that he will almost certainly be blocked from achieving his main aims in his final term of office: expanding the Club World Cup and/or making it a biennial tournament. “Political interference in football doesn’t get any stronger than what Trump has done, and Fifa’s attempts at an explanation have been ludicrous,” one senior football source said. “Infantino’s power has dried up, he is very isolated now — he will be a lame-duck president.” submitted by /u/Sparky-moon [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“[泰晤士报] 此前支持因凡蒂诺连任的几个国家现在正寻求撤回支持。他们认为，将巴洛贡的禁令推迟到世界杯之后的决定已经越界，因为国际足联可能会操纵比赛结果”，暂作为话题线索展示。尽管因凡蒂诺有望安然度过余波，并且不会在明年连任，但丑闻对他的地位造成了如此大的损害，以至于他几乎肯定无法实现他最后任期的主要目标：扩大世俱杯规模和/或使其成为两年一度的赛事",
-    "summary_zh": "尽管因凡蒂诺有望安然度过余波，并且不会在明年连任，但丑闻对他的地位造成了如此大的损害，以至于他几乎肯定无法实现他最后任期的主要目标：扩大世俱杯规模和/或使其成为两年一度的赛事",
-    "heat_score": 41,
+    "topic_title": "比赛开始前的世界杯决赛实力排名",
+    "lead_source_title": "Final World Cup Power Rankings before the tournament begins",
+    "lead_source_summary": "Our reporters ranked the top 15 contenders for this summer's top prize as they see it right now.",
+    "topic_summary": "共有 2 个海外来源提到该话题。Our reporters ranked the top 15 contenders for this summers top prize as they see it right now",
+    "summary_zh": "Our reporters ranked the top 15 contenders for this summers top prize as they see it right now",
+    "heat_score": 40,
     "related_matches": [],
     "related_teams": [],
     "related_players": [],
@@ -3697,41 +3625,59 @@
     "languages": [
       "en"
     ],
-    "source_count": 1,
-    "evidence_count": 1,
+    "source_count": 2,
+    "evidence_count": 2,
     "source_names": [
-      "Reddit r/soccer"
+      "ESPN Soccer Worldcup Page",
+      "ESPN Soccer"
     ],
     "sources": [
       {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "[Times] Several countries that had previously backed Infantino’s re-election are now looking to withdraw that support. They believe the decision to defer Balogun’s ban until after the World Cup crossed a line in that Fifa was potentially manipulating the outcome of a match.",
-        "summary": "Although Infantino is expected to survive the fallout and be unopposed for re-election next year, the scandal has caused such damage to his standing that he will almost certainly be blocked from achieving his main aims in his final term of office: expanding the Club World Cup and/or making it a biennial tournament. “Political interference in football doesn’t get any stronger than what Trump has done, and Fifa’s attempts at an explanation have been ludicrous,” one senior football source said. “Infantino’s power has dried up, he is very isolated now — he will be a lame-duck president.” submitted by /u/Sparky-moon [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1utbhjg/times_several_countries_that_had_previously/",
-        "published_at": "2026-07-11T05:41:13.000Z",
-        "fetched_at": "2026-07-11T23:06:23.386Z",
+        "source_id": "media_espn_soccer_worldcup",
+        "source_name": "ESPN Soccer Worldcup Page",
+        "title": "Final World Cup Power Rankings before the tournament begins",
+        "summary": "Our reporters ranked the top 15 contenders for this summer's top prize as they see it right now.",
+        "url": "https://www.espn.com/soccer/story/_/id/49001555/fifa-world-cup-power-rankings-spain-brazil-germany-england-argentina",
+        "published_at": "2026-06-10T07:28:56.631Z",
+        "fetched_at": "2026-06-10T07:28:56.631Z",
         "language": "en",
         "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_espn_soccer",
+        "source_name": "ESPN Soccer",
+        "title": "Final World Cup Power Rankings before the tournament begins",
+        "summary": "",
+        "url": "https://www.espn.com/soccer/story/_/id/49001555/fifa-world-cup-power-rankings-spain-brazil-germany-england-argentina",
+        "published_at": "2026-06-10T07:28:50.161Z",
+        "fetched_at": "2026-06-10T07:28:50.161Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
         "item_type": "article"
       }
     ],
     "topic_phrases": [
       "world_cup"
     ],
-    "last_updated": "2026-07-11T05:41:13.000Z",
-    "source_count_score": 26,
-    "recency_score": 56,
+    "last_updated": "2026-06-10T07:28:56.631Z",
+    "source_count_score": 52,
+    "recency_score": 8,
     "cross_region_score": 35,
-    "source_priority_score": 62,
+    "source_priority_score": 82,
     "match_relevance_score": 42,
     "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
+    "interpretation_basis": "根据公开标题识别",
     "confidence": "中",
     "included_in_frontend": true
   },
@@ -3889,11 +3835,11 @@
     "topic_id": "topic_fallback_gustavo_alfaro_general_discussion_gustavo_alfaro_empezó_copa",
     "topic_key": "gustavo alfaro::general_discussion::gustavo_alfaro_empezó_copa",
     "issue_type": "general",
-    "topic_title": "古斯塔沃·阿尔法罗：世界杯今天开始，但并没有结束",
+    "topic_title": "古斯塔沃·阿尔法罗：世界杯今天开始，没有结束",
     "lead_source_title": "Gustavo Alfaro: \"Hoy empezó la Copa del Mundo, no acabó\"",
     "lead_source_summary": "",
-    "topic_summary": "共有 2 个海外来源提到该话题。古斯塔沃·阿尔法罗：世界杯今天开始，但并没有结束",
-    "summary_zh": "古斯塔沃·阿尔法罗：世界杯今天开始，但并没有结束",
+    "topic_summary": "共有 2 个海外来源提到该话题。古斯塔沃·阿尔法罗：世界杯今天开始，没有结束",
+    "summary_zh": "古斯塔沃·阿尔法罗：世界杯今天开始，没有结束",
     "heat_score": 40,
     "related_matches": [],
     "related_teams": [],
@@ -3968,8 +3914,8 @@
     "topic_title": "美国4-1巴拉圭| FIFA世界杯™：最佳时刻",
     "lead_source_title": "Estados Unidos 4 x 1 Paraguai | Copa do Mundo da FIFA™: melhores momentos",
     "lead_source_summary": "Saiba tudo sobre o jogo Estados Unidos 4 x 1 Paraguai (Copa do Mundo da FIFA™, Rodada 1). Veja no ge os melhores momentos e o placar do jogo, gols e lances da partida.",
-    "topic_summary": "共有 2 个海外来源提到该话题。了解美国4-1比赛巴拉圭（FIFA世界杯™，第1轮）的所有内容",
-    "summary_zh": "了解美国4-1比赛巴拉圭（FIFA世界杯™，第1轮）的所有内容",
+    "topic_summary": "共有 2 个海外来源提到该话题。了解有关美国 4 x 1 巴拉圭（FIFA 世界杯™，第 1 轮）比赛的所有信息",
+    "summary_zh": "了解有关美国 4 x 1 巴拉圭（FIFA 世界杯™，第 1 轮）比赛的所有信息",
     "heat_score": 40,
     "related_matches": [],
     "related_teams": [],
@@ -4045,7 +3991,7 @@
     "lead_source_summary": "He completely fell off…however last world cup I seem to remember he was a big deal. submitted by /u/keri-beri [link] [comments]",
     "topic_summary": "目前仅 1 个海外来源提到“保罗·迪巴拉怎么了？他为什么不为阿根廷队效力？”，暂作为话题线索展示。他完全摔倒了……不过上届世界杯​​我似乎记得他很重要",
     "summary_zh": "他完全摔倒了……不过上届世界杯​​我似乎记得他很重要",
-    "heat_score": 39,
+    "heat_score": 38,
     "related_matches": [],
     "related_teams": [
       "阿根廷"
@@ -4084,130 +4030,7 @@
     "topic_phrases": [],
     "last_updated": "2026-07-10T22:51:56.000Z",
     "source_count_score": 26,
-    "recency_score": 39,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_lamine_yamal_general_discussion_spain_france_spain_contain",
-    "topic_key": "lamine yamal::general_discussion::spain_france_spain_contain",
-    "issue_type": "general",
-    "topic_title": "西班牙VS法国：西班牙能否遏制姆巴佩和法国锋线？",
-    "lead_source_title": "Spain vs France: Can Spain contain Mbappé and France’s front line?",
-    "lead_source_summary": "Spain controlled most of the match against Belgium, but conceding showed they can still be vulnerable when they lose the ball and get caught in transition. They also created chances that should have been finished, especially through Lamine Yamal, and against France those missed opportunities could be costly. France’s attack with Mbappé, Dembélé, Olise, and Doué is much more dangerous in open space, so Spain cannot afford defensive mistakes or waste clear chances. They will need to control the midfield, react quickly after losing possession, and be more clinical in front of goal. Do you think Spain can stop France’s attack and finally finish the chances they create? submitted by /u/aikoaya_ [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“西班牙VS法国：西班牙能否遏制姆巴佩和法国锋线？”，暂作为话题线索展示。西班牙在对阵比利时的比赛中控制了大部分比赛，但失球表明他们在丢球并陷入攻防转换时仍然很脆弱",
-    "summary_zh": "西班牙在对阵比利时的比赛中控制了大部分比赛，但失球表明他们在丢球并陷入攻防转换时仍然很脆弱",
-    "heat_score": 39,
-    "related_matches": [],
-    "related_teams": [
-      "比利时",
-      "法国",
-      "西班牙"
-    ],
-    "related_players": [
-      "Lamine Yamal"
-    ],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/football"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_football",
-        "source_name": "Reddit r/football",
-        "title": "Spain vs France: Can Spain contain Mbappé and France’s front line?",
-        "summary": "Spain controlled most of the match against Belgium, but conceding showed they can still be vulnerable when they lose the ball and get caught in transition. They also created chances that should have been finished, especially through Lamine Yamal, and against France those missed opportunities could be costly. France’s attack with Mbappé, Dembélé, Olise, and Doué is much more dangerous in open space, so Spain cannot afford defensive mistakes or waste clear chances. They will need to control the midfield, react quickly after losing possession, and be more clinical in front of goal. Do you think Spain can stop France’s attack and finally finish the chances they create? submitted by /u/aikoaya_ [link] [comments]",
-        "url": "https://www.reddit.com/r/football/comments/1ut1xna/spain_vs_france_can_spain_contain_mbapp%C3%A9_and/",
-        "published_at": "2026-07-10T22:13:48.000Z",
-        "fetched_at": "2026-07-11T04:32:00.802Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Lamine Yamal"
-    ],
-    "last_updated": "2026-07-10T22:13:48.000Z",
-    "source_count_score": 26,
-    "recency_score": 38,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_比利时_general_discussion_post-match_thread_spain_belgium",
-    "topic_key": "比利时::general_discussion::post-match_thread_spain_belgium",
-    "issue_type": "general",
-    "topic_title": "赛后主题：西班牙 2-1 比利时 |世界杯|四分之一决赛",
-    "lead_source_title": "Post-Match Thread: Spain 2-1 Belgium | World Cup | Quarter-finals",
-    "lead_source_summary": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“赛后主题：西班牙 2-1 比利时 |世界杯|四分之一决赛”，暂作为话题线索展示。这篇文章包含旧 Reddit 不支持的内容",
-    "summary_zh": "这篇文章包含旧 Reddit 不支持的内容",
-    "heat_score": 38,
-    "related_matches": [],
-    "related_teams": [
-      "比利时",
-      "西班牙"
-    ],
-    "related_players": [],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/football"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_football",
-        "source_name": "Reddit r/football",
-        "title": "Post-Match Thread: Spain 2-1 Belgium | World Cup | Quarter-finals",
-        "summary": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
-        "url": "https://www.reddit.com/r/football/comments/1ut01s8/postmatch_thread_spain_21_belgium_world_cup/",
-        "published_at": "2026-07-10T21:00:09.000Z",
-        "fetched_at": "2026-07-11T04:32:00.802Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Post-Match Thread"
-    ],
-    "last_updated": "2026-07-10T21:00:09.000Z",
-    "source_count_score": 26,
-    "recency_score": 35,
+    "recency_score": 37,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
@@ -4269,7 +4092,130 @@
     ],
     "last_updated": "2026-07-10T21:33:31.000Z",
     "source_count_score": 26,
-    "recency_score": 36,
+    "recency_score": 33,
+    "cross_region_score": 35,
+    "source_priority_score": 62,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_lamine_yamal_general_discussion_spain_france_spain_contain",
+    "topic_key": "lamine yamal::general_discussion::spain_france_spain_contain",
+    "issue_type": "general",
+    "topic_title": "西班牙VS法国：西班牙能否遏制姆巴佩和法国锋线？",
+    "lead_source_title": "Spain vs France: Can Spain contain Mbappé and France’s front line?",
+    "lead_source_summary": "Spain controlled most of the match against Belgium, but conceding showed they can still be vulnerable when they lose the ball and get caught in transition. They also created chances that should have been finished, especially through Lamine Yamal, and against France those missed opportunities could be costly. France’s attack with Mbappé, Dembélé, Olise, and Doué is much more dangerous in open space, so Spain cannot afford defensive mistakes or waste clear chances. They will need to control the midfield, react quickly after losing possession, and be more clinical in front of goal. Do you think Spain can stop France’s attack and finally finish the chances they create? submitted by /u/aikoaya_ [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“西班牙VS法国：西班牙能否遏制姆巴佩和法国锋线？”，暂作为话题线索展示。西班牙在对阵比利时的比赛中控制了大部分比赛，但失球表明他们在丢球并陷入攻防转换时仍然很脆弱",
+    "summary_zh": "西班牙在对阵比利时的比赛中控制了大部分比赛，但失球表明他们在丢球并陷入攻防转换时仍然很脆弱",
+    "heat_score": 38,
+    "related_matches": [],
+    "related_teams": [
+      "比利时",
+      "法国",
+      "西班牙"
+    ],
+    "related_players": [
+      "Lamine Yamal"
+    ],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Reddit r/football"
+    ],
+    "sources": [
+      {
+        "source_id": "forum_reddit_football",
+        "source_name": "Reddit r/football",
+        "title": "Spain vs France: Can Spain contain Mbappé and France’s front line?",
+        "summary": "Spain controlled most of the match against Belgium, but conceding showed they can still be vulnerable when they lose the ball and get caught in transition. They also created chances that should have been finished, especially through Lamine Yamal, and against France those missed opportunities could be costly. France’s attack with Mbappé, Dembélé, Olise, and Doué is much more dangerous in open space, so Spain cannot afford defensive mistakes or waste clear chances. They will need to control the midfield, react quickly after losing possession, and be more clinical in front of goal. Do you think Spain can stop France’s attack and finally finish the chances they create? submitted by /u/aikoaya_ [link] [comments]",
+        "url": "https://www.reddit.com/r/football/comments/1ut1xna/spain_vs_france_can_spain_contain_mbapp%C3%A9_and/",
+        "published_at": "2026-07-10T22:13:48.000Z",
+        "fetched_at": "2026-07-11T04:32:00.802Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "Lamine Yamal"
+    ],
+    "last_updated": "2026-07-10T22:13:48.000Z",
+    "source_count_score": 26,
+    "recency_score": 35,
+    "cross_region_score": 35,
+    "source_priority_score": 62,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_比利时_general_discussion_post-match_thread_spain_belgium",
+    "topic_key": "比利时::general_discussion::post-match_thread_spain_belgium",
+    "issue_type": "general",
+    "topic_title": "赛后主题：西班牙 2-1 比利时 |世界杯|四分之一决赛",
+    "lead_source_title": "Post-Match Thread: Spain 2-1 Belgium | World Cup | Quarter-finals",
+    "lead_source_summary": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“赛后主题：西班牙 2-1 比利时 |世界杯|四分之一决赛”，暂作为话题线索展示。这篇文章包含旧 Reddit 不支持的内容",
+    "summary_zh": "这篇文章包含旧 Reddit 不支持的内容",
+    "heat_score": 37,
+    "related_matches": [],
+    "related_teams": [
+      "比利时",
+      "西班牙"
+    ],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Reddit r/football"
+    ],
+    "sources": [
+      {
+        "source_id": "forum_reddit_football",
+        "source_name": "Reddit r/football",
+        "title": "Post-Match Thread: Spain 2-1 Belgium | World Cup | Quarter-finals",
+        "summary": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
+        "url": "https://www.reddit.com/r/football/comments/1ut01s8/postmatch_thread_spain_21_belgium_world_cup/",
+        "published_at": "2026-07-10T21:00:09.000Z",
+        "fetched_at": "2026-07-11T04:32:00.802Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "Post-Match Thread"
+    ],
+    "last_updated": "2026-07-10T21:00:09.000Z",
+    "source_count_score": 26,
+    "recency_score": 32,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
@@ -4287,7 +4233,7 @@
     "lead_source_summary": "feels like for the first time in a few WCs, there is far and away one team clear of the others - France. are the any good examples of teams that either came into the World Cup or in the built up to the final were the clear favourites but didn’t win it? submitted by /u/Known-Swim-3654 [link] [comments]",
     "topic_summary": "目前仅 1 个海外来源提到“明显热门球队未能赢得世界杯的例子”，暂作为话题线索展示。感觉就像是在几届世界杯中第一次有一支球队远远领先于其他球队——法国队",
     "summary_zh": "感觉就像是在几届世界杯中第一次有一支球队远远领先于其他球队——法国队",
-    "heat_score": 38,
+    "heat_score": 37,
     "related_matches": [],
     "related_teams": [
       "法国"
@@ -4326,7 +4272,7 @@
     "topic_phrases": [],
     "last_updated": "2026-07-10T20:55:15.000Z",
     "source_count_score": 26,
-    "recency_score": 34,
+    "recency_score": 32,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
@@ -4344,7 +4290,7 @@
     "lead_source_summary": "I got france winning on a very exciting and high scoring game 4 - 3. submitted by /u/Historical-Ring-4196 [link] [comments]",
     "topic_summary": "目前仅 1 个海外来源提到“法国 vs 西班牙 - 赛前讨论”，暂作为话题线索展示。我让法国队在一场非常激动人心的高分比赛中以 4 - 3 获胜",
     "summary_zh": "我让法国队在一场非常激动人心的高分比赛中以 4 - 3 获胜",
-    "heat_score": 38,
+    "heat_score": 37,
     "related_matches": [],
     "related_teams": [
       "法国",
@@ -4384,81 +4330,10 @@
     "topic_phrases": [],
     "last_updated": "2026-07-10T21:06:47.000Z",
     "source_count_score": 26,
-    "recency_score": 35,
+    "recency_score": 32,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_scott_mctominay_general_discussion_scott_mctominay_巴西_vs_摩洛哥",
-    "topic_key": "scott_mctominay::general_discussion::scott_mctominay::巴西_vs_摩洛哥",
-    "issue_type": "injury_training",
-    "topic_title": "世界杯上的苏格兰：史蒂夫·克拉克准备在重返足球最大舞台时做一些特别的事情",
-    "lead_source_title": "Scotland at World Cup: Steve Clarke ready to 'do something special' on return to football's biggest stage",
-    "lead_source_summary": "Scotland are back at the World Cup for the first time since 1998; Steve Clarkes side face Haiti on Sunday (2am, UK time) before games against Morocco and Brazil in Group C; Scott McTominay is fit for the opening match, but Scott McKenna misses out",
-    "topic_summary": "目前仅 1 个海外来源提到“世界杯上的苏格兰：史蒂夫·克拉克准备在重返足球最大舞台时做一些特别的事情”，暂作为话题线索展示。QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
-    "summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
-    "heat_score": 36,
-    "related_matches": [
-      "M006",
-      "M007",
-      "M030",
-      "M031",
-      "M051",
-      "M052"
-    ],
-    "related_teams": [
-      "巴西",
-      "摩洛哥",
-      "海地",
-      "苏格兰"
-    ],
-    "related_players": [
-      "Scott McTominay"
-    ],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Sky Sports Football News Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_sky_sports_football_news",
-        "source_name": "Sky Sports Football News Page",
-        "title": "Scotland at World Cup: Steve Clarke ready to 'do something special' on return to football's biggest stage",
-        "summary": "Scotland are back at the World Cup for the first time since 1998; Steve Clarkes side face Haiti on Sunday (2am, UK time) before games against Morocco and Brazil in Group C; Scott McTominay is fit for the opening match, but Scott McKenna misses out",
-        "url": "https://www.skysports.com/football/news/11095/13553435/scotland-at-world-cup-steve-clarke-ready-to-do-something-special-on-return-to-footballs-biggest-stage",
-        "published_at": "2026-06-13T05:28:14.503Z",
-        "fetched_at": "2026-06-13T05:28:14.503Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Scott McTominay"
-    ],
-    "last_updated": "2026-06-13T05:28:14.503Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 92,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题识别",
     "confidence": "低",
@@ -6056,81 +5931,14 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_son_heung-min_general_discussion_états-unis_lancent_leurs_débuts",
-    "topic_key": "son heung-min::general_discussion::états-unis_lancent_leurs_débuts",
-    "issue_type": "general",
-    "topic_title": "美国队首次亮相世界杯对阵巴拉圭，福拉林·巴洛贡双打射手",
-    "lead_source_title": "Les États-Unis lancent leurs débuts dans la Coupe du monde contre le Paraguay, Folarin Balogun double buteur",
-    "lead_source_summary": "Sans trembler, les États-Unis se sont facilement imposés face au Paraguay pour leurs débuts dans « leur » Coupe du monde, ce samedi à Los Angeles (4-1). L'attaquant monégasque Folarin Balogun s'est distingué avec un doublé.",
-    "topic_summary": "目前仅 1 个海外来源提到“美国队首次亮相世界杯对阵巴拉圭，福拉林·巴洛贡双打射手”，暂作为话题线索展示。在没有动摇的情况下，美国轻松赢得了本周六在洛杉矶举行的“他们的”世界杯上首次亮相的巴拉圭（4-1）",
-    "summary_zh": "在没有动摇的情况下，美国轻松赢得了本周六在洛杉矶举行的“他们的”世界杯上首次亮相的巴拉圭（4-1）",
-    "heat_score": 36,
-    "related_matches": [
-      "M004"
-    ],
-    "related_teams": [
-      "美国",
-      "巴拉圭"
-    ],
-    "related_players": [
-      "Son Heung-min",
-      "Christian Pulisic",
-      "Weston McKennie"
-    ],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "L'Équipe Football Coupe du Monde"
-    ],
-    "sources": [
-      {
-        "source_id": "media_lequipe_football_coupedumonde",
-        "source_name": "L'Équipe Football Coupe du Monde",
-        "title": "Les États-Unis lancent leurs débuts dans la Coupe du monde contre le Paraguay, Folarin Balogun double buteur",
-        "summary": "Sans trembler, les États-Unis se sont facilement imposés face au Paraguay pour leurs débuts dans « leur » Coupe du monde, ce samedi à Los Angeles (4-1). L'attaquant monégasque Folarin Balogun s'est distingué avec un doublé.",
-        "url": "https://www.lequipe.fr/Football/Actualites/Les-etats-unis-lancent-idealement-leur-coupe-du-monde-contre-le-paraguay-folarin-balogun-double-buteur/1684403",
-        "published_at": "2026-06-13T05:28:26.753Z",
-        "fetched_at": "2026-06-13T05:28:26.753Z",
-        "language": "fr",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Son Heung-min",
-      "SoFi 球场"
-    ],
-    "last_updated": "2026-06-13T05:28:26.753Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 92,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_fallback_波黑_general_discussion_mundial_resultados_posiciones_cómo",
     "topic_key": "波黑::general_discussion::mundial_resultados_posiciones_cómo",
     "issue_type": "general",
-    "topic_title": "2026年世界杯：结果、位置以及比赛如何继续",
+    "topic_title": "2026 年世界杯：结果、排名以及赛事如何继续",
     "lead_source_title": "Mundial 2026: resultados, posiciones y cómo sigue el torneo",
     "lead_source_summary": "El viernes comenzó con el empate 1-1 entre Canadá y Bosnia. Y terminó con el baile de Estados Unidos a Paraguay. Así continúa toda la acción.",
-    "topic_summary": "目前仅 1 个海外来源提到“2026年世界杯：结果、位置以及比赛如何继续”，暂作为话题线索展示。星期五开始加拿大和波斯尼亚之间的1-1平局",
-    "summary_zh": "星期五开始加拿大和波斯尼亚之间的1-1平局",
+    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯：结果、排名以及赛事如何继续”，暂作为话题线索展示。周五开始，加拿大与波斯尼亚 1-1 战平",
+    "summary_zh": "周五开始，加拿大与波斯尼亚 1-1 战平",
     "heat_score": 36,
     "related_matches": [
       "M050"
@@ -6242,126 +6050,6 @@
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 92,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_比利时_general_discussion_match_thread_spain_belgium",
-    "topic_key": "比利时::general_discussion::match_thread_spain_belgium",
-    "issue_type": "general",
-    "topic_title": "比赛主题：西班牙 vs 比利时 |世界杯|四分之一决赛 |世界标准时间 7 月 10 日 19:00",
-    "lead_source_title": "Match Thread: Spain vs Belgium | World Cup | Quarter-finals | 10 Jul 19:00 UTC",
-    "lead_source_summary": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“比赛主题：西班牙 vs 比利时 |世界杯|四分之一决赛 |世界标准时间 7 月 10 日 19:00”，暂作为话题线索展示。这篇文章包含旧 Reddit 不支持的内容",
-    "summary_zh": "这篇文章包含旧 Reddit 不支持的内容",
-    "heat_score": 36,
-    "related_matches": [],
-    "related_teams": [
-      "比利时",
-      "西班牙"
-    ],
-    "related_players": [],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/football"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_football",
-        "source_name": "Reddit r/football",
-        "title": "Match Thread: Spain vs Belgium | World Cup | Quarter-finals | 10 Jul 19:00 UTC",
-        "summary": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
-        "url": "https://www.reddit.com/r/football/comments/1usv216/match_thread_spain_vs_belgium_world_cup/",
-        "published_at": "2026-07-10T17:57:09.000Z",
-        "fetched_at": "2026-07-11T04:32:00.802Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Match Thread"
-    ],
-    "last_updated": "2026-07-10T17:57:09.000Z",
-    "source_count_score": 26,
-    "recency_score": 27,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_墨西哥_general_discussion_does_argentina_always_somehow",
-    "topic_key": "墨西哥::general_discussion::does_argentina_always_somehow",
-    "issue_type": "general",
-    "topic_title": "阿根廷队总是能达到对手的水平吗？",
-    "lead_source_title": "Does argentina always somehow play at their opponents level ?",
-    "lead_source_summary": "I feel that they always struggle more than what they should against weaker teams like Mexico or Australia while being pretty competitive even when they should ideally be defeated 4-1 like against France in 2018. submitted by /u/ronweasly9 [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“阿根廷队总是能达到对手的水平吗？”，暂作为话题线索展示。我觉得他们在对阵墨西哥或澳大利亚等实力较弱的球队时总是表现得比他们应该做的还要挣扎，尽管他们在理想情况下应该像 2018 年对阵法国那样 4-1 被击败",
-    "summary_zh": "我觉得他们在对阵墨西哥或澳大利亚等实力较弱的球队时总是表现得比他们应该做的还要挣扎，尽管他们在理想情况下应该像 2018 年对阵法国那样 4-1 被击败",
-    "heat_score": 36,
-    "related_matches": [],
-    "related_teams": [
-      "墨西哥",
-      "澳大利亚",
-      "法国",
-      "阿根廷"
-    ],
-    "related_players": [],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/football"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_football",
-        "source_name": "Reddit r/football",
-        "title": "Does argentina always somehow play at their opponents level ?",
-        "summary": "I feel that they always struggle more than what they should against weaker teams like Mexico or Australia while being pretty competitive even when they should ideally be defeated 4-1 like against France in 2018. submitted by /u/ronweasly9 [link] [comments]",
-        "url": "https://www.reddit.com/r/football/comments/1usumyu/does_argentina_always_somehow_play_at_their/",
-        "published_at": "2026-07-10T17:42:23.000Z",
-        "fetched_at": "2026-07-11T04:32:00.802Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-10T17:42:23.000Z",
-    "source_count_score": 26,
-    "recency_score": 26,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题识别",
     "confidence": "低",
@@ -8090,6 +7778,126 @@
     "included_in_frontend": true
   },
   {
+    "topic_id": "topic_fallback_比利时_general_discussion_match_thread_spain_belgium",
+    "topic_key": "比利时::general_discussion::match_thread_spain_belgium",
+    "issue_type": "general",
+    "topic_title": "比赛主题：西班牙 vs 比利时 |世界杯|四分之一决赛 |世界标准时间 7 月 10 日 19:00",
+    "lead_source_title": "Match Thread: Spain vs Belgium | World Cup | Quarter-finals | 10 Jul 19:00 UTC",
+    "lead_source_summary": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“比赛主题：西班牙 vs 比利时 |世界杯|四分之一决赛 |世界标准时间 7 月 10 日 19:00”，暂作为话题线索展示。这篇文章包含旧 Reddit 不支持的内容",
+    "summary_zh": "这篇文章包含旧 Reddit 不支持的内容",
+    "heat_score": 35,
+    "related_matches": [],
+    "related_teams": [
+      "比利时",
+      "西班牙"
+    ],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Reddit r/football"
+    ],
+    "sources": [
+      {
+        "source_id": "forum_reddit_football",
+        "source_name": "Reddit r/football",
+        "title": "Match Thread: Spain vs Belgium | World Cup | Quarter-finals | 10 Jul 19:00 UTC",
+        "summary": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
+        "url": "https://www.reddit.com/r/football/comments/1usv216/match_thread_spain_vs_belgium_world_cup/",
+        "published_at": "2026-07-10T17:57:09.000Z",
+        "fetched_at": "2026-07-11T04:32:00.802Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "Match Thread"
+    ],
+    "last_updated": "2026-07-10T17:57:09.000Z",
+    "source_count_score": 26,
+    "recency_score": 24,
+    "cross_region_score": 35,
+    "source_priority_score": 62,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_墨西哥_general_discussion_does_argentina_always_somehow",
+    "topic_key": "墨西哥::general_discussion::does_argentina_always_somehow",
+    "issue_type": "general",
+    "topic_title": "阿根廷队总是能达到对手的水平吗？",
+    "lead_source_title": "Does argentina always somehow play at their opponents level ?",
+    "lead_source_summary": "I feel that they always struggle more than what they should against weaker teams like Mexico or Australia while being pretty competitive even when they should ideally be defeated 4-1 like against France in 2018. submitted by /u/ronweasly9 [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“阿根廷队总是能达到对手的水平吗？”，暂作为话题线索展示。我觉得他们在对阵墨西哥或澳大利亚等实力较弱的球队时总是表现得比他们应该做的还要挣扎，尽管他们在理想情况下应该像 2018 年对阵法国那样 4-1 被击败",
+    "summary_zh": "我觉得他们在对阵墨西哥或澳大利亚等实力较弱的球队时总是表现得比他们应该做的还要挣扎，尽管他们在理想情况下应该像 2018 年对阵法国那样 4-1 被击败",
+    "heat_score": 35,
+    "related_matches": [],
+    "related_teams": [
+      "墨西哥",
+      "澳大利亚",
+      "法国",
+      "阿根廷"
+    ],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Reddit r/football"
+    ],
+    "sources": [
+      {
+        "source_id": "forum_reddit_football",
+        "source_name": "Reddit r/football",
+        "title": "Does argentina always somehow play at their opponents level ?",
+        "summary": "I feel that they always struggle more than what they should against weaker teams like Mexico or Australia while being pretty competitive even when they should ideally be defeated 4-1 like against France in 2018. submitted by /u/ronweasly9 [link] [comments]",
+        "url": "https://www.reddit.com/r/football/comments/1usumyu/does_argentina_always_somehow_play_at_their/",
+        "published_at": "2026-07-10T17:42:23.000Z",
+        "fetched_at": "2026-07-11T04:32:00.802Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-07-10T17:42:23.000Z",
+    "source_count_score": 26,
+    "recency_score": 24,
+    "cross_region_score": 35,
+    "source_priority_score": 62,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
     "topic_id": "topic_fallback_挪威_general_discussion_players_have_choice_shorts",
     "topic_key": "挪威::general_discussion::players_have_choice_shorts",
     "issue_type": "general",
@@ -8137,7 +7945,7 @@
     "topic_phrases": [],
     "last_updated": "2026-07-10T16:52:59.000Z",
     "source_count_score": 26,
-    "recency_score": 24,
+    "recency_score": 22,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
@@ -8204,7 +8012,7 @@
     "topic_phrases": [],
     "last_updated": "2026-07-10T11:51:20.000Z",
     "source_count_score": 26,
-    "recency_score": 12,
+    "recency_score": 9,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 92,
@@ -9073,8 +8881,8 @@
     "topic_title": "世界杯球衣排名： 2026年哪些球队看起来最好？",
     "lead_source_title": "World Cup kit ranking: Which teams will look best in 2026?",
     "lead_source_summary": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits! Here they all are, ranked from worst to first.",
-    "topic_summary": "目前仅 1 个海外来源提到“世界杯球衣排名： 2026年哪些球队看起来最好？”，暂作为话题线索展示。The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits!",
-    "summary_zh": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits!",
+    "topic_summary": "目前仅 1 个海外来源提到“世界杯球衣排名： 2026年哪些球队看起来最好？”，暂作为话题线索展示。2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
+    "summary_zh": "2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -9122,6 +8930,181 @@
       "Lionel Messi"
     ],
     "last_updated": "2026-06-10T07:28:50.161Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_lamine_yamal_general_discussion_barcelona_keep_dump_what",
+    "topic_key": "lamine yamal::general_discussion::barcelona_keep_dump_what",
+    "issue_type": "general",
+    "topic_title": "巴塞罗那保持或转储：西甲冠军必须解决什么问题？",
+    "lead_source_title": "Barcelona Keep or Dump: What must LaLiga champions address?",
+    "lead_source_summary": "How can Barcelona navigate their financial restrictions to reach even greater heights? Gab Marcotti and Sam Marsden break it down.",
+    "topic_summary": "目前仅 1 个海外来源提到“巴塞罗那保持或转储：西甲冠军必须解决什么问题？”，暂作为话题线索展示。巴塞罗那如何才能克服财务限制，达到更高的境界？",
+    "summary_zh": "巴塞罗那如何才能克服财务限制，达到更高的境界？",
+    "heat_score": 33,
+    "related_matches": [],
+    "related_teams": [
+      "西班牙"
+    ],
+    "related_players": [
+      "Lamine Yamal"
+    ],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "ESPN Soccer"
+    ],
+    "sources": [
+      {
+        "source_id": "media_espn_soccer",
+        "source_name": "ESPN Soccer",
+        "title": "Barcelona Keep or Dump: What must LaLiga champions address?",
+        "summary": "How can Barcelona navigate their financial restrictions to reach even greater heights? Gab Marcotti and Sam Marsden break it down.",
+        "url": "https://www.espn.com/soccer/story/_/id/48976007/barcelona-keep-dump-summer-transfers-lewandowski-raphinha-marcus-rashford-joao-cancelo",
+        "published_at": "2026-06-10T07:28:50.161Z",
+        "fetched_at": "2026-06-10T07:28:50.161Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "Lamine Yamal"
+    ],
+    "last_updated": "2026-06-10T07:28:50.161Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_海地_general_discussion_steve_clarke_what_would",
+    "topic_key": "海地::general_discussion::steve_clarke_what_would",
+    "issue_type": "general",
+    "topic_title": "你是史蒂夫·克拉克……你会对海地做些什么？",
+    "lead_source_title": "You are Steve Clarke... what would you do against Haiti?",
+    "lead_source_summary": "You are Steve Clarke... what would you do against Haiti?",
+    "topic_summary": "目前仅 1 个海外来源提到“你是史蒂夫·克拉克……你会对海地做些什么？”，暂作为话题线索展示。您会对海地做些什么？",
+    "summary_zh": "您会对海地做些什么？",
+    "heat_score": 33,
+    "related_matches": [],
+    "related_teams": [
+      "海地"
+    ],
+    "related_players": [],
+    "regions": [
+      "欧洲"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "BBC Sport Football Worldcup Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_bbc_sport_football_worldcup",
+        "source_name": "BBC Sport Football Worldcup Page",
+        "title": "You are Steve Clarke... what would you do against Haiti?",
+        "summary": "You are Steve Clarke... what would you do against Haiti?",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cy06gkd521wo",
+        "published_at": "2026-06-13T05:28:02.659Z",
+        "fetched_at": "2026-06-13T05:28:02.659Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-13T05:28:02.659Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_巴西_general_discussion_brasil_estados_unidos_resultado",
+    "topic_key": "巴西::general_discussion::brasil_estados_unidos_resultado",
+    "issue_type": "general",
+    "topic_title": "美国队热身赛击败巴西后带着信心进入世界杯",
+    "lead_source_title": "Brasil 0-1 Estados Unidos (9 de Jun., 2026) Resultado Final - ESPN DEPORTES",
+    "lead_source_summary": "Resumen del partido Brasil vs. Estados Unidos Amistoso Internacional Femenino resultado final 0-1, jugado el 9 de Junio, 2026 en ESPN DEPORTES.",
+    "topic_summary": "目前仅 1 个海外来源提到“Brasil 0-1 Estados Unidos (9 de Jun., 2026) Resultado Final - ESPN DEPORTES”，暂作为话题线索展示。Resumen del partido Brasil vs",
+    "summary_zh": "Resumen del partido Brasil vs",
+    "heat_score": 33,
+    "related_matches": [],
+    "related_teams": [
+      "巴西"
+    ],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "ESPN Deportes Fútbol"
+    ],
+    "sources": [
+      {
+        "source_id": "media_espn_deportes_futbol",
+        "source_name": "ESPN Deportes Fútbol",
+        "title": "Brasil 0-1 Estados Unidos (9 de Jun., 2026) Resultado Final - ESPN DEPORTES",
+        "summary": "Resumen del partido Brasil vs. Estados Unidos Amistoso Internacional Femenino resultado final 0-1, jugado el 9 de Junio, 2026 en ESPN DEPORTES.",
+        "url": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401870097",
+        "published_at": "2026-06-10T07:29:44.003Z",
+        "fetched_at": "2026-06-10T07:29:44.003Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-10T07:29:44.003Z",
     "source_count_score": 26,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -9194,82 +9177,21 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_rodri_general_discussion_rodrigo_paul_argentina_siempre",
-    "topic_key": "rodri::general_discussion::rodrigo_paul_argentina_siempre",
+    "topic_id": "topic_fallback_son_heung-min_general_discussion_dificultad_grupo_mundialista_ecuador",
+    "topic_key": "son heung-min::general_discussion::dificultad_grupo_mundialista_ecuador",
     "issue_type": "general",
-    "topic_title": "罗德里戈·德保罗：阿根廷始终是候选者，人们很兴奋",
-    "lead_source_title": "Rodrigo De Paul: \"Argentina siempre es candidata, la gente se ilusiona\"",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“罗德里戈·德保罗：阿根廷始终是候选者，人们很兴奋”，暂作为话题线索展示。罗德里戈·德保罗：阿根廷始终是候选者，人们很兴奋",
-    "summary_zh": "罗德里戈·德保罗：阿根廷始终是候选者，人们很兴奋",
+    "topic_title": "厄瓜多尔世界杯小组赛难度",
+    "lead_source_title": "La dificultad del grupo mundialista de Ecuador",
+    "lead_source_summary": "La Tri tendrá una difícil tarea para alcanzar la próxima ronda del torneo más importante de selecciones.",
+    "topic_summary": "目前仅 1 个海外来源提到“厄瓜多尔世界杯小组赛难度”，暂作为话题线索展示。La Tri tendrá una difícil tarea para alcanzar la próxima ronda del torneo más importante de selecciones",
+    "summary_zh": "La Tri tendrá una difícil tarea para alcanzar la próxima ronda del torneo más importante de selecciones",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
-      "阿根廷"
+      "厄瓜多尔"
     ],
     "related_players": [
-      "Rodri"
-    ],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "ESPN Deportes Fútbol"
-    ],
-    "sources": [
-      {
-        "source_id": "media_espn_deportes_futbol",
-        "source_name": "ESPN Deportes Fútbol",
-        "title": "Rodrigo De Paul: \"Argentina siempre es candidata, la gente se ilusiona\"",
-        "summary": "",
-        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818491/rodrigo-de-paul-argentina-siempre-es-candidata-la-gente-se-ilusiona",
-        "published_at": "2026-06-10T07:29:44.003Z",
-        "fetched_at": "2026-06-10T07:29:44.003Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Rodrigo De Paul"
-    ],
-    "last_updated": "2026-06-10T07:29:44.003Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_lionel_messi_general_discussion_marca_record_logró_messi",
-    "topic_key": "lionel messi::general_discussion::marca_record_logró_messi",
-    "issue_type": "general",
-    "topic_title": "梅西在对阵阿根廷的友谊赛中创下的纪录。冰岛",
-    "lead_source_title": "La marca record que logró Messi en el amistoso de Argentina vs. Islandia",
-    "lead_source_summary": "A sus 38 años, el astro argentino continúa tachando hitos en su exitosa trayectoria.",
-    "topic_summary": "目前仅 1 个海外来源提到“梅西在对阵阿根廷的友谊赛中创下的纪录。冰岛”，暂作为话题线索展示。38 岁的阿根廷球星继续在他成功的职业生涯中跨越里程碑",
-    "summary_zh": "38 岁的阿根廷球星继续在他成功的职业生涯中跨越里程碑",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "阿根廷"
-    ],
-    "related_players": [
-      "Lionel Messi"
+      "Son Heung-min"
     ],
     "regions": [
       "拉美"
@@ -9286,9 +9208,9 @@
       {
         "source_id": "media_espn_deportes_futbol_mundial",
         "source_name": "ESPN Deportes Fútbol Mundial",
-        "title": "La marca record que logró Messi en el amistoso de Argentina vs. Islandia",
-        "summary": "A sus 38 años, el astro argentino continúa tachando hitos en su exitosa trayectoria.",
-        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818606/messi-record-argentina-vs-islandia-amistoso-mundial-2026",
+        "title": "La dificultad del grupo mundialista de Ecuador",
+        "summary": "La Tri tendrá una difícil tarea para alcanzar la próxima ronda del torneo más importante de selecciones.",
+        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818636/la-dificultad-del-grupo-mundialista-de-ecuador",
         "published_at": "2026-06-10T07:29:54.739Z",
         "fetched_at": "2026-06-10T07:29:54.739Z",
         "language": "es",
@@ -9302,7 +9224,7 @@
       }
     ],
     "topic_phrases": [
-      "Lionel Messi"
+      "Son Heung-min"
     ],
     "last_updated": "2026-06-10T07:29:54.739Z",
     "source_count_score": 26,
@@ -9316,14 +9238,14 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_乌拉圭_general_discussion_facundo_pellistri_siempre_dice",
-    "topic_key": "乌拉圭::general_discussion::facundo_pellistri_siempre_dice",
+    "topic_id": "topic_fallback_乌拉圭_general_discussion_maxi_araújo_gente_está",
+    "topic_key": "乌拉圭::general_discussion::maxi_araújo_gente_está",
     "issue_type": "general",
-    "topic_title": "佩利斯特里：总是有人说乌拉圭不是候选国，但没有国家队愿意面对我们",
-    "lead_source_title": "Facundo Pellistri: \"Siempre se dice que Uruguay no es candidato, pero ninguna Selección nos quiere enfrentar\"",
-    "lead_source_summary": "El extremo de Uruguay habló en la partida de la Selección rumbo a Playa del Carmen, sede de la concentración Celeste en el Mundial 2026.",
-    "topic_summary": "目前仅 1 个海外来源提到“佩利斯特里：总是有人说乌拉圭不是候选国，但没有国家队愿意面对我们”，暂作为话题线索展示。这位乌拉圭边锋在国家队出发前往卡门海滩时发表讲话，这里是 2026 年世界杯塞莱斯特集中营的总部",
-    "summary_zh": "这位乌拉圭边锋在国家队出发前往卡门海滩时发表讲话，这里是 2026 年世界杯塞莱斯特集中营的总部",
+    "topic_title": "Maxi Araújo：人们和我们一样兴奋",
+    "lead_source_title": "Maxi Araújo: \"La gente está tan ilusionada como nosotros\"",
+    "lead_source_summary": "El extremo izquierdo de Uruguay habló en la partida de la Selección rumbo a Playa del Carmen, sede de la concentración Celeste en el Mundial 2026.",
+    "topic_summary": "目前仅 1 个海外来源提到“Maxi Araújo：人们和我们一样兴奋”，暂作为话题线索展示。El extremo izquierdo de Uruguay habló en la partida de la Selección rumbo a Playa del Carmen, sede de la concentración Celeste en el Mundial 2026",
+    "summary_zh": "El extremo izquierdo de Uruguay habló en la partida de la Selección rumbo a Playa del Carmen, sede de la concentración Celeste en el Mundial 2026",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -9345,9 +9267,9 @@
       {
         "source_id": "media_espn_deportes_futbol_mundial",
         "source_name": "ESPN Deportes Fútbol Mundial",
-        "title": "Facundo Pellistri: \"Siempre se dice que Uruguay no es candidato, pero ninguna Selección nos quiere enfrentar\"",
-        "summary": "El extremo de Uruguay habló en la partida de la Selección rumbo a Playa del Carmen, sede de la concentración Celeste en el Mundial 2026.",
-        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818089/facundo-pellistri-declaraciones-partida-seleccion-uruguaya-a-playa-del-carmen-mundial-2026",
+        "title": "Maxi Araújo: \"La gente está tan ilusionada como nosotros\"",
+        "summary": "El extremo izquierdo de Uruguay habló en la partida de la Selección rumbo a Playa del Carmen, sede de la concentración Celeste en el Mundial 2026.",
+        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818106/maximiliano-araujo-declaraciones-partida-seleccion-uruguaya-a-playa-del-carmen-mundial-2026",
         "published_at": "2026-06-10T07:29:54.739Z",
         "fetched_at": "2026-06-10T07:29:54.739Z",
         "language": "es",
@@ -9360,9 +9282,7 @@
         "item_type": "article"
       }
     ],
-    "topic_phrases": [
-      "Facundo Pellistri"
-    ],
+    "topic_phrases": [],
     "last_updated": "2026-06-10T07:29:54.739Z",
     "source_count_score": 26,
     "recency_score": 8,
@@ -9375,14 +9295,129 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_波黑_general_discussion_jugador_póker_entrena_bosnia",
-    "topic_key": "波黑::general_discussion::jugador_póker_entrena_bosnia",
+    "topic_id": "topic_fallback_乌拉圭_general_discussion_uruguay_mundial_celeste_partió",
+    "topic_key": "乌拉圭::general_discussion::uruguay_mundial_celeste_partió",
     "issue_type": "general",
-    "topic_title": "扑克玩家训练波斯尼亚并挑战东道主加拿大",
-    "lead_source_title": "Un jugador de póker entrena a Bosnia y desafía a la anfitriona Canadá",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“扑克玩家训练波斯尼亚并挑战东道主加拿大”，暂作为话题线索展示。扑克玩家训练波斯尼亚并挑战东道主加拿大",
-    "summary_zh": "扑克玩家训练波斯尼亚并挑战东道主加拿大",
+    "topic_title": "乌拉圭进军世界杯：拉塞莱斯特前往普拉亚德尔卡门",
+    "lead_source_title": "Uruguay al Mundial: la Celeste partió rumbo a Playa del Carmen",
+    "lead_source_summary": "La Celeste viajó rumbo a México, donde instalará su base de operaciones durante la Copa del Mundo.",
+    "topic_summary": "目前仅 1 个海外来源提到“乌拉圭进军世界杯：拉塞莱斯特前往普拉亚德尔卡门”，暂作为话题线索展示。La Celeste 前往墨西哥，世界杯期间将在那里建立运营基地",
+    "summary_zh": "La Celeste 前往墨西哥，世界杯期间将在那里建立运营基地",
+    "heat_score": 33,
+    "related_matches": [],
+    "related_teams": [
+      "乌拉圭"
+    ],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "ESPN Deportes Fútbol Mundial"
+    ],
+    "sources": [
+      {
+        "source_id": "media_espn_deportes_futbol_mundial",
+        "source_name": "ESPN Deportes Fútbol Mundial",
+        "title": "Uruguay al Mundial: la Celeste partió rumbo a Playa del Carmen",
+        "summary": "La Celeste viajó rumbo a México, donde instalará su base de operaciones durante la Copa del Mundo.",
+        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817640/seleccion-uruguaya-viajo-a-playa-del-carmen-concentracion-mundial-2026",
+        "published_at": "2026-06-10T07:29:54.739Z",
+        "fetched_at": "2026-06-10T07:29:54.739Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-10T07:29:54.739Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_沙特阿拉伯_general_discussion_arabia_saudita_senegal_empataron",
+    "topic_key": "沙特阿拉伯::general_discussion::arabia_saudita_senegal_empataron",
+    "issue_type": "general",
+    "topic_title": "沙特阿拉伯队和塞内加尔队在世界杯前的最后一场友谊赛中打平",
+    "lead_source_title": "Arabia Saudita y Senegal empataron en su último amistoso previo al Mundial",
+    "lead_source_summary": "Los Halcones Verdes y los Leones de Teranga empataron 0 a 0 en Texas en un encuentro internacional amistoso.",
+    "topic_summary": "目前仅 1 个海外来源提到“沙特阿拉伯队和塞内加尔队在世界杯前的最后一场友谊赛中打平”，暂作为话题线索展示。在德克萨斯州举行的一场国际友谊赛中，绿隼队与特兰加雄狮队以 0-0 战平",
+    "summary_zh": "在德克萨斯州举行的一场国际友谊赛中，绿隼队与特兰加雄狮队以 0-0 战平",
+    "heat_score": 33,
+    "related_matches": [],
+    "related_teams": [
+      "沙特阿拉伯",
+      "塞内加尔"
+    ],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "ESPN Deportes Fútbol Mundial"
+    ],
+    "sources": [
+      {
+        "source_id": "media_espn_deportes_futbol_mundial",
+        "source_name": "ESPN Deportes Fútbol Mundial",
+        "title": "Arabia Saudita y Senegal empataron en su último amistoso previo al Mundial",
+        "summary": "Los Halcones Verdes y los Leones de Teranga empataron 0 a 0 en Texas en un encuentro internacional amistoso.",
+        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817751/senegal-vs-arabia-saudita-amistoso-internacional-previo-al-mundial-2026",
+        "published_at": "2026-06-10T07:29:54.739Z",
+        "fetched_at": "2026-06-10T07:29:54.739Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-06-10T07:29:54.739Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_波黑_general_discussion_larin_tira_torres_altas",
+    "topic_key": "波黑::general_discussion::larin_tira_torres_altas",
+    "issue_type": "general",
+    "topic_title": "拉林推倒了多伦多最高的“塔”",
+    "lead_source_title": "Larin tira ‘las torres’ más altas de Toronto",
+    "lead_source_summary": "Larin le da a Canadá el primer punto de su historia en los Mundiales. Bosnia, la selección más alta, se adelantó gracias a un gol de Lukic en un córner.",
+    "topic_summary": "目前仅 1 个海外来源提到“拉林推倒了多伦多最高的“塔””，暂作为话题线索展示。拉林为加拿大队在世界杯上取得了历史上的第一分",
+    "summary_zh": "拉林为加拿大队在世界杯上取得了历史上的第一分",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -9398,17 +9433,17 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "AS Fútbol Mundial 2026"
+      "AS Fútbol"
     ],
     "sources": [
       {
-        "source_id": "media_as_futbol_mundial2026",
-        "source_name": "AS Fútbol Mundial 2026",
-        "title": "Un jugador de póker entrena a Bosnia y desafía a la anfitriona Canadá",
-        "summary": "",
-        "url": "https://as.com/futbol/mundial/un-jugador-de-poker-entrena-a-bosnia-y-desafia-a-la-anfitriona-canada-f202606-n/",
-        "published_at": "2026-06-12T10:50:30.022Z",
-        "fetched_at": "2026-06-12T10:50:30.022Z",
+        "source_id": "media_as_futbol",
+        "source_name": "AS Fútbol",
+        "title": "Larin tira ‘las torres’ más altas de Toronto",
+        "summary": "Larin le da a Canadá el primer punto de su historia en los Mundiales. Bosnia, la selección más alta, se adelantó gracias a un gol de Lukic en un córner.",
+        "url": "https://as.com/futbol/mundial/larin-tira-las-torres-de-toronto-f202606-n/",
+        "published_at": "2026-06-13T01:38:48.178Z",
+        "fetched_at": "2026-06-13T01:38:48.178Z",
         "language": "es",
         "region": "拉美",
         "source_type": "media",
@@ -9420,7 +9455,7 @@
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-12T10:50:30.022Z",
+    "last_updated": "2026-06-13T01:38:48.178Z",
     "source_count_score": 26,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -9432,18 +9467,18 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_厄瓜多尔_general_discussion_ecuador_desploma_precio_cerveza",
-    "topic_key": "厄瓜多尔::general_discussion::ecuador_desploma_precio_cerveza",
+    "topic_id": "topic_fallback_乌拉圭_general_discussion_bielsa_rompe_defensa_uruguay",
+    "topic_key": "乌拉圭::general_discussion::bielsa_rompe_defensa_uruguay",
     "issue_type": "general",
-    "topic_title": "厄瓜多尔“暴跌”啤酒价格",
-    "lead_source_title": "Ecuador ‘desploma’ el precio de la cerveza",
+    "topic_title": "贝尔萨乌拉圭防线崩溃",
+    "lead_source_title": "A Bielsa se le rompe la defensa de Uruguay",
     "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“厄瓜多尔“暴跌”啤酒价格”，暂作为话题线索展示。厄瓜多尔“暴跌”啤酒价格",
-    "summary_zh": "厄瓜多尔“暴跌”啤酒价格",
+    "topic_summary": "目前仅 1 个海外来源提到“贝尔萨乌拉圭防线崩溃”，暂作为话题线索展示。贝尔萨乌拉圭防线崩溃",
+    "summary_zh": "贝尔萨乌拉圭防线崩溃",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
-      "厄瓜多尔"
+      "乌拉圭"
     ],
     "related_players": [],
     "regions": [
@@ -9461,9 +9496,9 @@
       {
         "source_id": "media_as_futbol_mundial2026",
         "source_name": "AS Fútbol Mundial 2026",
-        "title": "Ecuador ‘desploma’ el precio de la cerveza",
+        "title": "A Bielsa se le rompe la defensa de Uruguay",
         "summary": "",
-        "url": "https://as.com/futbol/mundial/ecuador-desploma-el-precio-de-la-cerveza-f202606-n/",
+        "url": "https://as.com/futbol/mundial/peligra-el-debut-de-gimenez-y-araujo-f202606-n/",
         "published_at": "2026-06-12T10:50:30.024Z",
         "fetched_at": "2026-06-12T10:50:30.024Z",
         "language": "es",
@@ -9492,10 +9527,10 @@
     "topic_id": "topic_fallback_加拿大_general_discussion_coupe_monde_football_actualités",
     "topic_key": "加拿大::general_discussion::coupe_monde_football_actualités",
     "issue_type": "general",
-    "topic_title": "2026年世界杯足球赛：新闻、赛程和结果",
+    "topic_title": "2026 年足球世界杯：新闻、赛程和结果",
     "lead_source_title": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
     "lead_source_summary": "Suivez toute l’actualité de la Coupe du Monde de foot. Retrouvez le calendrier, les résultats, les scores et matches en direct, ainsi que les dernières infos du Mondial 2026.",
-    "topic_summary": "目前仅 1 个海外来源提到“2026年世界杯足球赛：新闻、赛程和结果”，暂作为话题线索展示。关注足球世界杯的所有新闻",
+    "topic_summary": "目前仅 1 个海外来源提到“2026 年足球世界杯：新闻、赛程和结果”，暂作为话题线索展示。关注足球世界杯的所有新闻",
     "summary_zh": "关注足球世界杯的所有新闻",
     "heat_score": 33,
     "related_matches": [],
@@ -9549,11 +9584,11 @@
     "topic_id": "topic_fallback_巴拉圭_general_discussion_états-unis_paraguay_coupe_monde",
     "topic_key": "巴拉圭::general_discussion::états-unis_paraguay_coupe_monde",
     "issue_type": "general",
-    "topic_title": "美国4-1巴拉圭，世界杯：比赛结束",
+    "topic_title": "世界杯美国4-1巴拉圭：比赛结束",
     "lead_source_title": "États-Unis 4-1 Paraguay, Coupe du monde : match terminé",
     "lead_source_summary": "Merci d'avoir suivi en direct la rencontre de football États-Unis - Paraguay.",
-    "topic_summary": "目前仅 1 个海外来源提到“美国4-1巴拉圭，世界杯：比赛结束”，暂作为话题线索展示。感谢您关注美国对巴拉圭足球比赛直播",
-    "summary_zh": "感谢您关注美国对巴拉圭足球比赛直播",
+    "topic_summary": "目前仅 1 个海外来源提到“世界杯美国4-1巴拉圭：比赛结束”，暂作为话题线索展示。感谢您关注美国-巴拉圭足球比赛现场直播",
+    "summary_zh": "感谢您关注美国-巴拉圭足球比赛现场直播",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -9606,11 +9641,11 @@
     "topic_id": "topic_fallback_kylian_mbappe_general_discussion_comment_staff_équipe_france",
     "topic_key": "kylian mbappe::general_discussion::comment_staff_équipe_france",
     "issue_type": "general",
-    "topic_title": "法国队工作人员如何与国际足联抗争，以限制美国的旅行限制",
+    "topic_title": "法国队工作人员如何与国际足联抗争，以限制前往美国的旅行限制",
     "lead_source_title": "Comment le staff de l'équipe de France a bataillé avec la FIFA pour limiter les contraintes liées aux déplacements aux États-Unis",
     "lead_source_summary": "Le staff des Bleus a négocié avec la FIFA pour limiter les contraintes liées aux déplacements la veille de ses matches de la Coupe du monde.",
-    "topic_summary": "目前仅 1 个海外来源提到“法国队工作人员如何与国际足联抗争，以限制美国的旅行限制”，暂作为话题线索展示。蓝军工作人员在世界杯比赛前一天与国际足联谈判限制旅行限制",
-    "summary_zh": "蓝军工作人员在世界杯比赛前一天与国际足联谈判限制旅行限制",
+    "topic_summary": "目前仅 1 个海外来源提到“法国队工作人员如何与国际足联抗争，以限制前往美国的旅行限制”，暂作为话题线索展示。Les Bleus的工作人员与国际足联进行了谈判，以限制他们在世界杯比赛前夕的旅行限制",
+    "summary_zh": "Les Bleus的工作人员与国际足联进行了谈判，以限制他们在世界杯比赛前夕的旅行限制",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -9786,11 +9821,11 @@
     "topic_id": "topic_fallback_法国_general_discussion_pogba_équipe_france_encore",
     "topic_key": "法国::general_discussion::pogba_équipe_france_encore",
     "issue_type": "general",
-    "topic_title": "博格巴：“法国队仍然是我的梦想”",
+    "topic_title": "Pogba： “法国队仍然是我的梦想”",
     "lead_source_title": "Pogba : «L'équipe de France, c'est encore mon rêve»",
     "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“博格巴：“法国队仍然是我的梦想””，暂作为话题线索展示。博格巴：“法国队仍然是我的梦想”",
-    "summary_zh": "博格巴：“法国队仍然是我的梦想”",
+    "topic_summary": "目前仅 1 个海外来源提到“Pogba： “法国队仍然是我的梦想””，暂作为话题线索展示。Pogba： “法国队仍然是我的梦想”",
+    "summary_zh": "Pogba： “法国队仍然是我的梦想”",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -9843,11 +9878,11 @@
     "topic_id": "topic_fallback_美国_general_discussion_weah_mentalité_made",
     "topic_key": "美国::general_discussion::weah_mentalité_made",
     "issue_type": "general",
-    "topic_title": "维阿，美国制造的心态",
+    "topic_title": "Weah，一种美国制造的心态",
     "lead_source_title": "Weah, une mentalité made in USA",
     "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“维阿，美国制造的心态”，暂作为话题线索展示。维阿，美国制造的心态",
-    "summary_zh": "维阿，美国制造的心态",
+    "topic_summary": "目前仅 1 个海外来源提到“Weah，一种美国制造的心态”，暂作为话题线索展示。Weah，一种美国制造的心态",
+    "summary_zh": "Weah，一种美国制造的心态",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -9900,11 +9935,11 @@
     "topic_id": "topic_fallback_son_heung-min_general_discussion_brasileños_marroquíes_armaron_fiesta",
     "topic_key": "son heung-min::general_discussion::brasileños_marroquíes_armaron_fiesta",
     "issue_type": "general",
-    "topic_title": "首演前，巴西人和摩洛哥人在时代广场举办了一场派对",
+    "topic_title": "首次亮相前夕，巴西人和摩洛哥人在时代广场举办了一场派对",
     "lead_source_title": "Brasileños y marroquíes armaron una fiesta en Times Square en la previa del debut",
     "lead_source_summary": "A horas del cruce por el Grupo C, hinchas de ambos países coparon el corazón de Nueva York y le pusieron calor a uno de los partidos más atractivos del inicio del Mundial 2026.",
-    "topic_summary": "目前仅 1 个海外来源提到“首演前，巴西人和摩洛哥人在时代广场举办了一场派对”，暂作为话题线索展示。在 C 组交锋前几个小时，两国球迷占领了纽约市中心，为 2026 年世界杯开赛时最有吸引力的比赛之一倾注了热情。",
-    "summary_zh": "在 C 组交锋前几个小时，两国球迷占领了纽约市中心，为 2026 年世界杯开赛时最有吸引力的比赛之一倾注了热情。",
+    "topic_summary": "目前仅 1 个海外来源提到“首次亮相前夕，巴西人和摩洛哥人在时代广场举办了一场派对”，暂作为话题线索展示。在C组比赛前几个小时，来自两国的球迷接管了纽约的心脏地带，并在2026年世界杯开始时热身了最具吸引力的比赛之一",
+    "summary_zh": "在C组比赛前几个小时，来自两国的球迷接管了纽约的心脏地带，并在2026年世界杯开始时热身了最具吸引力的比赛之一",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -10029,8 +10064,8 @@
     "topic_title": "2026年世界杯美国开幕式视频",
     "lead_source_title": "Los videos de la ceremonia de apertura de Estados Unidos en el Mundial 2026",
     "lead_source_summary": "Ya tuvo lugar la tercera y última fiesta de apertura de la Copa del Mundo: la de los estadounidenses. ¡Mirá!",
-    "topic_summary": "目前仅 1 个海外来源提到“2026年世界杯美国开幕式视频”，暂作为话题线索展示。世界杯的第三场也是最后一场开幕派对已经举行：美国队的开幕派对",
-    "summary_zh": "世界杯的第三场也是最后一场开幕派对已经举行：美国队的开幕派对",
+    "topic_summary": "目前仅 1 个海外来源提到“2026年世界杯美国开幕式视频”，暂作为话题线索展示。世界杯的第三次也是最后一次开幕派对已经举行：美国人",
+    "summary_zh": "世界杯的第三次也是最后一次开幕派对已经举行：美国人",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -10088,8 +10123,8 @@
     "topic_title": "阿尔及利亚领先于阿根廷：肌肉、美式足球和篮球",
     "lead_source_title": "Argelia antes de Argentina: músculos, fútbol americano y básquet",
     "lead_source_summary": "Argelia llega motivada tras golear a Bolivia y la Federación busca demostrar la unidad grupal y falta de presión antes de enfrentar a Argentina. Se distendieron con los dos deportes típicos de USA.",
-    "topic_summary": "目前仅 1 个海外来源提到“阿尔及利亚领先于阿根廷：肌肉、美式足球和篮球”，暂作为话题线索展示。阿尔及利亚在击败玻利维亚后充满动力，联合会寻求在面对阿根廷之前表现出团队团结和缺乏压力",
-    "summary_zh": "阿尔及利亚在击败玻利维亚后充满动力，联合会寻求在面对阿根廷之前表现出团队团结和缺乏压力",
+    "topic_summary": "目前仅 1 个海外来源提到“阿尔及利亚领先于阿根廷：肌肉、美式足球和篮球”，暂作为话题线索展示。阿尔及利亚在击败玻利维亚后积极抵达，联邦在面对阿根廷之前试图表现出团体团结和缺乏压力",
+    "summary_zh": "阿尔及利亚在击败玻利维亚后积极抵达，联邦在面对阿根廷之前试图表现出团体团结和缺乏压力",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -10206,10 +10241,10 @@
     "topic_id": "topic_fallback_son_heung-min_general_discussion_ancelotti_igual_campeones_subcampeones",
     "topic_key": "son heung-min::general_discussion::ancelotti_igual_campeones_subcampeones",
     "issue_type": "general",
-    "topic_title": "安切洛蒂：无论他们是非洲的冠军还是亚军，他们都非常强大",
+    "topic_title": "安切洛蒂：不管是非洲冠军还是亚军，他们都很强",
     "lead_source_title": "Ancelotti: “Da igual si son campeones o subcampeones de África, son muy fuertes”",
     "lead_source_summary": "Brasil debuta con Marruecos y el DT se la pasó a puro elogios para el rival. “No les tenemos miedo”, dijo el entrenador marroquí. Nueva York dividida entre el inicio local del Mundial y la chance de que los Knicks ganen la NBA.",
-    "topic_summary": "目前仅 1 个海外来源提到“安切洛蒂：无论他们是非洲的冠军还是亚军，他们都非常强大”，暂作为话题线索展示。巴西首秀摩洛哥，主帅对对手赞不绝口",
+    "topic_summary": "目前仅 1 个海外来源提到“安切洛蒂：不管是非洲冠军还是亚军，他们都很强”，暂作为话题线索展示。巴西首秀摩洛哥，主帅对对手赞不绝口",
     "summary_zh": "巴西首秀摩洛哥，主帅对对手赞不绝口",
     "heat_score": 33,
     "related_matches": [],
@@ -10268,11 +10303,11 @@
     "topic_id": "topic_fallback_卡塔尔_general_discussion_todo_tenés_saber_sobre",
     "topic_key": "卡塔尔::general_discussion::todo_tenés_saber_sobre",
     "issue_type": "general",
-    "topic_title": "关于卡塔尔与瑞士您需要了解的一切",
+    "topic_title": "您需要了解的关于卡塔尔vs.瑞士的所有信息",
     "lead_source_title": "Todo lo que tenés que saber sobre Qatar vs. Suiza",
     "lead_source_summary": "Los Marrones van por su primera victoria en un Mundial frente a los helvéticos, un equipo acostumbrado decir presente en las fases de eliminación directa.suiza futbol",
-    "topic_summary": "目前仅 1 个海外来源提到“关于卡塔尔与瑞士您需要了解的一切”，暂作为话题线索展示。布朗队将在世界杯对阵瑞士队的比赛中取得第一场胜利，这支球队习惯于在直接淘汰赛阶段表现出色。",
-    "summary_zh": "布朗队将在世界杯对阵瑞士队的比赛中取得第一场胜利，这支球队习惯于在直接淘汰赛阶段表现出色。",
+    "topic_summary": "目前仅 1 个海外来源提到“您需要了解的关于卡塔尔vs.瑞士的所有信息”，暂作为话题线索展示。布朗队将在世界杯上对阵赫尔维蒂人队，取得他们在世界杯上的第一场胜利，这支球队过去经常参加直接淘汰赛阶段。 瑞士足球",
+    "summary_zh": "布朗队将在世界杯上对阵赫尔维蒂人队，取得他们在世界杯上的第一场胜利，这支球队过去经常参加直接淘汰赛阶段。 瑞士足球",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -10325,11 +10360,11 @@
     "topic_id": "topic_fallback_achraf_hakimi_general_discussion_somos_brasil_áfrica_elogios",
     "topic_key": "achraf hakimi::general_discussion::somos_brasil_áfrica_elogios",
     "issue_type": "general",
-    "topic_title": "从我们是非洲巴西到对内马尔的赞扬：哈基米在摩洛哥首映前所说的话",
+    "topic_title": "从我们非洲的巴西到内马尔的赞美：哈基米在摩洛哥首映式前所说的话",
     "lead_source_title": "Del “somos la Brasil de África” a los elogios para Neymar: qué dijo Hakimi antes del estreno de Marruecos",
     "lead_source_summary": "Los Leones del Atlas y la Canarinha debutarán en el Mundial este sábado, en un partido con altas expectativas. El defensor y su DT hablaron en conferencia.",
-    "topic_summary": "目前仅 1 个海外来源提到“从我们是非洲巴西到对内马尔的赞扬：哈基米在摩洛哥首映前所说的话”，暂作为话题线索展示。阿特拉斯雄狮队和卡纳里尼亚队将在本周六的世界杯上首次亮相，这场比赛备受期待",
-    "summary_zh": "阿特拉斯雄狮队和卡纳里尼亚队将在本周六的世界杯上首次亮相，这场比赛备受期待",
+    "topic_summary": "目前仅 1 个海外来源提到“从我们非洲的巴西到内马尔的赞美：哈基米在摩洛哥首映式前所说的话”，暂作为话题线索展示。阿特拉斯和卡纳里尼亚的狮子队将在本周六的世界杯上首次亮相，这是一场期待很高的比赛",
+    "summary_zh": "阿特拉斯和卡纳里尼亚的狮子队将在本周六的世界杯上首次亮相，这是一场期待很高的比赛",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -10500,10 +10535,10 @@
     "topic_id": "topic_fallback_波黑_general_discussion_video_goles_empate_entre",
     "topic_key": "波黑::general_discussion::video_goles_empate_entre",
     "issue_type": "general",
-    "topic_title": "视频：加拿大与波斯尼亚比赛的进球",
+    "topic_title": "视频：加拿大vs波斯尼亚TIE目标",
     "lead_source_title": "Video: los goles del empate entre Canadá y Bosnia",
     "lead_source_summary": "Norteamericanos y europeos firmaron tablas en el primer encuentro del Grupo B, en Toronto. El árbitro fue el argentino Tello. Acá los mejores momentos.",
-    "topic_summary": "目前仅 1 个海外来源提到“视频：加拿大与波斯尼亚比赛的进球”，暂作为话题线索展示。B组首场比赛在多伦多举行，北美队与欧洲队战成平局",
+    "topic_summary": "目前仅 1 个海外来源提到“视频：加拿大vs波斯尼亚TIE目标”，暂作为话题线索展示。B组首场比赛在多伦多举行，北美队与欧洲队战成平局",
     "summary_zh": "B组首场比赛在多伦多举行，北美队与欧洲队战成平局",
     "heat_score": 33,
     "related_matches": [],
@@ -10604,69 +10639,6 @@
     "recency_score": 8,
     "cross_region_score": 35,
     "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_kylian_mbappe_general_discussion_please_stop_calling_french",
-    "topic_key": "kylian mbappe::general_discussion::please_stop_calling_french",
-    "issue_type": "general",
-    "topic_title": "请停止称法国、西班牙、英国等球员为非洲人，这是一种非常狭隘的看待事物的方式，最重要的是，这是种族主义",
-    "lead_source_title": "Please stop calling French, Spanish, English, etc players \"African\" it's a very narrow way of seeing things and more than anything, it is racist",
-    "lead_source_summary": "I see this all the time, and especially in matches like yesterday's France - Morocco. So many people saying \"two African teams\" and stuff like that. If anything, they were two European teams since most of the Morocco players are born and raised in Europe. I just think it's very reductive and ultimately racist to keep saying that Lamine Yamal or Kylian Mbappé are \"really African\". They are not, they have parents from Africa yes, but they are born and raised in Europe and also importantly those are the countries they chose to represent. Saying that a player is not really French or Spanish because they are black is racism, plain and simple. I can't believe it is so accepted. submitted by /u/No-Significance5659 [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“请停止称法国、西班牙、英国等球员为非洲人，这是一种非常狭隘的看待事物的方式，最重要的是，这是种族主义”，暂作为话题线索展示。我经常看到这种情况，尤其是在昨天法国对阵摩洛哥的比赛中",
-    "summary_zh": "我经常看到这种情况，尤其是在昨天法国对阵摩洛哥的比赛中",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "摩洛哥",
-      "法国"
-    ],
-    "related_players": [
-      "Kylian Mbappe",
-      "Lamine Yamal"
-    ],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/football"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_football",
-        "source_name": "Reddit r/football",
-        "title": "Please stop calling French, Spanish, English, etc players \"African\" it's a very narrow way of seeing things and more than anything, it is racist",
-        "summary": "I see this all the time, and especially in matches like yesterday's France - Morocco. So many people saying \"two African teams\" and stuff like that. If anything, they were two European teams since most of the Morocco players are born and raised in Europe. I just think it's very reductive and ultimately racist to keep saying that Lamine Yamal or Kylian Mbappé are \"really African\". They are not, they have parents from Africa yes, but they are born and raised in Europe and also importantly those are the countries they chose to represent. Saying that a player is not really French or Spanish because they are black is racism, plain and simple. I can't believe it is so accepted. submitted by /u/No-Significance5659 [link] [comments]",
-        "url": "https://www.reddit.com/r/football/comments/1usmh3r/please_stop_calling_french_spanish_english_etc/",
-        "published_at": "2026-07-10T12:37:29.000Z",
-        "fetched_at": "2026-07-11T04:32:00.802Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Kylian Mbappe"
-    ],
-    "last_updated": "2026-07-10T12:37:29.000Z",
-    "source_count_score": 26,
-    "recency_score": 14,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
     "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题识别",
@@ -12618,6 +12590,69 @@
     "included_in_frontend": true
   },
   {
+    "topic_id": "topic_fallback_kylian_mbappe_general_discussion_please_stop_calling_french",
+    "topic_key": "kylian mbappe::general_discussion::please_stop_calling_french",
+    "issue_type": "general",
+    "topic_title": "请停止称法国、西班牙、英国等球员为非洲人，这是一种非常狭隘的看待事物的方式，最重要的是，这是种族主义",
+    "lead_source_title": "Please stop calling French, Spanish, English, etc players \"African\" it's a very narrow way of seeing things and more than anything, it is racist",
+    "lead_source_summary": "I see this all the time, and especially in matches like yesterday's France - Morocco. So many people saying \"two African teams\" and stuff like that. If anything, they were two European teams since most of the Morocco players are born and raised in Europe. I just think it's very reductive and ultimately racist to keep saying that Lamine Yamal or Kylian Mbappé are \"really African\". They are not, they have parents from Africa yes, but they are born and raised in Europe and also importantly those are the countries they chose to represent. Saying that a player is not really French or Spanish because they are black is racism, plain and simple. I can't believe it is so accepted. submitted by /u/No-Significance5659 [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“请停止称法国、西班牙、英国等球员为非洲人，这是一种非常狭隘的看待事物的方式，最重要的是，这是种族主义”，暂作为话题线索展示。我经常看到这种情况，尤其是在昨天法国对阵摩洛哥的比赛中",
+    "summary_zh": "我经常看到这种情况，尤其是在昨天法国对阵摩洛哥的比赛中",
+    "heat_score": 32,
+    "related_matches": [],
+    "related_teams": [
+      "摩洛哥",
+      "法国"
+    ],
+    "related_players": [
+      "Kylian Mbappe",
+      "Lamine Yamal"
+    ],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Reddit r/football"
+    ],
+    "sources": [
+      {
+        "source_id": "forum_reddit_football",
+        "source_name": "Reddit r/football",
+        "title": "Please stop calling French, Spanish, English, etc players \"African\" it's a very narrow way of seeing things and more than anything, it is racist",
+        "summary": "I see this all the time, and especially in matches like yesterday's France - Morocco. So many people saying \"two African teams\" and stuff like that. If anything, they were two European teams since most of the Morocco players are born and raised in Europe. I just think it's very reductive and ultimately racist to keep saying that Lamine Yamal or Kylian Mbappé are \"really African\". They are not, they have parents from Africa yes, but they are born and raised in Europe and also importantly those are the countries they chose to represent. Saying that a player is not really French or Spanish because they are black is racism, plain and simple. I can't believe it is so accepted. submitted by /u/No-Significance5659 [link] [comments]",
+        "url": "https://www.reddit.com/r/football/comments/1usmh3r/please_stop_calling_french_spanish_english_etc/",
+        "published_at": "2026-07-10T12:37:29.000Z",
+        "fetched_at": "2026-07-11T04:32:00.802Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "Kylian Mbappe"
+    ],
+    "last_updated": "2026-07-10T12:37:29.000Z",
+    "source_count_score": 26,
+    "recency_score": 11,
+    "cross_region_score": 35,
+    "source_priority_score": 62,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
     "topic_id": "topic_fallback_general_discussion_women",
     "topic_key": "general_discussion::women",
     "issue_type": "general",
@@ -12809,14 +12844,71 @@
     "included_in_frontend": true
   },
   {
+    "topic_id": "topic_fallback_general_discussion_soccer_transfer_rumors_espn",
+    "topic_key": "general_discussion::soccer_transfer_rumors_espn",
+    "issue_type": "general",
+    "topic_title": "足球转会新闻和谣言- ESPN",
+    "lead_source_title": "Soccer Transfer News and Rumors - ESPN",
+    "lead_source_summary": "Get the latest news from the soccer transfer market on ESPN. Be the first to discover the next signings of the clubs in the Premier League, MLS and La Liga.",
+    "topic_summary": "目前仅 1 个海外来源提到“足球转会新闻和谣言- ESPN”，暂作为话题线索展示。Get the latest news from the soccer transfer market on ESPN",
+    "summary_zh": "Get the latest news from the soccer transfer market on ESPN",
+    "heat_score": 31,
+    "related_matches": [],
+    "related_teams": [],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "ESPN Soccer"
+    ],
+    "sources": [
+      {
+        "source_id": "media_espn_soccer",
+        "source_name": "ESPN Soccer",
+        "title": "Soccer Transfer News and Rumors - ESPN",
+        "summary": "Get the latest news from the soccer transfer market on ESPN. Be the first to discover the next signings of the clubs in the Premier League, MLS and La Liga.",
+        "url": "https://www.espn.com/soccer/transfers-news-and-features/",
+        "published_at": "2026-06-10T07:28:50.161Z",
+        "fetched_at": "2026-06-10T07:28:50.161Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "world_cup"
+    ],
+    "last_updated": "2026-06-10T07:28:50.161Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 42,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
     "topic_id": "topic_fallback_general_discussion_premier_league_2025-26_awards",
     "topic_key": "general_discussion::premier_league_2025-26_awards",
     "issue_type": "general",
     "topic_title": "英超联赛2025-26奖项：最佳比赛，最差转会，最佳XI，更多",
     "lead_source_title": "Premier League 2025-26 awards: Best game, worst transfer, best XI, more",
     "lead_source_summary": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits! Here they all are, ranked from worst to first.",
-    "topic_summary": "目前仅 1 个海外来源提到“英超联赛2025-26奖项：最佳比赛，最差转会，最佳XI，更多”，暂作为话题线索展示。The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits!",
-    "summary_zh": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits!",
+    "topic_summary": "目前仅 1 个海外来源提到“英超联赛2025-26奖项：最佳比赛，最差转会，最佳XI，更多”，暂作为话题线索展示。2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
+    "summary_zh": "2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -12872,8 +12964,8 @@
     "topic_title": "英超联赛2026-27预测：阿森纳、切尔西、利物浦等",
     "lead_source_title": "Premier League 2026-27 predictions: Arsenal, Chelsea, Liverpool, more",
     "lead_source_summary": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits! Here they all are, ranked from worst to first.",
-    "topic_summary": "目前仅 1 个海外来源提到“英超联赛2026-27预测：阿森纳、切尔西、利物浦等”，暂作为话题线索展示。The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits!",
-    "summary_zh": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits!",
+    "topic_summary": "目前仅 1 个海外来源提到“英超联赛2026-27预测：阿森纳、切尔西、利物浦等”，暂作为话题线索展示。2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
+    "summary_zh": "2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -12912,6 +13004,63 @@
       "world_cup"
     ],
     "last_updated": "2026-06-10T07:28:50.161Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 42,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_general_discussion_transfers_rumours_gossip_women",
+    "topic_key": "general_discussion::transfers_rumours_gossip_women",
+    "issue_type": "general",
+    "topic_title": "WSL 新闻、转会、谣言、八卦和女足最新动态",
+    "lead_source_title": "WSL news, transfers, rumours, gossip and women's football latest",
+    "lead_source_summary": "The latest news, rumours and gossip from the Womens Super League.",
+    "topic_summary": "目前仅 1 个海外来源提到“WSL 新闻、转会、谣言、八卦和女足最新动态”，暂作为话题线索展示。The latest news, rumours and gossip from the Womens Super League",
+    "summary_zh": "The latest news, rumours and gossip from the Womens Super League",
+    "heat_score": 31,
+    "related_matches": [],
+    "related_teams": [],
+    "related_players": [],
+    "regions": [
+      "欧洲"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Sky Sports Football News Page"
+    ],
+    "sources": [
+      {
+        "source_id": "media_sky_sports_football_news",
+        "source_name": "Sky Sports Football News Page",
+        "title": "WSL news, transfers, rumours, gossip and women's football latest",
+        "summary": "The latest news, rumours and gossip from the Womens Super League.",
+        "url": "https://www.skysports.com/football/live-blog/11095/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
+        "published_at": "2026-06-13T05:28:14.503Z",
+        "fetched_at": "2026-06-13T05:28:14.503Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "world_cup"
+    ],
+    "last_updated": "2026-06-13T05:28:14.503Z",
     "source_count_score": 26,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -12980,14 +13129,14 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_general_discussion_descarta_para_japón_suecia",
-    "topic_key": "general_discussion::descarta_para_japón_suecia",
+    "topic_id": "topic_fallback_general_discussion_funcionario_somalí_omar_artan",
+    "topic_key": "general_discussion::funcionario_somalí_omar_artan",
     "issue_type": "general",
-    "topic_title": "国际足联排除了日本和瑞典大学的参赛资格",
-    "lead_source_title": "FIFA descarta el \"Uni\" para Japón y Suecia",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“国际足联排除了日本和瑞典大学的参赛资格”，暂作为话题线索展示。国际足联排除了日本和瑞典大学的参赛资格",
-    "summary_zh": "国际足联排除了日本和瑞典大学的参赛资格",
+    "topic_title": "美国官员：索马里奥马尔·阿坦怀疑与恐怖分子有联系",
+    "lead_source_title": "Funcionario de EE. UU.: El somalí Omar Artan tenía presuntos vínculos terroristas",
+    "lead_source_summary": "Omar Artan, el árbitro somalí a quien se le denegó la entrada a EEUU, se le rechazó el acceso debido a su \"asociación con presuntos miembros de organizaciones terroristas\".",
+    "topic_summary": "目前仅 1 个海外来源提到“美国官员：索马里奥马尔·阿坦怀疑与恐怖分子有联系”，暂作为话题线索展示。Omar Artan, el árbitro somalí a quien se le denegó la entrada a EEUU, se le rechazó el acceso debido a su asociación con presuntos miembros de organizaciones terroristas",
+    "summary_zh": "Omar Artan, el árbitro somalí a quien se le denegó la entrada a EEUU, se le rechazó el acceso debido a su asociación con presuntos miembros de organizaciones terroristas",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -13001,17 +13150,17 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "ESPN Deportes Fútbol"
+      "ESPN Deportes Fútbol Mundial"
     ],
     "sources": [
       {
-        "source_id": "media_espn_deportes_futbol",
-        "source_name": "ESPN Deportes Fútbol",
-        "title": "FIFA descarta el \"Uni\" para Japón y Suecia",
-        "summary": "",
-        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818091/mundial-2026-fifa-estadio-universitario-entrenamientos-japon-suecia",
-        "published_at": "2026-06-10T07:29:44.003Z",
-        "fetched_at": "2026-06-10T07:29:44.003Z",
+        "source_id": "media_espn_deportes_futbol_mundial",
+        "source_name": "ESPN Deportes Fútbol Mundial",
+        "title": "Funcionario de EE. UU.: El somalí Omar Artan tenía presuntos vínculos terroristas",
+        "summary": "Omar Artan, el árbitro somalí a quien se le denegó la entrada a EEUU, se le rechazó el acceso debido a su \"asociación con presuntos miembros de organizaciones terroristas\".",
+        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818754/omar-artan-somali-arbitro-vinculos-terroristas-estados-unidos-mundial",
+        "published_at": "2026-06-10T07:29:54.739Z",
+        "fetched_at": "2026-06-10T07:29:54.739Z",
         "language": "es",
         "region": "拉美",
         "source_type": "media",
@@ -13025,7 +13174,7 @@
     "topic_phrases": [
       "world_cup"
     ],
-    "last_updated": "2026-06-10T07:29:44.003Z",
+    "last_updated": "2026-06-10T07:29:54.739Z",
     "source_count_score": 26,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -13094,14 +13243,71 @@
     "included_in_frontend": true
   },
   {
+    "topic_id": "topic_fallback_general_discussion_mercado_negro_monedas_copa",
+    "topic_key": "general_discussion::mercado_negro_monedas_copa",
+    "issue_type": "general",
+    "topic_title": "2026 年世界杯硬币的黑市",
+    "lead_source_title": "El mercado negro de las monedas de la Copa del Mundo 2026",
+    "lead_source_summary": "La misión de conseguir las monedas conmemorativas del Mundial se complica con un mercado alterno de vendedores.",
+    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯硬币的黑市”，暂作为话题线索展示。La misión de conseguir las monedas conmemorativas del Mundial se complica con un mercado alterno de vendedores",
+    "summary_zh": "La misión de conseguir las monedas conmemorativas del Mundial se complica con un mercado alterno de vendedores",
+    "heat_score": 31,
+    "related_matches": [],
+    "related_teams": [],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "ESPN Deportes Fútbol Mundial"
+    ],
+    "sources": [
+      {
+        "source_id": "media_espn_deportes_futbol_mundial",
+        "source_name": "ESPN Deportes Fútbol Mundial",
+        "title": "El mercado negro de las monedas de la Copa del Mundo 2026",
+        "summary": "La misión de conseguir las monedas conmemorativas del Mundial se complica con un mercado alterno de vendedores.",
+        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16797643/mundial-2026-el-mercado-negro-de-las-monedas-mexico",
+        "published_at": "2026-06-10T07:29:54.739Z",
+        "fetched_at": "2026-06-10T07:29:54.739Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "world_cup"
+    ],
+    "last_updated": "2026-06-10T07:29:54.739Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 42,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
     "topic_id": "topic_fallback_general_discussion_mundial_cuánto_costarán_alimentos",
     "topic_key": "general_discussion::mundial_cuánto_costarán_alimentos",
     "issue_type": "general",
     "topic_title": "2026 年世界杯：开幕时的食品和饮料费用是多少？",
     "lead_source_title": "Mundial 2026: ¿Cuánto costarán alimentos y bebidas en inauguración?",
     "lead_source_summary": "Fuentes consultadas revelaron que los precios de los alimentos y bebidas se duplicarán, respecto a partidos del torneo local.",
-    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯：开幕时的食品和饮料费用是多少？”，暂作为话题线索展示。消息人士透露，与当地锦标赛相比，食品和饮料的价格将翻倍。",
-    "summary_zh": "消息人士透露，与当地锦标赛相比，食品和饮料的价格将翻倍。",
+    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯：开幕时的食品和饮料费用是多少？”，暂作为话题线索展示。Fuentes consultadas revelaron que los precios de los alimentos y bebidas se duplicarán, respecto a partidos del torneo local",
+    "summary_zh": "Fuentes consultadas revelaron que los precios de los alimentos y bebidas se duplicarán, respecto a partidos del torneo local",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -13151,178 +13357,6 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_general_discussion_mundial_descarta_estadio_universitario",
-    "topic_key": "general_discussion::mundial_descarta_estadio_universitario",
-    "issue_type": "general",
-    "topic_title": "2026 年世界杯：国际足联排除日本和瑞典大学体育场的参赛资格",
-    "lead_source_title": "Mundial 2026: FIFA descarta Estadio Universitario para Japón y Suecia",
-    "lead_source_summary": "La FIFA notificó a Tigres que El Volcán no será utilizado para entrenamientos de las selecciones mundialistas.",
-    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯：国际足联排除日本和瑞典大学体育场的参赛资格”，暂作为话题线索展示。La FIFA notificó a Tigres que El Volcán no será utilizado para entrenamientos de las selecciones mundialistas",
-    "summary_zh": "La FIFA notificó a Tigres que El Volcán no será utilizado para entrenamientos de las selecciones mundialistas",
-    "heat_score": 31,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "ESPN Deportes Fútbol Mundial"
-    ],
-    "sources": [
-      {
-        "source_id": "media_espn_deportes_futbol_mundial",
-        "source_name": "ESPN Deportes Fútbol Mundial",
-        "title": "Mundial 2026: FIFA descarta Estadio Universitario para Japón y Suecia",
-        "summary": "La FIFA notificó a Tigres que El Volcán no será utilizado para entrenamientos de las selecciones mundialistas.",
-        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818091/mundial-2026-fifa-estadio-universitario-entrenamientos-japon-suecia",
-        "published_at": "2026-06-10T07:29:54.739Z",
-        "fetched_at": "2026-06-10T07:29:54.739Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-06-10T07:29:54.739Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_general_discussion_sudáfrica_está_cdmx_para",
-    "topic_key": "general_discussion::sudáfrica_está_cdmx_para",
-    "issue_type": "general",
-    "topic_title": "南非已经进入 CDMX 迎战墨西哥的比赛",
-    "lead_source_title": "Sudáfrica ya está en la CDMX para encarar el juego ante México",
-    "lead_source_summary": "La selección sudafricana abrirá el jueves la Copa del Mundo 2026 ante el representativo local.",
-    "topic_summary": "目前仅 1 个海外来源提到“南非已经进入 CDMX 迎战墨西哥的比赛”，暂作为话题线索展示。南非队将于周四揭幕战2026年世界杯对阵当地代表",
-    "summary_zh": "南非队将于周四揭幕战2026年世界杯对阵当地代表",
-    "heat_score": 31,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "ESPN Deportes Fútbol Mundial"
-    ],
-    "sources": [
-      {
-        "source_id": "media_espn_deportes_futbol_mundial",
-        "source_name": "ESPN Deportes Fútbol Mundial",
-        "title": "Sudáfrica ya está en la CDMX para encarar el juego ante México",
-        "summary": "La selección sudafricana abrirá el jueves la Copa del Mundo 2026 ante el representativo local.",
-        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817980/mundial-2026-sudafirca-llegada-cdmx-partido-mexico",
-        "published_at": "2026-06-10T07:29:54.739Z",
-        "fetched_at": "2026-06-10T07:29:54.739Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-06-10T07:29:54.739Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_francia_general_discussion_francia_michael_olise_perfila",
-    "topic_key": "francia::general_discussion::francia_michael_olise_perfila",
-    "issue_type": "general",
-    "topic_title": "法国：迈克尔·奥利塞正在成为世界杯的关键球员",
-    "lead_source_title": "Francia: Michael Olise se perfila como pieza clave en el Mundial",
-    "lead_source_summary": "Más allá de Mbappé y Dembelé, el delantero del Bayern Munich levanta la mano para ser una atractiva variante ofensiva en el esquema de Deschamps.",
-    "topic_summary": "目前仅 1 个海外来源提到“法国：迈克尔·奥利塞正在成为世界杯的关键球员”，暂作为话题线索展示。Más allá de Mbappé y Dembelé, el delantero del Bayern Munich levanta la mano para ser una atractiva variante ofensiva en el esquema de Deschamps",
-    "summary_zh": "Más allá de Mbappé y Dembelé, el delantero del Bayern Munich levanta la mano para ser una atractiva variante ofensiva en el esquema de Deschamps",
-    "heat_score": 31,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "ESPN Deportes Fútbol Mundial"
-    ],
-    "sources": [
-      {
-        "source_id": "media_espn_deportes_futbol_mundial",
-        "source_name": "ESPN Deportes Fútbol Mundial",
-        "title": "Francia: Michael Olise se perfila como pieza clave en el Mundial",
-        "summary": "Más allá de Mbappé y Dembelé, el delantero del Bayern Munich levanta la mano para ser una atractiva variante ofensiva en el esquema de Deschamps.",
-        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818654/mundial-2026-francia-michale-olise-arma-secreta",
-        "published_at": "2026-06-10T07:29:54.739Z",
-        "fetched_at": "2026-06-10T07:29:54.739Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup",
-      "Francia"
-    ],
-    "last_updated": "2026-06-10T07:29:54.739Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_fallback_图赫尔_general_discussion_tuchel_enfría_euforia_inglaterra",
     "topic_key": "图赫尔::general_discussion::tuchel_enfría_euforia_inglaterra",
     "issue_type": "general",
@@ -13353,63 +13387,6 @@
         "title": "Tuchel enfría la euforia: Inglaterra no se ve favorita a la Copa del Mundo",
         "summary": "El técnico inglés utilizará el amistoso ante la Tricolor como una de sus últimas pruebas antes del debut mundialista",
         "url": "https://espndeportes.espn.com/futbol/costa-rica/nota/_/id/16817652/tuchel-inglaterra-costa-rica-mundial-2026-favoritos",
-        "published_at": "2026-06-10T07:29:54.739Z",
-        "fetched_at": "2026-06-10T07:29:54.739Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-06-10T07:29:54.739Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_general_discussion_mundial_fiscal_texas_investiga",
-    "topic_key": "general_discussion::mundial_fiscal_texas_investiga",
-    "issue_type": "general",
-    "topic_title": "2026 年世界杯：德克萨斯州检察官调查国际足联门票销售情况",
-    "lead_source_title": "Mundial 2026: Fiscal de Texas investiga a FIFA por venta de boletos",
-    "lead_source_summary": "El fiscal general Ken Paxton declaró que los aficionados fueron \"engañados\" sobre la ubicación de los asientos que compraban",
-    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯：德克萨斯州检察官调查国际足联门票销售情况”，暂作为话题线索展示。司法部长肯·帕克斯顿表示，球迷们在购买座位的位置上被误导了。",
-    "summary_zh": "司法部长肯·帕克斯顿表示，球迷们在购买座位的位置上被误导了。",
-    "heat_score": 31,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "ESPN Deportes Fútbol Mundial"
-    ],
-    "sources": [
-      {
-        "source_id": "media_espn_deportes_futbol_mundial",
-        "source_name": "ESPN Deportes Fútbol Mundial",
-        "title": "Mundial 2026: Fiscal de Texas investiga a FIFA por venta de boletos",
-        "summary": "El fiscal general Ken Paxton declaró que los aficionados fueron \"engañados\" sobre la ubicación de los asientos que compraban",
-        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817636/mundial-2026-fiscal-texas-investiga-fifa-venta-boletos",
         "published_at": "2026-06-10T07:29:54.739Z",
         "fetched_at": "2026-06-10T07:29:54.739Z",
         "language": "es",
@@ -13497,177 +13474,6 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_general_discussion_resumen_goles_corea_república",
-    "topic_key": "general_discussion::resumen_goles_corea_república",
-    "issue_type": "general",
-    "topic_title": "2026 年世界杯小组赛第 1 轮韩国 vs 捷克的总结和进球",
-    "lead_source_title": "Resumen y goles del Corea del Sur vs República Checa, jornada 1 fase de grupos Mundial 2026",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯小组赛第 1 轮韩国 vs 捷克的总结和进球”，暂作为话题线索展示。2026 年世界杯小组赛第 1 轮韩国 vs 捷克的总结和进球",
-    "summary_zh": "2026 年世界杯小组赛第 1 轮韩国 vs 捷克的总结和进球",
-    "heat_score": 31,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "AS Fútbol Mundial 2026"
-    ],
-    "sources": [
-      {
-        "source_id": "media_as_futbol_mundial2026",
-        "source_name": "AS Fútbol Mundial 2026",
-        "title": "Resumen y goles del Corea del Sur vs República Checa, jornada 1 fase de grupos Mundial 2026",
-        "summary": "",
-        "url": "https://as.com/futbol/videos/resumen-y-goles-del-corea-del-sur-vs-republica-checa-jornada-1-fase-de-grupos-mundial-2026-f202606-v/?pbsvideo=top",
-        "published_at": "2026-06-12T10:50:30.023Z",
-        "fetched_at": "2026-06-12T10:50:30.023Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-06-12T10:50:30.023Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_general_discussion_hablar_inglés_entrenamiento_mental",
-    "topic_key": "general_discussion::hablar_inglés_entrenamiento_mental",
-    "issue_type": "general",
-    "topic_title": "英语口语与心智训练：世界杯裁判必须满足的要求",
-    "lead_source_title": "Hablar inglés y entrenamiento mental: los requisitos que deben cumplir los árbitros del Mundial",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“英语口语与心智训练：世界杯裁判必须满足的要求”，暂作为话题线索展示。英语口语与心智训练：世界杯裁判必须满足的要求",
-    "summary_zh": "英语口语与心智训练：世界杯裁判必须满足的要求",
-    "heat_score": 31,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "AS Fútbol Mundial 2026"
-    ],
-    "sources": [
-      {
-        "source_id": "media_as_futbol_mundial2026",
-        "source_name": "AS Fútbol Mundial 2026",
-        "title": "Hablar inglés y entrenamiento mental: los requisitos que deben cumplir los árbitros del Mundial",
-        "summary": "",
-        "url": "https://as.com/futbol/mundial/hablar-ingles-y-entrenamiento-mental-los-requisitos-que-deben-cumplir-los-arbitros-del-mundial-f202606-n/",
-        "published_at": "2026-06-12T10:50:30.023Z",
-        "fetched_at": "2026-06-12T10:50:30.023Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-06-12T10:50:30.023Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_general_discussion_mbappé_quiero_volver_francia",
-    "topic_key": "general_discussion::mbappé_quiero_volver_francia",
-    "issue_type": "general",
-    "topic_title": "姆巴佩：我最想要的是带着世界杯回到法国",
-    "lead_source_title": "Mbappé: \"Lo que más quiero es volver a Francia con el Mundial”",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“姆巴佩：我最想要的是带着世界杯回到法国”，暂作为话题线索展示。姆巴佩：我最想要的是带着世界杯回到法国",
-    "summary_zh": "姆巴佩：我最想要的是带着世界杯回到法国",
-    "heat_score": 31,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "AS Fútbol Mundial 2026"
-    ],
-    "sources": [
-      {
-        "source_id": "media_as_futbol_mundial2026",
-        "source_name": "AS Fútbol Mundial 2026",
-        "title": "Mbappé: \"Lo que más quiero es volver a Francia con el Mundial”",
-        "summary": "",
-        "url": "https://as.com/futbol/mundial/mbappe-firmo-ser-campeon-sin-marcar-un-gol-f202606-n/",
-        "published_at": "2026-06-12T10:50:30.023Z",
-        "fetched_at": "2026-06-12T10:50:30.023Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-06-12T10:50:30.023Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_fallback_general_discussion_partidos_viernes_junio_mundial",
     "topic_key": "general_discussion::partidos_viernes_junio_mundial",
     "issue_type": "general",
@@ -13698,6 +13504,63 @@
         "title": "Partidos de hoy, viernes 12 de junio, en el Mundial 2026: horarios, TV y resultados de la Copa del Mundo",
         "summary": "",
         "url": "https://as.com/futbol/mundial/partidos-de-hoy-viernes-12-de-junio-en-el-mundial-2026-horarios-tv-y-resultados-de-la-copa-del-mundo-f202606-n/",
+        "published_at": "2026-06-12T10:50:30.024Z",
+        "fetched_at": "2026-06-12T10:50:30.024Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "world_cup"
+    ],
+    "last_updated": "2026-06-12T10:50:30.024Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 42,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_general_discussion_lamine_llega_perfecto_mundial",
+    "topic_key": "general_discussion::lamine_llega_perfecto_mundial",
+    "issue_type": "general",
+    "topic_title": "拉明在世界杯上表现完美，别担心",
+    "lead_source_title": "\"Lamine llega perfecto al Mundial, no os preocupéis\"",
+    "lead_source_summary": "",
+    "topic_summary": "目前仅 1 个海外来源提到“拉明在世界杯上表现完美，别担心”，暂作为话题线索展示。拉明在世界杯上表现完美，别担心",
+    "summary_zh": "拉明在世界杯上表现完美，别担心",
+    "heat_score": 31,
+    "related_matches": [],
+    "related_teams": [],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "AS Fútbol Mundial 2026"
+    ],
+    "sources": [
+      {
+        "source_id": "media_as_futbol_mundial2026",
+        "source_name": "AS Fútbol Mundial 2026",
+        "title": "\"Lamine llega perfecto al Mundial, no os preocupéis\"",
+        "summary": "",
+        "url": "https://as.com/futbol/seleccion/espana-en-el-mundial-2026-en-directo-ultima-hora-de-la-seleccion-espanola-hoy-12-de-junio-pedri-lamine-yamal-nico-f202606-d/",
         "published_at": "2026-06-12T10:50:30.024Z",
         "fetched_at": "2026-06-12T10:50:30.024Z",
         "language": "es",
@@ -13842,11 +13705,11 @@
     "topic_id": "topic_fallback_son_heung-min_general_discussion_peur_malgré_doutes_niveau",
     "topic_key": "son heung-min::general_discussion::peur_malgré_doutes_niveau",
     "issue_type": "general",
-    "topic_title": "“我们并不害怕”：尽管人们对桑巴军团和内马尔的伤势存疑，但巴西人相信他们的幸运星",
+    "topic_title": "“我们不害怕”：尽管对塞莱索和内马尔的伤势存有疑虑，但巴西人相信他们的幸运星",
     "lead_source_title": "« On n'a pas peur » : malgré les doutes sur le niveau de la Seleçao et la blessure de Neymar, les Brésiliens croient en leur bonne étoile",
     "lead_source_summary": "Les Brésiliens affrontent le Maroc, dans la nuit de samedi à dimanche (minuit), pour démarrer une Coupe du monde dont ils ne font pas partie des favoris. Mais rassurés par la présence de Carlo Ancelotti sur le banc et enfiévrés par la sélection de Neymar, pourtant blessé, ils rêvent d'un sixième sacre planétaire.",
-    "topic_summary": "目前仅 1 个海外来源提到““我们并不害怕”：尽管人们对桑巴军团和内马尔的伤势存疑，但巴西人相信他们的幸运星”，暂作为话题线索展示。巴西队将在周六至周日晚上（午夜）迎战摩洛哥队，开启他们不在热门球队之列的世界杯",
-    "summary_zh": "巴西队将在周六至周日晚上（午夜）迎战摩洛哥队，开启他们不在热门球队之列的世界杯",
+    "topic_summary": "目前仅 1 个海外来源提到““我们不害怕”：尽管对塞莱索和内马尔的伤势存有疑虑，但巴西人相信他们的幸运星”，暂作为话题线索展示。巴西人在周六至周日晚上（午夜）面对摩洛哥，开始一场他们不喜欢的世界杯",
+    "summary_zh": "巴西人在周六至周日晚上（午夜）面对摩洛哥，开始一场他们不喜欢的世界杯",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -13959,11 +13822,11 @@
     "topic_id": "topic_fallback_general_discussion_voici_onze_idéal_bleus",
     "topic_key": "general_discussion::voici_onze_idéal_bleus",
     "issue_type": "general",
-    "topic_title": "这是我为2026年世界杯设计的莱斯布卢斯的11个理想，做你的！",
+    "topic_title": "这是我理想的 2026 年世界杯蓝军十一人阵容，快来制作你的吧！",
     "lead_source_title": "Voici mon onze idéal des Bleus pour la Coupe du monde 2026, faites le vôtre !",
     "lead_source_summary": "Les Bleus poursuivent leur préparation pour la Coupe du monde le 8 juin face à l'Irlande du Nord, quels joueurs vous ont le plus convaincu pour débuter ce match ?",
-    "topic_summary": "目前仅 1 个海外来源提到“这是我为2026年世界杯设计的莱斯布卢斯的11个理想，做你的！”，暂作为话题线索展示。蓝军继续备战 6 月 8 日对阵北爱尔兰的世界杯，哪位球员最让你相信能够首发这场比赛？",
-    "summary_zh": "蓝军继续备战 6 月 8 日对阵北爱尔兰的世界杯，哪位球员最让你相信能够首发这场比赛？",
+    "topic_summary": "目前仅 1 个海外来源提到“这是我理想的 2026 年世界杯蓝军十一人阵容，快来制作你的吧！”，暂作为话题线索展示。Les Bleus继续为6月8日对阵北爱尔兰的世界杯做准备，哪些球员最能说服您开始这场比赛？",
+    "summary_zh": "Les Bleus继续为6月8日对阵北爱尔兰的世界杯做准备，哪些球员最能说服您开始这场比赛？",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -14077,8 +13940,8 @@
     "topic_title": "关于海地与苏格兰您需要了解的一切",
     "lead_source_title": "Todo lo que tenés que saber sobre Haití vs. Escocia",
     "lead_source_summary": "Los Granaderos vuelven después de más de medio siglo, mientras que la Tartan Army hará su primera aparición en un Mundial tras una ausencia de 28 años.",
-    "topic_summary": "目前仅 1 个海外来源提到“关于海地与苏格兰您需要了解的一切”，暂作为话题线索展示。掷弹兵在半个多世纪后回归，而格子呢军队将在缺席28年后首次亮相世界杯",
-    "summary_zh": "掷弹兵在半个多世纪后回归，而格子呢军队将在缺席28年后首次亮相世界杯",
+    "topic_summary": "目前仅 1 个海外来源提到“关于海地与苏格兰您需要了解的一切”，暂作为话题线索展示。掷弹兵队时隔半个多世纪回归，格子呢军团将阔别28年首次亮相世界杯",
+    "summary_zh": "掷弹兵队时隔半个多世纪回归，格子呢军团将阔别28年首次亮相世界杯",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -16097,8 +15960,8 @@
     "topic_title": "2026年世界杯，60个点球中只有39个，成功率65%",
     "lead_source_title": "Only 39 penalties out of 60 taken have been scored during this 2026 World Cup, That’s a success rate of 65%.",
     "lead_source_summary": "this is including the shootout obviously. It is the lowest conversion percentage for a World Cup edition in 60 years. I wonder why? submitted by /u/Suspicious-Power-230 [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“2026年世界杯，60个点球中只有39个，成功率65%”，暂作为话题线索展示。这显然包括点球大战",
-    "summary_zh": "这显然包括点球大战",
+    "topic_summary": "目前仅 1 个海外来源提到“2026年世界杯，60个点球中只有39个，成功率65%”，暂作为话题线索展示。这显然包括枪战",
+    "summary_zh": "这显然包括枪战",
     "heat_score": 29,
     "related_matches": [],
     "related_teams": [],
