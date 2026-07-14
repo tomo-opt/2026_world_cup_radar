@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-14T06:01:59.858Z",
+  "generated_at": "2026-07-14T08:27:18.017Z",
   "total_sources": 102,
   "enabled_sources": 102,
   "success_sources": 89,
   "failed_sources": 13,
-  "included_in_frontend_sources": 33,
+  "included_in_frontend_sources": 37,
   "success_rate": 87.25,
   "target_success_rate": 60,
   "items": [
@@ -640,7 +640,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_sky_sports_football_news",
@@ -658,7 +658,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 16,
       "valid_items_count": 11,
-      "discarded_count": 11,
+      "discarded_count": 13,
       "discovered_feeds": [
         "https://www.skysports.com/feed",
         "https://www.skysports.com/rss",
@@ -674,7 +674,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_reuters_soccer",
@@ -792,7 +792,7 @@
       "failure_category": "html_parse_no_items",
       "failure_reason": "No usable HTML items found",
       "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_as_futbol_mundial2026",
@@ -816,7 +816,7 @@
       "failure_category": "html_parse_no_items",
       "failure_reason": "No usable HTML items found",
       "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_marca_futbol",
@@ -922,7 +922,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_lequipe_football_coupedumonde",
@@ -1186,7 +1186,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 17,
+      "fetched_count": 18,
       "valid_items_count": 18,
       "discarded_count": 2,
       "discovered_feeds": [
@@ -1249,7 +1249,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "social_mastodon_football",
@@ -1264,9 +1264,9 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 19,
-      "valid_items_count": 19,
-      "discarded_count": 1,
+      "fetched_count": 18,
+      "valid_items_count": 18,
+      "discarded_count": 2,
       "discovered_feeds": [
         "https://mastodon.social/tags/football.rss"
       ],
@@ -1290,7 +1290,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 19,
+      "fetched_count": 18,
       "valid_items_count": 19,
       "discarded_count": 1,
       "discovered_feeds": [
@@ -1392,7 +1392,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 24,
-      "valid_items_count": 22,
+      "valid_items_count": 24,
       "discarded_count": 23,
       "discovered_feeds": [
         "https://www.fourfourtwo.com/feeds.xml",
@@ -1429,7 +1429,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 4,
       "valid_items_count": 2,
-      "discarded_count": 1,
+      "discarded_count": 3,
       "discovered_feeds": [
         "https://www.transfermarkt.co.uk/feed",
         "https://www.transfermarkt.co.uk/rss",
@@ -1528,13 +1528,12 @@
       "crawl_mode": "html_list",
       "attempted_strategies": [
         "html_list",
-        "json_ld",
-        "wp_json"
+        "json_ld"
       ],
       "successful_strategy": "html_list",
       "fetched_count": 12,
-      "valid_items_count": 10,
-      "discarded_count": 12,
+      "valid_items_count": 9,
+      "discarded_count": 11,
       "discovered_feeds": [
         "https://onefootball.com/feed",
         "https://onefootball.com/rss",
@@ -1636,8 +1635,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 23,
-      "discarded_count": 47,
+      "valid_items_count": 24,
+      "discarded_count": 46,
       "discovered_feeds": [
         "https://www.goal.com/feed",
         "https://www.goal.com/rss",
@@ -2765,8 +2764,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 23,
-      "valid_items_count": 23,
-      "discarded_count": 23,
+      "valid_items_count": 24,
+      "discarded_count": 24,
       "discovered_feeds": [
         "https://supersport.com/feed",
         "https://supersport.com/rss",
