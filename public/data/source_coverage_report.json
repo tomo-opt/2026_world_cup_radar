@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-15T21:13:08.435Z",
+  "generated_at": "2026-07-15T22:19:11.366Z",
   "total_sources": 102,
   "enabled_sources": 102,
   "success_sources": 88,
   "failed_sources": 14,
-  "included_in_frontend_sources": 34,
+  "included_in_frontend_sources": 36,
   "success_rate": 86.27,
   "target_success_rate": 60,
   "items": [
@@ -501,8 +501,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 24,
-      "discarded_count": 16,
+      "valid_items_count": 25,
+      "discarded_count": 15,
       "discovered_feeds": [
         "https://feeds.bbci.co.uk/sport/football/world-cup/rss.xml",
         "https://www.bbc.co.uk/feed",
@@ -562,8 +562,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 25,
-      "discarded_count": 10,
+      "valid_items_count": 24,
+      "discarded_count": 8,
       "discovered_feeds": [
         "https://www.theguardian.com/football/world-cup-2026/rss",
         "https://www.theguardian.com/feed",
@@ -606,7 +606,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_sky_sports_football",
@@ -640,7 +640,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_sky_sports_football_news",
@@ -657,8 +657,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 16,
-      "valid_items_count": 11,
-      "discarded_count": 13,
+      "valid_items_count": 12,
+      "discarded_count": 14,
       "discovered_feeds": [
         "https://www.skysports.com/feed",
         "https://www.skysports.com/rss",
@@ -906,7 +906,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 25,
       "valid_items_count": 25,
-      "discarded_count": 10,
+      "discarded_count": 11,
       "discovered_feeds": [
         "https://www.lequipe.fr/feed",
         "https://www.lequipe.fr/rss",
@@ -1042,8 +1042,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 11,
-      "valid_items_count": 10,
-      "discarded_count": 12,
+      "valid_items_count": 11,
+      "discarded_count": 11,
       "discovered_feeds": [
         "https://ge.globo.com/feed",
         "https://ge.globo.com/rss",
@@ -1107,7 +1107,7 @@
       "attempted_strategies": [
         "rss_direct"
       ],
-      "successful_strategy": null,
+      "successful_strategy": "rss_direct",
       "fetched_count": 25,
       "valid_items_count": 25,
       "discarded_count": 0,
@@ -1115,9 +1115,9 @@
         "https://www.reddit.com/r/soccer/.rss"
       ],
       "discovered_sitemaps": [],
-      "status": "cached",
+      "status": "ok",
       "failure_category": null,
-      "failure_reason": "HTTP 429",
+      "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
       "included_in_frontend": true
     },
@@ -1186,7 +1186,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 20,
+      "fetched_count": 19,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1212,7 +1212,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 20,
+      "fetched_count": 19,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1238,7 +1238,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 20,
+      "fetched_count": 18,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1290,9 +1290,9 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 20,
-      "valid_items_count": 20,
-      "discarded_count": 0,
+      "fetched_count": 18,
+      "valid_items_count": 18,
+      "discarded_count": 2,
       "discovered_feeds": [
         "https://mastodon.social/tags/soccer.rss"
       ],
@@ -1498,7 +1498,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 12,
+      "valid_items_count": 16,
       "discarded_count": 20,
       "discovered_feeds": [
         "https://sports.yahoo.com/rss/",
@@ -1602,7 +1602,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 15,
-      "valid_items_count": 15,
+      "valid_items_count": 17,
       "discarded_count": 17,
       "discovered_feeds": [
         "https://www.nbcsports.com/soccer/world-cup.atom",
@@ -1672,8 +1672,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 22,
-      "discarded_count": 3,
+      "valid_items_count": 23,
+      "discarded_count": 25,
       "discovered_feeds": [
         "https://www.foxsports.com/feed",
         "https://www.foxsports.com/rss",
@@ -2766,8 +2766,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 23,
-      "valid_items_count": 20,
-      "discarded_count": 24,
+      "valid_items_count": 17,
+      "discarded_count": 23,
       "discovered_feeds": [
         "https://supersport.com/feed",
         "https://supersport.com/rss",
