@@ -358,7 +358,7 @@
       "en"
     ],
     "source_count": 4,
-    "evidence_count": 7,
+    "evidence_count": 8,
     "source_names": [
       "AP News Soccer",
       "Goal World Cup News Page",
@@ -444,6 +444,23 @@
         "fetched_at": "2026-06-13T05:29:38.245Z",
         "language": "en",
         "region": "全球/英语圈",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      },
+      {
+        "source_id": "media_guardian_football_worldcup2026",
+        "source_name": "The Guardian Football Worldcup 2026 Page",
+        "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+        "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+        "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
+        "published_at": "2026-06-13T05:28:10.362Z",
+        "fetched_at": "2026-06-13T05:28:10.362Z",
+        "language": "en",
+        "region": "欧洲",
         "source_type": "media",
         "crawl_strategy": "html_list_test",
         "crawl_mode": "html_list",
@@ -610,224 +627,6 @@
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题识别",
     "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_general_discussion_world_cup_世界杯",
-    "topic_key": "general_discussion::world_cup::世界杯",
-    "issue_type": "qualification_race",
-    "topic_title": "“每个人都沉迷于足球”：印度联赛寻求顺应世界杯浪潮",
-    "lead_source_title": "‘Everyone is hooked on football’: Indian league seeks to ride World Cup wave",
-    "lead_source_summary": "Club chiefs hope that a revitalised setup can help huge interest in this summer’s tournament translate into growth of the Indian domestic game India was not at the World Cup, but the tournament drew huge interest from within the country. This has happened before but now comes with significant, and necessary, changes in the domestic game that could transform a quadrennial passion into perennial interest. After more than a year of negative headlines regarding the Indian Super League, the country’s top tier will kick off on 4 September. “The timing couldn’t be better,” says Ravi Puskur, chief executive of the ISL’s FC Goa who last season won the Super Cup, India’s top knockout competition. “A World Cup that was not ideal in terms of viewing times has drawn strong interest and support from the Indian market. It does something a domestic league alone can’t do; it puts football at the centre of the conversation.” Continue reading...",
-    "topic_summary": "共有 8 个海外来源提到该话题。俱乐部负责人希望，重新焕发活力的设置能够帮助人们对今年夏天的锦标赛的巨大兴趣转化为印度国内比赛的增长 印度没有参加世界杯，但这项赛事引起了国内的巨大兴趣",
-    "summary_zh": "俱乐部负责人希望，重新焕发活力的设置能够帮助人们对今年夏天的锦标赛的巨大兴趣转化为印度国内比赛的增长 印度没有参加世界杯，但这项赛事引起了国内的巨大兴趣",
-    "heat_score": 62,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "欧洲",
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 8,
-    "evidence_count": 10,
-    "source_names": [
-      "The Guardian Football",
-      "BBC Sport Football",
-      "Reddit r/football",
-      "Reddit r/worldcup",
-      "CBS Sports World Cup News Page",
-      "Goal World Cup News Page",
-      "Sky Sports Football",
-      "BBC Sport Football Worldcup Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "‘Everyone is hooked on football’: Indian league seeks to ride World Cup wave",
-        "summary": "Club chiefs hope that a revitalised setup can help huge interest in this summer’s tournament translate into growth of the Indian domestic game India was not at the World Cup, but the tournament drew huge interest from within the country. This has happened before but now comes with significant, and necessary, changes in the domestic game that could transform a quadrennial passion into perennial interest. After more than a year of negative headlines regarding the Indian Super League, the country’s top tier will kick off on 4 September. “The timing couldn’t be better,” says Ravi Puskur, chief executive of the ISL’s FC Goa who last season won the Super Cup, India’s top knockout competition. “A World Cup that was not ideal in terms of viewing times has drawn strong interest and support from the Indian market. It does something a domestic league alone can’t do; it puts football at the centre of the conversation.” Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/23/everyone-is-hooked-on-football-indian-league-seeks-to-ride-world-cup-wave",
-        "published_at": "2026-07-23T11:00:42.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_bbc_sport_football",
-        "source_name": "BBC Sport Football",
-        "title": "The defining moments of the 2026 World Cup",
-        "summary": "From historic World Cup debuts and emotional first victories, to new stars and the brilliance of legends - relive the defining moments of the 2026 FIFA World Cup.",
-        "url": "https://www.bbc.co.uk/sport/football/videos/cdrv06y1pdlo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-07-21T15:45:11.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      },
-      {
-        "source_id": "forum_reddit_football",
-        "source_name": "Reddit r/football",
-        "title": "Malaysia World Cup 2030 Qualify",
-        "summary": "Malaysia has never qualified for a FIFA World Cup, but I don't think it's impossible. The 2030 World Cup should be our long-term target, and I believe every fan can help by sharing ideas. Here are some things I think the Football Association of Malaysia (FAM) should focus on: - Invest much more in youth development and football academies across the country. - Improve coaching by bringing in experienced coaches and continuously developing local coaches. - Give more young Malaysian players regular playing time in the Super League instead of relying too heavily on imports. - Upgrade training facilities, sports science, nutrition, fitness, and injury prevention. - Organize more international friendlies against stronger teams so our players gain experience. - Continue identifying talented Malaysian players overseas who are eligible to represent the national team. - Build a clear long-term football philosophy from the youth levels all the way to the senior national team. - Strengthen grassroots football in schools and local communities so more children play the game. - Make player development the priority instead of only chasing short-term results. I also encourage everyone who cares about Malaysian football to respectfully email FAM with constructive suggestions. If enough fans share thoughtful ideas, maybe some of them will be considered. FAM media email: media@fam.org.my Please be respectful and professional if you decide to write to them. We all want the same thing—to see Malaysia qualify for the FIFA World Cup one day. What other realistic ideas do you have? Let's discuss them respectfully. Maybe together we can help build a stronger future for Malaysian football and make World Cup 2030 a genuine goal. submitted by /u/GuidanceEntire5984 [link] [comments]",
-        "url": "https://www.reddit.com/r/football/comments/1ut7f94/malaysia_world_cup_2030_qualify/",
-        "published_at": "2026-07-11T02:15:33.000Z",
-        "fetched_at": "2026-07-11T04:32:00.802Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      },
-      {
-        "source_id": "forum_reddit_football",
-        "source_name": "Reddit r/football",
-        "title": "England's Jarell Quansah has been banned by FIFA for TWO games after red card!",
-        "summary": "FIFA Bans England star Quansah for TWO GAMES! This is big.. even if England were to get past Norway.. to now play 2 of the most important games without one of their stars is crazy. TWO GAMES!! Oh my goodness.. this changes a lot of things. Will Keir Starmer get on the phone now?! Whose the leader of England right now? holy.. submitted by /u/c0ldb00t [link] [comments]",
-        "url": "https://www.reddit.com/r/football/comments/1urxkvj/englands_jarell_quansah_has_been_banned_by_fifa/",
-        "published_at": "2026-07-09T17:49:42.000Z",
-        "fetched_at": "2026-07-11T04:32:00.802Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      },
-      {
-        "source_id": "forum_reddit_worldcup",
-        "source_name": "Reddit r/worldcup",
-        "title": "Countries eligible to host the 2038 World Cup under current rules",
-        "summary": "submitted by /u/Visual_Listen2001 [link] [comments]",
-        "url": "https://www.reddit.com/r/ussoccer/comments/1ugau9i/countries_eligible_to_host_the_2038_world_cup/",
-        "published_at": "2026-06-26T15:59:47.000Z",
-        "fetched_at": "2026-06-26T16:25:00.710Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_cbs_sports_world_cup",
-        "source_name": "CBS Sports World Cup News Page",
-        "title": "What is VAR? How video assistant referee works at 2026 World Cup",
-        "summary": "",
-        "url": "https://www.cbssports.com/soccer/news/what-is-var-how-video-assistant-referee-work-at-2026-world-cup/",
-        "published_at": "2026-06-13T05:29:45.220Z",
-        "fetched_at": "2026-06-13T05:29:45.220Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_cbs_sports_world_cup",
-        "source_name": "CBS Sports World Cup News Page",
-        "title": "Meet the World Cup's potential breakout stars",
-        "summary": "",
-        "url": "https://www.cbssports.com/soccer/news/potential-world-cup-2026-breakout-stars-argentinas-nico-paz-brazils-endrick/",
-        "published_at": "2026-06-13T05:29:45.220Z",
-        "fetched_at": "2026-06-13T05:29:45.220Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_goal_world_cup",
-        "source_name": "Goal World Cup News Page",
-        "title": "A dual-forecast group double for the World Cup",
-        "summary": "An expanded 48-team World Cup has led to some unbalanced groups. Combining outright dual-forecast bets could be a smart strategy.",
-        "url": "https://www.goal.com/en-us/betting/world-cup/world-cup-dual-forecast-group-double/A%3Abltab0818f11f1ffcb6",
-        "published_at": "2026-06-13T05:29:38.245Z",
-        "fetched_at": "2026-06-13T05:29:38.245Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_sky_sports_football",
-        "source_name": "Sky Sports Football",
-        "title": "World Cup news: Ref Oliver pulls out of first match appointment with injury",
-        "summary": "",
-        "url": "https://www.skysports.com/football/live-blog/11095/13509050/world-cup-2026-news-and-live-updates-usa-canada-and-mexico-build-up-plus-latest-on-trump-tickets-and-fans",
-        "published_at": "2026-06-13T05:28:13.257Z",
-        "fetched_at": "2026-06-13T05:28:13.257Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_bbc_sport_football_worldcup",
-        "source_name": "BBC Sport Football Worldcup Page",
-        "title": "Fans on concourses instead of in seats, claims Fifa",
-        "summary": "Fans on concourses instead of in seats, claims Fifa",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c14y0dp6vrdo",
-        "published_at": "2026-06-13T05:28:02.659Z",
-        "fetched_at": "2026-06-13T05:28:02.659Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-07-23T11:00:42.000Z",
-    "source_count_score": 100,
-    "recency_score": 8,
-    "cross_region_score": 68,
-    "source_priority_score": 76,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "较高",
     "included_in_frontend": true
   },
   {
@@ -1247,100 +1046,6 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_澳大利亚_general_discussion_澳大利亚_世界杯",
-    "topic_key": "澳大利亚::general_discussion::澳大利亚::世界杯",
-    "issue_type": "star_form",
-    "topic_title": "据称，澳大利亚队球星克里斯蒂安·沃尔帕托在路边测试中可卡因呈阳性",
-    "lead_source_title": "Socceroos star Cristian Volpato allegedly tests positive for cocaine during roadside test",
-    "lead_source_summary": "Australia forward allegedly driving almost 50km/h over speed limit 22-year-old was stopped twice for speeding on Anzac Bridge in Sydney Socceroos forward Cristian Volpato has allegedly tested positive for cocaine after being stopped while driving at almost 50km/h over the speed limit in Sydney. Volpato was one of Australia’s breakout stars of the 2026 World Cup but is now back in the spotlight after allegedly driving a BMW Coupe at 109km/h in a 60km/h zone across Anzac Bridge about 1.10am on Friday. Continue reading...",
-    "topic_summary": "共有 3 个海外来源提到该话题。澳大利亚前锋据称超速行驶近 50 公里/小时 22 岁男子因在悉尼安扎克大桥超速驾驶而两次被拦下 澳大利亚足球队前锋克里斯蒂安·沃尔帕托 (Cristian Volpato) 据称在悉尼以超速近 50 公里/小时的速度行驶时被拦下，结果可卡因检测呈阳性",
-    "summary_zh": "澳大利亚前锋据称超速行驶近 50 公里/小时 22 岁男子因在悉尼安扎克大桥超速驾驶而两次被拦下 澳大利亚足球队前锋克里斯蒂安·沃尔帕托 (Cristian Volpato) 据称在悉尼以超速近 50 公里/小时的速度行驶时被拦下，结果可卡因检测呈阳性",
-    "heat_score": 58,
-    "related_matches": [],
-    "related_teams": [
-      "澳大利亚"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲",
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 3,
-    "evidence_count": 3,
-    "source_names": [
-      "The Guardian Football",
-      "AP News Soccer",
-      "Goal World Cup News Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Socceroos star Cristian Volpato allegedly tests positive for cocaine during roadside test",
-        "summary": "Australia forward allegedly driving almost 50km/h over speed limit 22-year-old was stopped twice for speeding on Anzac Bridge in Sydney Socceroos forward Cristian Volpato has allegedly tested positive for cocaine after being stopped while driving at almost 50km/h over the speed limit in Sydney. Volpato was one of Australia’s breakout stars of the 2026 World Cup but is now back in the spotlight after allegedly driving a BMW Coupe at 109km/h in a 60km/h zone across Anzac Bridge about 1.10am on Friday. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/24/cristian-volpato-socceroos-allegedly-tests-positive-cocaine-speeding",
-        "published_at": "2026-07-24T05:33:23.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_ap_news_soccer",
-        "source_name": "AP News Soccer",
-        "title": "Australia embraces immigrants on World Cup squad with message that soccer is for everyone",
-        "summary": "",
-        "url": "https://apnews.com/article/world-cup-australia-socceroos-diversity-a18d9dffbdcd6a75905f7163520666e2",
-        "published_at": "2026-06-13T05:29:55.943Z",
-        "fetched_at": "2026-06-13T05:29:55.943Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      },
-      {
-        "source_id": "media_goal_world_cup",
-        "source_name": "Goal World Cup News Page",
-        "title": "Barcelona reportedly interested in Rapids' young star Herrington",
-        "summary": "Lucas Herrington, 18, has been one of Major League Soccer’s breakout stars this year, emerging as a defensive standout for the Colorado Rapids. His rise has reportedly attracted interest from abroad, including from La Liga champions Barcelona. The center back’s strong form has also earned him a place on Australia’s World Cup roster.",
-        "url": "https://www.goal.com/en-us/lists/barcelona-reportedly-interested-in-colorado-rapids-rising-young-australia-international-lucas-herrington/blt216cadb08d27ec4a",
-        "published_at": "2026-06-13T05:29:38.245Z",
-        "fetched_at": "2026-06-13T05:29:38.245Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-24T05:33:23.000Z",
-    "source_count_score": 78,
-    "recency_score": 8,
-    "cross_region_score": 68,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "较高",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_阿根廷_general_discussion_阿根廷_世界杯",
     "topic_key": "阿根廷::general_discussion::阿根廷::世界杯",
     "issue_type": "coach_tactics",
@@ -1349,7 +1054,7 @@
     "lead_source_summary": "submitted by /u/IndividualPleasant23 [link] [comments]",
     "topic_summary": "共有 2 个海外来源提到该话题。由 /u/IndividualPleasant23 提交 [链接] [评论]",
     "summary_zh": "由 /u/IndividualPleasant23 提交 [链接] [评论]",
-    "heat_score": 58,
+    "heat_score": 56,
     "related_matches": [],
     "related_teams": [
       "阿根廷",
@@ -1377,7 +1082,7 @@
         "summary": "submitted by /u/IndividualPleasant23 [link] [comments]",
         "url": "https://www.reddit.com/r/soccer/comments/1v6gcu6/in_argentina_scalonis_house_had_to_be_fenced_off/",
         "published_at": "2026-07-25T18:43:44.000Z",
-        "fetched_at": "2026-07-26T01:01:35.930Z",
+        "fetched_at": "2026-07-26T04:36:34.351Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -1394,7 +1099,7 @@
         "summary": "Too engrossed with the World Cup drama to keep up with goings-on in the transfer market? We’ve got you covered Announced just before England’s soul-sucking semi-final defeat by Argentina, it would have been easy to miss Trossard’s £15.3m move to Istanbul. While, after three and a half seasons and at the age of 31, it feels like his time at Arsenal has come to a natural conclusion, he will be remembered as a player who scored in clutch moments and, ultimately, played a crucial role in the club’s first league title in 22 years. Trossard departs after 174 appearances and 36 goals, a significant portion of which came from the bench in times of desperate need. He will be missed and deserves to be revered as one of the cult heroes of the Mikel Arteta era. Will Magee Continue reading...",
         "url": "https://www.theguardian.com/football/2026/jul/22/trossard-ramos-dumfries-10-transfers-you-may-have-missed-during-the-world-cup",
         "published_at": "2026-07-22T19:00:22.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
+        "fetched_at": "2026-07-26T04:36:33.722Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -1408,7 +1113,7 @@
     "topic_phrases": [],
     "last_updated": "2026-07-25T18:43:44.000Z",
     "source_count_score": 52,
-    "recency_score": 46,
+    "recency_score": 42,
     "cross_region_score": 68,
     "source_priority_score": 72,
     "match_relevance_score": 70,
@@ -1421,11 +1126,11 @@
     "topic_id": "topic_英格兰_general_discussion_英格兰_世界杯",
     "topic_key": "英格兰::general_discussion::英格兰::世界杯",
     "issue_type": "coach_tactics",
-    "topic_title": "沃金导演：笛福退出前的担忧日益加剧",
+    "topic_title": "笛福退出前日益增长的担忧-沃金总监",
     "lead_source_title": "Growing concerns before Defoe exit - Woking director",
     "lead_source_summary": "Woking director of football Jody Brown says there were \"growing concerns\" across the club before the National League side parted ways with former England striker Jermain Defoe as manager.",
-    "topic_summary": "共有 3 个海外来源提到该话题。沃金足球总监乔迪·布朗表示，在国联球队与前英格兰前锋杰梅因·迪福分道扬镳之前，整个俱乐部的担忧越来越大",
-    "summary_zh": "沃金足球总监乔迪·布朗表示，在国联球队与前英格兰前锋杰梅因·迪福分道扬镳之前，整个俱乐部的担忧越来越大",
+    "topic_summary": "共有 3 个海外来源提到该话题。沃金足球总监乔迪·布朗（Jody Brown）表示，在国家联赛球队与前英格兰前锋杰曼·迪福（Jermain Defoe）分道扬镳之前，整个俱乐部的担",
+    "summary_zh": "沃金足球总监乔迪·布朗（Jody Brown）表示，在国家联赛球队与前英格兰前锋杰曼·迪福（Jermain Defoe）分道扬镳之前，整个俱乐部的担",
     "heat_score": 55,
     "related_matches": [],
     "related_teams": [
@@ -1453,7 +1158,7 @@
         "summary": "Woking director of football Jody Brown says there were \"growing concerns\" across the club before the National League side parted ways with former England striker Jermain Defoe as manager.",
         "url": "https://www.bbc.co.uk/sport/football/articles/c9v4y3dr9w0o?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-07-25T11:08:50.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
+        "fetched_at": "2026-07-26T04:36:33.408Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -1470,7 +1175,7 @@
         "summary": "BBC Sport spoke to fans of the Women's Super League and England Lionesses to learn about their experiences in the game and discuss what could be improved.",
         "url": "https://www.bbc.co.uk/sport/football/articles/cj0plpe7eq6o?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-07-24T05:45:20.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
+        "fetched_at": "2026-07-26T04:36:33.408Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -1518,7 +1223,7 @@
     "topic_phrases": [],
     "last_updated": "2026-07-25T11:08:50.000Z",
     "source_count_score": 78,
-    "recency_score": 22,
+    "recency_score": 20,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 70,
@@ -1729,246 +1434,6 @@
     "match_relevance_score": 92,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_erling_haaland_general_discussion_erling_haaland_世界杯",
-    "topic_key": "erling_haaland::general_discussion::erling_haaland::世界杯",
-    "issue_type": "fans_atmosphere",
-    "topic_title": "从哈兰德的爱到墨西哥的梅林： 2026年世界杯的26个回忆",
-    "lead_source_title": "From Haaland love to Mexico’s Merlin: 26 memories from the 2026 World Cup",
-    "lead_source_summary": "Norway’s striker left his mark, as did Scotland’s fans in Boston, but Turkey’s dark horses fell at the first hurdle “I played with him on my PlayStation, and now I’ve scored against him,” Livano Comenencia said after converting Curaçao’s first World Cup goal past Manuel Neuer in their opening match against Germany. The smallest nation ever to qualify for the World Cup went on to lose 7-1 but that goal – their only one of the tournament – will go down in history. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“从哈兰德的爱到墨西哥的梅林： 2026年世界杯的26个回忆”，暂作为话题线索展示。Livano Comenencia在对阵德国的首场比赛中将库拉索岛的第一个世界杯进球转换为曼努埃尔·诺伊尔之后说，挪威的前锋留下了他的印记，波士顿的苏格兰球迷也留下了他的印记，但是土耳其的黑马在我和他一起在PlayStation上玩的第一个障碍上掉了下来，现在我已经对他进了球。",
-    "summary_zh": "Livano Comenencia在对阵德国的首场比赛中将库拉索岛的第一个世界杯进球转换为曼努埃尔·诺伊尔之后说，挪威的前锋留下了他的印记，波士顿的苏格兰球迷也留下了他的印记，但是土耳其的黑马在我和他一起在PlayStation上玩的第一个障碍上掉了下来，现在我已经对他进了球。",
-    "heat_score": 53,
-    "related_matches": [],
-    "related_teams": [
-      "墨西哥",
-      "苏格兰",
-      "土耳其",
-      "德国",
-      "挪威"
-    ],
-    "related_players": [
-      "Erling Haaland"
-    ],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "From Haaland love to Mexico’s Merlin: 26 memories from the 2026 World Cup",
-        "summary": "Norway’s striker left his mark, as did Scotland’s fans in Boston, but Turkey’s dark horses fell at the first hurdle “I played with him on my PlayStation, and now I’ve scored against him,” Livano Comenencia said after converting Curaçao’s first World Cup goal past Manuel Neuer in their opening match against Germany. The smallest nation ever to qualify for the World Cup went on to lose 7-1 but that goal – their only one of the tournament – will go down in history. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/25/26-memories-from-the-2026-world-cup-football",
-        "published_at": "2026-07-25T19:00:50.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Erling Haaland"
-    ],
-    "last_updated": "2026-07-25T19:00:50.000Z",
-    "source_count_score": 26,
-    "recency_score": 85,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_巴西_general_discussion_arsenal_make_shock_approach",
-    "topic_key": "巴西::general_discussion::arsenal_make_shock_approach",
-    "issue_type": "general",
-    "topic_title": "阿森纳令人震惊地从皇马签下维尼修斯·儒尼奥尔",
-    "lead_source_title": "Arsenal make shock approach to sign Vinícius Júnior from Real Madrid",
-    "lead_source_summary": "Brazil forward has one year left on contract at Bernabéu Vinícius future at Real uncertain after Mourinho arrival Arsenal are exploring a shock deal to sign Vinícius Júnior from Real Madrid. Arsenal have inquired about the Brazil international, who has one year remaining on his contract at the Bernabéu. It is believed any move for Vinícius – who scored 22 goals for Real last season and four for Brazil at the World Cup – is at a formative stage as Mikel Arteta seeks a marquee signing to build on the club’s first Premier League title in more than two decades. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“阿森纳令人震惊地从皇马签下维尼修斯·儒尼奥尔”，暂作为话题线索展示。巴西前锋与伯纳乌的合同还剩一年，穆里尼奥到来后维尼修斯在皇马的未来不确定，阿森纳正在探索一项令人震惊的交易，从皇家马德里签下维尼修斯·儒尼奥尔",
-    "summary_zh": "巴西前锋与伯纳乌的合同还剩一年，穆里尼奥到来后维尼修斯在皇马的未来不确定，阿森纳正在探索一项令人震惊的交易，从皇家马德里签下维尼修斯·儒尼奥尔",
-    "heat_score": 52,
-    "related_matches": [],
-    "related_teams": [
-      "巴西"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Arsenal make shock approach to sign Vinícius Júnior from Real Madrid",
-        "summary": "Brazil forward has one year left on contract at Bernabéu Vinícius future at Real uncertain after Mourinho arrival Arsenal are exploring a shock deal to sign Vinícius Júnior from Real Madrid. Arsenal have inquired about the Brazil international, who has one year remaining on his contract at the Bernabéu. It is believed any move for Vinícius – who scored 22 goals for Real last season and four for Brazil at the World Cup – is at a formative stage as Mikel Arteta seeks a marquee signing to build on the club’s first Premier League title in more than two decades. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/25/arsenal-inquiry-transfer-vinicius-junior-real-madrid",
-        "published_at": "2026-07-25T17:32:00.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-25T17:32:00.000Z",
-    "source_count_score": 26,
-    "recency_score": 81,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_美国_general_discussion_lacuarta_will_have_enormous",
-    "topic_key": "美国::general_discussion::lacuarta_will_have_enormous",
-    "issue_type": "general",
-    "topic_title": "[LaCuarta] 他将获得巨额薪水。有关科洛科洛沃齐尼亚斯签约的详细信息",
-    "lead_source_title": "[LaCuarta] He will have an enormous salary. Details about Vozinha's signings for Colo Colo.",
-    "lead_source_summary": "Annual salary of US $300K. submitted by /u/NeonSkorpio [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“[LaCuarta] 他将获得巨额薪水。有关科洛科洛沃齐尼亚斯签约的详细信息”，暂作为话题线索展示。由 /u/NeonSkorpio 提交 [链接] [评论]",
-    "summary_zh": "由 /u/NeonSkorpio 提交 [链接] [评论]",
-    "heat_score": 52,
-    "related_matches": [],
-    "related_teams": [
-      "美国"
-    ],
-    "related_players": [],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/soccer"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "[LaCuarta] He will have an enormous salary. Details about Vozinha's signings for Colo Colo.",
-        "summary": "Annual salary of US $300K. submitted by /u/NeonSkorpio [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1v6lcuo/lacuarta_he_will_have_an_enormous_salary_details/",
-        "published_at": "2026-07-25T22:03:28.000Z",
-        "fetched_at": "2026-07-26T01:01:35.930Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-25T22:03:28.000Z",
-    "source_count_score": 26,
-    "recency_score": 92,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_edin_dzeko_general_discussion_germany_edin_dzeko_stay",
-    "topic_key": "edin dzeko::general_discussion::germany_edin_dzeko_stay",
-    "issue_type": "general",
-    "topic_title": "【天空德国】哲科留守沙尔克04！",
-    "lead_source_title": "[Sky Germany] Edin Dzeko to stay at Schalke 04!",
-    "lead_source_summary": "submitted by /u/Peaky_Blinders [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“【天空德国】哲科留守沙尔克04！”，暂作为话题线索展示。由 /u/Peaky_Blinders 提交 [链接] [评论]",
-    "summary_zh": "由 /u/Peaky_Blinders 提交 [链接] [评论]",
-    "heat_score": 52,
-    "related_matches": [],
-    "related_teams": [
-      "德国"
-    ],
-    "related_players": [
-      "Edin Dzeko"
-    ],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/soccer"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "[Sky Germany] Edin Dzeko to stay at Schalke 04!",
-        "summary": "submitted by /u/Peaky_Blinders [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1v6juzi/sky_germany_edin_dzeko_to_stay_at_schalke_04/",
-        "published_at": "2026-07-25T21:01:57.000Z",
-        "fetched_at": "2026-07-26T01:01:35.930Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Edin Dzeko"
-    ],
-    "last_updated": "2026-07-25T21:01:57.000Z",
-    "source_count_score": 26,
-    "recency_score": 90,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
     "confidence": "中",
     "included_in_frontend": true
   },
@@ -2343,26 +1808,26 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_摩洛哥_general_discussion_missing_major_football_tournament",
-    "topic_key": "摩洛哥::general_discussion::missing_major_football_tournament",
-    "issue_type": "general",
-    "topic_title": "错过重大足球赛事？别担心，Wafcon 2026 即将开始",
-    "lead_source_title": "Missing a major football tournament? Fear not, Wafcon 2026 is about to start",
-    "lead_source_summary": "The Women’s Africa Cup of Nations starts in Morocco on Sunday, with Cape Verde and Egypt looking to continue feelgood factor from the men’s World Cup and Nigeria going for an 11th title The men’s World Cup may have finished but do not worry, the Women’s Africa Cup of Nations (Wafcon) is ready to pick up where Spain and Argentina left off. The 34-match event will take place between 26 July and 16 August, which sandwiches it between football’s global showpiece and the start of the league season in Europe. Here’s your guide to one of the most underrated but interesting events on the sporting calendar. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“错过重大足球赛事？别担心，Wafcon 2026 即将开始”，暂作为话题线索展示。女子非洲国家杯将于周日在摩洛哥拉开帷幕，佛得角和埃及希望继续延续男子世界杯带来的良好感觉，而尼日利亚则力争第 11 座冠军头衔 男子世界杯可能已经结束，但不用担心，女子非洲国家杯 (Wafcon) 已准备好接续西班牙和阿根廷的比赛",
-    "summary_zh": "女子非洲国家杯将于周日在摩洛哥拉开帷幕，佛得角和埃及希望继续延续男子世界杯带来的良好感觉，而尼日利亚则力争第 11 座冠军头衔 男子世界杯可能已经结束，但不用担心，女子非洲国家杯 (Wafcon) 已准备好接续西班牙和阿根廷的比赛",
+    "topic_id": "topic_erling_haaland_general_discussion_erling_haaland_世界杯",
+    "topic_key": "erling_haaland::general_discussion::erling_haaland::世界杯",
+    "issue_type": "fans_atmosphere",
+    "topic_title": "从哈兰德的爱到墨西哥的梅林： 2026年世界杯的26个回忆",
+    "lead_source_title": "From Haaland love to Mexico’s Merlin: 26 memories from the 2026 World Cup",
+    "lead_source_summary": "Norway’s striker left his mark, as did Scotland’s fans in Boston, but Turkey’s dark horses fell at the first hurdle “I played with him on my PlayStation, and now I’ve scored against him,” Livano Comenencia said after converting Curaçao’s first World Cup goal past Manuel Neuer in their opening match against Germany. The smallest nation ever to qualify for the World Cup went on to lose 7-1 but that goal – their only one of the tournament – will go down in history. Continue reading...",
+    "topic_summary": "目前仅 1 个海外来源提到“从哈兰德的爱到墨西哥的梅林： 2026年世界杯的26个回忆”，暂作为话题线索展示。Norway’s striker left his mark, as did Scotland’s fans in Boston, but Turkey’s dark horses fell at the first hurdle I played with him on my PlayStation, and now I’ve scored against him, Livano Comenencia said after converting Curaçao’s first World Cup goal past Manuel Neuer in their opening match against Germany",
+    "summary_zh": "Norway’s striker left his mark, as did Scotland’s fans in Boston, but Turkey’s dark horses fell at the first hurdle I played with him on my PlayStation, and now I’ve scored against him, Livano Comenencia said after converting Curaçao’s first World Cup goal past Manuel Neuer in their opening match against Germany",
     "heat_score": 50,
-    "related_matches": [
-      "M013"
-    ],
+    "related_matches": [],
     "related_teams": [
-      "摩洛哥",
-      "埃及",
-      "西班牙",
-      "佛得角",
-      "阿根廷"
+      "墨西哥",
+      "苏格兰",
+      "土耳其",
+      "德国",
+      "挪威"
     ],
-    "related_players": [],
+    "related_players": [
+      "Erling Haaland"
+    ],
     "regions": [
       "欧洲"
     ],
@@ -2378,11 +1843,11 @@
       {
         "source_id": "media_guardian_football",
         "source_name": "The Guardian Football",
-        "title": "Missing a major football tournament? Fear not, Wafcon 2026 is about to start",
-        "summary": "The Women’s Africa Cup of Nations starts in Morocco on Sunday, with Cape Verde and Egypt looking to continue feelgood factor from the men’s World Cup and Nigeria going for an 11th title The men’s World Cup may have finished but do not worry, the Women’s Africa Cup of Nations (Wafcon) is ready to pick up where Spain and Argentina left off. The 34-match event will take place between 26 July and 16 August, which sandwiches it between football’s global showpiece and the start of the league season in Europe. Here’s your guide to one of the most underrated but interesting events on the sporting calendar. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/25/wafcon-2026-womens-africa-cup-nations-guide",
-        "published_at": "2026-07-25T11:00:40.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
+        "title": "From Haaland love to Mexico’s Merlin: 26 memories from the 2026 World Cup",
+        "summary": "Norway’s striker left his mark, as did Scotland’s fans in Boston, but Turkey’s dark horses fell at the first hurdle “I played with him on my PlayStation, and now I’ve scored against him,” Livano Comenencia said after converting Curaçao’s first World Cup goal past Manuel Neuer in their opening match against Germany. The smallest nation ever to qualify for the World Cup went on to lose 7-1 but that goal – their only one of the tournament – will go down in history. Continue reading...",
+        "url": "https://www.theguardian.com/football/2026/jul/25/26-memories-from-the-2026-world-cup-football",
+        "published_at": "2026-07-25T19:00:50.000Z",
+        "fetched_at": "2026-07-26T04:36:33.722Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -2393,13 +1858,72 @@
         "item_type": "article"
       }
     ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-25T11:00:40.000Z",
+    "topic_phrases": [
+      "Erling Haaland"
+    ],
+    "last_updated": "2026-07-25T19:00:50.000Z",
     "source_count_score": 26,
-    "recency_score": 65,
+    "recency_score": 76,
     "cross_region_score": 35,
     "source_priority_score": 82,
-    "match_relevance_score": 92,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_美国_general_discussion_lacuarta_will_have_enormous",
+    "topic_key": "美国::general_discussion::lacuarta_will_have_enormous",
+    "issue_type": "general",
+    "topic_title": "[LaCuarta] 他将获得巨额薪水。有关科洛科洛沃齐尼亚斯签约的详细信息",
+    "lead_source_title": "[LaCuarta] He will have an enormous salary. Details about Vozinha's signings for Colo Colo.",
+    "lead_source_summary": "Annual salary of US $300K. submitted by /u/NeonSkorpio [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“[LaCuarta] 他将获得巨额薪水。有关科洛科洛沃齐尼亚斯签约的详细信息”，暂作为话题线索展示。由 /u/NeonSkorpio 提交 [链接] [评论]",
+    "summary_zh": "由 /u/NeonSkorpio 提交 [链接] [评论]",
+    "heat_score": 50,
+    "related_matches": [],
+    "related_teams": [
+      "美国"
+    ],
+    "related_players": [],
+    "regions": [
+      "全球/英语圈"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "Reddit r/soccer"
+    ],
+    "sources": [
+      {
+        "source_id": "forum_reddit_soccer",
+        "source_name": "Reddit r/soccer",
+        "title": "[LaCuarta] He will have an enormous salary. Details about Vozinha's signings for Colo Colo.",
+        "summary": "Annual salary of US $300K. submitted by /u/NeonSkorpio [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1v6lcuo/lacuarta_he_will_have_an_enormous_salary_details/",
+        "published_at": "2026-07-25T22:03:28.000Z",
+        "fetched_at": "2026-07-26T04:36:34.351Z",
+        "language": "en",
+        "region": "全球/英语圈",
+        "source_type": "forum",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [],
+    "last_updated": "2026-07-25T22:03:28.000Z",
+    "source_count_score": 26,
+    "recency_score": 83,
+    "cross_region_score": 35,
+    "source_priority_score": 62,
+    "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题与摘要识别",
     "confidence": "中",
@@ -2505,8 +2029,8 @@
     "topic_title": "从波普到迪亚尼：男足世界杯期间你可能错过的 10 次女足转会",
     "lead_source_title": "From Popp to Diani: 10 women’s transfers you may have missed during the men’s World Cup",
     "lead_source_summary": "Sam Kerr’s and Alexia Putellas’s moves were hard to miss but these transfers may have escaped your attention There were a host of big women’s football transfers which were hard to miss across June and July, despite the dominance of the men’s World Cup. Among them were Beth Mead’s move from Arsenal to Manchester City, Mary Earps and Georgia Stanway returning to the Women’s Super League with London City Lionesses and Arsenal, Sam Kerr leaving Chelsea to return to Gotham FC and, most prominently, Alexia Putellas’s game-changing switch from Barcelona to London City. But here are 10 transfers you might have missed while attention was focused on the action in the US, Canada and Mexico. Continue reading...",
-    "topic_summary": "共有 2 个海外来源提到该话题。山姆·克尔（Sam Kerr）和亚历克西娅·普特拉斯（Alexia Putellas）的举动很难错过，但这些转会可能没有引起您的注意尽管男子世界杯占据主导地位，但在6月和7月期间，有很多女子足球大转会很难错过",
-    "summary_zh": "山姆·克尔（Sam Kerr）和亚历克西娅·普特拉斯（Alexia Putellas）的举动很难错过，但这些转会可能没有引起您的注意尽管男子世界杯占据主导地位，但在6月和7月期间，有很多女子足球大转会很难错过",
+    "topic_summary": "共有 2 个海外来源提到该话题。萨姆·科尔和阿莱克西娅·普特拉斯的转会很难被忽视，但这些转会可能没有引起你的注意。尽管男足世界杯占据主导地位，但在六月和七月期间，仍有许多大型女足转会不容错过",
+    "summary_zh": "萨姆·科尔和阿莱克西娅·普特拉斯的转会很难被忽视，但这些转会可能没有引起你的注意。尽管男足世界杯占据主导地位，但在六月和七月期间，仍有许多大型女足转会不容错过",
     "heat_score": 49,
     "related_matches": [],
     "related_teams": [
@@ -2536,7 +2060,7 @@
         "summary": "Sam Kerr’s and Alexia Putellas’s moves were hard to miss but these transfers may have escaped your attention There were a host of big women’s football transfers which were hard to miss across June and July, despite the dominance of the men’s World Cup. Among them were Beth Mead’s move from Arsenal to Manchester City, Mary Earps and Georgia Stanway returning to the Women’s Super League with London City Lionesses and Arsenal, Sam Kerr leaving Chelsea to return to Gotham FC and, most prominently, Alexia Putellas’s game-changing switch from Barcelona to London City. But here are 10 transfers you might have missed while attention was focused on the action in the US, Canada and Mexico. Continue reading...",
         "url": "https://www.theguardian.com/football/2026/jul/23/from-popp-to-diani-10-womens-transfers-you-may-have-missed-during-the-mens-world-cup",
         "published_at": "2026-07-23T19:00:52.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
+        "fetched_at": "2026-07-26T04:36:33.722Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -2654,63 +2178,6 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_英格兰_warmup_result_英格兰_揭幕战",
-    "topic_key": "英格兰::warmup_result::英格兰::揭幕战",
-    "issue_type": "injury_training",
-    "topic_title": "俱乐部表示，笛福的震惊沃金退出是在“日益增长的担忧”之后出现的",
-    "lead_source_title": "Defoe’s shock Woking exit came after ‘growing concerns’, says club",
-    "lead_source_summary": "Director of football claims manager failed to turn up for training Former Spurs striker’s stint ended after four months Jermain Defoe’s departure from Woking came after “growing concerns” at the club with Jody Brown, the National League side’s director of football, claiming the former Tottenham striker failed to turn up for training. Defoe’s contract at the National League club was mutually terminated on Thursday after four months in charge. In is first managerial job, the 43-year-old oversaw two wins and one defeat in six matches. The former England forward had said it was “impossible for me to continue” and described his time at the club as an “eye-opening” experience. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“俱乐部表示，笛福的震惊沃金退出是在“日益增长的担忧”之后出现的”，暂作为话题线索展示。足球总监声称主教练未能参加训练四个月后杰梅因·迪福离开沃金的任期结束，此前俱乐部对国家联盟球队足球总监乔迪·布朗的担忧越来越大，声称这位前热刺前锋未能参加训练",
-    "summary_zh": "足球总监声称主教练未能参加训练四个月后杰梅因·迪福离开沃金的任期结束，此前俱乐部对国家联盟球队足球总监乔迪·布朗的担忧越来越大，声称这位前热刺前锋未能参加训练",
-    "heat_score": 49,
-    "related_matches": [],
-    "related_teams": [
-      "英格兰"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Defoe’s shock Woking exit came after ‘growing concerns’, says club",
-        "summary": "Director of football claims manager failed to turn up for training Former Spurs striker’s stint ended after four months Jermain Defoe’s departure from Woking came after “growing concerns” at the club with Jody Brown, the National League side’s director of football, claiming the former Tottenham striker failed to turn up for training. Defoe’s contract at the National League club was mutually terminated on Thursday after four months in charge. In is first managerial job, the 43-year-old oversaw two wins and one defeat in six matches. The former England forward had said it was “impossible for me to continue” and described his time at the club as an “eye-opening” experience. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/25/jermain-defoe-woking-exit",
-        "published_at": "2026-07-25T13:53:37.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-25T13:53:37.000Z",
-    "source_count_score": 26,
-    "recency_score": 72,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_christian_pulisic_general_discussion_christian_pulisic_世界杯",
     "topic_key": "christian_pulisic::general_discussion::christian_pulisic::世界杯",
     "issue_type": "qualification_race",
@@ -2795,12 +2262,12 @@
     "topic_id": "topic_fallback_日本_general_discussion_ipswich_sign_japan_forward",
     "topic_key": "日本::general_discussion::ipswich_sign_japan_forward",
     "issue_type": "general",
-    "topic_title": "伊普斯维奇从凯尔特人签下日本前锋前田",
+    "topic_title": "伊普斯威奇标志日本前锋前田从凯尔特人",
     "lead_source_title": "Ipswich sign Japan forward Maeda from Celtic",
     "lead_source_summary": "Ipswich Town sign Japan forward Daizen Maeda from Celtic on a contract until summer 2029.",
-    "topic_summary": "目前仅 1 个海外来源提到“伊普斯维奇从凯尔特人签下日本前锋前田”，暂作为话题线索展示。伊普斯维奇镇与凯尔特人队签下日本前锋前田大然，合同至 2029 年夏天",
-    "summary_zh": "伊普斯维奇镇与凯尔特人队签下日本前锋前田大然，合同至 2029 年夏天",
-    "heat_score": 48,
+    "topic_summary": "目前仅 1 个海外来源提到“伊普斯威奇标志日本前锋前田从凯尔特人”，暂作为话题线索展示。Ipswich Town与日本前锋Daizen Maeda从凯尔特人签订合同，直至2029年夏天",
+    "summary_zh": "Ipswich Town与日本前锋Daizen Maeda从凯尔特人签订合同，直至2029年夏天",
+    "heat_score": 46,
     "related_matches": [],
     "related_teams": [
       "日本"
@@ -2825,7 +2292,7 @@
         "summary": "Ipswich Town sign Japan forward Daizen Maeda from Celtic on a contract until summer 2029.",
         "url": "https://www.bbc.co.uk/sport/football/articles/cx2dgkg5rq0o?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-07-25T12:20:37.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
+        "fetched_at": "2026-07-26T04:36:33.408Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -2839,7 +2306,7 @@
     "topic_phrases": [],
     "last_updated": "2026-07-25T12:20:37.000Z",
     "source_count_score": 26,
-    "recency_score": 68,
+    "recency_score": 59,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 70,
@@ -2857,7 +2324,7 @@
     "lead_source_summary": "submitted by /u/Nepridiprav16 [link] [comments]",
     "topic_summary": "目前仅 1 个海外来源提到“[马卡报] 阿森纳准备为朱利安·阿尔瓦雷斯提供1亿欧元+乔克雷斯的报价。马竞维持非出售立场，但可能愿意进行谈判，前提是此举是在西班牙境外进行的，并且报价很高”，暂作为话题线索展示。由 /u/Nepridiprav16 提交 [链接] [评论]",
     "summary_zh": "由 /u/Nepridiprav16 提交 [链接] [评论]",
-    "heat_score": 48,
+    "heat_score": 46,
     "related_matches": [],
     "related_teams": [
       "西班牙"
@@ -2884,7 +2351,7 @@
         "summary": "submitted by /u/Nepridiprav16 [link] [comments]",
         "url": "https://www.reddit.com/r/soccer/comments/1v6a4az/marca_arsenal_prepared_to_offer_100m_gyokeres_for/",
         "published_at": "2026-07-25T14:38:30.000Z",
-        "fetched_at": "2026-07-26T01:01:35.930Z",
+        "fetched_at": "2026-07-26T04:36:34.351Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -2900,66 +2367,9 @@
     ],
     "last_updated": "2026-07-25T14:38:30.000Z",
     "source_count_score": 26,
-    "recency_score": 74,
+    "recency_score": 65,
     "cross_region_score": 35,
     "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_沙特阿拉伯_general_discussion_沙特阿拉伯_世界杯",
-    "topic_key": "沙特阿拉伯::general_discussion::沙特阿拉伯::世界杯",
-    "issue_type": "coach_tactics",
-    "topic_title": "切尔西与别墅布景大师MacPhee对话",
-    "lead_source_title": "Chelsea in talks for Villa set-piece guru MacPhee",
-    "lead_source_summary": "Chelsea are looking to sign highly regarded set-piece coach Austin MacPhee from Aston Villa but they face competition from Premier League and Saudi Pro League clubs.",
-    "topic_summary": "目前仅 1 个海外来源提到“切尔西与别墅布景大师MacPhee对话”，暂作为话题线索展示。切尔西希望从阿斯顿维拉签下备受推崇的定位球教练奥斯汀·麦克菲，但他们面临着来自英超和沙特职业联赛俱乐部的竞争",
-    "summary_zh": "切尔西希望从阿斯顿维拉签下备受推崇的定位球教练奥斯汀·麦克菲，但他们面临着来自英超和沙特职业联赛俱乐部的竞争",
-    "heat_score": 47,
-    "related_matches": [],
-    "related_teams": [
-      "沙特阿拉伯"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football",
-        "source_name": "BBC Sport Football",
-        "title": "Chelsea in talks for Villa set-piece guru MacPhee",
-        "summary": "Chelsea are looking to sign highly regarded set-piece coach Austin MacPhee from Aston Villa but they face competition from Premier League and Saudi Pro League clubs.",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c0m7w21v2rzo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-07-25T10:09:31.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-25T10:09:31.000Z",
-    "source_count_score": 26,
-    "recency_score": 63,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
     "match_relevance_score": 70,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题与摘要识别",
@@ -2975,7 +2385,7 @@
     "lead_source_summary": "submitted by /u/Tangycroatian [link] [comments]",
     "topic_summary": "目前仅 1 个海外来源提到“[Santi J FM] 皇马在媒体上利用迈克尔·奥利塞的谣言，同时默默地签下扬·迪奥曼德”，暂作为话题线索展示。由 /u/Tangycroatian 提交 [链接] [评论]",
     "summary_zh": "由 /u/Tangycroatian 提交 [链接] [评论]",
-    "heat_score": 47,
+    "heat_score": 44,
     "related_matches": [],
     "related_teams": [
       "克罗地亚"
@@ -3000,7 +2410,7 @@
         "summary": "submitted by /u/Tangycroatian [link] [comments]",
         "url": "https://www.reddit.com/r/soccer/comments/1v67nv2/santi_j_fm_real_madrid_used_michael_olise_rumors/",
         "published_at": "2026-07-25T12:55:07.000Z",
-        "fetched_at": "2026-07-26T01:01:35.930Z",
+        "fetched_at": "2026-07-26T04:36:34.351Z",
         "language": "en",
         "region": "全球/英语圈",
         "source_type": "forum",
@@ -3014,7 +2424,7 @@
     "topic_phrases": [],
     "last_updated": "2026-07-25T12:55:07.000Z",
     "source_count_score": 26,
-    "recency_score": 70,
+    "recency_score": 61,
     "cross_region_score": 35,
     "source_priority_score": 62,
     "match_relevance_score": 70,
@@ -3024,163 +2434,43 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_vinicius_junior_general_discussion_liverpool_interested_signing_vinicius",
-    "topic_key": "vinicius junior::general_discussion::liverpool_interested_signing_vinicius",
-    "issue_type": "general",
-    "topic_title": "利物浦有兴趣在 2027 年夏天免费签下维尼修斯·儒尼奥尔。巴西边锋与皇马的合同谈判陷入僵局。英格兰俱乐部今年夏天不会采取任何行动。他们正在等待球员和俱乐部之间的讨论进展如何",
-    "lead_source_title": "Liverpool are interested in signing Vinicius Junior on a free transfer in summer 2027. The Brazilian winger's contract negotiations with Real Madrid have stalled. The English club will not make a move this summer. They are waiting to see how the discussions between the player and the club progress",
-    "lead_source_summary": "submitted by /u/DamnThatsInsaneLol [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“利物浦有兴趣在 2027 年夏天免费签下维尼修斯·儒尼奥尔。巴西边锋与皇马的合同谈判陷入僵局。英格兰俱乐部今年夏天不会采取任何行动。他们正在等待球员和俱乐部之间的讨论进展如何”，暂作为话题线索展示。由 /u/DamnThatsInsaneLol 提交 [链接] [评论]",
-    "summary_zh": "由 /u/DamnThatsInsaneLol 提交 [链接] [评论]",
-    "heat_score": 45,
-    "related_matches": [],
-    "related_teams": [
-      "巴西"
-    ],
-    "related_players": [
-      "Vinicius Junior"
-    ],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/soccer"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "Liverpool are interested in signing Vinicius Junior on a free transfer in summer 2027. The Brazilian winger's contract negotiations with Real Madrid have stalled. The English club will not make a move this summer. They are waiting to see how the discussions between the player and the club progress",
-        "summary": "submitted by /u/DamnThatsInsaneLol [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1v642y8/liverpool_are_interested_in_signing_vinicius/",
-        "published_at": "2026-07-25T09:53:27.000Z",
-        "fetched_at": "2026-07-26T01:01:35.930Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Vinicius Junior"
-    ],
-    "last_updated": "2026-07-25T09:53:27.000Z",
-    "source_count_score": 26,
-    "recency_score": 62,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_裁判_entry_barred_romelu_lukaku_世界杯",
-    "topic_key": "裁判::entry_barred::romelu_lukaku::世界杯",
-    "issue_type": "referee_assignment",
-    "topic_title": "回顾 /r/soccer 2025/26 预测调查！",
-    "lead_source_title": "Throwback to the /r/soccer 2025/26 Predictions Survey!",
-    "lead_source_summary": "For those who missed it, we looked back at the Mark My Words thread earlier this week - but that was vibes, and this is data. With the silliness of the World Cup out of the way - and the real sport of /r/soccer karma farmers racing to post the biggest Romano \"Here We Go'\"s hotting up - there is no time like the present to turn to the past. Yes, let's throw back to last August, when nearly 600 of /r/soccer's finest put their heads together to predict how we thought the 2025/26 season might go - in the official Predictions Survey. The full results can be viewed in a single Imgur album, here (... But below is the TL;DR, where I've pulled out the main headlines of how right and wrong we were) The results Part 1 - the biggest prizes The Men’s World Cup We got this one right - Spain's 35.4% vote share leading the way, whilst beaten finalists/disgraces to football Argentina got just 6% of the vote. The Men’s AFCON /r/soccer chose Morocco... I'll leave it up to you whether we called it. The UEFA Champions League Calamity. Just 4.2% backed PSG to defend their crown - Liverpool (30.9%) and Barcelona (26.1%) the heavy /r/soccer favourites The Men’s Ballon d’Or Easy - 67.5% chose Dembele, and were proved right. The Women’s Ballon d’Or It was controversial, but /r/soccer correctly predicted Aitana Bonmati made it three in a row. Part 2 - Major European domestic leagues Note: I have selected just the most interesting predictions, rather than including every result The English Premier League Champions ... Yeah nobody so that coming. More than half thought Liverpool would defend their title, and just 16.5% correctly predicted Arsenal to be champions. The top 4 /r/soccer predicted: Liverpool (97.4%) Man City (97.2%) Arsenal (92.1%) Chelsea (88.6%) So yeah - Chelsea really did underachieve. The relegated teams The promoted teams were picked to go straight back down: Burnley (76.9%) Sunderland (59.7%) Leeds (57.2%) There was a big drop off to Wolves and Brentford - but they were close as next favourites with 30.3% and 28.9%. West Ham were nowhere to be seen. La Liga Champions Barcelona were the overwhelming favourites with 67.1%, and this prediction came true. The top 4 Goes without saying that the big 3 would get there - but /r/soccer's pick for fourth actually came 12th. Shocker. Real Madrid (89.7%) Atletico Madrid (60.5%) Barcelona (58.7%) Athletic Bilbao (44.1%) The German Bundesliga Champions Unsurprisingly, that is Bayern Munich with a massive 93.3% of the vote - Dortmund were second, with just 3.9%. The top 4 Stuttgart nowhere to be seen - but at least /r/soccer picked RB as next favourite. Bayern Munich (99.3%) Borussia Dortmund (92.4%) Bayer Leverkusen (66.1%) Eintracht Frankfurt (53.2) RB Leipzig were next, with a 44.7% \"yes\" vote. Italian Serie A Champions Napoli edged the prediction with 39% vs Inter's 32% - so it wasn't a shocking shout. The Capocannoniere (Golden Boot) winner 29.3% correctly picking Lautaro to win the Capocannoniere isn't that exciting - but 17.2% picking Lukaku (who scored 1 goal in Serie A) is a bit sad. Yes, I know he was injured. Selected other European league champions French Ligue 1 - champions PSG got 92.3% of the vote. Dutch Eredivisie - champions PSV got nearly half the vote. Portuguese Primeira Liga - over half voted for Benfica, and only 27% the actual winners, Porto. Belgian Pro League - 44.2% were indeed correct to pick Club Brugge as champions. Scottish Premiership - 85.9% predicted champions Celtic to win... but fair to say it was a bit more complicated than that. English Championship - the Championship is a difficult league to predict, but this was perhaps /r/soccer's worst prediction. Leicester were /r/soccer's champions - and instead got relegated. The actual winner's - Frank Lampard's Coventry City - got less than 5% of the vote (less than Wrexham). Part 3 - wildcard predictions This was probably the most fun part of the survey, on some miscellaneous hot topics... Antonio Conte lasting the season as Napoli manager… 70.5% predicted the hotheaded Italian would last the season - and as he left at the end of it, he sort of did. First English Premier League manager to be sacked… /r/soccer's pick, Daniel Farke, is actually still in his job. The first manager to be sacked was actually Nuno Espirito Santo - who wasn't even in the top 10. Prospects of Premier League strikers… Spicy. Over 50% thought Gyokeres would. be the best of the headline Premier League striker signings. I thought this was Arsenal fan bias at the time... and it probably still was, but they were proved right. Champions League dark horses... Tottenham were /r/soccer's dark horses - and memorably lost in the round of 16. Ligue 1 games PSG will lose… Most of /r/soccer thought PSG would lose only 2 or 3 games - they actually lost 6, but in fairness they did basically phone in the league. The host nation who goes furthest at the 2026 World Cup… In the end, all got to the round of 16, so this was a bit pointless. Most likely to occur at the 2026 World Cup… Perhaps my favourite part of the survey. Of potential events, /r/soccer deemed the order of likelihood thus: Donald Trump photo-bombs the trophy lift A player is denied entry to the USA A match is suspended due to anti-Trump protests A team refuses to play And of the four, I'd argue we got 1 and a half. Obviously Trump tried to steal the limelight - and a player did not get denied entry, but a referee did, and Iran came pretty close, too. So overall, for /r/soccer's ability to predict the future? Sometimes maybe good, sometimes maybe shit. submitted by /u/AnnieIWillKnow [link] [comments]",
-    "topic_summary": "目前仅 1 个海外来源提到“回顾 /r/soccer 2025/26 预测调查！”，暂作为话题线索展示。对于那些错过的人，我们回顾了本周早些时候的“Mark My Words”主题 - 但这是共鸣，这是数据",
-    "summary_zh": "对于那些错过的人，我们回顾了本周早些时候的“Mark My Words”主题 - 但这是共鸣，这是数据",
-    "heat_score": 43,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [
-      "Romelu Lukaku",
-      "Lautaro Martinez"
-    ],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "Reddit r/soccer"
-    ],
-    "sources": [
-      {
-        "source_id": "forum_reddit_soccer",
-        "source_name": "Reddit r/soccer",
-        "title": "Throwback to the /r/soccer 2025/26 Predictions Survey!",
-        "summary": "For those who missed it, we looked back at the Mark My Words thread earlier this week - but that was vibes, and this is data. With the silliness of the World Cup out of the way - and the real sport of /r/soccer karma farmers racing to post the biggest Romano \"Here We Go'\"s hotting up - there is no time like the present to turn to the past. Yes, let's throw back to last August, when nearly 600 of /r/soccer's finest put their heads together to predict how we thought the 2025/26 season might go - in the official Predictions Survey. The full results can be viewed in a single Imgur album, here (... But below is the TL;DR, where I've pulled out the main headlines of how right and wrong we were) The results Part 1 - the biggest prizes The Men’s World Cup We got this one right - Spain's 35.4% vote share leading the way, whilst beaten finalists/disgraces to football Argentina got just 6% of the vote. The Men’s AFCON /r/soccer chose Morocco... I'll leave it up to you whether we called it. The UEFA Champions League Calamity. Just 4.2% backed PSG to defend their crown - Liverpool (30.9%) and Barcelona (26.1%) the heavy /r/soccer favourites The Men’s Ballon d’Or Easy - 67.5% chose Dembele, and were proved right. The Women’s Ballon d’Or It was controversial, but /r/soccer correctly predicted Aitana Bonmati made it three in a row. Part 2 - Major European domestic leagues Note: I have selected just the most interesting predictions, rather than including every result The English Premier League Champions ... Yeah nobody so that coming. More than half thought Liverpool would defend their title, and just 16.5% correctly predicted Arsenal to be champions. The top 4 /r/soccer predicted: Liverpool (97.4%) Man City (97.2%) Arsenal (92.1%) Chelsea (88.6%) So yeah - Chelsea really did underachieve. The relegated teams The promoted teams were picked to go straight back down: Burnley (76.9%) Sunderland (59.7%) Leeds (57.2%) There was a big drop off to Wolves and Brentford - but they were close as next favourites with 30.3% and 28.9%. West Ham were nowhere to be seen. La Liga Champions Barcelona were the overwhelming favourites with 67.1%, and this prediction came true. The top 4 Goes without saying that the big 3 would get there - but /r/soccer's pick for fourth actually came 12th. Shocker. Real Madrid (89.7%) Atletico Madrid (60.5%) Barcelona (58.7%) Athletic Bilbao (44.1%) The German Bundesliga Champions Unsurprisingly, that is Bayern Munich with a massive 93.3% of the vote - Dortmund were second, with just 3.9%. The top 4 Stuttgart nowhere to be seen - but at least /r/soccer picked RB as next favourite. Bayern Munich (99.3%) Borussia Dortmund (92.4%) Bayer Leverkusen (66.1%) Eintracht Frankfurt (53.2) RB Leipzig were next, with a 44.7% \"yes\" vote. Italian Serie A Champions Napoli edged the prediction with 39% vs Inter's 32% - so it wasn't a shocking shout. The Capocannoniere (Golden Boot) winner 29.3% correctly picking Lautaro to win the Capocannoniere isn't that exciting - but 17.2% picking Lukaku (who scored 1 goal in Serie A) is a bit sad. Yes, I know he was injured. Selected other European league champions French Ligue 1 - champions PSG got 92.3% of the vote. Dutch Eredivisie - champions PSV got nearly half the vote. Portuguese Primeira Liga - over half voted for Benfica, and only 27% the actual winners, Porto. Belgian Pro League - 44.2% were indeed correct to pick Club Brugge as champions. Scottish Premiership - 85.9% predicted champions Celtic to win... but fair to say it was a bit more complicated than that. English Championship - the Championship is a difficult league to predict, but this was perhaps /r/soccer's worst prediction. Leicester were /r/soccer's champions - and instead got relegated. The actual winner's - Frank Lampard's Coventry City - got less than 5% of the vote (less than Wrexham). Part 3 - wildcard predictions This was probably the most fun part of the survey, on some miscellaneous hot topics... Antonio Conte lasting the season as Napoli manager… 70.5% predicted the hotheaded Italian would last the season - and as he left at the end of it, he sort of did. First English Premier League manager to be sacked… /r/soccer's pick, Daniel Farke, is actually still in his job. The first manager to be sacked was actually Nuno Espirito Santo - who wasn't even in the top 10. Prospects of Premier League strikers… Spicy. Over 50% thought Gyokeres would. be the best of the headline Premier League striker signings. I thought this was Arsenal fan bias at the time... and it probably still was, but they were proved right. Champions League dark horses... Tottenham were /r/soccer's dark horses - and memorably lost in the round of 16. Ligue 1 games PSG will lose… Most of /r/soccer thought PSG would lose only 2 or 3 games - they actually lost 6, but in fairness they did basically phone in the league. The host nation who goes furthest at the 2026 World Cup… In the end, all got to the round of 16, so this was a bit pointless. Most likely to occur at the 2026 World Cup… Perhaps my favourite part of the survey. Of potential events, /r/soccer deemed the order of likelihood thus: Donald Trump photo-bombs the trophy lift A player is denied entry to the USA A match is suspended due to anti-Trump protests A team refuses to play And of the four, I'd argue we got 1 and a half. Obviously Trump tried to steal the limelight - and a player did not get denied entry, but a referee did, and Iran came pretty close, too. So overall, for /r/soccer's ability to predict the future? Sometimes maybe good, sometimes maybe shit. submitted by /u/AnnieIWillKnow [link] [comments]",
-        "url": "https://www.reddit.com/r/soccer/comments/1v66gzg/throwback_to_the_rsoccer_202526_predictions_survey/",
-        "published_at": "2026-07-25T11:59:22.000Z",
-        "fetched_at": "2026-07-26T01:01:35.930Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "forum",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Romelu Lukaku"
-    ],
-    "last_updated": "2026-07-25T11:59:22.000Z",
-    "source_count_score": 26,
-    "recency_score": 67,
-    "cross_region_score": 35,
-    "source_priority_score": 62,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_西班牙_general_discussion_西班牙_世界杯",
-    "topic_key": "西班牙::general_discussion::西班牙::世界杯",
+    "topic_id": "topic_巴拉圭_general_discussion_巴拉圭_世界杯",
+    "topic_key": "巴拉圭::general_discussion::巴拉圭::世界杯",
     "issue_type": "coach_tactics",
-    "topic_title": "“不要成为主角”：安多尼·伊拉奥拉谈西班牙成功的秘诀以及他在利物浦的角色",
-    "lead_source_title": "‘Don’t become the protagonist’: Andoni Iraola on the secret of Spain’s success and his role at Liverpool",
-    "lead_source_summary": "Liverpool’s new head coach is settling into the pre-season tour in Chicago as he begins to reshape the Reds’ identity Over coffee in Liverpool’s plush hotel in Chicago, Andoni Iraola presents his theory for the phenomenal success of Basque and Spanish coaches. It is a theory that will shape his entire approach to life as the Liverpool head coach and his attempts to bring the connection, the joy and the belief back to Anfield. It centres on the power of the collective. The Champions League, the Premier League, the Europa League, the FA Cup, the League Cup, the European Championship and, as of Sunday, the World Cup: all currently in the hands of Basque and Spanish coaches, even if Pep Guardiola has since taken his leave from Manchester City. Next season, four men from the small Basque region of Gipuzkoa will manage four of the Premier League’s main contenders, Iraola included, alongside Mikel Arteta, Xabi Alonso and Unai Emery. There is, Iraola believes, a simple explanation for the rise of the guys from Gipuzkoa and for Spanish dominance across a global stage. Continue reading...",
-    "topic_summary": "共有 2 个海外来源提到该话题。利物浦的新任主教练正在芝加哥进行季前赛，他开始重塑红军的形象。在芝加哥利物浦豪华酒店喝咖啡时，安多尼·伊劳拉阐述了他对巴斯克和西班牙教练取得惊人成功的理论。",
-    "summary_zh": "利物浦的新任主教练正在芝加哥进行季前赛，他开始重塑红军的形象。在芝加哥利物浦豪华酒店喝咖啡时，安多尼·伊劳拉阐述了他对巴斯克和西班牙教练取得惊人成功的理论。",
+    "topic_title": "尤尔根·克洛普发誓要改变德国，但威胁称如果家人受到媒体围追堵截他就会辞职",
+    "lead_source_title": "Jürgen Klopp vows to change Germany but threatens to quit if family hounded by media",
+    "lead_source_summary": "Suggests role will be his final job in top-level football Warns journalists to ‘leave my family in peace’ Jürgen Klopp said he wants his team to “change a country” after being confirmed as Germany’s new head coach, but threatened to stand down if his family are hounded by the media during his time in charge. In a forthright first press conference upon his unveiling as Julian Nagelsmann’s replacement, Klopp also suggested the role will be his final job in top-level football and expressed regret after poking fun at his predecessor while working as a television pundit during the World Cup. He is tasked with reviving Germany, who lost to Paraguay in the last 32 and have not made the last 16 since winning the tournament in 2014. Continue reading...",
+    "topic_summary": "共有 2 个海外来源提到该话题。暗示角色将是他在顶级足球中的最后一份工作 警告记者“让我的家人安息” 于尔根·克洛普表示，在被确认为德国新任主教练后，他希望他的球队能够改变一个国家，但他威胁说，如果他的家人在他执掌期间受到媒体的追捕，他将辞职",
+    "summary_zh": "暗示角色将是他在顶级足球中的最后一份工作 警告记者“让我的家人安息” 于尔根·克洛普表示，在被确认为德国新任主教练后，他希望他的球队能够改变一个国家，但他威胁说，如果他的家人在他执掌期间受到媒体的追捕，他将辞职",
     "heat_score": 42,
     "related_matches": [],
     "related_teams": [
-      "西班牙",
-      "阿根廷"
+      "巴拉圭",
+      "德国"
     ],
     "related_players": [],
     "regions": [
       "欧洲"
     ],
     "languages": [
-      "en"
+      "en",
+      "fr"
     ],
     "source_count": 2,
     "evidence_count": 2,
     "source_names": [
       "The Guardian Football",
-      "BBC Sport Football"
+      "L'Équipe Football"
     ],
     "sources": [
       {
         "source_id": "media_guardian_football",
         "source_name": "The Guardian Football",
-        "title": "‘Don’t become the protagonist’: Andoni Iraola on the secret of Spain’s success and his role at Liverpool",
-        "summary": "Liverpool’s new head coach is settling into the pre-season tour in Chicago as he begins to reshape the Reds’ identity Over coffee in Liverpool’s plush hotel in Chicago, Andoni Iraola presents his theory for the phenomenal success of Basque and Spanish coaches. It is a theory that will shape his entire approach to life as the Liverpool head coach and his attempts to bring the connection, the joy and the belief back to Anfield. It centres on the power of the collective. The Champions League, the Premier League, the Europa League, the FA Cup, the League Cup, the European Championship and, as of Sunday, the World Cup: all currently in the hands of Basque and Spanish coaches, even if Pep Guardiola has since taken his leave from Manchester City. Next season, four men from the small Basque region of Gipuzkoa will manage four of the Premier League’s main contenders, Iraola included, alongside Mikel Arteta, Xabi Alonso and Unai Emery. There is, Iraola believes, a simple explanation for the rise of the guys from Gipuzkoa and for Spanish dominance across a global stage. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/23/andoni-iraola-liverpool-interview-spain",
-        "published_at": "2026-07-23T11:00:42.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
+        "title": "Jürgen Klopp vows to change Germany but threatens to quit if family hounded by media",
+        "summary": "Suggests role will be his final job in top-level football Warns journalists to ‘leave my family in peace’ Jürgen Klopp said he wants his team to “change a country” after being confirmed as Germany’s new head coach, but threatened to stand down if his family are hounded by the media during his time in charge. In a forthright first press conference upon his unveiling as Julian Nagelsmann’s replacement, Klopp also suggested the role will be his final job in top-level football and expressed regret after poking fun at his predecessor while working as a television pundit during the World Cup. He is tasked with reviving Germany, who lost to Paraguay in the last 32 and have not made the last 16 since winning the tournament in 2014. Continue reading...",
+        "url": "https://www.theguardian.com/football/2026/jul/24/germany-confirm-jurgen-klopp-new-head-coach",
+        "published_at": "2026-07-24T12:08:39.000Z",
+        "fetched_at": "2026-07-26T04:36:33.722Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -3191,25 +2481,25 @@
         "item_type": "article"
       },
       {
-        "source_id": "media_bbc_sport_football",
-        "source_name": "BBC Sport Football",
-        "title": "Argentina boss Scaloni leaves press conference in tears",
-        "summary": "Argentina manager Lionel Scaloni leaves his post-match news conference in tears when talking about his future after Sunday's World Cup final defeat by Spain.",
-        "url": "https://www.bbc.co.uk/sport/football/videos/cvglel7g7v2o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-07-20T11:25:29.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
-        "language": "en",
+        "source_id": "media_lequipe_football",
+        "source_name": "L'Équipe Football",
+        "title": "Le VAR intervient pour attribuer un carton jaune lors d'États-Unis-Paraguay",
+        "summary": "",
+        "url": "https://www.lequipe.fr/Football/Actualites/Le-var-est-intervenu-pour-attribuer-un-carton-jaune-a-un-paraguayen-lors-du-match-de-coupe-du-monde-contre-les-etats-unis/1684404",
+        "published_at": "2026-06-13T05:28:23.715Z",
+        "fetched_at": "2026-06-13T05:28:23.715Z",
+        "language": "fr",
         "region": "欧洲",
         "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
         "item_type": "article"
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-07-23T11:00:42.000Z",
+    "last_updated": "2026-07-24T12:08:39.000Z",
     "source_count_score": 52,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -3224,11 +2514,11 @@
     "topic_id": "topic_fallback_美国_general_discussion_five_questions_facing_usmnt",
     "topic_key": "美国::general_discussion::five_questions_facing_usmnt",
     "issue_type": "general",
-    "topic_title": "世界杯开赛临近，美国国家队面临的五个问题",
+    "topic_title": "随着世界杯开幕式临近， USMNT面临的五个问题",
     "lead_source_title": "Five questions facing the USMNT as World Cup kickoff approaches",
     "lead_source_summary": "",
-    "topic_summary": "共有 2 个海外来源提到该话题。世界杯开赛临近，美国国家队面临的五个问题",
-    "summary_zh": "世界杯开赛临近，美国国家队面临的五个问题",
+    "topic_summary": "共有 2 个海外来源提到该话题。随着世界杯开幕式临近， USMNT面临的五个问题",
+    "summary_zh": "随着世界杯开幕式临近， USMNT面临的五个问题",
     "heat_score": 42,
     "related_matches": [],
     "related_teams": [
@@ -4288,20 +3578,23 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_premier_league_general_discussion_world_cup_世界杯",
-    "topic_key": "premier_league::general_discussion::world_cup::世界杯",
-    "issue_type": "injury_training",
-    "topic_title": "英超联赛：迄今为止各俱乐部的转会业务指南以及他们仍然需要什么",
-    "lead_source_title": "Premier League: club-by-club guide to transfer business so far – and what they still need",
-    "lead_source_summary": "The English transfer record has been smashed, with Elliot Anderson and Morgan Rogers on the move during a busy summer of signings For once, Mikel Arteta is not spending his summer looking for a No 9. Instead the champions have moved to strengthen out wide after the departure of Leandro Trossard with Christos Tzolis arriving for £34m having scored 33 league goals in his last two seasons from Club Brugge’s left wing. After missing out on Morgan Rogers to Chelsea, they will not want to be beaten to Alex Scott’s signature. Defensive cover will probably be necessary after the injury to William Saliba at the World Cup. Billy Munday Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“英超联赛：迄今为止各俱乐部的转会业务指南以及他们仍然需要什么”，暂作为话题线索展示。英格兰转会纪录被打破，埃利奥特·安德森和摩根·罗杰斯在繁忙的夏季引援期间转会，米克尔·阿尔特塔这一次并没有在夏天寻找9号球员",
-    "summary_zh": "英格兰转会纪录被打破，埃利奥特·安德森和摩根·罗杰斯在繁忙的夏季引援期间转会，米克尔·阿尔特塔这一次并没有在夏天寻找9号球员",
-    "heat_score": 42,
+    "topic_id": "topic_裁判_entry_barred_romelu_lukaku_世界杯",
+    "topic_key": "裁判::entry_barred::romelu_lukaku::世界杯",
+    "issue_type": "referee_assignment",
+    "topic_title": "回顾 /r/soccer 2025/26 预测调查！",
+    "lead_source_title": "Throwback to the /r/soccer 2025/26 Predictions Survey!",
+    "lead_source_summary": "For those who missed it, we looked back at the Mark My Words thread earlier this week - but that was vibes, and this is data. With the silliness of the World Cup out of the way - and the real sport of /r/soccer karma farmers racing to post the biggest Romano \"Here We Go'\"s hotting up - there is no time like the present to turn to the past. Yes, let's throw back to last August, when nearly 600 of /r/soccer's finest put their heads together to predict how we thought the 2025/26 season might go - in the official Predictions Survey. The full results can be viewed in a single Imgur album, here (... But below is the TL;DR, where I've pulled out the main headlines of how right and wrong we were) The results Part 1 - the biggest prizes The Men’s World Cup We got this one right - Spain's 35.4% vote share leading the way, whilst beaten finalists/disgraces to football Argentina got just 6% of the vote. The Men’s AFCON /r/soccer chose Morocco... I'll leave it up to you whether we called it. The UEFA Champions League Calamity. Just 4.2% backed PSG to defend their crown - Liverpool (30.9%) and Barcelona (26.1%) the heavy /r/soccer favourites The Men’s Ballon d’Or Easy - 67.5% chose Dembele, and were proved right. The Women’s Ballon d’Or It was controversial, but /r/soccer correctly predicted Aitana Bonmati made it three in a row. Part 2 - Major European domestic leagues Note: I have selected just the most interesting predictions, rather than including every result The English Premier League Champions ... Yeah nobody so that coming. More than half thought Liverpool would defend their title, and just 16.5% correctly predicted Arsenal to be champions. The top 4 /r/soccer predicted: Liverpool (97.4%) Man City (97.2%) Arsenal (92.1%) Chelsea (88.6%) So yeah - Chelsea really did underachieve. The relegated teams The promoted teams were picked to go straight back down: Burnley (76.9%) Sunderland (59.7%) Leeds (57.2%) There was a big drop off to Wolves and Brentford - but they were close as next favourites with 30.3% and 28.9%. West Ham were nowhere to be seen. La Liga Champions Barcelona were the overwhelming favourites with 67.1%, and this prediction came true. The top 4 Goes without saying that the big 3 would get there - but /r/soccer's pick for fourth actually came 12th. Shocker. Real Madrid (89.7%) Atletico Madrid (60.5%) Barcelona (58.7%) Athletic Bilbao (44.1%) The German Bundesliga Champions Unsurprisingly, that is Bayern Munich with a massive 93.3% of the vote - Dortmund were second, with just 3.9%. The top 4 Stuttgart nowhere to be seen - but at least /r/soccer picked RB as next favourite. Bayern Munich (99.3%) Borussia Dortmund (92.4%) Bayer Leverkusen (66.1%) Eintracht Frankfurt (53.2) RB Leipzig were next, with a 44.7% \"yes\" vote. Italian Serie A Champions Napoli edged the prediction with 39% vs Inter's 32% - so it wasn't a shocking shout. The Capocannoniere (Golden Boot) winner 29.3% correctly picking Lautaro to win the Capocannoniere isn't that exciting - but 17.2% picking Lukaku (who scored 1 goal in Serie A) is a bit sad. Yes, I know he was injured. Selected other European league champions French Ligue 1 - champions PSG got 92.3% of the vote. Dutch Eredivisie - champions PSV got nearly half the vote. Portuguese Primeira Liga - over half voted for Benfica, and only 27% the actual winners, Porto. Belgian Pro League - 44.2% were indeed correct to pick Club Brugge as champions. Scottish Premiership - 85.9% predicted champions Celtic to win... but fair to say it was a bit more complicated than that. English Championship - the Championship is a difficult league to predict, but this was perhaps /r/soccer's worst prediction. Leicester were /r/soccer's champions - and instead got relegated. The actual winner's - Frank Lampard's Coventry City - got less than 5% of the vote (less than Wrexham). Part 3 - wildcard predictions This was probably the most fun part of the survey, on some miscellaneous hot topics... Antonio Conte lasting the season as Napoli manager… 70.5% predicted the hotheaded Italian would last the season - and as he left at the end of it, he sort of did. First English Premier League manager to be sacked… /r/soccer's pick, Daniel Farke, is actually still in his job. The first manager to be sacked was actually Nuno Espirito Santo - who wasn't even in the top 10. Prospects of Premier League strikers… Spicy. Over 50% thought Gyokeres would. be the best of the headline Premier League striker signings. I thought this was Arsenal fan bias at the time... and it probably still was, but they were proved right. Champions League dark horses... Tottenham were /r/soccer's dark horses - and memorably lost in the round of 16. Ligue 1 games PSG will lose… Most of /r/soccer thought PSG would lose only 2 or 3 games - they actually lost 6, but in fairness they did basically phone in the league. The host nation who goes furthest at the 2026 World Cup… In the end, all got to the round of 16, so this was a bit pointless. Most likely to occur at the 2026 World Cup… Perhaps my favourite part of the survey. Of potential events, /r/soccer deemed the order of likelihood thus: Donald Trump photo-bombs the trophy lift A player is denied entry to the USA A match is suspended due to anti-Trump protests A team refuses to play And of the four, I'd argue we got 1 and a half. Obviously Trump tried to steal the limelight - and a player did not get denied entry, but a referee did, and Iran came pretty close, too. So overall, for /r/soccer's ability to predict the future? Sometimes maybe good, sometimes maybe shit. submitted by /u/AnnieIWillKnow [link] [comments]",
+    "topic_summary": "目前仅 1 个海外来源提到“回顾 /r/soccer 2025/26 预测调查！”，暂作为话题线索展示。对于那些错过的人，我们回顾了本周早些时候的“Mark My Words”主题 - 但这是共鸣，这是数据",
+    "summary_zh": "对于那些错过的人，我们回顾了本周早些时候的“Mark My Words”主题 - 但这是共鸣，这是数据",
+    "heat_score": 41,
     "related_matches": [],
     "related_teams": [],
-    "related_players": [],
+    "related_players": [
+      "Romelu Lukaku",
+      "Lautaro Martinez"
+    ],
     "regions": [
-      "欧洲"
+      "全球/英语圈"
     ],
     "languages": [
       "en"
@@ -4309,20 +3602,20 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "The Guardian Football"
+      "Reddit r/soccer"
     ],
     "sources": [
       {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Premier League: club-by-club guide to transfer business so far – and what they still need",
-        "summary": "The English transfer record has been smashed, with Elliot Anderson and Morgan Rogers on the move during a busy summer of signings For once, Mikel Arteta is not spending his summer looking for a No 9. Instead the champions have moved to strengthen out wide after the departure of Leandro Trossard with Christos Tzolis arriving for £34m having scored 33 league goals in his last two seasons from Club Brugge’s left wing. After missing out on Morgan Rogers to Chelsea, they will not want to be beaten to Alex Scott’s signature. Defensive cover will probably be necessary after the injury to William Saliba at the World Cup. Billy Munday Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/25/premier-league-club-by-club-guide-to-transfer-business-so-far-and-what-they-still-need",
-        "published_at": "2026-07-25T07:00:36.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
+        "source_id": "forum_reddit_soccer",
+        "source_name": "Reddit r/soccer",
+        "title": "Throwback to the /r/soccer 2025/26 Predictions Survey!",
+        "summary": "For those who missed it, we looked back at the Mark My Words thread earlier this week - but that was vibes, and this is data. With the silliness of the World Cup out of the way - and the real sport of /r/soccer karma farmers racing to post the biggest Romano \"Here We Go'\"s hotting up - there is no time like the present to turn to the past. Yes, let's throw back to last August, when nearly 600 of /r/soccer's finest put their heads together to predict how we thought the 2025/26 season might go - in the official Predictions Survey. The full results can be viewed in a single Imgur album, here (... But below is the TL;DR, where I've pulled out the main headlines of how right and wrong we were) The results Part 1 - the biggest prizes The Men’s World Cup We got this one right - Spain's 35.4% vote share leading the way, whilst beaten finalists/disgraces to football Argentina got just 6% of the vote. The Men’s AFCON /r/soccer chose Morocco... I'll leave it up to you whether we called it. The UEFA Champions League Calamity. Just 4.2% backed PSG to defend their crown - Liverpool (30.9%) and Barcelona (26.1%) the heavy /r/soccer favourites The Men’s Ballon d’Or Easy - 67.5% chose Dembele, and were proved right. The Women’s Ballon d’Or It was controversial, but /r/soccer correctly predicted Aitana Bonmati made it three in a row. Part 2 - Major European domestic leagues Note: I have selected just the most interesting predictions, rather than including every result The English Premier League Champions ... Yeah nobody so that coming. More than half thought Liverpool would defend their title, and just 16.5% correctly predicted Arsenal to be champions. The top 4 /r/soccer predicted: Liverpool (97.4%) Man City (97.2%) Arsenal (92.1%) Chelsea (88.6%) So yeah - Chelsea really did underachieve. The relegated teams The promoted teams were picked to go straight back down: Burnley (76.9%) Sunderland (59.7%) Leeds (57.2%) There was a big drop off to Wolves and Brentford - but they were close as next favourites with 30.3% and 28.9%. West Ham were nowhere to be seen. La Liga Champions Barcelona were the overwhelming favourites with 67.1%, and this prediction came true. The top 4 Goes without saying that the big 3 would get there - but /r/soccer's pick for fourth actually came 12th. Shocker. Real Madrid (89.7%) Atletico Madrid (60.5%) Barcelona (58.7%) Athletic Bilbao (44.1%) The German Bundesliga Champions Unsurprisingly, that is Bayern Munich with a massive 93.3% of the vote - Dortmund were second, with just 3.9%. The top 4 Stuttgart nowhere to be seen - but at least /r/soccer picked RB as next favourite. Bayern Munich (99.3%) Borussia Dortmund (92.4%) Bayer Leverkusen (66.1%) Eintracht Frankfurt (53.2) RB Leipzig were next, with a 44.7% \"yes\" vote. Italian Serie A Champions Napoli edged the prediction with 39% vs Inter's 32% - so it wasn't a shocking shout. The Capocannoniere (Golden Boot) winner 29.3% correctly picking Lautaro to win the Capocannoniere isn't that exciting - but 17.2% picking Lukaku (who scored 1 goal in Serie A) is a bit sad. Yes, I know he was injured. Selected other European league champions French Ligue 1 - champions PSG got 92.3% of the vote. Dutch Eredivisie - champions PSV got nearly half the vote. Portuguese Primeira Liga - over half voted for Benfica, and only 27% the actual winners, Porto. Belgian Pro League - 44.2% were indeed correct to pick Club Brugge as champions. Scottish Premiership - 85.9% predicted champions Celtic to win... but fair to say it was a bit more complicated than that. English Championship - the Championship is a difficult league to predict, but this was perhaps /r/soccer's worst prediction. Leicester were /r/soccer's champions - and instead got relegated. The actual winner's - Frank Lampard's Coventry City - got less than 5% of the vote (less than Wrexham). Part 3 - wildcard predictions This was probably the most fun part of the survey, on some miscellaneous hot topics... Antonio Conte lasting the season as Napoli manager… 70.5% predicted the hotheaded Italian would last the season - and as he left at the end of it, he sort of did. First English Premier League manager to be sacked… /r/soccer's pick, Daniel Farke, is actually still in his job. The first manager to be sacked was actually Nuno Espirito Santo - who wasn't even in the top 10. Prospects of Premier League strikers… Spicy. Over 50% thought Gyokeres would. be the best of the headline Premier League striker signings. I thought this was Arsenal fan bias at the time... and it probably still was, but they were proved right. Champions League dark horses... Tottenham were /r/soccer's dark horses - and memorably lost in the round of 16. Ligue 1 games PSG will lose… Most of /r/soccer thought PSG would lose only 2 or 3 games - they actually lost 6, but in fairness they did basically phone in the league. The host nation who goes furthest at the 2026 World Cup… In the end, all got to the round of 16, so this was a bit pointless. Most likely to occur at the 2026 World Cup… Perhaps my favourite part of the survey. Of potential events, /r/soccer deemed the order of likelihood thus: Donald Trump photo-bombs the trophy lift A player is denied entry to the USA A match is suspended due to anti-Trump protests A team refuses to play And of the four, I'd argue we got 1 and a half. Obviously Trump tried to steal the limelight - and a player did not get denied entry, but a referee did, and Iran came pretty close, too. So overall, for /r/soccer's ability to predict the future? Sometimes maybe good, sometimes maybe shit. submitted by /u/AnnieIWillKnow [link] [comments]",
+        "url": "https://www.reddit.com/r/soccer/comments/1v66gzg/throwback_to_the_rsoccer_202526_predictions_survey/",
+        "published_at": "2026-07-25T11:59:22.000Z",
+        "fetched_at": "2026-07-26T04:36:34.351Z",
         "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
+        "region": "全球/英语圈",
+        "source_type": "forum",
         "crawl_strategy": "rss",
         "crawl_mode": "rss",
         "data_origin": "live",
@@ -4331,14 +3624,13 @@
       }
     ],
     "topic_phrases": [
-      "world_cup",
-      "Premier League"
+      "Romelu Lukaku"
     ],
-    "last_updated": "2026-07-25T07:00:36.000Z",
+    "last_updated": "2026-07-25T11:59:22.000Z",
     "source_count_score": 26,
-    "recency_score": 55,
+    "recency_score": 58,
     "cross_region_score": 35,
-    "source_priority_score": 82,
+    "source_priority_score": 62,
     "match_relevance_score": 42,
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题与摘要识别",
@@ -4349,11 +3641,11 @@
     "topic_id": "topic_fallback_general_discussion_final_power_rankings_before",
     "topic_key": "general_discussion::final_power_rankings_before",
     "issue_type": "general",
-    "topic_title": "世界杯开赛前最终实力排名",
+    "topic_title": "比赛开始前的世界杯决赛实力排名",
     "lead_source_title": "Final World Cup Power Rankings before the tournament begins",
     "lead_source_summary": "Our reporters ranked the top 15 contenders for this summer's top prize as they see it right now.",
-    "topic_summary": "共有 2 个海外来源提到该话题。我们的记者对今年夏季最高奖项的前 15 名竞争者进行了排名",
-    "summary_zh": "我们的记者对今年夏季最高奖项的前 15 名竞争者进行了排名",
+    "topic_summary": "共有 2 个海外来源提到该话题。我们的记者对今年夏天最高奖项的前15名竞争者进行了排名，他们现在看到了这一点",
+    "summary_zh": "我们的记者对今年夏天最高奖项的前15名竞争者进行了排名，他们现在看到了这一点",
     "heat_score": 40,
     "related_matches": [],
     "related_teams": [],
@@ -5023,71 +4315,13 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_荷兰_general_discussion_west_winger_summerville_joins",
-    "topic_key": "荷兰::general_discussion::west_winger_summerville_joins",
-    "issue_type": "general",
-    "topic_title": "西汉姆联队边锋萨默维尔加入Al-Hilal",
-    "lead_source_title": "West Ham winger Summerville joins Al-Hilal",
-    "lead_source_summary": "West Ham confirm the sale of Netherlands winger Crysencio Summerville to Saudi club Al-Hilal.",
-    "topic_summary": "目前仅 1 个海外来源提到“西汉姆联队边锋萨默维尔加入Al-Hilal”，暂作为话题线索展示。西汉姆确认将荷兰边锋Crysencio Summerville出售给沙特俱乐部Al-Hilal",
-    "summary_zh": "西汉姆确认将荷兰边锋Crysencio Summerville出售给沙特俱乐部Al-Hilal",
-    "heat_score": 38,
-    "related_matches": [],
-    "related_teams": [
-      "荷兰",
-      "沙特阿拉伯"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football",
-        "source_name": "BBC Sport Football",
-        "title": "West Ham winger Summerville joins Al-Hilal",
-        "summary": "West Ham confirm the sale of Netherlands winger Crysencio Summerville to Saudi club Al-Hilal.",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cevmx0y88vwo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-07-24T19:29:18.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-24T19:29:18.000Z",
-    "source_count_score": 26,
-    "recency_score": 26,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_sofi_球场_warmup_result_miguel_almiron_美国_vs_巴拉圭",
     "topic_key": "sofi_球场::warmup_result::miguel_almiron::美国_vs_巴拉圭",
     "issue_type": "var_officiating",
-    "topic_title": "2026 年世界杯：VAR 误判身份历史，奇怪的预订令球迷困惑",
+    "topic_title": "2026年世界杯： VAR创造了错误的身份历史，因为奇怪的预订让球迷感到困惑",
     "lead_source_title": "World Cup 2026: VAR makes 'mistaken identity' history as strange booking confuses fans",
     "lead_source_summary": "The United States open their World Cup campaign with a fine win - but not before a sequence of events that left everyone scratching their heads.",
-    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯：VAR 误判身份历史，奇怪的预订令球迷困惑”，暂作为话题线索展示。美国以一场精彩的胜利开启了他们的世界杯活动-但不是在一系列让每个人都挠头的事件之前",
+    "topic_summary": "目前仅 1 个海外来源提到“2026年世界杯： VAR创造了错误的身份历史，因为奇怪的预订让球迷感到困惑”，暂作为话题线索展示。美国以一场精彩的胜利开启了他们的世界杯活动-但不是在一系列让每个人都挠头的事件之前",
     "summary_zh": "美国以一场精彩的胜利开启了他们的世界杯活动-但不是在一系列让每个人都挠头的事件之前",
     "heat_score": 36,
     "related_matches": [
@@ -5133,70 +4367,6 @@
     "topic_phrases": [
       "Miguel Almiron",
       "SoFi 球场"
-    ],
-    "last_updated": "2026-06-13T05:28:02.658Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 92,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_图赫尔_general_discussion_jude_bellingham_英格兰_vs_克罗地亚",
-    "topic_key": "图赫尔::general_discussion::jude_bellingham::英格兰_vs_克罗地亚",
-    "issue_type": "injury_training",
-    "topic_title": "2026 年世界杯：英格兰队训练装备被盗",
-    "lead_source_title": "World Cup 2026: England have training equipment stolen",
-    "lead_source_summary": "England are victims of a theft of their training equipment before their arrival in Kansas City on Saturday.",
-    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯：英格兰队训练装备被盗”，暂作为话题线索展示。在周六抵达堪萨斯城之前，英格兰是他们训练设备被盗的受害者",
-    "summary_zh": "在周六抵达堪萨斯城之前，英格兰是他们训练设备被盗的受害者",
-    "heat_score": 36,
-    "related_matches": [
-      "M022"
-    ],
-    "related_teams": [
-      "英格兰",
-      "克罗地亚"
-    ],
-    "related_players": [
-      "Jude Bellingham"
-    ],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football Worldcup Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football_worldcup",
-        "source_name": "BBC Sport Football Worldcup Page",
-        "title": "World Cup 2026: England have training equipment stolen",
-        "summary": "England are victims of a theft of their training equipment before their arrival in Kansas City on Saturday.",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cwyldy8w0jpo",
-        "published_at": "2026-06-13T05:28:02.658Z",
-        "fetched_at": "2026-06-13T05:28:02.658Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Jude Bellingham"
     ],
     "last_updated": "2026-06-13T05:28:02.658Z",
     "source_count_score": 26,
@@ -5280,8 +4450,8 @@
     "topic_title": "不喜欢结果？别担心，运动不再止于赛场 |乔纳森·刘",
     "lead_source_title": "Don’t like the result? Don’t worry, sport no longer ends on the field of play | Jonathan Liew",
     "lead_source_summary": "From the wrong headset in an F2 garage to Fifa overturning a red card, we are in a landscape where fairness is the enemy A funny and very small thing happened at the Formula Two race at Spa on Sunday. Noel León, of Campos Racing, carved his way through the field to finish seventh, earning himself six points in the drivers’ championship, and promptly left the circuit to go and do whatever it is Noel León likes to do after a race. Take a nap, hit the Belgian brews, congratulate himself on his palindromic name – whatever. Anyway, while he was doing that, more than three hours after the chequered flag, the FIA governing body called a meeting and decided to disqualify him. The reason: a serious breach of appendix 5 and article 21.5 of the F2 Sporting Regulations – and assuming you don’t have those to hand, it’s the rule governing the use of headsets. During the race, a guest of León had been spotted in the Campos garage wearing what was deemed the wrong type of headset. According to the aforementioned appendix 5, only listening devices may be used by non-team personnel. This headset had a microphone, albeit upturned and unused. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“不喜欢结果？别担心，运动不再止于赛场 |乔纳森·刘”，暂作为话题线索展示。从F2车库中的错误耳机到国际足联推翻红牌，我们处在一个公平是敌人的景观中周日在水疗中心举行的二级方程式比赛中发生了一件有趣而非常小的事情",
-    "summary_zh": "从F2车库中的错误耳机到国际足联推翻红牌，我们处在一个公平是敌人的景观中周日在水疗中心举行的二级方程式比赛中发生了一件有趣而非常小的事情",
+    "topic_summary": "目前仅 1 个海外来源提到“不喜欢结果？别担心，运动不再止于赛场 |乔纳森·刘”，暂作为话题线索展示。From the wrong headset in an F2 garage to Fifa overturning a red card, we are in a landscape where fairness is the enemy A funny and very small thing happened at the Formula Two race at Spa on Sunday",
+    "summary_zh": "From the wrong headset in an F2 garage to Fifa overturning a red card, we are in a landscape where fairness is the enemy A funny and very small thing happened at the Formula Two race at Spa on Sunday",
     "heat_score": 36,
     "related_matches": [
       "M076"
@@ -5309,7 +4479,7 @@
         "summary": "From the wrong headset in an F2 garage to Fifa overturning a red card, we are in a landscape where fairness is the enemy A funny and very small thing happened at the Formula Two race at Spa on Sunday. Noel León, of Campos Racing, carved his way through the field to finish seventh, earning himself six points in the drivers’ championship, and promptly left the circuit to go and do whatever it is Noel León likes to do after a race. Take a nap, hit the Belgian brews, congratulate himself on his palindromic name – whatever. Anyway, while he was doing that, more than three hours after the chequered flag, the FIA governing body called a meeting and decided to disqualify him. The reason: a serious breach of appendix 5 and article 21.5 of the F2 Sporting Regulations – and assuming you don’t have those to hand, it’s the rule governing the use of headsets. During the race, a guest of León had been spotted in the Campos garage wearing what was deemed the wrong type of headset. According to the aforementioned appendix 5, only listening devices may be used by non-team personnel. This headset had a microphone, albeit upturned and unused. Continue reading...",
         "url": "https://www.theguardian.com/sport/2026/jul/23/sport-fairness-fifa-world-cup-2026-fia-motor-sport-golf-open-championship",
         "published_at": "2026-07-23T07:00:38.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
+        "fetched_at": "2026-07-26T04:36:33.722Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -5333,14 +4503,14 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_scott_mctominay_general_discussion_scott_mctominay_巴西_vs_摩洛哥",
-    "topic_key": "scott_mctominay::general_discussion::scott_mctominay::巴西_vs_摩洛哥",
-    "issue_type": "injury_training",
-    "topic_title": "世界杯上的苏格兰：史蒂夫·克拉克准备在重返足球最大舞台时做一些特别的事情",
-    "lead_source_title": "Scotland at World Cup: Steve Clarke ready to 'do something special' on return to football's biggest stage",
-    "lead_source_summary": "Scotland are back at the World Cup for the first time since 1998; Steve Clarkes side face Haiti on Sunday (2am, UK time) before games against Morocco and Brazil in Group C; Scott McTominay is fit for the opening match, but Scott McKenna misses out",
-    "topic_summary": "目前仅 1 个海外来源提到“世界杯上的苏格兰：史蒂夫·克拉克准备在重返足球最大舞台时做一些特别的事情”，暂作为话题线索展示。QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
-    "summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+    "topic_id": "topic_andrew_robertson_warmup_result_andrew_robertson_巴西_vs_摩洛哥",
+    "topic_key": "andrew_robertson::warmup_result::andrew_robertson::巴西_vs_摩洛哥",
+    "issue_type": "lineup_selection",
+    "topic_title": "戈登拉姆齐在世界杯揭幕战前夕拜访苏格兰队",
+    "lead_source_title": "Gordon Ramsay visits Scotland squad on eve of World Cup opener",
+    "lead_source_summary": "The Hell's Kitchen star, 59, is an avid Scotland fan and donned a home strip as he gave a few words of encouragement to Steve Clarke's side. Scotland will face Haiti in their opener on Saturday night.",
+    "topic_summary": "目前仅 1 个海外来源提到“戈登拉姆齐在世界杯揭幕战前夕拜访苏格兰队”，暂作为话题线索展示。这位 59 岁的地狱厨房明星是一名狂热的苏格兰球迷，他穿着主场球衣向史蒂夫·克拉克队发表了几句鼓励的话",
+    "summary_zh": "这位 59 岁的地狱厨房明星是一名狂热的苏格兰球迷，他穿着主场球衣向史蒂夫·克拉克队发表了几句鼓励的话",
     "heat_score": 36,
     "related_matches": [
       "M006",
@@ -5357,7 +4527,7 @@
       "苏格兰"
     ],
     "related_players": [
-      "Scott McTominay"
+      "Andrew Robertson"
     ],
     "regions": [
       "欧洲"
@@ -5368,17 +4538,17 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "Sky Sports Football News Page"
+      "Daily Mail Football Page"
     ],
     "sources": [
       {
-        "source_id": "media_sky_sports_football_news",
-        "source_name": "Sky Sports Football News Page",
-        "title": "Scotland at World Cup: Steve Clarke ready to 'do something special' on return to football's biggest stage",
-        "summary": "Scotland are back at the World Cup for the first time since 1998; Steve Clarkes side face Haiti on Sunday (2am, UK time) before games against Morocco and Brazil in Group C; Scott McTominay is fit for the opening match, but Scott McKenna misses out",
-        "url": "https://www.skysports.com/football/news/11095/13553435/scotland-at-world-cup-steve-clarke-ready-to-do-something-special-on-return-to-footballs-biggest-stage",
-        "published_at": "2026-06-13T05:28:14.503Z",
-        "fetched_at": "2026-06-13T05:28:14.503Z",
+        "source_id": "media_daily_mail_football",
+        "source_name": "Daily Mail Football Page",
+        "title": "Gordon Ramsay visits Scotland squad on eve of World Cup opener",
+        "summary": "The Hell's Kitchen star, 59, is an avid Scotland fan and donned a home strip as he gave a few words of encouragement to Steve Clarke's side. Scotland will face Haiti in their opener on Saturday night.",
+        "url": "https://www.dailymail.com/sport/football/article-15895971/Gordon-Ramsay-Scotland-World-Cup.html",
+        "published_at": "2026-06-13T05:28:46.728Z",
+        "fetched_at": "2026-06-13T05:28:46.728Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -5390,9 +4560,9 @@
       }
     ],
     "topic_phrases": [
-      "Scott McTominay"
+      "Andrew Robertson"
     ],
-    "last_updated": "2026-06-13T05:28:14.503Z",
+    "last_updated": "2026-06-13T05:28:46.728Z",
     "source_count_score": 26,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -6924,66 +6094,6 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_卡塔尔_general_discussion_qatarqatarplays_switzerlandswitzerlandat20_0020_onsatthe13",
-    "topic_key": "卡塔尔::general_discussion::qatarqatarplays_switzerlandswitzerlandat20_0020_onsatthe13",
-    "issue_type": "general",
-    "topic_title": "FIFA 世界杯 卡塔尔卡塔尔对阵瑞士 瑞士 6 月 13 日星期六 20:0020:00",
-    "lead_source_title": "FIFA World Cup QatarQatarplays SwitzerlandSwitzerlandat20:0020:00 onSatthe13 ofJun",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“FIFA 世界杯 卡塔尔卡塔尔对阵瑞士 瑞士 6 月 13 日星期六 20:0020:00”，暂作为话题线索展示。FIFA 世界杯 卡塔尔卡塔尔对阵瑞士 瑞士 6 月 13 日星期六 20:0020:00",
-    "summary_zh": "FIFA 世界杯 卡塔尔卡塔尔对阵瑞士 瑞士 6 月 13 日星期六 20:0020:00",
-    "heat_score": 36,
-    "related_matches": [
-      "M005"
-    ],
-    "related_teams": [
-      "卡塔尔",
-      "瑞士"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football Worldcup Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football_worldcup",
-        "source_name": "BBC Sport Football Worldcup Page",
-        "title": "FIFA World Cup QatarQatarplays SwitzerlandSwitzerlandat20:0020:00 onSatthe13 ofJun",
-        "summary": "",
-        "url": "https://www.bbc.co.uk/sport/football/live/c4gy0jy8dglt",
-        "published_at": "2026-06-13T05:28:02.659Z",
-        "fetched_at": "2026-06-13T05:28:02.659Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:02.659Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 92,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_fallback_巴西_general_discussion_brazilbrazilplays_moroccomoroccoat23_0023_onsatthe13",
     "topic_key": "巴西::general_discussion::brazilbrazilplays_moroccomoroccoat23_0023_onsatthe13",
     "issue_type": "general",
@@ -7047,11 +6157,11 @@
     "topic_id": "topic_fallback_韩国_warmup_result_south_korea_come_from",
     "topic_key": "韩国::warmup_result::south_korea_come_from",
     "issue_type": "general",
-    "topic_title": "韩国队后来居上击败捷克队",
+    "topic_title": "韩国从后面来击败捷克共和国",
     "lead_source_title": "South Korea come from behind to beat Czech Republic",
     "lead_source_summary": "South Korea come from behind to beat Czech Republic",
-    "topic_summary": "目前仅 1 个海外来源提到“韩国队后来居上击败捷克队”，暂作为话题线索展示。韩国队后来居上击败捷克队",
-    "summary_zh": "韩国队后来居上击败捷克队",
+    "topic_summary": "目前仅 1 个海外来源提到“韩国从后面来击败捷克共和国”，暂作为话题线索展示。韩国从后面来击败捷克共和国",
+    "summary_zh": "韩国从后面来击败捷克共和国",
     "heat_score": 36,
     "related_matches": [
       "M002"
@@ -7110,8 +6220,8 @@
     "topic_title": "金靴奖： 2026年世界杯最佳射手",
     "lead_source_title": "Golden Boot: World Cup 2026 top goalscorers",
     "lead_source_summary": "Who is winning the battle to be top scorer at the World Cup? Live and updated throughout the tournament",
-    "topic_summary": "目前仅 1 个海外来源提到“金靴奖： 2026年世界杯最佳射手”，暂作为话题线索展示。谁将赢得世界杯最佳射手的争夺战？",
-    "summary_zh": "谁将赢得世界杯最佳射手的争夺战？",
+    "topic_summary": "目前仅 1 个海外来源提到“金靴奖： 2026年世界杯最佳射手”，暂作为话题线索展示。Who is winning the battle to be top scorer at the World Cup?",
+    "summary_zh": "Who is winning the battle to be top scorer at the World Cup?",
     "heat_score": 36,
     "related_matches": [
       "M061",
@@ -7171,126 +6281,6 @@
       "Golden Boot"
     ],
     "last_updated": "2026-06-13T05:28:10.362Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 92,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_美国_general_discussion_paraguay_happened",
-    "topic_key": "美国::general_discussion::paraguay_happened",
-    "issue_type": "general",
-    "topic_title": "美国 4-1 巴拉圭：2026 年世界杯——事实如此",
-    "lead_source_title": "USA 4-1 Paraguay: World Cup 2026 – as it happened",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“美国 4-1 巴拉圭：2026 年世界杯——事实如此”，暂作为话题线索展示。美国 4-1 巴拉圭：2026 年世界杯——事实如此",
-    "summary_zh": "美国 4-1 巴拉圭：2026 年世界杯——事实如此",
-    "heat_score": 36,
-    "related_matches": [
-      "M004"
-    ],
-    "related_teams": [
-      "美国",
-      "巴拉圭"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football Worldcup 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "USA 4-1 Paraguay: World Cup 2026 – as it happened",
-        "summary": "",
-        "url": "https://www.theguardian.com/football/live/2026/jun/12/usa-v-paraguay-world-cup-2026-live",
-        "published_at": "2026-06-13T05:28:10.364Z",
-        "fetched_at": "2026-06-13T05:28:10.364Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:10.364Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 92,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_卡塔尔_general_discussion_bstqatarvswitzerland",
-    "topic_key": "卡塔尔::general_discussion::bstqatarvswitzerland",
-    "issue_type": "general",
-    "topic_title": "20:00 BST卡塔尔v瑞士",
-    "lead_source_title": "20:00 BSTQatarvSwitzerland",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“20:00 BST卡塔尔v瑞士”，暂作为话题线索展示。20:00 BST卡塔尔v瑞士",
-    "summary_zh": "20:00 BST卡塔尔v瑞士",
-    "heat_score": 36,
-    "related_matches": [
-      "M005"
-    ],
-    "related_teams": [
-      "卡塔尔",
-      "瑞士"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football Worldcup 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "20:00 BSTQatarvSwitzerland",
-        "summary": "",
-        "url": "https://www.theguardian.com/football/match/2026/jun/13/qatar-v-switzerland",
-        "published_at": "2026-06-13T05:28:10.367Z",
-        "fetched_at": "2026-06-13T05:28:10.367Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:10.367Z",
     "source_count_score": 26,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -9216,63 +8206,6 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_塞内加尔_warmup_result_senegal_appeal_date_after",
-    "topic_key": "塞内加尔::warmup_result::senegal_appeal_date_after",
-    "issue_type": "general",
-    "topic_title": "在Afcon获胜后设定的塞内加尔上诉日期被推翻",
-    "lead_source_title": "Senegal appeal date set after Afcon win overturned",
-    "lead_source_summary": "The Court of Arbitration for Sport sets a date for a hearing over Senegal's appeal against being stripped of the 2025 Africa Cup of Nations title.",
-    "topic_summary": "目前仅 1 个海外来源提到“在Afcon获胜后设定的塞内加尔上诉日期被推翻”，暂作为话题线索展示。体育仲裁法院确定了塞内加尔针对被剥夺 2025 年非洲国家杯冠军上诉的听证会日期",
-    "summary_zh": "体育仲裁法院确定了塞内加尔针对被剥夺 2025 年非洲国家杯冠军上诉的听证会日期",
-    "heat_score": 35,
-    "related_matches": [],
-    "related_teams": [
-      "塞内加尔"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football",
-        "source_name": "BBC Sport Football",
-        "title": "Senegal appeal date set after Afcon win overturned",
-        "summary": "The Court of Arbitration for Sport sets a date for a hearing over Senegal's appeal against being stripped of the 2025 Africa Cup of Nations title.",
-        "url": "https://www.bbc.co.uk/sport/football/articles/ce9788dmyndo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-07-24T15:14:21.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-24T15:14:21.000Z",
-    "source_count_score": 26,
-    "recency_score": 15,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_fallback_巴西_general_discussion_this_aren_winner_final",
     "topic_key": "巴西::general_discussion::this_aren_winner_final",
     "issue_type": "general",
@@ -9555,11 +8488,11 @@
     "topic_id": "topic_世界杯票务_ticket_issue_伊朗_世界杯",
     "topic_key": "世界杯票务::ticket_issue::伊朗::世界杯",
     "issue_type": "fans_atmosphere",
-    "topic_title": "伊朗：国际足联取消球迷世界杯门票分配",
+    "topic_title": "伊朗：国际足联拉开球迷世界杯门票分配",
     "lead_source_title": "Iran: FIFA pulled fans' World Cup ticket allotment",
     "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“伊朗：国际足联取消球迷世界杯门票分配”，暂作为话题线索展示。伊朗：国际足联取消球迷世界杯门票分配",
-    "summary_zh": "伊朗：国际足联取消球迷世界杯门票分配",
+    "topic_summary": "目前仅 1 个海外来源提到“伊朗：国际足联拉开球迷世界杯门票分配”，暂作为话题线索展示。伊朗：国际足联拉开球迷世界杯门票分配",
+    "summary_zh": "伊朗：国际足联拉开球迷世界杯门票分配",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -9609,243 +8542,14 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_德国_general_discussion_德国_世界杯",
-    "topic_key": "德国::general_discussion::德国::世界杯",
-    "issue_type": "coach_tactics",
-    "topic_title": "克洛普威胁退出，开始德国统治",
-    "lead_source_title": "Klopp starts Germany reign by threatening to quit",
-    "lead_source_summary": "Jurgen Klopp starts his reign as Germany's head coach by threatening to quit if the media invades his family's privacy.",
-    "topic_summary": "目前仅 1 个海外来源提到“克洛普威胁退出，开始德国统治”，暂作为话题线索展示。尤尔根·克洛普在担任德国主教练时威胁称，如果媒体侵犯他家人的隐私，他将辞职",
-    "summary_zh": "尤尔根·克洛普在担任德国主教练时威胁称，如果媒体侵犯他家人的隐私，他将辞职",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "德国"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football",
-        "source_name": "BBC Sport Football",
-        "title": "Klopp starts Germany reign by threatening to quit",
-        "summary": "Jurgen Klopp starts his reign as Germany's head coach by threatening to quit if the media invades his family's privacy.",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cqjxd0n4gd2o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-07-24T10:40:05.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-24T10:40:05.000Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_西班牙_warmup_result_西班牙_世界杯",
-    "topic_key": "西班牙::warmup_result::西班牙::世界杯",
-    "issue_type": "coach_tactics",
-    "topic_title": "有历史的约会，我们首先到达那里-西班牙对世界杯的胜利做出反应",
-    "lead_source_title": "'A date with history and we got there first' - Spain react to World Cup win",
-    "lead_source_summary": "Spain manager Luis de la Fuente and his players react to winning their second World Cup title after beating Argentina 1-0 after extra time in the final.",
-    "topic_summary": "目前仅 1 个海外来源提到“有历史的约会，我们首先到达那里-西班牙对世界杯的胜利做出反应”，暂作为话题线索展示。西班牙主教练路易斯·德拉丰特和他的球员在决赛加时赛后以1比0击败阿根廷后，对赢得第二个世界杯冠军做出了反应",
-    "summary_zh": "西班牙主教练路易斯·德拉丰特和他的球员在决赛加时赛后以1比0击败阿根廷后，对赢得第二个世界杯冠军做出了反应",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "西班牙",
-      "阿根廷"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football",
-        "source_name": "BBC Sport Football",
-        "title": "'A date with history and we got there first' - Spain react to World Cup win",
-        "summary": "Spain manager Luis de la Fuente and his players react to winning their second World Cup title after beating Argentina 1-0 after extra time in the final.",
-        "url": "https://www.bbc.co.uk/sport/football/videos/c1k1n1g4m8po?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-07-20T10:55:30.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-20T10:55:30.000Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_苏格兰_general_discussion_苏格兰_世界杯",
-    "topic_key": "苏格兰::general_discussion::苏格兰::世界杯",
-    "issue_type": "qualification_race",
-    "topic_title": "苏格兰队打破小组赛障碍以驱鬼",
-    "lead_source_title": "ScotlandTeam bid to exorcise ghosts by breaking group stage barrier",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“苏格兰队打破小组赛障碍以驱鬼”，暂作为话题线索展示。苏格兰队打破小组赛障碍以驱鬼",
-    "summary_zh": "苏格兰队打破小组赛障碍以驱鬼",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "苏格兰"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football Worldcup 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "ScotlandTeam bid to exorcise ghosts by breaking group stage barrier",
-        "summary": "",
-        "url": "https://www.theguardian.com/football/2026/jun/12/scotland-world-cup-football-haiti-steve-clarke",
-        "published_at": "2026-06-13T05:28:10.363Z",
-        "fetched_at": "2026-06-13T05:28:10.363Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:10.363Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_巴西_general_discussion_巴西_世界杯",
-    "topic_key": "巴西::general_discussion::巴西::世界杯",
-    "issue_type": "opening_host_pressure",
-    "topic_title": "“压力比总统更大安切洛蒂着手结束巴西的干旱",
-    "lead_source_title": "‘More pressure than the president'Ancelotti sets out to end Brazil’s drought",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到““压力比总统更大安切洛蒂着手结束巴西的干旱”，暂作为话题线索展示。“压力比总统更大安切洛蒂着手结束巴西的干旱",
-    "summary_zh": "“压力比总统更大安切洛蒂着手结束巴西的干旱",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "巴西"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football Worldcup 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "‘More pressure than the president'Ancelotti sets out to end Brazil’s drought",
-        "summary": "",
-        "url": "https://www.theguardian.com/football/2026/jun/12/more-pressure-than-the-president-ancelotti-sets-out-to-end-brazils-world-cup-drought",
-        "published_at": "2026-06-13T05:28:10.363Z",
-        "fetched_at": "2026-06-13T05:28:10.363Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:10.363Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_挪威_general_discussion_挪威_世界杯",
     "topic_key": "挪威::general_discussion::挪威::世界杯",
     "issue_type": "var_officiating",
     "topic_title": "挪威考虑就特朗普在世界杯红牌事件中的角色向国际足联提起道德投诉",
     "lead_source_title": "Norway considers filing Fifa ethics complaint over Trump role in World Cup red card saga",
     "lead_source_summary": "Norwegian federation president: Fifa on a ‘slippery slope’ Trump called Infantino for review of Balogun’s red Donald Trump’s role in clearing Folarin Balogun from a mandatory one-game ban at the World Cup is set to provoke a formal complaint to Fifa ethics investigators. The Norway soccer federation said Thursday its board of directors will consider filing the complaint at its next meeting, likely on 6 August. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“挪威考虑就特朗普在世界杯红牌事件中的角色向国际足联提起道德投诉”，暂作为话题线索展示。挪威足协主席：国际足联陷入“滑坡” 特朗普打电话给因凡蒂诺，要求审查巴洛贡的红色唐纳德·特朗普在清除福拉林·巴洛贡世界杯强制性一场比赛禁令中所扮演的角色，这将引发对国际足联道德调查员的正式投诉",
-    "summary_zh": "挪威足协主席：国际足联陷入“滑坡” 特朗普打电话给因凡蒂诺，要求审查巴洛贡的红色唐纳德·特朗普在清除福拉林·巴洛贡世界杯强制性一场比赛禁令中所扮演的角色，这将引发对国际足联道德调查员的正式投诉",
+    "topic_summary": "目前仅 1 个海外来源提到“挪威考虑就特朗普在世界杯红牌事件中的角色向国际足联提起道德投诉”，暂作为话题线索展示。Norwegian federation president: Fifa on a ‘slippery slope’ Trump called Infantino for review of Balogun’s red Donald Trump’s role in clearing Folarin Balogun from a mandatory one-game ban at the World Cup is set to provoke a formal complaint to Fifa ethics investigators",
+    "summary_zh": "Norwegian federation president: Fifa on a ‘slippery slope’ Trump called Infantino for review of Balogun’s red Donald Trump’s role in clearing Folarin Balogun from a mandatory one-game ban at the World Cup is set to provoke a formal complaint to Fifa ethics investigators",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -9871,7 +8575,7 @@
         "summary": "Norwegian federation president: Fifa on a ‘slippery slope’ Trump called Infantino for review of Balogun’s red Donald Trump’s role in clearing Folarin Balogun from a mandatory one-game ban at the World Cup is set to provoke a formal complaint to Fifa ethics investigators. The Norway soccer federation said Thursday its board of directors will consider filing the complaint at its next meeting, likely on 6 August. Continue reading...",
         "url": "https://www.theguardian.com/football/2026/jul/23/norway-fifa-ethics-complaint-trump-balogun-red-card",
         "published_at": "2026-07-23T13:40:39.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
+        "fetched_at": "2026-07-26T04:36:33.722Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -9901,8 +8605,8 @@
     "topic_title": "德拉富恩特表示，阿根廷队在世界杯决赛后的行为“无法容忍”",
     "lead_source_title": "Argentina behaviour after World Cup final was ‘intolerable’, says De la Fuente",
     "lead_source_summary": "Spain head coach hits out at ‘acts of aggression’ Fifa investigation into incident yet to result in sanctions Spain’s head coach, Luis de la Fuente, has hit out at the “intolerable, unacceptable” behaviour of Argentina players in the immediate aftermath of Sunday’s World Cup final. At the forefront were Nahuel Molina and Leandro Paredes, who attacked Rodri and Eric García respectively at New York New Jersey Stadium as Spain’s players celebrated winning the World Cup for a second time in the country’s history. Paredes also confronted Spain’s Gavi. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“德拉富恩特表示，阿根廷队在世界杯决赛后的行为“无法容忍””，暂作为话题线索展示。西班牙主教练猛烈抨击“侵略行为” 国际足联对事件的调查尚未导致制裁 西班牙主教练路易斯·德拉富恩特猛烈抨击了阿根廷球员在周日世界杯决赛后立即做出的无法容忍、不可接受的行为",
-    "summary_zh": "西班牙主教练猛烈抨击“侵略行为” 国际足联对事件的调查尚未导致制裁 西班牙主教练路易斯·德拉富恩特猛烈抨击了阿根廷球员在周日世界杯决赛后立即做出的无法容忍、不可接受的行为",
+    "topic_summary": "目前仅 1 个海外来源提到“德拉富恩特表示，阿根廷队在世界杯决赛后的行为“无法容忍””，暂作为话题线索展示。Spain head coach hits out at ‘acts of aggression’ Fifa investigation into incident yet to result in sanctions Spain’s head coach, Luis de la Fuente, has hit out at the intolerable, unacceptable behaviour of Argentina players in the immediate aftermath of Sunday’s World Cup final",
+    "summary_zh": "Spain head coach hits out at ‘acts of aggression’ Fifa investigation into incident yet to result in sanctions Spain’s head coach, Luis de la Fuente, has hit out at the intolerable, unacceptable behaviour of Argentina players in the immediate aftermath of Sunday’s World Cup final",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -9931,7 +8635,7 @@
         "summary": "Spain head coach hits out at ‘acts of aggression’ Fifa investigation into incident yet to result in sanctions Spain’s head coach, Luis de la Fuente, has hit out at the “intolerable, unacceptable” behaviour of Argentina players in the immediate aftermath of Sunday’s World Cup final. At the forefront were Nahuel Molina and Leandro Paredes, who attacked Rodri and Eric García respectively at New York New Jersey Stadium as Spain’s players celebrated winning the World Cup for a second time in the country’s history. Paredes also confronted Spain’s Gavi. Continue reading...",
         "url": "https://www.theguardian.com/football/2026/jul/24/argentina-behaviour-world-cup-final-intolerable-de-la-fuente",
         "published_at": "2026-07-24T10:56:36.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
+        "fetched_at": "2026-07-26T04:36:33.722Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -9952,181 +8656,6 @@
     "is_example_heat": false,
     "interpretation_basis": "根据公开标题与摘要识别",
     "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_英格兰_logistics_issue_英格兰_世界杯",
-    "topic_key": "英格兰::logistics_issue::英格兰::世界杯",
-    "issue_type": "event_operations",
-    "topic_title": "警方呼吁英格兰足球俱乐部减轻纳税人的安全负担",
-    "lead_source_title": "Police call on English football clubs to ease security burden on taxpayers",
-    "lead_source_summary": "Home Office reveals police incidents for 2025-26 season Four arrests for every 100,000 people attending games The number of football matches in England and Wales featuring incidents reported to police reached record levels last season, even as the number of arrests continued to return to pre-Covid figures. According to an annual report by the Home Office, released on Thursday, there was a 4% increase in the number of matches with reports of “football-related anti-social behaviour, violence and disorder” during the 2025-26 season. Reports were made at 1,644 games, up from 1,580 the previous campaign. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“警方呼吁英格兰足球俱乐部减轻纳税人的安全负担”，暂作为话题线索展示。内政部披露了2025-26赛季的警察事件每10万人参加比赛就有4人被捕英格兰和威尔士的足球比赛数量上赛季向警方报告的事件达到了创纪录的水平，尽管被捕人数继续回到新冠疫情前的数字",
-    "summary_zh": "内政部披露了2025-26赛季的警察事件每10万人参加比赛就有4人被捕英格兰和威尔士的足球比赛数量上赛季向警方报告的事件达到了创纪录的水平，尽管被捕人数继续回到新冠疫情前的数字",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "英格兰"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Police call on English football clubs to ease security burden on taxpayers",
-        "summary": "Home Office reveals police incidents for 2025-26 season Four arrests for every 100,000 people attending games The number of football matches in England and Wales featuring incidents reported to police reached record levels last season, even as the number of arrests continued to return to pre-Covid figures. According to an annual report by the Home Office, released on Thursday, there was a 4% increase in the number of matches with reports of “football-related anti-social behaviour, violence and disorder” during the 2025-26 season. Reports were made at 1,644 games, up from 1,580 the previous campaign. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/23/arrests-football-matches-police-home-office",
-        "published_at": "2026-07-23T15:30:58.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-23T15:30:58.000Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_martin_odegaard_warmup_result_martin_odegaard_世界杯",
-    "topic_key": "martin_odegaard::warmup_result::martin_odegaard::世界杯",
-    "issue_type": "injury_training",
-    "topic_title": "切尔西向阿斯顿维拉支付了 1.17 亿英镑买下摩根·罗杰斯。他合适吗？",
-    "lead_source_title": "Chelsea paid Aston Villa £117m for Morgan Rogers. Is he the right fit?",
-    "lead_source_summary": "The England attacker thrives when he can gallop into space but Xabi Alonso’s best team built attacks slowly By Opta Analyst It quickly became apparent this summer that Aston Villa would not be holding on to Morgan Rogers. Having helped the club finish fourth in the Premier League and win the Europa League, the 23-year-old was in demand. Arsenal looked like his likeliest next destination, with the champions eager to strengthen the left side of their attack. The charm offensive came from many angles, with Martin Ødegaard, Mikel Arteta and the club’s England players trying to sell the idea to Rogers. But, with Arsenal reluctant to meet Villa’s asking price, Chelsea intervened and made Rogers the most expensive British player ever, surpassing the £116m that Manchester City paid Nottingham Forest for Elliot Anderson earlier this summer. Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“切尔西向阿斯顿维拉支付了 1.17 亿英镑买下摩根·罗杰斯。他合适吗？”，暂作为话题线索展示。这位英格兰攻击者可以飞奔进入太空，但哈比·阿隆索最好的球队进攻速度缓慢。Opta分析师今年夏天很快就发现，阿斯顿维拉不会抓住摩根·罗杰斯",
-    "summary_zh": "这位英格兰攻击者可以飞奔进入太空，但哈比·阿隆索最好的球队进攻速度缓慢。Opta分析师今年夏天很快就发现，阿斯顿维拉不会抓住摩根·罗杰斯",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "英格兰"
-    ],
-    "related_players": [
-      "Martin Odegaard"
-    ],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Chelsea paid Aston Villa £117m for Morgan Rogers. Is he the right fit?",
-        "summary": "The England attacker thrives when he can gallop into space but Xabi Alonso’s best team built attacks slowly By Opta Analyst It quickly became apparent this summer that Aston Villa would not be holding on to Morgan Rogers. Having helped the club finish fourth in the Premier League and win the Europa League, the 23-year-old was in demand. Arsenal looked like his likeliest next destination, with the champions eager to strengthen the left side of their attack. The charm offensive came from many angles, with Martin Ødegaard, Mikel Arteta and the club’s England players trying to sell the idea to Rogers. But, with Arsenal reluctant to meet Villa’s asking price, Chelsea intervened and made Rogers the most expensive British player ever, surpassing the £116m that Manchester City paid Nottingham Forest for Elliot Anderson earlier this summer. Continue reading...",
-        "url": "https://www.theguardian.com/football/2026/jul/23/chelsea-aston-villa-117m-morgan-rogers-england-xabi-alonso",
-        "published_at": "2026-07-23T18:00:51.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Martin Odegaard"
-    ],
-    "last_updated": "2026-07-23T18:00:51.000Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_巴拉圭_general_discussion_巴拉圭_世界杯",
-    "topic_key": "巴拉圭::general_discussion::巴拉圭::世界杯",
-    "issue_type": "var_officiating",
-    "topic_title": "美国-巴拉圭比赛中VAR介入判罚黄牌",
-    "lead_source_title": "Le VAR intervient pour attribuer un carton jaune lors d'États-Unis-Paraguay",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“美国-巴拉圭比赛中VAR介入判罚黄牌”，暂作为话题线索展示。美国-巴拉圭比赛中VAR介入判罚黄牌",
-    "summary_zh": "美国-巴拉圭比赛中VAR介入判罚黄牌",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "巴拉圭"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "L'Équipe Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_lequipe_football",
-        "source_name": "L'Équipe Football",
-        "title": "Le VAR intervient pour attribuer un carton jaune lors d'États-Unis-Paraguay",
-        "summary": "",
-        "url": "https://www.lequipe.fr/Football/Actualites/Le-var-est-intervenu-pour-attribuer-un-carton-jaune-a-un-paraguayen-lors-du-match-de-coupe-du-monde-contre-les-etats-unis/1684404",
-        "published_at": "2026-06-13T05:28:23.715Z",
-        "fetched_at": "2026-06-13T05:28:23.715Z",
-        "language": "fr",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:23.715Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
     "included_in_frontend": true
   },
   {
@@ -10717,11 +9246,11 @@
     "topic_id": "topic_fallback_lionel_messi_general_discussion_ranking_which_teams_will",
     "topic_key": "lionel messi::general_discussion::ranking_which_teams_will",
     "issue_type": "general",
-    "topic_title": "2026 年世界杯球衣排名：哪些球队看起来最好？",
+    "topic_title": "世界杯球衣排名： 2026年哪些球队看起来最好？",
     "lead_source_title": "World Cup kit ranking: Which teams will look best in 2026?",
     "lead_source_summary": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits! Here they all are, ranked from worst to first.",
-    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯球衣排名：哪些球队看起来最好？”，暂作为话题线索展示。2026年世界杯首次有48支球队参赛，总共带来超过100套球衣！",
-    "summary_zh": "2026年世界杯首次有48支球队参赛，总共带来超过100套球衣！",
+    "topic_summary": "目前仅 1 个海外来源提到“世界杯球衣排名： 2026年哪些球队看起来最好？”，暂作为话题线索展示。2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
+    "summary_zh": "2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -10783,10 +9312,10 @@
     "topic_id": "topic_fallback_lamine_yamal_general_discussion_barcelona_keep_dump_what",
     "topic_key": "lamine yamal::general_discussion::barcelona_keep_dump_what",
     "issue_type": "general",
-    "topic_title": "巴塞罗那保留还是放弃：西甲冠军必须解决什么问题？",
+    "topic_title": "巴塞罗那保持或转储：西甲冠军必须解决什么问题？",
     "lead_source_title": "Barcelona Keep or Dump: What must LaLiga champions address?",
     "lead_source_summary": "How can Barcelona navigate their financial restrictions to reach even greater heights? Gab Marcotti and Sam Marsden break it down.",
-    "topic_summary": "目前仅 1 个海外来源提到“巴塞罗那保留还是放弃：西甲冠军必须解决什么问题？”，暂作为话题线索展示。巴塞罗那如何才能克服财务限制，达到更高的境界？",
+    "topic_summary": "目前仅 1 个海外来源提到“巴塞罗那保持或转储：西甲冠军必须解决什么问题？”，暂作为话题线索展示。巴塞罗那如何才能克服财务限制，达到更高的境界？",
     "summary_zh": "巴塞罗那如何才能克服财务限制，达到更高的境界？",
     "heat_score": 33,
     "related_matches": [],
@@ -10887,67 +9416,6 @@
     ],
     "topic_phrases": [],
     "last_updated": "2026-06-10T07:28:50.161Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_lionel_messi_general_discussion_messi_scores_return_argentina",
-    "topic_key": "lionel messi::general_discussion::messi_scores_return_argentina",
-    "issue_type": "general",
-    "topic_title": "梅西得分作为回报，因为阿根廷期待WCU",
-    "lead_source_title": "Messi scores in return as Argentina look to WCup",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“梅西得分作为回报，因为阿根廷期待WCU”，暂作为话题线索展示。梅西得分作为回报，因为阿根廷期待WCU",
-    "summary_zh": "梅西得分作为回报，因为阿根廷期待WCU",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "阿根廷"
-    ],
-    "related_players": [
-      "Lionel Messi"
-    ],
-    "regions": [
-      "全球/英语圈"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "ESPN Soccer Worldcup Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_espn_soccer_worldcup",
-        "source_name": "ESPN Soccer Worldcup Page",
-        "title": "Messi scores in return as Argentina look to WCup",
-        "summary": "",
-        "url": "https://www.espn.com/soccer/story/_/id/49016515/lionel-messi-scores-return-argentina-world-cup",
-        "published_at": "2026-06-10T07:28:56.631Z",
-        "fetched_at": "2026-06-10T07:28:56.631Z",
-        "language": "en",
-        "region": "全球/英语圈",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "Lionel Messi"
-    ],
-    "last_updated": "2026-06-10T07:28:56.631Z",
     "source_count_score": 26,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -11201,185 +9669,14 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_海地_general_discussion_steve_clarke_what_would",
-    "topic_key": "海地::general_discussion::steve_clarke_what_would",
-    "issue_type": "general",
-    "topic_title": "你是史蒂夫·克拉克……你会对海地做些什么？",
-    "lead_source_title": "You are Steve Clarke... what would you do against Haiti?",
-    "lead_source_summary": "You are Steve Clarke... what would you do against Haiti?",
-    "topic_summary": "目前仅 1 个海外来源提到“你是史蒂夫·克拉克……你会对海地做些什么？”，暂作为话题线索展示。你会对海地做什么？",
-    "summary_zh": "你会对海地做什么？",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "海地"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football Worldcup Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football_worldcup",
-        "source_name": "BBC Sport Football Worldcup Page",
-        "title": "You are Steve Clarke... what would you do against Haiti?",
-        "summary": "You are Steve Clarke... what would you do against Haiti?",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cy06gkd521wo",
-        "published_at": "2026-06-13T05:28:02.659Z",
-        "fetched_at": "2026-06-13T05:28:02.659Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:02.659Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_general_discussion_says_infantino_complaint_outside",
-    "topic_key": "general_discussion::says_infantino_complaint_outside",
-    "issue_type": "general",
-    "topic_title": "国际奥委会表示Infantino投诉超出其范围",
-    "lead_source_title": "IOC says Infantino complaint outside its scope",
-    "lead_source_summary": "The IOC says it will not investigate Gianni Infantino as a complaint about the Fifa president is \"outside\" its scope.",
-    "topic_summary": "目前仅 1 个海外来源提到“国际奥委会表示Infantino投诉超出其范围”，暂作为话题线索展示。国际奥委会表示不会调查詹尼·因凡蒂诺，因为对国际足联主席的投诉超出了其管辖范围",
-    "summary_zh": "国际奥委会表示不会调查詹尼·因凡蒂诺，因为对国际足联主席的投诉超出了其管辖范围",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football",
-        "source_name": "BBC Sport Football",
-        "title": "IOC says Infantino complaint outside its scope",
-        "summary": "The IOC says it will not investigate Gianni Infantino as a complaint about the Fifa president is \"outside\" its scope.",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c07rzz54jyro?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-07-24T16:07:14.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-07-24T16:07:14.000Z",
-    "source_count_score": 26,
-    "recency_score": 18,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_英格兰_general_discussion_proud_keegan_looks_back",
-    "topic_key": "英格兰::general_discussion::proud_keegan_looks_back",
-    "issue_type": "general",
-    "topic_title": "我为此感到自豪- Keegan回顾了职业生涯的亮点和遗产",
-    "lead_source_title": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
-    "lead_source_summary": "Kevin Keegan talks to Football Focus' Dan Walker in 2018 about some of the standout moments from his career - from winning World Player of the Year twice, to managing England and the iconic \"I would love it\" remark from the 1995–96 season.",
-    "topic_summary": "目前仅 1 个海外来源提到“我为此感到自豪- Keegan回顾了职业生涯的亮点和遗产”，暂作为话题线索展示。凯文·基根（Kevin Keegan）在2018年与足球焦点丹·沃克（Dan Walker）谈论了他职业生涯中的一些杰出时刻-从两次赢得世界年度最佳球员，到管理英格兰队，以及1995–96赛季的标志性言论",
-    "summary_zh": "凯文·基根（Kevin Keegan）在2018年与足球焦点丹·沃克（Dan Walker）谈论了他职业生涯中的一些杰出时刻-从两次赢得世界年度最佳球员，到管理英格兰队，以及1995–96赛季的标志性言论",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "英格兰"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "BBC Sport Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_bbc_sport_football",
-        "source_name": "BBC Sport Football",
-        "title": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
-        "summary": "Kevin Keegan talks to Football Focus' Dan Walker in 2018 about some of the standout moments from his career - from winning World Player of the Year twice, to managing England and the iconic \"I would love it\" remark from the 1995–96 season.",
-        "url": "https://www.bbc.co.uk/sport/football/videos/cgmkv3j3yv0o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-07-20T16:32:51.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-07-20T16:32:51.000Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_fallback_harry_kane_general_discussion_kane_talks_with_bayern",
     "topic_key": "harry kane::general_discussion::kane_talks_with_bayern",
     "issue_type": "general",
-    "topic_title": "凯恩将与拜仁慕尼黑就新合同进行谈判",
+    "topic_title": "凯恩将与拜仁慕尼黑就新协议进行谈判",
     "lead_source_title": "Kane set for talks with Bayern Munich over new deal",
     "lead_source_summary": "Harry Kane is set to begin talks over a new Bayern Munich contract, with Barcelona and various Saudi Arabian clubs reportedly interested in the England captain.",
-    "topic_summary": "目前仅 1 个海外来源提到“凯恩将与拜仁慕尼黑就新合同进行谈判”，暂作为话题线索展示。哈里·凯恩将开始就一份新的拜仁慕尼黑合同进行谈判，据报道，巴塞罗那和各家沙特阿拉伯俱乐部都对这位英格兰队长感兴趣",
-    "summary_zh": "哈里·凯恩将开始就一份新的拜仁慕尼黑合同进行谈判，据报道，巴塞罗那和各家沙特阿拉伯俱乐部都对这位英格兰队长感兴趣",
+    "topic_summary": "目前仅 1 个海外来源提到“凯恩将与拜仁慕尼黑就新协议进行谈判”，暂作为话题线索展示。Harry Kane is set to begin talks over a new Bayern Munich contract, with Barcelona and various Saudi Arabian clubs reportedly interested in the England captain",
+    "summary_zh": "Harry Kane is set to begin talks over a new Bayern Munich contract, with Barcelona and various Saudi Arabian clubs reportedly interested in the England captain",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -11408,7 +9705,7 @@
         "summary": "Harry Kane is set to begin talks over a new Bayern Munich contract, with Barcelona and various Saudi Arabian clubs reportedly interested in the England captain.",
         "url": "https://www.bbc.co.uk/sport/football/articles/cly5d2n2879o?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-07-24T09:38:26.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
+        "fetched_at": "2026-07-26T04:36:33.408Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -11437,11 +9734,11 @@
     "topic_id": "topic_fallback_lionel_messi_general_discussion_messiah_papering_over_cracks",
     "topic_key": "lionel messi::general_discussion::messiah_papering_over_cracks",
     "issue_type": "general",
-    "topic_title": "弥赛亚还是掩盖裂缝？克洛普必须打消德国重建的怀疑者",
+    "topic_title": "弥赛亚还是在裂缝上涂纸？克洛普必须动摇德国重建的怀疑者",
     "lead_source_title": "Messiah or papering over cracks? Klopp must sway doubters in Germany rebuild",
     "lead_source_summary": "Jurgen Klopp is a legend at his former clubs, but he will need to convince his critics if he is to succeed in his toughest managerial challenge yet.",
-    "topic_summary": "目前仅 1 个海外来源提到“弥赛亚还是掩盖裂缝？克洛普必须打消德国重建的怀疑者”，暂作为话题线索展示。尤尔根·克洛普是他前俱乐部的传奇人物，但如果他想在迄今为止最艰难的管理挑战中取得成功，他需要说服批评者",
-    "summary_zh": "尤尔根·克洛普是他前俱乐部的传奇人物，但如果他想在迄今为止最艰难的管理挑战中取得成功，他需要说服批评者",
+    "topic_summary": "目前仅 1 个海外来源提到“弥赛亚还是在裂缝上涂纸？克洛普必须动摇德国重建的怀疑者”，暂作为话题线索展示。尤尔根·克洛普（Jurgen Klopp）是他前俱乐部的传奇人物，但如果他想在迄今为止最艰难的管理挑战中取得成功，他需要说服批评者",
+    "summary_zh": "尤尔根·克洛普（Jurgen Klopp）是他前俱乐部的传奇人物，但如果他想在迄今为止最艰难的管理挑战中取得成功，他需要说服批评者",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -11469,7 +9766,7 @@
         "summary": "Jurgen Klopp is a legend at his former clubs, but he will need to convince his critics if he is to succeed in his toughest managerial challenge yet.",
         "url": "https://www.bbc.co.uk/sport/football/articles/cn8k8llpz2mo?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-07-24T09:33:22.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
+        "fetched_at": "2026-07-26T04:36:33.408Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -11495,18 +9792,18 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_英格兰_ticket_issue_thought_gosh_going_some",
-    "topic_key": "英格兰::ticket_issue::thought_gosh_going_some",
+    "topic_id": "topic_fallback_塞内加尔_warmup_result_senegal_appeal_date_after",
+    "topic_key": "塞内加尔::warmup_result::senegal_appeal_date_after",
     "issue_type": "general",
-    "topic_title": "“我以为——天哪，他会成为一名球员”：英格兰球员德克兰·赖斯的成长历程",
-    "lead_source_title": "‘I thought – gosh, he’s going to be some player’: the making of England’s Declan Rice",
-    "lead_source_summary": "Rejected by Chelsea, honed by West Ham and a league winner at Arsenal, the midfielder has plenty from his footballing journey wishing him well at the World Cup",
-    "topic_summary": "目前仅 1 个海外来源提到““我以为——天哪，他会成为一名球员”：英格兰球员德克兰·赖斯的成长历程”，暂作为话题线索展示。被切尔西拒绝，被西汉姆联磨练，并在阿森纳获得联赛冠军，这位中场球员从他的足球生涯中得到了很多祝福，祝愿他在世界杯上取得好成绩。 被切尔西拒绝，被西汉姆联磨练，在阿森纳获得联赛冠军，这位中场球员从他的足球生涯中得到了很多祝福，祝愿他在世界杯上取得好成绩。 三年前，德克兰·赖斯作为明星嘉宾参加了一场 Soho House 活动，讲述了有效领导的力量。",
-    "summary_zh": "被切尔西拒绝，被西汉姆联磨练，并在阿森纳获得联赛冠军，这位中场球员从他的足球生涯中得到了很多祝福，祝愿他在世界杯上取得好成绩。 被切尔西拒绝，被西汉姆联磨练，在阿森纳获得联赛冠军，这位中场球员从他的足球生涯中得到了很多祝福，祝愿他在世界杯上取得好成绩。 三年前，德克兰·赖斯作为明星嘉宾参加了一场 Soho House 活动，讲述了有效领导的力量。",
+    "topic_title": "在Afcon获胜后设定的塞内加尔上诉日期被推翻",
+    "lead_source_title": "Senegal appeal date set after Afcon win overturned",
+    "lead_source_summary": "The Court of Arbitration for Sport sets a date for a hearing over Senegal's appeal against being stripped of the 2025 Africa Cup of Nations title.",
+    "topic_summary": "目前仅 1 个海外来源提到“在Afcon获胜后设定的塞内加尔上诉日期被推翻”，暂作为话题线索展示。体育仲裁法院设定了对塞内加尔就被剥夺2025年非洲国家杯冠军头衔提出的上诉进行听证的日期",
+    "summary_zh": "体育仲裁法院设定了对塞内加尔就被剥夺2025年非洲国家杯冠军头衔提出的上诉进行听证的日期",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
-      "英格兰"
+      "塞内加尔"
     ],
     "related_players": [],
     "regions": [
@@ -11518,208 +9815,37 @@
     "source_count": 1,
     "evidence_count": 1,
     "source_names": [
-      "The Guardian Football Worldcup 2026 Page"
+      "BBC Sport Football"
     ],
     "sources": [
       {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "‘I thought – gosh, he’s going to be some player’: the making of England’s Declan Rice",
-        "summary": "Rejected by Chelsea, honed by West Ham and a league winner at Arsenal, the midfielder has plenty from his footballing journey wishing him well at the World Cup",
-        "url": "https://www.theguardian.com/football/2026/jun/13/making-england-declan-rice-world-cup-west-ham-arsenal",
-        "published_at": "2026-06-13T05:28:10.362Z",
-        "fetched_at": "2026-06-13T05:28:10.362Z",
+        "source_id": "media_bbc_sport_football",
+        "source_name": "BBC Sport Football",
+        "title": "Senegal appeal date set after Afcon win overturned",
+        "summary": "The Court of Arbitration for Sport sets a date for a hearing over Senegal's appeal against being stripped of the 2025 Africa Cup of Nations title.",
+        "url": "https://www.bbc.co.uk/sport/football/articles/ce9788dmyndo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-07-24T15:14:21.000Z",
+        "fetched_at": "2026-07-26T04:36:33.408Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
         "item_type": "article"
       }
     ],
     "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:10.362Z",
+    "last_updated": "2026-07-24T15:14:21.000Z",
     "source_count_score": 26,
     "recency_score": 8,
     "cross_region_score": 35,
     "source_priority_score": 82,
     "match_relevance_score": 70,
     "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_苏格兰_general_discussion_scotlandtartan_army_toast_return",
-    "topic_key": "苏格兰::general_discussion::scotlandtartan_army_toast_return",
-    "issue_type": "general",
-    "topic_title": "苏格兰塔坦陆军吐司回归： “千载难逢的机会”",
-    "lead_source_title": "ScotlandTartan Army toast return: ‘A once-in-a-lifetime opportunity’",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“苏格兰塔坦陆军吐司回归： “千载难逢的机会””，暂作为话题线索展示。苏格兰塔坦陆军吐司回归： “千载难逢的机会”",
-    "summary_zh": "苏格兰塔坦陆军吐司回归： “千载难逢的机会”",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "苏格兰"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football Worldcup 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "ScotlandTartan Army toast return: ‘A once-in-a-lifetime opportunity’",
-        "summary": "",
-        "url": "https://www.theguardian.com/football/2026/jun/12/tartan-army-toast-scotland-world-cup-return-boston",
-        "published_at": "2026-06-13T05:28:10.363Z",
-        "fetched_at": "2026-06-13T05:28:10.363Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:10.363Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_法国_general_discussion_franceles_bleus_followed_home",
-    "topic_key": "法国::general_discussion::franceles_bleus_followed_home",
-    "issue_type": "general",
-    "topic_title": "姆巴佩从极右翼横扫法国队后，法国队紧随其后进入世界杯",
-    "lead_source_title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“姆巴佩从极右翼横扫法国队后，法国队紧随其后进入世界杯”，暂作为话题线索展示。姆巴佩从极右翼横扫法国队后，法国队紧随其后进入世界杯",
-    "summary_zh": "姆巴佩从极右翼横扫法国队后，法国队紧随其后进入世界杯",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "法国"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football Worldcup 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
-        "summary": "",
-        "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
-        "published_at": "2026-06-13T05:28:10.363Z",
-        "fetched_at": "2026-06-13T05:28:10.363Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:10.363Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_韩国_general_discussion_south_korea_brunch_sees",
-    "topic_key": "韩国::general_discussion::south_korea_brunch_sees",
-    "issue_type": "general",
-    "topic_title": "韩国“世界杯早午餐”啤酒被换成早餐",
-    "lead_source_title": "South Korea‘World Cup brunch’ sees beers swapped for breakfast",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“韩国“世界杯早午餐”啤酒被换成早餐”，暂作为话题线索展示。韩国“世界杯早午餐”啤酒被换成早餐",
-    "summary_zh": "韩国“世界杯早午餐”啤酒被换成早餐",
-    "heat_score": 33,
-    "related_matches": [],
-    "related_teams": [
-      "韩国"
-    ],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football Worldcup 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "South Korea‘World Cup brunch’ sees beers swapped for breakfast",
-        "summary": "",
-        "url": "https://www.theguardian.com/world/2026/jun/13/south-korea-fans-brunch-world-cup-watch-vs-czechia-game",
-        "published_at": "2026-06-13T05:28:10.363Z",
-        "fetched_at": "2026-06-13T05:28:10.363Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [],
-    "last_updated": "2026-06-13T05:28:10.363Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 70,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
     "included_in_frontend": true
   },
   {
@@ -11758,7 +9884,7 @@
         "summary": "‘They’re winners, relentless, a team I want to be part of’ Midfielder hails De Bruyne as a childhood inspiration Elliot Anderson has called Manchester City the “kings of Manchester” after completing his £116m move to the club from Nottingham Forest. The 23-year-old was a key part of England’s third-place finish at the World Cup, having been an ever-present for Forest in the Premier League last season. Before Morgan Rogers’ £117m transfer to Chelsea from Aston Villa on Tuesday, Anderson’s fee was the record for a British player. Continue reading...",
         "url": "https://www.theguardian.com/football/2026/jul/23/elliot-anderson-manchester-city-116m-nottingham-forest-transfer-premier-league",
         "published_at": "2026-07-23T16:00:48.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
+        "fetched_at": "2026-07-26T04:36:33.722Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -12266,8 +10392,8 @@
     "topic_title": "阿根廷大胜冰岛，火热进军2026年世界杯",
     "lead_source_title": "Argentina aplasta a Islandia y llega encendida al Mundial 2026",
     "lead_source_summary": "Con goles de Barco, Messi y Almada, la Selección de Argentina venció a Islandia en el último amistoso antes de la Copa del Mundo y está lista para el debut frente a Argelia.",
-    "topic_summary": "目前仅 1 个海外来源提到“阿根廷大胜冰岛，火热进军2026年世界杯”，暂作为话题线索展示。凭借巴科、梅西和阿尔马达的进球，阿根廷国家队在世界杯前的最后一场友谊赛中击败了冰岛，并为对阵阿尔及利亚的首场比赛做好了准备",
-    "summary_zh": "凭借巴科、梅西和阿尔马达的进球，阿根廷国家队在世界杯前的最后一场友谊赛中击败了冰岛，并为对阵阿尔及利亚的首场比赛做好了准备",
+    "topic_summary": "目前仅 1 个海外来源提到“阿根廷大胜冰岛，火热进军2026年世界杯”，暂作为话题线索展示。凭借巴科、梅西和阿尔马达的进球，阿根廷国家队在世界杯前最后一场友谊赛中击败了冰岛，并为对阵阿尔及利亚的首秀做好了准备",
+    "summary_zh": "凭借巴科、梅西和阿尔马达的进球，阿根廷国家队在世界杯前最后一场友谊赛中击败了冰岛，并为对阵阿尔及利亚的首秀做好了准备",
     "heat_score": 33,
     "related_matches": [],
     "related_teams": [
@@ -12615,6 +10741,65 @@
     ],
     "topic_phrases": [
       "Lionel Messi"
+    ],
+    "last_updated": "2026-06-10T07:29:54.739Z",
+    "source_count_score": 26,
+    "recency_score": 8,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 70,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题识别",
+    "confidence": "低",
+    "included_in_frontend": true
+  },
+  {
+    "topic_id": "topic_fallback_乌拉圭_general_discussion_facundo_pellistri_siempre_dice",
+    "topic_key": "乌拉圭::general_discussion::facundo_pellistri_siempre_dice",
+    "issue_type": "general",
+    "topic_title": "佩利斯特里：总是有人说乌拉圭不是候选国，但没有国家队愿意面对我们",
+    "lead_source_title": "Facundo Pellistri: \"Siempre se dice que Uruguay no es candidato, pero ninguna Selección nos quiere enfrentar\"",
+    "lead_source_summary": "El extremo de Uruguay habló en la partida de la Selección rumbo a Playa del Carmen, sede de la concentración Celeste en el Mundial 2026.",
+    "topic_summary": "目前仅 1 个海外来源提到“佩利斯特里：总是有人说乌拉圭不是候选国，但没有国家队愿意面对我们”，暂作为话题线索展示。这位乌拉圭边锋在国家队出发前往卡门海滩时发表讲话，这里是 2026 年世界杯塞莱斯特集中营的总部",
+    "summary_zh": "这位乌拉圭边锋在国家队出发前往卡门海滩时发表讲话，这里是 2026 年世界杯塞莱斯特集中营的总部",
+    "heat_score": 33,
+    "related_matches": [],
+    "related_teams": [
+      "乌拉圭"
+    ],
+    "related_players": [],
+    "regions": [
+      "拉美"
+    ],
+    "languages": [
+      "es"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "ESPN Deportes Fútbol Mundial"
+    ],
+    "sources": [
+      {
+        "source_id": "media_espn_deportes_futbol_mundial",
+        "source_name": "ESPN Deportes Fútbol Mundial",
+        "title": "Facundo Pellistri: \"Siempre se dice que Uruguay no es candidato, pero ninguna Selección nos quiere enfrentar\"",
+        "summary": "El extremo de Uruguay habló en la partida de la Selección rumbo a Playa del Carmen, sede de la concentración Celeste en el Mundial 2026.",
+        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818089/facundo-pellistri-declaraciones-partida-seleccion-uruguaya-a-playa-del-carmen-mundial-2026",
+        "published_at": "2026-06-10T07:29:54.739Z",
+        "fetched_at": "2026-06-10T07:29:54.739Z",
+        "language": "es",
+        "region": "拉美",
+        "source_type": "media",
+        "crawl_strategy": "html_list_test",
+        "crawl_mode": "html_list",
+        "data_origin": "cache",
+        "extraction_level": "cached",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "Facundo Pellistri"
     ],
     "last_updated": "2026-06-10T07:29:54.739Z",
     "source_count_score": 26,
@@ -16579,11 +14764,11 @@
     "topic_id": "topic_fallback_general_discussion_soccer_transfer_rumors_espn",
     "topic_key": "general_discussion::soccer_transfer_rumors_espn",
     "issue_type": "general",
-    "topic_title": "足球转会新闻和谣言 - ESPN",
+    "topic_title": "足球转会新闻和谣言- ESPN",
     "lead_source_title": "Soccer Transfer News and Rumors - ESPN",
     "lead_source_summary": "Get the latest news from the soccer transfer market on ESPN. Be the first to discover the next signings of the clubs in the Premier League, MLS and La Liga.",
-    "topic_summary": "目前仅 1 个海外来源提到“足球转会新闻和谣言 - ESPN”，暂作为话题线索展示。通过 ESPN 获取足球转会市场的最新消息",
-    "summary_zh": "通过 ESPN 获取足球转会市场的最新消息",
+    "topic_summary": "目前仅 1 个海外来源提到“足球转会新闻和谣言- ESPN”，暂作为话题线索展示。在ESPN上获取足球转会市场的最新消息",
+    "summary_zh": "在ESPN上获取足球转会市场的最新消息",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -16639,8 +14824,8 @@
     "topic_title": "英超联赛2025-26奖项：最佳比赛，最差转会，最佳XI，更多",
     "lead_source_title": "Premier League 2025-26 awards: Best game, worst transfer, best XI, more",
     "lead_source_summary": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits! Here they all are, ranked from worst to first.",
-    "topic_summary": "目前仅 1 个海外来源提到“英超联赛2025-26奖项：最佳比赛，最差转会，最佳XI，更多”，暂作为话题线索展示。2026年世界杯首次有48支球队参赛，总共带来超过100套球衣！",
-    "summary_zh": "2026年世界杯首次有48支球队参赛，总共带来超过100套球衣！",
+    "topic_summary": "目前仅 1 个海外来源提到“英超联赛2025-26奖项：最佳比赛，最差转会，最佳XI，更多”，暂作为话题线索展示。2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
+    "summary_zh": "2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -16693,11 +14878,11 @@
     "topic_id": "topic_fallback_general_discussion_premier_league_2026-27_predictions",
     "topic_key": "general_discussion::premier_league_2026-27_predictions",
     "issue_type": "general",
-    "topic_title": "英超联赛 2026-27 预测：阿森纳、切尔西、利物浦等",
+    "topic_title": "英超联赛2026-27预测：阿森纳、切尔西、利物浦等",
     "lead_source_title": "Premier League 2026-27 predictions: Arsenal, Chelsea, Liverpool, more",
     "lead_source_summary": "The 2026 World Cup will be the first with 48 teams, bringing a total of more than 100 kits! Here they all are, ranked from worst to first.",
-    "topic_summary": "目前仅 1 个海外来源提到“英超联赛 2026-27 预测：阿森纳、切尔西、利物浦等”，暂作为话题线索展示。2026年世界杯首次有48支球队参赛，总共带来超过100套球衣！",
-    "summary_zh": "2026年世界杯首次有48支球队参赛，总共带来超过100套球衣！",
+    "topic_summary": "目前仅 1 个海外来源提到“英超联赛2026-27预测：阿森纳、切尔西、利物浦等”，暂作为话题线索展示。2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
+    "summary_zh": "2026年世界杯将率先有48支球队参赛，总共带来100多套装备！",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -16750,10 +14935,10 @@
     "topic_id": "topic_fallback_lionel_messi_general_discussion_messi_tracker_goals_assists",
     "topic_key": "lionel messi::general_discussion::messi_tracker_goals_assists",
     "issue_type": "general",
-    "topic_title": "梅西追踪器：2026 年进球、助攻和关键时刻",
+    "topic_title": "梅西追踪器： 2026年的目标、助攻和关键时刻",
     "lead_source_title": "Messi tracker: Goals, assists, key moments in 2026",
     "lead_source_summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
-    "topic_summary": "目前仅 1 个海外来源提到“梅西追踪器：2026 年进球、助攻和关键时刻”，暂作为话题线索展示。随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析",
+    "topic_summary": "目前仅 1 个海外来源提到“梅西追踪器： 2026年的目标、助攻和关键时刻”，暂作为话题线索展示。随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析",
     "summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析",
     "heat_score": 31,
     "related_matches": [],
@@ -16870,11 +15055,11 @@
     "topic_id": "topic_fallback_general_discussion_record_that_will_broken",
     "topic_key": "general_discussion::record_that_will_broken",
     "issue_type": "general",
-    "topic_title": "世界杯首周将被打破3次的纪录",
+    "topic_title": "世界杯纪录将在第一周被打破三次",
     "lead_source_title": "The World Cup record that will be broken three times in first week",
     "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“世界杯首周将被打破3次的纪录”，暂作为话题线索展示。世界杯首周将被打破3次的纪录",
-    "summary_zh": "世界杯首周将被打破3次的纪录",
+    "topic_summary": "目前仅 1 个海外来源提到“世界杯纪录将在第一周被打破三次”，暂作为话题线索展示。世界杯纪录将在第一周被打破三次",
+    "summary_zh": "世界杯纪录将在第一周被打破三次",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -16984,11 +15169,11 @@
     "topic_id": "topic_fallback_general_discussion_predicting_teams_will_result",
     "topic_key": "general_discussion::predicting_teams_will_result",
     "issue_type": "general",
-    "topic_title": "预测所有 48 支男子世界杯球队的表现：每场比赛的结果",
+    "topic_title": "预测所有48支男子世界杯球队的表现：每场比赛的结果",
     "lead_source_title": "Predicting how all 48 men's World Cup teams will do: A result picked for every game",
     "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“预测所有 48 支男子世界杯球队的表现：每场比赛的结果”，暂作为话题线索展示。预测所有 48 支男子世界杯球队的表现：每场比赛的结果",
-    "summary_zh": "预测所有 48 支男子世界杯球队的表现：每场比赛的结果",
+    "topic_summary": "目前仅 1 个海外来源提到“预测所有48支男子世界杯球队的表现：每场比赛的结果”，暂作为话题线索展示。预测所有48支男子世界杯球队的表现：每场比赛的结果",
+    "summary_zh": "预测所有48支男子世界杯球队的表现：每场比赛的结果",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -17098,11 +15283,11 @@
     "topic_id": "topic_fallback_general_discussion_experience_only_sport",
     "topic_key": "general_discussion::experience_only_sport",
     "issue_type": "general",
-    "topic_title": "体验世界杯的新方式 - 仅限 BBC 体育频道",
+    "topic_title": "体验世界杯的新方式-仅限BBC Sport",
     "lead_source_title": "A new way to experience the World Cup - only on BBC Sport",
     "lead_source_summary": "A new way to experience the World Cup - only on BBC Sport",
-    "topic_summary": "目前仅 1 个海外来源提到“体验世界杯的新方式 - 仅限 BBC 体育频道”，暂作为话题线索展示。体验世界杯的新方式 - 仅限 BBC 体育频道",
-    "summary_zh": "体验世界杯的新方式 - 仅限 BBC 体育频道",
+    "topic_summary": "目前仅 1 个海外来源提到“体验世界杯的新方式-仅限BBC Sport”，暂作为话题线索展示。体验世界杯的新方式-仅限BBC Sport",
+    "summary_zh": "体验世界杯的新方式-仅限BBC Sport",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -17155,11 +15340,11 @@
     "topic_id": "topic_fallback_general_discussion_catch_without_spoilers",
     "topic_key": "general_discussion::catch_without_spoilers",
     "issue_type": "general",
-    "topic_title": "不剧透地追看世界杯",
+    "topic_title": "在没有任何破坏者的情况下赶上世界杯",
     "lead_source_title": "Catch up on the World Cup without any spoilers",
     "lead_source_summary": "Catch up on the World Cup without any spoilers",
-    "topic_summary": "目前仅 1 个海外来源提到“不剧透地追看世界杯”，暂作为话题线索展示。不剧透地追看世界杯",
-    "summary_zh": "不剧透地追看世界杯",
+    "topic_summary": "目前仅 1 个海外来源提到“在没有任何破坏者的情况下赶上世界杯”，暂作为话题线索展示。在没有任何破坏者的情况下赶上世界杯",
+    "summary_zh": "在没有任何破坏者的情况下赶上世界杯",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -17266,6 +15451,63 @@
     "included_in_frontend": true
   },
   {
+    "topic_id": "topic_fallback_general_discussion_says_infantino_complaint_outside",
+    "topic_key": "general_discussion::says_infantino_complaint_outside",
+    "issue_type": "general",
+    "topic_title": "国际奥委会表示Infantino投诉超出其范围",
+    "lead_source_title": "IOC says Infantino complaint outside its scope",
+    "lead_source_summary": "The IOC says it will not investigate Gianni Infantino as a complaint about the Fifa president is \"outside\" its scope.",
+    "topic_summary": "目前仅 1 个海外来源提到“国际奥委会表示Infantino投诉超出其范围”，暂作为话题线索展示。国际奥委会表示不会调查Gianni Infantino，因为有关国际足联主席的投诉不在其范围内",
+    "summary_zh": "国际奥委会表示不会调查Gianni Infantino，因为有关国际足联主席的投诉不在其范围内",
+    "heat_score": 31,
+    "related_matches": [],
+    "related_teams": [],
+    "related_players": [],
+    "regions": [
+      "欧洲"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "evidence_count": 1,
+    "source_names": [
+      "BBC Sport Football"
+    ],
+    "sources": [
+      {
+        "source_id": "media_bbc_sport_football",
+        "source_name": "BBC Sport Football",
+        "title": "IOC says Infantino complaint outside its scope",
+        "summary": "The IOC says it will not investigate Gianni Infantino as a complaint about the Fifa president is \"outside\" its scope.",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c07rzz54jyro?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-07-24T16:07:14.000Z",
+        "fetched_at": "2026-07-26T04:36:33.408Z",
+        "language": "en",
+        "region": "欧洲",
+        "source_type": "media",
+        "crawl_strategy": "rss",
+        "crawl_mode": "rss",
+        "data_origin": "live",
+        "extraction_level": "title_and_summary",
+        "item_type": "article"
+      }
+    ],
+    "topic_phrases": [
+      "world_cup"
+    ],
+    "last_updated": "2026-07-24T16:07:14.000Z",
+    "source_count_score": 26,
+    "recency_score": 9,
+    "cross_region_score": 35,
+    "source_priority_score": 82,
+    "match_relevance_score": 42,
+    "is_example_heat": false,
+    "interpretation_basis": "根据公开标题与摘要识别",
+    "confidence": "中",
+    "included_in_frontend": true
+  },
+  {
     "topic_id": "topic_fallback_general_discussion_watch_closing_montage",
     "topic_key": "general_discussion::watch_closing_montage",
     "issue_type": "general",
@@ -17297,7 +15539,7 @@
         "summary": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever.",
         "url": "https://www.bbc.co.uk/sport/football/videos/c5y4r79prw4o?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-07-20T12:50:36.000Z",
-        "fetched_at": "2026-07-26T01:01:34.878Z",
+        "fetched_at": "2026-07-26T04:36:33.408Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -17380,63 +15622,6 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_general_discussion_stunning_moments",
-    "topic_key": "general_discussion::stunning_moments",
-    "issue_type": "general",
-    "topic_title": "世界杯精彩瞬间",
-    "lead_source_title": "World Cup stunning moments",
-    "lead_source_summary": "",
-    "topic_summary": "目前仅 1 个海外来源提到“世界杯精彩瞬间”，暂作为话题线索展示。世界杯精彩瞬间",
-    "summary_zh": "世界杯精彩瞬间",
-    "heat_score": 31,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football Worldcup 2026 Page"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football_worldcup2026",
-        "source_name": "The Guardian Football Worldcup 2026 Page",
-        "title": "World Cup stunning moments",
-        "summary": "",
-        "url": "https://www.theguardian.com/football/series/25-stunning-world-cup-moments",
-        "published_at": "2026-06-13T05:28:10.364Z",
-        "fetched_at": "2026-06-13T05:28:10.364Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-06-13T05:28:10.364Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_fallback_general_discussion_transfer_window_summer_deals",
     "topic_key": "general_discussion::transfer_window_summer_deals",
     "issue_type": "general",
@@ -17468,7 +15653,7 @@
         "summary": "All the latest Premier League, La Liga, Bundesliga, Ligue 1 and Serie A deals and a club-by-club guide Women’s transfer window interactive guide Continue reading...",
         "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/08/mens-transfer-window-summer-2026-all-deals-from-europes-top-five-leagues",
         "published_at": "2026-07-11T09:15:43.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
+        "fetched_at": "2026-07-26T04:36:33.722Z",
         "language": "en",
         "region": "欧洲",
         "source_type": "media",
@@ -17483,63 +15668,6 @@
       "world_cup"
     ],
     "last_updated": "2026-07-11T09:15:43.000Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题与摘要识别",
-    "confidence": "中",
-    "included_in_frontend": true
-  },
-  {
-    "topic_id": "topic_fallback_general_discussion_women_transfer_window_summer",
-    "topic_key": "general_discussion::women_transfer_window_summer",
-    "issue_type": "general",
-    "topic_title": "2026 年夏季女子转会窗口：来自世界六大联赛的所有交易",
-    "lead_source_title": "Women’s transfer window summer 2026: all deals from world’s top six leagues",
-    "lead_source_summary": "Every deal in the NWSL, WSL, Liga F, Frauen-Bundesliga, Première Ligue and Serie A Femminile as well as a club-by-club guide Men’s transfer window interactive guide Continue reading...",
-    "topic_summary": "目前仅 1 个海外来源提到“2026 年夏季女子转会窗口：来自世界六大联赛的所有交易”，暂作为话题线索展示。NWSL、WSL、Liga F、Frauen-Bundesliga、Première Ligue 和 Serie A Femminile 中的每笔交易以及俱乐部指南 男子转会窗口互动指南 继续阅读",
-    "summary_zh": "NWSL、WSL、Liga F、Frauen-Bundesliga、Première Ligue 和 Serie A Femminile 中的每笔交易以及俱乐部指南 男子转会窗口互动指南 继续阅读",
-    "heat_score": 31,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "欧洲"
-    ],
-    "languages": [
-      "en"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "The Guardian Football"
-    ],
-    "sources": [
-      {
-        "source_id": "media_guardian_football",
-        "source_name": "The Guardian Football",
-        "title": "Women’s transfer window summer 2026: all deals from world’s top six leagues",
-        "summary": "Every deal in the NWSL, WSL, Liga F, Frauen-Bundesliga, Première Ligue and Serie A Femminile as well as a club-by-club guide Men’s transfer window interactive guide Continue reading...",
-        "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/08/womens-transfer-window-summer-2026-all-deals-from-worlds-top-six-leagues",
-        "published_at": "2026-07-11T09:16:01.000Z",
-        "fetched_at": "2026-07-26T01:01:35.277Z",
-        "language": "en",
-        "region": "欧洲",
-        "source_type": "media",
-        "crawl_strategy": "rss",
-        "crawl_mode": "rss",
-        "data_origin": "live",
-        "extraction_level": "title_and_summary",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-07-11T09:16:01.000Z",
     "source_count_score": 26,
     "recency_score": 8,
     "cross_region_score": 35,
@@ -17614,8 +15742,8 @@
     "topic_title": "WSL 新闻、转会、谣言、八卦和女足最新动态",
     "lead_source_title": "WSL news, transfers, rumours, gossip and women's football latest",
     "lead_source_summary": "The latest news, rumours and gossip from the Womens Super League.",
-    "topic_summary": "目前仅 1 个海外来源提到“WSL 新闻、转会、谣言、八卦和女足最新动态”，暂作为话题线索展示。女子超级联赛的最新消息、谣言和八卦",
-    "summary_zh": "女子超级联赛的最新消息、谣言和八卦",
+    "topic_summary": "目前仅 1 个海外来源提到“WSL 新闻、转会、谣言、八卦和女足最新动态”，暂作为话题线索展示。女超联赛的最新消息、谣言和八卦",
+    "summary_zh": "女超联赛的最新消息、谣言和八卦",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
@@ -17950,63 +16078,6 @@
     "included_in_frontend": true
   },
   {
-    "topic_id": "topic_fallback_general_discussion_mercado_negro_monedas_copa",
-    "topic_key": "general_discussion::mercado_negro_monedas_copa",
-    "issue_type": "general",
-    "topic_title": "2026 年世界杯硬币的黑市",
-    "lead_source_title": "El mercado negro de las monedas de la Copa del Mundo 2026",
-    "lead_source_summary": "La misión de conseguir las monedas conmemorativas del Mundial se complica con un mercado alterno de vendedores.",
-    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯硬币的黑市”，暂作为话题线索展示。由于卖家的替代市场，获得世界杯纪念币的任务变得复杂",
-    "summary_zh": "由于卖家的替代市场，获得世界杯纪念币的任务变得复杂",
-    "heat_score": 31,
-    "related_matches": [],
-    "related_teams": [],
-    "related_players": [],
-    "regions": [
-      "拉美"
-    ],
-    "languages": [
-      "es"
-    ],
-    "source_count": 1,
-    "evidence_count": 1,
-    "source_names": [
-      "ESPN Deportes Fútbol Mundial"
-    ],
-    "sources": [
-      {
-        "source_id": "media_espn_deportes_futbol_mundial",
-        "source_name": "ESPN Deportes Fútbol Mundial",
-        "title": "El mercado negro de las monedas de la Copa del Mundo 2026",
-        "summary": "La misión de conseguir las monedas conmemorativas del Mundial se complica con un mercado alterno de vendedores.",
-        "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16797643/mundial-2026-el-mercado-negro-de-las-monedas-mexico",
-        "published_at": "2026-06-10T07:29:54.739Z",
-        "fetched_at": "2026-06-10T07:29:54.739Z",
-        "language": "es",
-        "region": "拉美",
-        "source_type": "media",
-        "crawl_strategy": "html_list_test",
-        "crawl_mode": "html_list",
-        "data_origin": "cache",
-        "extraction_level": "cached",
-        "item_type": "article"
-      }
-    ],
-    "topic_phrases": [
-      "world_cup"
-    ],
-    "last_updated": "2026-06-10T07:29:54.739Z",
-    "source_count_score": 26,
-    "recency_score": 8,
-    "cross_region_score": 35,
-    "source_priority_score": 82,
-    "match_relevance_score": 42,
-    "is_example_heat": false,
-    "interpretation_basis": "根据公开标题识别",
-    "confidence": "低",
-    "included_in_frontend": true
-  },
-  {
     "topic_id": "topic_fallback_general_discussion_mundial_cuánto_costarán_alimentos",
     "topic_key": "general_discussion::mundial_cuánto_costarán_alimentos",
     "issue_type": "general",
@@ -18067,10 +16138,10 @@
     "topic_id": "topic_fallback_general_discussion_mundial_descarta_estadio_universitario",
     "topic_key": "general_discussion::mundial_descarta_estadio_universitario",
     "issue_type": "general",
-    "topic_title": "2026年世界杯：国际足联排除日本和瑞典的大学体育场",
+    "topic_title": "2026 年世界杯：国际足联排除日本和瑞典大学体育场的参赛资格",
     "lead_source_title": "Mundial 2026: FIFA descarta Estadio Universitario para Japón y Suecia",
     "lead_source_summary": "La FIFA notificó a Tigres que El Volcán no será utilizado para entrenamientos de las selecciones mundialistas.",
-    "topic_summary": "目前仅 1 个海外来源提到“2026年世界杯：国际足联排除日本和瑞典的大学体育场”，暂作为话题线索展示。国际足联通知老虎队，埃尔火山将不会用于世界杯球队训练",
+    "topic_summary": "目前仅 1 个海外来源提到“2026 年世界杯：国际足联排除日本和瑞典大学体育场的参赛资格”，暂作为话题线索展示。国际足联通知老虎队，埃尔火山将不会用于世界杯球队训练",
     "summary_zh": "国际足联通知老虎队，埃尔火山将不会用于世界杯球队训练",
     "heat_score": 31,
     "related_matches": [],
@@ -18124,10 +16195,10 @@
     "topic_id": "topic_fallback_general_discussion_sudáfrica_está_cdmx_para",
     "topic_key": "general_discussion::sudáfrica_está_cdmx_para",
     "issue_type": "general",
-    "topic_title": "南非已经在墨西哥城面对对墨西哥的比赛",
+    "topic_title": "南非已经进入 CDMX 迎战墨西哥的比赛",
     "lead_source_title": "Sudáfrica ya está en la CDMX para encarar el juego ante México",
     "lead_source_summary": "La selección sudafricana abrirá el jueves la Copa del Mundo 2026 ante el representativo local.",
-    "topic_summary": "目前仅 1 个海外来源提到“南非已经在墨西哥城面对对墨西哥的比赛”，暂作为话题线索展示。南非队将于周四揭幕战2026年世界杯对阵当地代表",
+    "topic_summary": "目前仅 1 个海外来源提到“南非已经进入 CDMX 迎战墨西哥的比赛”，暂作为话题线索展示。南非队将于周四揭幕战2026年世界杯对阵当地代表",
     "summary_zh": "南非队将于周四揭幕战2026年世界杯对阵当地代表",
     "heat_score": 31,
     "related_matches": [],
@@ -18184,8 +16255,8 @@
     "topic_title": "法国：迈克尔·奥利塞正在成为世界杯的关键球员",
     "lead_source_title": "Francia: Michael Olise se perfila como pieza clave en el Mundial",
     "lead_source_summary": "Más allá de Mbappé y Dembelé, el delantero del Bayern Munich levanta la mano para ser una atractiva variante ofensiva en el esquema de Deschamps.",
-    "topic_summary": "目前仅 1 个海外来源提到“法国：迈克尔·奥利塞正在成为世界杯的关键球员”，暂作为话题线索展示。除了姆巴佩和登贝莱之外，拜仁慕尼黑前锋举手成为德尚计划中一个有吸引力的进攻型变体",
-    "summary_zh": "除了姆巴佩和登贝莱之外，拜仁慕尼黑前锋举手成为德尚计划中一个有吸引力的进攻型变体",
+    "topic_summary": "目前仅 1 个海外来源提到“法国：迈克尔·奥利塞正在成为世界杯的关键球员”，暂作为话题线索展示。除了姆巴佩和登贝莱之外，这位拜仁慕尼黑前锋举手成为德尚计划中有吸引力的进攻变体",
+    "summary_zh": "除了姆巴佩和登贝莱之外，这位拜仁慕尼黑前锋举手成为德尚计划中有吸引力的进攻变体",
     "heat_score": 31,
     "related_matches": [],
     "related_teams": [],
