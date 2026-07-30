@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T23:49:13.578Z",
+  "generated_at": "2026-07-30T01:09:43.305Z",
   "total_sources": 102,
   "enabled_sources": 102,
   "success_sources": 88,
@@ -1211,7 +1211,7 @@
       "attempted_strategies": [
         "rss_direct"
       ],
-      "successful_strategy": "rss_direct",
+      "successful_strategy": null,
       "fetched_count": 20,
       "valid_items_count": 20,
       "discarded_count": 0,
@@ -1219,9 +1219,9 @@
         "https://mastodon.social/tags/FIFAWorldCup.rss"
       ],
       "discovered_sitemaps": [],
-      "status": "ok",
+      "status": "cached",
       "failure_category": null,
-      "failure_reason": null,
+      "failure_reason": "ETIMEDOUT",
       "next_action": "已抓到有效条目，可继续优化相关性。",
       "included_in_frontend": false
     },
@@ -1289,17 +1289,17 @@
       "attempted_strategies": [
         "rss_direct"
       ],
-      "successful_strategy": "rss_direct",
+      "successful_strategy": null,
       "fetched_count": 19,
-      "valid_items_count": 20,
+      "valid_items_count": 19,
       "discarded_count": 0,
       "discovered_feeds": [
         "https://mastodon.social/tags/soccer.rss"
       ],
       "discovered_sitemaps": [],
-      "status": "ok",
+      "status": "cached",
       "failure_category": null,
-      "failure_reason": null,
+      "failure_reason": "ETIMEDOUT",
       "next_action": "已抓到有效条目，可继续优化相关性。",
       "included_in_frontend": false
     },
@@ -1498,7 +1498,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 17,
+      "valid_items_count": 16,
       "discarded_count": 16,
       "discovered_feeds": [
         "https://sports.yahoo.com/rss/",
@@ -1673,8 +1673,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 23,
-      "discarded_count": 4,
+      "valid_items_count": 22,
+      "discarded_count": 5,
       "discovered_feeds": [
         "https://www.foxsports.com/feed",
         "https://www.foxsports.com/rss",
