@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-31T23:49:03.849Z",
+  "generated_at": "2026-08-01T01:23:03.167Z",
   "total_sources": 102,
   "enabled_sources": 102,
-  "success_sources": 88,
-  "failed_sources": 14,
-  "included_in_frontend_sources": 22,
-  "success_rate": 86.27,
+  "success_sources": 90,
+  "failed_sources": 12,
+  "included_in_frontend_sources": 37,
+  "success_rate": 88.24,
   "target_success_rate": 60,
   "items": [
     {
@@ -502,7 +502,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 25,
       "valid_items_count": 25,
-      "discarded_count": 15,
+      "discarded_count": 14,
       "discovered_feeds": [
         "https://feeds.bbci.co.uk/sport/football/world-cup/rss.xml",
         "https://www.bbc.co.uk/feed",
@@ -606,7 +606,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_sky_sports_football",
@@ -640,7 +640,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_sky_sports_football_news",
@@ -674,7 +674,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_reuters_soccer",
@@ -780,19 +780,30 @@
       "batch": "expanded",
       "crawl_mode": "html_list",
       "attempted_strategies": [
-        "sitemap"
+        "html_list",
+        "json_ld"
       ],
-      "successful_strategy": null,
+      "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 0,
-      "discarded_count": 0,
-      "discovered_feeds": [],
+      "valid_items_count": 25,
+      "discarded_count": 8,
+      "discovered_feeds": [
+        "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/portada/",
+        "https://as.com/feed",
+        "https://as.com/rss",
+        "https://as.com/rss.xml",
+        "https://as.com/feed.xml",
+        "https://as.com/football/rss",
+        "https://as.com/soccer/rss",
+        "https://as.com/world-cup/rss",
+        "https://as.com/feed/"
+      ],
       "discovered_sitemaps": [],
-      "status": "partial",
-      "failure_category": "html_parse_no_items",
-      "failure_reason": "No usable HTML items found",
-      "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
-      "included_in_frontend": false
+      "status": "ok",
+      "failure_category": null,
+      "failure_reason": null,
+      "next_action": "已抓到有效条目，可继续优化相关性。",
+      "included_in_frontend": true
     },
     {
       "source_id": "media_as_futbol_mundial2026",
@@ -804,19 +815,30 @@
       "batch": "expanded",
       "crawl_mode": "html_list",
       "attempted_strategies": [
-        "sitemap"
+        "html_list",
+        "json_ld"
       ],
-      "successful_strategy": null,
+      "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 0,
-      "discarded_count": 0,
-      "discovered_feeds": [],
+      "valid_items_count": 25,
+      "discarded_count": 2,
+      "discovered_feeds": [
+        "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/subsection/mundial/",
+        "https://as.com/feed",
+        "https://as.com/rss",
+        "https://as.com/rss.xml",
+        "https://as.com/feed.xml",
+        "https://as.com/football/rss",
+        "https://as.com/soccer/rss",
+        "https://as.com/world-cup/rss",
+        "https://as.com/feed/"
+      ],
       "discovered_sitemaps": [],
-      "status": "partial",
-      "failure_category": "html_parse_no_items",
-      "failure_reason": "No usable HTML items found",
-      "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
-      "included_in_frontend": false
+      "status": "ok",
+      "failure_category": null,
+      "failure_reason": null,
+      "next_action": "已抓到有效条目，可继续优化相关性。",
+      "included_in_frontend": true
     },
     {
       "source_id": "media_marca_futbol",
@@ -852,7 +874,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_marca_futbol_noticias",
@@ -888,7 +910,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_lequipe_football",
@@ -922,7 +944,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_lequipe_football_coupedumonde",
@@ -956,7 +978,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_kicker_fussball",
@@ -1025,7 +1047,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_globo_esporte_copadomundo",
@@ -1059,7 +1081,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_ole_argentina_mundial 2026",
@@ -1093,7 +1115,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "forum_reddit_soccer",
@@ -1119,7 +1141,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "forum_reddit_football",
@@ -1290,7 +1312,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 19,
+      "fetched_count": 20,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1498,7 +1520,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 16,
+      "valid_items_count": 19,
       "discarded_count": 16,
       "discovered_feeds": [
         "https://sports.yahoo.com/rss/",
@@ -1586,7 +1608,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_nbc_sports_world_cup",
@@ -2819,7 +2841,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_voetbalinternational",
