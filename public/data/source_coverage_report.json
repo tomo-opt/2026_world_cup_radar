@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-03T20:42:55.831Z",
+  "generated_at": "2026-08-03T21:55:43.325Z",
   "total_sources": 102,
   "enabled_sources": 102,
-  "success_sources": 87,
-  "failed_sources": 15,
-  "included_in_frontend_sources": 35,
-  "success_rate": 85.29,
+  "success_sources": 88,
+  "failed_sources": 14,
+  "included_in_frontend_sources": 37,
+  "success_rate": 86.27,
   "target_success_rate": 60,
   "items": [
     {
@@ -1535,8 +1535,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 12,
-      "valid_items_count": 11,
-      "discarded_count": 11,
+      "valid_items_count": 10,
+      "discarded_count": 10,
       "discovered_feeds": [
         "https://onefootball.com/feed",
         "https://onefootball.com/rss",
@@ -2728,19 +2728,29 @@
       "batch": "expanded",
       "crawl_mode": "html_list",
       "attempted_strategies": [
-        "sitemap"
+        "html_list",
+        "json_ld"
       ],
-      "successful_strategy": null,
+      "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 0,
-      "discarded_count": 0,
-      "discovered_feeds": [],
+      "valid_items_count": 24,
+      "discarded_count": 7,
+      "discovered_feeds": [
+        "https://www.beinsports.com/feed",
+        "https://www.beinsports.com/rss",
+        "https://www.beinsports.com/rss.xml",
+        "https://www.beinsports.com/feed.xml",
+        "https://www.beinsports.com/football/rss",
+        "https://www.beinsports.com/soccer/rss",
+        "https://www.beinsports.com/world-cup/rss",
+        "https://www.beinsports.com/feed/"
+      ],
       "discovered_sitemaps": [],
-      "status": "partial",
-      "failure_category": "html_parse_no_items",
-      "failure_reason": "No usable HTML items found",
-      "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
-      "included_in_frontend": false
+      "status": "ok",
+      "failure_category": null,
+      "failure_reason": null,
+      "next_action": "已抓到有效条目，可继续优化相关性。",
+      "included_in_frontend": true
     },
     {
       "source_id": "media_supersport_football",
@@ -2809,7 +2819,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_voetbalinternational",
