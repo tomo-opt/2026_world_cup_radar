@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T13:21:38.540Z",
+  "generated_at": "2026-08-05T15:51:14.823Z",
   "total_sources": 102,
   "enabled_sources": 102,
   "success_sources": 88,
@@ -534,7 +534,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 30,
+      "fetched_count": 29,
       "valid_items_count": 30,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -623,8 +623,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 24,
-      "discarded_count": 16,
+      "valid_items_count": 23,
+      "discarded_count": 17,
       "discovered_feeds": [
         "https://www.skysports.com/feed",
         "https://www.skysports.com/rss",
@@ -780,18 +780,29 @@
       "batch": "expanded",
       "crawl_mode": "html_list",
       "attempted_strategies": [
-        "sitemap"
+        "html_list",
+        "json_ld"
       ],
-      "successful_strategy": null,
+      "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 0,
-      "discarded_count": 0,
-      "discovered_feeds": [],
+      "valid_items_count": 25,
+      "discarded_count": 6,
+      "discovered_feeds": [
+        "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/portada/",
+        "https://as.com/feed",
+        "https://as.com/rss",
+        "https://as.com/rss.xml",
+        "https://as.com/feed.xml",
+        "https://as.com/football/rss",
+        "https://as.com/soccer/rss",
+        "https://as.com/world-cup/rss",
+        "https://as.com/feed/"
+      ],
       "discovered_sitemaps": [],
-      "status": "partial",
-      "failure_category": "html_parse_no_items",
-      "failure_reason": "No usable HTML items found",
-      "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
+      "status": "ok",
+      "failure_category": null,
+      "failure_reason": null,
+      "next_action": "已抓到有效条目，可继续优化相关性。",
       "included_in_frontend": true
     },
     {
@@ -940,7 +951,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 25,
       "valid_items_count": 25,
-      "discarded_count": 7,
+      "discarded_count": 8,
       "discovered_feeds": [
         "https://www.lequipe.fr/feed",
         "https://www.lequipe.fr/rss",
@@ -1108,7 +1119,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 24,
+      "fetched_count": 25,
       "valid_items_count": 25,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1392,8 +1403,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 24,
-      "valid_items_count": 18,
-      "discarded_count": 17,
+      "valid_items_count": 20,
+      "discarded_count": 18,
       "discovered_feeds": [
         "https://www.fourfourtwo.com/feeds.xml",
         "https://www.fourfourtwo.com/feeds/articletype/news",
@@ -1498,8 +1509,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 10,
-      "discarded_count": 10,
+      "valid_items_count": 9,
+      "discarded_count": 9,
       "discovered_feeds": [
         "https://sports.yahoo.com/rss/",
         "https://sports.yahoo.com/feed",
@@ -1529,12 +1540,13 @@
       "crawl_mode": "html_list",
       "attempted_strategies": [
         "html_list",
-        "json_ld"
+        "json_ld",
+        "wp_json"
       ],
       "successful_strategy": "html_list",
       "fetched_count": 12,
-      "valid_items_count": 9,
-      "discarded_count": 9,
+      "valid_items_count": 10,
+      "discarded_count": 10,
       "discovered_feeds": [
         "https://onefootball.com/feed",
         "https://onefootball.com/rss",
@@ -1636,8 +1648,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 25,
-      "discarded_count": 38,
+      "valid_items_count": 24,
+      "discarded_count": 39,
       "discovered_feeds": [
         "https://www.goal.com/feed",
         "https://www.goal.com/rss",
@@ -2726,28 +2738,18 @@
       "batch": "expanded",
       "crawl_mode": "html_list",
       "attempted_strategies": [
-        "html_list",
-        "json_ld"
+        "sitemap"
       ],
-      "successful_strategy": "html_list",
+      "successful_strategy": null,
       "fetched_count": 25,
-      "valid_items_count": 25,
-      "discarded_count": 8,
-      "discovered_feeds": [
-        "https://www.beinsports.com/feed",
-        "https://www.beinsports.com/rss",
-        "https://www.beinsports.com/rss.xml",
-        "https://www.beinsports.com/feed.xml",
-        "https://www.beinsports.com/football/rss",
-        "https://www.beinsports.com/soccer/rss",
-        "https://www.beinsports.com/world-cup/rss",
-        "https://www.beinsports.com/feed/"
-      ],
+      "valid_items_count": 0,
+      "discarded_count": 0,
+      "discovered_feeds": [],
       "discovered_sitemaps": [],
-      "status": "ok",
-      "failure_category": null,
-      "failure_reason": null,
-      "next_action": "已抓到有效条目，可继续优化相关性。",
+      "status": "partial",
+      "failure_category": "html_parse_no_items",
+      "failure_reason": "No usable HTML items found",
+      "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
       "included_in_frontend": true
     },
     {
@@ -2799,8 +2801,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 22,
-      "valid_items_count": 25,
-      "discarded_count": 4,
+      "valid_items_count": 24,
+      "discarded_count": 1,
       "discovered_feeds": [
         "https://www.abola.pt/rss-articles.xml",
         "https://www.abola.pt/feed",
