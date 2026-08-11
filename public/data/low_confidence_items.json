@@ -9,8 +9,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
-    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
+    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
     "item_id": "norm_2",
@@ -35,7 +35,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Sky Sports FIFA World Cup Scores & Fixtures",
+    "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
     "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
@@ -48,8 +48,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
-    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
+    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
+    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
   },
   {
     "item_id": "norm_11",
@@ -78,6 +78,32 @@
     "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
   },
   {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
+  },
+  {
+    "item_id": "norm_42",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
+  },
+  {
     "item_id": "norm_50",
     "source_id": "media_espn_soccer_worldcup",
     "source_name": "ESPN Soccer Worldcup Page",
@@ -100,8 +126,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
+    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
     "item_id": "norm_54",
@@ -113,34 +139,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
-  },
-  {
-    "item_id": "norm_71",
-    "source_id": "media_bbc_sport_football_worldcup",
-    "source_name": "BBC Sport Football Worldcup Page",
-    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
-    "summary": "",
-    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
-    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
-  },
-  {
-    "item_id": "norm_92",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Hearts thump Dundee United for Vrancken's first win",
-    "summary": "Hearts fire four past Dundee United in the Scottish Premiership as head coach Wouter Vrancken earns his first victory at the fifth attempt.",
-    "url": "https://www.bbc.co.uk/sport/videos/cwymd7mmnddo?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Hearts thump邓迪联队为Vranckens赢得首场胜利",
-    "candidate_summary_zh": "Hearts fire four past Dundee United in the Scottish Premiership as head coach Wouter Vrancken earns his first victory at the fifth attempt"
+    "candidate_event_title_zh": "世界杯",
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
     "item_id": "norm_109",
@@ -153,59 +153,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
-  },
-  {
-    "item_id": "norm_113",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
-    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
-    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "赛尔·拉林 (Cyle Larin) 的罢工释放了欢乐，将加拿大从“几乎”的诅咒中拯救出来",
-    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
-  },
-  {
-    "item_id": "norm_116",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
-    "candidate_summary_zh": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach"
-  },
-  {
-    "item_id": "norm_131",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Thomas Partey out of Ghana’s World Cup opener after visa application to Canada refused",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-partey-ghana-world-cup-visa-application-to-canada-refused",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey",
-    "candidate_summary_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey"
-  },
-  {
-    "item_id": "norm_132",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
+    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
   },
   {
     "item_id": "norm_164",
@@ -260,17 +208,17 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_206",
+    "item_id": "norm_222",
     "source_id": "media_espn_deportes_futbol",
     "source_name": "ESPN Deportes Fútbol",
-    "title": "ESPN Deportes - Stream deportes en vivo y ESPN originales",
-    "summary": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN.",
-    "url": "https://www.espndeportes.com/watch",
+    "title": "Liga MX revela calendario para Apertura 26",
+    "summary": "",
+    "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/16818193/liga-mx-calendario-torneo-apertura-2026",
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Deportes - 直播体育赛事和 ESPN 原创节目",
-    "candidate_summary_zh": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN"
+    "candidate_event_title_zh": "Liga MX 公布 Apertura 26 赛程表",
+    "candidate_summary_zh": "Liga MX 公布 Apertura 26 赛程表"
   },
   {
     "item_id": "norm_251",
@@ -283,7 +231,20 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Fútbol en AS.com - AS.com",
-    "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
+    "candidate_summary_zh": "来自一级和二级足球队、冠军、欧洲联赛、国王杯、国家队、英超联赛等的新闻、结果和直接信息"
+  },
+  {
+    "item_id": "norm_268",
+    "source_id": "media_as_futbol",
+    "source_name": "AS Fútbol",
+    "title": "El ojo que todo lo ve",
+    "summary": "",
+    "url": "https://as.com/futbol/el-ojo-que-todo-lo-ve-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "全视之眼",
+    "candidate_summary_zh": "全视之眼"
   },
   {
     "item_id": "norm_276",
@@ -296,7 +257,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
-    "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
+    "candidate_summary_zh": "关注卡塔尔 2026 年世界杯的最新消息：新闻、比赛、赛程以及您需要了解的有关世界足球盛事的一切 As.com"
   },
   {
     "item_id": "norm_301",
@@ -325,6 +286,19 @@
     "candidate_summary_zh": "Marián Mouriño 将陪同该子公司前往第二"
   },
   {
+    "item_id": "norm_318",
+    "source_id": "media_marca_futbol",
+    "source_name": "Marca Fútbol",
+    "title": "'Málagamanía': el malaguismo colapsa las colas sin saber precio ni horarios",
+    "summary": "",
+    "url": "https://www.marca.com/futbol/malaga/2026/06/11/malagamania-malaguismo-colapsa-colas-precio-horarios.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队",
+    "candidate_summary_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队"
+  },
+  {
     "item_id": "norm_326",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
@@ -351,6 +325,19 @@
     "candidate_summary_zh": "Marián Mouriño 将陪同该子公司前往第二"
   },
   {
+    "item_id": "norm_343",
+    "source_id": "media_marca_futbol_noticias",
+    "source_name": "Marca Fútbol Noticias",
+    "title": "'Málagamanía': el malaguismo colapsa las colas sin saber precio ni horarios",
+    "summary": "",
+    "url": "https://www.marca.com/futbol/malaga/2026/06/11/malagamania-malaguismo-colapsa-colas-precio-horarios.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队",
+    "candidate_summary_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队"
+  },
+  {
     "item_id": "norm_351",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
@@ -361,7 +348,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Foot - actualités, mercato, info & vidéo en continu",
-    "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
+    "candidate_summary_zh": "在《队报》上查找所有足球新闻"
   },
   {
     "item_id": "norm_376",
@@ -373,8 +360,21 @@
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
-    "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
+    "candidate_event_title_zh": "2026 年足球世界杯：新闻、赛程和结果",
+    "candidate_summary_zh": "关注足球世界杯的所有新闻"
+  },
+  {
+    "item_id": "norm_388",
+    "source_id": "media_lequipe_football_coupedumonde",
+    "source_name": "L'Équipe Football Coupe du Monde",
+    "title": "Le guide des équipes",
+    "summary": "",
+    "url": "https://www.lequipe.fr/collection/guide-cdm-2026/",
+    "language": "fr",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "团队指南",
+    "candidate_summary_zh": "团队指南"
   },
   {
     "item_id": "norm_389",
@@ -390,6 +390,19 @@
     "candidate_summary_zh": "玩家引导"
   },
   {
+    "item_id": "norm_394",
+    "source_id": "media_lequipe_football_coupedumonde",
+    "source_name": "L'Équipe Football Coupe du Monde",
+    "title": "FranceSénégalmar. 21h00beIN Sports 1, M6",
+    "summary": "",
+    "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/france-senegal-preview/686951",
+    "language": "fr",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "法国塞内加尔马。晚上 9:00beIN Sports 1，M6",
+    "candidate_summary_zh": "法国塞内加尔马。晚上 9:00beIN Sports 1，M6"
+  },
+  {
     "item_id": "norm_401",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
@@ -399,7 +412,7 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Futebol | ge",
+    "candidate_event_title_zh": "足球 |葛",
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
@@ -412,7 +425,7 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Futebol | ge",
+    "candidate_event_title_zh": "足球 |葛",
     "candidate_summary_zh": "在 ge.globo 上关注足球新闻"
   },
   {
@@ -425,7 +438,7 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Tabela e jogos da Copa do Mundo 2026 | ge",
+    "candidate_event_title_zh": "2026 年世界杯的赛桌和比赛 |葛",
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
@@ -438,8 +451,8 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Tabela e jogos da Copa do Mundo 2026 | ge",
-    "candidate_summary_zh": "Tabela e jogos da Copa do Mundo 2026 | ge"
+    "candidate_event_title_zh": "2026 年世界杯的赛桌和比赛 |葛",
+    "candidate_summary_zh": "2026 年世界杯的赛桌和比赛 |葛"
   },
   {
     "item_id": "norm_424",
@@ -451,8 +464,8 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mundial 2026",
-    "candidate_summary_zh": "Noticias actualizadas las 24 horas"
+    "candidate_event_title_zh": "2026 年世界杯",
+    "candidate_summary_zh": "新闻24小时更新"
   },
   {
     "item_id": "norm_444",
@@ -464,8 +477,112 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mundial 2026",
-    "candidate_summary_zh": "Noticias actualizadas las 24 horas"
+    "candidate_event_title_zh": "2026 年世界杯",
+    "candidate_summary_zh": "新闻24小时更新"
+  },
+  {
+    "item_id": "norm_446",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Change My View",
+    "summary": "Post an opinion and see if anyone can change it. Parent comments in this thread must meet a minimum character limit to ensure higher quality comments. submitted by /u/2soccer2bot [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vld623/change_my_view/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "更改我的视图",
+    "candidate_summary_zh": "Post an opinion and see if anyone can change it"
+  },
+  {
+    "item_id": "norm_450",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Gianni Infantino reportedly promised he would help México join CONMEBOL and leave CONCACAF if they publicly backed him.",
+    "summary": "submitted by /u/Busy-Finance1129 [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vl2zsb/gianni_infantino_reportedly_promised_he_would/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "据报道，詹尼·因凡蒂诺承诺，如果墨西哥公开支持他，他将帮助墨西哥加入 CONMEBOL 并离开 CONCACAF",
+    "candidate_summary_zh": "由 /u/Busy-Finance1129 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_451",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "[BobbyVincent, TomCanton] Excl: Myles Lewis-Skelly has been offered to #CFC following Arsenal's signing of Bruno Guimaraes. No indication yet on whether Chelsea will make a move but 19yo has long-term interest from Blues.",
+    "summary": "submitted by /u/Key_Company3196 [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vldgdu/bobbyvincent_tomcanton_excl_myles_lewisskelly_has/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[BobbyVincent，TomCanton] 排除：在阿森纳签下布鲁诺·吉马良斯后，迈尔斯·刘易斯·斯凯利已被提供给 #CFC。目前还没有迹象表明切尔西是否会采取行动，但蓝军对这名19岁的球员有长期兴趣",
+    "candidate_summary_zh": "由 /u/Key_Company3196 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_453",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Romelu Lukaku joins Fenerbahce for €6m + addons, the player has already passed his medicals",
+    "summary": "submitted by /u/Blodgharm [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vlbzu6/romelu_lukaku_joins_fenerbahce_for_6m_addons_the/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Romelu Lukaku以€ 600万+插件的价格加入Fenerbahce，玩家已经通过了他的体检",
+    "candidate_summary_zh": "由 /u/Blodgharm 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_458",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "[TalkSport] Kalvin Phillips set for another EFL loan to Sheffield United with two years still left on lucrative Man City contract.",
+    "summary": "submitted by /u/ElevensMelody [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vlfe0y/talksport_kalvin_phillips_set_for_another_efl/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[TalkSport] 卡尔文·菲利普斯（Kalvin Phillips）将再次租借至谢菲尔德联队（Sheffield United），曼城的合同还剩两年",
+    "candidate_summary_zh": "提交者/u/ElevensMelody [link] [comments]"
+  },
+  {
+    "item_id": "norm_459",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "[TNT Sports Brazil] Barcelona “open talks” with Real Betis for Brazilian center-back Natan",
+    "summary": "submitted by /u/ElevensMelody [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vldn4r/tnt_sports_brazil_barcelona_open_talks_with_real/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[TNT Sports Brazil]巴塞罗那与皇家贝蒂斯为巴西中后卫纳坦举行公开谈判",
+    "candidate_summary_zh": "提交者/u/ElevensMelody [link] [comments]"
+  },
+  {
+    "item_id": "norm_463",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "[Official] Forest complete signing of Ousmane Diomande from Sporting CP",
+    "summary": "submitted by /u/Sarmerbinlar [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vldwob/official_forest_complete_signing_of_ousmane/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "【官方】Sporting CP的Ousmane Diomande在森林完成签约",
+    "candidate_summary_zh": "由 /u/Sarmerbinlar 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_467",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "[Matteo Moretto] Ferran Torres’ move to PSG is CLOSE TO BEING FINALISED. Barça rejected the initial €50M offer including add-ons and are pushing for €50M fixed plus variables. Two clubs are very close to an agreement with some considering deal practically done and official announcement in few hours",
+    "summary": "submitted by /u/ExtensionDeep3705 [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vkwyx7/matteo_moretto_ferran_torres_move_to_psg_is_close/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[Matteo Moretto] Ferran Torres转会到巴黎圣日耳曼接近尾声。Barça拒绝了最初的€ 5000万报价，包括附加组件，并正在推动€ 5000万个固定加号变量。两个俱乐部非常接近达成协议，一些俱乐部认为交易实际上已经完成，并在几个小时内正式宣布",
+    "candidate_summary_zh": "提交者/u/ExtensionDeep3705 [link] [comments]"
   },
   {
     "item_id": "norm_491",
@@ -478,7 +595,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "最大的足球假设？当皇马几乎成为 S.A.D. (Sociedad Anónima Deportiva)",
-    "candidate_summary_zh": "Throughout the 90s, many Spanish football clubs became SADs under Spanish law, after a law was passed in 1990 that forced teams incapable of paying their debts to go from the traditional Asociación Deportiva (like Barcelona and Madrid today, owned mostly by Socios who can vote on the president and other matters related to the administration) to SADs, essentially more traditional privately-owned companies!"
+    "candidate_summary_zh": "整个 90 年代，许多西班牙足球俱乐部根据西班牙法律成为 SAD，1990 年通过了一项法律，迫使无力偿还债务的球队从传统的 Asociación Deportiva（如今天的巴塞罗那和马德里，主要由 Socios 所有，可以对主席和其他与政府相关的事务进行投票）转变为 SAD，本质上是更传统的私营公司！"
   },
   {
     "item_id": "norm_503",
@@ -491,7 +608,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "上周看到了这个剪辑，但直到现在才有时间分享。 16 岁的卡文·沙利文 (Cavan Sullivan) 完全被 19 岁的斯图尔特·霍金斯 (Stuart Hawkins) 打败。他做什么的？他立即站起来，抓住了他的衬衫。这就是我们希望年轻球员打出的战斗风格！爱的心态",
-    "candidate_summary_zh": "Also, I just wanted to say its so impressive to see the talent Philadelphia Union is producing in the last decade"
+    "candidate_summary_zh": "另外，我只是想说，看到费城联盟在过去十年中培养出的人才真是令人印象深刻"
   },
   {
     "item_id": "norm_505",
@@ -504,7 +621,46 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Max Arfsten 完成转会至米德尔斯堡，将与 USMNT 的 Berhalter、Morris 合作：消息来源（礼品文章）",
-    "candidate_summary_zh": "submitted by /u/maxair123 [link] [comments]"
+    "candidate_summary_zh": "由 /u/maxair123 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_509",
+    "source_id": "forum_reddit_worldcup",
+    "source_name": "Reddit r/worldcup",
+    "title": "Top 50 USMNT Prospects (Summer ‘26): ❶ Cavan Sullivan (AM, Philadelphia) ❷ Adri Mehmeti (DM, RBNY) ❸ Mathis Albert (W, Dortmund) ❹ Zavier Gozo (W, Salt Lake) ❺ Peyton Miller (LB, New England)",
+    "summary": "via US Soccer Collective 2007-2011 birth years only submitted by /u/nicko_rico [link] [comments]",
+    "url": "https://www.reddit.com/r/ussoccer/comments/1vbrghc/top_50_usmnt_prospects_summer_26_%E2%9D%B6_cavan_sullivan/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT 前 50 名新秀（26 年夏季）： ❶ Cavan Sullivan（上午，费城） ❷ Adri Mehmeti（DM，RBNY） ❸ Mathis Albert（西甲，多特蒙德） ❹ Zavier Gozo（西甲，盐湖城） ❺ Peyton Miller（LB，新英格兰）",
+    "candidate_summary_zh": "来自 US Soccer Collective 2007-2011 出生年份仅由 /u/nicko_rico 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_511",
+    "source_id": "forum_reddit_worldcup",
+    "source_name": "Reddit r/worldcup",
+    "title": "Benji Flowers brother Aaron is a safety for the Oregon Ducks",
+    "summary": "What a talented family submitted by /u/PSU02 [link] [comments]",
+    "url": "https://www.reddit.com/r/ussoccer/comments/1vca96k/benji_flowers_brother_aaron_is_a_safety_for_the/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Benji Flowers 的弟弟 Aaron 是俄勒冈鸭队的安全卫",
+    "candidate_summary_zh": "/u/PSU02提交的多么有才华的家庭[链接][评论]"
+  },
+  {
+    "item_id": "norm_513",
+    "source_id": "forum_reddit_worldcup",
+    "source_name": "Reddit r/worldcup",
+    "title": "[Ben Jacobs] 🚨 BREAKING: All 41 Concacaf members have rejected Gianni Infantino's FIFA Forward Enterprise plans. More to follow.",
+    "summary": "submitted by /u/Every-Damage-90 [link] [comments]",
+    "url": "https://www.reddit.com/r/ussoccer/comments/1vb3a6v/ben_jacobs_breaking_all_41_concacaf_members_have/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[Ben Jacobs] 🚨 突发新闻：所有 41 名中北美及加勒比地区足联成员都拒绝了詹尼·因凡蒂诺斯的 FIFA Forward Enterprise 计划。更多内容敬请关注",
+    "candidate_summary_zh": "由 /u/Every-Damage-90 提交 [链接] [评论]"
   },
   {
     "item_id": "norm_514",
@@ -517,7 +673,1294 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Gotham 和 USWNT 后卫 Emily Sonnet 因髌腱撕裂缺席本赛季剩余比赛",
-    "candidate_summary_zh": "submitted by /u/Fire-EyedBoy [link] [comments]"
+    "candidate_summary_zh": "由 /u/Fire-EyedBoy 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_518",
+    "source_id": "forum_reddit_worldcup",
+    "source_name": "Reddit r/worldcup",
+    "title": "Kristoffer Lund to Birmingham City - Another yank in the Championship",
+    "summary": "Birmingham City is delighted to confirm the signing of Kristoffer Lund from Italian side Palermo for an undisclosed fee, subject to clearance. The 24-year-old defender has signed a four-year contract at St. Andrew's @ Knighthead Park and will wear the number 25 shirt. A left-back known for his pace, athleticism and strength in defensive duels, Lund further strengthens Chris Davies' defensive options ahead of the 2026-27 campaign. Lund came through the Academy at Danish club FC Midtjylland before making his senior debut in 2021. Following spells with Esbjerg and Swedish side BK Häcken, he joined Palermo in the summer of 2023 and went on to make 72 appearances for the Serie B club. The defender spent the 2025-26 campaign on loan at Bundesliga outfit 1. FC Köln, where he featured 33 times as he gained valuable experience in one of Europe's top leagues. Born in Denmark, Lund represented the country at every age group from Under-17 through to Under-21 before committing his international future to the United States. He has since earned seven senior caps. Standing at 6ft, Lund arrives in B9 having gained experience across Denmark, Sweden, Italy and Germany, adding further quality and competition to the first-team squad ahead of the new season. “Kristoffer is a player we identified for his athleticism and pace, and we believe those qualities make him a really good fit for the Championship,” said Blues boss Chris Davies. “He is strong defensively, tenacious in his duels and he has the physical attributes to compete consistently at this level. At the same time, he has the ability to contribute going forward, so he'll give us another option both defensively and offensively. “He was a regular starter in the Bundesliga last season, which is another indication of the level he's capable of performing at, despite still only being 24 years old. “We're looking forward to welcoming him into the group and seeing him show his qualities in a Birmingham City shirt.\" submitted by /u/ChocolateChipz2 [link] [comments]",
+    "url": "https://www.reddit.com/r/ussoccer/comments/1vbk0m9/kristoffer_lund_to_birmingham_city_another_yank/",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯托弗·隆德 (Kristoffer Lund) 转会伯明翰城 - 英冠联赛再次失利",
+    "candidate_summary_zh": "伯明翰城很高兴确认从意大利球队巴勒莫签下克里斯托弗·隆德，费用未公开，但需待批准"
+  },
+  {
+    "item_id": "norm_519",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Germany Names Squad for 2027 World Cup Qualifiers Germany's head coach Alex Mumbru has announced the roster for the upcoming World Cup qualifying window. The squad includes NBA players Dennis Schröder (Cleveland), Tristan Da Silva (Orlando), and Isaiah Hartenstein (Oklahoma). However, the Wagner brothers—Moritz and Franz—will not be available for the ... #Basketball #Germany #NBA #Poland #WorldCup https://sportbursts.com/basketball/germany-names-squad-for-2027-world-cup-qualifiers/?utm_source=mastodon&utm_medium=jetpack_social",
+    "url": "https://mstdn.social/@sportbursts/117077037305646201",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "德国命名2027年世界杯预选赛阵容德国主教练亚历克斯·蒙布（Alex Mumbru）宣布了即将到来的世界杯预选赛窗口的名单"
+  },
+  {
+    "item_id": "norm_520",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Germany Names Squad for 2027 World Cup Qualifiers Germany's head coach Alex Mumbru has announced the roster for the upcoming World Cup qualifying window. The squad includes NBA players Dennis Schröder (Cleveland), Tristan Da Silva (Orlando), and Isaiah Hartenstein (Oklahoma). However, the Wagner brothers—Moritz and Franz—will not be available for the ... #Basketball #Germany #NBA #Poland #WorldCup https://sportbursts.com/basketball/germany-names-squad-for-2027-world-cup-qualifiers/?utm_source=mastodon&utm_medium=jetpack_social",
+    "url": "https://mastodon.social/@sportbursts/117077035333584986",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "德国命名2027年世界杯预选赛阵容德国主教练亚历克斯·蒙布（Alex Mumbru）宣布了即将到来的世界杯预选赛窗口的名单"
+  },
+  {
+    "item_id": "norm_521",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "⚽ Trumps intervenes in support of crooked Infantino. #worldcup #fifa #corruption #infantino #trump",
+    "url": "https://indieweb.social/@jbz/117076744412423726",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "⚽ 特朗普干预支持弯曲的Infantino"
+  },
+  {
+    "item_id": "norm_522",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Trump Warns FIFA President Infantino’s Suspension Would Be Mistake US President Donald Trump has declared that the potential removal of FIFA President Gianni Infantino, who is currently under pressure, would be a \"terrible mistake.\" Trump's support came in response to an open letter from UEFA, CONCACAF, and the Asian Football Confederation (AFC), which accused Infant... #FIFA #UEFA #WorldCup https://sportbursts.com/soccer/trump-warns-fifa-president-infantinos-suspension-would-be-mistake/?utm_source=mastodon&utm_medium=jetpack_social",
+    "url": "https://mastodon.social/@sportbursts/117076739057153319",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "特朗普警告国际足联主席因凡蒂诺停职将是一个错误 美国总统唐纳德·特朗普宣布，目前面临压力的国际足联主席詹尼·因凡蒂诺可能被免职将是一个可怕的错误。特朗普的支持是对欧足联、中北美洲及加勒比海足球协会和亚洲足球联合会（AFC）的公开信的回应，其中指责婴儿"
+  },
+  {
+    "item_id": "norm_523",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "How to create a team of humanoid robots that can beat the #WorldCup champion #soccer team on a real soccer field? Listen to computer scientist Peter Stone on his deep involvement in RoboCup and how it led him to multi-agent systems. Check out the full episode here: https://learning.acm.org/bytecast/ep84-peter-stone",
+    "url": "https://mastodon.acm.org/@ACM/117076645018922002",
+    "language": "multi",
+    "reason": "title_too_short",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "如何创建一支人形机器人团队，可以在真正的足球场上击败#世界杯冠军#足球队？"
+  },
+  {
+    "item_id": "norm_524",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "U.S. President Donald Trump offered his support to embattled FIFA President Gianni Infantino amid a growing revolt that threatens his leadership. https://www.japantimes.co.jp/sports/2026/08/11/soccer/world-cup/trump-infantino-uefa-schism-fifa/?utm_medium=Social&utm_source=mastodon #soccer #worldcup #uefa #fifa #donaldtrump #gianniinfantino #soccer #fifaworldcup",
+    "url": "https://mastodon.social/@thejapantimes/117076611665481984",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "唐纳德·特朗普总统向陷入困境的国际足联主席詹尼·因凡蒂诺表示支持，因为抗议活动日益严重，威胁到了他的领导地位"
+  },
+  {
+    "item_id": "norm_525",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "南野拓実、遠藤航、エリオット、ソボスライと再会 https://www.vivizine.com/1285184/ ##サッカーワールドカップ ##日本代表サッカー #liverpool #premierleague #Talent #worldcup #W杯 #サッカー日本代表 #プレミアリーグ #リヴァプール #ワールドカップ #三笘薫 #上田綺世 #中村敬斗 #久保建英 #伊東純也 #伊藤洋輝 #佐野海舟 #冨安健洋 #前田大然 #北中米ワールドカップ #南野拓実 #堂安律 #塩貝健人 #大迫敬介 #小川航基 #後藤啓介 #早川友基 #板倉滉 #森保JAPAN #森保一 #森保監督 #渡辺剛 #瀬古歩夢 #田中碧 #町野修斗 #菅原由勢 #谷口彰悟 #遠藤航 #鈴木唯人 #鈴木彩艶 #鈴木淳之介 #鎌田大地 #長友佑都",
+    "url": "https://ol2ol.com/@vivizine/117076427082482120",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "南野拓実、遠藤航、エリオット、ソボスライと再会 https://www.vivizine.com/1285184/ ##サッカーワールドカップ ##日本代表サッカー #liverpool #premierleague #Talent #worldcup #W杯 #サッカー日本代表 #プレミアリーグ #リヴァプール #ワールドカップ #三笘薫 #上田綺世 #中村敬斗 #久保建英 #伊東純也 #伊藤洋輝 #佐野海舟 #冨安健洋 #前田大然 #北中米ワールドカップ #南野拓実 #堂安律 #塩貝健人 #大迫敬介 #小川航基 #後藤啓介 #早川友基 #板倉滉 #森保JAPAN #森保一 #森保監督 #渡辺剛 #瀬古歩夢 #田中碧 #町野修斗 #菅原由勢 #谷口彰悟 #遠藤航 #鈴木唯人 #鈴木彩艶 #鈴木淳之介 #鎌田大地 #長友佑都"
+  },
+  {
+    "item_id": "norm_526",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Joseph Wilkins reports, will integrity or profits win in the FIFA World Cup saga? President Trump defends FIFA chief Infantino amidst a revolt after a failed plan to sell stakes to private investors. Despite the backlash, record-breaking profits are noted. Discover the full story on this high-stakes battle. https://www.cnbc.com/2026/08/11/trump-world-cup-infantino-profit.html #FIFA #WorldCup #Infantino #Trump Joseph Wilkins masterfully covers this developing story.",
+    "url": "https://mastodon.vtip.me/@whatyoumissed/117076408128101611",
+    "language": "multi",
+    "reason": "title_too_short",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "约瑟夫·威尔金斯报道，在国际足联世界杯传奇中，诚信还是利润会获胜？"
+  },
+  {
+    "item_id": "norm_527",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Messi Suspends Inter Miami Duties Following Father’s Passing Following the passing of his father, Lionel Messi has decided not to return to the United States for the time being and has temporarily stepped away from all commitments with Inter Miami. Immediately after receiving the tragic news, the 2022 World Cup champion halted his activities in America an... #Argentina #LionelMessi #WorldCup https://sportbursts.com/soccer/messi-suspends-inter-miami-duties-following-fathers-passing/?utm_source=mastodon&utm_medium=jetpack_social",
+    "url": "https://mastodon.social/@sportbursts/117076203122485072",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "父亲去世后，梅西暂停了迈阿密国际队的职务 在父亲去世后，梅西决定暂时不返回美国，并暂时放弃与迈阿密国际队的所有承诺"
+  },
+  {
+    "item_id": "norm_528",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Chelsea Reminds Enzo Fernandez to Report Back Ahead of Training Argentine midfielder Enzo Fernández is expected to rejoin Chelsea's squad on August 11, as the club has reminded him of this date. This information comes from journalist Nizaar Kinsella. According to the source, Fernández will soon begin training with Chelsea. The club's management ... #Chelsea #EnzoFernández #ManchesterCity #WorldCup https://sportbursts.com/soccer/chelsea-reminds-enzo-fernandez-to-report-back-ahead-of-training/?utm_source=mastodon&utm_medium=jetpack_social",
+    "url": "https://mastodon.social/@sportbursts/117076202585526353",
+    "language": "multi",
+    "reason": "title_too_short",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "切尔西提醒恩佐·费尔南德斯在训练前报告阿根廷中场恩佐·费尔南德斯预计将于8月11日重新加入切尔西队，因为俱乐部已经提醒他这一天"
+  },
+  {
+    "item_id": "norm_529",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Bosnia and Herzegovina Call Up NBA Players Nurkić and Garza for WC Qualifiers The Bosnia and Herzegovina national team has announced its squad for the August World Cup 2027 qualifiers. This time, defender Džanan Musa from Dubai will be unavailable due to health issues. However, the team will feature center Yusuf Nurkić of the Utah Jazz and forward Luka Ga... #BostonCeltics #NBA #UtahJazz #WorldCup https://sportbursts.com/basketball/bosnia-and-herzegovina-call-up-nba-players-nurkic-and-garza-for-wc-qualifiers/?utm_source=mastodon&utm_medium=jetpack_social",
+    "url": "https://mstdn.social/@sportbursts/117076199065090856",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "波斯尼亚和黑塞哥维那征召 NBA 球员努尔基奇和加尔萨参加世界杯预选赛 波斯尼亚和黑塞哥维那国家队公布了参加 2027 年世界杯预选赛 8 月的阵容"
+  },
+  {
+    "item_id": "norm_530",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Bosnia and Herzegovina Call Up NBA Players Nurkić and Garza for WC Qualifiers The Bosnia and Herzegovina national team has announced its squad for the August World Cup 2027 qualifiers. This time, defender Džanan Musa from Dubai will be unavailable due to health issues. However, the team will feature center Yusuf Nurkić of the Utah Jazz and forward Luka Ga... #BostonCeltics #NBA #UtahJazz #WorldCup https://sportbursts.com/basketball/bosnia-and-herzegovina-call-up-nba-players-nurkic-and-garza-for-wc-qualifiers/?utm_source=mastodon&utm_medium=jetpack_social",
+    "url": "https://mastodon.social/@sportbursts/117076197088003357",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "波斯尼亚和黑塞哥维那征召 NBA 球员努尔基奇和加尔萨参加世界杯预选赛 波斯尼亚和黑塞哥维那国家队公布了参加 2027 年世界杯预选赛 8 月的阵容"
+  },
+  {
+    "item_id": "norm_531",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Il Fatto Quotidiano: Infantino è sotto assedio e cerca aiuto, Trump arriva in soccorso: “Un errore sostituirlo, è eccezionale” Sostituire Gianni Infantino alla Fifa sarebbe “un grandissimo errore“. A scriverlo è Donald Trump su Truth. Il tycoon corre in soccorso dell”amico” Infantino, sempre più sotto pressione di Uefa, Concacaf e Afc per l’inedito tentativo – poi ritirato – di ingresso di investitori privati nella gestione dei Mondiali. “La Fifa commetterebbe un errore gravissimo se, per qualsiasi motivo, prendesse anche solo in considerazione l’idea di sostituire il presidente Gianni Infantino“, ha scritto il tycoon su Truth Social. “È eccezionale: ha appena presieduto la Coppa del Mondo di maggior successo di sempre, un successo quattro volte superiore a qualsiasi altra edizione. Se dovesse andare via, l’evento non raggiungerà mai più tali livelli di successo o di redditività! Grazie per l’attenzione dedicata a questa questione. Presidente DJT”, conclude il presidente Usa. Dopo le tantissime critiche ricevute nei giorni scorsi e viste le continue pressioni subite, Gianni Infantino è alla ricerca di consensi e di aiuto anche dalla politica in vista delle elezioni di marzo 2027. Il presidente Fifa – molto amico di Trump – già nelle scorse settimane aveva chiesto un incontro con Rubio per cercare supporto viste le tantissime critiche ricevute. L'articolo Infantino è sotto assedio e cerca aiuto, Trump arriva in soccorso: “Un errore sostituirlo, è eccezionale” proviene da Il Fatto Quotidiano. Matteo Renzi is under siege and seeking help, Trump arrives to the rescue: \"It’s a mistake to replace him, he's exceptional\" Replacing Gianni Infantino at FIFA would be “a huge mistake.” Donald Trump wrote this on Truth. The tycoon is stepping in to rescue his “friend,” Infantino, who is increasingly under pressure from Uefa, Concacaf, and AFC regarding the unprecedented attempt – then withdrawn – to allow private investors to manage the World Cup. “FIFA would make a very serious error if, for any reason, it even considered the idea of replacing President Gianni Infantino,” the tycoon wrote on Truth Social. “He is exceptional: he just presided over the most successful World Cup ever, a success four times greater than any other edition. If he were to leave, the event would never reach those levels of success or profitability again! Thank you for your attention regarding this matter. President DJT,” concludes the US president. Following the many criticisms received in recent days and given the continued pressure endured, Gianni Infantino is seeking support and consensus from politicians ahead of the March 2027 elections. The FIFA president – a very close friend of Trump – had already asked Rubio for a meeting several weeks ago to seek support amid the numerous criticisms he had received. The “Infantino” article is under siege and seeks help, Trump arrives to rescue: “It would be a mistake to replace him, he is exceptional” comes from Il Fatto Quotidiano. #MatteoRenzi #Trump #GianniInfantino #DonaldTrump #Infantino #Concacaf #theWorldCup #TruthSocial #WorldCup #Rubio #IlFattoQuotidiano https://www.ilfattoquotidiano.it/2026/08/11/infantino-fifa-trump-difesa-un-errore-sostituirlo-e-eccezionale/8475973/",
+    "url": "https://mastodon.ozioso.online/@ItalianNews/117075858769398879",
+    "language": "multi",
+    "reason": "title_too_short",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "Il Fatto Quotidiano: Infantino è sotto assedio e cerca aiuto, Trump arriva in soccorso: Un errore sostituirlo, è eccezionale Sostituire Gianni Infantino alla FIFA sarebbe un grandissimo errore"
+  },
+  {
+    "item_id": "norm_532",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "#Trump #DonaldTrump #Infantino #FIFA #UEFA #Football #WorldCup #Privatisation #SellOff #Sport #Soccer #News #BBCNews #GianniInfantino Which is all the more reason to remove Infantino, as Trump’s never made a good decision in his life. Can there be any doubt where the decision to privatise the World Cup came from? https://www.bbc.co.uk/sport/football/articles/cg7m3nk013mo",
+    "url": "https://mastodon.scot/@AGT/117075718623012068",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "#Trump #DonaldTrump #Infantino #FIFA #UEFA #Football #WorldCup #Privatification #SellOff #Sport #Soccer #News #BBCNews #GianniInfantino 这更有理由罢免因凡蒂诺，因为特朗普一生中从未做出过明智的决定"
+  },
+  {
+    "item_id": "norm_533",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Donald Trump Defends Gianni Infantino Amid FIFA Leadership Dispute US President Donald Trump has criticized the potential departure of Gianni Infantino from his position as FIFA president, a move currently being pushed by his opponents within the continental federations. \"FIFA would be making a terrible mistake if it even considered replacing its president Gianni Infantino for a... #FIFA #WorldCup https://sportbursts.com/soccer/donald-trump-defends-gianni-infantino-amid-fifa-leadership-dispute/?utm_source=mastodon&utm_medium=jetpack_social",
+    "url": "https://mastodon.social/@sportbursts/117075325224944948",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "唐纳德·特朗普在国际足联领导权纠纷中为詹尼·因凡蒂诺辩护美国总统唐纳德·特朗普批评詹尼·因凡蒂诺可能离开国际足联主席的职位，此举目前由他在大陆联合会内的对手推动"
+  },
+  {
+    "item_id": "norm_534",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Inter Targets Tottenham’s Jed Spence for Right-Back Reinforcement While negotiations for Diabi have stalled due to unsatisfactory terms, Inter Milan is actively exploring options to strengthen their right flank. Among the alternatives is Nico Gonzalez; however, according to Sky Italia, the club has also renewed interest in Jed Spence. Tottenham Hotspur is rep... #England #Tottenham #WorldCup https://sportbursts.com/soccer/inter-targets-tottenhams-jed-spence-for-right-back-reinforcement/?utm_source=mastodon&utm_medium=jetpack_social",
+    "url": "https://mastodon.social/@sportbursts/117075324318697225",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "国际米兰瞄准托特纳姆热刺队的杰德·斯彭斯作为右后卫补强虽然迪亚比的谈判因条款不令人满意而陷入停滞，但国际米兰正在积极探索加强右翼的选择"
+  },
+  {
+    "item_id": "norm_535",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Can FIFA's president survive this? | About That Avneet Dhillon breaks down the open letter to FIFA from several soccer federations accusing President Gianni Infantino of deception over his proposal to sell a portion of the World Cup to private investors. (Photo credits: The Canadian Press, Reuters, Adobe Stock and Getty Images) https://www.cbc.ca/player/play/9.7302541?cmp=rss",
+    "url": "https://mastodon.hongkongers.net/@cbcworld_mirror/117073844948894977",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "国际足联主席能度过难关吗？"
+  },
+  {
+    "item_id": "norm_536",
+    "source_id": "social_mastodon_worldcup",
+    "source_name": "Mastodon hashtag #WorldCup",
+    "title": "Untitled item",
+    "summary": "Islam Is Easy, Don’t Make It Complicated!Introduction: Islam — A Religion of Ease and Balance https://alborz8.wordpress.com/2026/08/10/islam-is-easy-dont-make-it-complicatedintroduction-islam-a-religion-of-ease-and-balance/",
+    "url": "https://alborz8.wordpress.com/2026/08/10/islam-is-easy-dont-make-it-complicatedintroduction-islam-a-religion-of-ease-and-balance/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "伊斯兰教很简单，不要让它变得复杂！简介：伊斯兰教——轻松与平衡的宗教 https://alborz8.wordpress.com/2026/08/10/islam-is-easy-dont-make-it-complicatedintroduction-islam-a-religion-of-ease-and-balance/"
+  },
+  {
+    "item_id": "norm_537",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Welcome back, Diego! 🇺🇾👋 #FIFAWorldCup",
+    "url": "https://twitter.com/FIFAWorldCup/status/2087145965543104679",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "欢迎回来，迭戈！ 🇺🇾👋#FIFA世界杯"
+  },
+  {
+    "item_id": "norm_538",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "U.S. President Donald Trump offered his support to embattled FIFA President Gianni Infantino amid a growing revolt that threatens his leadership. https://www.japantimes.co.jp/sports/2026/08/11/soccer/world-cup/trump-infantino-uefa-schism-fifa/?utm_medium=Social&utm_source=mastodon #soccer #worldcup #uefa #fifa #donaldtrump #gianniinfantino #soccer #fifaworldcup",
+    "url": "https://mastodon.social/@thejapantimes/117076611665481984",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "唐纳德·特朗普总统向陷入困境的国际足联主席詹尼·因凡蒂诺表示支持，因为抗议活动日益严重，威胁到了他的领导地位"
+  },
+  {
+    "item_id": "norm_539",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Almost 9 km of TTC subway will shut down for this entire weekend TTC subway closures this weekend will grind an almost nine-kilometre stretch of Line 1 to a halt, as the transit agency resumes the regular planned disruptions that were mercifully paused in June and July to paint a pretty picture for tourists during Toronto's hosting role in the FIFA World Cup.The TTC has announced that there will be no service on the Line... https://www.blogto.com/city/2026/08/ttc-subway-closure-weekend-aug-15/",
+    "url": "https://mastodon.hongkongers.net/@blogto_mirror/117076450759862372",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "近 9 公里的 TTC 地铁将在整个周末关闭 TTC 地铁本周末的关闭将使 1 号线近 9 公里的路段陷入停顿，因为运输机构恢复了在 6 月和 7 月仁慈地暂停的定期计划中断，以便在多伦多主办 FIFA 世界杯期间为游客描绘一幅美丽的图画。 TTC 已宣布该线路将不再提供服务"
+  },
+  {
+    "item_id": "norm_540",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "⚽ #FediFC #FIFAWorldCup #Soccer #Football 😆 RE: https://bsky.app/profile/did:plc:27oztulikqaiedjwyucpxtfp/post/3msrwyujjhc2s",
+    "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:6dogihoiskbz3flxsifm22eq/post/3msrx4ntjc32p",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "⚽ #FediFC #FIFAWorldCup #Soccer #Football 😆回复：https://bsky.app/profile/did:plc:27oztulikqaiedjwyucpxtfp/post/3msrwyujjhc2s"
+  },
+  {
+    "item_id": "norm_541",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Man Utd news: 'Approach made' for Lewis Hall alternative as £35m transfer dubbed 'steal' https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/manchester-united-transfer-news-seys-37533907",
+    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/manchester-united-transfer-news-seys-37533907",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "曼联新闻：刘易斯·霍尔的替代方案被称为“窃取”，3500万英镑转会 https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/manchester-united-transfer-news-seys-37533907"
+  },
+  {
+    "item_id": "norm_542",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Texas Mural Honors Druze and Iranian Children Killed by Iran and Its Proxies. #FIFAWorldCup #HoomanKahlili #MajdalShams #Texas #WomanLifeFreedom https://iwpost.com/texas-mural-honors-druze-and-iranian-children-killed-by-iran-and-its-proxies/?fsp_sid=13946",
+    "url": "https://mastodon.social/@Iwpost/117071905817737042",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "德克萨斯州壁画纪念被伊朗及其代理人杀害的德鲁兹和伊朗儿童"
+  },
+  {
+    "item_id": "norm_543",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Javier Zanetti, legend of the game 🇦🇷✨ #FIFAWorldCup",
+    "url": "https://twitter.com/FIFAWorldCup/status/2086771417211920874",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "哈维尔·萨内蒂，游戏传奇🇦🇷✨ #FIFAWorldCup"
+  },
+  {
+    "item_id": "norm_544",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Can FIFA Boss Infantino Survive? #GeneralNews #News #FIFA #FIFAWorldCup #International #Soccer #Sports https://www.hollywoodreporter.com/news/general-news/fifa-boss-gianni-infantino-president-resign-uefa-boycott-1236670035/",
+    "url": "https://mastodon.social/@hollywoodreporter/117070725563305572",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "FIFA主帅因凡蒂诺能活下来吗？"
+  },
+  {
+    "item_id": "norm_545",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "⚽ Powerful football-inspired DTF artwork celebrating Messi and Argentina, perfect for t-shirts, hoodies, sports apparel, stickers, posters, and fan collections. #LionelMessi #MessiArgentina #ArgentinaFootball #FIFAWorldCup #FootballLegend #SoccerStar #MessiFan #DTFPrinting #TshirtDesign #SportsApparel #FootballArtwork #StickerDesign #PrintableDesign #SportsDesign https://vectorency.com/items/lionel-messi-argentina-fifa-world-cup-dtf-png/18756",
+    "url": "https://mastodon.social/@vectorency/117069514177083576",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "⚽ 强大的足球风格 DTF 艺术作品庆祝梅西和阿根廷，非常适合 T 恤、连帽衫、运动服装、贴纸、海报和粉丝收藏"
+  },
+  {
+    "item_id": "norm_546",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Beautiful strikes from outside the box 😍 #FIFAWorldCup",
+    "url": "https://twitter.com/FIFAWorldCup/status/2086439258680864797",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "禁区外漂亮的射门😍#FIFAWorldCup"
+  },
+  {
+    "item_id": "norm_547",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Class 🤝 #FIFAWorldCup",
+    "url": "https://twitter.com/FIFAWorldCup/status/2086406963538317648",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "班级🤝#FIFAWorldCup"
+  },
+  {
+    "item_id": "norm_548",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Six #CANMNT players could see Brampton, ON soccer fields named after them following the team's #FIFAWorldCup run 👏🇨🇦 All six players -- Cyle Larin, Tajon Buchanan, Jonathan Osorio, Liam Millar, Jayden Nelson and Promise David -- grew up playing soccer in Brampton. (H/T @insauga@twitter.com)",
+    "url": "https://twitter.com/TSN_Sports/status/2086200837966037200",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "六名 #CANMNT 球员可以看到安大略省宾顿市的足球场，跟随 #FIFAWorldCup 球队的比赛而以他们的名字命名👏🇨🇦 所有六名球员——赛尔·拉林 (Cyle Larin)、塔洪·布坎南 (Tajon Buchanan)、乔纳森·奥索里奥 (Jonathan Osorio)、利亚姆·米勒 (Liam Millar)、杰登·尼尔森 (Jayden Nelson) 和普罗米斯·大卫 (Promise David)——都是在布兰普顿踢足球长大的"
+  },
+  {
+    "item_id": "norm_549",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "6 goals, 2 assists. James Rodriguez was different at #FIFAWorldCup 2014 💫",
+    "url": "https://twitter.com/FIFAWorldCup/status/2086075023853568474",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "詹姆斯·罗德里格斯 (James Rodriguez) 在 #FIFAWorldCup 2014 上与众不同 💫"
+  },
+  {
+    "item_id": "norm_550",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Behind the scenes 🎞 #FIFAWorldCup",
+    "url": "https://twitter.com/FIFAWorldCup/status/2086044986983014677",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "幕后花絮🎞#FIFAWorldCup"
+  },
+  {
+    "item_id": "norm_551",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Leaked World Cup dossier reveals bomb threats targeting Messi and other football stars. https://english.mathrubhumi.com/sports/football/messi-targeted-world-cup-bomb-threats-leaked-report-pgark7qd?utm_source=dlvr.it&utm_medium=mastodon #LionelMessi #Messi #FIFAWorldCup #WorldCup2026 #Football",
+    "url": "https://mastodon.social/@Mathrubhumi_English/117058775016359885",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "泄露的世界杯档案显示针对梅西和其他足球明星的炸弹威胁"
+  },
+  {
+    "item_id": "norm_552",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Agi: La Russia verso le elezioni, consensi in calo per Putin AGI - Il presidente Vladimir Putin , a un mese e mezzo dalle elezioni che rinnoveranno il Parlamento russo, continua a vivere un'emorragia di consensi. Secondo un sondaggio condotto tra fine luglio e inizio agosto dal Centro russo per la ricerca sull'opinione pubblica (Vtsiom), il 65,9% dei russi approva l'operato del presidente, una percentuale che solo pochi mesi fa si attestava all'80%. Il gradimento del leader del Cremlino rimane stagnante, dopo il crollo di 5 punti subito a luglio come effetto della grave crisi del carburante causata dagli attacchi ucraini alle raffinerie russe. Le intenzioni di voto Per quanto riguarda Russia Unita, il partito di governo legato al presidente Putin, le intenzioni di voto si attestano al 32,1%, sebbene il Cremlino sia fiducioso che la bassa affluenza alle urne gli consentirà di mantenere la maggioranza costituzionale alla Duma, la Camera bassa, il prossimo 20 settembre. Le cause del calo di popolarità Il calo della popolarità di Putin è iniziato a marzo con il blocco dei social media e il rallentamento di Internet, che hanno indignato giovani, imprenditori e militari. Secondo il Centro Levada, due terzi dei russi sono favorevoli alla cessazione delle ostilità in Ucraina e all'avvio di negoziati di pace, mentre solo un terzo degli intervistati sostiene la continuazione della guerra. La campagna elettorale In ogni caso, Putin ha deciso di guidare la campagna di Russia Unita per la prima volta dal 2007 con lo slogan \"Tutto per la vittoria\", un obiettivo a cui sembra subordinata ogni altra questione, ma che è ben lungi dall'essere raggiunto in Ucraina. Il precedente del 2018 Il Cremlino non si trovava in una situazione simile nei sondaggi da quando Putin decise di approvare la riforma delle pensioni praticamente in segreto, in concomitanza con la partita inaugurale dei Mondiali di calcio del 2018 in Russia. All'epoca, la popolarità di Putin crollò in meno di due mesi dall'80% al 62%, soprattutto tra l'elettorato di riferimento del Cremlino: gli over 50. L'opposizione e Yabloko Nelle elezioni del mese prossimo, la maggior parte delle figure dell'opposizione russa in esilio ha già invitato a votare per l'unico partito contrario alla guerra, Yabloko, che però oggi ha dovuto prendere le distanze da questi endorsement per timore di essere escluso dalle elezioni con l'accusa di aver beneficiato di interferenze straniere. Russia ahead of elections, declining support for Putin. AGI - Vladimir Putin, a little over six weeks before the elections to renew the Russian Parliament, continues to experience a hemorrhage of support. According to a survey conducted between late July and early August by the Russian Center for Public Opinion Research (Vtsiom), 65.9% of Russians approve of the president’s actions, a figure that just months ago stood at 80%. The approval rating of the Kremlin leader remains stagnant, after falling five points in July as a result of the serious fuel crisis caused by Ukraine's attacks on Russian refineries. Voting Intentions Regarding United Russia, the ruling party linked to President Putin, voting intentions stand at 32.1%, although the Kremlin is confident that low voter turnout will allow it to maintain its constitutional majority in the State Duma (the lower house) on September 20th. Causes of the Decline in Popularity The decline in Putin’s popularity began in March with the blocking of social media and the slowdown of Internet, which angered young people, entrepreneurs, and military personnel. According to the Levada Center, two-thirds of Russians are favorable to ending hostilities in Ukraine and initiating peace negotiations, while only one-third of those surveyed support continuing the war. The Election Campaign In any case, Putin has decided to lead United Russia’s campaign for the first time since 2007 with the slogan \"Everything for Victory,\" a goal that seems to be subordinate to all other issues, but which is far from being achieved in Ukraine. The 2018 Precedent The Kremlin was not in a similar situation in polls since Putin decided to approve the pension reform practically in secret, coinciding with the opening match of the 2018 FIFA World Cup in Russia. At that time, Putin’s popularity fell by eight points in less than two months from 80% to 62%, particularly among the Kremlin’s core electorate: over-50s. The Opposition and Yabloko In next month's elections, most of the Russian opposition figures in exile have already called for voting for the only party opposed to the war, Yabloko, which however today had to distance itself from these endorsements out of fear of being excluded from the election on charges of benefiting from foreign interference. #Russia #Putin #VladimirPutin #Russians #Kremlin #Ukraine #Russian #State #theLevadaCenter #UnitedRussia’s #first #FIFAWorldCup #Yabloko https://www.agi.it/estero/news/2026-08-08/putin-consensi-elezioni-russia-38433443/",
+    "url": "https://mastodon.ozioso.online/@ItalianNews/117057574737159478",
+    "language": "multi",
+    "reason": "title_too_short",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "AGI：俄罗斯反动，与普京达成共识 AGI - 弗拉基米尔·普京总统，在俄罗斯议会的会议和会议中，继续保持一致的生活"
+  },
+  {
+    "item_id": "norm_553",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "#Lookalike #PrivateEye ⚽ #FediFC #FIFAWorldCup #Soccer #Football",
+    "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:6dogihoiskbz3flxsifm22eq/post/3msjlu3erak2e",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "#Lookalike #PrivateEye ⚽ #FediFC #FIFAWorldCup #Soccer #Football"
+  },
+  {
+    "item_id": "norm_554",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Live sports run on cloud: encoding, distribution, and failover across regions. One outage and the world notices. Reliability is the real trophy. #Cloud #FIFAWorldCup #TechTalk",
+    "url": "https://mastodon.social/@anodeask/117055291517536384",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "体育直播在云上运行：跨区域编码、分发和故障转移"
+  },
+  {
+    "item_id": "norm_555",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "The streets didn't forget... ⏳✨ #FIFAWorldCup",
+    "url": "https://twitter.com/FIFAWorldCup/status/2085681969489432900",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "街道没有忘记...⏳✨ #FIFAWorldCup"
+  },
+  {
+    "item_id": "norm_556",
+    "source_id": "social_mastodon_fifaworldcup",
+    "source_name": "Mastodon hashtag #FIFAWorldCup",
+    "title": "Untitled item",
+    "summary": "Gianni Infantino offered shock lifeline as under-fire FIFA chief's World Cup final plan pays off https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-lifeline-caf-37523338",
+    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-lifeline-caf-37523338",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "吉安尼·因凡蒂诺（Gianni Infantino）提供了令人震惊的生命线，因为火力不足的国际足联酋长世界杯决赛计划获得了回报https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-lifeline-caf-37523338"
+  },
+  {
+    "item_id": "norm_557",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Man Utd news: 'Approach made' for Lewis Hall alternative as £35m transfer dubbed 'steal' https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/manchester-united-transfer-news-seys-37533907",
+    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/manchester-united-transfer-news-seys-37533907",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "曼联新闻：刘易斯·霍尔的替代方案被称为“窃取”，3500万英镑转会 https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/manchester-united-transfer-news-seys-37533907"
+  },
+  {
+    "item_id": "norm_558",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "https://youtube.com/shorts/vUUSkLfETyI?is=Sz8Azwd-cQ7uVwLf The Man Behind Messi: How Jorge Messi Changed Football Forever Linktr.ee/562AlexD #LionelMessi #JorgeMessi #ArgentinaFootball #FCBarcelona #WorldCup2026",
+    "url": "https://mastodon.social/@562alexd/117073674810019562",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "https://youtube.com/shorts/vUUSkLfETyI?is=Sz8Azwd-cQ7uVwLf 梅西背后的人：豪尔赫·梅西如何永远改变了足球 Linktr.ee/562AlexD #LionelMessi #JorgeMes​​si #ArgentinaFootball #FCBarcelona #WorldCup2026"
+  },
+  {
+    "item_id": "norm_559",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Liverpool news: Signing of £47m star imminent as transfer talks give Bradley Barcola boost https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/transfer-news/liverpool-ronald-araujo-bradley-barcola-37528631",
+    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/transfer-news/liverpool-ronald-araujo-bradley-barcola-37528631",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "利物浦新闻：随着转会谈判的推进，布拉德利·巴科拉即将签下价值 4700 万英镑的球星 https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/transfer-news/liverpool-ronald-araujo-bradley-barcola-37528631"
+  },
+  {
+    "item_id": "norm_560",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Lionel Messi's dad dies as Argentina superstar left heartbroken https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/lionel-messis-dad-dies-argentina-37528414",
+    "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/lionel-messis-dad-dies-argentina-37528414",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "阿根廷巨星莱昂内尔·梅西的父亲去世，伤心欲绝 https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/lionel-messis-dad-dies-argentina-37528414"
+  },
+  {
+    "item_id": "norm_561",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Leaked World Cup dossier reveals bomb threats targeting Messi and other football stars. https://english.mathrubhumi.com/sports/football/messi-targeted-world-cup-bomb-threats-leaked-report-pgark7qd?utm_source=dlvr.it&utm_medium=mastodon #LionelMessi #Messi #FIFAWorldCup #WorldCup2026 #Football",
+    "url": "https://mastodon.social/@Mathrubhumi_English/117058775016359885",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "泄露的世界杯档案显示针对梅西和其他足球明星的炸弹威胁"
+  },
+  {
+    "item_id": "norm_562",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "SFA to chair 'critically important' meeting as all SPFL clubs called to St Andrews for crunch summit https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/sfa-call-critically-important-meeting-37527400",
+    "url": "https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/sfa-call-critically-important-meeting-37527400",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "SFA 将主持至关重要的会议，因为所有 SPFL 俱乐部都呼吁前往圣安德鲁斯参加关键峰会 https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/sfa-call-riticly-important-meeting-37527400"
+  },
+  {
+    "item_id": "norm_563",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "The Guardian view on Gianni Infantino: in the interests of the game he professes to love, he should go | Editorial By Editorial The Fifa president’s attempt to brazen out the storm, after attempting to sell a stake in the World Cup to private equity, adds insult to injury https://www.theguardian.com/commentisfree/2026/aug/07/the-guardian-view-on-gianni-infantino-in-the-interests-of-the-game-he-professes-to-love-he-should-go #GianniInfantino #Fifa #Football #WorldCup #Footballpolitics #Sport #WorldCup2026 #TheGuardian #Editorial",
+    "url": "https://rssfeed.media/@guardianfeeds/117055331018683787",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+  },
+  {
+    "item_id": "norm_564",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "🏆 Thiago Messi Barcelona: Blaugrana Birthday Bash Messi family celebrated Thiago's birthday with a Barcelona-themed party, showing their Blaugrana love. How it fuels Messi's World Cup push vs Austria? 🔗 https://puntersure-tips.com/blogs/thiago-messi-barcelona-blaugrana-party #ThiagoMessi #Barcelona #LionelMessi #WorldCup2026",
+    "url": "https://mastodon.social/@puntersure_tips/117053443023274472",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "🏆 蒂亚戈·梅西 (Thiago Messi) 巴塞罗那：巴萨生日狂欢 梅西一家以巴塞罗那为主题的派对为蒂亚戈庆祝生日，表达了他们对巴萨的热爱"
+  },
+  {
+    "item_id": "norm_565",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Gianni Infantino offered shock lifeline as under-fire FIFA chief's World Cup final plan pays off https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-lifeline-caf-37523338",
+    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-lifeline-caf-37523338",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "吉安尼·因凡蒂诺（Gianni Infantino）提供了令人震惊的生命线，因为火力不足的国际足联酋长世界杯决赛计划获得了回报https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-lifeline-caf-37523338"
+  },
+  {
+    "item_id": "norm_566",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "AFA declares July 15 as National Football Teams Day after their epic World Cup win! https://english.mathrubhumi.com/sports/football/argentina-national-football-teams-day-july-15-2026-axnsnq9s?utm_source=dlvr.it&utm_medium=mastodon #Argentina #AFA #WorldCup2026 #FootballNews #EnglandVsArgentina",
+    "url": "https://mastodon.social/@Mathrubhumi_English/117049274335244376",
+    "language": "multi",
+    "reason": "title_too_short",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "在史诗般的世界杯胜利后，AFA宣布7月15日为国家足球队日！"
+  },
+  {
+    "item_id": "norm_567",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Uefa maintains that World Cup boycott still stands despite Infantino’s apology By Nick Ames and Matt Hughes European body says Fifa statement ‘changes nothing’ https://www.theguardian.com/football/2026/aug/06/uefa-world-cup-boycott-still-stands-gianni-infantino #Uefa #GianniInfantino #Fifa #WorldCup #WorldCup2026 #Footballpolitics #Football #Sport #TheGuardian #NickAmes #MattHughes",
+    "url": "https://rssfeed.media/@guardianfeeds/117049157431671666",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "欧足联坚称，尽管因凡蒂诺道歉，抵制世界杯的行为仍然存在。 作者：尼克·艾姆斯和马特·休斯 欧洲机构表示，国际足联的声明“没有改变任何事情” https://www.theguardian.com/football/2026/aug/06/uefa-world-cup-boycott-still-stands-gianni-infantino #Uefa #GianniInfantino #Fifa #WorldCup #WorldCup2026 #Footballpolitics #Football #Sport #TheGuardian #NickAmes #MattHughes"
+  },
+  {
+    "item_id": "norm_568",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Argentina commemorate win against England at World Cup 2026 with special day By PA Media AFA to establish ‘National Football Teams Day’ for 15 July https://www.theguardian.com/football/2026/aug/06/argentinas-fa-commemorate-world-cup-semi-final-win-england #Argentina #England #WorldCup2026 #WorldCup #Football #Sport #TheGuardian #PAMedia",
+    "url": "https://rssfeed.media/@guardianfeeds/117048606889539900",
+    "language": "multi",
+    "reason": "title_too_short",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "阿根廷以特殊的日子纪念在 2026 年世界杯上战胜英格兰的胜利 PA Media AFA 将 7 月 15 日定为“国家足球队日” https://www.theguardian.com/football/2026/aug/06/argentinas-fa-commemorate-world-cup-semi-final-win-england #Argentina #England #WorldCup2026 #WorldCup #Football #Sport #卫报#PAMedia"
+  },
+  {
+    "item_id": "norm_569",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "PUBG Mobile World Cup 2026: a Parigi Inizia la Corsa al Trono Mondiale https://www.stadiaverse.it/2026/08/05/pubg-mobile-world-cup-2026-a-parigi-inizia-la-corsa-al-trono-mondiale/ #battleroyale #esports #parigi #pubgmobile #worldcup2026",
+    "url": "https://mastodon.social/@stadiaverse/117044892035006273",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "PUBG Mobile 世界杯 2026：Parigi Inizia la Corsa al Trono Mondiale https://www.stadiaverse.it/2026/08/05/pubg-mobile-world-cup-2026-a-parigi-inizia-la-corsa-al-trono-mondiale/ #battleroyale #esports #parigi #pubgmobile #worldcup2026"
+  },
+  {
+    "item_id": "norm_570",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "https://www.fogolf.com/1346295/daniele-fisichella-explains-how-anthony-gordon-slots-into-barcelona-side-after-big-summer-move/ Daniele Fisichella EXPLAINS how Anthony Gordon SLOTS into Barcelona side after big summer move #ENG #EnglandWorldCup #fifa2026 #fifa26 #football #funny #ManchesterUnited #PGAOfficialWorldGolfRanking #PGARanking #PremierLeague #SimonJordan #SimonJordanTalksport #soccer #sport #talksport #TalksportLiveNow #TalksportRant #TOTTENHAM #WillGordon #WorldCup #WorldCup2026",
+    "url": "https://vive.im/@fogolf/117042598603971251",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "https://www.fogolf.com/1346295/daniele-fisichella-explains-how-anthony-gordon-slots-into-barcelona-side-after-big-summer-move/ Daniele Fisichella解释了安东尼·戈登在夏季转会后如何进入巴塞罗那队#ENG #EnglandWorldCup #fifa2026 #fifa26 #football #funny #ManchesterUnited #PGAOfficialWorldGolfRanking #PGARanking #PremierLeague #SimonJordan #SimonJordanTalksport #soccer #sport #talksport #TalksportLiveNow #TalksportRant #TOTTENHAM #WillGordon #WorldCup #WorldCup2026"
+  },
+  {
+    "item_id": "norm_571",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Man Utd news: Bayern Munich star's transfer stance clear as defender 'begs to join big club' https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/man-utd-transfers-bayern-munich-37513798",
+    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/man-utd-transfers-bayern-munich-37513798",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "曼联新闻：拜仁慕尼黑球星转会立场明确，后卫请求加入大俱乐部 https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/man-utd-transfers-bayern-munich-37513798"
+  },
+  {
+    "item_id": "norm_572",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Gianni Infantino accused of blackmail by Jordan FA chief in brutal FIFA criticism https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-jordan-fa-37513772",
+    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-jordan-fa-37513772",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "詹尼·因凡蒂诺在国际足联残酷的批评中被指控被约旦足协主席敲诈 https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-jordan-fa-37513772"
+  },
+  {
+    "item_id": "norm_573",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Gianni Infantino ripped apart as explosive FIFA email leaked after botched World Cup plan https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-world-cup-37512411",
+    "url": "https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-world-cup-37512411",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "世界杯计划搞砸后，国际足联爆炸性电子邮件泄露，詹尼·因凡蒂诺 (Gianni Infantino) 被撕碎 https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/news/gianni-infantino-fifa-world-cup-37512411"
+  },
+  {
+    "item_id": "norm_574",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "@ayanascroll needs to be sacked before everybody forgets about #hydrationbreaks ! 😂 #WorldCup #worldcup2026 #FediFC #FIFAWorldCup",
+    "url": "https://mstdn.ca/@ryan2one3/117033029608291625",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "在每个人都忘记#Hydrationbreaks 之前，@ayanascroll 需要被解雇！"
+  },
+  {
+    "item_id": "norm_575",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Mauricio Pochettino agrees deal to stay as US coach through World Cup 2030 By Pablo Iglesias Maurer and Alexander Abnos Pochettino joined US national team in 2024 https://www.theguardian.com/football/2026/aug/03/mauricio-pochettino-new-contract-us-soccer-world-cup #USA #Football #Sport #USsports #WorldCup2026 #WorldCup #MauricioPochettino #TheGuardian #PabloIglesiasMaurer #AlexanderAbnos",
+    "url": "https://rssfeed.media/@guardianfeeds/117031777328585103",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "毛里西奥·波切蒂诺同意在 2030 年世界杯期间继续担任美国队教练 作者：巴勃罗·伊格莱西亚斯·毛雷尔和亚历山大·阿布诺斯 波切蒂诺于 2024 年加入美国国家队 https://www.theguardian.com/football/2026/aug/03/mauricio-pochettino-new-contract-us-soccer-world-cup #USA #Football #Sport #USsports #WorldCup2026 #世界杯 #MauricioPochettino #TheGuardian #PabloIglesiasMaurer #AlexanderAbnos"
+  },
+  {
+    "item_id": "norm_576",
+    "source_id": "social_mastodon_worldcup2026",
+    "source_name": "Mastodon hashtag #WorldCup2026",
+    "title": "Untitled item",
+    "summary": "Mauricio Pochettino agrees deal to stay as US coach through World Cup 2030 https://www.theguardian.com/football/2026/aug/03/mauricio-pochettino-new-contract-us-soccer-world-cup #Usa #Football #Sport #UsSports #WorldCup2026 #WorldCup #MauricioPochettino",
+    "url": "https://halo.nu/@theguardian_us_news/117031771040923963",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "毛里西奥·波切蒂诺同意在 2030 年世界杯期间继续担任美国队教练 https://www.theguardian.com/football/2026/aug/03/mauricio-pochettino-new-contract-us-soccer-world-cup #Usa #Football #Sport #UsSports #WorldCup2026 #WorldCup #MauricioPochettino"
+  },
+  {
+    "item_id": "norm_577",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Mikel Arteta approves Arsenal deal to sign £42m Barcelona star https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/arsenal-offered-chance-sign-barcelona-star-mikel-arteta-sanctions-transfer-29351415/",
+    "url": "https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/arsenal-offered-chance-sign-barcelona-star-mikel-arteta-sanctions-transfer-29351415/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "米克尔·阿尔特塔批准阿森纳以 4200 万英镑签下巴塞罗那球星的交易 https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/arsenal-offered-chance-sign-barcelona-star-mikel-arteta-sanctions-transfer-29351415/"
+  },
+  {
+    "item_id": "norm_578",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Michael Owen predicts where Arsenal, Man Utd, Chelsea and Liverpool will finish this season https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/michael-owen-predicts-arsenal-man-utd-chelsea-liverpool-will-finish-this-season-29351035/",
+    "url": "https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/michael-owen-predicts-arsenal-man-utd-chelsea-liverpool-will-finish-this-season-29351035/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "迈克尔·欧文预测阿森纳、曼联、切尔西和利物浦本赛季将在哪里结束 https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/michael-owen-predicts-arsenal-man-utd-chelsea-liverpool-will-finish-this-season-29351035/"
+  },
+  {
+    "item_id": "norm_579",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "The Buffalo Bills responded to fan complaints about obstructed views, small scoreboards, and rain exposure at new Highmark Stadium’s first event... #Football #NFL #footballnews #BuffaloBills #americanfootball #nflnews #nflseasons #footballnewsanddupdates https://www.mondiaries.com/2026/08/buffalo-bills-stadium-issues-team.html",
+    "url": "https://mastodon.world/@ayanascroll/117077040571710079",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "布法罗比尔队回应了球迷对新海马克体育场首场比赛中视线受阻、记分板小和下雨的投诉"
+  },
+  {
+    "item_id": "norm_580",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Mourinho review – if he didn’t want to open up, maybe he shouldn’t have starred in a docuseries… https://www.theguardian.com/tv-and-radio/2026/aug/11/mourinho-review-if-he-didnt-want-to-open-up-maybe-he-shouldnt-have-starred-in-a-docuseries #Television #TelevisionRadio #Culture #JosMourinho #Documentary #Football #Sport",
+    "url": "https://halo.nu/@theguardian_us_culture/117077010279565272",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "穆里尼奥评论——如果他不想开放，也许他不应该出演纪录片…… https://www.theguardian.com/tv-and-radio/2026/aug/11/mourinho-review-if-he-didnt-want-to-open-up-maybe-he-shouldnt-have-starred-in-a-docuseries #Television #TelevisionRadio #文化 #JosMourinho #纪录片 #Football #Sport"
+  },
+  {
+    "item_id": "norm_581",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "With Guimaraes, Rice, Odegaard and Zubimendi ahead of him, Myles Lewis-Skelly could leave Arsenal. Chelsea and United have been offered the England teenager. #Arsenal #Football #TransferNewsandRumours #ChelseaFC #myleslewisskelly #ArsenalFC #footballnewsanddupdates #ManchesterUnited #chelsea #footballnews #epl #manunited #PremierLeague https://www.mondiaries.com/2026/08/myles-lewis-skelly-offered-to-man.html",
+    "url": "https://mastodon.world/@ayanascroll/117076970289132347",
+    "language": "multi",
+    "reason": "title_too_short",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "随着吉马良斯、赖斯、厄德高和祖比门迪的领先，迈尔斯·刘易斯-斯凯利可能会离开阿森纳"
+  },
+  {
+    "item_id": "norm_582",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "[lalibre] Nouveau scandale en vue pour Infantino: la banquière chargée de trouver des investisseurs privés pour la FIFA aurait des liens avec l’affaire Epstein #Football https://www.lalibre.be/sports/football/2026/08/11/nouveau-scandale-en-vue-pour-infantino-la-banquiere-chargee-de-trouver-des-investisseurs-prives-pour-la-fifa-aurait-des-liens-avec-laffaire-epstein-KTKZXTZLERA2LE5ERF2INWNEZA/",
+    "url": "https://mastodon.social/@actu_be_fr/117076938286187216",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "[lalibre] 因凡蒂诺的新丑闻：国际足联授权投资人私人银行负责人与爱泼斯坦 #Football https://www.lalibre.be/sports/football/2026/08/11/nouveau-scandale-en-vue-pour-infantino-la-banquiere-chargee-de-trouver-des-investisseurs-prives-pour-la-fifa-aurait-des-liens-avec-laffaire-epstein-KTKZXTZLERA2LE5ERF2INWNEZA/"
+  },
+  {
+    "item_id": "norm_583",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "How £30m Charles became Northern Ireland's most expensive footballer After he became Northern Ireland's most expensive player, BBC Sport NI looks at the rise of Shea Charles, from Manchester City's academy to Fulham's £30m man. https://www.bbc.co.uk/sport/football/articles/cn5n3rl0p0ko?at_medium=RSS&at_campaign=rss (c) #BBC #News #Sport #Football",
+    "url": "https://mastodonapp.uk/@bbcnewsfeed/117076879282779307",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "身价3000万英镑的查尔斯如何成为北爱尔兰身价最高的足球运动员 在成为北爱尔兰身价最高的球员后，BBC体育NI关注谢伊·查尔斯从曼城青训营到富勒姆身价3000万英镑的球员的崛起"
+  },
+  {
+    "item_id": "norm_584",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Arsenal’s Myles Lewis-Skelly offered to Manchester United as left-back solution By Jamie Jackson Chelsea also made aware of 19-year-old’s availability https://www.theguardian.com/football/2026/aug/11/arsenal-myles-lewis-skelly-offered-to-manchester-united-left-back #ManchesterUnited #Transferwindow #Arsenal #Football #Sport #TheGuardian #JamieJackson",
+    "url": "https://rssfeed.media/@guardianfeeds/117076879135076167",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "阿森纳的迈尔斯·刘易斯-斯凯利向曼联提出作为左后卫解决方案 作者：杰米·杰克逊 切尔西也意识到了这位 19 岁球员的可用性 https://www.theguardian.com/football/2026/aug/11/arsenal-myles-lewis-skelly-offered-to-manchester-united-left-back #ManchesterUnited #Transferwindow #Arsenal #Football #Sport #TheGuardian #杰米杰克逊"
+  },
+  {
+    "item_id": "norm_585",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Palace co-owner spoke to McNeil's partner before move Crystal Palace co-owner and chairman Steve Parish contacts Dwight McNeil's partner before the midfielder's move to the club. https://www.bbc.co.uk/sport/football/articles/cwyjxxg5ze5o?at_medium=RSS&at_campaign=rss (c) #BBC #News #Sport #Football",
+    "url": "https://mastodonapp.uk/@bbcnewsfeed/117076879265650325",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "水晶宫共同所有者兼主席史蒂夫·帕里什在中场球员转会到俱乐部之前联系了德怀特·麦克尼尔的合作伙伴"
+  },
+  {
+    "item_id": "norm_586",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Transfer roundup: Nottingham Forest seal £34m deal for Sporting’s Diomande By PA Media Fulham sign Shea Charles from Saints for £30m https://www.theguardian.com/football/2026/aug/11/transfer-roundup-nottingham-forest-ousmane-diomande-fulham-shea-charles #Transferwindow #NottinghamForest #Sporting #Europeanclubfootball #Football #Sport #TheGuardian #PAMedia",
+    "url": "https://rssfeed.media/@guardianfeeds/117076839816520991",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "转会综述：诺丁汉森林队以 3400 万英镑的价格收购里斯本竞技队的迪奥曼德 由 PA Media 富勒姆以 3000 万英镑的价格从圣徒队签下谢伊·查尔斯 https://www.theguardian.com/football/2026/aug/11/transfer-roundup-nottingham-forest-ousmane-diomande-fulham-shea-charles #Transferwindow #NottinghamForest #Sporting #Europeanclubfootball #足球 #Sport #TheGuardian #PAMedia"
+  },
+  {
+    "item_id": "norm_587",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Ford Field https://en.wikipedia.org/wiki/Ford_Field Capacity: 65000 Location: Detroit, United States Team: Detroit Lions #Detroit #UnitedStates #stadium #soccer #football #fussball #fedifc #mastodonFC",
+    "url": "https://mastodon.social/@stadium_bot/117076812611099699",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "福特球场 https://en.wikipedia.org/wiki/Ford_Field 容量：65000 地点：美国底特律 球队：底特律雄狮队 #Detroit #UnitedStates #stadium #soccer #football #fussball #fedifc #mastodonFC"
+  },
+  {
+    "item_id": "norm_588",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Palace co-owner spoke to McNeil's partner before move https://www.bbc.co.uk/sport/football/articles/cwyjxxg5ze5o?at_medium=RSS&at_campaign=rss #Football #Sport #News",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwyjxxg5ze5o?at_medium=RSS&at_campaign=rss",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "宫殿共同所有者在搬迁之前与麦克尼尔合伙人进行了交谈 https://www.bbc.co.uk/sport/football/articles/cwyjxxg5ze5o?at_medium=RSS&at_campaign=rss #Football #Sport #News"
+  },
+  {
+    "item_id": "norm_589",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Ranking 49ers rookies: De'Zhaun Stribling, Jaden Dugger impressing as preseason approaches https://www.nytimes.com/athletic/7504749/2026/08/11/49ers-rookies-dezhaun-stribling-jaden-dugger/ #Football #NFL #Sports",
+    "url": "https://www.nytimes.com/athletic/7504749/2026/08/11/49ers-rookies-dezhaun-stribling-jaden-dugger/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "49人队新秀排名：德扎恩·斯特里布林、贾登·达格在季前赛临近时给人留下了深刻的印象 https://www.nytimes.com/athletic/7504749/2026/08/11/49ers-rookies-dezhaun-stribling-jaden-dugger/ #Football #NFL #Sports"
+  },
+  {
+    "item_id": "norm_590",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Co-captain Janine Sonis is the ‘heart and soul’ of Denver Summit in a crucial expansion year https://www.nytimes.com/athletic/7504708/2026/08/11/janine-sonis-heart-soul-denver-summit-expansion-year/ What Sonis brings to Denver transcends a captain’s armband. #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/117076761716753746",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "联合队长珍妮·索尼斯 (Janine Sonis) 是丹佛峰会关键扩张年的“核心和灵魂” https://www.nytimes.com/athletic/7504708/2026/08/11/janine-sonis-heart-soul-denver-summit-expansion-year/ 索尼斯为丹佛带来的超越了队长袖标"
+  },
+  {
+    "item_id": "norm_591",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Tony Romo will not be at CBS's NFL Media Day today. He will be the main subject https://www.nytimes.com/athletic/7504690/2026/08/11/tony-romo-cbs-nfl-jj-watt/ #NFL #Sports #Football",
+    "url": "https://www.nytimes.com/athletic/7504690/2026/08/11/tony-romo-cbs-nfl-jj-watt/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "托尼·罗莫今天不会出席哥伦比亚广播公司的 NFL 媒体日活动"
+  },
+  {
+    "item_id": "norm_592",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "How £30m Charles became Northern Ireland's most expensive footballer https://www.bbc.co.uk/sport/football/articles/cn5n3rl0p0ko?at_medium=RSS&at_campaign=rss #Football #Sport #TransferNews",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cn5n3rl0p0ko?at_medium=RSS&at_campaign=rss",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "3000万英镑的查尔斯如何成为北爱尔兰最昂贵的足球运动员 https://www.bbc.co.uk/sport/football/articles/cn5n3rl0p0ko?at_medium=RSS&at_campaign=rss #Football #Sport #TransferNews"
+  },
+  {
+    "item_id": "norm_593",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Chelsea face Real Sociedad in WCL third qualifying round with riches at stake By Tom Garry WSL team will be favourites against Spanish side https://www.theguardian.com/football/2026/aug/11/chelsea-real-sociedad-womens-champions-league-wcl-third-qualifying-round #WomensChampionsLeague #Womensfootball #ChelseaWomen #Football #Sport #TheGuardian #TomGarry",
+    "url": "https://rssfeed.media/@guardianfeeds/117076643227362955",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "切尔西在 WCL 资格赛第三轮中面对皇家社会队，赌注丰厚 作者：汤姆·加里 WSL 队将是对阵西班牙球队的最爱 https://www.theguardian.com/football/2026/aug/11/chelsea-real-sociedad-womens-champions-league-wcl-third-qualifying-round #WomensChampionsLeague #Womensfootball #ChelseaWomen #Football #Sport #卫报#TomGarry"
+  },
+  {
+    "item_id": "norm_594",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Forest sign Sporting's Ivory Coast defender Diomande Nottingham Forest sign Ivory Coast defender Ousmane Diomande from Portuguese club Sporting for a reported £34m. https://www.bbc.co.uk/sport/football/articles/c70g5539dygo?at_medium=RSS&at_campaign=rss (c) #BBC #News #Sport #Football",
+    "url": "https://mastodonapp.uk/@bbcnewsfeed/117076643348230627",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "森林队签下里斯本竞技队后卫迪奥曼德 诺丁汉森林队以 3400 万英镑的价格从葡萄牙俱乐部里斯本竞技队签下科特迪瓦后卫奥斯曼·迪奥曼德"
+  },
+  {
+    "item_id": "norm_595",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Mykhailo Mudryk sends message to Chelsea over transfer exit https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/mykhailo-mudryk-sends-message-chelsea-transfer-exit-29349745/",
+    "url": "https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/mykhailo-mudryk-sends-message-chelsea-transfer-exit-29349745/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "Mykhailo Mudryk 就转会退出向切尔西发送消息 https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/mykhailo-mudryk-sends-message-chelsea-transfer-exit-29349745/"
+  },
+  {
+    "item_id": "norm_596",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Arsenal offer Chelsea the chance to sign Manchester United transfer target https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/arsenal-offer-chelsea-chance-sign-manchester-united-transfer-target-29350488/",
+    "url": "https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/arsenal-offer-chelsea-chance-sign-manchester-united-transfer-target-29350488/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "阿森纳向切尔西提供签下曼联转会目标的机会 https://fed.brid.gy/r/https://metro.co.uk/2026/08/11/arsenal-offer-chelsea-chance-sign-manchester-united-transfer-target-29350488/"
+  },
+  {
+    "item_id": "norm_597",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Ford Field https://en.wikipedia.org/wiki/Ford_Field Capacity: 65000 Location: Detroit, United States Team: Detroit Lions #Detroit #UnitedStates #stadium #soccer #football #fussball #fedifc #mastodonFC",
+    "url": "https://mastodon.social/@stadium_bot/117076812611099699",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "福特球场 https://en.wikipedia.org/wiki/Ford_Field 容量：65000 地点：美国底特律 球队：底特律雄狮队 #Detroit #UnitedStates #stadium #soccer #football #fussball #fedifc #mastodonFC"
+  },
+  {
+    "item_id": "norm_598",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Co-captain Janine Sonis is the ‘heart and soul’ of Denver Summit in a crucial expansion year https://www.nytimes.com/athletic/7504708/2026/08/11/janine-sonis-heart-soul-denver-summit-expansion-year/ What Sonis brings to Denver transcends a captain’s armband. #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/117076761716753746",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "联合队长珍妮·索尼斯 (Janine Sonis) 是丹佛峰会关键扩张年的“核心和灵魂” https://www.nytimes.com/athletic/7504708/2026/08/11/janine-sonis-heart-soul-denver-summit-expansion-year/ 索尼斯为丹佛带来的超越了队长袖标"
+  },
+  {
+    "item_id": "norm_599",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Deshalb passt Dzenan Pejcinovic gut zum VfB Stuttgart https://www.sportschau.de/regional/swr/swr-fehlendes-puzzleteil-deshalb-passt-dzenan-pejcinovic-gut-zum-vfb-stuttgart-100.html #bundesliga #fussball #soccer",
+    "url": "https://mastodon.social/@fussball/117076683109029626",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "Deshalb passt Dzenan Pejcinovic gut zum VfB Stuttgart https://www.sportschau.de/regional/swr/swr-fehlendes-puzzleteil-deshalb-passt-dzenan-pejcinovic-gut-zum-vfb-stuttgart-100.html #bundesliga #fussball #soccer"
+  },
+  {
+    "item_id": "norm_600",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "How to create a team of humanoid robots that can beat the #WorldCup champion #soccer team on a real soccer field? Listen to computer scientist Peter Stone on his deep involvement in RoboCup and how it led him to multi-agent systems. Check out the full episode here: https://learning.acm.org/bytecast/ep84-peter-stone",
+    "url": "https://mastodon.acm.org/@ACM/117076645018922002",
+    "language": "multi",
+    "reason": "title_too_short",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "如何创建一支人形机器人团队，可以在真正的足球场上击败#世界杯冠军#足球队？"
+  },
+  {
+    "item_id": "norm_601",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "U.S. President Donald Trump offered his support to embattled FIFA President Gianni Infantino amid a growing revolt that threatens his leadership. https://www.japantimes.co.jp/sports/2026/08/11/soccer/world-cup/trump-infantino-uefa-schism-fifa/?utm_medium=Social&utm_source=mastodon #soccer #worldcup #uefa #fifa #donaldtrump #gianniinfantino #soccer #fifaworldcup",
+    "url": "https://mastodon.social/@thejapantimes/117076611665481984",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "唐纳德·特朗普总统向陷入困境的国际足联主席詹尼·因凡蒂诺表示支持，因为抗议活动日益严重，威胁到了他的领导地位"
+  },
+  {
+    "item_id": "norm_602",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "'It was a bit surreal': When World Cup star Michael Olise joined a New York pick-up game… in socks https://www.nytimes.com/athletic/7504955/2026/08/11/michael-olise-pick-up-game-new-york/ All involved in the game at Gansevoort Peninsula Field in Manhattan were stunned when the France and Bayern Munich star joined in #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/117076584555461395",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "这有点超现实：当世界杯球星迈克尔·奥利斯穿着袜子参加纽约的一场比赛时… https://www.nytimes.com/athletic/7504955/2026/08/11/michael-olise-pick-up-game-new-york/ 当这位法国和拜仁慕尼黑球星加入#Soccer #Football时，所有参与曼哈顿甘斯沃尔特半岛球场比赛的人都惊呆了"
+  },
+  {
+    "item_id": "norm_603",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "The full story of Vinicius Jr's Real Madrid contract saga. How close did Arsenal get? https://www.nytimes.com/athletic/7505327/2026/08/11/vinicius-jr-real-madrid-arsenal-transfer-renewal/ After rejecting two renewal offers, and following constructive talks with Arsenal over a move, the Brazilian finally signed a new contract #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/117076584549012831",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "小维尼修斯皇家马德里合同传奇的完整故事"
+  },
+  {
+    "item_id": "norm_604",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "'It was a bit surreal': When World Cup star Michael Olise joined a New York pick-up game... in socks https://www.nytimes.com/athletic/7504955/2026/08/11/michael-olise-pick-up-game-new-york/ #Soccer #Basketball #Sports",
+    "url": "https://www.nytimes.com/athletic/7504955/2026/08/11/michael-olise-pick-up-game-new-york/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "这有点超现实：当世界杯明星迈克尔奥利斯参加纽约的一场接球比赛时"
+  },
+  {
+    "item_id": "norm_605",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Nottingham Forest complete Ousmane Diomande signing from Sporting CP https://www.nytimes.com/athletic/7502186/2026/08/11/ousmane-diomande-nottingham-forest-transfer-update/ #Football #Soccer #Transfer",
+    "url": "https://www.nytimes.com/athletic/7502186/2026/08/11/ousmane-diomande-nottingham-forest-transfer-update/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "诺丁汉森林完成奥斯曼·迪奥曼德从里斯本竞技队的签约 https://www.nytimes.com/athletic/7502186/2026/08/11/ousmane-diomande-nottingham-forest-transfer-update/ #Football #Soccer #Transfer"
+  },
+  {
+    "item_id": "norm_606",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "#News #RealFootball #Soccer #ByeByeInfantino The kiss of death! https://www.theguardian.com/football/2026/aug/11/donald-trump-fifa-gianni-infantino",
+    "url": "https://c.im/@fonecokid/117076427686722280",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "#新闻 #RealFootball #Soccer #ByeByeInfantino 死亡之吻！"
+  },
+  {
+    "item_id": "norm_607",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "English Premier League 2026-08-21 Scores. Upcoming Games: 21/08/2026 19:00 UTC #ARS - #COV #premierleague #englishpremierleague #premier #epl #football #soccer #scores #scoreboard #futbol #mastodonfc",
+    "url": "https://mastodon.world/@premierleaguescores/117076289335516349",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "英超联赛 2026-08-21 比分"
+  },
+  {
+    "item_id": "norm_608",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Strasbourg sign Chelsea goalkeeper Filip Jorgensen on loan https://www.nytimes.com/athletic/7502279/2026/08/11/filip-jorgensen-chelsea-strasbourg-loan-transfer/ #Football #Soccer #Transfer",
+    "url": "https://www.nytimes.com/athletic/7502279/2026/08/11/filip-jorgensen-chelsea-strasbourg-loan-transfer/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "斯特拉斯堡租借切尔西门将菲利普·约根森 https://www.nytimes.com/athletic/7502279/2026/08/11/filip-jorgensen-chelsea-strasbourg-loan-transfer/ #Football #Soccer #Transfer"
+  },
+  {
+    "item_id": "norm_609",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Everton and Crystal Palace complete Brennan Johnson-Dwight McNeil swap deal https://www.nytimes.com/athletic/7502797/2026/08/11/brennan-johnson-mcneil-everton-crystal-palace/ #Soccer #Football #SportsNews",
+    "url": "https://www.nytimes.com/athletic/7502797/2026/08/11/brennan-johnson-mcneil-everton-crystal-palace/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "埃弗顿和水晶宫完成布伦南·约翰逊-德怀特·麦克尼尔互换交易 https://www.nytimes.com/athletic/7502797/2026/08/11/brennan-johnson-mcneil-everton-crystal-palace/ #Soccer #Football #SportsNews"
+  },
+  {
+    "item_id": "norm_610",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "All About Lionel Messi’s 3 Siblings, Brothers Rodrigo and Matías and Sister María Sol https://fed.brid.gy/r/https://people.com/lionel-messi-everything-to-know-11989581",
+    "url": "https://fed.brid.gy/r/https://people.com/lionel-messi-everything-to-know-11989581",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "关于莱昂内尔·梅西的 3 个兄弟姐妹，罗德里戈和马蒂亚斯兄弟以及玛丽亚·索尔姐妹 https://fed.brid.gy/r/https://people.com/lionel-messi-everything-to-know-11989581"
+  },
+  {
+    "item_id": "norm_611",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Rungrado 1st of May Stadium https://en.wikipedia.org/wiki/Rungrado_1st_of_May_Stadium Capacity: 114000 Location: Pyongyang, PRK Teams: Korea DPR national football team, North Korea women's national football team, April 25 Sports Club #Pyongyang #PRK #stadium #soccer #football #fussball #fedifc #mastodonFC",
+    "url": "https://mastodon.social/@stadium_bot/117075868706372379",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "Rungrado 5 月 1 日体育场 https://en.wikipedia.org/wiki/Rungrado_1st_of_May_Stadium 容量：114000 地点：朝鲜平壤 球队：朝鲜民主主义人民共和国国家足球队、朝鲜女子国家足球队，4 月 25 日体育俱乐部 #Pyongyang #PRK #stadium #soccer #football #fussball #fedifc #mastodonFC"
+  },
+  {
+    "item_id": "norm_612",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "#Trump #DonaldTrump #Infantino #FIFA #UEFA #Football #WorldCup #Privatisation #SellOff #Sport #Soccer #News #BBCNews #GianniInfantino Which is all the more reason to remove Infantino, as Trump’s never made a good decision in his life. Can there be any doubt where the decision to privatise the World Cup came from? https://www.bbc.co.uk/sport/football/articles/cg7m3nk013mo",
+    "url": "https://mastodon.scot/@AGT/117075718623012068",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "#Trump #DonaldTrump #Infantino #FIFA #UEFA #Football #WorldCup #Privatification #SellOff #Sport #Soccer #News #BBCNews #GianniInfantino 这更有理由罢免因凡蒂诺，因为特朗普一生中从未做出过明智的决定"
+  },
+  {
+    "item_id": "norm_613",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "#soccer",
+    "url": "https://social.coop/@sbeebe/117075715915819911",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "＃足球"
+  },
+  {
+    "item_id": "norm_614",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Trump says it would be 'terrible mistake' to remove Gianni Infantino as FIFA president https://www.nytimes.com/athletic/7505310/2026/08/11/gianni-infantino-fifa-trump-post/ “He is fantastic, having just presided over the most successful World Cup, by four times, ever presented,\" Trump posted. #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/117075699905913418",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "特朗普表示，撤销国际足联主席詹尼·因凡蒂诺的职务将是一个可怕的错误 https://www.nytimes.com/athletic/7505310/2026/08/11/gianni-infantino-fifa-trump-post/ 特朗普表示，他太棒了，刚刚主持了有史以来最成功的世界杯，四次举办。"
+  },
+  {
+    "item_id": "norm_615",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Trump moves to undermine Infantino. #football #soccer #trump #infantino #eufa",
+    "url": "https://mastodon.scot/@AlexGallagher/117075582429066846",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "特朗普采取行动削弱因凡蒂诺"
+  },
+  {
+    "item_id": "norm_616",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more https://www.nytimes.com/athletic/7503457/2026/08/11/enzo-fernandez-transfer-latest-chelsea-manchester-city-arsenal-liverpool-man-utd-dealsheet/ Welcome to The Athletic's weekly look at the latest information from across the transfer market #Soccer #Football",
+    "url": "https://sportsfeed.me/@athletic_af/117075581951033259",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "转会交易表：有关曼联、阿森纳、利物浦、皇家马德里等的最新信息 https://www.nytimes.com/athletic/7503457/2026/08/11/enzo-fernandez-transfer-latest-chelsea-manchester-city-arsenal-liverpool-man-utd-dealsheet/ 欢迎来到《田径周刊》，查看整个转会市场的最新信息#Soccer #Football"
   },
   {
     "item_id": "norm_617",
@@ -529,8 +1972,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
-    "candidate_summary_zh": "Read about football news including transfers, results and headlines"
+    "candidate_event_title_zh": "足球与足球|最新足球新闻和结果 |每日邮报在线",
+    "candidate_summary_zh": "了解足球新闻，包括转会、结果和头条新闻"
   },
   {
     "item_id": "norm_623",
@@ -582,7 +2025,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "2026 年 FIFA 世界杯：最新消息和更新 |每日邮报在线",
-    "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
+    "candidate_summary_zh": "FIFA 世界杯 2026 - 赛事的最新消息，包括比分和亮点"
   },
   {
     "item_id": "norm_646",
@@ -595,7 +2038,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "汤姆·克鲁斯 (Tom Cruise) 与大卫·贝克汉姆 (David Beckham) 和维多利亚·贝克汉姆 (Victoria Beckham) 一起观看世界杯比赛",
-    "candidate_summary_zh": "Tom Cruise was spotted hanging with close pals David Beckham and wife Victoria while attending the World Cup game in Los Angeles on Friday"
+    "candidate_summary_zh": "周五，汤姆·克鲁斯在洛杉矶观看世界杯比赛时被发现与好友大卫·贝克汉姆和妻子维多利亚在一起"
   },
   {
     "item_id": "norm_647",
@@ -607,8 +2050,8 @@
     "language": "en",
     "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "凯蒂·佩里斯（Katy Perrys）的火车残骸世界杯开幕式被球迷猛烈抨击",
-    "candidate_summary_zh": "The first 2026 World Cup game on American soil kicked off in baffling style on Friday night as Katy Perry performed an underwhelming ballad just before kickoff in LA"
+    "candidate_event_title_zh": "凯蒂·佩里 (Katy Perry) 的世界杯开幕式惨遭粉丝猛烈抨击",
+    "candidate_summary_zh": "周五晚上，2026 年世界杯在美国的第一场比赛以莫名其妙的方式拉开帷幕，凯蒂·佩里 (Katy Perry) 在洛杉矶开球前表演了一首平淡无奇的民谣"
   },
   {
     "item_id": "norm_650",
@@ -622,6 +2065,19 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "世界杯最炙手可热的帅哥揭晓：坚韧不拔，做好战斗准备。贾娜·霍金 (JANA HOCKING) 知道这些男孩的共同点（但不是他们的洗衣板腹肌）",
     "candidate_summary_zh": "世界杯最炙手可热的帅哥揭晓：坚韧不拔，做好战斗准备。贾娜·霍金 (JANA HOCKING) 知道这些男孩的共同点（但不是他们的洗衣板腹肌）"
+  },
+  {
+    "item_id": "norm_651",
+    "source_id": "media_daily_mail_worldcup",
+    "source_name": "Daily Mail World Cup Page",
+    "title": "USA vs Paraguay: Sky Bet odds and Price Boosts for the hosts' World Cup opener in Los Angeles - including Christian Pulisic to score or assist at 7/4",
+    "summary": "",
+    "url": "https://www.dailymail.com/sport/skybet/article-15894607/USA-vs-Paraguay-Sky-Bet-odds-Price-Boosts-hosts-World-Cup-opener-Los-Angeles-including-Christian-Pulisic-score-assist-7-4.html",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "美国 vs 巴拉圭：东道主洛杉矶世界杯揭幕战的 Sky Bet 赔率和价格提升 - 包括克里斯蒂安·普利西奇 (Christian Pulisic) 进球或助攻 7/4",
+    "candidate_summary_zh": "美国 vs 巴拉圭：东道主洛杉矶世界杯揭幕战的 Sky Bet 赔率和价格提升 - 包括克里斯蒂安·普利西奇 (Christian Pulisic) 进球或助攻 7/4"
   },
   {
     "item_id": "norm_657",
@@ -659,21 +2115,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "News | FourFourTwo",
+    "candidate_event_title_zh": "新闻 |四四二",
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
-  },
-  {
-    "item_id": "norm_673",
-    "source_id": "media_fourfourtwo_news",
-    "source_name": "Four Four Two News",
-    "title": "Canada boss Jesse Marsch slammed by Clint Dempsey after provocative USMNT comments",
-    "summary": "The ex-USA forward didn’t mince his words for Jesse Marsch",
-    "url": "https://www.fourfourtwo.com/person/player/canada-boss-jesse-marsch-slammed-by-clint-dempsey-after-provocative-usmnt-comments",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在USMNT发表挑衅性评论后，加拿大老板Jesse Marsch被Clint Dempsey猛烈抨击",
-    "candidate_summary_zh": "The ex-USA forward didn’t mince his words for Jesse Marsch Join The Club for quick access"
   },
   {
     "item_id": "norm_680",
@@ -685,8 +2128,21 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "News - Page 2 | FourFourTwo",
-    "candidate_summary_zh": "News | FourFourTwo"
+    "candidate_event_title_zh": "新闻 - 第 2 页 | FourFourTwo",
+    "candidate_summary_zh": "新闻 |四四二"
+  },
+  {
+    "item_id": "norm_684",
+    "source_id": "media_fourfourtwo_news",
+    "source_name": "Four Four Two News",
+    "title": "United States goalkeeper could become a 'world star' at 2026 World Cup, says Brad Friedel",
+    "summary": "By James Andrew published 12 June 26",
+    "url": "https://www.fourfourtwo.com/person/player/technically-hell-be-very-good-this-is-the-tournament-that-really-makes-him-a-world-star-united-states-legend-picks-2026s-breakout-american",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "布拉德·弗里德尔 (Brad Friedel) 表示，美国门将可能会在 2026 年世界杯上成为世界巨星",
+    "candidate_summary_zh": "作者：詹姆斯·安德鲁 发表于 6 月 12 日 26"
   },
   {
     "item_id": "norm_691",
@@ -737,8 +2193,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Verifying Device",
-    "candidate_summary_zh": "Verifying Device"
+    "candidate_event_title_zh": "验证设备",
+    "candidate_summary_zh": "验证设备"
   },
   {
     "item_id": "norm_696",
@@ -750,8 +2206,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Verifying Device",
-    "candidate_summary_zh": "Verifying Device"
+    "candidate_event_title_zh": "验证设备",
+    "candidate_summary_zh": "验证设备"
   },
   {
     "item_id": "norm_697",
@@ -763,8 +2219,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Verifying Device",
-    "candidate_summary_zh": "Verifying Device"
+    "candidate_event_title_zh": "验证设备",
+    "candidate_summary_zh": "验证设备"
   },
   {
     "item_id": "norm_698",
@@ -776,8 +2232,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
-    "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
+    "candidate_event_title_zh": "FIFA 世界杯新闻、比分、积分榜、赛程表、视频等 - 雅虎体育",
+    "candidate_summary_zh": "体育新闻、比分、奇幻游戏"
   },
   {
     "item_id": "norm_706",
@@ -832,19 +2288,6 @@
     "candidate_summary_zh": "科特迪瓦CIV0-0-0科特迪瓦CIVE瓜多尔ECU0-0-0厄瓜多尔ECUCIV +0.25O/U 1.5"
   },
   {
-    "item_id": "norm_713",
-    "source_id": "media_yahoo_world_cup",
-    "source_name": "Yahoo Sport World Cup Page",
-    "title": "SwedenSWE0-0-0SwedenSWETunisiaTUN0-0-0TunisiaTUNSWE -0.5O/U 2.5",
-    "summary": "",
-    "url": "https://sports.yahoo.com/soccer/fifa-world-cup/tunisia-sweden-13587254/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "瑞典SWE0-0-0瑞典SWETunisiaTUN0-0-0突尼斯TUNSWE -0.5O/U 2.5",
-    "candidate_summary_zh": "瑞典SWE0-0-0瑞典SWETunisiaTUN0-0-0突尼斯TUNSWE -0.5O/U 2.5"
-  },
-  {
     "item_id": "norm_715",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
@@ -867,8 +2310,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "法国FRA0-0-0法国FRASenegalSEN0-0-0塞内加尔SENSEN +1.5O/U 2.5",
-    "candidate_summary_zh": "法国FRA0-0-0法国FRASenegalSEN0-0-0塞内加尔SENSEN +1.5O/U 2.5"
+    "candidate_event_title_zh": "法国FRA0-0-0法国FRAS内加尔SEN0-0-0塞内加尔SENSEN +1.5O/U 2.5",
+    "candidate_summary_zh": "法国FRA0-0-0法国FRAS内加尔SEN0-0-0塞内加尔SENSEN +1.5O/U 2.5"
   },
   {
     "item_id": "norm_720",
@@ -933,7 +2376,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "通过 OneFootball 查看最新的 FIFA 世界杯™ 比赛结果",
-    "candidate_summary_zh": "查看OneFootball上的所有比赛新闻"
+    "candidate_summary_zh": "查看 OneFootball 上的所有比赛新闻"
   },
   {
     "item_id": "norm_736",
@@ -946,20 +2389,33 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026 年世界杯",
-    "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
+    "candidate_summary_zh": "2026 年 FIFA 男子世界杯新闻、实时比分、赛程表、直播、统计数据、积分榜、分组以及来自 NBC Sports 的更多信息 查看全部 查看全部"
   },
   {
-    "item_id": "norm_746",
+    "item_id": "norm_737",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
-    "title": "USMNT upcoming schedule — The 2026 World Cup is here for Pochettino’s men",
-    "summary": "",
-    "url": "https://www.nbcsports.com/soccer/news/usmnt-2026-schedule-results",
+    "title": "Men's College Basketball",
+    "summary": "Find all the latest college basketball news, live coverage, videos, highlights, stats, predictions, and results right here on NBC Sports.",
+    "url": "https://www.nbcsports.com/mens-college-basketball",
     "language": "en",
-    "reason": "summary_missing",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "USMNT即将举行的时间表— 2026年世界杯是为Pochettino的男子举办的",
-    "candidate_summary_zh": "USMNT即将举行的时间表— 2026年世界杯是为Pochettino的男子举办的"
+    "candidate_event_title_zh": "男子大学篮球",
+    "candidate_summary_zh": "在 NBC Sports 上查找所有最新的大学篮球新闻、现场报道、视频、亮点、统计数据、预测和结果"
+  },
+  {
+    "item_id": "norm_738",
+    "source_id": "media_nbc_sports_world_cup",
+    "source_name": "NBC Sports World Cup Page",
+    "title": "Lachlan Turner dominates, wins WMX Moto 1 in Thunder Valley",
+    "summary": "Lachlan Turner was under intense pressure last week in Hangtown, so she stepped up he performance in Thunder Valley.",
+    "url": "https://www.nbcsports.com/motor-sports/news/lachlan-turner-dominates-wins-moto-1-in-thunder-valley",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "拉克兰·特纳 (Lachlan Turner) 在 Thunder Valley 赢得 WMX Moto 1 冠军",
+    "candidate_summary_zh": "拉克兰·特纳上周在杭城承受着巨大的压力，所以她加强了在雷霆谷的表现"
   },
   {
     "item_id": "norm_749",
@@ -997,8 +2453,21 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "世界杯的最新消息、特色和八卦| Goal.com US",
-    "candidate_summary_zh": "揭开世界杯最新的进球新闻--阅读最新的预测、转会谣言、突发新闻、视频和足球比赛结果世界杯克里斯蒂安·普利西奇（Christian Pulisic）透露，他遭遇了踢球，最终导致他在世界杯主场揭幕战中以4比1击败巴拉圭的USMNT下半场被替换。"
+    "candidate_event_title_zh": "世界杯的最新新闻、专题和八卦 |够力足球 (Goal.com) 美国",
+    "candidate_summary_zh": "与 GOAL 一起了解最新的世界杯新闻 - 了解最新的预测、转会传闻、突发新闻、视频和足球结果 世界杯 克里斯蒂安·普利西奇 (Christian Pulisic) 透露，他在世界杯主场揭幕战中被踢了一脚，最终导致他在下半场被替换下场，美国队 4-1 击败巴拉圭队"
+  },
+  {
+    "item_id": "norm_755",
+    "source_id": "media_goal_world_cup",
+    "source_name": "Goal World Cup News Page",
+    "title": "USMNT player ratings vs Paraguay: Folarin Balogun brace powers dream opener as Americans score their most goals ever in a World Cup match and give fans reason to believe | Goal.com US",
+    "summary": "It was a near-perfect World Cup opener for Mauricio Pochettino's side as they swept away their opponents in a way that will be remembered for a long, long time.",
+    "url": "https://www.goal.com/en-us/lists/usmnt-player-ratings-vs-paraguay-folarin-balogun-world-cup-opener-as-americans-score-most-goals-ever-in-a-world-cup-match/blt60937e8ff052be13",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT 球员评分 vs 巴拉圭：福拉林·巴洛贡 (Folarin Balogun) 梅开二度，美国队在世界杯比赛中打入历史最高进球，让球迷有理由相信 |够力足球 (Goal.com) 美国",
+    "candidate_summary_zh": "It was a near-perfect World Cup opener for Mauricio Pochettinos side as they swept away their opponents in a way that will be remembered for a long, long time"
   },
   {
     "item_id": "norm_762",
@@ -1027,19 +2496,6 @@
     "candidate_summary_zh": "及时了解 2026 年 FIFA 世界杯的最新消息"
   },
   {
-    "item_id": "norm_783",
-    "source_id": "media_fox_sports_world_cup",
-    "source_name": "Fox Sports World Cup News Page",
-    "title": "2026 World Cup Golden Boot: Folarin Balogun's Skyrockets Up Oddsboard",
-    "summary": "USA's Folarin Balogun has dramatically surged up the oddsboard. Check out the latest odds to win the Golden Boot award at the 2026 FIFA World Cup.",
-    "url": "https://www.foxsports.com/stories/soccer/soccer-2026-world-cup-odds-golden-boot",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯金靴： Folarin Baloguns Skyrockets Up赔率板",
-    "candidate_summary_zh": "美国的 Folarin Balogun 赔率急剧上升"
-  },
-  {
     "item_id": "norm_791",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
@@ -1051,19 +2507,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "2026 年 FIFA 世界杯金靴追踪：美国队福拉林·巴洛贡 (Folarin Balogun) 参赛",
     "candidate_summary_zh": "2026 年 FIFA 世界杯金靴追踪：美国队福拉林·巴洛贡 (Folarin Balogun) 参赛"
-  },
-  {
-    "item_id": "norm_794",
-    "source_id": "media_fox_sports_world_cup",
-    "source_name": "Fox Sports World Cup News Page",
-    "title": "Brazil's Carlo Ancelotti Faces Pressure To Win Historic 6th World Cup Title",
-    "summary": "",
-    "url": "https://www.foxsports.com/stories/soccer/expected-to-win-6th-world-cup-title-brazil-coach-faces-more-pressure-than-nations-president",
-    "language": "en",
-    "reason": "summary_missing",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "巴西选手卡洛·安切洛蒂（Carlo Ancelotti）面临赢得历史性的第六届世界杯冠军的压力",
-    "candidate_summary_zh": "巴西选手卡洛·安切洛蒂（Carlo Ancelotti）面临赢得历史性的第六届世界杯冠军的压力"
   },
   {
     "item_id": "norm_801",
@@ -1105,45 +2548,6 @@
     "candidate_summary_zh": "查看有关球员、联赛和预定比赛的最新足球新闻"
   },
   {
-    "item_id": "norm_830",
-    "source_id": "media_ap_news_soccer",
-    "source_name": "AP News Soccer",
-    "title": "Turkey captain Hakan Calhanoglu says his 'more talented' team will 'dominate' Australia in World Cup",
-    "summary": "Turkey captain Hakan Calhanoglu says his team is “more talented” than Australia, and he's expecting Turkey to “dominate” the teams' World Cup opener.",
-    "url": "https://apnews.com/article/world-cup-turkey-australia-calhanoglu-b6a7cc4894295430d63b52a85ad7159c",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "土耳其队长哈坎·卡尔哈诺格鲁（Hakan Calhanoglu）表示，他更有才华的球队将在世界杯上主",
-    "candidate_summary_zh": "土耳其队长哈坎·恰尔汗奥卢表示，他的球队比澳大利亚更有天赋，他期待土耳其队在世界杯揭幕战中占据主导地位"
-  },
-  {
-    "item_id": "norm_833",
-    "source_id": "media_ap_news_soccer",
-    "source_name": "AP News Soccer",
-    "title": "Ryan Reynolds and Mike Myers among the stars at Canada's first home World Cup match",
-    "summary": "“Deadpool” star Ryan Reynolds, NHL standout Connor McDavid and actor Mike Myers were among the Canadian stars who attended Canada's World Cup opener at Toronto's BMO Field on Friday.",
-    "url": "https://apnews.com/article/canada-world-cup-celebrities-reynolds-myers-morissette-016eab0fcf135c001ed8b824f177f3f7",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "莱恩·雷诺兹（Ryan Reynolds）和迈克·迈尔斯（Mike Myers）是加拿大首场主场世界杯",
-    "candidate_summary_zh": "《死侍》明星瑞安·雷诺兹、NHL 杰出人物康纳·麦克戴维和演员迈克·梅尔斯等加拿大明星出席了周五在多伦多 BMO 球场举行的加拿大世界杯揭幕战"
-  },
-  {
-    "item_id": "norm_847",
-    "source_id": "media_ap_news_soccer",
-    "source_name": "AP News Soccer",
-    "title": "Beth Mead says it was a ‘no-brainer’ to sign with Manchester City",
-    "summary": "",
-    "url": "https://apnews.com/article/beth-mead-man-city-arsenal-0ffb137ce1d33d169f6b9e0a6f038d79",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "贝丝·米德（Beth Mead）表示，与曼城签约是“明智之举”",
-    "candidate_summary_zh": "贝丝·米德（Beth Mead）表示，与曼城签约是“明智之举”"
-  },
-  {
     "item_id": "norm_851",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -1157,19 +2561,6 @@
     "candidate_summary_zh": "运动"
   },
   {
-    "item_id": "norm_856",
-    "source_id": "media_bein_sports_football",
-    "source_name": "beIN SPORTS Football",
-    "title": "Vinicius Junior calm around Real Madrid contract talks",
-    "summary": "Vinicius Junior's future at Real Madrid is uncertain, with the winger's contract at the Santiago Bernabeu expiring in June 2027.",
-    "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/vinicius-junior-calm-around-real-madrid-contract-talks-2026-06-13",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Vinicius Junior在皇家马德里合同谈判中保持冷静",
-    "candidate_summary_zh": "Vinicius Juniors在皇家马德里的未来不确定，圣地亚哥伯纳乌的边锋合同将于2027年6月到期"
-  },
-  {
     "item_id": "norm_857",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
@@ -1180,7 +2571,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "找不到页面",
-    "candidate_summary_zh": "beIN SPORTS DESCRIPT"
+    "candidate_summary_zh": "贝因运动说明！"
   },
   {
     "item_id": "norm_859",
@@ -1235,19 +2626,6 @@
     "candidate_summary_zh": "欧洲冠军联赛"
   },
   {
-    "item_id": "norm_875",
-    "source_id": "media_bein_sports_football",
-    "source_name": "beIN SPORTS Football",
-    "title": "Süper LigEderson Could Leave Fenerbahçe After One Season",
-    "summary": "",
-    "url": "https://www.beinsports.com/en-us/soccer/sper-lig/articles/ederson-could-leave-fenerbah%C3%A7e-after-one-season-2026-05-10",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Süper LigEderson可以在一个赛季后离开Fenerbahçe",
-    "candidate_summary_zh": "Süper LigEderson可以在一个赛季后离开Fenerbahçe"
-  },
-  {
     "item_id": "norm_876",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
@@ -1258,7 +2636,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球之家-超级体育",
-    "candidate_summary_zh": "SuperSport的最新足球新闻、比分和更新"
+    "candidate_summary_zh": "来自 SuperSport 的最新足球新闻、比分和更新"
   },
   {
     "item_id": "norm_884",
@@ -1297,7 +2675,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球之家-超级体育",
-    "candidate_summary_zh": "SuperSport的最新足球新闻、比分和更新"
+    "candidate_summary_zh": "来自 SuperSport 的最新足球新闻、比分和更新"
   },
   {
     "item_id": "norm_899",
@@ -1310,7 +2688,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球 - 新闻、转会和实时赛果 |球",
-    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时结果"
+    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时赛果"
   },
   {
     "item_id": "norm_901",
@@ -1326,19 +2704,6 @@
     "candidate_summary_zh": "第一次谈话是积极的，聘请教练的道路是开放的"
   },
   {
-    "item_id": "norm_909",
-    "source_id": "media_abola_futebol",
-    "source_name": "A Bola Futebol",
-    "title": "Pedro Pontes com despedida emotiva do Sporting",
-    "summary": "",
-    "url": "https://www.abola.pt/noticias/pedro-pontes-com-despedida-emotiva-do-sporting-2026061217173716712",
-    "language": "pt",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Pedro Pontes与Sporting的情感告别",
-    "candidate_summary_zh": "Pedro Pontes与Sporting的情感告别"
-  },
-  {
     "item_id": "norm_913",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
@@ -1349,7 +2714,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球第 2 页 - 新闻、转会和实时比分 |球",
-    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时结果"
+    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时赛果"
   },
   {
     "item_id": "norm_915",
