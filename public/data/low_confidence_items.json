@@ -9,7 +9,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
     "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
@@ -50,6 +50,19 @@
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
     "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Cristiano Ronaldo 进球追踪器：职业生涯 1000 个进球之路",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
   },
   {
     "item_id": "norm_27",
@@ -127,33 +140,46 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "世界杯",
-    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
+    "candidate_summary_zh": "最新消息、更新和视频集锦 美国队以时尚的方式开始世界杯 - 但他们最终会跻身精英行列吗？"
   },
   {
-    "item_id": "norm_86",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Palace co-owner Parish spoke to McNeil's partner before move",
-    "summary": "Crystal Palace co-owner and chairman Steve Parish contacts Dwight McNeil's partner before the midfielder's move to the club.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwyjxxg5ze5o?at_medium=RSS&at_campaign=rss",
+    "item_id": "norm_71",
+    "source_id": "media_bbc_sport_football_worldcup",
+    "source_name": "BBC Sport Football Worldcup Page",
+    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
+    "summary": "",
+    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "宫殿共同所有人Parish在搬迁前与McNeils合伙人进行了交谈",
-    "candidate_summary_zh": "水晶宫共同所有人兼主席史蒂夫·帕里什（Steve Parish）在中场球员转会到俱乐部之前联系了德怀特·麦克尼尔斯（Dwight Mc"
+    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
+    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
   },
   {
-    "item_id": "norm_93",
+    "item_id": "norm_90",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Hearts thump Dundee United for Vrancken's first win",
-    "summary": "Hearts fire four past Dundee United in the Scottish Premiership as head coach Wouter Vrancken earns his first victory at the fifth attempt.",
-    "url": "https://www.bbc.co.uk/sport/videos/cwymd7mmnddo?at_medium=RSS&at_campaign=rss",
+    "title": "Coventry eye Mudryk on loan - Wednesday's gossip",
+    "summary": "Coventry City interested in signing Chelsea winger Mykhaylo Mudryk on loan, Barcelona still chasing Manchester City midfielder Rodri and Manchester United make a move for Real Madrid striker Endrick.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cy5d127gv0go?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Coventry Eye Mudryk租借-周三八卦",
+    "candidate_summary_zh": "考文垂有兴趣租借切尔西边锋米凯洛·穆德里克，巴塞罗那仍在追逐曼城中场罗德里和曼联，为皇家马德里前锋恩德里克采取行动"
+  },
+  {
+    "item_id": "norm_95",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Partick Thistle beat Livingston in Scottish Championship",
+    "summary": "An early Robbie Crawford back-heel and a Cammy MacPherson own goal give Partick Thistle victory over Livingston as two of the promotion favourites meet in the Scottish Championship at Firhill.",
+    "url": "https://www.bbc.co.uk/sport/videos/c98vppyny3go?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Hearts thump邓迪联队为Vranckens赢得首场胜利",
-    "candidate_summary_zh": "作为主教练Wouter Vrancken在第五次尝试中赢得他的第一场胜利，在苏格兰超级联赛中击败了四名邓迪联队"
+    "candidate_event_title_zh": "Partick Thistle在苏格兰锦标赛中击败利文斯顿",
+    "candidate_summary_zh": "罗比·克劳福德 (Robbie Crawford) 的后脚跟和卡米·麦克弗森 (Cammy MacPherson) 的乌龙球帮助帕蒂克·提斯特尔 (Partick Thistle) 战胜利文斯顿 (Livingston)，两支晋级热门球队将在菲尔希尔 (Firhill) 举行的苏格兰锦标赛中相遇"
   },
   {
     "item_id": "norm_109",
@@ -165,8 +191,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
-    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+    "candidate_event_title_zh": "2026 年世界杯 |卫报双引号双引号",
+    "candidate_summary_zh": "来自世界领先自由派声音《卫报》的最新 2026 年世界杯新闻、评论和分析"
   },
   {
     "item_id": "norm_113",
@@ -178,8 +204,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
-    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
+    "candidate_event_title_zh": "赛尔·拉林 (Cyle Larin) 的罢工释放了欢乐，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "在男子世界杯的历史上， Les Rouges有史以来第一次"
   },
   {
     "item_id": "norm_132",
@@ -191,8 +217,34 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
+    "candidate_event_title_zh": "超级替补赛尔·拉林 (Cyle Larin) 在对阵波斯尼亚和黑塞哥维那的比赛中为加拿大队救回一分",
+    "candidate_summary_zh": "超级替补赛尔·拉林 (Cyle Larin) 在对阵波斯尼亚和黑塞哥维那的比赛中为加拿大队救回一分"
+  },
+  {
+    "item_id": "norm_155",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Sign up for the Moving the Goalposts newsletter: our free women’s football email",
+    "summary": "Get our roundup of women’s football for free twice a week, featuring the insights of experts such as Ada Hegerberg and Magdalena Eriksson Join us as we delve deeper into the wonderful world of women’s football in our weekly newsletter. It is informative, entertaining, global, critical – when needed – and, above all, passionate. Written mainly by Júlia Belas Trindade and Sophie Downey, expect guest appearances from stars such as Anita Asante, Ada Hegerberg and many more. Try our other sports emails: as well as the occasionally funny football email The Fiver from Monday to Friday, there are weekly catch-ups for cricket in The Spin and rugby union in The Breakdown, and our seven-day roundup of the best of our sports journalism in The Recap. Living in Australia? Try the Guardian Australia’s daily sports newsletter Continue reading...",
+    "url": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "订阅 Moving the Goalposts 时事通讯：我们的免费女足电子邮件",
+    "candidate_summary_zh": "每周两次免费获取我们的女足综述，其中包含 Ada Hegerberg 和 Magdalena Eriksson 等专家的见解加入我们，在每周时事通讯中深入探讨女足的精彩世界"
+  },
+  {
+    "item_id": "norm_159",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Alexia Putellas: ‘I’m hungry to win, to fight with my teammates for victory’",
+    "summary": "London City Lionesses’ headline signing talks expectations, the lure of playing in England and the prospect of being kicked by her former teammates Momentarily, Alexia Putellas appears somewhat nervous, stepping inside the cramped conference room in a Kent hotel to see 23 reporters squeezed inside, all eager to hear from the Women’s Super League’s newest global superstar, but she quickly composes herself. Within minutes, she is into her stride, asking for tips about roast dinners and drawing laughs from the room as she jokes that her friends who play for other English clubs have told her they are going to kick her. Welcome to the WSL. Speaking in English throughout the 20-minute session with ever-increasing proficiency, the two-time Ballon d’Or winner and four-time Champions League winner explains why she has swapped the prestige of Barcelona – where she has been idolised over a trophy-laden 14-year spell – for a team that finished 22 points adrift of the European qualification places last term. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/09/wsl-london-city-lionesses-alexia-putellas-hungry-to-win-to-fight-with-teammates-for-victory",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Alexia Putellas：“我渴望胜利，与我的队友一起为胜利而战”",
+    "candidate_summary_zh": "伦敦城狮队的头条签约谈到了期望、在英格兰踢球的诱惑以及被前队友踢的可能性。一瞬间，亚历克西娅·普特拉斯（Alexia Putellas）显得有些紧张，她走进肯特郡一家酒店狭窄的会议室，看到挤在里面的 23 名记者，他们都渴望听到女足超级联赛最新的全球超级巨星的报道，但她很快就平静下来"
   },
   {
     "item_id": "norm_164",
@@ -204,8 +256,60 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Football Games, Results, Scores, Transfers, News | Sky Sports",
-    "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
+    "candidate_event_title_zh": "足球比赛、结果、比分、转会、新闻 |天空体育",
+    "candidate_summary_zh": "天空体育足球 - 从英超到冠军联赛的现场比赛、比分、最新足球新闻、转会、结果、赛程和球队新闻"
+  },
+  {
+    "item_id": "norm_165",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "World Cup 2026: USA 4-1 Paraguay - Folarin Balogun at double as Mauricio Pochettino's hosts deliver statement victory",
+    "summary": "The USA kicked off their World Cup on home soil with their joint best-ever victory in the tournament's history as a sizzling performance saw them thrash Paraguay 4-1 in Los Angeles.",
+    "url": "https://www.skysports.com/football/united-states-of-america-vs-paraguay/report/549769",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：美国 4-1 巴拉圭 - 福拉林·巴洛贡 (Folarin Balogun) 梅开二度，毛里西奥·波切蒂诺斯 (Mauricio Pochettinos) 东道主宣布胜利",
+    "candidate_summary_zh": "美国队在洛杉矶以 4-1 击败巴拉圭队，在主场取得了世界杯历史上最好的胜利，拉开了世界杯的序幕。"
+  },
+  {
+    "item_id": "norm_167",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "World Cup 2026: Canada 1-1 Bosnia-Herzegovina - Cyle Larin rescues point for Jesse Marsch's co-hosts in Toronto",
+    "summary": "Canada claimed their first ever World Cup point as the co-hosts came from behind to rescue a 1-1 draw against Bosnia-Herzegovina.",
+    "url": "https://www.skysports.com/football/canada-vs-bosnia-and-herzegovina/report/549768",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：加拿大 1-1 波斯尼亚和黑塞哥维那 - 赛尔·拉林 (Cyle Larin) 为多伦多联合主办国杰西·马什 (Jesse Marsch) 救回一分",
+    "candidate_summary_zh": "加拿大队在世界杯上以1-1战平波斯尼亚和黑塞哥维那，夺得队史首个世界杯积分。"
+  },
+  {
+    "item_id": "norm_169",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "World Cup 2026: Thomas Partey refused entry to Canada ahead of Ghana's opener with Panama in Toronto",
+    "summary": "Thomas Partey has been refused entry to Canada ahead of Ghanas World Cup opener with Panama; Ghana play England on June 23 in Boston, USA, where Partey and the squad have been training; Partey is on bail for allegations of rape and sexual assault. He denies the charges.",
+    "url": "https://www.skysports.com/football/news/17243/13553454/world-cup-2026-thomas-partey-refused-entry-to-canada-ahead-of-ghana-match-with-panama",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：托马斯·帕蒂 (Thomas Partey) 在多伦多加纳队与巴拿马队的揭幕战之前拒绝进入加拿大",
+    "candidate_summary_zh": "托马斯·帕蒂在加纳对阵巴拿马的世界杯揭幕战之前被加拿大拒绝入境；加纳队将于 6 月 23 日在美国波士顿对阵英格兰队，帕蒂和球队一直在那里训练；帕蒂因强奸和性侵犯指控而获保释"
+  },
+  {
+    "item_id": "norm_171",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "Man Utd transfer news: Mateus Fernandes keen on Old Trafford move despite Arsenal interest - Paper Talk",
+    "summary": "Saturdays top stories also include: Bruno Fernandes urging the Manchester United hierarchy to sign Mateus Fernandes; Man City make enquiries over Chelseas Malo Gusto; Crystal Palace look to match Hayden Hackneys asking price",
+    "url": "https://www.skysports.com/football/transfer-paper-talk/12709/13553551/man-utd-transfer-news-mateus-fernandes-keen-on-old-trafford-move-despite-arsenal-interest-paper-talk",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "曼联转会新闻：尽管阿森纳感兴趣，但马特乌斯·费尔南德斯仍热衷于老特拉福德的转会 - Paper Talk",
+    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
     "item_id": "norm_189",
@@ -217,8 +321,47 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+    "candidate_event_title_zh": "足球新闻|天空体育",
+    "candidate_summary_zh": "观看您喜爱的运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会和比分"
+  },
+  {
+    "item_id": "norm_190",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "Man Utd transfer news: Mateus Fernandes keen on Old Trafford move despite Arsenal interest - Paper Talk",
+    "summary": "Saturdays top stories also include: Bruno Fernandes urging the Manchester United hierarchy to sign Mateus Fernandes; Man City make enquiries over Chelseas Malo Gusto; Crystal Palace look to match Hayden Hackneys asking price",
+    "url": "https://www.skysports.com/football/transfer-paper-talk/12709/13553551/man-utd-transfer-news-mateus-fernandes-keen-on-old-trafford-move-despite-arsenal-interest-paper-talk",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "曼联转会新闻：尽管阿森纳感兴趣，但马特乌斯·费尔南德斯仍热衷于老特拉福德的转会 - Paper Talk",
+    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+  },
+  {
+    "item_id": "norm_195",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "World Cup 2026: Thomas Partey refused entry to Canada ahead of Ghana's opener with Panama in Toronto",
+    "summary": "Thomas Partey has been refused entry to Canada ahead of Ghanas World Cup opener with Panama; Ghana play England on June 23 in Boston, USA, where Partey and the squad have been training; Partey is on bail for allegations of rape and sexual assault. He denies the charges.",
+    "url": "https://www.skysports.com/football/news/17243/13553454/world-cup-2026-thomas-partey-refused-entry-to-canada-ahead-of-ghana-match-with-panama",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：托马斯·帕蒂 (Thomas Partey) 在多伦多加纳队与巴拿马队的揭幕战之前拒绝进入加拿大",
+    "candidate_summary_zh": "托马斯·帕蒂在加纳对阵巴拿马的世界杯揭幕战之前被加拿大拒绝入境；加纳队将于 6 月 23 日在美国波士顿对阵英格兰队，帕蒂和球队一直在那里训练；帕蒂因强奸和性侵犯指控而获保释"
+  },
+  {
+    "item_id": "norm_203",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "Scottish Championship",
+    "summary": "",
+    "url": "https://www.skysports.com/scottish-football",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "苏格兰锦标赛",
+    "candidate_summary_zh": "苏格兰锦标赛"
   },
   {
     "item_id": "norm_204",
@@ -230,8 +373,60 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+    "candidate_event_title_zh": "足球新闻|天空体育",
+    "candidate_summary_zh": "观看您喜爱的运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会和比分"
+  },
+  {
+    "item_id": "norm_206",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "ESPN Deportes - Stream deportes en vivo y ESPN originales",
+    "summary": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN.",
+    "url": "https://www.espndeportes.com/watch",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "ESPN Deportes - 直播体育赛事和 ESPN 原创节目",
+    "candidate_summary_zh": "通过 ESPN Deportes，您可以直播体育赛事和 ESPN 原创节目，观看最新比赛和精彩片段的重播；另外，还可观看 ESPN 特殊节目"
+  },
+  {
+    "item_id": "norm_207",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "Brasil 0-1 Estados Unidos (9 de Jun., 2026) Resultado Final - ESPN DEPORTES",
+    "summary": "Resumen del partido Brasil vs. Estados Unidos Amistoso Internacional Femenino resultado final 0-1, jugado el 9 de Junio, 2026 en ESPN DEPORTES.",
+    "url": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401870097",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "巴西 0-1 美国（2026 年 6 月 9 日）最终结果 - ESPN SPORTS",
+    "candidate_summary_zh": "巴西 vs 巴西 比赛概要"
+  },
+  {
+    "item_id": "norm_222",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "Liga MX revela calendario para Apertura 26",
+    "summary": "",
+    "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/16818193/liga-mx-calendario-torneo-apertura-2026",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Liga MX 公布 Apertura 26 赛程表",
+    "candidate_summary_zh": "Liga MX 公布 Apertura 26 赛程表"
+  },
+  {
+    "item_id": "norm_234",
+    "source_id": "media_espn_deportes_futbol_mundial",
+    "source_name": "ESPN Deportes Fútbol Mundial",
+    "title": "¿Cómo fue el desempeño de Oliver Sonne ante Haití y España?",
+    "summary": "La selección peruana ganó un partido y perdió otro, en ambos jugó el danés-peruano.",
+    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818546/asi-jugo-oliver-sonne-los-amistosos-de-peru-vs-haiti-vs-espana",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "奥利弗·索内 (Oliver Sonne) 在对阵海地和西班牙的比赛中表现如何？",
+    "candidate_summary_zh": "丹麦队与秘鲁队的两场比赛中，秘鲁队赢了一场又输了一场"
   },
   {
     "item_id": "norm_251",
@@ -243,8 +438,34 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Fútbol en AS.com - AS.com",
-    "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
+    "candidate_event_title_zh": "AS.com 上的足球 - AS.com",
+    "candidate_summary_zh": "来自一级和二级足球队、冠军、欧洲联赛、国王杯、国家队、英超联赛等的新闻、结果和直接信息"
+  },
+  {
+    "item_id": "norm_257",
+    "source_id": "media_as_futbol",
+    "source_name": "AS Fútbol",
+    "title": "Notición con Víctor Muñoz... y collejas",
+    "summary": "",
+    "url": "https://as.com/futbol/seleccion/collejas-a-victor-munoz-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Víctor Muñoz...和 ​​collejas 的新闻",
+    "candidate_summary_zh": "Víctor Muñoz...和 ​​collejas 的新闻"
+  },
+  {
+    "item_id": "norm_268",
+    "source_id": "media_as_futbol",
+    "source_name": "AS Fútbol",
+    "title": "El ojo que todo lo ve",
+    "summary": "",
+    "url": "https://as.com/futbol/el-ojo-que-todo-lo-ve-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "全视之眼",
+    "candidate_summary_zh": "全视之眼"
   },
   {
     "item_id": "norm_276",
@@ -257,7 +478,33 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "2026 年世界杯 - 足球世界杯 - AS.com",
-    "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
+    "candidate_summary_zh": "关注卡塔尔 2026 年世界杯的最新消息：新闻、比赛、赛程以及您需要了解的有关世界足球盛事的一切 As.com"
+  },
+  {
+    "item_id": "norm_283",
+    "source_id": "media_as_futbol_mundial2026",
+    "source_name": "AS Fútbol Mundial 2026",
+    "title": "Endrick gana enteros",
+    "summary": "",
+    "url": "https://as.com/futbol/mundial/endrick-gana-enteros-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "恩德里克全胜",
+    "candidate_summary_zh": "恩德里克全胜"
+  },
+  {
+    "item_id": "norm_285",
+    "source_id": "media_as_futbol_mundial2026",
+    "source_name": "AS Fútbol Mundial 2026",
+    "title": "Solo ha entrenado a Bosnia y era jugador profesional de póker: la historia de Sergej Barbarez, el seleccionador bosnio",
+    "summary": "",
+    "url": "https://as.com/futbol/mundial/solo-ha-entrenado-a-bosnia-y-era-jugador-profesional-de-poker-la-historia-de-sergej-barbarez-el-seleccionador-bosnio-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "他只执教过波斯尼亚，并且是一名职业扑克玩家：波斯尼亚教练谢尔盖·巴尔巴雷斯 (Sergej Barbarez) 的故事",
+    "candidate_summary_zh": "他只执教过波斯尼亚，并且是一名职业扑克玩家：波斯尼亚教练谢尔盖·巴尔巴雷斯 (Sergej Barbarez) 的故事"
   },
   {
     "item_id": "norm_301",
@@ -269,8 +516,47 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Fútbol - Últimas noticias",
-    "candidate_summary_zh": "Fútbol"
+    "candidate_event_title_zh": "足球 - 最新消息",
+    "candidate_summary_zh": "足球"
+  },
+  {
+    "item_id": "norm_307",
+    "source_id": "media_marca_futbol",
+    "source_name": "Marca Fútbol",
+    "title": "El Girona hace oficial la llegada de Oleksandr Pyshchur",
+    "summary": "El ariete ucraniano llega procedente del ETO FC húngaro y firma hasta el 2031",
+    "url": "https://www.marca.com/futbol/girona/2026/06/12/girona-oficial-llegada-oleksandr-pyshchur.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "赫罗纳正式宣布 Oleksandr Pyshchur 的到来",
+    "candidate_summary_zh": "乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 赫罗纳正式宣布 2026/27 赛季第一位新面孔的到来，他将再次参加乙级联赛"
+  },
+  {
+    "item_id": "norm_311",
+    "source_id": "media_marca_futbol",
+    "source_name": "Marca Fútbol",
+    "title": "Marián Mouriño acompañará al filial en su camino a Segunda",
+    "summary": "",
+    "url": "https://www.marca.com/futbol/celta/2026/06/12/marian-mourino-acompanara-filial-camino-segunda.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Marián Mouriño 将陪同该子公司前往第二",
+    "candidate_summary_zh": "Marián Mouriño 将陪同该子公司前往第二"
+  },
+  {
+    "item_id": "norm_318",
+    "source_id": "media_marca_futbol",
+    "source_name": "Marca Fútbol",
+    "title": "'Málagamanía': el malaguismo colapsa las colas sin saber precio ni horarios",
+    "summary": "",
+    "url": "https://www.marca.com/futbol/malaga/2026/06/11/malagamania-malaguismo-colapsa-colas-precio-horarios.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队",
+    "candidate_summary_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队"
   },
   {
     "item_id": "norm_326",
@@ -282,8 +568,47 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Fútbol - Últimas noticias",
-    "candidate_summary_zh": "Fútbol"
+    "candidate_event_title_zh": "足球 - 最新消息",
+    "candidate_summary_zh": "足球"
+  },
+  {
+    "item_id": "norm_332",
+    "source_id": "media_marca_futbol_noticias",
+    "source_name": "Marca Fútbol Noticias",
+    "title": "El Girona hace oficial la llegada de Oleksandr Pyshchur",
+    "summary": "El ariete ucraniano llega procedente del ETO FC húngaro y firma hasta el 2031",
+    "url": "https://www.marca.com/futbol/girona/2026/06/12/girona-oficial-llegada-oleksandr-pyshchur.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "赫罗纳正式宣布 Oleksandr Pyshchur 的到来",
+    "candidate_summary_zh": "乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 赫罗纳正式宣布 2026/27 赛季第一位新面孔的到来，他将再次参加乙级联赛"
+  },
+  {
+    "item_id": "norm_336",
+    "source_id": "media_marca_futbol_noticias",
+    "source_name": "Marca Fútbol Noticias",
+    "title": "Marián Mouriño acompañará al filial en su camino a Segunda",
+    "summary": "",
+    "url": "https://www.marca.com/futbol/celta/2026/06/12/marian-mourino-acompanara-filial-camino-segunda.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Marián Mouriño 将陪同该子公司前往第二",
+    "candidate_summary_zh": "Marián Mouriño 将陪同该子公司前往第二"
+  },
+  {
+    "item_id": "norm_343",
+    "source_id": "media_marca_futbol_noticias",
+    "source_name": "Marca Fútbol Noticias",
+    "title": "'Málagamanía': el malaguismo colapsa las colas sin saber precio ni horarios",
+    "summary": "",
+    "url": "https://www.marca.com/futbol/malaga/2026/06/11/malagamania-malaguismo-colapsa-colas-precio-horarios.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队",
+    "candidate_summary_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队"
   },
   {
     "item_id": "norm_351",
@@ -295,8 +620,21 @@
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Foot - actualités, mercato, info & vidéo en continu",
-    "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
+    "candidate_event_title_zh": "足球 - 新闻、转会窗口、信息和连续视频",
+    "candidate_summary_zh": "在《队报》上查找所有足球新闻"
+  },
+  {
+    "item_id": "norm_360",
+    "source_id": "media_lequipe_football",
+    "source_name": "L'Équipe Football",
+    "title": "De l'euphorie à la prudence",
+    "summary": "",
+    "url": "https://www.lequipe.fr/Football/Article/De-la-fievre-de-mars-aux-hesitations-de-juin-pourquoi-l-euphorie-est-retombee-autour-des-bleus/1684367",
+    "language": "fr",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "从欣喜到谨慎",
+    "candidate_summary_zh": "从欣喜到谨慎"
   },
   {
     "item_id": "norm_376",
@@ -308,8 +646,60 @@
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
-    "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
+    "candidate_event_title_zh": "2026 年足球世界杯：新闻、赛程和结果",
+    "candidate_summary_zh": "关注足球世界杯的所有新闻"
+  },
+  {
+    "item_id": "norm_385",
+    "source_id": "media_lequipe_football_coupedumonde",
+    "source_name": "L'Équipe Football Coupe du Monde",
+    "title": "De l'euphorie à la prudence",
+    "summary": "",
+    "url": "https://www.lequipe.fr/Football/Article/De-la-fievre-de-mars-aux-hesitations-de-juin-pourquoi-l-euphorie-est-retombee-autour-des-bleus/1684367",
+    "language": "fr",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "从欣喜到谨慎",
+    "candidate_summary_zh": "从欣喜到谨慎"
+  },
+  {
+    "item_id": "norm_388",
+    "source_id": "media_lequipe_football_coupedumonde",
+    "source_name": "L'Équipe Football Coupe du Monde",
+    "title": "Le guide des équipes",
+    "summary": "",
+    "url": "https://www.lequipe.fr/collection/guide-cdm-2026/",
+    "language": "fr",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "团队指南",
+    "candidate_summary_zh": "团队指南"
+  },
+  {
+    "item_id": "norm_389",
+    "source_id": "media_lequipe_football_coupedumonde",
+    "source_name": "L'Équipe Football Coupe du Monde",
+    "title": "Le guide des joueurs",
+    "summary": "",
+    "url": "https://www.lequipe.fr/special/extra/carte-des-joueurs/",
+    "language": "fr",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "玩家引导",
+    "candidate_summary_zh": "玩家引导"
+  },
+  {
+    "item_id": "norm_394",
+    "source_id": "media_lequipe_football_coupedumonde",
+    "source_name": "L'Équipe Football Coupe du Monde",
+    "title": "FranceSénégalmar. 21h00beIN Sports 1, M6",
+    "summary": "",
+    "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/france-senegal-preview/686951",
+    "language": "fr",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "法国塞内加尔马。晚上 9:00beIN Sports 1，M6",
+    "candidate_summary_zh": "法国塞内加尔马。晚上 9:00beIN Sports 1，M6"
   },
   {
     "item_id": "norm_401",
@@ -321,7 +711,7 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Futebol | ge",
+    "candidate_event_title_zh": "足球 |葛",
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
@@ -334,8 +724,8 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Futebol | ge",
-    "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
+    "candidate_event_title_zh": "足球 |葛",
+    "candidate_summary_zh": "在 ge.globo 上关注足球新闻"
   },
   {
     "item_id": "norm_413",
@@ -373,8 +763,8 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mundial 2026",
-    "candidate_summary_zh": "Noticias actualizadas las 24 horas"
+    "candidate_event_title_zh": "2026 年世界杯",
+    "candidate_summary_zh": "新闻24小时更新"
   },
   {
     "item_id": "norm_444",
@@ -386,11 +776,50 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mundial 2026",
-    "candidate_summary_zh": "Noticias actualizadas las 24 horas"
+    "candidate_event_title_zh": "2026 年世界杯",
+    "candidate_summary_zh": "新闻24小时更新"
   },
   {
-    "item_id": "norm_454",
+    "item_id": "norm_446",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "AMA: Daniel Storey - journalist, author, and chief football writer at the i newspaper | Thursday 13th August",
+    "summary": "Hello everyone! We are delighted to announce that Daniel Storey - the chief football writer at u/theipaper - will be joining us for an AMA on Thursday 13th August. Daniel is launching a new series with the i, called The Journeyman. For this series, fans will have the power to vote on the clubs and topics they want him to cover in his reporting - guiding his travels up and down the country this season, to seek out the stories that matter the most to fans. This AMA is therefore the perfect opportunity for you to: Pitch your ideas to Daniel for The Journeyman series Ask any other questions about sports writing, football journalism, and the hot topics in the game, as we head into the 2026/27 season Please post your questions in the thread below - Daniel will then be with us on Thursday on his personal account, u/danielstorey1909 to answer them! submitted by /u/2soccer2bot [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vlidf1/ama_daniel_storey_journalist_author_and_chief/",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "AMA：丹尼尔·斯托里 (Daniel Storey) - i 报纸记者、作家兼首席足球撰稿人 | 8 月 13 日星期四",
+    "candidate_summary_zh": "We are delighted to announce that Daniel Storey - the chief football writer at u/theipaper - will be joining us for an AMA on Thursday 13th August"
+  },
+  {
+    "item_id": "norm_451",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "[Telegraaf] Surprising foreign candidate: KNVB in talks with Roberto Martinez (53) for the position of Dutch national team coach.",
+    "summary": "submitted by /u/HaraldBluetooth1 [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vlufke/telegraaf_surprising_foreign_candidate_knvb_in/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[Telegraaf] 令人惊讶的外国候选人：KNVB 正在与罗伯托·马丁内斯（53 岁）就荷兰国家队主教练一职进行谈判",
+    "candidate_summary_zh": "submitted by /u/HaraldBluetooth1 [link] [comments]"
+  },
+  {
+    "item_id": "norm_452",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "NEC Nijmegen have eliminated Olympiacos from UEFA Champions League. Play-off round: NEC against Bodo/Glimt.",
+    "summary": "submitted by /u/sixersvasilije [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vlsiur/nec_nijmegen_have_eliminated_olympiacos_from_uefa/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "NEC奈梅亨队将奥林匹亚科斯队从欧洲冠军联赛中淘汰。附加赛：NEC 对阵 Bodo/Glimt",
+    "candidate_summary_zh": "由 /u/sixersvasilije 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_453",
     "source_id": "forum_reddit_soccer",
     "source_name": "Reddit r/soccer",
     "title": "[ESPN Brazil] Filipe Luis earns UEFA Pro coaching license and motivates international rule change",
@@ -401,6 +830,58 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "[ESPN 巴西] Filipe Luis 获得 UEFA 职业教练执照并推动国际规则变革",
     "candidate_summary_zh": "由 /u/StealthMan375 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_458",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "[Lazio] have announced that their sponsorship agreement with Polymarket has been terminated by mutual consent after the website was ruled illegal in Italy.",
+    "summary": "The agreement has been reached in a spirit of mutual cooperation and allows for the early termination of the partnership through a mutually agreed solution that safeguards the interests of both parties, in light of the new measures adopted by the competent authorities affecting the applicable regulatory framework. As part of the settlement agreement, Polymarket will pay S.S. Lazio the full amount contractually due for the 2026/2027 sporting season. submitted by /u/Sparky-moon [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vlo0mv/lazio_have_announced_that_their_sponsorship/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[拉齐奥]宣布，在Polymarket网站在意大利被裁定非法后，经双方同意终止了与Polymarket的赞助协议",
+    "candidate_summary_zh": "该协议是本着相互合作的精神达成的，并允许根据主管当局采取的影响适用监管框架的新措施，通过共同商定的解决方案提前终止合作伙伴关系，以维护双方的利益"
+  },
+  {
+    "item_id": "norm_467",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "[Yağız Sabuncuoğlu] Dušan Vlahović has agreed a three-year contract with Besiktas.",
+    "summary": "submitted by /u/Sparky-moon [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vlou24/ya%C4%9F%C4%B1z_sabuncuo%C4%9Flu_du%C5%A1an_vlahovi%C4%87_has_agreed_a/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[Yağız Sabuncuoğlu] 杜尚·弗拉霍维奇 (Dušan Vlahović) 已与贝西克塔斯签订一份为期三年的合同",
+    "candidate_summary_zh": "由 /u/Sparky-moon 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_468",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Jeremy Doku on the comments of French journalist France Pierron during the World Cup: “I don't want to come at her in a way that most people did.” “I want to just people to don't be too harsh on her. We don't know what she has experienced. It's her opinion.”",
+    "summary": "“She got fired and all these things. I never want this for a person.” Context submitted by /u/Sparky-moon [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vlk6hn/jeremy_doku_on_the_comments_of_french_journalist/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "杰里米·多库（Jeremy Doku）谈法国记者弗朗斯·皮龙（France Pierron）在世界杯期间的评论：我不想以大多数人的方式来攻击她。我希望人们不要对她太严厉。我们不知道她经历了什么。这是她的意见",
+    "candidate_summary_zh": "她被解雇了，所有这些事情"
+  },
+  {
+    "item_id": "norm_471",
+    "source_id": "forum_reddit_football",
+    "source_name": "Reddit r/football",
+    "title": "New Fan Megathread",
+    "summary": "Welcome to r/Football's New Fan Megathread Whether you just watched the World Cup, any other competition or simply caught a few matches with friends and thought \"I actually enjoyed this\" - welcome! This thread is for anyone who is: Completely new to football. Looking to start watching regularly. Wondering which club or national team to support. Trying to understand competitions, leagues, rules, or history.Looking for recommendations without feeling judged. There are no stupid questions here. Every lifelong fan started somewhere. ❓ Ask Anything Some common questions include: Which league should I watch? Who should I support? Why is relegation such a big deal? What's the Champions League? Why do people hate VAR? What's the difference between a club and a national team? Which players should I know? How do transfers work? Why do clubs play in multiple competitions? If you've got a question, ask away. Where Should You Start Watching? There isn't one \"correct\" answer. Every league has its own personality. You don't have to pick just one. Many fans watch several competitions. \"Who Should I Support?\" Probably the most common question. There isn't a wrong answer. Some people choose: The club closest to where they live. A club their family supports. A favorite player. A style of football they enjoy. An underdog. A historic giant. A team with a great atmosphere. A club whose story resonates with them. Try watching different matches for a few weeks before deciding. Support usually grows naturally - it doesn't have to be forced. Competitions You'll Hear About Domestic League Every country has its main league. Examples: Premier League La Liga Serie A Bundesliga The league champion is decided over an entire season. Domestic Cups Knockout competitions played alongside the league. These often feature dramatic upsets where smaller clubs eliminate giants. Champions League The biggest annual club competition in world football. The best clubs from across Europe qualify through their domestic leagues. Many consider it the highest level of club football. Europa League & Conference League European competitions featuring clubs that didn't qualify for the Champions League but still earned European places. International Football Players leave their clubs to represent their countries. Major tournaments include: FIFA World Cup UEFA European Championship (Euros) Copa América Africa Cup of Nations (AFCON) AFC Asian Cup CONCACAF Gold Cup Football Terms You'll See Derby - rivalry between nearby clubs. Transfer Window - period when clubs can buy and sell players. Promotion/Relegation - clubs move between divisions based on league position. Clean Sheet - conceding zero goals. Hat-trick - scoring three goals in one game. Extra Time - two 15-minute periods after a draw in knockout matches. Penalty Shootout - used to decide a winner if teams are still level. VAR - Video Assistant Referee. Players Worth Knowing A few current stars you'll hear about often: Kylian Mbappé Erling Haaland Lamine Yamal Jude Bellingham Vinícius Júnior Pedri Harry Kane Mohamed Salah And if people start mentioning Messi or Cristiano Ronaldo - yes, they're two of the greatest players ever, and you'll see their names come up constantly. How to Become a Fan You don't need to watch five matches every weekend. A simple way to start: Pick one league. Watch one or two games each weekend. Follow transfer news. Learn a few clubs. Visit match threads. Ask questions here. Within a month you'll recognize most of the major clubs and players. New Fan Tips Don't worry if you don't understand everything immediately. Ignore anyone who says you're \"not a real fan.\" Football is supposed to be fun. Every supporter started as a beginner. Community Guidelines Please be welcoming. If someone asks a basic question you've heard a hundred times, answer it—or simply move on. We all started somewhere. Let's make r/Football one of the friendliest places on Reddit for new supporters. So... New to football? Looking for a club? Curious about the rules? Just finished watching your first major tournament? The community will be happy to help you get started. submitted by /u/AutoModerator [link] [comments]",
+    "url": "https://www.reddit.com/r/football/comments/1v63cly/new_fan_megathread/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "新粉丝大线程",
+    "candidate_summary_zh": "欢迎来到 r/Footballs New Fan Megathreads 无论您刚刚观看了世界杯、任何其他比赛，还是只是与朋友一起观看了几场比赛并认为我真的很喜欢这个 - 欢迎！"
   },
   {
     "item_id": "norm_504",
@@ -416,6 +897,19 @@
     "candidate_summary_zh": "Also, I just wanted to say its so impressive to see the talent Philadelphia Union is producing in the last decade"
   },
   {
+    "item_id": "norm_506",
+    "source_id": "forum_reddit_worldcup",
+    "source_name": "Reddit r/worldcup",
+    "title": "Max Arfsten finalizing transfer to Middlesbrough, will team with USMNT’s Berhalter, Morris: Sources (Gift Article)",
+    "summary": "submitted by /u/maxair123 [link] [comments]",
+    "url": "https://www.reddit.com/r/ussoccer/comments/1vbqkbt/max_arfsten_finalizing_transfer_to_middlesbrough/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Max Arfsten 完成转会至米德尔斯堡，将与 USMNT 的 Berhalter、Morris 合作：消息来源（礼品文章）",
+    "candidate_summary_zh": "submitted by /u/maxair123 [link] [comments]"
+  },
+  {
     "item_id": "norm_512",
     "source_id": "forum_reddit_worldcup",
     "source_name": "Reddit r/worldcup",
@@ -429,6 +923,19 @@
     "candidate_summary_zh": "/u/PSU02提交的多么有才华的家庭[链接][评论]"
   },
   {
+    "item_id": "norm_514",
+    "source_id": "forum_reddit_worldcup",
+    "source_name": "Reddit r/worldcup",
+    "title": "[Ben Jacobs] 🚨 BREAKING: All 41 Concacaf members have rejected Gianni Infantino's FIFA Forward Enterprise plans. More to follow.",
+    "summary": "submitted by /u/Every-Damage-90 [link] [comments]",
+    "url": "https://www.reddit.com/r/ussoccer/comments/1vb3a6v/ben_jacobs_breaking_all_41_concacaf_members_have/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[Ben Jacobs] 🚨 突发新闻：所有 41 名中北美及加勒比地区足联成员都拒绝了詹尼·因凡蒂诺斯的 FIFA Forward Enterprise 计划。更多内容敬请关注",
+    "candidate_summary_zh": "submitted by /u/Every-Damage-90 [link] [comments]"
+  },
+  {
     "item_id": "norm_617",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
@@ -438,7 +945,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
+    "candidate_event_title_zh": "足球与足球|最新足球新闻和结果 |每日邮报在线",
     "candidate_summary_zh": "了解足球新闻，包括转会、结果和头条新闻"
   },
   {
@@ -455,17 +962,17 @@
     "candidate_summary_zh": "杰纳斯 (Jenas) 曾担任 BBC 足球报道的主演并主持 The One Show，他因向该广播公司的女性员工发送多条露骨短信而于 2025 年 8 月被 BBC 解雇"
   },
   {
-    "item_id": "norm_640",
+    "item_id": "norm_641",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
-    "title": "The hottest World Cup hunks revealed: Rock hard and battle ready. JANA HOCKING knows what these boys all have in common (and it's not their washboard abs)",
+    "title": "USA vs Paraguay - World Cup RECAP: America in dreamland as Folarin Balogun seals dominant win in LA",
     "summary": "",
-    "url": "https://www.dailymail.com/sport/football/article-15883051/World-Cup-2026-players-hottest-jana-hocking.html",
+    "url": "https://www.dailymail.com/sport/football/article-15896307/world-cup-2026-usa-vs-paraguay-live-score-result.html",
     "language": "en",
-    "reason": "general_discussion_only",
+    "reason": "summary_missing",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "世界杯最炙手可热的帅哥揭晓：坚韧不拔，做好战斗准备。贾娜·霍金 (JANA HOCKING) 知道这些男孩的共同点（但不是他们的洗衣板腹肌）",
-    "candidate_summary_zh": "世界杯最炙手可热的帅哥揭晓：坚韧不拔，做好战斗准备。贾娜·霍金 (JANA HOCKING) 知道这些男孩的共同点（但不是他们的洗衣板腹肌）"
+    "candidate_event_title_zh": "美国 vs 巴拉圭 - 世界杯回顾：美国进入梦乡，福拉林·巴洛贡 (Folarin Balogun) 在洛杉矶取得压倒性胜利",
+    "candidate_summary_zh": "美国 vs 巴拉圭 - 世界杯回顾：美国进入梦乡，福拉林·巴洛贡 (Folarin Balogun) 在洛杉矶取得压倒性胜利"
   },
   {
     "item_id": "norm_642",
@@ -477,21 +984,34 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
+    "candidate_event_title_zh": "2026 年 FIFA 世界杯：最新消息和更新 |每日邮报在线",
     "candidate_summary_zh": "FIFA 世界杯 2026 - 赛事的最新消息，包括比分和亮点"
   },
   {
-    "item_id": "norm_650",
+    "item_id": "norm_646",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
-    "title": "The hottest World Cup hunks revealed: Rock hard and battle ready. JANA HOCKING knows what these boys all have in common (and it's not their washboard abs)",
-    "summary": "",
-    "url": "https://www.dailymail.com/sport/football/article-15883051/World-Cup-2026-players-hottest-jana-hocking.html",
+    "title": "Tom Cruise hangs with David and Victoria Beckham at World Cup match",
+    "summary": "Tom Cruise was spotted hanging with close pals David Beckham and wife Victoria while attending the World Cup game in Los Angeles on Friday.",
+    "url": "https://www.dailymail.com/sport/football/article-15896651/tom-cruise-david-beckham-victoria-world-cup-los-angeles-friendship.html",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "世界杯最炙手可热的帅哥揭晓：坚韧不拔，做好战斗准备。贾娜·霍金 (JANA HOCKING) 知道这些男孩的共同点（但不是他们的洗衣板腹肌）",
-    "candidate_summary_zh": "世界杯最炙手可热的帅哥揭晓：坚韧不拔，做好战斗准备。贾娜·霍金 (JANA HOCKING) 知道这些男孩的共同点（但不是他们的洗衣板腹肌）"
+    "candidate_event_title_zh": "汤姆·克鲁斯 (Tom Cruise) 与大卫·贝克汉姆 (David Beckham) 和维多利亚·贝克汉姆 (Victoria Beckham) 一起观看世界杯比赛",
+    "candidate_summary_zh": "周五，汤姆·克鲁斯在洛杉矶观看世界杯比赛时被发现与好友大卫·贝克汉姆和妻子维多利亚在一起"
+  },
+  {
+    "item_id": "norm_647",
+    "source_id": "media_daily_mail_worldcup",
+    "source_name": "Daily Mail World Cup Page",
+    "title": "Katy Perry's 'trainwreck' World Cup opening ceremony slammed by fans",
+    "summary": "The first 2026 World Cup game on American soil kicked off in baffling style on Friday night as Katy Perry performed an underwhelming ballad just before kickoff in LA.",
+    "url": "https://www.dailymail.com/sport/football/article-15896509/katy-perry-world-cup-opening-los-angeles.html",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "凯蒂·佩里 (Katy Perry) 的世界杯开幕式惨遭粉丝猛烈抨击",
+    "candidate_summary_zh": "周五晚上，2026 年世界杯在美国的第一场比赛以莫名其妙的方式拉开帷幕，凯蒂·佩里 (Katy Perry) 在洛杉矶开球前表演了一首平淡无奇的民谣"
   },
   {
     "item_id": "norm_651",
@@ -520,6 +1040,19 @@
     "candidate_summary_zh": "球迷猛烈抨击迈克尔·布布尔 (Michael Buble) 因垃圾加拿大世界杯开幕式在多伦多举行"
   },
   {
+    "item_id": "norm_660",
+    "source_id": "media_daily_mail_worldcup",
+    "source_name": "Daily Mail World Cup Page",
+    "title": "Michael Buble launches Canada's World Cup with glitzy ceremony as thousands of fans go wild in Toronto",
+    "summary": "",
+    "url": "https://www.dailymail.com/sport/football/article-15895733/Canada-opening-ceremony-World-Cup-Michael-Buble.html",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "迈克尔·布布尔 (Michael Buble) 在多伦多举办了一场盛大的加拿大世界杯开幕式，数千名球迷为之疯狂",
+    "candidate_summary_zh": "迈克尔·布布尔 (Michael Buble) 在多伦多举办了一场盛大的加拿大世界杯开幕式，数千名球迷为之疯狂"
+  },
+  {
     "item_id": "norm_667",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
@@ -542,7 +1075,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "News - Page 2 | FourFourTwo",
+    "candidate_event_title_zh": "新闻 - 第 2 页 |四四二",
     "candidate_summary_zh": "新闻 |四四二"
   },
   {
@@ -568,7 +1101,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "World Cup - All news about this competition",
+    "candidate_event_title_zh": "世界杯 - 有关本次比赛的所有新闻",
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs 世界杯"
   },
   {
@@ -607,8 +1140,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Verifying Device",
-    "candidate_summary_zh": "Verifying Device"
+    "candidate_event_title_zh": "验证设备",
+    "candidate_summary_zh": "验证设备"
   },
   {
     "item_id": "norm_696",
@@ -620,8 +1153,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Verifying Device",
-    "candidate_summary_zh": "Verifying Device"
+    "candidate_event_title_zh": "验证设备",
+    "candidate_summary_zh": "验证设备"
   },
   {
     "item_id": "norm_697",
@@ -633,8 +1166,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Verifying Device",
-    "candidate_summary_zh": "Verifying Device"
+    "candidate_event_title_zh": "验证设备",
+    "candidate_summary_zh": "验证设备"
   },
   {
     "item_id": "norm_698",
@@ -674,6 +1207,19 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "巴西BRA0-0-0巴西BRAM摩洛哥MAR0-0-0摩洛哥MARBRA -0.75O/U 2.5",
     "candidate_summary_zh": "巴西BRA0-0-0巴西BRAM摩洛哥MAR0-0-0摩洛哥MARBRA -0.75O/U 2.5"
+  },
+  {
+    "item_id": "norm_708",
+    "source_id": "media_yahoo_world_cup",
+    "source_name": "Yahoo Sport World Cup Page",
+    "title": "HaitiHTI0-0-0HaitiHTIScotlandSCO0-0-0ScotlandSCOHTI +1O/U 2.5",
+    "summary": "",
+    "url": "https://sports.yahoo.com/soccer/fifa-world-cup/scotland-haiti-13587201/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "海地HTI0-0-0海地HTIS苏格兰SCO0-0-0苏格兰SCOHTI +1O/U 2.5",
+    "candidate_summary_zh": "海地HTI0-0-0海地HTIS苏格兰SCO0-0-0苏格兰SCOHTI +1O/U 2.5"
   },
   {
     "item_id": "norm_712",
@@ -765,6 +1311,19 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "通过 OneFootball 查看最新的 FIFA 世界杯™ 比赛结果",
     "candidate_summary_zh": "在 OneFootball 上查看所有比赛新闻 打开菜单 OneFootballs 主页 搜索 设置 登录 FIFA 世界杯™ 德国“使用”Major Tom 作为世界杯进球歌曲 据《图片报》报道，德国已选择将在 2026 年世界杯比赛期间播放的歌曲"
+  },
+  {
+    "item_id": "norm_733",
+    "source_id": "media_one_football_world_cup",
+    "source_name": "One Football World Cup Page",
+    "title": "Betting South Africa",
+    "summary": "",
+    "url": "https://onefootball.com/en/betting/za",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "南非投注",
+    "candidate_summary_zh": "南非投注"
   },
   {
     "item_id": "norm_734",
@@ -1010,8 +1569,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "CONMEBOL SudamericanaLIVE：河床队 vs 布卢姆姆队",
-    "candidate_summary_zh": "CONMEBOL SudamericanaLIVE：河床队 vs 布卢姆姆队"
+    "candidate_event_title_zh": "CONMEBOL SudamericanaLIVE：河床 vs 布卢明",
+    "candidate_summary_zh": "CONMEBOL SudamericanaLIVE：河床 vs 布卢明"
   },
   {
     "item_id": "norm_862",
@@ -1089,7 +1648,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球 - 新闻、转会和实时赛果 |球",
-    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时结果"
+    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时赛果"
   },
   {
     "item_id": "norm_901",
@@ -1115,7 +1674,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球第 2 页 - 新闻、转会和实时比分 |球",
-    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时结果"
+    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时赛果"
   },
   {
     "item_id": "norm_915",
