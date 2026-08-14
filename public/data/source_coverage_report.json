@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-13T23:24:39.593Z",
+  "generated_at": "2026-08-14T00:43:24.667Z",
   "total_sources": 102,
   "enabled_sources": 102,
   "success_sources": 90,
   "failed_sources": 12,
-  "included_in_frontend_sources": 28,
+  "included_in_frontend_sources": 37,
   "success_rate": 88.24,
   "target_success_rate": 60,
   "items": [
@@ -674,7 +674,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_reuters_soccer",
@@ -803,7 +803,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_as_futbol_mundial2026",
@@ -838,7 +838,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_marca_futbol",
@@ -874,7 +874,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_marca_futbol_noticias",
@@ -910,7 +910,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_lequipe_football",
@@ -944,7 +944,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_lequipe_football_coupedumonde",
@@ -978,7 +978,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_kicker_fussball",
@@ -1030,8 +1030,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 12,
-      "valid_items_count": 10,
-      "discarded_count": 10,
+      "valid_items_count": 11,
+      "discarded_count": 9,
       "discovered_feeds": [
         "https://ge.globo.com/feed",
         "https://ge.globo.com/rss",
@@ -1047,7 +1047,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_globo_esporte_copadomundo",
@@ -1081,7 +1081,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_ole_argentina_mundial 2026",
@@ -1233,7 +1233,7 @@
       "attempted_strategies": [
         "rss_direct"
       ],
-      "successful_strategy": null,
+      "successful_strategy": "rss_direct",
       "fetched_count": 20,
       "valid_items_count": 20,
       "discarded_count": 0,
@@ -1241,9 +1241,9 @@
         "https://mastodon.social/tags/FIFAWorldCup.rss"
       ],
       "discovered_sitemaps": [],
-      "status": "cached",
+      "status": "ok",
       "failure_category": null,
-      "failure_reason": "ETIMEDOUT",
+      "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
       "included_in_frontend": false
     },
@@ -1311,7 +1311,7 @@
       "attempted_strategies": [
         "rss_direct"
       ],
-      "successful_strategy": null,
+      "successful_strategy": "rss_direct",
       "fetched_count": 20,
       "valid_items_count": 20,
       "discarded_count": 0,
@@ -1319,9 +1319,9 @@
         "https://mastodon.social/tags/soccer.rss"
       ],
       "discovered_sitemaps": [],
-      "status": "cached",
+      "status": "ok",
       "failure_category": null,
-      "failure_reason": "ETIMEDOUT",
+      "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
       "included_in_frontend": false
     },
@@ -1520,8 +1520,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 10,
-      "discarded_count": 10,
+      "valid_items_count": 8,
+      "discarded_count": 8,
       "discovered_feeds": [
         "https://sports.yahoo.com/rss/",
         "https://sports.yahoo.com/feed",
@@ -2822,7 +2822,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 22,
-      "valid_items_count": 23,
+      "valid_items_count": 24,
       "discarded_count": 2,
       "discovered_feeds": [
         "https://www.abola.pt/rss-articles.xml",
