@@ -9,8 +9,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
-    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
+    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
     "item_id": "norm_2",
@@ -22,7 +22,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Scores & Fixtures",
+    "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
     "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
@@ -35,8 +35,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Sky Sports FIFA World Cup Scores & Fixtures",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -48,8 +48,34 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
-    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
+    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
+    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Cristiano Ronaldo 进球追踪器：职业生涯 1000 个进球之路",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多 (Cristiano Ronaldo) 追求 1,000 粒进球，ESPN 提供了葡萄牙超级巨星追求的逐个进球分析"
+  },
+  {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
   },
   {
     "item_id": "norm_53",
@@ -61,8 +87,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_event_title_zh": "ESPN 足球 RSS 提要信息页面",
+    "candidate_summary_zh": "用它来查找特定的 ESPN 足球直播；本身不是新闻提要"
   },
   {
     "item_id": "norm_54",
@@ -74,8 +100,60 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_event_title_zh": "世界杯",
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
+  },
+  {
+    "item_id": "norm_71",
+    "source_id": "media_bbc_sport_football_worldcup",
+    "source_name": "BBC Sport Football Worldcup Page",
+    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
+    "summary": "",
+    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
+    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
+  },
+  {
+    "item_id": "norm_98",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Football Daily",
+    "summary": "Kelly Somers speaks to Tottenham midfielder James Maddison.",
+    "url": "https://www.bbc.co.uk/sounds/play/p0p5nnky?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "足球日报",
+    "candidate_summary_zh": "凯利·萨默斯与托特纳姆热刺中场詹姆斯·麦迪森交谈"
+  },
+  {
+    "item_id": "norm_104",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Bavidge earns Inverness CT a point against Partick Thistle",
+    "summary": "Watch the goals as Alfie Bavidge's late goal earns Inverness Caledonian Thistle a draw against Partick Thistle in the Scottish Championship.",
+    "url": "https://www.bbc.co.uk/sport/videos/cvgl2zz12xeo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Bavidge 因弗内斯 CT 对阵 Partick Thistle 赢得一分",
+    "candidate_summary_zh": "观看进球比赛， Alfie Bavidges的后期进球为Inverness Caledonian Thistle赢得了在苏格兰锦标赛中对阵Partick Thistle的平局"
+  },
+  {
+    "item_id": "norm_105",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Aguero and Shearer star in best opening-round debuts",
+    "summary": "BBC Sport takes a look at some of the Premier League's greatest opening-day debuts, including Alan Shearer's Blackburn blinder and Michu's Swansea screamers.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cwyl718g865o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Aguero和Shearer亮相最佳首轮",
+    "candidate_summary_zh": "英国广播公司体育频道观看了一些英超联赛最伟大的开幕日首秀，包括Alan Shearers Blackburn Blinder和Michus Swansea Screamers"
   },
   {
     "item_id": "norm_107",
@@ -87,8 +165,99 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+    "candidate_event_title_zh": "2026 年世界杯 |卫报双引号双引号",
+    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
+  },
+  {
+    "item_id": "norm_111",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "红红军团在男子世界杯历史上首次取得一分"
+  },
+  {
+    "item_id": "norm_118",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
+    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
+  },
+  {
+    "item_id": "norm_130",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "超级替补赛尔·拉林 (Cyle Larin) 在对阵波斯尼亚和黑塞哥维那的比赛中为加拿大队挽救一分",
+    "candidate_summary_zh": "超级替补赛尔·拉林 (Cyle Larin) 在对阵波斯尼亚和黑塞哥维那的比赛中为加拿大队挽救一分"
+  },
+  {
+    "item_id": "norm_139",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Andy Burnham says he wants to bring men’s World Cup back to UK in 2042",
+    "summary": "PM tells regional mayors during informal discussions he is keen for tournament to return to British Isles Andy Burnham has said he wants to bring the men’s World Cup to the UK in 2042, returning the tournament to Britain for the first time in almost eight decades. During informal discussions at No 10 North in Manchester on Friday, the prime minister told regional mayors he was keen for the tournament to be played in the British Isles. Continue reading...",
+    "url": "https://www.theguardian.com/politics/2026/aug/22/andy-burnham-uk-host-mens-world-cup-football-2042",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "安迪·伯纳姆 (Andy Burnham) 表示他希望 2042 年将男子世界杯带回英国",
+    "candidate_summary_zh": "英国首相在非正式讨论中告诉地区市长，他渴望赛事重返不列颠群岛 安迪·伯纳姆 (Andy Burnham) 表示，他希望在 2042 年将男子世界杯带到英国，这是近 8 年来世界杯首次重返英国"
+  },
+  {
+    "item_id": "norm_150",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Fifa general secretary Mattias Grafström sounded out about standing against Infantino",
+    "summary": "African federations sound out Swede over role ‘They think he can group all the continents’ Senior figures in African football have held talks with Fifa’s general secretary, Mattias Grafström, to sound out his interest in standing against Gianni Infantino, the Guardian can reveal. As many as 15 federations in Africa are also said to be ready to turn their backs on Infantino when he seeks re-election as Fifa president next year, despite the Confederation of Africa Football (Caf) claiming that its executive committee (exco) had “unanimously reconfirmed” its support for the under-fire 56-year-old. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/22/fifa-general-secretary-mattias-grafstrom-could-stand-against-infantino-in-election",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "国际足联总书记马蒂亚斯·格拉夫斯特伦（Mattias Grafström）站出来反对因凡蒂诺（Inf",
+    "candidate_summary_zh": "非洲足协试探瑞典人的角色“他们认为他可以将所有大洲聚集在一起”《卫报》透露，非洲足坛的高层人士已经与国际足联秘书长马蒂亚斯·格拉夫斯特罗姆进行了会谈，以试探他是否有兴趣与詹尼·因凡蒂诺对抗。"
+  },
+  {
+    "item_id": "norm_153",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Sign up for the Moving the Goalposts newsletter: our free women’s football email",
+    "summary": "Get our roundup of women’s football for free twice a week, featuring the insights of experts such as Ada Hegerberg and Magdalena Eriksson Join us as we delve deeper into the wonderful world of women’s football in our weekly newsletter. It is informative, entertaining, global, critical – when needed – and, above all, passionate. Written mainly by Júlia Belas Trindade and Sophie Downey, expect guest appearances from stars such as Anita Asante, Ada Hegerberg and many more. Try our other sports emails: as well as the occasionally funny football email The Fiver from Monday to Friday, there are weekly catch-ups for cricket in The Spin and rugby union in The Breakdown, and our seven-day roundup of the best of our sports journalism in The Recap. Living in Australia? Try the Guardian Australia’s daily sports newsletter Continue reading...",
+    "url": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "订阅 Moving the Goalposts 时事通讯：我们的免费女足电子邮件",
+    "candidate_summary_zh": "每周两次免费获取我们的女足综述，其中包含 Ada Hegerberg 和 Magdalena Eriksson 等专家的见解加入我们，在每周时事通讯中深入探讨女足的精彩世界"
+  },
+  {
+    "item_id": "norm_160",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Ronaldinho, 46, on mission of love and happiness – and maybe goals – at Serie C’s Ravenna",
+    "summary": "Brazilian legend pledges excitement at his unveiling for a comeback that is winning over initially disbelieving fans It seemed like a joke, a hoax, when at 10pm on 19 June, Ravenna broke the news of Ronaldinho’s signing. The Brazilian, a former Ballon d’Or winner and one of the most recognisable figures in world football, had played his last official match in 2015 for Fluminense; a professional signing in Serie C at 46 years of age seemed unrealistic, to say the least. With football’s attention taken by the World Cup, the game was shocked by this bolt from the blue. For the most part it remained in disbelief. There was much discussion, in the city and around the world, about the real value of this operation, and we talked about it too, speaking with the mayor, the fans and the president of Ravenna, Ignazio Cipriani, scion of the family known globally for Harry’s Bar, who is giving his city much more than a dream. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/20/ronaldinho-46-serie-c-ravenna-unveiling-comeback",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "46岁的罗纳尔迪尼奥（Ronaldinho）在意甲联赛的拉文纳（Ravenna）肩负着爱与幸福的使命，也许还有",
+    "candidate_summary_zh": "巴西传奇人物在他的复出揭幕仪式上表示兴奋，这赢得了最初不相信的球迷的支持。6 月 19 日晚上 10 点，拉文纳宣布了罗纳尔迪尼奥签约的消息，这似乎是一个笑话，一个骗局"
   },
   {
     "item_id": "norm_162",
@@ -100,8 +269,73 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Football Games, Results, Scores, Transfers, News | Sky Sports",
-    "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
+    "candidate_event_title_zh": "足球比赛、成绩、分数、转会、新闻|天空体育",
+    "candidate_summary_zh": "天空体育足球 - 从英超到冠军联赛的现场比赛、比分、最新足球新闻、转会、结果、赛程和球队新闻"
+  },
+  {
+    "item_id": "norm_163",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "World Cup 2026: USA 4-1 Paraguay - Folarin Balogun at double as Mauricio Pochettino's hosts deliver statement victory",
+    "summary": "The USA kicked off their World Cup on home soil with their joint best-ever victory in the tournament's history as a sizzling performance saw them thrash Paraguay 4-1 in Los Angeles.",
+    "url": "https://www.skysports.com/football/united-states-of-america-vs-paraguay/report/549769",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：美国 4-1 巴拉圭 - 福拉林·巴洛贡 (Folarin Balogun) 梅开二度，毛里西奥·波切蒂诺斯 (Mauricio Pochettinos) 东道主宣布胜利",
+    "candidate_summary_zh": "美国队在洛杉矶以 4-1 击败巴拉圭队，在主场取得了世界杯历史上最好的胜利，拉开了世界杯的序幕。"
+  },
+  {
+    "item_id": "norm_165",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "World Cup 2026: Canada 1-1 Bosnia-Herzegovina - Cyle Larin rescues point for Jesse Marsch's co-hosts in Toronto",
+    "summary": "Canada claimed their first ever World Cup point as the co-hosts came from behind to rescue a 1-1 draw against Bosnia-Herzegovina.",
+    "url": "https://www.skysports.com/football/canada-vs-bosnia-and-herzegovina/report/549768",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：加拿大 1-1 波斯尼亚和黑塞哥维那 - 赛尔·拉林 (Cyle Larin) 为多伦多联合主办国杰西·马什 (Jesse Marsch) 救回一分",
+    "candidate_summary_zh": "加拿大队在世界杯上以1-1战平波斯尼亚和黑塞哥维那，夺得队史首个世界杯积分。"
+  },
+  {
+    "item_id": "norm_167",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "World Cup 2026: Thomas Partey refused entry to Canada ahead of Ghana's opener with Panama in Toronto",
+    "summary": "Thomas Partey has been refused entry to Canada ahead of Ghanas World Cup opener with Panama; Ghana play England on June 23 in Boston, USA, where Partey and the squad have been training; Partey is on bail for allegations of rape and sexual assault. He denies the charges.",
+    "url": "https://www.skysports.com/football/news/17243/13553454/world-cup-2026-thomas-partey-refused-entry-to-canada-ahead-of-ghana-match-with-panama",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：托马斯·帕蒂 (Thomas Partey) 在多伦多加纳队与巴拿马队的揭幕战之前拒绝进入加拿大",
+    "candidate_summary_zh": "在加纳队与巴拿马队举行世界杯揭幕战之前，托马斯·帕蒂被拒绝进入加拿大；加纳队于6月23日在美国波士顿与英格兰队比赛，帕蒂和球队一直在那里训练；帕蒂因强奸和性侵犯指控而被保释"
+  },
+  {
+    "item_id": "norm_168",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "Mateus Fernandes transfer: Manchester United preparing opening bid for West Ham midfielder as 21-year-old becomes priority target",
+    "summary": "Manchester United see Mateus Fernandes as a realistic target following West Hams relegation from the Premier League; Sky Sports News understands West Ham value Fernandes at around £80m; United are unlikely to entertain such a price tag",
+    "url": "https://www.skysports.com/football/news/11095/13553501/mateus-fernandes-transfer-manchester-united-preparing-opening-bid-for-west-ham-midfielder-as-21-year-old-becomes-priority-target",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "马特乌斯·费尔南德斯（Mateus Fernandes）转会：曼联准备开始竞标西汉姆中场，因为21岁成为优先目标",
+    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+  },
+  {
+    "item_id": "norm_169",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "Man Utd transfer news: Mateus Fernandes keen on Old Trafford move despite Arsenal interest - Paper Talk",
+    "summary": "Saturdays top stories also include: Bruno Fernandes urging the Manchester United hierarchy to sign Mateus Fernandes; Man City make enquiries over Chelseas Malo Gusto; Crystal Palace look to match Hayden Hackneys asking price",
+    "url": "https://www.skysports.com/football/transfer-paper-talk/12709/13553551/man-utd-transfer-news-mateus-fernandes-keen-on-old-trafford-move-despite-arsenal-interest-paper-talk",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "曼联转会消息：尽管阿森纳感兴趣，但马特乌斯·费尔南德斯仍热衷于老特拉福德的转会 - Paper Talk",
+    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
     "item_id": "norm_187",
@@ -113,8 +347,60 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+    "candidate_event_title_zh": "足球新闻|天空体育",
+    "candidate_summary_zh": "观看您喜爱的运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会和比分"
+  },
+  {
+    "item_id": "norm_188",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "Man Utd transfer news: Mateus Fernandes keen on Old Trafford move despite Arsenal interest - Paper Talk",
+    "summary": "Saturdays top stories also include: Bruno Fernandes urging the Manchester United hierarchy to sign Mateus Fernandes; Man City make enquiries over Chelseas Malo Gusto; Crystal Palace look to match Hayden Hackneys asking price",
+    "url": "https://www.skysports.com/football/transfer-paper-talk/12709/13553551/man-utd-transfer-news-mateus-fernandes-keen-on-old-trafford-move-despite-arsenal-interest-paper-talk",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "曼联转会消息：尽管阿森纳感兴趣，但马特乌斯·费尔南德斯仍热衷于老特拉福德的转会 - Paper Talk",
+    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+  },
+  {
+    "item_id": "norm_192",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "Mateus Fernandes transfer: Manchester United preparing opening bid for West Ham midfielder as 21-year-old becomes priority target",
+    "summary": "Manchester United see Mateus Fernandes as a realistic target following West Hams relegation from the Premier League; Sky Sports News understands West Ham value Fernandes at around £80m; United are unlikely to entertain such a price tag",
+    "url": "https://www.skysports.com/football/news/11095/13553501/mateus-fernandes-transfer-manchester-united-preparing-opening-bid-for-west-ham-midfielder-as-21-year-old-becomes-priority-target",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "马特乌斯·费尔南德斯（Mateus Fernandes）转会：曼联准备开始竞标西汉姆中场，因为21岁成为优先目标",
+    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+  },
+  {
+    "item_id": "norm_193",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "World Cup 2026: Thomas Partey refused entry to Canada ahead of Ghana's opener with Panama in Toronto",
+    "summary": "Thomas Partey has been refused entry to Canada ahead of Ghanas World Cup opener with Panama; Ghana play England on June 23 in Boston, USA, where Partey and the squad have been training; Partey is on bail for allegations of rape and sexual assault. He denies the charges.",
+    "url": "https://www.skysports.com/football/news/17243/13553454/world-cup-2026-thomas-partey-refused-entry-to-canada-ahead-of-ghana-match-with-panama",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026 年世界杯：托马斯·帕蒂 (Thomas Partey) 在多伦多加纳队与巴拿马队的揭幕战之前拒绝进入加拿大",
+    "candidate_summary_zh": "在加纳队与巴拿马队举行世界杯揭幕战之前，托马斯·帕蒂被拒绝进入加拿大；加纳队于6月23日在美国波士顿与英格兰队比赛，帕蒂和球队一直在那里训练；帕蒂因强奸和性侵犯指控而被保释"
+  },
+  {
+    "item_id": "norm_201",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "Scottish Championship",
+    "summary": "",
+    "url": "https://www.skysports.com/scottish-football",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "苏格兰锦标赛",
+    "candidate_summary_zh": "苏格兰锦标赛"
   },
   {
     "item_id": "norm_202",
@@ -126,8 +412,47 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+    "candidate_event_title_zh": "足球新闻|天空体育",
+    "candidate_summary_zh": "观看您喜爱的运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会和比分"
+  },
+  {
+    "item_id": "norm_204",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "ESPN Deportes - Stream deportes en vivo y ESPN originales",
+    "summary": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN.",
+    "url": "https://www.espndeportes.com/watch",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "ESPN Deportes - 直播体育赛事和 ESPN 原创节目",
+    "candidate_summary_zh": "通过 ESPN Deportes，您可以直播体育赛事和 ESPN 原创节目，观看最新比赛和精彩片段的重播；另外，还可观看 ESPN 特殊节目"
+  },
+  {
+    "item_id": "norm_205",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "Brasil 0-1 Estados Unidos (9 de Jun., 2026) Resultado Final - ESPN DEPORTES",
+    "summary": "Resumen del partido Brasil vs. Estados Unidos Amistoso Internacional Femenino resultado final 0-1, jugado el 9 de Junio, 2026 en ESPN DEPORTES.",
+    "url": "https://espndeportes.espn.com/futbol/partido/_/juegoId/401870097",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "巴西 0-1 美国（2026 年 6 月 9 日）最终结果 - ESPN SPORTS",
+    "candidate_summary_zh": "巴西 vs 巴西 比赛概要"
+  },
+  {
+    "item_id": "norm_220",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "Liga MX revela calendario para Apertura 26",
+    "summary": "",
+    "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/16818193/liga-mx-calendario-torneo-apertura-2026",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Liga MX 公布 Apertura 26 赛程表",
+    "candidate_summary_zh": "Liga MX 公布 Apertura 26 赛程表"
   },
   {
     "item_id": "norm_232",
@@ -140,7 +465,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "奥利弗·索内 (Oliver Sonne) 在对阵海地和西班牙的比赛中表现如何？",
-    "candidate_summary_zh": "La selección peruana ganó un partido y perdió otro, en ambos jugó el danés-peruano"
+    "candidate_summary_zh": "丹麦队与秘鲁队的两场比赛中，秘鲁队赢了一场又输了一场"
   },
   {
     "item_id": "norm_249",
@@ -156,6 +481,32 @@
     "candidate_summary_zh": "来自一级和二级足球队、冠军、欧洲联赛、国王杯、国家队、英超联赛等的新闻、结果和直接信息"
   },
   {
+    "item_id": "norm_255",
+    "source_id": "media_as_futbol",
+    "source_name": "AS Fútbol",
+    "title": "Notición con Víctor Muñoz... y collejas",
+    "summary": "",
+    "url": "https://as.com/futbol/seleccion/collejas-a-victor-munoz-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Víctor Muñoz...和 ​​collejas 的新闻",
+    "candidate_summary_zh": "Víctor Muñoz...和 ​​collejas 的新闻"
+  },
+  {
+    "item_id": "norm_266",
+    "source_id": "media_as_futbol",
+    "source_name": "AS Fútbol",
+    "title": "El ojo que todo lo ve",
+    "summary": "",
+    "url": "https://as.com/futbol/el-ojo-que-todo-lo-ve-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "全视之眼",
+    "candidate_summary_zh": "全视之眼"
+  },
+  {
     "item_id": "norm_274",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
@@ -165,7 +516,7 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
+    "candidate_event_title_zh": "2026 年世界杯 - 足球世界杯 - AS.com",
     "candidate_summary_zh": "关注卡塔尔 2026 年世界杯的最新消息：新闻、比赛、赛程以及您需要了解的有关世界足球盛事的一切 As.com"
   },
   {
@@ -204,21 +555,8 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "足球-最新消息",
-    "candidate_summary_zh": "Fútbol"
-  },
-  {
-    "item_id": "norm_304",
-    "source_id": "media_marca_futbol",
-    "source_name": "Marca Fútbol",
-    "title": "Funes calma la rivalidad con el Almería: \"Lo que haya que decir lo diremos con la pelota\"",
-    "summary": "El entrenador malaguista espera una eliminatoria abierta con el Almería como favorito",
-    "url": "https://www.marca.com/futbol/malaga/2026/06/12/funes-calma-rivalidad-almeria-tengamos-decir-diremos-pelota.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Funes平息了与Almería的竞争：我们要用球说些什么",
-    "candidate_summary_zh": "这位马拉吉斯塔教练希望与阿尔梅里亚保持开放关系，因为最受欢迎的马拉加教练希望与Indalic车队保持开放关系，因为最受欢迎的马拉加已经再次闻起来像一个重要的周末"
+    "candidate_event_title_zh": "足球 - 最新消息",
+    "candidate_summary_zh": "足球"
   },
   {
     "item_id": "norm_305",
@@ -230,73 +568,34 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Girona正式宣布Oleksandr Pyshchur的到来",
-    "candidate_summary_zh": "乌克兰击球公羊从匈牙利ETO足球俱乐部到达，标志到2031年乌克兰击球公羊从匈牙利ETO足球俱乐部到达，标志到2031年赫罗纳正式宣布其2026/27学年第一张新面孔的到来，它将在第二学年再次参加比赛"
+    "candidate_event_title_zh": "赫罗纳正式宣布 Oleksandr Pyshchur 的到来",
+    "candidate_summary_zh": "乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 赫罗纳正式宣布 2026/27 赛季第一位新面孔的到来，他将再次参加乙级联赛"
   },
   {
-    "item_id": "norm_307",
+    "item_id": "norm_309",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
-    "title": "Ibai le abre la puerta del Zaragoza a Ander Herrera en su presentación: \"Ojalá venga\"",
+    "title": "Marián Mouriño acompañará al filial en su camino a Segunda",
     "summary": "",
-    "url": "https://www.marca.com/futbol/zaragoza/2026/06/12/ibai-gomez-le-abre-puerta-zaragoza-ander-herrera-ojala-venga.html",
+    "url": "https://www.marca.com/futbol/celta/2026/06/12/marian-mourino-acompanara-filial-camino-segunda.html",
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Ibai在他的演讲中为Ander Herrera打开了萨拉戈萨的大门：我希望他能来",
-    "candidate_summary_zh": "Ibai在他的演讲中为Ander Herrera打开了萨拉戈萨的大门：我希望他能来"
+    "candidate_event_title_zh": "Marián Mouriño 将陪同该子公司前往第二",
+    "candidate_summary_zh": "Marián Mouriño 将陪同该子公司前往第二"
   },
   {
-    "item_id": "norm_308",
+    "item_id": "norm_316",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
-    "title": "Navarro sobre la renovación de Alexis: \"La intención es llegar a un acuerdo\"",
+    "title": "'Málagamanía': el malaguismo colapsa las colas sin saber precio ni horarios",
     "summary": "",
-    "url": "https://www.marca.com/futbol/sevilla/2026/06/12/navarro-sobre-renovacion-alexis-intencion-llegar-acuerdo.html",
+    "url": "https://www.marca.com/futbol/malaga/2026/06/11/malagamania-malaguismo-colapsa-colas-precio-horarios.html",
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Navarro谈Alexis的续约：意图是达成协议",
-    "candidate_summary_zh": "Navarro谈Alexis的续约：意图是达成协议"
-  },
-  {
-    "item_id": "norm_315",
-    "source_id": "media_marca_futbol",
-    "source_name": "Marca Fútbol",
-    "title": "Miguel Marí, llamado para los ascensos en tiempos modernos: ¡cuatro casi seguidos a 1ª RFEF!",
-    "summary": "",
-    "url": "https://www.marca.com/futbol/primera-rfef/2026/06/12/miguel-mari-llamado-ascensos-tiempos-modernos-cuatro-seguidos-1-rfef.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！",
-    "candidate_summary_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！"
-  },
-  {
-    "item_id": "norm_320",
-    "source_id": "media_marca_futbol",
-    "source_name": "Marca Fútbol",
-    "title": "Gol de Balogun (2-0) en el Estados Unidos 4-1 Paraguay",
-    "summary": "",
-    "url": "https://www.marca.com/futbol/mundial/2026/06/13/gol-balogun-2-0-estados-unidos-4-1-paraguay-video.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Balogun Goal (2-0)在美国4-1巴拉圭",
-    "candidate_summary_zh": "Balogun Goal (2-0)在美国4-1巴拉圭"
-  },
-  {
-    "item_id": "norm_321",
-    "source_id": "media_marca_futbol",
-    "source_name": "Marca Fútbol",
-    "title": "Gol de Bobadilla (p.p.) (1-0) en el Estados Unidos 4-1 Paraguay",
-    "summary": "",
-    "url": "https://www.marca.com/futbol/mundial/2026/06/13/gol-bobadilla-p-p-1-0-estados-unidos-4-1-paraguay-video.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Bobadilla Goal (P.P.) (1-0)在美国4-1巴拉圭",
-    "candidate_summary_zh": "Bobadilla Goal (P.P.) (1-0)在美国4-1巴拉圭"
+    "candidate_event_title_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队",
+    "candidate_summary_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队"
   },
   {
     "item_id": "norm_324",
@@ -308,21 +607,8 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "足球-最新消息",
-    "candidate_summary_zh": "Fútbol"
-  },
-  {
-    "item_id": "norm_329",
-    "source_id": "media_marca_futbol_noticias",
-    "source_name": "Marca Fútbol Noticias",
-    "title": "Funes calma la rivalidad con el Almería: \"Lo que haya que decir lo diremos con la pelota\"",
-    "summary": "El entrenador malaguista espera una eliminatoria abierta con el Almería como favorito",
-    "url": "https://www.marca.com/futbol/malaga/2026/06/12/funes-calma-rivalidad-almeria-tengamos-decir-diremos-pelota.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Funes平息了与Almería的竞争：我们要用球说些什么",
-    "candidate_summary_zh": "这位马拉吉斯塔教练希望与阿尔梅里亚保持开放关系，因为最受欢迎的马拉加教练希望与Indalic车队保持开放关系，因为最受欢迎的马拉加已经再次闻起来像一个重要的周末"
+    "candidate_event_title_zh": "足球 - 最新消息",
+    "candidate_summary_zh": "足球"
   },
   {
     "item_id": "norm_330",
@@ -334,73 +620,34 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Girona正式宣布Oleksandr Pyshchur的到来",
-    "candidate_summary_zh": "乌克兰击球公羊从匈牙利ETO足球俱乐部到达，标志到2031年乌克兰击球公羊从匈牙利ETO足球俱乐部到达，标志到2031年赫罗纳正式宣布其2026/27学年第一张新面孔的到来，它将在第二学年再次参加比赛"
+    "candidate_event_title_zh": "赫罗纳正式宣布 Oleksandr Pyshchur 的到来",
+    "candidate_summary_zh": "乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 乌克兰前锋从匈牙利 ETO FC 加盟，签约至 2031 年 赫罗纳正式宣布 2026/27 赛季第一位新面孔的到来，他将再次参加乙级联赛"
   },
   {
-    "item_id": "norm_332",
+    "item_id": "norm_334",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
-    "title": "Ibai le abre la puerta del Zaragoza a Ander Herrera en su presentación: \"Ojalá venga\"",
+    "title": "Marián Mouriño acompañará al filial en su camino a Segunda",
     "summary": "",
-    "url": "https://www.marca.com/futbol/zaragoza/2026/06/12/ibai-gomez-le-abre-puerta-zaragoza-ander-herrera-ojala-venga.html",
+    "url": "https://www.marca.com/futbol/celta/2026/06/12/marian-mourino-acompanara-filial-camino-segunda.html",
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Ibai在他的演讲中为Ander Herrera打开了萨拉戈萨的大门：我希望他能来",
-    "candidate_summary_zh": "Ibai在他的演讲中为Ander Herrera打开了萨拉戈萨的大门：我希望他能来"
+    "candidate_event_title_zh": "Marián Mouriño 将陪同该子公司前往第二",
+    "candidate_summary_zh": "Marián Mouriño 将陪同该子公司前往第二"
   },
   {
-    "item_id": "norm_333",
+    "item_id": "norm_341",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
-    "title": "Navarro sobre la renovación de Alexis: \"La intención es llegar a un acuerdo\"",
+    "title": "'Málagamanía': el malaguismo colapsa las colas sin saber precio ni horarios",
     "summary": "",
-    "url": "https://www.marca.com/futbol/sevilla/2026/06/12/navarro-sobre-renovacion-alexis-intencion-llegar-acuerdo.html",
+    "url": "https://www.marca.com/futbol/malaga/2026/06/11/malagamania-malaguismo-colapsa-colas-precio-horarios.html",
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Navarro谈Alexis的续约：意图是达成协议",
-    "candidate_summary_zh": "Navarro谈Alexis的续约：意图是达成协议"
-  },
-  {
-    "item_id": "norm_340",
-    "source_id": "media_marca_futbol_noticias",
-    "source_name": "Marca Fútbol Noticias",
-    "title": "Miguel Marí, llamado para los ascensos en tiempos modernos: ¡cuatro casi seguidos a 1ª RFEF!",
-    "summary": "",
-    "url": "https://www.marca.com/futbol/primera-rfef/2026/06/12/miguel-mari-llamado-ascensos-tiempos-modernos-cuatro-seguidos-1-rfef.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！",
-    "candidate_summary_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！"
-  },
-  {
-    "item_id": "norm_345",
-    "source_id": "media_marca_futbol_noticias",
-    "source_name": "Marca Fútbol Noticias",
-    "title": "Gol de Balogun (2-0) en el Estados Unidos 4-1 Paraguay",
-    "summary": "",
-    "url": "https://www.marca.com/futbol/mundial/2026/06/13/gol-balogun-2-0-estados-unidos-4-1-paraguay-video.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Balogun Goal (2-0)在美国4-1巴拉圭",
-    "candidate_summary_zh": "Balogun Goal (2-0)在美国4-1巴拉圭"
-  },
-  {
-    "item_id": "norm_346",
-    "source_id": "media_marca_futbol_noticias",
-    "source_name": "Marca Fútbol Noticias",
-    "title": "Gol de Bobadilla (p.p.) (1-0) en el Estados Unidos 4-1 Paraguay",
-    "summary": "",
-    "url": "https://www.marca.com/futbol/mundial/2026/06/13/gol-bobadilla-p-p-1-0-estados-unidos-4-1-paraguay-video.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Bobadilla Goal (P.P.) (1-0)在美国4-1巴拉圭",
-    "candidate_summary_zh": "Bobadilla Goal (P.P.) (1-0)在美国4-1巴拉圭"
+    "candidate_event_title_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队",
+    "candidate_summary_zh": "Málagamania：Malaguismo 在不知道价格或时间表的情况下排起了长队"
   },
   {
     "item_id": "norm_349",
@@ -412,86 +659,21 @@
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "足球-新闻、市场、信息和流媒体视频",
-    "candidate_summary_zh": "查找球队的所有最新足球新闻"
+    "candidate_event_title_zh": "足球 - 新闻、转会窗口、信息和连续视频",
+    "candidate_summary_zh": "在《队报》上查找所有足球新闻"
   },
   {
-    "item_id": "norm_350",
+    "item_id": "norm_358",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
-    "title": "Entraîneur-joueur au Luxembourg, ancien adjoint francophile de Nagelsmann et adepte du 3-4-3  : qui est Dino Toppmöller, le futur entraîneur du RC Lens",
-    "summary": "Le prochain entraîneur du RC Lens, l'Allemand Dino Toppmöller, parle couramment français et a été le confident des Bleus du Bayern Munich du temps de Julian Nagelsmann, dont il fut un adjoint précieux.",
-    "url": "https://www.lequipe.fr/Football/Article/Entraineur-joueur-au-luxembourg-ancien-adjoint-de-nagelsmann-et-adepte-du-3-4-3-qui-est-dino-toppmoller-le-futur-entraineur-du-rc-lens/1684234",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "卢森堡球员教练， Nagelsmann前亲法助理和3-4-3的追随者：谁是Dino Toppmöller， RC Lens的未来教练",
-    "candidate_summary_zh": "RC Lens的下一任教练，德国人Dino Toppmöller，讲流利的法语，是Julian Nagelsmann时代拜仁慕尼黑蓝调的知己，他是其中一位有价值的助手"
-  },
-  {
-    "item_id": "norm_352",
-    "source_id": "media_lequipe_football",
-    "source_name": "L'Équipe Football",
-    "title": "Mercato : Bradley Barcola ne sera pas retenu par le PSG, contrairement à Ousmane Dembélé",
-    "summary": "À deux ans de la fin de son contrat, Bradley Barcola n'a toujours pas prolongé et ne semble pas proche de le faire. Le PSG n'est pas si fermé à un départ. Le double champion d'Europe souhaite en revanche prolonger son Ballon d'Or, Ousmane Dembélé.",
-    "url": "https://www.lequipe.fr/Football/Article/Mercato-bradley-barcola-ne-sera-pas-retenu-par-le-psg-contrairement-a-ousmane-dembele/1684064",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mercato：与Ousmane Dembélé不同， PSG不会保留Bradley Barcola",
-    "candidate_summary_zh": "在合同到期两年后，布拉德利·巴科拉（Bradley Barcola）仍未延期，似乎也不太可能延期"
-  },
-  {
-    "item_id": "norm_353",
-    "source_id": "media_lequipe_football",
-    "source_name": "L'Équipe Football",
-    "title": "Mercato : Thuram, Akliouche, Lacroix, Gusto... L'été brûlant des Bleus sur le marché des transferts",
-    "summary": "De nombreux joueurs des Bleus, comme Marcus Thuram, Maghnes Akliouche, Maxence Lacroix ou Malo Gusto, sont concernés à des degrés divers par des départs cet été.",
-    "url": "https://www.lequipe.fr/Football/Actualites/Mercato-thuram-akliouche-lacroix-gusto-l-ete-brulant-des-bleus-sur-le-marche-des-transferts/1684046",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mercato： Thuram、Akliouche、Lacroix、Gusto……转会市场上的Lété brûant des Bleus",
-    "candidate_summary_zh": "许多蓝军球员，如Marcus Thuram、Maghnes Akliouche、Maxence Lacroix或Malo Gusto，今年夏天受到不同程度的离职影响"
-  },
-  {
-    "item_id": "norm_354",
-    "source_id": "media_lequipe_football",
-    "source_name": "L'Équipe Football",
-    "title": "Mercato 2025 : l'actu des transferts foot",
-    "summary": "Suivez toute l'actu des transferts de football sur L'Équipe. Découvrez les dernières infos du mercato, les mouvements de joueurs, les rumeurs et les analyses des experts. Restez informé sur le marché des transferts.",
-    "url": "https://www.lequipe.fr/Football/Transferts-football/",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mercato 2025：足球转会Lactu",
-    "candidate_summary_zh": "关注 L’Équipe 上的所有足球转会新闻"
-  },
-  {
-    "item_id": "norm_362",
-    "source_id": "media_lequipe_football",
-    "source_name": "L'Équipe Football",
-    "title": "Pierrot, l'attaquant qui voulait devenir agent du FBI",
+    "title": "De l'euphorie à la prudence",
     "summary": "",
-    "url": "https://www.lequipe.fr/Football/Article/Frantzdy-pierrot-l-attaquant-haitien-qui-envisage-de-devenir-agent-du-fbi-je-veux-participer-a-resoudre-des-problemes-plus-grands/1683584",
+    "url": "https://www.lequipe.fr/Football/Article/De-la-fievre-de-mars-aux-hesitations-de-juin-pourquoi-l-euphorie-est-retombee-autour-des-bleus/1684367",
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "想成为联邦调查局特工的Pierrot， Lattaquant",
-    "candidate_summary_zh": "想成为联邦调查局特工的Pierrot， Lattaquant"
-  },
-  {
-    "item_id": "norm_364",
-    "source_id": "media_lequipe_football",
-    "source_name": "L'Équipe Football",
-    "title": "Denoueix, Lippi, Jacquet : un style construit auprès des plus grands",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/Article/Serie-didier-deschamps-un-destin-hors-du-commun-2-4-denoueix-lippi-jacquet-un-style-construit-aupres-des-plus-grands/1684356",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Denoueix， Lippi， Jacquet：用最伟大的",
-    "candidate_summary_zh": "Denoueix， Lippi， Jacquet：用最伟大的"
+    "candidate_event_title_zh": "从欣喜到谨慎",
+    "candidate_summary_zh": "从欣喜到谨慎"
   },
   {
     "item_id": "norm_374",
@@ -503,47 +685,21 @@
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯足球赛：新闻、赛程和结果",
-    "candidate_summary_zh": "关注有关足球世界杯的所有新闻"
+    "candidate_event_title_zh": "2026 年足球世界杯：新闻、赛程和结果",
+    "candidate_summary_zh": "关注足球世界杯的所有新闻"
   },
   {
-    "item_id": "norm_377",
+    "item_id": "norm_383",
     "source_id": "media_lequipe_football_coupedumonde",
     "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Les États-Unis lancent leurs débuts dans la Coupe du monde contre le Paraguay, Folarin Balogun double buteur",
-    "summary": "Sans trembler, les États-Unis se sont facilement imposés face au Paraguay pour leurs débuts dans « leur » Coupe du monde, ce samedi à Los Angeles (4-1). L'attaquant monégasque Folarin Balogun s'est distingué avec un doublé.",
-    "url": "https://www.lequipe.fr/Football/Actualites/Les-etats-unis-lancent-idealement-leur-coupe-du-monde-contre-le-paraguay-folarin-balogun-double-buteur/1684403",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "美国首次亮相世界杯对阵巴拉圭， Folarin Balogun双射手",
-    "candidate_summary_zh": "在没有动摇的情况下，美国轻松赢得了本周六在洛杉矶举行的“他们的”世界杯上首次亮相的巴拉圭（4-1）"
-  },
-  {
-    "item_id": "norm_381",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Faut-il s'inquiéter pour William Saliba, encore préservé à l'entraînement avec les Bleus vendredi ?",
-    "summary": "De nouveau préservé vendredi en raison de sa gêne au dos, William Saliba poursuit ses soins et son protocole de reprise. À quatre jours du premier match des Bleus à la Coupe du monde 2026, face au Sénégal, le cas du défenseur n'inquiète pas. Mais...",
-    "url": "https://www.lequipe.fr/Football/Actualites/Faut-il-s-inquieter-pour-william-saliba-encore-preserve-a-l-entrainement-avec-les-bleus-vendredi/1684382",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "我们是否应该将威廉·萨利巴（William Saliba）中国化？萨利巴在周五与蓝军一起训练期间仍然被保留",
-    "candidate_summary_zh": "威廉·萨利巴（William Saliba）因背部不适而于周五再次保存，他继续他的护理和康复方案"
-  },
-  {
-    "item_id": "norm_385",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Pierrot, l'attaquant qui voulait devenir agent du FBI",
+    "title": "De l'euphorie à la prudence",
     "summary": "",
-    "url": "https://www.lequipe.fr/Football/Article/Frantzdy-pierrot-l-attaquant-haitien-qui-envisage-de-devenir-agent-du-fbi-je-veux-participer-a-resoudre-des-problemes-plus-grands/1683584",
+    "url": "https://www.lequipe.fr/Football/Article/De-la-fievre-de-mars-aux-hesitations-de-juin-pourquoi-l-euphorie-est-retombee-autour-des-bleus/1684367",
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "想成为联邦调查局特工的Pierrot， Lattaquant",
-    "candidate_summary_zh": "想成为联邦调查局特工的Pierrot， Lattaquant"
+    "candidate_event_title_zh": "从欣喜到谨慎",
+    "candidate_summary_zh": "从欣喜到谨慎"
   },
   {
     "item_id": "norm_386",
@@ -568,21 +724,8 @@
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "玩家指南",
-    "candidate_summary_zh": "玩家指南"
-  },
-  {
-    "item_id": "norm_391",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Doué-Barcola, une place pour deux",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/Actualites/Un-duel-doue-barcola-pour-une-place-de-titulaire-avec-les-bleus-face-au-senegal-a-la-coupe-du-monde-2026/1684068",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Gifted-Barcola，适合双人入住的地方",
-    "candidate_summary_zh": "Gifted-Barcola，适合双人入住的地方"
+    "candidate_event_title_zh": "玩家引导",
+    "candidate_summary_zh": "玩家引导"
   },
   {
     "item_id": "norm_392",
@@ -598,32 +741,6 @@
     "candidate_summary_zh": "法国塞内加尔马。晚上 9:00beIN Sports 1，M6"
   },
   {
-    "item_id": "norm_394",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Mbappé : «Deschamps avec l'Italie ? Non, ce serait moche»",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/Actualites/Kylian-mbappe-ne-veut-pas-voir-didier-deschamps-entrainer-une-autre-selection-qu-ils-prennent-un-italien-l-italie/1684071",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mbappé： “Deschamps与意大利？不，那会很丑。”",
-    "candidate_summary_zh": "Mbappé： “Deschamps与意大利？不，那会很丑。”"
-  },
-  {
-    "item_id": "norm_397",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Rabiot et Saliba ménagés lors du premier entraînement à Boston",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/Actualites/Rabiot-et-saliba-a-l-ecart-du-premier-entrainement-de-l-equipe-de-france-a-boston/1684070",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Rabiot和Saliba在波士顿的第一次训练中幸免于难",
-    "candidate_summary_zh": "Rabiot和Saliba在波士顿的第一次训练中幸免于难"
-  },
-  {
     "item_id": "norm_399",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
@@ -633,7 +750,7 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "足球| ge",
+    "candidate_event_title_zh": "足球 |葛",
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
@@ -646,8 +763,8 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "足球| ge",
-    "candidate_summary_zh": "在ge.globo上关注足球新闻"
+    "candidate_event_title_zh": "足球 |葛",
+    "candidate_summary_zh": "在 ge.globo 上关注足球新闻"
   },
   {
     "item_id": "norm_411",
@@ -659,7 +776,7 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯的表格和比赛| ge",
+    "candidate_event_title_zh": "2026 年世界杯的赛桌和比赛 |葛",
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
@@ -672,8 +789,8 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯的表格和比赛| ge",
-    "candidate_summary_zh": "2026年世界杯的表格和比赛| ge"
+    "candidate_event_title_zh": "2026 年世界杯的赛桌和比赛 |葛",
+    "candidate_summary_zh": "2026 年世界杯的赛桌和比赛 |葛"
   },
   {
     "item_id": "norm_422",
@@ -686,7 +803,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "2026 年世界杯",
-    "candidate_summary_zh": "新闻全天候更新"
+    "candidate_summary_zh": "新闻24小时更新"
   },
   {
     "item_id": "norm_442",
@@ -699,7 +816,33 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "2026 年世界杯",
-    "candidate_summary_zh": "新闻全天候更新"
+    "candidate_summary_zh": "新闻24小时更新"
+  },
+  {
+    "item_id": "norm_453",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Gianni Infantino explored plans for a new Under-15 World Cup involving all 211 FIFA member nations. The idea included: Matches between countries at war to be the opening match • Opening or closing ceremonies at Disneyland • 211 countries taking part.",
+    "summary": "submitted by /u/Wakanda-shit-is-that [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vv86xo/gianni_infantino_explored_plans_for_a_new_under15/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "詹尼·因凡蒂诺 (Gianni Infantino) 探讨了新一届 15 岁以下世界杯的计划，涉及所有 211 个国际足联成员国。这个想法包括： 将交战国家之间的比赛作为揭幕战 • 在迪士尼乐园举行开幕式或闭幕式 • 211 个国家参加",
+    "candidate_summary_zh": "由 /u/Wakanda-shit-is-that 提交 [链接] [评论]"
+  },
+  {
+    "item_id": "norm_467",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Last night, Keyliane Abdballah scored his first goal for Olympique de Marseille in the season opening game against Strasbourg. Twenty years ago, his uncle Toifilou Maoulida scored for Olympique de Marseille and dedicated his goal for his nephew, Keyliane Abdballah himself.",
+    "summary": "submitted by /u/ElPimpoBimbo [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1vvcap4/last_night_keyliane_abdballah_scored_his_first/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "昨晚，凯利安·阿卜巴拉在赛季揭幕战对阵斯特拉斯堡的比赛中攻入了他代表马赛奥林匹克队的首个进球。二十年前，他的叔叔托菲卢·毛利达 (Toifilou Maoulida) 为马赛奥林匹克队进球，并将他的进球献给了他的侄子基利安·阿卜杜巴拉 (Keyliane Abdballah)",
+    "candidate_summary_zh": "由 /u/ElPimpoBimbo 提交 [链接] [评论]"
   },
   {
     "item_id": "norm_490",
@@ -767,6 +910,19 @@
     "candidate_summary_zh": "/u/PSU02提交的多么有才华的家庭[链接][评论]"
   },
   {
+    "item_id": "norm_511",
+    "source_id": "forum_reddit_worldcup",
+    "source_name": "Reddit r/worldcup",
+    "title": "[Ben Jacobs] 🚨 BREAKING: All 41 Concacaf members have rejected Gianni Infantino's FIFA Forward Enterprise plans. More to follow.",
+    "summary": "submitted by /u/Every-Damage-90 [link] [comments]",
+    "url": "https://www.reddit.com/r/ussoccer/comments/1vb3a6v/ben_jacobs_breaking_all_41_concacaf_members_have/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[Ben Jacobs] 🚨 突发新闻：所有 41 名中北美及加勒比地区足联成员均拒绝了詹尼·因凡蒂诺斯的 FIFA Forward Enterprise 计划。更多内容敬请关注",
+    "candidate_summary_zh": "由 /u/Every-Damage-90 提交 [链接] [评论]"
+  },
+  {
     "item_id": "norm_512",
     "source_id": "forum_reddit_worldcup",
     "source_name": "Reddit r/worldcup",
@@ -790,7 +946,7 @@
     "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "克里斯托弗·隆德 (Kristoffer Lund) 转会伯明翰城 - 英冠联赛再次被淘汰",
-    "candidate_summary_zh": "Birmingham City is delighted to confirm the signing of Kristoffer Lund from Italian side Palermo for an undisclosed fee, subject to clearance"
+    "candidate_summary_zh": "伯明翰城很高兴确认从意大利球队巴勒莫签下克里斯托弗·隆德，费用未公开，但需待批准"
   },
   {
     "item_id": "norm_517",
@@ -855,7 +1011,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "在世界杯混乱之后，国际足联刚刚取消了对莱昂德罗·帕雷德斯的大规模 10 场比赛禁令——球迷们非常愤怒！"
+    "candidate_summary_zh": "在世界杯混乱之后，国际足联刚刚取消了对莱安德罗·帕雷德斯的大规模 10 场比赛禁令——球迷们非常愤怒！"
   },
   {
     "item_id": "norm_522",
@@ -959,7 +1115,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Leandro Paredes Suspended for 10 Matches Following World Cup Final Incident Argentina midfielder Leandro Paredes has been handed a 10-match suspension following his involvement in on-field clashes after his team’s defeat to Spain in the 2026 World Cup final"
+    "candidate_summary_zh": "世界杯决赛事件后，莱安德罗·帕雷德斯 (Leandro Paredes) 被禁赛 10 场 阿根廷中场球员莱安德罗·帕雷德斯 (Leandro Paredes) 在 2026 年世界杯决赛中输给西班牙后，因参与场上冲突而被停赛 10 场"
   },
   {
     "item_id": "norm_530",
@@ -998,7 +1154,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Sarri Identifies Atalanta’s Issues After Conference League Opener Draw Atalanta head coach Maurizio Sarri shared his thoughts on his teams performance in the first leg against Hapoel Tel Aviv during the UEFA Conference League qualifiers"
+    "candidate_summary_zh": "萨里在会议联赛揭幕战抽签后指出亚特兰大的问题亚特兰大主教练毛里齐奥·萨里分享了他对球队在欧足联会议联赛预选赛首回合对阵特拉维夫哈普尔的比赛中表现的看法"
   },
   {
     "item_id": "norm_533",
@@ -1115,7 +1271,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "FIFA suspensions have been handed out after scuffles broke out at the conclusion of the #FIFAWorldCup Final between Argentina and Spain"
+    "candidate_summary_zh": "#FIFAWorldCup 决赛阿根廷和西班牙之间爆发混战后，国际足联暂停了比赛"
   },
   {
     "item_id": "norm_542",
@@ -1167,7 +1323,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Melania Trump jokes I heard you missed me in first public appearance in weeks https://fed.brid.gy/r/https://www.mirror.co.uk/news/us-news/melania-trump-appearance-white-house-37576170"
+    "candidate_summary_zh": "梅拉尼娅·特朗普开玩笑说，我听说你几周来第一次公开露面时想念我 https://fed.brid.gy/r/https://www.mirror.co.uk/news/us-news/melania-trump-appearance-white-house-37576170"
   },
   {
     "item_id": "norm_546",
@@ -1310,7 +1466,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Spains World Cup-winning captain Rodri arrived in Barcelona on Monday to sign a contract with the La Liga champions as one of the transfer sagas of the summer draws to its conclusion"
+    "candidate_summary_zh": "西班牙世界杯冠军队长罗德里周一抵达巴塞罗那，与西甲冠军球队签署合同，夏季转会传奇之一即将结束"
   },
   {
     "item_id": "norm_557",
@@ -1375,7 +1531,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "The Football World Cup - public viewings, as seen in Montpellier and Toulose in France"
+    "candidate_summary_zh": "足球世界杯——法国蒙彼利埃和图卢兹的公众观看"
   },
   {
     "item_id": "norm_562",
@@ -1492,7 +1648,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Lionel Messis dad dies as Argentina superstar left heartbroken https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/lionel-messis-dad-dies-argentina-37528414"
+    "candidate_summary_zh": "阿根廷巨星莱昂内尔·梅西的父亲去世，伤心欲绝 https://fed.brid.gy/r/https://www.dailyrecord.co.uk/sport/football/football-news/lionel-messis-dad-dies-argentina-37528414"
   },
   {
     "item_id": "norm_571",
@@ -1577,6 +1733,58 @@
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
+    "summary": "Content warning:English Premier League 2026-08-22 Scores. English Premier League 2026-08-22 Scores. Ended Games: #HUL 2 - 0 #MAN #EVE 2 - 0 #CRY #IPS 2 - 1 #SUN #NFO 0 - 1 #LEE Running Games: HT #BRE 2 - 0 #TOT #premierleague #englishpremierleague #premier #epl #football #soccer #scores #scoreboard #futbol #mastodonfc",
+    "url": "https://mastodon.world/@premierleaguescores/117140344231947547",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
+  },
+  {
+    "item_id": "norm_578",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Advertencia de contenido:#NFL #Preseason Week 3 Scores: 8/23 - 8:00 PM EDT #SEA @ #TEN #nfl #nflfootball #football",
+    "url": "https://mastodon.online/@nflscores/117140304914903786",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "内容广告：#NFL #季前赛第 3 周比分：8 月 23 日 - 晚上 8:00 EDT #SEA @ #TEN #nfl #nflfootball #football"
+  },
+  {
+    "item_id": "norm_579",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Content warning:English Premier League 2026-08-22 Scores. English Premier League 2026-08-22 Scores. Ended Games: #HUL 2 - 0 #MAN #EVE 2 - 0 #CRY #IPS 2 - 1 #SUN #NFO 0 - 1 #LEE Running Games: 45' #BRE 2 - 0 #TOT #premierleague #englishpremierleague #premier #epl #football #soccer #scores #scoreboard #futbol #mastodonfc",
+    "url": "https://mastodon.world/@premierleaguescores/117140285208784771",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
+  },
+  {
+    "item_id": "norm_580",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
+    "summary": "Former West Brom player Quevin Castro, 25, dies during pre-season friendly https://www.nytimes.com/athletic/7531310/2026/08/22/west-brom-chelsea-quevin-castro-death-collapse-pitch/ #Sports #Football #Tragedy",
+    "url": "https://www.nytimes.com/athletic/7531310/2026/08/22/west-brom-chelsea-quevin-castro-death-collapse-pitch/",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "前西布朗球员奎文·卡斯特罗，25 岁​​，在季前友谊赛中去世 https://www.nytimes.com/athletic/7531310/2026/08/22/west-brom-chelsea-quevin-castro-death-collapse-pitch/ #Sports #Football #Tragedy"
+  },
+  {
+    "item_id": "norm_581",
+    "source_id": "social_mastodon_football",
+    "source_name": "Mastodon hashtag #football",
+    "title": "Untitled item",
     "summary": "Advertencia de contenido:#NFL #Preseason Week 3 Scores: 8/22 - 10:00 PM EDT #DAL @ #ARI 8/23 - 8:00 PM EDT #SEA @ #TEN #nfl #nflfootball #football",
     "url": "https://mastodon.online/@nflscores/117140226287764648",
     "language": "multi",
@@ -1586,7 +1794,7 @@
     "candidate_summary_zh": "内容广告：#NFL #季前赛第 3 周比分：美国东部时间 8 月 22 日 - 10:00 PM #DAL @ #ARI 8/23 - 晚上 8:00 EDT #SEA @ #TEN #nfl #nflfootball #football"
   },
   {
-    "item_id": "norm_578",
+    "item_id": "norm_582",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1599,7 +1807,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_579",
+    "item_id": "norm_583",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1612,7 +1820,7 @@
     "candidate_summary_zh": "法甲 1：LOL 冒犯图卢兹，为儿子顶级比赛 de la saison https://fed.brid.gy/r/https://www.lyoncapitale.fr/actualite/ligue-1-l-ol-affronte-toulouse-pour-son-premier-match-de-la-saison"
   },
   {
-    "item_id": "norm_580",
+    "item_id": "norm_584",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1625,7 +1833,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_581",
+    "item_id": "norm_585",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1638,7 +1846,7 @@
     "candidate_summary_zh": "杰克·克拉克最后一刻的进球确保伊普斯维奇战胜桑德兰 萨姆·坎宁安在波特曼路 https://www.theguardian.com/football/2026/aug/22/ipswich-sunderland-premier-league-match-report #PremierLeague #IpswichTown #Sunderland #Football #Sport #TheGuardian #SamCunninghamatPortmanRoad"
   },
   {
-    "item_id": "norm_582",
+    "item_id": "norm_586",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1651,7 +1859,7 @@
     "candidate_summary_zh": "安东·斯塔赫 (Anton Stach) 夺取了已故利兹联 (Leeds) 冠军，让格拉斯纳 (Glasner) 在森林队的新黎明黯然失色。"
   },
   {
-    "item_id": "norm_583",
+    "item_id": "norm_587",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1664,7 +1872,7 @@
     "candidate_summary_zh": "内容广告：#NFL #季前赛第 3 周比分：美国东部时间 8 月 22 日 - 10:00 PM #DAL @ #ARI 8/23 - 晚上 8:00 EDT #SEA @ #TEN #nfl #nflfootball #football"
   },
   {
-    "item_id": "norm_584",
+    "item_id": "norm_588",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1677,59 +1885,59 @@
     "candidate_summary_zh": "伯纳姆的孩子们在埃弗顿结束开幕日的不祥之兆时享受从宫殿来访的安迪·亨特在希尔·迪金森体育场安迪·伯纳姆坐在希尔·迪金森体育场的豪华座位上，亲眼目睹了他心爱的埃弗顿在没有大卫·莫耶斯球队的关键补充的情况下会如何表现，就连总理也对此发表了意见"
   },
   {
-    "item_id": "norm_585",
+    "item_id": "norm_589",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
-    "summary": "Why Ismaila Sarr is not in Crystal Palace squad as shock absence explained https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/crystal-palace-ismaila-sarr-galatasaray-transfer-news-b1294309.html",
+    "summary": "Why Ismaila Sarr is not in Crystal Palace squad as shock absence explained https://web.brid.gy/r/https://www.standard.co.uk/sport/football/crystal-palace-ismaila-sarr-galatasaray-transfer-news-b1294309.html",
     "url": "https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/crystal-palace-ismaila-sarr-galatasaray-transfer-news-b1294309.html",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Why Ismaila Sarr is not in Crystal Palace squad as shock absence explained https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/crystal-palace-ismaila-sarr-galatasaray-transfer-news-b1294309.html"
+    "candidate_summary_zh": "为什么伊斯梅拉·萨尔没有出现在水晶宫队中，因为令人震惊的缺席解释了https://web.brid.gy/r/https://www.standard.co.uk/sport/football/crystal-palace-ismaila-sarr-galatasaray-transfer-news-b1294309.html"
   },
   {
-    "item_id": "norm_586",
+    "item_id": "norm_590",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
-    "summary": "Arsenal sent Julian Alvarez update after new twists in transfer saga https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/arsenal-fc-julian-alvarez-transfer-news-atletico-b1294299.html",
+    "summary": "Arsenal sent Julian Alvarez update after new twists in transfer saga https://web.brid.gy/r/https://www.standard.co.uk/sport/football/arsenal-fc-julian-alvarez-transfer-news-atletico-b1294299.html",
     "url": "https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/arsenal-fc-julian-alvarez-transfer-news-atletico-b1294299.html",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "转会传奇发生新变化后，阿森纳向朱利安·阿尔瓦雷斯发送了最新消息 https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/arsenal-fc-julian-alvarez-transfer-news-atletico-b1294299.html"
+    "candidate_summary_zh": "转会传奇发生新变化后，阿森纳向朱利安·阿尔瓦雷斯发送了最新消息 https://web.brid.gy/r/https://www.standard.co.uk/sport/football/arsenal-fc-julian-alvarez-transfer-news-atletico-b1294299.html"
   },
   {
-    "item_id": "norm_587",
+    "item_id": "norm_591",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
-    "summary": "Tottenham XI vs Brentford: Starting lineup, confirmed team news, injury latest for Premier League today https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/tottenham-xi-vs-brentford-starting-lineup-confirmed-team-news-injury-latest-premier-league-2026-today-b1293972.html",
+    "summary": "Tottenham XI vs Brentford: Starting lineup, confirmed team news, injury latest for Premier League today https://web.brid.gy/r/https://www.standard.co.uk/sport/football/tottenham-xi-vs-brentford-starting-lineup-confirmed-team-news-injury-latest-premier-league-2026-today-b1293972.html",
     "url": "https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/tottenham-xi-vs-brentford-starting-lineup-confirmed-team-news-injury-latest-premier-league-2026-today-b1293972.html",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "托特纳姆十一队对阵布伦特福德：今天英超联赛的首发阵容、确认的球队新闻、伤病最新情况 https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/tottenham-xi-vs-brentford-starting-lineup-confirmed-team-news-injury-latest-premier-league-2026-today-b1293972.html"
+    "candidate_summary_zh": "托特纳姆十一队对阵布伦特福德：今天英超联赛的首发阵容、确认的球队新闻、伤病最新情况 https://web.brid.gy/r/https://www.standard.co.uk/sport/football/tottenham-xi-vs-brentford-starting-lineup-confirmed-team-news-injury-latest-premier-league-2026-today-b1293972.html"
   },
   {
-    "item_id": "norm_588",
+    "item_id": "norm_592",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
-    "summary": "Archie Gray captains Tottenham to make club history https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/archie-gray-tottenham-captain-history-b1294316.html",
+    "summary": "Archie Gray captains Tottenham to make club history https://web.brid.gy/r/https://www.standard.co.uk/sport/football/archie-gray-tottenham-captain-history-b1294316.html",
     "url": "https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/archie-gray-tottenham-captain-history-b1294316.html",
     "language": "multi",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Archie Gray captains Tottenham to make club history https://fed.brid.gy/r/https://www.standard.co.uk/sport/football/archie-gray-tottenham-captain-history-b1294316.html"
+    "candidate_summary_zh": "阿奇·格雷队长托特纳姆热刺创造俱乐部历史 https://web.brid.gy/r/https://www.standard.co.uk/sport/football/archie-gray-tottenham-captain-history-b1294316.html"
   },
   {
-    "item_id": "norm_589",
+    "item_id": "norm_593",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1742,7 +1950,7 @@
     "candidate_summary_zh": "内容广告：#NFL #季前赛第 3 周比分：美国东部时间 8 月 22 日 - 10:00 PM #DAL @ #ARI 8/23 - 晚上 8:00 EDT #SEA @ #TEN #nfl #nflfootball #football"
   },
   {
-    "item_id": "norm_590",
+    "item_id": "norm_594",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1755,7 +1963,7 @@
     "candidate_summary_zh": "汉斯·弗利克确认花费 7650 万欧元签下的罗德里不会参加对阵埃尔切的比赛"
   },
   {
-    "item_id": "norm_591",
+    "item_id": "norm_595",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1768,7 +1976,7 @@
     "candidate_summary_zh": "特伦特·亚历山大-阿诺德在利物浦退出后透露了虐待行为，但仍然观看每场比赛 https://fed.brid.gy/r/https://www.mirror.co.uk/sport/football/trent-alexander-arnold-liverpool-madrid-37581204"
   },
   {
-    "item_id": "norm_592",
+    "item_id": "norm_596",
     "source_id": "social_mastodon_football",
     "source_name": "Mastodon hashtag #football",
     "title": "Untitled item",
@@ -1781,59 +1989,33 @@
     "candidate_summary_zh": "阿尔贝托·塔瓦雷斯·席尔瓦州长体育场 https://en.wikipedia.org/wiki/Albert%C3%A3o 容量：44200 地点：巴西特雷西纳 球队：River Atlético Clube、Esporte Clube Flamengo、Piauí Esporte Clube、Sociedade Esportiva Tiradentes、Auto Esporte Clube (PI) #Teresina #Brazil #stadium #soccer #football #fussball #fedifc #mastodonFC"
   },
   {
-    "item_id": "norm_593",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "Inter host Monza in Serie A. Inter favoured, Monza set to challenge. A lively, competitive clash awaits. Kickoff 18:30 CEST. Inter Mailand 72.4% Draw 19.1% AC Monza 8.5% #Football #Soccer #SerieA #INT #MON #INTMON",
-    "url": "https://mastodon.social/@goalimpact/117140034147672281",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "国际米兰受青睐，蒙扎准备挑战"
-  },
-  {
-    "item_id": "norm_594",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "How big a signing is James Trafford for Leeds? What did Glasner learn from first game? Forest vs Leeds takeaways https://www.nytimes.com/athletic/7529131/2026/08/22/nottingham-forest-leeds-premier-league-result-recap-analysis/ #Football #PremierLeague #Analysis",
-    "url": "https://www.nytimes.com/athletic/7529131/2026/08/22/nottingham-forest-leeds-premier-league-result-recap-analysis/",
-    "language": "multi",
-    "reason": "title_too_short",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "詹姆斯·特拉福德对于利兹联来说是一笔多大的签约？"
-  },
-  {
-    "item_id": "norm_595",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "USC Saturday Buzz: A Five-Star Injury Sophomore defensive tackle Jahkeem Stewart is apparently on crutches with a foot injury and expected to be out 3-4 weeks. Remember, Stewart underwent surgery last November for a stress fracture in his foot that bothered him throughout last season. The question now is whether this is going to be a recurring injury and something to be concerned about even after he returns. He was fighting for a starting job during training camp. That doesn’t matter. What matters is that he gets healthy and the situation with his foot gets resolved. #featured #FightOn #FOOTBALL #usc",
-    "url": "https://insideusc.blog/2026/08/22/usc-saturday-buzz-a-five-star-injury/",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "南加州大学周六热议：五星级伤病大二防守截锋贾基姆·斯图尔特显然因脚伤拄着拐杖，预计将缺席 3-4 周"
-  },
-  {
-    "item_id": "norm_596",
-    "source_id": "social_mastodon_football",
-    "source_name": "Mastodon hashtag #football",
-    "title": "Untitled item",
-    "summary": "Fans face a 3-week break from club football between September 20th and October 10th, 2026. Find out which leagues are affected and why. #Football #footballnewsandupdates https://www.mondiaries.com/2026/08/weeks-without-club-football-reason.html",
-    "url": "https://mastodon.world/@ayanascroll/117139994028076745",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "2026年9月20日至10月10日期间，球迷将面临为期3周的俱乐部足球休息"
-  },
-  {
     "item_id": "norm_597",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Content warning:English Premier League 2026-08-22 Scores. English Premier League 2026-08-22 Scores. Ended Games: #HUL 2 - 0 #MAN #EVE 2 - 0 #CRY #IPS 2 - 1 #SUN #NFO 0 - 1 #LEE Running Games: HT #BRE 2 - 0 #TOT #premierleague #englishpremierleague #premier #epl #football #soccer #scores #scoreboard #futbol #mastodonfc",
+    "url": "https://mastodon.world/@premierleaguescores/117140344231947547",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
+  },
+  {
+    "item_id": "norm_598",
+    "source_id": "social_mastodon_soccer",
+    "source_name": "Mastodon hashtag #soccer",
+    "title": "Untitled item",
+    "summary": "Content warning:English Premier League 2026-08-22 Scores. English Premier League 2026-08-22 Scores. Ended Games: #HUL 2 - 0 #MAN #EVE 2 - 0 #CRY #IPS 2 - 1 #SUN #NFO 0 - 1 #LEE Running Games: 45' #BRE 2 - 0 #TOT #premierleague #englishpremierleague #premier #epl #football #soccer #scores #scoreboard #futbol #mastodonfc",
+    "url": "https://mastodon.world/@premierleaguescores/117140285208784771",
+    "language": "multi",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "无标题项目",
+    "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
+  },
+  {
+    "item_id": "norm_599",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1846,7 +2028,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_598",
+    "item_id": "norm_600",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1859,7 +2041,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_599",
+    "item_id": "norm_601",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1872,7 +2054,7 @@
     "candidate_summary_zh": "当曼联在赫尔城遭遇尴尬时，球迷们对哈利·马奎尔参与进球感到困惑 https://fed.brid.gy/r/https://extra.ie/2026/08/22/sport/fans-harry-maguire-man-united-hull"
   },
   {
-    "item_id": "norm_600",
+    "item_id": "norm_602",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1885,7 +2067,7 @@
     "candidate_summary_zh": "阿尔贝托·塔瓦雷斯·席尔瓦州长体育场 https://en.wikipedia.org/wiki/Albert%C3%A3o 容量：44200 地点：巴西特雷西纳 球队：River Atlético Clube、Esporte Clube Flamengo、Piauí Esporte Clube、Sociedade Esportiva Tiradentes、Auto Esporte Clube (PI) #Teresina #Brazil #stadium #soccer #football #fussball #fedifc #mastodonFC"
   },
   {
-    "item_id": "norm_601",
+    "item_id": "norm_603",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1898,7 +2080,7 @@
     "candidate_summary_zh": "国际米兰受青睐，蒙扎准备挑战"
   },
   {
-    "item_id": "norm_602",
+    "item_id": "norm_604",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1911,7 +2093,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_603",
+    "item_id": "norm_605",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1924,7 +2106,7 @@
     "candidate_summary_zh": "科莫在与乌迪内斯的激烈意甲比赛中占据优势；期待中欧夏令时间 18:30 开赛"
   },
   {
-    "item_id": "norm_604",
+    "item_id": "norm_606",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1937,7 +2119,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_605",
+    "item_id": "norm_607",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1950,7 +2132,7 @@
     "candidate_summary_zh": "布伦特福德 vs 热刺在一场激烈的英超比赛中，布伦特福德稍占优势，热刺准备好做出回应，平局仍将继续进行"
   },
   {
-    "item_id": "norm_606",
+    "item_id": "norm_608",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1963,7 +2145,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_607",
+    "item_id": "norm_609",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1976,7 +2158,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_608",
+    "item_id": "norm_610",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -1989,7 +2171,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_609",
+    "item_id": "norm_611",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -2002,7 +2184,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_610",
+    "item_id": "norm_612",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -2012,10 +2194,10 @@
     "reason": "title_too_short",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Bilbao hold a slim edge in a tight La Liga clash with Sev; a lively, hopeful night as both push for the win"
+    "candidate_summary_zh": "毕尔巴鄂在西甲与塞维的激烈交锋中占据微弱优势；一个充满活力、充满希望的夜晚，双方都在努力争取胜利"
   },
   {
-    "item_id": "norm_611",
+    "item_id": "norm_613",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -2028,7 +2210,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_612",
+    "item_id": "norm_614",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -2041,7 +2223,7 @@
     "candidate_summary_zh": "由于国际足联治理危机，詹尼·因凡蒂诺要求不要参加青年锦标赛 https://www.nytimes.com/athletic/7531070/2026/08/22/gianni-infantino-victor-montagliani-fifa-crisis/ 中北美和加勒比足联主席维克多·蒙塔利亚尼在一封信中表示，因凡蒂诺的存在将破坏 14 岁以下赛事"
   },
   {
-    "item_id": "norm_613",
+    "item_id": "norm_615",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -2054,7 +2236,7 @@
     "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
   },
   {
-    "item_id": "norm_614",
+    "item_id": "norm_616",
     "source_id": "social_mastodon_soccer",
     "source_name": "Mastodon hashtag #soccer",
     "title": "Untitled item",
@@ -2064,33 +2246,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "Concacaf ask under-fire FIFA president Gianni Infantino to stay away from youth tournament https://www.nytimes.com/athletic/7531070/2026/08/22/gianni-infantino-victor-montagliani-fifa-crisis/ #Soccer #Sports #News"
-  },
-  {
-    "item_id": "norm_615",
-    "source_id": "social_mastodon_soccer",
-    "source_name": "Mastodon hashtag #soccer",
-    "title": "Untitled item",
-    "summary": "Content warning:English Premier League 2026-08-22 Scores. English Premier League 2026-08-22 Scores. Ended Games: #HUL 2 - 0 #MAN Upcoming Games: 22/08/2026 14:00 UTC #EVE - #CRY 22/08/2026 14:00 UTC #IPS - #SUN 22/08/2026 14:00 UTC #NFO - #LEE 22/08/2026 16:30 UTC #BRE - #TOT #premierleague #englishpremierleague #premier #epl #football #soccer #scores #scoreboard #futbol #mastodonfc",
-    "url": "https://mastodon.world/@premierleaguescores/117139518461168830",
-    "language": "multi",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "内容警告：英超联赛 2026-08-22 比分"
-  },
-  {
-    "item_id": "norm_616",
-    "source_id": "social_mastodon_soccer",
-    "source_name": "Mastodon hashtag #soccer",
-    "title": "Untitled item",
-    "summary": "Why did Man Utd lose the physical battle and game to Hull? Who stood out in shock win? https://www.nytimes.com/athletic/7529130/2026/08/22/hull-manchester-united-result-recap-score/ Manchester United fell to a shock 2-0 defeat to Hull City in their opening game of the Premier League season #Soccer #Football",
-    "url": "https://sportsfeed.me/@athletic_af/117139400951916318",
-    "language": "multi",
-    "reason": "title_too_short",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无标题项目",
-    "candidate_summary_zh": "曼联为何在体力较量和比赛中输给赫尔城？"
+    "candidate_summary_zh": "中北美及加勒比足联要求国际足联主席詹尼·因凡蒂诺远离青年锦标赛 https://www.nytimes.com/athletic/7531070/2026/08/22/gianni-infantino-victor-montagliani-fifa-crisis/ #Soccer #Sports #News"
   },
   {
     "item_id": "norm_617",
@@ -2219,8 +2375,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "球迷猛烈抨击迈克尔·布布尔 (Michael Buble) 因垃圾加拿大世界杯开幕式在多伦多举行",
-    "candidate_summary_zh": "球迷猛烈抨击迈克尔·布布尔 (Michael Buble) 因垃圾加拿大世界杯开幕式在多伦多举行"
+    "candidate_event_title_zh": "球迷猛烈抨击迈克尔·布布尔 (Michael Buble) 因加拿大世界杯多伦多开幕式垃圾而解冻",
+    "candidate_summary_zh": "球迷猛烈抨击迈克尔·布布尔 (Michael Buble) 因加拿大世界杯多伦多开幕式垃圾而解冻"
   },
   {
     "item_id": "norm_660",
@@ -2271,7 +2427,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "布拉德·弗里德尔 (Brad Friedel) 表示，美国门将可能会在 2026 年世界杯上成为世界巨星",
+    "candidate_event_title_zh": "布拉德·弗里德尔 (Brad Friedel) 表示，美国门将可能在 2026 年世界杯上成为世界巨星",
     "candidate_summary_zh": "作者：詹姆斯·安德鲁 发表于 6 月 12 日 26"
   },
   {
@@ -2623,7 +2779,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "USMNT vs 巴拉圭预测：USMNT 在洛杉矶强势开局",
-    "candidate_summary_zh": "探索我们的足球专家在星期五晚上 9:00 ET 世界杯比赛之前对 USMNT 对巴拉圭的预测 (6/12)"
+    "candidate_summary_zh": "探索我们的足球专家在周五晚上 9:00 ET 世界杯比赛之前对 USMNT 对巴拉圭的预测 (6/12)"
   },
   {
     "item_id": "norm_776",
@@ -2831,7 +2987,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球 - 新闻、转会和实时赛果 |球",
-    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时赛果"
+    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时结果"
   },
   {
     "item_id": "norm_901",
@@ -2857,7 +3013,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球第 2 页 - 新闻、转会和实时比分 |球",
-    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时赛果"
+    "candidate_summary_zh": "在 A Bola 门户网站上关注足球界的最新新闻、好奇心、转会和实时结果"
   },
   {
     "item_id": "norm_915",
