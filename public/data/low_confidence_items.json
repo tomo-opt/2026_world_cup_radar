@@ -9,8 +9,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
-    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
+    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
   },
   {
     "item_id": "norm_2",
@@ -35,8 +35,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_event_title_zh": "Sky Sports FIFA World Cup Scores & Fixtures",
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -49,20 +49,20 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
+    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
   },
   {
-    "item_id": "norm_27",
+    "item_id": "norm_11",
     "source_id": "media_espn_soccer",
     "source_name": "ESPN Soccer",
-    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
-    "summary": "",
-    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
-    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
   },
   {
     "item_id": "norm_31",
@@ -75,7 +75,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
-    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
+    "candidate_summary_zh": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup"
   },
   {
     "item_id": "norm_42",
@@ -89,19 +89,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
     "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
-  },
-  {
-    "item_id": "norm_50",
-    "source_id": "media_espn_soccer_worldcup",
-    "source_name": "ESPN Soccer Worldcup Page",
-    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
-    "summary": "",
-    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
-    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
   },
   {
     "item_id": "norm_53",
@@ -127,10 +114,23 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "世界杯",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
-    "item_id": "norm_88",
+    "item_id": "norm_71",
+    "source_id": "media_bbc_sport_football_worldcup",
+    "source_name": "BBC Sport Football Worldcup Page",
+    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
+    "summary": "",
+    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
+    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
+  },
+  {
+    "item_id": "norm_90",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Mateta claims final year of Palace deal is invalid",
@@ -140,33 +140,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Mateta声称Palace交易的最后一年无效",
-    "candidate_summary_zh": "让-菲利普·马泰塔（Jean-Philippe Mateta）正在挑战他的水晶宫合同的最后10个月的有效性"
-  },
-  {
-    "item_id": "norm_90",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Tonali nightmare as Sangare stars - Brentford v Spurs player ratings",
-    "summary": "How Brentford and Tottenham's players rated following their Premier League match.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cp878q13v72o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Tonali作为Sangare明星的噩梦-布伦特福德v马刺队球员评分",
-    "candidate_summary_zh": "How Brentford and Tottenhams players rated following their Premier League match"
-  },
-  {
-    "item_id": "norm_95",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "'No button to press' - Glasner and Forest must find stability",
-    "summary": "Anton Stach's late goal for Leeds hands Oliver Glasner a defeat in his first game at Nottingham Forest.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3v0vlngz2do?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "无按钮可按- Glasner和Forest必须找到稳定性",
-    "candidate_summary_zh": "Anton Stachs late goal for Leeds hands Oliver Glasner a defeat in his first game at Nottingham Forest"
+    "candidate_summary_zh": "Jean-Philippe Mateta is challenging the validity of the final 10 months on his Crystal Palace contract"
   },
   {
     "item_id": "norm_108",
@@ -178,21 +152,21 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
+    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
     "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
   },
   {
-    "item_id": "norm_112",
+    "item_id": "norm_115",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
-    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
-    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
+    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
+    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
+    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
-    "candidate_summary_zh": "在男子世界杯的历史上， Les Rouges有史以来第一次"
+    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
+    "candidate_summary_zh": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach"
   },
   {
     "item_id": "norm_119",
@@ -208,71 +182,6 @@
     "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
   },
   {
-    "item_id": "norm_131",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
-  },
-  {
-    "item_id": "norm_135",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Infantino angers Concacaf nations by hijacking meeting in Caribbean",
-    "summary": "Gianni Infantino used opportunity to lobby for support Fifa president was asked to stay away from CFU meeting Gianni Infantino has risked alienating numerous Concacaf nations, whose support he is seeking in his re-election campaign, by hijacking a meeting of the Caribbean Football Union (CFU) to announce Fifa-funded development projects for the region with millions of dollars that had been delayed for months. Multiple sources attending the CFU meeting in the Dominican Republic said many of the Concacaf members were infuriated by Infantino’s behaviour, particularly as he had been asked to stay away by their president, Victor Montagliani. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/22/gianni-infantino-fifa-football-politics-world-cup-election",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Infantino在加勒比海劫持会议，激怒Concacaf国家",
-    "candidate_summary_zh": "Gianni Infantino used opportunity to lobby for support Fifa president was asked to stay away from CFU meeting Gianni Infantino has risked alienating numerous Concacaf nations, whose support he is seeking in his re-election campaign, by hijacking a meeting of the Caribbean Football Union (CFU) to announce Fifa-funded development projects for the region with millions of dollars that had been delayed for months"
-  },
-  {
-    "item_id": "norm_137",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Anton Stach snatches late Leeds winner to sour Glasner’s new dawn at Forest",
-    "summary": "For Anton Stach, another sweet direct free-kick to add to the back catalogue, this one souring Oliver Glasner’s first match in charge of Nottingham Forest. Only Dominik Szoboszlai eclipsed Stach’s record of three direct free-kick goals in the Premier League last season, one of those coming against Glasner’s Crystal Palace. Stach’s latest right-foot strike earned Leeds, fresh from a near-flawless pre-season and an expensive and exciting summer in the market, a divine opening-day victory with a couple of minutes of normal time remaining. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/22/nottingham-forest-leeds-premier-league-match-report",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "安东·斯塔奇（Anton Stach）抢夺利兹（Leeds）获胜者，为格拉斯纳（Glasner）在森林的新黎",
-    "candidate_summary_zh": "For Anton Stach, another sweet direct free-kick to add to the back catalogue, this one souring Oliver Glasner’s first match in charge of Nottingham Forest"
-  },
-  {
-    "item_id": "norm_142",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Alexander Isak braces himself for daunting reunion with Newcastle",
-    "summary": "Striker must win over new head coach after tough first season at Liverpool – starting on Sunday at an inhospitable St James’ Park When Liverpool’s team bus turns a tight corner and inches down the narrow, covered, access road behind Newcastle’s Milburn Stand on Sunday, Alexander Isak will know there are no hiding places. After that coach pulls up, its occupants must navigate a set of painted steps before reaching the glass-doored sanctuary of the players’ entrance at St James’ Park. It is a short climb but only a handful of portable metal barriers separate visiting sides from congregated Newcastle fans. When particularly disliked opponents arrive, it can all feel loudly claustrophobic. Once inside, Isak, who spent most of last summer staging a form of unilateral industrial action in order to force a £125m move from Tyneside to Merseyside, must negotiate a human chicane of once-familiar club staff stationed along the route to the away dressing room. If eye contact may be minimal, two factors should soften the pre-match mood surrounding his first return to St James’ Park. Eddie Howe has been replaced by Matthias Jaissle and the latest meeting between Newcastle and Liverpool will play out against an outpouring of love for Kevin Keegan, following his death in July. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/22/alexander-isak-braces-furious-newcastle-reunion-liverpool",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "亚历山大·伊萨克（Alexander Isak）为与纽卡斯尔的艰难团聚做好准备",
-    "candidate_summary_zh": "Striker must win over new head coach after tough first season at Liverpool – starting on Sunday at an inhospitable St James’ Park When Liverpool’s team bus turns a tight corner and inches down the narrow, covered, access road behind Newcastle’s Milburn Stand on Sunday, Alexander Isak will know there are no hiding places"
-  },
-  {
-    "item_id": "norm_152",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Leandro Paredes receives 10-match ban as Argentina punished for World Cup final brawl",
-    "summary": "Nahuel Molina, Thiago Almada and Gavi also suspended Fifa issue $321,000 fine for Falkland Islands banner Three Argentina players have been banned for their part in a brawl at the end of last month’s World Cup final against Spain, but they have only been fined for displaying a Falkland Islands banner after the semi-final win over England. Leandro Paredes has been given a 10-match ban and a $90,000 (£66,000) fine by Fifa’s disciplinary committee, while Nahuel Molina was given a seven-match suspension and fined the same amount. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/21/fifa-leandro-paredes-argentina-spain-world-cup-final-brawl",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "莱安德罗·帕雷德斯（Leandro Paredes）因阿根廷在世界杯决赛中受到惩罚而被禁赛10场",
-    "candidate_summary_zh": "Nahuel Molina, Thiago Almada and Gavi also suspended Fifa issue $321,000 fine for Falkland Islands banner Three Argentina players have been banned for their part in a brawl at the end of last month’s World Cup final against Spain, but they have only been fined for displaying a Falkland Islands banner after the semi-final win over England"
-  },
-  {
     "item_id": "norm_163",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
@@ -284,19 +193,6 @@
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "Football Games, Results, Scores, Transfers, News | Sky Sports",
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
-  },
-  {
-    "item_id": "norm_164",
-    "source_id": "media_sky_sports_football",
-    "source_name": "Sky Sports Football",
-    "title": "World Cup 2026: USA 4-1 Paraguay - Folarin Balogun at double as Mauricio Pochettino's hosts deliver statement victory",
-    "summary": "The USA kicked off their World Cup on home soil with their joint best-ever victory in the tournament's history as a sizzling performance saw them thrash Paraguay 4-1 in Los Angeles.",
-    "url": "https://www.skysports.com/football/united-states-of-america-vs-paraguay/report/549769",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯：美国4-1巴拉圭- Folarin Balogun作为Mauricio Pochettinos的主持人发表声明胜利",
-    "candidate_summary_zh": "The USA kicked off their World Cup on home soil with their joint best-ever victory in the tournaments history as a sizzling performance saw them thrash Paraguay 4-1 in Los Angeles"
   },
   {
     "item_id": "norm_188",
