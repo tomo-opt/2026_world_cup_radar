@@ -9,7 +9,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
+    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
     "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
@@ -35,8 +35,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Sky Sports FIFA World Cup Scores & Fixtures",
-    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
+    "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
+    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
   },
   {
     "item_id": "norm_4",
@@ -49,7 +49,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
   },
   {
     "item_id": "norm_27",
@@ -114,7 +114,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
     "item_id": "norm_54",
@@ -126,11 +126,24 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
+    "candidate_event_title_zh": "世界杯",
     "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
   },
   {
-    "item_id": "norm_87",
+    "item_id": "norm_88",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Mateta claims final year of Palace deal is invalid",
+    "summary": "Jean-Philippe Mateta is challenging the validity of the final 10 months on his Crystal Palace contract.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cdx7x90dxywo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Mateta声称Palace交易的最后一年无效",
+    "candidate_summary_zh": "让-菲利普·马泰塔（Jean-Philippe Mateta）正在挑战他的水晶宫合同的最后10个月的有效性"
+  },
+  {
+    "item_id": "norm_90",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Tonali nightmare as Sangare stars - Brentford v Spurs player ratings",
@@ -140,7 +153,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Tonali作为Sangare明星的噩梦-布伦特福德v马刺队球员评分",
-    "candidate_summary_zh": "布伦特福德和托特纳姆热刺球员如何在英超比赛后评分"
+    "candidate_summary_zh": "How Brentford and Tottenhams players rated following their Premier League match"
   },
   {
     "item_id": "norm_95",
@@ -153,7 +166,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "无按钮可按- Glasner和Forest必须找到稳定性",
-    "candidate_summary_zh": "利兹的安东·斯塔克斯（Anton Stachs）后期进球让奥利弗·格拉斯纳（Oliver Glasner）在诺丁汉森林（Nottingham Forest"
+    "candidate_summary_zh": "Anton Stachs late goal for Leeds hands Oliver Glasner a defeat in his first game at Nottingham Forest"
   },
   {
     "item_id": "norm_108",
@@ -165,8 +178,34 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
+    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
     "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+  },
+  {
+    "item_id": "norm_112",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "在男子世界杯的历史上， Les Rouges有史以来第一次"
+  },
+  {
+    "item_id": "norm_119",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
+    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
   },
   {
     "item_id": "norm_131",
@@ -192,33 +231,46 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Infantino在加勒比海劫持会议，激怒Concacaf国家",
-    "candidate_summary_zh": "Gianni Infantino利用机会游说支持国际足联主席被要求远离CFU会议Gianni Infantino冒着疏远众多Concacaf国家的风险，他正在寻求他们在连任竞选活动中的支持，劫持加勒比足球联盟（CFU）的会议，宣布国际足联资助的该地区发展项目，数百万美元已被推迟数月"
+    "candidate_summary_zh": "Gianni Infantino used opportunity to lobby for support Fifa president was asked to stay away from CFU meeting Gianni Infantino has risked alienating numerous Concacaf nations, whose support he is seeking in his re-election campaign, by hijacking a meeting of the Caribbean Football Union (CFU) to announce Fifa-funded development projects for the region with millions of dollars that had been delayed for months"
   },
   {
-    "item_id": "norm_158",
+    "item_id": "norm_137",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Martin Ødegaard resumes his role as Arsenal’s smoothing agent and pass master | Barney Ronay",
-    "summary": "His goal was like something from It’s A Knockout, but the Arsenal captain showed signs of recovery from an injury-wrecked campaign We’re back, baby. Welcome to the content zone. And yes, we did actually go away for a bit. Seriously. Check back. We really did. In the lead-up to this Premier League opener, Sky Sports had been trailing the fact it will show a total of 1,500 live games this season. Lay these end-to-end and that adds up to about 3,000 hours, or 125 whole days doing nothing but watching football. Chuck in the endless over-gorge of clips, highlights, noises off, VAR rage, furious punditry shemozzles, and that’s pretty much the next eight months spent slumped in your memory foam chair, cramming in those great dripping handfuls of sweet, sweet football-derived product. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/21/martin-degaard-of-old-is-back-with-the-pass-that-makes-the-pass",
+    "title": "Anton Stach snatches late Leeds winner to sour Glasner’s new dawn at Forest",
+    "summary": "For Anton Stach, another sweet direct free-kick to add to the back catalogue, this one souring Oliver Glasner’s first match in charge of Nottingham Forest. Only Dominik Szoboszlai eclipsed Stach’s record of three direct free-kick goals in the Premier League last season, one of those coming against Glasner’s Crystal Palace. Stach’s latest right-foot strike earned Leeds, fresh from a near-flawless pre-season and an expensive and exciting summer in the market, a divine opening-day victory with a couple of minutes of normal time remaining. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/22/nottingham-forest-leeds-premier-league-match-report",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Martin Ødegaard继续担任阿森纳的平滑剂和传球大师| Barney Ronay",
-    "candidate_summary_zh": "His goal was like something from It’s A Knockout, but the Arsenal captain showed signs of recovery from an injury-wrecked campaign We’re back, baby"
+    "candidate_event_title_zh": "安东·斯塔奇（Anton Stach）抢夺利兹（Leeds）获胜者，为格拉斯纳（Glasner）在森林的新黎",
+    "candidate_summary_zh": "For Anton Stach, another sweet direct free-kick to add to the back catalogue, this one souring Oliver Glasner’s first match in charge of Nottingham Forest"
   },
   {
-    "item_id": "norm_160",
+    "item_id": "norm_142",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Aston Villa’s Rachel Daly: ‘It’s given me more of a focus: club football is my one job’",
-    "summary": "Former England striker on retiring from the Lionesses, being a role model, and taking on Chelsea in the WSL A year after taking up golf, Rachel Daly has already reached a handicap of 19. “I think that’s too generous, I was playing really well in the summer,” she point outs before politely declaring that further questions about her pastimes are out of bounds. “I’m not that exciting, to be honest,” Daly says. “I walk the dogs, play golf. I don’t do a whole lot. I don’t lead a very exciting life.” Instead, Daly wants to talk about the new Women’s Super League season, which is more than fair enough. Coincidentally, by next summer, 19 will be the number of seasons Daly has played at the top level, ever since breaking into Leeds’ first team as a 16-year-old in 2008, and therefore it feels reasonable to disagree with her view that a former Olympian, who played 84 times for England and was the WSL’s player of the season only three years ago, does not lead an exciting life. Yet there is another number on Daly’s mind as she discusses her role as Aston Villa’s captain. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/21/aston-villa-rachel-daly-womens-super-league-england-lionesses",
+    "title": "Alexander Isak braces himself for daunting reunion with Newcastle",
+    "summary": "Striker must win over new head coach after tough first season at Liverpool – starting on Sunday at an inhospitable St James’ Park When Liverpool’s team bus turns a tight corner and inches down the narrow, covered, access road behind Newcastle’s Milburn Stand on Sunday, Alexander Isak will know there are no hiding places. After that coach pulls up, its occupants must navigate a set of painted steps before reaching the glass-doored sanctuary of the players’ entrance at St James’ Park. It is a short climb but only a handful of portable metal barriers separate visiting sides from congregated Newcastle fans. When particularly disliked opponents arrive, it can all feel loudly claustrophobic. Once inside, Isak, who spent most of last summer staging a form of unilateral industrial action in order to force a £125m move from Tyneside to Merseyside, must negotiate a human chicane of once-familiar club staff stationed along the route to the away dressing room. If eye contact may be minimal, two factors should soften the pre-match mood surrounding his first return to St James’ Park. Eddie Howe has been replaced by Matthias Jaissle and the latest meeting between Newcastle and Liverpool will play out against an outpouring of love for Kevin Keegan, following his death in July. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/22/alexander-isak-braces-furious-newcastle-reunion-liverpool",
     "language": "en",
-    "reason": "general_discussion_only",
+    "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "阿斯顿维拉的雷切尔·戴利（Rachel Daly）： “这让我更加关注：俱乐部足球是我的一份工作”",
-    "candidate_summary_zh": "Former England striker on retiring from the Lionesses, being a role model, and taking on Chelsea in the WSL A year after taking up golf, Rachel Daly has already reached a handicap of 19"
+    "candidate_event_title_zh": "亚历山大·伊萨克（Alexander Isak）为与纽卡斯尔的艰难团聚做好准备",
+    "candidate_summary_zh": "Striker must win over new head coach after tough first season at Liverpool – starting on Sunday at an inhospitable St James’ Park When Liverpool’s team bus turns a tight corner and inches down the narrow, covered, access road behind Newcastle’s Milburn Stand on Sunday, Alexander Isak will know there are no hiding places"
+  },
+  {
+    "item_id": "norm_152",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Leandro Paredes receives 10-match ban as Argentina punished for World Cup final brawl",
+    "summary": "Nahuel Molina, Thiago Almada and Gavi also suspended Fifa issue $321,000 fine for Falkland Islands banner Three Argentina players have been banned for their part in a brawl at the end of last month’s World Cup final against Spain, but they have only been fined for displaying a Falkland Islands banner after the semi-final win over England. Leandro Paredes has been given a 10-match ban and a $90,000 (£66,000) fine by Fifa’s disciplinary committee, while Nahuel Molina was given a seven-match suspension and fined the same amount. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/21/fifa-leandro-paredes-argentina-spain-world-cup-final-brawl",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "莱安德罗·帕雷德斯（Leandro Paredes）因阿根廷在世界杯决赛中受到惩罚而被禁赛10场",
+    "candidate_summary_zh": "Nahuel Molina, Thiago Almada and Gavi also suspended Fifa issue $321,000 fine for Falkland Islands banner Three Argentina players have been banned for their part in a brawl at the end of last month’s World Cup final against Spain, but they have only been fined for displaying a Falkland Islands banner after the semi-final win over England"
   },
   {
     "item_id": "norm_163",
@@ -234,17 +286,17 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_170",
+    "item_id": "norm_164",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
-    "title": "Man Utd transfer news: Mateus Fernandes keen on Old Trafford move despite Arsenal interest - Paper Talk",
-    "summary": "Saturdays top stories also include: Bruno Fernandes urging the Manchester United hierarchy to sign Mateus Fernandes; Man City make enquiries over Chelseas Malo Gusto; Crystal Palace look to match Hayden Hackneys asking price",
-    "url": "https://www.skysports.com/football/transfer-paper-talk/12709/13553551/man-utd-transfer-news-mateus-fernandes-keen-on-old-trafford-move-despite-arsenal-interest-paper-talk",
+    "title": "World Cup 2026: USA 4-1 Paraguay - Folarin Balogun at double as Mauricio Pochettino's hosts deliver statement victory",
+    "summary": "The USA kicked off their World Cup on home soil with their joint best-ever victory in the tournament's history as a sizzling performance saw them thrash Paraguay 4-1 in Los Angeles.",
+    "url": "https://www.skysports.com/football/united-states-of-america-vs-paraguay/report/549769",
     "language": "en",
-    "reason": "general_discussion_only",
+    "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "曼联转会新闻：马特乌斯·费尔南德斯（Mateus Fernandes）热衷于老特拉福德（Old Trafford）的转会，尽管",
-    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+    "candidate_event_title_zh": "2026年世界杯：美国4-1巴拉圭- Folarin Balogun作为Mauricio Pochettinos的主持人发表声明胜利",
+    "candidate_summary_zh": "The USA kicked off their World Cup on home soil with their joint best-ever victory in the tournaments history as a sizzling performance saw them thrash Paraguay 4-1 in Los Angeles"
   },
   {
     "item_id": "norm_188",
@@ -258,19 +310,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
-  },
-  {
-    "item_id": "norm_189",
-    "source_id": "media_sky_sports_football_news",
-    "source_name": "Sky Sports Football News Page",
-    "title": "Man Utd transfer news: Mateus Fernandes keen on Old Trafford move despite Arsenal interest - Paper Talk",
-    "summary": "Saturdays top stories also include: Bruno Fernandes urging the Manchester United hierarchy to sign Mateus Fernandes; Man City make enquiries over Chelseas Malo Gusto; Crystal Palace look to match Hayden Hackneys asking price",
-    "url": "https://www.skysports.com/football/transfer-paper-talk/12709/13553551/man-utd-transfer-news-mateus-fernandes-keen-on-old-trafford-move-despite-arsenal-interest-paper-talk",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "曼联转会新闻：马特乌斯·费尔南德斯（Mateus Fernandes）热衷于老特拉福德（Old Trafford）的转会，尽管",
-    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
     "item_id": "norm_203",
@@ -297,19 +336,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Fútbol en AS.com - AS.com",
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
-  },
-  {
-    "item_id": "norm_260",
-    "source_id": "media_as_futbol",
-    "source_name": "AS Fútbol",
-    "title": "Güler rompe su techo",
-    "summary": "",
-    "url": "https://as.com/futbol/guler-rompe-su-techo-f202606-n/",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "居勒打破屋顶",
-    "candidate_summary_zh": "居勒打破屋顶"
   },
   {
     "item_id": "norm_275",
