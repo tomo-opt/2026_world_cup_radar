@@ -9,8 +9,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
-    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
+    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
     "item_id": "norm_2",
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
-    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
+    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
     "item_id": "norm_3",
@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -50,6 +50,19 @@
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
     "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
   },
   {
     "item_id": "norm_27",
@@ -75,7 +88,20 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
-    "candidate_summary_zh": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup"
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
+  },
+  {
+    "item_id": "norm_42",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
   },
   {
     "item_id": "norm_50",
@@ -101,7 +127,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
-    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
+    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
   },
   {
     "item_id": "norm_54",
@@ -114,7 +140,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "世界杯",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
     "item_id": "norm_71",
@@ -128,19 +154,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
     "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
-  },
-  {
-    "item_id": "norm_80",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "'Up front next week?' Guehi proves Maresca's midfield masterstroke",
-    "summary": "Rather than playing safe in selecting his Manchester City side for the first time in the Premier League, Enzo Maresca made a bold choice in midfield. Ultimately, it paid off.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqx7x1wpz20o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "下周提前？ Guehi证明Marescas中场精湛技艺",
-    "candidate_summary_zh": "Rather than playing safe in selecting his Manchester City side for the first time in the Premier League, Enzo Maresca made a bold choice in midfield"
   },
   {
     "item_id": "norm_93",
@@ -166,7 +179,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Salah之后的生活-为什么Isak和Wirtz必须为利物浦挺身而出",
-    "candidate_summary_zh": "Liverpool are preparing to begin a season without Mohamed Salah for the first time in a decade - but they havent replaced him yet"
+    "candidate_summary_zh": "利物浦正准备开始一个没有穆罕默德·萨拉赫的赛季，这是十年来的第一次-但他们还没有取代他"
   },
   {
     "item_id": "norm_109",
@@ -179,20 +192,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
-  },
-  {
-    "item_id": "norm_120",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
-    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
+    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
   },
   {
     "item_id": "norm_132",
@@ -208,71 +208,6 @@
     "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
   },
   {
-    "item_id": "norm_135",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Brighton hammer Aston Villa and João Gomes red adds to Unai Emery’s pain",
-    "summary": "It is important to say that Aston Villa were not the only team here to have lost key players over the summer; to play under the threat of further departures; to be without others because of injury. It has been a testing time for the Brighton manager, Fabian Hürzeler, who has said goodbye to Danny Welbeck, Jan Paul van Hecke and James Milner, among others. Hürzeler was without Carlos Baleba and Yankuba Minteh, officially because of injuries although their proposed moves to Manchester United and Liverpool, respectively, were surely a part of things. Kaoru Mitoma was out with a more cut-and-dried fitness issue. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/23/brighton-aston-villa-premier-league-match-report",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "布莱顿锤子阿斯顿维拉和若昂戈梅斯红色增加了Unai Emery的痛苦",
-    "candidate_summary_zh": "It is important to say that Aston Villa were not the only team here to have lost key players over the summer; to play under the threat of further departures; to be without others because of injury"
-  },
-  {
-    "item_id": "norm_136",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Manchester City agree deal worth up to €100m for Lille’s Ayyoub Bouaddi",
-    "summary": "Signing will take City’s window spending to nearly £200m Moroccan stood down from Lille’s game against Angers Manchester City have agreed a deal with Lille worth €95m (£81.4m) plus €5m in potential add-ons for Ayyoub Bouaddi, with the Morocco midfielder’s arrival to take the club’s summer spend to nearly £200m after Elliot Anderson’s £116m signing earlier in the window. The 18-year-old was stood down from Lille’s Ligue 1 match against Angers on Sunday before a medical with City and his transfer becoming official in the next few days. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/23/manchester-city-agree-deal-lille-ayyoub-bouaddi-transfer",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "曼城同意与里尔的Ayyoub Bouaddi达成价值高达1亿欧元的交易",
-    "candidate_summary_zh": "Signing will take City’s window spending to nearly £200m Moroccan stood down from Lille’s game against Angers Manchester City have agreed a deal with Lille worth €95m (£81.4m) plus €5m in potential add-ons for Ayyoub Bouaddi, with the Morocco midfielder’s arrival to take the club’s summer spend to nearly £200m after Elliot Anderson’s £116m signing earlier in the window"
-  },
-  {
-    "item_id": "norm_137",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "West Brom surge back to floor Flemming-less Burnley amid transfer speculation",
-    "summary": "West Brom’s head coach, James Morrison, insisted his side must “stay humble” after Isaac Price inspired them to a 3-1 comeback win against promotion favourites Burnley in the Championship at the Hawthorns. The Northern Ireland international scored twice in the second half after setting up Harry Whitwell’s equaliser to cancel out Callum Styles’s early own goal. “I felt it was a top performance. I enjoyed it at times for the intensity with the lads willing to run for each other,” Morrison said. “We did the basics really well – we won tackles, and when we lost the ball, we ran back and when the opportunities were given to us, we took advantage. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/23/west-brom-burnley-championship-match-report",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "West Brom在转会猜测中重返地板Flemming-less Burnley",
-    "candidate_summary_zh": "West Brom’s head coach, James Morrison, insisted his side must stay humble after Isaac Price inspired them to a 3-1 comeback win against promotion favourites Burnley in the Championship at the Hawthorns"
-  },
-  {
-    "item_id": "norm_147",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Anton Stach snatches late Leeds winner to sour Glasner’s new dawn at Forest",
-    "summary": "For Anton Stach, another sweet direct free-kick to add to the back catalogue, this one souring Oliver Glasner’s first match in charge of Nottingham Forest. Only Dominik Szoboszlai eclipsed Stach’s record of three direct free-kick goals in the Premier League last season, one of those coming against Glasner’s Crystal Palace. Stach’s latest right-foot strike earned Leeds, fresh from a near-flawless pre-season and an expensive and exciting summer in the market, a divine opening-day victory with a couple of minutes of normal time remaining. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/22/nottingham-forest-leeds-premier-league-match-report",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "安东·斯塔奇（Anton Stach）抢夺利兹（Leeds）获胜者，为格拉斯纳（Glasner）在森林（Forest）的新",
-    "candidate_summary_zh": "对于安东·斯塔奇（Anton Stach）来说，这是另一个甜蜜的直接任意球，可以添加到后面的目录中，这是奥利弗·格拉斯纳（Oliver Glasner）负责诺丁汉森林的第一场比赛"
-  },
-  {
-    "item_id": "norm_151",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Sign up to the Sport in Focus newsletter: the sporting week in photos",
-    "summary": "Our editors’ favourite sporting images from the past week, from the spectacular to the powerful, and with a little bit of fun thrown in Continue reading...",
-    "url": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "订阅Sport in Focus时事通讯：照片中的体育周",
-    "candidate_summary_zh": "Our editors’ favourite sporting images from the past week, from the spectacular to the powerful, and with a little bit of fun thrown in Continue reading"
-  },
-  {
     "item_id": "norm_163",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
@@ -286,19 +221,6 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_169",
-    "source_id": "media_sky_sports_football",
-    "source_name": "Sky Sports Football",
-    "title": "Mateus Fernandes transfer: Manchester United preparing opening bid for West Ham midfielder as 21-year-old becomes priority target",
-    "summary": "Manchester United see Mateus Fernandes as a realistic target following West Hams relegation from the Premier League; Sky Sports News understands West Ham value Fernandes at around £80m; United are unlikely to entertain such a price tag",
-    "url": "https://www.skysports.com/football/news/11095/13553501/mateus-fernandes-transfer-manchester-united-preparing-opening-bid-for-west-ham-midfielder-as-21-year-old-becomes-priority-target",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "马特乌斯·费尔南德斯（Mateus Fernandes）转会：曼联准备开始竞标西汉姆中场，因为21岁成为优先目标",
-    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
-  },
-  {
     "item_id": "norm_188",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
@@ -310,19 +232,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
-  },
-  {
-    "item_id": "norm_193",
-    "source_id": "media_sky_sports_football_news",
-    "source_name": "Sky Sports Football News Page",
-    "title": "Mateus Fernandes transfer: Manchester United preparing opening bid for West Ham midfielder as 21-year-old becomes priority target",
-    "summary": "Manchester United see Mateus Fernandes as a realistic target following West Hams relegation from the Premier League; Sky Sports News understands West Ham value Fernandes at around £80m; United are unlikely to entertain such a price tag",
-    "url": "https://www.skysports.com/football/news/11095/13553501/mateus-fernandes-transfer-manchester-united-preparing-opening-bid-for-west-ham-midfielder-as-21-year-old-becomes-priority-target",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "马特乌斯·费尔南德斯（Mateus Fernandes）转会：曼联准备开始竞标西汉姆中场，因为21岁成为优先目标",
-    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
     "item_id": "norm_203",
@@ -349,6 +258,32 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Fútbol en AS.com - AS.com",
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
+  },
+  {
+    "item_id": "norm_267",
+    "source_id": "media_as_futbol",
+    "source_name": "AS Fútbol",
+    "title": "El ojo que todo lo ve",
+    "summary": "",
+    "url": "https://as.com/futbol/el-ojo-que-todo-lo-ve-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "全视之眼",
+    "candidate_summary_zh": "全视之眼"
+  },
+  {
+    "item_id": "norm_268",
+    "source_id": "media_as_futbol",
+    "source_name": "AS Fútbol",
+    "title": "Borja Iglesias: “No me importaría tatuarme la cara de Luis de la Fuente...”",
+    "summary": "",
+    "url": "https://as.com/futbol/seleccion/borja-iglesias-no-me-importaria-tatuarme-la-cara-de-luis-de-la-fuente-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Borja Iglesias：我不介意纹Luis de la Fuente的脸",
+    "candidate_summary_zh": "Borja Iglesias：我不介意纹Luis de la Fuente的脸"
   },
   {
     "item_id": "norm_275",
@@ -416,6 +351,19 @@
     "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
+    "item_id": "norm_393",
+    "source_id": "media_lequipe_football_coupedumonde",
+    "source_name": "L'Équipe Football Coupe du Monde",
+    "title": "FranceSénégalmar. 21h00beIN Sports 1, M6",
+    "summary": "",
+    "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/france-senegal-preview/686951",
+    "language": "fr",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "FranceSenegalmar. 21:00 beIN体育1, M6",
+    "candidate_summary_zh": "FranceSenegalmar. 21:00 beIN体育1, M6"
+  },
+  {
     "item_id": "norm_400",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
@@ -425,7 +373,7 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Futebol | ge",
+    "candidate_event_title_zh": "足球| ge",
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
@@ -438,7 +386,7 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Futebol | ge",
+    "candidate_event_title_zh": "足球| ge",
     "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
@@ -546,32 +494,6 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_682",
-    "source_id": "media_fourfourtwo_news",
-    "source_name": "Four Four Two News",
-    "title": "Xabi Alonso urged to sign big-money Liverpool flop who just needs 'confidence and belief'",
-    "summary": "By James Andrew published 12 June 26",
-    "url": "https://www.fourfourtwo.com/transfer/xabi-alonso-urged-to-sign-big-money-liverpool-flop-who-just-needs-confidence-and-belief",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "哈比·阿隆索（Xabi Alonso）敦促签下只需要信心和信念的大笔利物浦失败者",
-    "candidate_summary_zh": "By James Andrew published 12 June 26"
-  },
-  {
-    "item_id": "norm_690",
-    "source_id": "media_fourfourtwo_news",
-    "source_name": "Four Four Two News",
-    "title": "'Manchester United fans won't care if Marcus Rashford signs for Arsenal' Former Old Trafford stalwart makes huge transfer claim as England star seeks next club",
-    "summary": "By James Andrew published 12 June 26",
-    "url": "https://www.fourfourtwo.com/transfer/manchester-united-fans-wont-care-if-marcus-rashford-signs-for-arsenal-former-old-trafford-stalwart-makes-huge-transfer-claim-as-england-star-seeks-next-club",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "曼联球迷不会在意马库斯·拉什福德（Marcus Rashford）是否签约阿森纳（Arsenal）前老特拉福德（Old Trafford）的忠实球员，因为英格兰球星正在寻找下一个俱乐部",
-    "candidate_summary_zh": "By James Andrew published 12 June 26"
-  },
-  {
     "item_id": "norm_691",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
@@ -672,7 +594,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "通过OneFootball查看最新的FIFA世界杯™结果",
+    "candidate_event_title_zh": "Check out the latest FIFA World Cup™ results via OneFootball",
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
@@ -685,7 +607,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "通过OneFootball查看最新的FIFA世界杯™结果",
+    "candidate_event_title_zh": "Check out the latest FIFA World Cup™ results via OneFootball",
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
@@ -700,19 +622,6 @@
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026 FIFA World Cup",
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
-  },
-  {
-    "item_id": "norm_747",
-    "source_id": "media_nbc_sports_world_cup",
-    "source_name": "NBC Sports World Cup Page",
-    "title": "Canada 1-1 Bosnia and Herzegovina: World Cup hosts saved by Cyle Larin’s late equalizer",
-    "summary": "",
-    "url": "https://www.nbcsports.com/soccer/live/live-updates-canada-vs-bosnia-and-herzegovina-as-hosts-open-2026-world-cup-in-toronto",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "加拿大1-1波斯尼亚和黑塞哥维那： Cyle Larin的晚期均衡器拯救了世界杯东道主",
-    "candidate_summary_zh": "加拿大1-1波斯尼亚和黑塞哥维那： Cyle Larin的晚期均衡器拯救了世界杯东道主"
   },
   {
     "item_id": "norm_750",
@@ -750,7 +659,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "2026年世界杯男子足球赛新闻",
+    "candidate_event_title_zh": "FIFA Mens World Cup 2026 News",
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
@@ -830,19 +739,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
-  },
-  {
-    "item_id": "norm_907",
-    "source_id": "media_abola_futebol",
-    "source_name": "A Bola Futebol",
-    "title": "//\n                                Internacional\n                                //",
-    "summary": "",
-    "url": "https://www.abola.pt/internacional",
-    "language": "pt",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "多國語言",
-    "candidate_summary_zh": "多國語言"
   },
   {
     "item_id": "norm_913",
