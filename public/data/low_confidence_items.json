@@ -9,7 +9,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
     "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -50,6 +50,19 @@
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
     "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
   },
   {
     "item_id": "norm_27",
@@ -113,8 +126,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
     "item_id": "norm_54",
@@ -126,8 +139,86 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_event_title_zh": "世界杯",
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
+  },
+  {
+    "item_id": "norm_71",
+    "source_id": "media_bbc_sport_football_worldcup",
+    "source_name": "BBC Sport Football Worldcup Page",
+    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
+    "summary": "",
+    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
+    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
+  },
+  {
+    "item_id": "norm_80",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Watkins' departure would cut deepest - and Villa did not see it coming",
+    "summary": "Ollie Watkins has been an Aston Villa legend but it appears his time at the club is nearing a painful end amid interest from Saudi Arabia.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq63ry9q6jzo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "沃特金斯（Watkins）的离开将最深-维拉（Villa）没有看到它的到来",
+    "candidate_summary_zh": "奥利·沃特金斯（Ollie Watkins）一直是阿斯顿维拉（Aston Villa）的传奇人物，但由于沙特阿拉伯的兴趣，他在俱乐部的时间似乎接近痛苦的结束"
+  },
+  {
+    "item_id": "norm_86",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Al-Hilal in advanced talks to sign Arsenal's Martinelli",
+    "summary": "Arsenal are in advanced talks with Saudi Arabian club Al-Hilal over the sale of Gabriel Martinelli for at least £50m.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgk4k444rmmo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Al-Hilal在签署Arsenals Martinelli的高级谈判中",
+    "candidate_summary_zh": "阿森纳正在与沙特阿拉伯俱乐部Al-Hilal就以至少5000万英镑的价格出售Gabriel Martinelli进行高级谈判"
+  },
+  {
+    "item_id": "norm_90",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "'To have a good team, we need a great Cole' - Alonso on Palmer",
+    "summary": "Chelsea manager Xabi Alonso praises Cole Palmer's \"responsibility, maturity and freedom\" after a goal and an assist from the playmaker seals a 3-2 victory over Fulham at Craven Cottage. In Alonso's first Premier League match in charge, the Spaniard insists his new squad can achieve \"special things\" this season.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/crl6r2wgd35o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "为了拥有一支优秀的团队，我们需要一个伟大的Cole - Alonso on Palmer",
+    "candidate_summary_zh": "切尔西主教练哈比·阿隆索（Xabi Alonso）称赞科尔·帕尔默（Cole Palmers）在进球后的责任、成熟和自由，组织者的助攻在克雷文小屋（Craven Cottage）以3-2击败富勒姆（Fulham）"
+  },
+  {
+    "item_id": "norm_93",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "How the Guehi gamble paid off for Maresca",
+    "summary": "Match of the Day's Joe Hart discusses Manchester City's Marc Guehi and his performance in midfield, with plenty of praise for the centre half in a different position against Bournemouth.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cdewe13009do?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Guehi赌博如何为Maresca带来回报",
+    "candidate_summary_zh": "Match of the Days Joe Hart discusses Manchester Citys Marc Guehi and his performance in midfield, with plenty of praise for the centre half in a different position against Bournemouth"
+  },
+  {
+    "item_id": "norm_103",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Wasteful Palace punished by Everton in Sage's first game",
+    "summary": "Everton beat Crystal Palace 2–0 to win their opening game of the Premier League season for the first time in five years, with goals from Kiernan Dewsbury‑Hall and Thierno.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c0m7dk4z82ro?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "在Sages第一场比赛中被Everton惩罚的Wasteful Palace",
+    "candidate_summary_zh": "Everton beat Crystal Palace 2–0 to win their opening game of the Premier League season for the first time in five years, with goals from Kiernan Dewsbury‑Hall and Thierno"
   },
   {
     "item_id": "norm_108",
@@ -140,7 +231,33 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
+  },
+  {
+    "item_id": "norm_119",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
+    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
+  },
+  {
+    "item_id": "norm_130",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Thomas Partey out of Ghana’s World Cup opener after visa application to Canada refused",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-partey-ghana-world-cup-visa-application-to-canada-refused",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey",
+    "candidate_summary_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey"
   },
   {
     "item_id": "norm_161",
@@ -221,6 +338,32 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
+    "item_id": "norm_314",
+    "source_id": "media_marca_futbol",
+    "source_name": "Marca Fútbol",
+    "title": "Miguel Marí, llamado para los ascensos en tiempos modernos: ¡cuatro casi seguidos a 1ª RFEF!",
+    "summary": "",
+    "url": "https://www.marca.com/futbol/primera-rfef/2026/06/12/miguel-mari-llamado-ascensos-tiempos-modernos-cuatro-seguidos-1-rfef.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！",
+    "candidate_summary_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！"
+  },
+  {
+    "item_id": "norm_320",
+    "source_id": "media_marca_futbol",
+    "source_name": "Marca Fútbol",
+    "title": "Gol de Bobadilla (p.p.) (1-0) en el Estados Unidos 4-1 Paraguay",
+    "summary": "",
+    "url": "https://www.marca.com/futbol/mundial/2026/06/13/gol-bobadilla-p-p-1-0-estados-unidos-4-1-paraguay-video.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Bobadilla Goal (P.P.) (1-0)在美国4-1巴拉圭",
+    "candidate_summary_zh": "Bobadilla Goal (P.P.) (1-0)在美国4-1巴拉圭"
+  },
+  {
     "item_id": "norm_323",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
@@ -234,6 +377,32 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
+    "item_id": "norm_339",
+    "source_id": "media_marca_futbol_noticias",
+    "source_name": "Marca Fútbol Noticias",
+    "title": "Miguel Marí, llamado para los ascensos en tiempos modernos: ¡cuatro casi seguidos a 1ª RFEF!",
+    "summary": "",
+    "url": "https://www.marca.com/futbol/primera-rfef/2026/06/12/miguel-mari-llamado-ascensos-tiempos-modernos-cuatro-seguidos-1-rfef.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！",
+    "candidate_summary_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！"
+  },
+  {
+    "item_id": "norm_345",
+    "source_id": "media_marca_futbol_noticias",
+    "source_name": "Marca Fútbol Noticias",
+    "title": "Gol de Bobadilla (p.p.) (1-0) en el Estados Unidos 4-1 Paraguay",
+    "summary": "",
+    "url": "https://www.marca.com/futbol/mundial/2026/06/13/gol-bobadilla-p-p-1-0-estados-unidos-4-1-paraguay-video.html",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Bobadilla Goal (P.P.) (1-0)在美国4-1巴拉圭",
+    "candidate_summary_zh": "Bobadilla Goal (P.P.) (1-0)在美国4-1巴拉圭"
+  },
+  {
     "item_id": "norm_348",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
@@ -243,8 +412,21 @@
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Foot - actualités, mercato, info & vidéo en continu",
+    "candidate_event_title_zh": "足球-新闻、市场、信息和流媒体视频",
     "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
+  },
+  {
+    "item_id": "norm_353",
+    "source_id": "media_lequipe_football",
+    "source_name": "L'Équipe Football",
+    "title": "Mercato 2025 : l'actu des transferts foot",
+    "summary": "Suivez toute l'actu des transferts de football sur L'Équipe. Découvrez les dernières infos du mercato, les mouvements de joueurs, les rumeurs et les analyses des experts. Restez informé sur le marché des transferts.",
+    "url": "https://www.lequipe.fr/Football/Transferts-football/",
+    "language": "fr",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Mercato 2025：足球转会Lactu",
+    "candidate_summary_zh": "Suivez toute lactu des transferts de football sur LÉquipe"
   },
   {
     "item_id": "norm_373",
@@ -260,6 +442,19 @@
     "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
+    "item_id": "norm_390",
+    "source_id": "media_lequipe_football_coupedumonde",
+    "source_name": "L'Équipe Football Coupe du Monde",
+    "title": "Doué-Barcola, une place pour deux",
+    "summary": "",
+    "url": "https://www.lequipe.fr/Football/Actualites/Un-duel-doue-barcola-pour-une-place-de-titulaire-avec-les-bleus-face-au-senegal-a-la-coupe-du-monde-2026/1684068",
+    "language": "fr",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Gifted-Barcola，适合双人入住的地方",
+    "candidate_summary_zh": "Gifted-Barcola，适合双人入住的地方"
+  },
+  {
     "item_id": "norm_398",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
@@ -269,7 +464,7 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Futebol | ge",
+    "candidate_event_title_zh": "足球| ge",
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
@@ -282,8 +477,8 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Futebol | ge",
-    "candidate_summary_zh": "在ge.globo上关注足球新闻"
+    "candidate_event_title_zh": "足球| ge",
+    "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
     "item_id": "norm_410",
@@ -325,32 +520,6 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_432",
-    "source_id": "media_ole_argentina_mundial 2026",
-    "source_name": "Olé Argentina Mundial 2026 Page",
-    "title": "Las sensaciones de Dibu Martínez: del \"está todo bien\" al dolor que sintió en la práctica",
-    "summary": "En la práctica abierta, el arquero de la Selección levantó el pulgar hacia el sector de las cámaras y dejó un mensaje optimista.",
-    "url": "https://www.ole.com.ar/seleccion/dibumartinez-seleccionargentina-lesion-recuperacion_0_n7m3aEhhQx.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "迪布·马丁内斯（Dibu Martínez）的感觉：他在实践中感受到的痛苦一切都很好",
-    "candidate_summary_zh": "En la práctica abierta, el arquero de la Selección levantó el pulgar hacia el sector de las cámaras y dejó un mensaje optimista"
-  },
-  {
-    "item_id": "norm_440",
-    "source_id": "media_ole_argentina_mundial 2026",
-    "source_name": "Olé Argentina Mundial 2026 Page",
-    "title": "La opinión del Turco Mohamed: el buen debut de México y su camino posible hasta cuartos de final",
-    "summary": "El entrenador argentino que no para de ganar títulos en Toluca, analizó el debut del Tri y lo que viene.",
-    "url": "https://www.ole.com.ar/mundial/mundial-2026/opinion-turco-mohamed-mexico-debut-mundial-camino-cuartos-final_0_Bd0IrrscUp.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Turco Mohamed的意见：墨西哥的首次亮相及其进入四分之一决赛的可能途径",
-    "candidate_summary_zh": "这位阿根廷教练从未停止在托卢卡赢得冠军，他分析了Tri的首次亮相以及即将发生的事情"
-  },
-  {
     "item_id": "norm_441",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
@@ -362,188 +531,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Mundial 2026",
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
-  },
-  {
-    "item_id": "norm_443",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Monday Moan",
-    "summary": "The thread for moaning about your team, referees, VAR, the state of the game, the degeneration of the discourse on /r/soccer itself, social media, pundits, FIFA, multi-club ownership, PSR being too harsh, PSR not being harsh enough, Arsenal fans - and also to moan about anyone moaning about any of the above. submitted by /u/2soccer2bot [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vwweg9/monday_moan/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "星期一呻吟",
-    "candidate_summary_zh": "呻吟你的球队、裁判、VAR、比赛状态、/r/足球本身话语的退化、社交媒体、专家、国际足联、多俱乐部所有权、PSR过于苛刻、PSR不够苛刻、阿森纳球迷的线索-以及呻吟任何人对上述任何事情的呻吟"
-  },
-  {
-    "item_id": "norm_444",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Julian Alvarez liked this post on Tiktok",
-    "summary": "submitted by /u/Tangycroatian [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vxcfwn/julian_alvarez_liked_this_post_on_tiktok/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Julian Alvarez对Tiktok上的这篇文章点赞",
-    "candidate_summary_zh": "提交者/u/Tangycroatian [link] [comments]"
-  },
-  {
-    "item_id": "norm_446",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Former Spain international and Real Madrid goalkeeper Santi Cañizares slams the club for renewing Vinícius: “Nobody wants a player like that at their club. What he gives you on the pitch, he takes away with his attitude. Maybe a small club like Newcastle could want him, but not Real Madrid.”",
-    "summary": "“Nobody wants a player like that at their club.” Vinícius under fire | OneFootball Santi Cañizares, former Spain goalkeeper, was blunt when discussing Vinícius’ situation at Real Madrid and questioned the club’s decision to renew the Brazilian forward’s contract. The former goalkeeper argued that Madrid found themselves in a difficult position during the transfer window, considering Vinícius had one year left on his contract and the possibility of selling him existed. “There has been a debate this summer. He had one year left on his contract, so either you sell him or you don’t. What he gives you football-wise is offset by what he takes away,” Cañizares explained. Santi Cañizares’ harsh comment about Vinícius The former player went even further when discussing the supposed interest from other clubs in Vinícius and claimed that, in his opinion, the Brazilian did not receive any significant offers. “Do you know what was happening? Nobody wants him. Nobody wants a player like that at their club,” he said. Cañizares even suggested that Real Madrid may have been forced to renew the forward because there were no offers from other teams. “I don't think he received any offers. Real Madrid was forced and needed to renew him because surely no club got in touch with him or his agent, because nobody wants a footballer with these characteristics,” he said. Finally, the former goalkeeper mentioned Newcastle as one of the few destinations he could imagine for the Brazilian, although he said it ironically: “Well, yes, a smaller club could want him… Newcastle. With Vinícius, I raise my standards.” submitted by /u/IndividualPleasant23 [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vxbcy3/former_spain_international_and_real_madrid/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "前西班牙国脚和皇家马德里门将桑蒂·卡尼萨雷斯（Santi Cañizares）抨击俱乐部续约维尼修斯（Vinícius）：没有人希望俱乐部拥有这样的球员。他在球场上给了你什么，他带走了他的态度。也许像纽卡斯尔这样的小俱乐部会想要他，但不是皇家马德里",
-    "candidate_summary_zh": "没有人希望俱乐部有这样的球员。Vinícius受到攻击| OneFootball前西班牙门将Santi Cañizares在讨论Vinícius在皇家马德里的情况时直言不讳，并质疑俱乐部续签巴西前锋合同的决定"
-  },
-  {
-    "item_id": "norm_448",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Iranian defender Nader Mohammadi of Spartak Kostroma with the longest throw-in recorded in the Russian League",
-    "summary": "submitted by /u/sirtorshi [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vx3y8i/iranian_defender_nader_mohammadi_of_spartak/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "斯巴达克·科斯特罗马的伊朗后卫纳迪尔·穆罕默迪（Nader Mohammadi）是俄罗斯联赛中投掷时间最长的球员",
-    "candidate_summary_zh": "提交者/u/sirtorshi [link] [comments]"
-  },
-  {
-    "item_id": "norm_450",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Jamie Carragher on Chelsea's goalkeeper issue \"Alisson comes in for Liverpool, Liverpool win the league. Arsenal don't win the league if they have Ramsdale in goal and not Raya.\"",
-    "summary": "submitted by /u/notaghostofreddit [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vxh1v6/jamie_carragher_on_chelseas_goalkeeper_issue/",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "杰米·卡拉格（Jamie Carragher）在切尔西门将阿利森（Alisson）为利物浦效力，利物浦赢得联赛冠军。如果他们有拉姆斯代尔进球而不是拉亚，阿森纳就不会赢得联赛冠军",
-    "candidate_summary_zh": "提交者/u/notaghostofreddit [link] [comments]"
-  },
-  {
-    "item_id": "norm_452",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Floriani Mussolini has made his official debut for SS Lazio",
-    "summary": "submitted by /u/PianoJealous307 [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vxdc2p/floriani_mussolini_has_made_his_official_debut/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "弗洛里亚尼·墨索里尼（Floriani Mussolini）为SS拉齐奥（SS Lazio）",
-    "candidate_summary_zh": "提交者/u/PianoJealous307 [link] [comments]"
-  },
-  {
-    "item_id": "norm_453",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "[Business Upturn] Newcastle United reach verbal agreement with Manchester City for Nico González. £47M plus £3M in add-ons",
-    "summary": "submitted by /u/greenwhitehell [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vx75um/business_upturn_newcastle_united_reach_verbal/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "[商业好转]纽卡斯尔联队与曼城达成Nico González的口头协议。£ 4700万加上£ 300万的附加服务",
-    "candidate_summary_zh": "提交者/u/greenwhitehell [link] [comments]"
-  },
-  {
-    "item_id": "norm_456",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Serie A hattricks since the start of the 25/26 season: 2. People who scored them: Donyell Malen.",
-    "summary": "submitted by /u/wjdbfifj [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vxe4sh/serie_a_hattricks_since_the_start_of_the_2526/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "自25/26赛季开始以来的意甲哈特里克： 2.评分者： Donyell Malen",
-    "candidate_summary_zh": "submitted by /u/wjdbfifj [link] [comments]"
-  },
-  {
-    "item_id": "norm_457",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Roma 3-0 Fiorentina - Donyell Malen hat-trick 60'",
-    "summary": "submitted by /u/4gjdtokurwa [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vxdwz5/roma_30_fiorentina_donyell_malen_hattrick_60/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "罗马3-0佛罗伦萨- Donyell Malen帽子戏法60",
-    "candidate_summary_zh": "submitted by /u/4gjdtokurwa [link] [comments]"
-  },
-  {
-    "item_id": "norm_459",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Rouven Kasper on the Ballon D’or:”It can only be Harry Kane. We can just give it to Harry. 73 goals in 64 games. There is no way around him this year. When you just focus on statistics, there cannot be anybody else. It does not matter if somebody from Real Madrid wants their player to be there.”",
-    "summary": "Harry Kane recognizes that Bayern are pushing for him to win the Ballon d'Or, and is grateful for that: \"I feel the love from this club, I know how much they appreciate me. Not just my goals but I think my all-round game and also me as a person in the changing room as well, the whole package. I feel very privileged and also with the fans, the way they have taken to me in these few years has been really special. My aim is to repay them with some goals and some trophies\" • Sporting director Christoph Freund: \"I think he deserves to win the Ballon d'Or. He played an outstanding season. It means a lot also for Bayern Munich - when you have one of the best players in the world playing in your team. We will see what's coming, but in the end it would be a great thing for everybody\" • CCO Rouven Kasper: \"It can only be Harry Kane. We can just give it to Harry. 73 goals in 64 games. We think there is no way around him this year. When you just focus on statistics, there cannot be anybody else. It does not matter if somebody from Real Madrid wants their player to be there\" submitted by /u/Tangycroatian [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vwzq8j/rouven_kasper_on_the_ballon_dorit_can_only_be/",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Ballon D 'or上的Rouven Kasper：只能是Harry Kane。我们可以把它给哈利。64场比赛73个进球。今年没有办法绕过他。当你只关注统计数据时，就不会有其他人了。皇家马德里是否有人希望他们的球员在场并不重要",
-    "candidate_summary_zh": "哈里·凯恩（Harry Kane）认识到拜仁正在推动他赢得Ballon dOr，并对此表示感谢：我感受到了这家俱乐部的爱，我知道他们非常感激我"
-  },
-  {
-    "item_id": "norm_462",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Cole Palmer beats one of the chasers in football knowledge game",
-    "summary": "submitted by /u/sepi0l_45 [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vxdf1n/cole_palmer_beats_one_of_the_chasers_in_football/",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "科尔·帕尔默（Cole Palmer）击败了足球知识游戏中的追逐者之一",
-    "candidate_summary_zh": "提交者/u/sepi0l_45 [link] [comments]"
-  },
-  {
-    "item_id": "norm_463",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "[Sacha Tavolieri] Rafael Leão has already informed AC Milan that if he were to leave the club, it would only be for Galatasaray. Offers from Aston Villa and Al Hilal have been turned down in the last few hours. It’s either stay until his contract expires or move to Turkey.",
-    "summary": "submitted by /u/NewLoad886 [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vxcrhk/sacha_tavolieri_rafael_le%C3%A3o_has_already_informed/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "[Sacha Tavolieri] Rafael Leão已经通知AC米兰，如果他离开俱乐部，那只会是加拉塔萨雷。阿斯顿维拉（Aston Villa）和阿尔希拉尔（Al Hilal）的报价在过去几个小时内被拒绝。要么待到合同到期，要么搬到土耳其",
-    "candidate_summary_zh": "submitted by /u/NewLoad886 [link] [comments]"
-  },
-  {
-    "item_id": "norm_465",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Aleksander Čeferin on Balogun’s case: ”Now here, the president of a country says, ‘I called him, and I told him to look at it.’ And then the Fifa president says, ‘But it was an independent decision.’ For us as football fans, or for us as a governing body, that’s shocking.”",
-    "summary": "“That was more than shocking. We have rules, and if you don’t respect your own rules, then the game doesn’t make any sense.” “Some of the federations, not in Europe, are suspended because of governmental interference. Now here, the president of a country says, ‘I called him, and I told him to look at it.’ And then the Fifa president says, ‘But it was an independent decision.’ For us as football fans, or for us as a governing body, that’s shocking.” “And trust me, almost everybody was shocked. Just not everybody dared speaking.” On not attending the WC Final: “There were so many reasons that I decided not to go. I knew that the decision is right.” submitted by /u/Sparky-moon [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1vx8oyk/aleksander_%C4%8Deferin_on_baloguns_case_now_here_the/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "亚历山大·切费林（Aleksander Čeferin）谈论巴洛贡（Balogun）的案例：现在，在这里，一个国家的总统说： “我打电话给他，让他看看。“然后国际足联主席说， '但这是一个独立的决定。“对于我们作为足球迷，或者对我们作为管理机构来说，这是令人震惊的",
-    "candidate_summary_zh": "我们有规则，如果你不遵守自己的规则，那么游戏就没有任何意义。一些非欧洲的联合会因政府干预而被暂停"
-  },
-  {
-    "item_id": "norm_470",
-    "source_id": "forum_reddit_football",
-    "source_name": "Reddit r/football",
-    "title": "Leandro Paredes Given 10-Match Ban",
-    "summary": "Argentina midfielder Leandro Paredes has been banned for 10 international matches after clashes with Spain players following the 2026 World Cup final. Nahuel Molina received a seven-game ban. Argentina were also fined £235,000 and face reduced stadium capacity for a home match. https://www.bbc.co.uk/sport/football/articles/c98v7p1pr3eo submitted by /u/Signal-Dance6838 [link] [comments]",
-    "url": "https://www.reddit.com/r/football/comments/1vulhs2/leandro_paredes_given_10match_ban/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "莱安德罗·帕雷德斯（Leandro Paredes）被禁止",
-    "candidate_summary_zh": "Argentina midfielder Leandro Paredes has been banned for 10 international matches after clashes with Spain players following the 2026 World Cup final"
   },
   {
     "item_id": "norm_615",
