@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
+    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
   },
   {
     "item_id": "norm_2",
@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
+    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
   },
   {
     "item_id": "norm_4",
@@ -48,8 +48,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
-    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
+    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
   },
   {
     "item_id": "norm_11",
@@ -61,7 +61,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：通往1000个职业目标的道路",
     "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
   },
   {
@@ -76,19 +76,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
     "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
-  },
-  {
-    "item_id": "norm_31",
-    "source_id": "media_espn_soccer_worldcup",
-    "source_name": "ESPN Soccer Worldcup Page",
-    "title": "USMNT's final World Cup roster has Pochettino taking risks",
-    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
-    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
-    "candidate_summary_zh": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup"
   },
   {
     "item_id": "norm_42",
@@ -126,7 +113,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
     "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
@@ -179,7 +166,20 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Al-Hilal在签署Arsenals Martinelli的高级谈判中",
-    "candidate_summary_zh": "Arsenal are in advanced talks with Saudi Arabian club Al-Hilal over the sale of Gabriel Martinelli for at least £50m"
+    "candidate_summary_zh": "阿森纳正在与沙特阿拉伯俱乐部Al-Hilal就以至少5000万英镑的价格出售Gabriel Martinelli进行高级谈判"
+  },
+  {
+    "item_id": "norm_87",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Forest working on deal for Chelsea striker Delap",
+    "summary": "Nottingham Forest are working on a deal to sign Chelsea striker Liam Delap.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c8xkl50ylweo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Forest正在为切尔西前锋Delap处理交易",
+    "candidate_summary_zh": "诺丁汉森林正在努力签下切尔西前锋利亚姆·德拉普"
   },
   {
     "item_id": "norm_90",
@@ -192,20 +192,20 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "为了拥有一支优秀的团队，我们需要一个伟大的Cole - Alonso on Palmer",
-    "candidate_summary_zh": "切尔西主教练哈比·阿隆索（Xabi Alonso）称赞科尔·帕尔默（Cole Palmers）在进球后的责任、成熟和自由，组织者的助攻在克雷文小屋（Craven Cottage）以3-2击败富勒姆（Fulham）"
+    "candidate_summary_zh": "Chelsea manager Xabi Alonso praises Cole Palmers responsibility, maturity and freedom after a goal and an assist from the playmaker seals a 3-2 victory over Fulham at Craven Cottage"
   },
   {
-    "item_id": "norm_93",
+    "item_id": "norm_99",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "How the Guehi gamble paid off for Maresca",
-    "summary": "Match of the Day's Joe Hart discusses Manchester City's Marc Guehi and his performance in midfield, with plenty of praise for the centre half in a different position against Bournemouth.",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cdewe13009do?at_medium=RSS&at_campaign=rss",
+    "title": "Football Daily",
+    "summary": "Mark Chapman is joined by Chris Sutton, Andros Townsend and, Rory Smith.",
+    "url": "https://www.bbc.co.uk/sounds/play/p0p63qyt?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Guehi赌博如何为Maresca带来回报",
-    "candidate_summary_zh": "乔·哈特（Joe Hart）讨论了曼城的马克·盖希（Marc Guehi）和他在中场的表现，并对中场半场在对阵伯恩茅斯的不同位置给予了很多赞扬"
+    "candidate_event_title_zh": "足球日报",
+    "candidate_summary_zh": "克里斯·萨顿（Chris Sutton）、安德罗斯·汤森（Andros Townsend）和罗里·史密斯（"
   },
   {
     "item_id": "norm_108",
@@ -218,7 +218,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
+    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
   },
   {
     "item_id": "norm_119",
@@ -234,30 +234,30 @@
     "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
   },
   {
-    "item_id": "norm_130",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Thomas Partey out of Ghana’s World Cup opener after visa application to Canada refused",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-partey-ghana-world-cup-visa-application-to-canada-refused",
+    "item_id": "norm_134",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Post-Pep Premier League era begins with blast of hyper-managed shock and awe | Barney Ronay",
+    "summary": "Possession numbers, the intense physicality and the pure rhythm of games all felt noticeably new as the season began There has been something oddly narcotic and moreish about the drip‑drip of fresh Pep Guardiola content either side of the start of the new Premier League season. Eras come and go. Everything dies, baby, that’s a fact. But four‑part Amazon Prime documentaries make angels of us all. So we have continued to feast on the Pep-at-City visuals: dead jeopardy, reheated beefs, the uplifting team talks of a departed manager to the departed players of a departed team, and moments that often feel far more gripping than the daily churn of what we must, out of habit, call the real world. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/24/post-pep-premier-league-era-begins-with-blast-of-hyper-managed-shock-and-awe",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey",
-    "candidate_summary_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey"
+    "candidate_event_title_zh": "后Pep英超联赛时代始于超级管理震撼和敬畏的爆发| Barney Ronay",
+    "candidate_summary_zh": "Possession numbers, the intense physicality and the pure rhythm of games all felt noticeably new as the season began There has been something oddly narcotic and moreish about the drip‑drip of fresh Pep Guardiola content either side of the start of the new Premier League season"
   },
   {
-    "item_id": "norm_131",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
+    "item_id": "norm_139",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Nottingham Forest close in on signing Liam Delap from Chelsea",
+    "summary": "Oliver Glasner wants two more buys in transfer window Aston Villa target Club Brugge defender Joel Ordóñez Nottingham Forest are in advanced talks with Chelsea over a deal for Liam Delap. Oliver Glasner wants two more signings before the transfer window closes a week on Tuesday. Delap, who was on Forest’s radar when the striker opted to join Chelsea from Ipswich, is out of favour at Stamford Bridge and has been training away from Xabi Alonso’s first team. The 23-year-old was left out of Chelsea’s squad for their game at Fulham on Monday. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/24/nottingham-forest-liam-delap-chelsea-tranfer-window",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
+    "candidate_event_title_zh": "诺丁汉森林即将从切尔西签下利亚姆·德拉普（Liam Delap）",
+    "candidate_summary_zh": "Oliver Glasner wants two more buys in transfer window Aston Villa target Club Brugge defender Joel Ordóñez Nottingham Forest are in advanced talks with Chelsea over a deal for Liam Delap"
   },
   {
     "item_id": "norm_161",
@@ -273,6 +273,19 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
+    "item_id": "norm_182",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "Brighton make £30m Vuskovic offer as Spurs maintain Van Hecke interest",
+    "summary": "",
+    "url": "https://www.skysports.com/football/news/11095/13553329/luka-vuskovic-brighton-make-lb30m-offer-for-spurs-defender-as-roberto-de-zerbi-maintains-jan-paul-van-hecke-interest",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "布莱顿提出3000万英镑的Vuskovic报价，因为马刺保持了Van Hecke的兴趣",
+    "candidate_summary_zh": "布莱顿提出3000万英镑的Vuskovic报价，因为马刺保持了Van Hecke的兴趣"
+  },
+  {
     "item_id": "norm_186",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
@@ -283,7 +296,20 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+    "candidate_summary_zh": "观看您最喜爱的体育运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会与比分"
+  },
+  {
+    "item_id": "norm_200",
+    "source_id": "media_sky_sports_football_news",
+    "source_name": "Sky Sports Football News Page",
+    "title": "Scottish Championship",
+    "summary": "",
+    "url": "https://www.skysports.com/scottish-football",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "苏格兰锦标赛",
+    "candidate_summary_zh": "苏格兰锦标赛"
   },
   {
     "item_id": "norm_201",
@@ -296,7 +322,20 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+    "candidate_summary_zh": "观看您最喜爱的体育运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会与比分"
+  },
+  {
+    "item_id": "norm_209",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "Real Madrid ofrece 150 mde por Julián Álvarez; Atlético lo rechaza",
+    "summary": "",
+    "url": "https://espndeportes.espn.com/futbol/espana/nota/_/id/16816131/real-madrid-julian-alvarez-oferta-150-millones-euros-atletico",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "皇家马德里出价1.5亿美元收购Julián Álvarez；马德里竞技拒绝接受",
+    "candidate_summary_zh": "皇家马德里出价1.5亿美元收购Julián Álvarez；马德里竞技拒绝接受"
   },
   {
     "item_id": "norm_248",
