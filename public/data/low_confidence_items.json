@@ -9,8 +9,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
-    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
+    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
   },
   {
     "item_id": "norm_2",
@@ -22,8 +22,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Scores & Fixtures",
-    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
+    "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
+    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
     "item_id": "norm_3",
@@ -35,7 +35,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Sky Sports FIFA World Cup Scores & Fixtures",
+    "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
     "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
@@ -48,21 +48,47 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
+    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
     "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
   },
   {
-    "item_id": "norm_42",
-    "source_id": "media_espn_soccer_worldcup",
-    "source_name": "ESPN Soccer Worldcup Page",
-    "title": "Inside Nike's bet on soccer kits as fashion language",
-    "summary": "",
-    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
-    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
+  },
+  {
+    "item_id": "norm_27",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
+    "summary": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
+    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+  },
+  {
+    "item_id": "norm_50",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
+    "summary": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
+    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
   },
   {
     "item_id": "norm_53",
@@ -74,8 +100,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
-    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
   },
   {
     "item_id": "norm_54",
@@ -87,24 +113,11 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
-    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
+    "candidate_event_title_zh": "世界杯",
+    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
   },
   {
-    "item_id": "norm_71",
-    "source_id": "media_bbc_sport_football_worldcup",
-    "source_name": "BBC Sport Football Worldcup Page",
-    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
-    "summary": "",
-    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
-    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
-  },
-  {
-    "item_id": "norm_80",
+    "item_id": "norm_81",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Watkins' departure would cut deepest - and Villa did not see it coming",
@@ -117,33 +130,20 @@
     "candidate_summary_zh": "奥利·沃特金斯（Ollie Watkins）一直是阿斯顿维拉（Aston Villa）的传奇人物，但由于沙特阿拉伯的兴趣，他在俱乐部的时间似乎接近痛苦的结束"
   },
   {
-    "item_id": "norm_88",
+    "item_id": "norm_92",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Al-Hilal in advanced talks to sign Arsenal's Martinelli",
-    "summary": "Arsenal are in advanced talks with Saudi Arabian club Al-Hilal over the sale of Gabriel Martinelli for at least £50m.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cgk4k444rmmo?at_medium=RSS&at_campaign=rss",
+    "title": "How the Guehi gamble paid off for Maresca",
+    "summary": "Match of the Day's Joe Hart discusses Manchester City's Marc Guehi and his performance in midfield, with plenty of praise for the centre half in a different position against Bournemouth.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cdewe13009do?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Al-Hilal在签署Arsenals Martinelli的高级谈判中",
-    "candidate_summary_zh": "阿森纳正在与沙特阿拉伯俱乐部Al-Hilal就以至少5000万英镑的价格出售Gabriel Martinelli进行高级谈判"
+    "candidate_event_title_zh": "Guehi赌博如何为Maresca带来回报",
+    "candidate_summary_zh": "Match of the Days Joe Hart discusses Manchester Citys Marc Guehi and his performance in midfield, with plenty of praise for the centre half in a different position against Bournemouth"
   },
   {
-    "item_id": "norm_89",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "'To have a good team, we need a great Cole' - Alonso on Palmer",
-    "summary": "Chelsea manager Xabi Alonso praises Cole Palmer's \"responsibility, maturity and freedom\" after a goal and an assist from the playmaker seals a 3-2 victory over Fulham at Craven Cottage. In Alonso's first Premier League match in charge, the Spaniard insists his new squad can achieve \"special things\" this season.",
-    "url": "https://www.bbc.co.uk/sport/football/videos/crl6r2wgd35o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "为了拥有一支优秀的团队，我们需要一个伟大的Cole - Alonso on Palmer",
-    "candidate_summary_zh": "Chelsea manager Xabi Alonso praises Cole Palmers responsibility, maturity and freedom after a goal and an assist from the playmaker seals a 3-2 victory over Fulham at Craven Cottage"
-  },
-  {
-    "item_id": "norm_97",
+    "item_id": "norm_98",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Football Daily",
@@ -153,7 +153,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "足球日报",
-    "candidate_summary_zh": "克里斯·萨顿（Chris Sutton）、安德罗斯·汤森（Andros Townsend）和罗里·史密斯（"
+    "candidate_summary_zh": "Mark Chapman is joined by Chris Sutton, Andros Townsend and, Rory Smith"
   },
   {
     "item_id": "norm_99",
@@ -166,7 +166,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "McInnes可能会参加第一场Old Firm比赛",
-    "candidate_summary_zh": "德里克·麦金尼斯（Derek McInnes）在8月31日的听证会日期确定后，他可以作为流浪者队的经理参加他的第一场Old Firm比赛，因为他对边线禁赛提出了上诉"
+    "candidate_summary_zh": "Derek McInnes could be in the stand for his first Old Firm match as Rangers manager after a hearing date of 31 August was set for his appeal against a touchline ban"
   },
   {
     "item_id": "norm_102",
@@ -208,6 +208,19 @@
     "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
   },
   {
+    "item_id": "norm_113",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "在男子世界杯的历史上， Les Rouges有史以来第一次"
+  },
+  {
     "item_id": "norm_116",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
@@ -218,59 +231,20 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
-    "candidate_summary_zh": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach"
+    "candidate_summary_zh": "离开科尔·帕尔默让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练离开科尔·帕尔默在家里让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练在英格兰的托马斯·图切尔有一个精英教练"
   },
   {
-    "item_id": "norm_131",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Thomas Partey out of Ghana’s World Cup opener after visa application to Canada refused",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-partey-ghana-world-cup-visa-application-to-canada-refused",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey",
-    "candidate_summary_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey"
-  },
-  {
-    "item_id": "norm_132",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
-  },
-  {
-    "item_id": "norm_142",
+    "item_id": "norm_139",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Julián Álvarez walks alone at Atlético in transfer saga with no end – and no winners | Sid Lowe",
-    "summary": "Barcelona target left exposed after draw with Villarreal as supporters vented their fury at his ‘dream’ to leave Julián Álvarez entered a long, dark tunnel on his own. “We’re stronger together,” Giuliano Simeone said but that wasn’t the way it went. At the end of their first home game of the season, a 2-2 draw with Villarreal, all of Atlético Madrid’s players gathered by the centre circle, shook hands with their opponents and each other, then headed towards the south end of the Metropolitano. Almost all of them did, anyway: one was left behind. Somebody in a suit had a quiet word then the press officer came, pointing in the other direction. So, while his teammates turned to the supporters who had turned on him, the man wearing No 19 went west, to the exit. Álvarez walked alone. Head down in silence, as he had been all afternoon and beyond, he set off slowly across the pitch accompanied only by his thoughts and the whistles that followed him. Not offered a hand to shake or a nod of acknowledgment, he stepped past the Atlético badge on the touchline where the mouth of the tunnel opens. Either side, supporters hung over the void, whistling and shouting. Way off to his left, Atlético’s other players paused, seemingly waiting for him to slip out of sight before approaching the stand, but none turned back. A scarf was thrown, landing at Álvarez’s feet and left lying there. And then he disappeared into the dark, a portrait of the place he is in. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/24/julian-alvarez-walks-alone-at-atletico-madrid-barcelona-transfer-saga-la-liga",
+    "title": "Nottingham Forest close in on signing Liam Delap from Chelsea",
+    "summary": "Oliver Glasner wants two more buys in transfer window Aston Villa target Club Brugge defender Joel Ordóñez Nottingham Forest are in advanced talks with Chelsea over a deal for Liam Delap. Oliver Glasner wants two more signings before the transfer window closes a week on Tuesday. Delap, who was on Forest’s radar when the striker opted to join Chelsea from Ipswich, is out of favour at Stamford Bridge and has been training away from Xabi Alonso’s first team. The 23-year-old was left out of Chelsea’s squad for their game at Fulham on Monday. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/24/nottingham-forest-liam-delap-chelsea-tranfer-window",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Julián Álvarez在转会传奇中独自走在马竞，没有尽头–也没有赢家| Sid Lowe",
-    "candidate_summary_zh": "Barcelona target left exposed after draw with Villarreal as supporters vented their fury at his ‘dream’ to leave Julián Álvarez entered a long, dark tunnel on his own"
-  },
-  {
-    "item_id": "norm_161",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "‘A huge honour’: Socceroos World Cup star Alessandro Circati seals move to Benfica",
-    "summary": "Defender completes transfer for reported fee of 20m euros ($33m) Ten Australian players have now made post-World Cup moves Young Socceroo Alessandro Circati has become the latest Australian international to be snapped up in a money-spinning European transfer, as he hailed his move from Parma to Benfica as a “privilege”. Following Lucas Herrington’s move from the MLS to become Australia’s only Premier League player at Hull City, and Nestory Irankunda joining Benfica’s great rivals Sporting from Watford, Circati has been signed by the Portuguese giants for a reported 20m euros ($33m). Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/20/alessandro-circati-benfica-portugal-primeira-liga-transfer-news-move",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "“巨大的荣誉”： Socceroos世界杯明星Alessandro Circati海豹队搬到本菲卡",
-    "candidate_summary_zh": "Defender completes transfer for reported fee of 20m euros ($33m) Ten Australian players have now made post-World Cup moves Young Socceroo Alessandro Circati has become the latest Australian international to be snapped up in a money-spinning European transfer, as he hailed his move from Parma to Benfica as a privilege"
+    "candidate_event_title_zh": "诺丁汉森林即将从切尔西签下利亚姆·德拉普（Liam Delap）",
+    "candidate_summary_zh": "Oliver Glasner wants two more buys in transfer window Aston Villa target Club Brugge defender Joel Ordóñez Nottingham Forest are in advanced talks with Chelsea over a deal for Liam Delap"
   },
   {
     "item_id": "norm_162",
@@ -325,32 +299,6 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_204",
-    "source_id": "media_espn_deportes_futbol",
-    "source_name": "ESPN Deportes Fútbol",
-    "title": "ESPN Deportes - Stream deportes en vivo y ESPN originales",
-    "summary": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN.",
-    "url": "https://www.espndeportes.com/watch",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Deportes -原创ESPN和现场体育直播",
-    "candidate_summary_zh": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN"
-  },
-  {
-    "item_id": "norm_218",
-    "source_id": "media_espn_deportes_futbol",
-    "source_name": "ESPN Deportes Fútbol",
-    "title": "Estadio Azteca niega el acceso a los titulares de palcos",
-    "summary": "",
-    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817758/mundial-2026-estadio-ciudad-de-mexico-niega-acceso-titulares-palcos",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "阿兹特克体育场（Estadio Azteca）拒绝让持箱人进入",
-    "candidate_summary_zh": "阿兹特克体育场（Estadio Azteca）拒绝让持箱人进入"
-  },
-  {
     "item_id": "norm_249",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
@@ -362,19 +310,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Fútbol en AS.com - AS.com",
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
-  },
-  {
-    "item_id": "norm_259",
-    "source_id": "media_as_futbol",
-    "source_name": "AS Fútbol",
-    "title": "Güler rompe su techo",
-    "summary": "",
-    "url": "https://as.com/futbol/guler-rompe-su-techo-f202606-n/",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "居勒打破屋顶",
-    "candidate_summary_zh": "居勒打破屋顶"
   },
   {
     "item_id": "norm_274",
