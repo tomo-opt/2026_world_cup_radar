@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
+    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
     "item_id": "norm_2",
@@ -49,7 +49,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
   },
   {
     "item_id": "norm_11",
@@ -113,8 +113,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
     "item_id": "norm_54",
@@ -130,20 +130,7 @@
     "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
-    "item_id": "norm_80",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Liverpool turn attention to Sarr after Brighton reject Minteh bids",
-    "summary": "Liverpool are exploring a move for Crystal Palace's Ismaila Sarr after Brighton reject their two bids for Yankuba Minteh.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr7d5m4d928o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在布莱顿拒绝Minteh出价后，利物浦将注意力转向Sarr",
-    "candidate_summary_zh": "在布莱顿拒绝了他们对Yankuba Minteh的两次出价后，利物浦正在探索收购Crystal Palaces Ismaila Sarr"
-  },
-  {
-    "item_id": "norm_85",
+    "item_id": "norm_88",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Postecoglou subs off Ronaldo to spark dramatic Al-Nassr comeback",
@@ -156,6 +143,19 @@
     "candidate_summary_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）在半场比赛中脱颖而出，他的10人Al-Nassr球队2-0落后-但他们反击以赢得对Al-Ettifaq的戏剧性胜利"
   },
   {
+    "item_id": "norm_105",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "How the Guehi gamble paid off for Maresca",
+    "summary": "Match of the Day's Joe Hart discusses Manchester City's Marc Guehi and his performance in midfield, with plenty of praise for the centre half in a different position against Bournemouth.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cdewe13009do?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Guehi赌博如何为Maresca带来回报",
+    "candidate_summary_zh": "乔·哈特（Joe Hart）讨论了曼城的马克·盖希（Marc Guehi）和他在中场的表现，并对中场半场在对阵伯恩茅斯的不同位置给予了很多赞扬"
+  },
+  {
     "item_id": "norm_109",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
@@ -166,85 +166,33 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
   },
   {
-    "item_id": "norm_116",
+    "item_id": "norm_113",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
-    "candidate_summary_zh": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach"
+    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "在男子世界杯的历史上， Les Rouges有史以来第一次"
   },
   {
-    "item_id": "norm_131",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Thomas Partey out of Ghana’s World Cup opener after visa application to Canada refused",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-partey-ghana-world-cup-visa-application-to-canada-refused",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey",
-    "candidate_summary_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey"
-  },
-  {
-    "item_id": "norm_132",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
-  },
-  {
-    "item_id": "norm_135",
+    "item_id": "norm_140",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Ayyoub Bouaddi: maths student, chess fan and Manchester City’s new Rodri",
-    "summary": "The £85m midfielder passed his exams a year early, is studying for a degree and is ready to tackle Premier League learning curve “He’s like a computer,” the former Lille head of academy recruitment, Mathieu Frison, says of the €100m (£85.7m) Manchester City recruit Ayyoub Bouaddi. “You teach him something, he learns it and can do it immediately.” Bouaddi has the mountainous challenge at his new club of replacing the world’s best central midfielder. It would be difficult for anyone but at 18 it feels monumental, although those who know the Morocco international best would not bet against him. Bouaddi has known only Lille and Ligue 1 but is entering one of the biggest clubs in the world where a season without a trophy is deemed a failure. For someone so young, however, he has plenty of experience. He made his European debut three days after his 16th birthday and has played three full seasons in the first team, culminating in a place at the World Cup this summer. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/26/ayyoub-bouaddi-manchester-city-lille-transfer-rodri",
+    "title": "Raheem Sterling charged with dangerous driving and nitrous oxide possession",
+    "summary": "Former England forward crashed on M3 in late May Sterling is also accused of failing to provide a specimen Raheem Sterling has been charged with dangerous driving and possession of nitrous oxide after a crash involving a Lamborghini on the motorway, police have said. Hampshire and Isle of Wight constabulary said the charges followed a single-vehicle collision on the M3 southbound, near Minley interchange, on 28 May. The 31-year-old former England forward is accused of dangerous driving, possession of nitrous oxide for wrongful inhalation and failing to provide a specimen. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/26/raheem-sterling-charged-with-dangerous-driving-and-nitrous-oxide-possession",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Ayyoub Bouaddi：数学学生、国际象棋迷和曼城新人Rodri",
-    "candidate_summary_zh": "这位£ 8500万中场球员提前一年通过了考试，正在攻读学位，并准备应对英超联赛的学习曲线他就像一台电脑，前里尔学院招聘主管Mathieu Frison谈到€ 1亿（£ 8570万）曼城招聘Ayyoub Bouaddi"
-  },
-  {
-    "item_id": "norm_137",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Chelsea in talks with Emiliano Martínez’s camp and braced for Enzo Fernández bid",
-    "summary": "Experienced goalkeeper wants to leave Aston Villa Manchester City expected to push for midfielder Chelsea have been offered Emiliano Martínez and are considering making an offer for the goalkeeper. The club are in talks with Martínez’s camp and are braced for a bid from Manchester City for the World Cup winner’s Argentina teammate Enzo Fernández. Martínez has told Aston Villa he wants to leave but a move to Juventus collapsed last week after Villa had signed his replacement, Zion Suzuki, from Parma for £30m. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/26/chelsea-emiliano-martinez-aston-villa-goalkeeper",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "切尔西与埃米利亚诺·马丁内斯（Emiliano Martínez）的阵营进行谈判，并为恩佐·费尔南德斯（Enzo Fernánde",
-    "candidate_summary_zh": "经验丰富的守门员希望离开阿斯顿维拉曼城，预计将成为中场球员切尔西已收到埃米利亚诺·马丁内斯的报价，并正在考虑为这位守门员提供报价"
-  },
-  {
-    "item_id": "norm_161",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Julián Álvarez walks alone at Atlético in transfer saga with no end – and no winners | Sid Lowe",
-    "summary": "Barcelona target left exposed after draw with Villarreal as supporters vented their fury at his ‘dream’ to leave Julián Álvarez entered a long, dark tunnel on his own. “We’re stronger together,” Giuliano Simeone said but that wasn’t the way it went. At the end of their first home game of the season, a 2-2 draw with Villarreal, all of Atlético Madrid’s players gathered by the centre circle, shook hands with their opponents and each other, then headed towards the south end of the Metropolitano. Almost all of them did, anyway: one was left behind. Somebody in a suit had a quiet word then the press officer came, pointing in the other direction. So, while his teammates turned to the supporters who had turned on him, the man wearing No 19 went west, to the exit. Álvarez walked alone. Head down in silence, as he had been all afternoon and beyond, he set off slowly across the pitch accompanied only by his thoughts and the whistles that followed him. Not offered a hand to shake or a nod of acknowledgment, he stepped past the Atlético badge on the touchline where the mouth of the tunnel opens. Either side, supporters hung over the void, whistling and shouting. Way off to his left, Atlético’s other players paused, seemingly waiting for him to slip out of sight before approaching the stand, but none turned back. A scarf was thrown, landing at Álvarez’s feet and left lying there. And then he disappeared into the dark, a portrait of the place he is in. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/24/julian-alvarez-walks-alone-at-atletico-madrid-barcelona-transfer-saga-la-liga",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Julián Álvarez在转会传奇中独自走在马竞，没有尽头–也没有赢家| Sid Lowe",
-    "candidate_summary_zh": "Barcelona target left exposed after draw with Villarreal as supporters vented their fury at his ‘dream’ to leave Julián Álvarez entered a long, dark tunnel on his own"
+    "candidate_event_title_zh": "Raheem Sterling被控危险驾驶和持有一氧化二氮",
+    "candidate_summary_zh": "Former England forward crashed on M3 in late May Sterling is also accused of failing to provide a specimen Raheem Sterling has been charged with dangerous driving and possession of nitrous oxide after a crash involving a Lamborghini on the motorway, police have said"
   },
   {
     "item_id": "norm_164",
@@ -284,6 +232,19 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+  },
+  {
+    "item_id": "norm_220",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "Estadio Azteca niega el acceso a los titulares de palcos",
+    "summary": "",
+    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817758/mundial-2026-estadio-ciudad-de-mexico-niega-acceso-titulares-palcos",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "阿兹特克体育场（Estadio Azteca）拒绝让持箱人进入",
+    "candidate_summary_zh": "阿兹特克体育场（Estadio Azteca）拒绝让持箱人进入"
   },
   {
     "item_id": "norm_251",
@@ -442,7 +403,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_617",
+    "item_id": "norm_613",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -455,7 +416,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_642",
+    "item_id": "norm_638",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -468,7 +429,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_667",
+    "item_id": "norm_663",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -481,7 +442,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_680",
+    "item_id": "norm_676",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -494,7 +455,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_691",
+    "item_id": "norm_687",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -507,7 +468,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_689",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -520,7 +481,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_694",
+    "item_id": "norm_690",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -533,7 +494,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_691",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -546,7 +507,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_696",
+    "item_id": "norm_692",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -559,7 +520,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_697",
+    "item_id": "norm_693",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -572,7 +533,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_698",
+    "item_id": "norm_694",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -585,7 +546,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_723",
+    "item_id": "norm_719",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -598,7 +559,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_734",
+    "item_id": "norm_730",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -611,7 +572,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_736",
+    "item_id": "norm_732",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -624,7 +585,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_750",
+    "item_id": "norm_746",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -637,7 +598,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_751",
+    "item_id": "norm_747",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -650,7 +611,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_776",
+    "item_id": "norm_772",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -663,7 +624,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_801",
+    "item_id": "norm_797",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -676,7 +637,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_826",
+    "item_id": "norm_822",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -689,7 +650,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_851",
+    "item_id": "norm_847",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -702,7 +663,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_876",
+    "item_id": "norm_872",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -715,7 +676,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_898",
+    "item_id": "norm_894",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -728,7 +689,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_899",
+    "item_id": "norm_895",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -741,7 +702,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_913",
+    "item_id": "norm_909",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
