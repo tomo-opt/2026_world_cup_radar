@@ -9,7 +9,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
     "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
-    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
+    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
     "item_id": "norm_3",
@@ -35,7 +35,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Sky Sports FIFA World Cup Scores & Fixtures",
+    "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
     "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
@@ -52,6 +52,19 @@
     "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
   },
   {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
+  },
+  {
     "item_id": "norm_27",
     "source_id": "media_espn_soccer",
     "source_name": "ESPN Soccer",
@@ -63,6 +76,32 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
     "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+  },
+  {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
+  },
+  {
+    "item_id": "norm_42",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
   },
   {
     "item_id": "norm_50",
@@ -101,88 +140,36 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "世界杯",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
-    "item_id": "norm_71",
-    "source_id": "media_bbc_sport_football_worldcup",
-    "source_name": "BBC Sport Football Worldcup Page",
-    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
-    "summary": "",
-    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
-    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
-  },
-  {
-    "item_id": "norm_82",
+    "item_id": "norm_84",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Villa close to £65m move for Chelsea's Jackson",
-    "summary": "The striker is nearing a move to Villa Park after three years at Chelsea.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cge4y57ygvdo?at_medium=RSS&at_campaign=rss",
+    "title": "Liverpool close in on £120m deal for PSG's Barcola",
+    "summary": "Liverpool are close to agreeing a deal with Paris St-Germain for Bradley Barcola - adding to the doubts surrounding Cody Gakpo's Anfield future.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c33kvgd3xpyo?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "切尔西杰克逊（Chelseas Jackson）的别墅接近6500万£",
-    "candidate_summary_zh": "The striker is nearing a move to Villa Park after three years at Chelsea"
+    "candidate_event_title_zh": "利物浦以1.2亿英镑的价格收购PSGS Barcola",
+    "candidate_summary_zh": "Liverpool are close to agreeing a deal with Paris St-Germain for Bradley Barcola - adding to the doubts surrounding Cody Gakpos Anfield future"
   },
   {
-    "item_id": "norm_83",
+    "item_id": "norm_85",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Al-Hilal closing in on Watkins - Thursday's gossip",
-    "summary": "Al-Hilal close in on a £50m deal for Ollie Watkins, Chelsea line up Bournemouth's Alex Scott, Sunderland make a loan offer for Jack Grealish, plus more.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c3eq9pjgewjo?at_medium=RSS&at_campaign=rss",
+    "title": "Leyton Orient criticise badge on new Wrexham kit",
+    "summary": "Leyton Orient criticise Wrexham and their celebrity owners, Ryan Reynolds and Rob Mac, for putting a badge on their new kit that mirrors their own.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c14dl88djrmo?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Al-Hilal接近Watkins -周四八卦",
-    "candidate_summary_zh": "Al-Hilal close in on a £50m deal for Ollie Watkins, Chelsea line up Bournemouths Alex Scott, Sunderland make a loan offer for Jack Grealish, plus more"
+    "candidate_event_title_zh": "新Wrexham套装上的Leyton Orient批评徽章",
+    "candidate_summary_zh": "Leyton Orient批评Wrexham和他们的名人老板Ryan Reynolds和Rob Mac，因为他们在他们的新套件上放了一个反映他们自己的徽章"
   },
   {
-    "item_id": "norm_86",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Liverpool turn attention to Sarr after Brighton reject Minteh bids",
-    "summary": "Liverpool are exploring a move for Crystal Palace's Ismaila Sarr after Brighton reject their two bids for Yankuba Minteh.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cr7d5m4d928o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在布莱顿拒绝Minteh出价后，利物浦将注意力转向Sarr",
-    "candidate_summary_zh": "Liverpool are exploring a move for Crystal Palaces Ismaila Sarr after Brighton reject their two bids for Yankuba Minteh"
-  },
-  {
-    "item_id": "norm_96",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Bodo/Glimt thrash NEC to ease into Champions League main draw",
-    "summary": "Bodo/Glimt reach the main draw of the Champions League for a second successive season after beating Dutch side NEC Nijmegen 3-0 in the second leg of their play-off, qualifying 6-1 on aggregate.",
-    "url": "https://www.bbc.co.uk/sport/football/videos/ce9ejgj70p7o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Bodo/Glimt鞭打NEC，轻松进入欧洲冠军联赛主抽签",
-    "candidate_summary_zh": "Bodo/Glimt reach the main draw of the Champions League for a second successive season after beating Dutch side NEC Nijmegen 3-0 in the second leg of their play-off, qualifying 6-1 on aggregate"
-  },
-  {
-    "item_id": "norm_102",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "'To have a good team, we need a great Cole' - Alonso on Palmer",
-    "summary": "Chelsea manager Xabi Alonso praises Cole Palmer's \"responsibility, maturity and freedom\" after a goal and an assist from the playmaker seals a 3-2 victory over Fulham at Craven Cottage. In Alonso's first Premier League match in charge, the Spaniard insists his new squad can achieve \"special things\" this season.",
-    "url": "https://www.bbc.co.uk/sport/football/videos/crl6r2wgd35o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "为了拥有一支优秀的团队，我们需要一个伟大的Cole - Alonso on Palmer",
-    "candidate_summary_zh": "切尔西主教练哈比·阿隆索（Xabi Alonso）称赞科尔·帕尔默（Cole Palmers）在进球后的责任、成熟和自由，组织者的助攻在克雷文小屋（Craven Cottage）以3-2击败富勒姆（Fulham）"
-  },
-  {
-    "item_id": "norm_109",
+    "item_id": "norm_108",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
     "title": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
@@ -195,33 +182,33 @@
     "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
   },
   {
-    "item_id": "norm_132",
+    "item_id": "norm_112",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
+    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
   },
   {
-    "item_id": "norm_136",
+    "item_id": "norm_134",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Thierno Barry fires hat-trick as ruthless Everton sweep Preston aside",
-    "summary": "Thierno Barry resembled a striker reborn, and the goalscorer David Moyes desperately needs, as the first hat-trick of his Everton career plus an assist for new signing Brennan Johnson delivered a resounding win for the Scot on his competitive return to Preston. The France under-21 international scored eight times in a difficult debut season in England but has half that amount two games into this fledgling campaign. Barry followed up his header against Crystal Palace with a poacher’s hat-trick to give Moyes a convincing victory back at the club where he made his name before leaving for Everton in 2002. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/26/preston-everton-carabao-cup-match-report",
+    "title": "Uefa preparing to bring criminal claims against Gianni Infantino over World Cup sale",
+    "summary": "Uefa says claims will be made in Switzerland It says claims relate to alleged criminal mismanagement Uefa is preparing to make a criminal complaint against Gianni Infantino for alleged “criminal mismanagement” in connection with his failed Fifa Forward Enterprise plan and has applied for the release of documents related to its conception. In an explosive escalation of the war engulfing football’s governing bodies, Uefa has made separate applications in the United States for information, including from Fifa and the investment firm Thrive Capital. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/aug/27/uefa-preparing-to-bring-criminal-claims-against-gianni-infantino-over-world-cup-sale",
     "language": "en",
-    "reason": "topic_title_low_quality",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "蒂尔诺·巴里（Thierno Barry）在无情的埃弗顿（Everton）扫荡普雷斯顿（Preston）时",
-    "candidate_summary_zh": "蒂尔诺·巴里（Thierno Barry）就像一名前锋重生，而射手大卫·莫耶斯（David Moyes）迫切需要，因为他埃弗顿职业生涯的第一个帽子戏法加上新签约的助攻布伦南·约翰逊（Brennan Johnson）在竞争性回归普雷斯顿（Preston）时为苏格兰人带来了响亮的胜利"
+    "candidate_event_title_zh": "欧足联准备就出售世界杯对Gianni Infantino提起刑事诉讼",
+    "candidate_summary_zh": "Uefa says claims will be made in Switzerland It says claims relate to alleged criminal mismanagement Uefa is preparing to make a criminal complaint against Gianni Infantino for alleged criminal mismanagement in connection with his failed Fifa Forward Enterprise plan and has applied for the release of documents related to its conception"
   },
   {
-    "item_id": "norm_164",
+    "item_id": "norm_163",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
     "title": "Football Games, Results, Scores, Transfers, News | Sky Sports",
@@ -234,7 +221,7 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_189",
+    "item_id": "norm_188",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -247,7 +234,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_204",
+    "item_id": "norm_203",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -260,7 +247,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_251",
+    "item_id": "norm_250",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
     "title": "Fútbol en AS.com - AS.com",
@@ -273,7 +260,7 @@
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
   },
   {
-    "item_id": "norm_276",
+    "item_id": "norm_275",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
     "title": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
@@ -286,7 +273,7 @@
     "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
   },
   {
-    "item_id": "norm_301",
+    "item_id": "norm_300",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
     "title": "Fútbol - Últimas noticias",
@@ -299,7 +286,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_326",
+    "item_id": "norm_325",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
     "title": "Fútbol - Últimas noticias",
@@ -312,7 +299,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_351",
+    "item_id": "norm_350",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
     "title": "Foot - actualités, mercato, info & vidéo en continu",
@@ -325,7 +312,7 @@
     "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
   },
   {
-    "item_id": "norm_376",
+    "item_id": "norm_375",
     "source_id": "media_lequipe_football_coupedumonde",
     "source_name": "L'Équipe Football Coupe du Monde",
     "title": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
@@ -338,7 +325,7 @@
     "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
-    "item_id": "norm_401",
+    "item_id": "norm_400",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -351,7 +338,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_412",
+    "item_id": "norm_411",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -364,7 +351,7 @@
     "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
-    "item_id": "norm_413",
+    "item_id": "norm_412",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -377,7 +364,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_423",
+    "item_id": "norm_422",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -390,7 +377,7 @@
     "candidate_summary_zh": "Tabela e jogos da Copa do Mundo 2026 | ge"
   },
   {
-    "item_id": "norm_424",
+    "item_id": "norm_423",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -403,7 +390,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_444",
+    "item_id": "norm_443",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
