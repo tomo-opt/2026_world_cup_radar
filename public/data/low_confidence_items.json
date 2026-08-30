@@ -9,7 +9,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
     "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
-    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
+    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
     "item_id": "norm_3",
@@ -35,7 +35,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
+    "candidate_event_title_zh": "Sky Sports FIFA World Cup Scores & Fixtures",
     "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
@@ -78,6 +78,19 @@
     "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
   },
   {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
+  },
+  {
     "item_id": "norm_42",
     "source_id": "media_espn_soccer_worldcup",
     "source_name": "ESPN Soccer Worldcup Page",
@@ -114,7 +127,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
-    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
+    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
   },
   {
     "item_id": "norm_54",
@@ -130,30 +143,56 @@
     "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
-    "item_id": "norm_93",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Forest to bid £40m for Everton teenager Armstrong",
-    "summary": "Nottingham Forest launch an ambitious bid to sign Everton's teenage midfielder Harrison Armstrong.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cy0znn7lg51o?at_medium=RSS&at_campaign=rss",
+    "item_id": "norm_71",
+    "source_id": "media_bbc_sport_football_worldcup",
+    "source_name": "BBC Sport Football Worldcup Page",
+    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
+    "summary": "",
+    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Forest为埃弗顿少年Armstrong出价£ 4000万",
-    "candidate_summary_zh": "诺丁汉森林队发起了一项雄心勃勃的竞标，以签下埃弗顿青少年中场球员哈里森·阿姆斯特朗"
+    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
+    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
   },
   {
-    "item_id": "norm_107",
+    "item_id": "norm_83",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Liverpool agree £123m deal for PSG's Barcola",
-    "summary": "Liverpool are closing in on a deal to sign forward Bradley Barcola, which will increase doubts over Cody Gakpo's future.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c5ywgjnnn74o?at_medium=RSS&at_campaign=rss",
+    "title": "'That trust isn't there' - how does Iraola get best out of Isak?",
+    "summary": "Alexander Isak scored his first goal of the season in the 2-2 draw against Nottingham Forest - but how do Liverpool get the best out of him?",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cgjq65nvw38o?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "利物浦同意以1.23亿英镑收购PSGS Barcola",
-    "candidate_summary_zh": "Liverpool are closing in on a deal to sign forward Bradley Barcola, which will increase doubts over Cody Gakpos future"
+    "candidate_event_title_zh": "这种信任并不存在--Iraola如何从Isak身上得到最好的结果？",
+    "candidate_summary_zh": "亚历山大·伊萨克（Alexander Isak）在对阵诺丁汉森林（Nottingham Forest）的2-2平局中打进了本赛季的第一个进球，但利物浦如何充分利用他？"
+  },
+  {
+    "item_id": "norm_90",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "O'Neill would rather Celtic had no fans at Ibrox than 300",
+    "summary": "Martin O'Neill says Celtic \"might as well not get any\" tickets after Rangers offered 300 for the sides' League Cup quarter-final at Ibrox next month.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwyz4jxg3g4o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "ONeill宁愿凯尔特人在Ibrox没有球迷，也不愿拥有300名球迷",
+    "candidate_summary_zh": "马丁·奥尼尔（Martin ONeill）表示，在流浪者队为下个月在伊布罗克斯举行的球队联赛杯四分之一决赛提供了300张门票后，凯尔特人可能不会得到任何门票"
+  },
+  {
+    "item_id": "norm_104",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "'Slapstick' - Rose laments late Everton equaliser",
+    "summary": "Bournemouth manager Marco Rose describes the injury-time goal his side conceded as \"slapstick\" as his side settle for a point in their 1-1 draw against Everton at the Vitality Stadium.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c7806jq0x02o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Slapstick - Rose哀叹已故的Everton均衡器",
+    "candidate_summary_zh": "Bournemouth manager Marco Rose describes the injury-time goal his side conceded as slapstick as his side settle for a point in their 1-1 draw against Everton at the Vitality Stadium"
   },
   {
     "item_id": "norm_108",
@@ -165,47 +204,21 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
+    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
     "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
   },
   {
-    "item_id": "norm_134",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Liverpool’s Andoni Iraola angered by substitution delay before Forest penalty",
-    "summary": "Fourth official appeared to struggle with electronic boards ‘I wanted to make those substitutions about three minutes before’ Andoni Iraola bemoaned a poor first-half display plus a broken electronic board for Liverpool’s disappointing 2-2 draw with Nottingham Forest in the first home game of his Anfield reign. Forest led twice, but were denied a third successive Premier League win at Liverpool by Víctor Muñoz’s emphatic 82nd-minute equaliser. The visitors’ second goal, from a penalty converted by Morgan Gibbs-White, stemmed from a throw-in taken quickly by Liam Delap while Iraola was attempting to make a triple substitution. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/29/liverpool-manager-andoni-iraola-substitution-delay-before-forest-penalty-football-premier-league",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "利物浦的Andoni Iraola对森林罚款前的替补延迟感到愤怒",
-    "candidate_summary_zh": "第四名官员似乎在电子板上挣扎“我想在大约三分钟前进行这些替换”安东尼·伊拉奥拉（Andoni Iraola）哀叹上半场表现不佳，加上电子板破损，因为利物浦在安菲尔德统治的第一场主场比赛中与诺丁汉森林队（Nottingham Forest） 2-2战平令人失望"
-  },
-  {
-    "item_id": "norm_137",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Transfer roundup: Moyes wants to keep Armstrong while Forest agree Muñoz deal",
-    "summary": "‘I don’t think we can afford to lose any players,’ says Moyes Forest’s Armstrong bid said to be £40m; Palace agree £22m fee The sale of the 19-year-old Harrison Armstrong to Nottingham Forest would be a “club decision” for Everton, according to David Moyes. After his team’s 1-1 draw at Bournemouth, in which Armstrong played the full 90 minutes, Moyes said he would prefer to keep a player for whom a reported £40m offer has been made. “I know there’s been an offer, I don’t really think there’s much else I’ve got to say about it,” Moyes said, initially refusing to be drawn. “It’s not really a question for just now, it’ll be a club decision.” Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/aug/29/moyes-says-everton-must-keep-best-players-after-forest-bid-for-harrison-armstrong",
+    "item_id": "norm_130",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Thomas Partey out of Ghana’s World Cup opener after visa application to Canada refused",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-partey-ghana-world-cup-visa-application-to-canada-refused",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "转移综述： Moyes希望保留Armstrong，而Forest同意Muñoz交易",
-    "candidate_summary_zh": "‘I don’t think we can afford to lose any players,’ says Moyes Forest’s Armstrong bid said to be £40m; Palace agree £22m fee The sale of the 19-year-old Harrison Armstrong to Nottingham Forest would be a club decision for Everton, according to David Moyes"
-  },
-  {
-    "item_id": "norm_151",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Sign up to the Sport in Focus newsletter: the sporting week in photos",
-    "summary": "Our editors’ favourite sporting images from the past week, from the spectacular to the powerful, and with a little bit of fun thrown in Continue reading...",
-    "url": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "订阅Sport in Focus时事通讯：照片中的体育周",
-    "candidate_summary_zh": "Our editors’ favourite sporting images from the past week, from the spectacular to the powerful, and with a little bit of fun thrown in Continue reading"
+    "candidate_event_title_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey",
+    "candidate_summary_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey"
   },
   {
     "item_id": "norm_163",
@@ -403,7 +416,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_616",
+    "item_id": "norm_617",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -416,7 +429,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_641",
+    "item_id": "norm_642",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -429,7 +442,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_666",
+    "item_id": "norm_667",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -442,7 +455,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_679",
+    "item_id": "norm_680",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -455,7 +468,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_690",
+    "item_id": "norm_691",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -468,7 +481,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_692",
+    "item_id": "norm_693",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -481,7 +494,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_694",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -494,7 +507,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_694",
+    "item_id": "norm_695",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -507,7 +520,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_696",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -520,7 +533,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_696",
+    "item_id": "norm_697",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -533,7 +546,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_697",
+    "item_id": "norm_698",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -546,7 +559,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_722",
+    "item_id": "norm_723",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -559,7 +572,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_733",
+    "item_id": "norm_734",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -572,7 +585,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_735",
+    "item_id": "norm_736",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -585,7 +598,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_749",
+    "item_id": "norm_750",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -598,7 +611,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_750",
+    "item_id": "norm_751",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -611,7 +624,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_775",
+    "item_id": "norm_776",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -624,7 +637,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_800",
+    "item_id": "norm_801",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -637,7 +650,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_825",
+    "item_id": "norm_826",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -650,7 +663,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_850",
+    "item_id": "norm_851",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -663,7 +676,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_875",
+    "item_id": "norm_876",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -676,7 +689,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_897",
+    "item_id": "norm_898",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -689,7 +702,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_898",
+    "item_id": "norm_899",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -702,7 +715,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_912",
+    "item_id": "norm_913",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
