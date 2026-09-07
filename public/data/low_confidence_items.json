@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
+    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
   },
   {
     "item_id": "norm_2",
@@ -22,7 +22,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
+    "candidate_event_title_zh": "FIFA World Cup 2026 Scores & Fixtures",
     "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
@@ -49,7 +49,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
   },
   {
     "item_id": "norm_11",
@@ -76,6 +76,32 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
     "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+  },
+  {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup"
+  },
+  {
+    "item_id": "norm_42",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
   },
   {
     "item_id": "norm_50",
@@ -114,75 +140,23 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "世界杯",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
-    "item_id": "norm_71",
-    "source_id": "media_bbc_sport_football_worldcup",
-    "source_name": "BBC Sport Football Worldcup Page",
-    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
-    "summary": "",
-    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
-    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
-  },
-  {
-    "item_id": "norm_86",
+    "item_id": "norm_85",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Last-gasp Maitland-Niles stunner rescues point for Everton",
-    "summary": "Ainsley Maitland-Niles marked his return to English football by scoring a stunning stoppage-time equaliser as a resilient Everton came from behind twice to draw with Manchester United in the Premier League.",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cq63715m0reo?at_medium=RSS&at_campaign=rss",
+    "title": "No new striker, no worries - Havertz and Odegaard torment Chelsea",
+    "summary": "Nine points from three games, one goal conceded and big players stepping up - are Arsenal still ahead of the rest in the race for the Premier League title?",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqjkql0rkneo?at_medium=RSS&at_campaign=rss",
     "language": "en",
-    "reason": "general_discussion_only",
+    "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "埃弗顿的Last-gasp Maitland-Niles stunner救援点",
-    "candidate_summary_zh": "安斯利·梅特兰-内尔斯（Ainsley Maitland-Niles）打进了一个令人惊叹的暂停时间均衡器，标志着他重返英格兰足球，因为一个有弹性的埃弗顿（Everton）从后面两次与曼联（Manchester United）在"
+    "candidate_event_title_zh": "没有新前锋，不用担心- Havertz和Odegaard折磨着切尔西",
+    "candidate_summary_zh": "三场比赛得到9分，一球失利，大牌球员挺身而出--在英超联赛冠军争夺战中，阿森纳是否仍然领先于其他球队？"
   },
   {
-    "item_id": "norm_96",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Haaland header maintains perfect winning start for Man City",
-    "summary": "Manchester City highlighted their early season credentials by maintaining their 100% winning record after three Premier League games, but had to cling on to leave newly promoted Coventry still searching for their first point of the campaign.",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cx2zg0zl0nyo?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Haaland Header为曼城保持完美的胜利开局",
-    "candidate_summary_zh": "Manchester City highlighted their early season credentials by maintaining their 100% winning record after three Premier League games, but had to cling on to leave newly promoted Coventry still searching for their first point of the campaign"
-  },
-  {
-    "item_id": "norm_104",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Odegaard and Saka star - player ratings for Arsenal v Chelsea",
-    "summary": "How Arsenal and Chelsea's players rated following their Premier League match.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c4gr71gygg8o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Odegaard和Saka明星-阿森纳对切尔西的球员评分",
-    "candidate_summary_zh": "阿森纳和切尔西球员在英超比赛后的评分"
-  },
-  {
-    "item_id": "norm_105",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Football Daily",
-    "summary": "Rick Edwards, Luke Edwards and Clinton Morrison discuss the Premier League weekend.",
-    "url": "https://www.bbc.co.uk/sounds/play/m00319lp?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "足球日报",
-    "candidate_summary_zh": "Rick Edwards, Luke Edwards and Clinton Morrison discuss the Premier League weekend"
-  },
-  {
-    "item_id": "norm_106",
+    "item_id": "norm_92",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Gabriel was 'extremely lucky' to avoid red - Rooney",
@@ -195,7 +169,46 @@
     "candidate_summary_zh": "当天比赛权威人士韦恩·鲁尼（Wayne Rooney）表示，加布里埃尔（Gabriel）在切尔西埃米·马丁内斯（Emi Martinez）的挑战之后非常幸运地留在球场上"
   },
   {
-    "item_id": "norm_107",
+    "item_id": "norm_93",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Young praises Rashford and Shaw chemistry",
+    "summary": "Match of the Day pundit Ashley Young looks at Marcus Rashford and Luke Shaw's connection on the left in Manchester United's 2-2 draw against Everton.at the Hill Dickinson Stadium.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cpwlqre0qy9o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Young称赞Rashford和Shaw的化学反应",
+    "candidate_summary_zh": "当天比赛权威人士阿什利·杨看着马库斯·拉什福德（Marcus Rashford）和卢克·肖斯（Luke Shaws）在曼联2-2战平埃弗顿。在狄金森山体育场"
+  },
+  {
+    "item_id": "norm_95",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Kerjota scores 96th-minute winner for Hearts against Dundee",
+    "summary": "Claudio Braga's penalty and Sabah Kerjota's brilliant low drive earn Hearts a dramatic Scottish Premiership victory over Dundee, extending their unbeaten run in all competitions to eight matches.",
+    "url": "https://www.bbc.co.uk/sport/videos/c790qe5gr2po?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Kerjota在Hearts对阵邓迪的比赛中获得第96分钟的冠军",
+    "candidate_summary_zh": "克劳迪奥·布拉加斯（Claudio Bragas）点球和沙巴·克尔霍塔斯（Sabah Kerjotas）出色的低驱动力为红桃赢得了苏格兰超级联赛对邓迪的戏剧性胜利，将他们在所有比赛中的不败战绩扩大到"
+  },
+  {
+    "item_id": "norm_101",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Williams and Sheehan join Bellamy's Wales staff",
+    "summary": "Ex-Wales captain Ashley Williams and former Swansea boss Alan Sheehan join Craig Bellamy's backroom staff before Wales' Nations League campaign.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq63mm9vzedo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Williams和Sheehan加入贝拉米斯威尔士分公司",
+    "candidate_summary_zh": "Ex-Wales captain Ashley Williams and former Swansea boss Alan Sheehan join Craig Bellamys backroom staff before Wales Nations League campaign"
+  },
+  {
+    "item_id": "norm_109",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
     "title": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
@@ -208,72 +221,33 @@
     "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
   },
   {
-    "item_id": "norm_111",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
-    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
-    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
-    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
-  },
-  {
-    "item_id": "norm_114",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
-    "candidate_summary_zh": "离开科尔·帕尔默让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练离开科尔·帕尔默在家里让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练在英格兰的托马斯·图切尔有一个精英教练"
-  },
-  {
-    "item_id": "norm_139",
+    "item_id": "norm_137",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Wild opening salvo against Chelsea hints at exciting times for Arsenal fans | Barney Ronay",
-    "summary": "The home side’s response to Chelsea’s early goal was to play breathless attacking football We’re back, baby. So, so back. Well, OK, not exactly back. But back down the time tunnel, for a while at least, as on a powder blue afternoon at the Emirates Stadium, Arsenal and Chelsea produced an opening half-hour that felt like a throwback to prime Barclays of the early 2000s. In that period this really did feel like a twist on a classic: spells of midfield murder-ball, stretched and flustered full‑backs, players hurling themselves at the defensive lines like the fall guys in a cowboy western being tossed out through the saloon-bar doors. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/sep/06/arsenal-chelsea-premier-league-2026",
+    "title": "Karius keeps Kane at bay as Schalke nullify Bayern on Neuer’s return | Andy Brassell",
+    "summary": "The often-derided Loris Karius upstaged Manuel Neuer as Schalke held Bayern to a rare goalless draw in a tale of two goalkeepers in Gelsenkirchen If one goalkeeper was going to dominate the discussion in this game, it actually felt as if it would be the less busy one. Schalke fans do not take kindly to being dumped and even if Manuel Neuer left the club behind 15 years ago – and even if most of the world associates him with Bayern Munich rather than his home town club – he is still given a rough ride when he returns. Opposing sporting directors Max Eberl and Frank Baumann had words to say about that after Saturday evening’s latest visit, but it wasn’t Germany’s legendary goalkeeper who took the headlines – or not he alone, at least. It was always going to be a landmark afternoon with Schalke playing a first home game in the top flight since May 2023, but this was way beyond what anyone could have expected. The numbers said it all – with Bayern failing to score for the first time domestically since a goalless draw at Leverkusen more than 18 months ago, meaning they finished the weekend not on top of the table for the first time in almost two years – but told nothing of the story. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/sep/07/loris-karius-manuel-neuer-harry-kane-schalke-bayern-munich-bundesliga",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "阿森纳球迷在激动人心的时刻对阵切尔西的狂野开局| Barney Ronay",
-    "candidate_summary_zh": "The home side’s response to Chelsea’s early goal was to play breathless attacking football We’re back, baby"
+    "candidate_event_title_zh": "Karius阻止Kane，因为Schalke在Neuer回归时使拜仁无效| Andy Brassell",
+    "candidate_summary_zh": "经常被嘲笑的洛里斯·卡里乌斯（Loris Karius）上演了曼努埃尔·诺伊尔（Manuel Neuer），因为沙尔克（Schalke）在盖尔森基兴（Gelsenkirchen）的两名守门员的故事中罕见地将拜仁（Bayern）平局为无守门员。如果一名守门员要在这场比赛中主导讨论，他实际上会觉得这是不那么繁忙的一"
   },
   {
-    "item_id": "norm_155",
+    "item_id": "norm_140",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Uefa legal case may be beginning of the end for Infantino as Trump’s support evaporates | Barney Ronay",
-    "summary": "The order of discovery related to Fifa’s failed plan to sell the World Cup will worry the American president, a situation that tends to end badly for the culprit “Tell Mike it was just business. I always liked him.” “He understands.” Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/sep/05/uefa-legal-case-beginning-of-end-infantino-trump-support-evaporates",
+    "title": "Serie A’s hierarchy takes shape with wild night in Milan and flat draw in Turin | Nicky Bandini",
+    "summary": "Inter’s victory over Napoli had the feel of a title race classic, while Juventus and Milan exposed familiar shortcomings despite their summer spending Already as the words were being spoken, Cristian Chivu started to bristle. “Scontri diretti” translates to “head-to-head clashes”. The term is commonly deployed in a football context as a shorthand for those high-stakes games between teams who are expected to finish close together in the table – much like “six-pointers” in the English game. Chivu’s Inter finished 11 points clear atop Serie A last season, his first as their head coach, but caught criticism along the way for an early Champions League exit and underperformance in some scontri diretti. Inter lost four out of six games against Napoli, Milan and Juventus. Their only win, at home to the Bianconeri, came after Alessandro Bastoni deceived a referee to get Pierre Kalulu sent off. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/sep/07/inter-napoli-juventus-milan-serie-a-hierarchy",
     "language": "en",
-    "reason": "general_discussion_only",
+    "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "随着特朗普的支持消失，欧足联的法律诉讼可能是Infantino结束的开始| Barney Ronay",
-    "candidate_summary_zh": "The order of discovery related to Fifa’s failed plan to sell the World Cup will worry the American president, a situation that tends to end badly for the culprit Tell Mike it was just business"
+    "candidate_event_title_zh": "意甲的等级制度形成于米兰的狂野夜晚和都灵的平坦平局| Nicky Bandini",
+    "candidate_summary_zh": "Inter’s victory over Napoli had the feel of a title race classic, while Juventus and Milan exposed familiar shortcomings despite their summer spending Already as the words were being spoken, Cristian Chivu started to bristle"
   },
   {
-    "item_id": "norm_159",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Nottingham Forest’s Liam Delap: ‘I play at my best on the edge of being horrible’",
-    "summary": "After a difficult year at Chelsea the striker hopes to get his career back on track at the City Ground “You can imagine it: he’s a centre-back, I’m a striker,” says Liam Delap, Nottingham Forest’s £45m club-record signing, smiling as he sets the scene. He is reliving taking on his younger brother, Finn, in the garden. These days, they are each other’s biggest supporters – Liam attended Finn’s victory for third-tier Burton on Wednesday – but as kids there was a friendly rivalry. The elder brother says: “There were probably a lot of tears, a lot of fights … whether it was playing Monopoly or football, it always ended in either the table being flipped or kicking the shit out of each other.” It is a competitive streak that has stuck and Delap is determined to make his presence felt at Forest, for whom he could make his full debut against Tottenham on Saturday. It has been a testing 16 months; he left Chelsea a season into a six-year contract and after one goal in 28 top-flight appearances, a dozen of those starts. “It is never a linear path straight to the top,” Delap says, his right hand taking flight in the City Ground boardroom, the 1979 and 1980 European Cups shimmering behind him. “I just want to get my head down, focus and keep improving because I’m still so young and I have so much to learn. I even at times probably think I’ve been in football a lot longer than I have. I’ve still, hopefully, got a long career ahead. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/sep/04/nottingham-forests-liam-delap-i-play-at-my-best-on-the-edge-of-being-horrible",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "诺丁汉森林的利亚姆·德拉普（Liam Delap）： “我在可怕的边缘尽力而为”",
-    "candidate_summary_zh": "After a difficult year at Chelsea the striker hopes to get his career back on track at the City Ground You can imagine it: he’s a centre-back, I’m a striker, says Liam Delap, Nottingham Forest’s £45m club-record signing, smiling as he sets the scene"
-  },
-  {
-    "item_id": "norm_161",
+    "item_id": "norm_163",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
     "title": "Football Games, Results, Scores, Transfers, News | Sky Sports",
@@ -286,20 +260,7 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_167",
-    "source_id": "media_sky_sports_football",
-    "source_name": "Sky Sports Football",
-    "title": "Mateus Fernandes transfer: Manchester United preparing opening bid for West Ham midfielder as 21-year-old becomes priority target",
-    "summary": "Manchester United see Mateus Fernandes as a realistic target following West Hams relegation from the Premier League; Sky Sports News understands West Ham value Fernandes at around £80m; United are unlikely to entertain such a price tag",
-    "url": "https://www.skysports.com/football/news/11095/13553501/mateus-fernandes-transfer-manchester-united-preparing-opening-bid-for-west-ham-midfielder-as-21-year-old-becomes-priority-target",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "马特乌斯·费尔南德斯（Mateus Fernandes）转会：曼联准备开始竞标西汉姆中场，因为21岁成为优先目标",
-    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
-  },
-  {
-    "item_id": "norm_186",
+    "item_id": "norm_188",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -312,20 +273,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_191",
-    "source_id": "media_sky_sports_football_news",
-    "source_name": "Sky Sports Football News Page",
-    "title": "Mateus Fernandes transfer: Manchester United preparing opening bid for West Ham midfielder as 21-year-old becomes priority target",
-    "summary": "Manchester United see Mateus Fernandes as a realistic target following West Hams relegation from the Premier League; Sky Sports News understands West Ham value Fernandes at around £80m; United are unlikely to entertain such a price tag",
-    "url": "https://www.skysports.com/football/news/11095/13553501/mateus-fernandes-transfer-manchester-united-preparing-opening-bid-for-west-ham-midfielder-as-21-year-old-becomes-priority-target",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "马特乌斯·费尔南德斯（Mateus Fernandes）转会：曼联准备开始竞标西汉姆中场，因为21岁成为优先目标",
-    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
-  },
-  {
-    "item_id": "norm_201",
+    "item_id": "norm_203",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -338,20 +286,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_210",
-    "source_id": "media_espn_deportes_futbol",
-    "source_name": "ESPN Deportes Fútbol",
-    "title": "La picante respuesta del Atlético de Madrid al Real Madrid por Julián Álvarez",
-    "summary": "",
-    "url": "https://espndeportes.espn.com/futbol/espana/nota/_/id/16816475/julian-alvarez-atletico-madrid-respuesta-burla-al-real-madrid",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Julián Álvarez的马德里竞技对皇家马德里的辛辣回应",
-    "candidate_summary_zh": "Julián Álvarez的马德里竞技对皇家马德里的辛辣回应"
-  },
-  {
-    "item_id": "norm_248",
+    "item_id": "norm_250",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
     "title": "Fútbol en AS.com - AS.com",
@@ -364,7 +299,7 @@
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
   },
   {
-    "item_id": "norm_273",
+    "item_id": "norm_275",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
     "title": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
@@ -377,7 +312,7 @@
     "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
   },
   {
-    "item_id": "norm_298",
+    "item_id": "norm_300",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
     "title": "Fútbol - Últimas noticias",
@@ -390,7 +325,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_323",
+    "item_id": "norm_325",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
     "title": "Fútbol - Últimas noticias",
@@ -403,7 +338,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_348",
+    "item_id": "norm_350",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
     "title": "Foot - actualités, mercato, info & vidéo en continu",
@@ -416,7 +351,7 @@
     "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
   },
   {
-    "item_id": "norm_373",
+    "item_id": "norm_375",
     "source_id": "media_lequipe_football_coupedumonde",
     "source_name": "L'Équipe Football Coupe du Monde",
     "title": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
@@ -429,7 +364,7 @@
     "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
-    "item_id": "norm_398",
+    "item_id": "norm_400",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -442,7 +377,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_409",
+    "item_id": "norm_411",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -455,7 +390,7 @@
     "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
-    "item_id": "norm_410",
+    "item_id": "norm_412",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -468,7 +403,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_420",
+    "item_id": "norm_422",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -481,7 +416,7 @@
     "candidate_summary_zh": "Tabela e jogos da Copa do Mundo 2026 | ge"
   },
   {
-    "item_id": "norm_421",
+    "item_id": "norm_423",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -494,7 +429,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_441",
+    "item_id": "norm_443",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -507,20 +442,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_444",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Cambuur captain Jamal Amofa’s reaction after VAR awards Telstar a last-minute penalty | Telstar 2-2 Cambuur (6 September)",
-    "summary": "submitted by /u/HaraldBluetooth1 [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1w9m39w/cambuur_captain_jamal_amofas_reaction_after_var/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Cambuur队长Jamal Amofa在VAR后给予Telstar最后一分钟罚款的反应| Telstar 2-2 Cambuur （9月6日）",
-    "candidate_summary_zh": "submitted by /u/HaraldBluetooth1 [link] [comments]"
-  },
-  {
-    "item_id": "norm_614",
+    "item_id": "norm_615",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -533,7 +455,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_639",
+    "item_id": "norm_640",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -546,7 +468,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_664",
+    "item_id": "norm_665",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -559,7 +481,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_677",
+    "item_id": "norm_678",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -572,7 +494,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_688",
+    "item_id": "norm_689",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -585,7 +507,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_690",
+    "item_id": "norm_691",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -598,7 +520,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_691",
+    "item_id": "norm_692",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -611,7 +533,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_692",
+    "item_id": "norm_693",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -624,7 +546,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_694",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -637,7 +559,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_694",
+    "item_id": "norm_695",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -650,7 +572,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_696",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -663,7 +585,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_720",
+    "item_id": "norm_721",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -676,7 +598,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_731",
+    "item_id": "norm_732",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -689,7 +611,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_733",
+    "item_id": "norm_734",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -702,7 +624,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_747",
+    "item_id": "norm_748",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -715,7 +637,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_748",
+    "item_id": "norm_749",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -728,7 +650,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_773",
+    "item_id": "norm_774",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -741,7 +663,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_798",
+    "item_id": "norm_799",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -754,7 +676,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_823",
+    "item_id": "norm_824",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -767,7 +689,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_848",
+    "item_id": "norm_849",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -780,7 +702,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_873",
+    "item_id": "norm_874",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -793,7 +715,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_895",
+    "item_id": "norm_896",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -806,7 +728,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_896",
+    "item_id": "norm_897",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -819,7 +741,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_910",
+    "item_id": "norm_911",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
