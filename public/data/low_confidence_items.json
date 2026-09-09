@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
+    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
     "item_id": "norm_2",
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "FIFA World Cup 2026 Scores & Fixtures",
-    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
+    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
   },
   {
     "item_id": "norm_3",
@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "Sky Sports FIFA World Cup Scores & Fixtures",
-    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
+    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
   },
   {
     "item_id": "norm_4",
@@ -49,7 +49,20 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
+    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
   },
   {
     "item_id": "norm_27",
@@ -78,6 +91,19 @@
     "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
   },
   {
+    "item_id": "norm_42",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
+  },
+  {
     "item_id": "norm_50",
     "source_id": "media_espn_soccer_worldcup",
     "source_name": "ESPN Soccer Worldcup Page",
@@ -100,8 +126,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
-    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
   },
   {
     "item_id": "norm_54",
@@ -130,7 +156,33 @@
     "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
   },
   {
-    "item_id": "norm_94",
+    "item_id": "norm_83",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Irvine stays as Pocognoli refreshes Scotland staff",
+    "summary": "Everton assistant Alan Irvine will continue as part of a refreshed Scotland coaching staff under new boss Sebastien Pocognoli.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cyvzn5d97y3o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Irvine入住苏格兰Pocognoli餐厅",
+    "candidate_summary_zh": "埃弗顿助理艾伦·欧文（Alan Irvine）将在新老板塞巴斯蒂安·波科尼奥利（Sebastien Pocognoli）的带领下继续担任苏格兰新教练组的"
+  },
+  {
+    "item_id": "norm_90",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Favourite Kane makes Ballon d'Or shortlist",
+    "summary": "Bayern Munich striker Harry Kane is one of three England players nominated for the 2026 Ballon d'Or alongside Jude Bellingham and Declan Rice.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c62m82qqm87o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "最受欢迎的Kane入围Ballon dOr",
+    "candidate_summary_zh": "Bayern Munich striker Harry Kane is one of three England players nominated for the 2026 Ballon dOr alongside Jude Bellingham and Declan Rice"
+  },
+  {
+    "item_id": "norm_98",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Young praises Rashford and Shaw chemistry",
@@ -140,23 +192,23 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Young称赞Rashford和Shaw的化学反应",
-    "candidate_summary_zh": "当天比赛权威人士阿什利·杨看着马库斯·拉什福德（Marcus Rashford）和卢克·肖斯（Luke Shaws）在曼联2-2战平埃弗顿。在狄金森山体育场"
-  },
-  {
-    "item_id": "norm_98",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Kerjota scores 96th-minute winner for Hearts against Dundee",
-    "summary": "Claudio Braga's penalty and Sabah Kerjota's brilliant low drive earn Hearts a dramatic Scottish Premiership victory over Dundee, extending their unbeaten run in all competitions to eight matches.",
-    "url": "https://www.bbc.co.uk/sport/videos/c790qe5gr2po?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Kerjota在Hearts对阵邓迪的比赛中获得第96分钟的冠军",
-    "candidate_summary_zh": "Claudio Bragas penalty and Sabah Kerjotas brilliant low drive earn Hearts a dramatic Scottish Premiership victory over Dundee, extending their unbeaten run in all competitions to eight matches"
+    "candidate_summary_zh": "Match of the Day pundit Ashley Young looks at Marcus Rashford and Luke Shaws connection on the left in Manchester Uniteds 2-2 draw against Everton.at the Hill Dickinson Stadium"
   },
   {
     "item_id": "norm_100",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "'This Is Anfield' sign fetches £115k at auction",
+    "summary": "The original sign from Liverpool's stadium tunnel fetched almost eight times its estimated guide price.",
+    "url": "https://www.bbc.co.uk/news/articles/c87ve5vw953o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "This Is Anfield标志在拍卖会上获得£ 115k",
+    "candidate_summary_zh": "利物浦体育场隧道的原始标志几乎是其估计导游价格的八倍"
+  },
+  {
+    "item_id": "norm_106",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Last-gasp Maitland-Niles stunner rescues point for Everton",
@@ -169,19 +221,6 @@
     "candidate_summary_zh": "Ainsley Maitland-Niles marked his return to English football by scoring a stunning stoppage-time equaliser as a resilient Everton came from behind twice to draw with Manchester United in the Premier League"
   },
   {
-    "item_id": "norm_101",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Shaw double leads Man City to victory over Birmingham",
-    "summary": "Manchester City's defence of their Women's Super League title gets off to the perfect start with victory over newly promoted Birmingham City.",
-    "url": "https://www.bbc.co.uk/sport/football/videos/c9v9e0e1pvro?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Shaw Double带领曼城战胜伯明翰",
-    "candidate_summary_zh": "曼城女子超级联赛冠军的防守以战胜新晋升的伯明翰市取得了完美的开局"
-  },
-  {
     "item_id": "norm_109",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
@@ -191,21 +230,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
+    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
     "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
-  },
-  {
-    "item_id": "norm_113",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
-    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
-    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
-    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
   },
   {
     "item_id": "norm_116",
@@ -218,7 +244,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
-    "candidate_summary_zh": "离开科尔·帕尔默让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练离开科尔·帕尔默在家里让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练在英格兰的托马斯·图切尔有一个精英教练"
+    "candidate_summary_zh": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach"
   },
   {
     "item_id": "norm_120",
@@ -234,33 +260,7 @@
     "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
   },
   {
-    "item_id": "norm_146",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Sign up for the Moving the Goalposts newsletter: our free women’s football email",
-    "summary": "Get our roundup of women’s football for free twice a week, featuring the insights of experts such as Ada Hegerberg and Magdalena Eriksson Join us as we delve deeper into the wonderful world of women’s football in our weekly newsletter. It is informative, entertaining, global, critical – when needed – and, above all, passionate. Written mainly by Júlia Belas Trindade and Sophie Downey, expect guest appearances from stars such as Anita Asante, Ada Hegerberg and many more. Try our other sports emails: as well as the occasionally funny football email The Fiver from Monday to Friday, there are weekly catch-ups for cricket in The Spin and rugby union in The Breakdown, and our seven-day roundup of the best of our sports journalism in The Recap. Living in Australia? Try the Guardian Australia’s daily sports newsletter Continue reading...",
-    "url": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "订阅Moving the Goalposts时事通讯：我们的免费女子足球电子邮件",
-    "candidate_summary_zh": "Get our roundup of women’s football for free twice a week, featuring the insights of experts such as Ada Hegerberg and Magdalena Eriksson Join us as we delve deeper into the wonderful world of women’s football in our weekly newsletter"
-  },
-  {
-    "item_id": "norm_147",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Sign up to the Sport in Focus newsletter: the sporting week in photos",
-    "summary": "Our editors’ favourite sporting images from the past week, from the spectacular to the powerful, and with a little bit of fun thrown in Continue reading...",
-    "url": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "订阅Sport in Focus时事通讯：照片中的体育周",
-    "candidate_summary_zh": "Our editors’ favourite sporting images from the past week, from the spectacular to the powerful, and with a little bit of fun thrown in Continue reading"
-  },
-  {
-    "item_id": "norm_164",
+    "item_id": "norm_163",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
     "title": "Football Games, Results, Scores, Transfers, News | Sky Sports",
@@ -273,33 +273,7 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_167",
-    "source_id": "media_sky_sports_football",
-    "source_name": "Sky Sports Football",
-    "title": "World Cup 2026: Canada 1-1 Bosnia-Herzegovina - Cyle Larin rescues point for Jesse Marsch's co-hosts in Toronto",
-    "summary": "Canada claimed their first ever World Cup point as the co-hosts came from behind to rescue a 1-1 draw against Bosnia-Herzegovina.",
-    "url": "https://www.skysports.com/football/canada-vs-bosnia-and-herzegovina/report/549768",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯：加拿大1-1波斯尼亚和黑塞哥维那- Cyle Larin为多伦多的Jesse Marschs房屋管家提供救援点",
-    "candidate_summary_zh": "Canada claimed their first ever World Cup point as the co-hosts came from behind to rescue a 1-1 draw against Bosnia-Herzegovina"
-  },
-  {
-    "item_id": "norm_185",
-    "source_id": "media_sky_sports_football",
-    "source_name": "Sky Sports Football",
-    "title": "Brighton make £30m Vuskovic offer as Spurs maintain Van Hecke interest",
-    "summary": "",
-    "url": "https://www.skysports.com/football/news/11095/13553329/luka-vuskovic-brighton-make-lb30m-offer-for-spurs-defender-as-roberto-de-zerbi-maintains-jan-paul-van-hecke-interest",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "布莱顿提出3000万英镑的Vuskovic报价，因为马刺保持了Van Hecke的兴趣",
-    "candidate_summary_zh": "布莱顿提出3000万英镑的Vuskovic报价，因为马刺保持了Van Hecke的兴趣"
-  },
-  {
-    "item_id": "norm_189",
+    "item_id": "norm_188",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -312,7 +286,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_204",
+    "item_id": "norm_203",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -325,20 +299,20 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_245",
-    "source_id": "media_espn_deportes_futbol_mundial",
-    "source_name": "ESPN Deportes Fútbol Mundial",
-    "title": "Enner Valencia aseguró que se encuentra bien para el debut mundialista con Ecuador",
-    "summary": "El atacante está a disposición de Sebastián Beccacece de cara al duelo ante Costa de Marfil.",
-    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817824/enner-valencia-aseguro-que-se-encuentra-bien-para-el-debut-mundialista-con-ecuador",
+    "item_id": "norm_211",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "Real Madrid ofrece 150 mde por Julián Álvarez; Atlético lo rechaza",
+    "summary": "",
+    "url": "https://espndeportes.espn.com/futbol/espana/nota/_/id/16816131/real-madrid-julian-alvarez-oferta-150-millones-euros-atletico",
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "恩纳·瓦伦西亚（Enner Valencia）保证，他在厄瓜多尔的世界杯首秀中表现出色",
-    "candidate_summary_zh": "El atacante está a disposición de Sebastián Beccacece de cara al duelo ante Costa de Marfil"
+    "candidate_event_title_zh": "皇家马德里出价1.5亿美元收购Julián Álvarez；马德里竞技拒绝接受",
+    "candidate_summary_zh": "皇家马德里出价1.5亿美元收购Julián Álvarez；马德里竞技拒绝接受"
   },
   {
-    "item_id": "norm_251",
+    "item_id": "norm_250",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
     "title": "Fútbol en AS.com - AS.com",
@@ -351,7 +325,7 @@
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
   },
   {
-    "item_id": "norm_276",
+    "item_id": "norm_275",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
     "title": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
@@ -364,7 +338,7 @@
     "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
   },
   {
-    "item_id": "norm_301",
+    "item_id": "norm_300",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
     "title": "Fútbol - Últimas noticias",
@@ -377,7 +351,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_326",
+    "item_id": "norm_325",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
     "title": "Fútbol - Últimas noticias",
@@ -390,7 +364,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_351",
+    "item_id": "norm_350",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
     "title": "Foot - actualités, mercato, info & vidéo en continu",
@@ -403,7 +377,7 @@
     "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
   },
   {
-    "item_id": "norm_376",
+    "item_id": "norm_375",
     "source_id": "media_lequipe_football_coupedumonde",
     "source_name": "L'Équipe Football Coupe du Monde",
     "title": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
@@ -416,7 +390,7 @@
     "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
-    "item_id": "norm_401",
+    "item_id": "norm_400",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -429,7 +403,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_412",
+    "item_id": "norm_411",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -442,7 +416,7 @@
     "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
-    "item_id": "norm_413",
+    "item_id": "norm_412",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -455,7 +429,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_423",
+    "item_id": "norm_422",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -468,7 +442,7 @@
     "candidate_summary_zh": "Tabela e jogos da Copa do Mundo 2026 | ge"
   },
   {
-    "item_id": "norm_424",
+    "item_id": "norm_423",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -481,7 +455,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_444",
+    "item_id": "norm_443",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
