@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
+    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
   },
   {
     "item_id": "norm_2",
@@ -22,7 +22,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Scores & Fixtures",
+    "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
     "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -50,19 +50,6 @@
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
     "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
-  },
-  {
-    "item_id": "norm_11",
-    "source_id": "media_espn_soccer",
-    "source_name": "ESPN Soccer",
-    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
-    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
-    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：通往1000个职业目标的道路",
-    "candidate_summary_zh": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstars quest"
   },
   {
     "item_id": "norm_27",
@@ -91,6 +78,19 @@
     "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
   },
   {
+    "item_id": "norm_42",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
+  },
+  {
     "item_id": "norm_50",
     "source_id": "media_espn_soccer_worldcup",
     "source_name": "ESPN Soccer Worldcup Page",
@@ -113,7 +113,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
     "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
   },
   {
@@ -126,8 +126,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_event_title_zh": "世界杯",
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
     "item_id": "norm_71",
@@ -143,33 +143,7 @@
     "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
   },
   {
-    "item_id": "norm_79",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "UEFA Champions League",
-    "summary": "Highlights from the opening round of matches in the UEFA Champions League group stage.",
-    "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "歐冠盃",
-    "candidate_summary_zh": "欧洲冠军联赛小组赛第一轮比赛的亮点"
-  },
-  {
-    "item_id": "norm_85",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Gordon a better fit for Barca than Rashford - Deco",
-    "summary": "Barcelona sporting director Deco says Anthony Gordon's style was a better fit for Hansi Flick's side than Marcus Rashford's as the club strengthened their squad in the summer.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/clyl7njnk46o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Gordon比Rashford-Deco更适合巴萨",
-    "candidate_summary_zh": "巴塞罗那体育总监德科表示，安东尼·戈登的风格比马库斯·拉什福德更适合汉西·弗利克斯，因为俱乐部在夏天加强了他们的阵容"
-  },
-  {
-    "item_id": "norm_91",
+    "item_id": "norm_83",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Olise scores twice as Bayern thrash Bodo/Glimt",
@@ -182,20 +156,33 @@
     "candidate_summary_zh": "England captain Harry Kane scores his 55th Champions League goal and Michael Olise strikes twice as Bayern Munich begin their campaign by comfortably beating Bodo/Glimt"
   },
   {
-    "item_id": "norm_103",
+    "item_id": "norm_86",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Barca's Rodri apologises over Valencia 'weak' comments",
-    "summary": "Barcelona midfielder Rodri says he has apologised to the entire Valencia squad after television cameras appeared to catch him describing the La Liga strugglers as \"very weak\".",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cvgyrx8gd71o?at_medium=RSS&at_campaign=rss",
+    "title": "Gordon a better fit for Barca than Rashford - Deco",
+    "summary": "Barcelona sporting director Deco says Anthony Gordon's style was a better fit for Hansi Flick's side than Marcus Rashford's as the club strengthened their squad in the summer.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/clyl7njnk46o?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "巴卡斯·罗德里（Barcas Rodri）为瓦伦西亚的软弱言",
-    "candidate_summary_zh": "Barcelona midfielder Rodri says he has apologised to the entire Valencia squad after television cameras appeared to catch him describing the La Liga strugglers as very weak"
+    "candidate_event_title_zh": "Gordon比Rashford-Deco更适合巴萨",
+    "candidate_summary_zh": "巴塞罗那体育总监德科表示，安东尼·戈登的风格比马库斯·拉什福德更适合汉西·弗利克斯，因为俱乐部在夏天加强了他们的阵容"
   },
   {
-    "item_id": "norm_106",
+    "item_id": "norm_94",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Late drama as Lens fight back to beat 10-man Slavia Prague",
+    "summary": "Lens score two goals in stoppage time as they come from behind twice to beat 10-man Slavia Prague at the Fortuna Arena.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cly4ll2wwz5o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Lens反击击败10人Slavia Prague的最后戏剧",
+    "candidate_summary_zh": "Lens score two goals in stoppage time as they come from behind twice to beat 10-man Slavia Prague at the Fortuna Arena"
+  },
+  {
+    "item_id": "norm_107",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
     "title": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
@@ -205,62 +192,49 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
+    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
   },
   {
-    "item_id": "norm_117",
+    "item_id": "norm_111",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
-    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
+    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
+  },
+  {
+    "item_id": "norm_114",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
+    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
+    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma Hayes）",
+    "candidate_summary_zh": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach"
   },
   {
     "item_id": "norm_134",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Champions League: Bayern break down Bodø/Glimt, Como put four past Leipzig",
-    "summary": "Bayern Munich 5-0 Bodø/Glimt, Como 4-1 Leipzig Lens win 3-2 at Slavia Prague with last-gasp double Bayern Munich opened their Champions League campaign with a 5-0 thrashing of Norway’s Bodo/Glimt. The six-times winners were frustrated before half-time by Bodo/Glimt but cruised once Jamal Musiala smashed in the opener two minutes into the second period and the floodgates opened. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/sep/10/champions-league-bayern-bodo-como-leipzig",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "冠军联赛：拜仁击败Bodø/Glimt， COMO击败莱比锡四强",
-    "candidate_summary_zh": "拜仁慕尼黑5-0 Bodø/Glimt， COMO 4-1莱比锡镜头在斯拉维亚布拉格以3-2获胜，最后一击双拜仁慕尼黑以5-0击败挪威的Bodo/Glimt开启了他们的冠军联赛活动"
-  },
-  {
-    "item_id": "norm_136",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Mauricio Pochettino: ‘I am always open to help Tottenham. In whatever division’",
-    "summary": "Manager is excited by new US deal but might have returned to Spurs if the stars had aligned and does not rule out taking England job one day If things had worked out differently, Mauricio Pochettino would have gone back to his beloved Tottenham over the summer. They had put in the call and it stirred him. Nothing was going to put him off – not even the possibility of the club being in the Championship. Seriously, Mauricio? After a World Cup campaign with the United States and top jobs with Chelsea and Paris Saint-Germain before that, he would have been willing to start a new chapter in the second tier of English football? “Yes, of course,” Pochettino says. “Tottenham … it’s the only club that always I am open to help. In whatever division.” Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/sep/10/mauricio-pochettino-tottenham-united-states-world-cup-england",
+    "title": "Clearlake Capital close on buying out Chelsea co-owners Todd Boehly and Mark Walter",
+    "summary": "Deal would value club at around £5bn Walter is seeking to raise funds to pay off insurers Chelsea’s majority owners, Clearlake Capital, are closing in on an agreement to buy out co-owners Todd Boehly and Mark Walter in a deal that would see the pair make a profit on their investment and value the club at around £5bn. On-off discussions between the two ownership groups over a potential sale have been taking place for the last two years, but intensified last month as a result of Mark Walter seeking to raise funds to pay off insurers following a US federal investigation over alleged tax fraud. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/sep/10/clearlake-capital-closing-buying-out-chelsea-co-owners-todd-boehly-mark-walter-5bn",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mauricio Pochettino： “我总是乐于帮助托特纳姆热刺。无论在哪个部门’",
-    "candidate_summary_zh": "Manager is excited by new US deal but might have returned to Spurs if the stars had aligned and does not rule out taking England job one day If things had worked out differently, Mauricio Pochettino would have gone back to his beloved Tottenham over the summer"
+    "candidate_event_title_zh": "Clearlake Capital收购切尔西共同所有人Todd Boehly和Mark Walter",
+    "candidate_summary_zh": "Deal would value club at around £5bn Walter is seeking to raise funds to pay off insurers Chelsea’s majority owners, Clearlake Capital, are closing in on an agreement to buy out co-owners Todd Boehly and Mark Walter in a deal that would see the pair make a profit on their investment and value the club at around £5bn"
   },
   {
-    "item_id": "norm_148",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Cole Palmer powers Chelsea to comeback win over Leeds in nine-goal epic",
-    "summary": "Where’s the fun in doing it the easy way? Chelsea remain chaotic at the back but can drag their opponents into horrible places. It helps, mind you, to have some assistance from the referee. Jarred Gillett and Cole Palmer? They made for a killer combination as Chelsea swerved embarrassment and treated Stamford Bridge to one of life’s rarities: a classic in the third round of the Carabao Cup. Gillett, a referee who always seems to be guessing when he makes key calls, was the villain as far as Leeds were concerned. They had just gone 2-0 up when Gillett altered the flow of the tie by pointing to the spot after Pep Chavarría made the most of slight contact from Daniel James. The subsequent conversion from Palmer was inevitable and from there so was the comeback from Chelsea, who rattled through four goals in 12 minutes before eventually reaching the last 16 by winning 6-3. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/sep/09/chelsea-leeds-carabao-cup-third-round-match-report",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "科尔·帕尔默（Cole Palmer）推动切尔西（Chelsea）在九球史诗中复出，击败利兹（",
-    "candidate_summary_zh": "Where’s the fun in doing it the easy way?"
-  },
-  {
-    "item_id": "norm_161",
+    "item_id": "norm_162",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
     "title": "Football Games, Results, Scores, Transfers, News | Sky Sports",
@@ -273,20 +247,7 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_182",
-    "source_id": "media_sky_sports_football",
-    "source_name": "Sky Sports Football",
-    "title": "Brighton make £30m Vuskovic offer as Spurs maintain Van Hecke interest",
-    "summary": "",
-    "url": "https://www.skysports.com/football/news/11095/13553329/luka-vuskovic-brighton-make-lb30m-offer-for-spurs-defender-as-roberto-de-zerbi-maintains-jan-paul-van-hecke-interest",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "布莱顿提出3000万英镑的Vuskovic报价，因为马刺保持了Van Hecke的兴趣",
-    "candidate_summary_zh": "布莱顿提出3000万英镑的Vuskovic报价，因为马刺保持了Van Hecke的兴趣"
-  },
-  {
-    "item_id": "norm_186",
+    "item_id": "norm_187",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -299,7 +260,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_201",
+    "item_id": "norm_202",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -312,33 +273,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_203",
-    "source_id": "media_espn_deportes_futbol",
-    "source_name": "ESPN Deportes Fútbol",
-    "title": "ESPN Deportes - Stream deportes en vivo y ESPN originales",
-    "summary": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN.",
-    "url": "https://www.espndeportes.com/watch",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Deportes -原创ESPN和现场体育直播",
-    "candidate_summary_zh": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN"
-  },
-  {
-    "item_id": "norm_235",
-    "source_id": "media_espn_deportes_futbol_mundial",
-    "source_name": "ESPN Deportes Fútbol Mundial",
-    "title": "Facundo Pellistri: \"Siempre se dice que Uruguay no es candidato, pero ninguna Selección nos quiere enfrentar\"",
-    "summary": "El extremo de Uruguay habló en la partida de la Selección rumbo a Playa del Carmen, sede de la concentración Celeste en el Mundial 2026.",
-    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818089/facundo-pellistri-declaraciones-partida-seleccion-uruguaya-a-playa-del-carmen-mundial-2026",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Facundo Pellistri：人们总是说乌拉圭不是候选人，但没有一个团队愿意面对我们",
-    "candidate_summary_zh": "El extremo de Uruguay habló en la partida de la Selección rumbo a Playa del Carmen, sede de la concentración Celeste en el Mundial 2026"
-  },
-  {
-    "item_id": "norm_248",
+    "item_id": "norm_249",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
     "title": "Fútbol en AS.com - AS.com",
@@ -351,20 +286,7 @@
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
   },
   {
-    "item_id": "norm_265",
-    "source_id": "media_as_futbol",
-    "source_name": "AS Fútbol",
-    "title": "El ojo que todo lo ve",
-    "summary": "",
-    "url": "https://as.com/futbol/el-ojo-que-todo-lo-ve-f202606-n/",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "全视之眼",
-    "candidate_summary_zh": "全视之眼"
-  },
-  {
-    "item_id": "norm_273",
+    "item_id": "norm_274",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
     "title": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
@@ -377,7 +299,7 @@
     "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
   },
   {
-    "item_id": "norm_298",
+    "item_id": "norm_299",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
     "title": "Fútbol - Últimas noticias",
@@ -390,20 +312,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_303",
-    "source_id": "media_marca_futbol",
-    "source_name": "Marca Fútbol",
-    "title": "Funes calma la rivalidad con el Almería: \"Lo que haya que decir lo diremos con la pelota\"",
-    "summary": "El entrenador malaguista espera una eliminatoria abierta con el Almería como favorito",
-    "url": "https://www.marca.com/futbol/malaga/2026/06/12/funes-calma-rivalidad-almeria-tengamos-decir-diremos-pelota.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Funes平息了与Almería的竞争：我们要用球说些什么",
-    "candidate_summary_zh": "El entrenador malaguista espera una eliminatoria abierta con el Almería como favorito El entrenador del Málaga espera una eliminatoria abierta con el equipo indálico como favorito El Málaga ya huele a un fin de semana importante de nuevo"
-  },
-  {
-    "item_id": "norm_323",
+    "item_id": "norm_324",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
     "title": "Fútbol - Últimas noticias",
@@ -416,20 +325,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_328",
-    "source_id": "media_marca_futbol_noticias",
-    "source_name": "Marca Fútbol Noticias",
-    "title": "Funes calma la rivalidad con el Almería: \"Lo que haya que decir lo diremos con la pelota\"",
-    "summary": "El entrenador malaguista espera una eliminatoria abierta con el Almería como favorito",
-    "url": "https://www.marca.com/futbol/malaga/2026/06/12/funes-calma-rivalidad-almeria-tengamos-decir-diremos-pelota.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Funes平息了与Almería的竞争：我们要用球说些什么",
-    "candidate_summary_zh": "El entrenador malaguista espera una eliminatoria abierta con el Almería como favorito El entrenador del Málaga espera una eliminatoria abierta con el equipo indálico como favorito El Málaga ya huele a un fin de semana importante de nuevo"
-  },
-  {
-    "item_id": "norm_348",
+    "item_id": "norm_349",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
     "title": "Foot - actualités, mercato, info & vidéo en continu",
@@ -442,7 +338,7 @@
     "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
   },
   {
-    "item_id": "norm_373",
+    "item_id": "norm_374",
     "source_id": "media_lequipe_football_coupedumonde",
     "source_name": "L'Équipe Football Coupe du Monde",
     "title": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
@@ -455,7 +351,7 @@
     "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
-    "item_id": "norm_398",
+    "item_id": "norm_399",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -468,7 +364,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_409",
+    "item_id": "norm_410",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -481,7 +377,7 @@
     "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
-    "item_id": "norm_410",
+    "item_id": "norm_411",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -494,7 +390,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_420",
+    "item_id": "norm_421",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -507,7 +403,7 @@
     "candidate_summary_zh": "Tabela e jogos da Copa do Mundo 2026 | ge"
   },
   {
-    "item_id": "norm_421",
+    "item_id": "norm_422",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -520,7 +416,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_441",
+    "item_id": "norm_442",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -533,7 +429,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_615",
+    "item_id": "norm_616",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -546,7 +442,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_640",
+    "item_id": "norm_641",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -559,7 +455,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_665",
+    "item_id": "norm_666",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -572,7 +468,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_678",
+    "item_id": "norm_679",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -585,7 +481,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_689",
+    "item_id": "norm_690",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -598,7 +494,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_691",
+    "item_id": "norm_692",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -611,7 +507,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_692",
+    "item_id": "norm_693",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -624,7 +520,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_694",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -637,7 +533,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_694",
+    "item_id": "norm_695",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -650,7 +546,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_696",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -663,7 +559,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_696",
+    "item_id": "norm_697",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -676,7 +572,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_721",
+    "item_id": "norm_722",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -689,7 +585,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_732",
+    "item_id": "norm_733",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -702,7 +598,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_734",
+    "item_id": "norm_735",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -715,7 +611,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_748",
+    "item_id": "norm_749",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -728,7 +624,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_749",
+    "item_id": "norm_750",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -741,7 +637,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_774",
+    "item_id": "norm_775",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -754,7 +650,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_799",
+    "item_id": "norm_800",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -767,7 +663,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_824",
+    "item_id": "norm_825",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -780,7 +676,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_849",
+    "item_id": "norm_850",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -793,20 +689,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_860",
-    "source_id": "media_bein_sports_football",
-    "source_name": "beIN SPORTS Football",
-    "title": "UEFA Champions League",
-    "summary": "",
-    "url": "https://www.beinsports.com/en-us/soccer/uefa-champions-league#news",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "歐冠盃",
-    "candidate_summary_zh": "歐冠盃"
-  },
-  {
-    "item_id": "norm_874",
+    "item_id": "norm_875",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -819,7 +702,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_896",
+    "item_id": "norm_897",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -832,7 +715,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_897",
+    "item_id": "norm_898",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -845,7 +728,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_911",
+    "item_id": "norm_912",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
