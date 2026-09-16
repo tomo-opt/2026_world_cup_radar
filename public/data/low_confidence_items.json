@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
+    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
     "item_id": "norm_2",
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
-    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
+    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
     "item_id": "norm_3",
@@ -52,6 +52,19 @@
     "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
   },
   {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
+  },
+  {
     "item_id": "norm_27",
     "source_id": "media_espn_soccer",
     "source_name": "ESPN Soccer",
@@ -65,17 +78,17 @@
     "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
   },
   {
-    "item_id": "norm_31",
+    "item_id": "norm_42",
     "source_id": "media_espn_soccer_worldcup",
     "source_name": "ESPN Soccer Worldcup Page",
-    "title": "USMNT's final World Cup roster has Pochettino taking risks",
-    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
-    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
-    "candidate_summary_zh": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup"
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
   },
   {
     "item_id": "norm_50",
@@ -101,7 +114,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
     "item_id": "norm_54",
@@ -130,20 +143,46 @@
     "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
   },
   {
-    "item_id": "norm_82",
+    "item_id": "norm_80",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Barcelona monitor Kane & Haaland - Wednesday's gossip",
-    "summary": "Barcelona are monitoring Harry Kane and Erling Haaland, Nick Woltemade could be a replacement for Kane at Bayern Munich, and Manchester United are interested in Jarrad Branthwaite, plus more.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqzezjn3wzjpo?at_medium=RSS&at_campaign=rss",
+    "title": "Mbappe, Vini and Konate cover up Real's message of support for Ceuta",
+    "summary": "Vini Jnr, Mbappe and Konate cover up Ceuta message of support ahead of Real Madrid's match against Elche.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cxm2qyr5r009o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Mbappe、Vini和Konate掩盖了Reals对休达的支持信息",
+    "candidate_summary_zh": "Vini Jnr， Mbappe和Konate在皇家马德里队对阵埃尔切之前掩盖了休达的支持信息"
+  },
+  {
+    "item_id": "norm_86",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Harwood-Bellis has chance to make his mark at Villa",
+    "summary": "Left out of Aston Villa's Champions League squad and yet to feature since his arrival, Taylor Harwood-Bellis has the chance to shine in the EFL Cup.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6wyzg91zm4wo?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "巴塞罗那监视器Kane & Haaland -周三八卦",
-    "candidate_summary_zh": "巴塞罗那正在监控Harry Kane和Erling Haaland， Nick Woltemade可能取代拜仁慕尼黑的Kane，曼联对Jarrad Branthwaite感兴趣，还有更多"
+    "candidate_event_title_zh": "Harwood-Bellis有机会在别墅留下自己的印记",
+    "candidate_summary_zh": "泰勒·哈伍德-贝利斯（Taylor Harwood-Bellis）被阿斯顿维拉冠军联赛（Aston Villas Champions League）淘汰出局，但自从他来到这里后，他就再也没"
   },
   {
-    "item_id": "norm_108",
+    "item_id": "norm_105",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Haaland scores controversial winner as Man City win derby despite Foden red",
+    "summary": "Erling Haaland's goal helps Manchester City win a highly controversial Manchester derby at rivals Manchester United despite playing with 10 men for more than 70 minutes.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cpd0j54xlyyo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "尽管Foden red， Haaland在曼城赢得德比时获得了有争议的冠军",
+    "candidate_summary_zh": "Erling Haalands goal helps Manchester City win a highly controversial Manchester derby at rivals Manchester United despite playing with 10 men for more than 70 minutes"
+  },
+  {
+    "item_id": "norm_107",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
     "title": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
@@ -152,11 +191,24 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
+    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
     "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
   },
   {
-    "item_id": "norm_163",
+    "item_id": "norm_139",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Max Dowman doubles up for Arsenal’s back-ups to beat Ipswich in Carabao Cup",
+    "summary": "The bad news for everyone else is that Arsenal’s next generation is already here. Two mesmerising goals and an assist in a man-of-the-match display from Max Dowman underlined why the 16-year-old has been compared to a certain Lionel Messi by his manager, Mikel Arteta, as Ipswich were swatted aside with ease. Almost as impressive was the performance of the 17-year-old Marli Salmon, who oozed class in central defence on only the second senior start of his career. Ipswich won here the last time these two sides met in this competition, in 2011, but were beaten 3-0 in the second leg of the semi-final at the Emirates before Arsenal infam­ously lost to Birmingham in the final. ­Fifteen years on, Gary O’Neil’s heavily rotated side stood no chance against last year’s runners up after Dowman’s brilliant opening goal. Noni Madueke and the stand-in skipper Mikel Merino were also on target as Arsenal made it seven wins out of seven to start the new campaign. Having finally ended their long wait for silverware in style, this team are hungry for more and know they can now rely on one of the most exciting talents ever to have emerged from their Hale End academy. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/sep/15/ipswich-arsenal-carabao-cup-third-round-match-report",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "马克斯·道曼（Max Dowman）为阿森纳的替补加倍，在卡拉宝杯中击败伊普斯维奇（Ipswich）",
+    "candidate_summary_zh": "The bad news for everyone else is that Arsenal’s next generation is already here"
+  },
+  {
+    "item_id": "norm_162",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
     "title": "Football Games, Results, Scores, Transfers, News | Sky Sports",
@@ -169,7 +221,7 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_188",
+    "item_id": "norm_187",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -182,7 +234,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_203",
+    "item_id": "norm_202",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -195,7 +247,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_250",
+    "item_id": "norm_249",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
     "title": "Fútbol en AS.com - AS.com",
@@ -208,7 +260,7 @@
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
   },
   {
-    "item_id": "norm_275",
+    "item_id": "norm_274",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
     "title": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
@@ -221,7 +273,7 @@
     "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
   },
   {
-    "item_id": "norm_300",
+    "item_id": "norm_299",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
     "title": "Fútbol - Últimas noticias",
@@ -234,7 +286,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_325",
+    "item_id": "norm_324",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
     "title": "Fútbol - Últimas noticias",
@@ -247,7 +299,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_350",
+    "item_id": "norm_349",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
     "title": "Foot - actualités, mercato, info & vidéo en continu",
@@ -260,7 +312,7 @@
     "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
   },
   {
-    "item_id": "norm_375",
+    "item_id": "norm_374",
     "source_id": "media_lequipe_football_coupedumonde",
     "source_name": "L'Équipe Football Coupe du Monde",
     "title": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
@@ -273,7 +325,7 @@
     "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
-    "item_id": "norm_400",
+    "item_id": "norm_399",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -286,7 +338,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_411",
+    "item_id": "norm_410",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -299,7 +351,7 @@
     "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
-    "item_id": "norm_412",
+    "item_id": "norm_411",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -312,7 +364,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_422",
+    "item_id": "norm_421",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -325,7 +377,7 @@
     "candidate_summary_zh": "Tabela e jogos da Copa do Mundo 2026 | ge"
   },
   {
-    "item_id": "norm_423",
+    "item_id": "norm_422",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -338,7 +390,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_443",
+    "item_id": "norm_442",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -351,59 +403,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_491",
-    "source_id": "forum_reddit_football",
-    "source_name": "Reddit r/football",
-    "title": "Hami Mandıralı's free kick is listed at 266 km/h in some sources. We did the frame-by-frame analysis. It isn't even close.",
-    "summary": "You may have seen Hami Mandıralı's free kick cited as the \"fastest shot in football history\" at 266 or 269 km/h depending on the source. We decided to actually check it. Using frame-by-frame analysis of the original footage: Distance: 40.4 yards from goal Frames from contact to net entry: 30 frames at 25fps Average speed: 112 km/h (±4 km/h margin of error) Estimated peak speed at moment of contact: 144 km/h 144 km/h is still a very strong strike. But it is nowhere near 266 km/h. For context, 266 km/h would mean the ball travelled 40 yards in roughly 0.27 seconds. At 25fps that would register as barely 7 frames. We counted 30. The 266/269 km/h figure appears to have no credible source behind it. Much like Ronny Heberson's Guinness World Record listed speed, these figures likely originate from misquotes, radar gun misuse, or simply made up numbers that spread unchecked across the internet for decades. Football has a misinformation problem with shot speed records. Frame-by-frame analysis and basic physics consistently tell a very different story. submitted by /u/Longshotfootball [link] [comments]",
-    "url": "https://www.reddit.com/r/football/comments/1vs8lfo/hami_mand%C4%B1ral%C4%B1s_free_kick_is_listed_at_266_kmh_in/",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Hami Mandıralıs任意球在某些来源的速度为266公里/小时。我们进行了逐帧分析。它甚至都不接近",
-    "candidate_summary_zh": "您可能已经看到Hami Mandıralıs任意球被认为是足球历史上最快的投篮，速度为266或269公里/小时，具体取决于来源"
-  },
-  {
-    "item_id": "norm_499",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Berhalter (25), Morris (24) start for Boro v. Espanyol (preseason) [10am et; £3 pass]",
-    "summary": "link for match pass submitted by /u/nicko_rico [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1vcnsoo/berhalter_25_morris_24_start_for_boro_v_espanyol/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Berhalter （25岁）， Morris （24岁） Boro诉Espanyol （季前赛） [10am et; £ 3 pass]",
-    "candidate_summary_zh": "link for match pass submitted by /u/nicko_rico [link] [comments]"
-  },
-  {
-    "item_id": "norm_502",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Saw this clip last week but didn't have time to share it til now. 16-year-old Cavan Sullivan gets absolutely decked by 19-year-old Stuart Hawkins. What does he do? He immediately gets back up and grabs his shirt. That’s the type of fight we want from our young players! Love the mentality.",
-    "summary": "Also, I just wanted to say it's so impressive to see the talent Philadelphia Union is producing in the last decade. 16 years ago, they came into the league. They had a five-point plan. They were never going to start signing big name older flashy European guys. They focused on developing the youth in the area. And it's paid dividends! I've never gotten the privilege to work for the Union. But I visited their facilities last year. Everything is super top notch and the club is so well run. I got to talk to the directors there who invited me, and they explained to me how they do things. As a sporting director myself, I've been so impressed and I can only wish to work in an environment like that. Ernst Tanner may not be the best character, he used anti-LGBTQ+ language and got suspended recently. But he has great soccer IQ and built a system that is hard to match for other MLS teams, Forget about USL, we simply don't have the financial resources and facilities they have. All in all, I think American soccer is improving thanks to clubs like the Union. I know they're not having a good season but they've been solid for years. Cavan is just the latest in their pipeline and he is not only talented, but he has the character to make it in pro soccer. When you are 16 and playing with grown men, you can't be afraid. And as you can see from this clip as one of many examples, he is not afraid of anyone or anything. We need more teams like Union in this country. Let's prioritize youth development. Teach them skillset and the tough mentality that is needed in soccer. Personally, if I were running the Union, I would bring in one or two veterans who played at the highest levels just to let them share their experiences with these young kids and to lead them. But they have their philosophy and it is helping American soccer. submitted by /u/Soccer_Professor_786 [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1vc6bqg/saw_this_clip_last_week_but_didnt_have_time_to/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "上周看了这个视频，但直到现在才有时间分享。16岁的Cavan Sullivan绝对是19岁的Stuart Hawkins。他是做什么的？他立刻站起来，抓起衬衫。这就是我们希望年轻球员打的类型！喜欢这种心态",
-    "candidate_summary_zh": "Also, I just wanted to say its so impressive to see the talent Philadelphia Union is producing in the last decade"
-  },
-  {
-    "item_id": "norm_512",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "[Ben Jacobs] 🚨 BREAKING: All 41 Concacaf members have rejected Gianni Infantino's FIFA Forward Enterprise plans. More to follow.",
-    "summary": "submitted by /u/Every-Damage-90 [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1vb3a6v/ben_jacobs_breaking_all_41_concacaf_members_have/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "[Ben Jacobs] 🚨 BREAKING：所有41个CONCACAF成员都拒绝了Gianni Infantinos FIFA Forward Enterprise计划。更多信息请关注",
-    "candidate_summary_zh": "submitted by /u/Every-Damage-90 [link] [comments]"
-  },
-  {
-    "item_id": "norm_617",
+    "item_id": "norm_614",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -416,7 +416,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_642",
+    "item_id": "norm_639",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -429,7 +429,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_667",
+    "item_id": "norm_664",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -442,7 +442,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_680",
+    "item_id": "norm_677",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -455,7 +455,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_691",
+    "item_id": "norm_688",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -468,7 +468,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_690",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -481,7 +481,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_694",
+    "item_id": "norm_691",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -494,7 +494,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_692",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -507,7 +507,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_696",
+    "item_id": "norm_693",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -520,7 +520,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_697",
+    "item_id": "norm_694",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -533,7 +533,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_698",
+    "item_id": "norm_695",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -546,7 +546,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_723",
+    "item_id": "norm_720",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -559,7 +559,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_734",
+    "item_id": "norm_731",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -572,7 +572,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_736",
+    "item_id": "norm_733",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -585,7 +585,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_750",
+    "item_id": "norm_747",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -598,7 +598,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_751",
+    "item_id": "norm_748",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -611,7 +611,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_776",
+    "item_id": "norm_773",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -624,7 +624,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_801",
+    "item_id": "norm_798",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -637,7 +637,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_826",
+    "item_id": "norm_823",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -650,7 +650,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_851",
+    "item_id": "norm_848",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -663,7 +663,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_876",
+    "item_id": "norm_873",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -676,7 +676,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_898",
+    "item_id": "norm_895",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -689,7 +689,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_899",
+    "item_id": "norm_896",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -702,7 +702,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_913",
+    "item_id": "norm_910",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
