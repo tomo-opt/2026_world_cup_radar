@@ -9,8 +9,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
+    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
+    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
   },
   {
     "item_id": "norm_2",
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
-    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
+    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
   },
   {
     "item_id": "norm_3",
@@ -48,8 +48,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
+    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
   },
   {
     "item_id": "norm_11",
@@ -62,20 +62,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
-    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
-  },
-  {
-    "item_id": "norm_27",
-    "source_id": "media_espn_soccer",
-    "source_name": "ESPN Soccer",
-    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
-    "summary": "",
-    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
-    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+    "candidate_summary_zh": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstars quest"
   },
   {
     "item_id": "norm_31",
@@ -104,19 +91,6 @@
     "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
   },
   {
-    "item_id": "norm_50",
-    "source_id": "media_espn_soccer_worldcup",
-    "source_name": "ESPN Soccer Worldcup Page",
-    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
-    "summary": "",
-    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
-    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
-  },
-  {
     "item_id": "norm_53",
     "source_id": "media_espn_rss_info",
     "source_name": "ESPN Soccer RSS Feeds Info Page",
@@ -126,7 +100,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
     "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
@@ -156,7 +130,33 @@
     "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
   },
   {
-    "item_id": "norm_85",
+    "item_id": "norm_82",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Everton's unbeaten run continues with win over 10-man Ipswich",
+    "summary": "Unbeaten Everton move up to fifth in the Premier League, with Thierno Barry's goal making the difference against 10-man Ipswich Town.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cmvgy397e5qzo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Evertons继续保持不败，赢得了10人的Ipswich",
+    "candidate_summary_zh": "Unbeaten Everton move up to fifth in the Premier League, with Thierno Barrys goal making the difference against 10-man Ipswich Town"
+  },
+  {
+    "item_id": "norm_93",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Wrexham's boost & Alexander in ideal place - Aaron McLean's EFL takeaways",
+    "summary": "BBC Final Score pundit Aaron McLean looks at the weekend's talking points in the EFL, including Wrexham, QPR and Bradford City.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm4gdj405n2no?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Wrexhams BOOST和Alexander在理想的地方- Aaron McLeans EFL外卖",
+    "candidate_summary_zh": "英国广播公司最终得分专家亚伦·麦克莱恩（Aaron McLean）关注EFL的周末谈话要点，包括雷克瑟姆（Wrexham）、QPR和布拉德福德城（Bradford"
+  },
+  {
+    "item_id": "norm_94",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Clark resigns as Hartlepool boss in post-match interview",
@@ -169,7 +169,7 @@
     "candidate_summary_zh": "李·克拉克（Lee Clark）在沃辛（Worthing） 3-1主场失利后，在七场比赛中第六场失利后辞去了哈特尔浦联队主教练的职务"
   },
   {
-    "item_id": "norm_86",
+    "item_id": "norm_95",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Lowly Peterborough sack manager Williams",
@@ -179,23 +179,10 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Lowly Peterborough麻袋经理Williams",
-    "candidate_summary_zh": "Peterborough United sack manager Luke Williams after Saturdays defeat at home by Doncaster leaves them second from bottom in League One"
+    "candidate_summary_zh": "彼得伯勒联队解雇经理卢克·威廉姆斯周六在主场被唐卡斯特击败后，他们在一级联赛中排名倒数第二"
   },
   {
-    "item_id": "norm_103",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Uefa & Concacaf demand Fifa pays $10m to all 211 members",
-    "summary": "Uefa and Concacaf issue a joint statement calling on Fifa to pay $10m from its cash reserves to each of the 211 member associations.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6158x85pv19o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "欧足联和CONCACAF DEMAND FIFA向所有211名成员支付1000万美元$",
-    "candidate_summary_zh": "欧足联和Concacaf发表联合声明，呼吁国际足联从其现金储备中向211个成员协会分别支付1000 $"
-  },
-  {
-    "item_id": "norm_106",
+    "item_id": "norm_108",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
     "title": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
@@ -204,50 +191,37 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
+    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
   },
   {
-    "item_id": "norm_113",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
+    "item_id": "norm_136",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Coventry delight in Jay Dasilva winner but ruled-out goal riles Nottingham Forest",
+    "summary": "No, but seriously. Maybe Frank Lampard and Coventry can achieve Premier League survival. The club’s first top-division win since April 2001 was celebrated rapturously, victory an object lesson in unsettling opponents for whom confidence can waver. Jay Dasilva’s excellent goal was built on the foundations laid by a battling defensive performance that must be replicated on a weekly basis. Coventry, dogged throughout, blunted Nottingham Forest’s creativity, though could thank a late video assistant referee call that enraged the City Ground crowd. Lampard declared, with his broadest grin: “I feel great, I feel amazing.” Next, as is his way, back to serious business. “The reality in football is you have to fight for it, you have to work for it, you have to have organisation.” Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/sep/19/nottingham-forest-coventry-premier-league-match-report",
     "language": "en",
-    "reason": "general_discussion_only",
+    "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma Hayes）",
-    "candidate_summary_zh": "离开科尔·帕尔默让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练离开科尔·帕尔默在家里让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练在英格兰的托马斯·图切尔有一个精英教练"
+    "candidate_event_title_zh": "考文垂对杰伊·达西尔瓦（Jay Dasilva）的获胜者感到高兴，但排除了诺丁汉森林（Nottingham Forest）",
+    "candidate_summary_zh": "Maybe Frank Lampard and Coventry can achieve Premier League survival"
   },
   {
-    "item_id": "norm_117",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
-    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
-  },
-  {
-    "item_id": "norm_134",
+    "item_id": "norm_138",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
     "title": "Everton hold off Ipswich thanks to Thierno Barry goal despite VAR controversy",
-    "summary": "After the trials and tribulations of the transfer window Everton can be content to reach the international break unbeaten and up to fifth courtesy of victory over Ipswich. David Moyes, and Pro Ref, will also be relieved that another controversial call from a video assistant referee did not determine the outcome. Thierno Barry decided a close-fought contest that turned decisively in Everton’s favour when Abdul Fatawu was sent off for simulation, his second bookable offence, in the 67th minute. Barry had earlier had a second goal ruled out after an offside Brennan Johnson was deemed to have interfered with Ipswich goalkeeper Christian Walton’s ability to save a ball he made no attempt to save and was nowhere near saving. Unlike the Manchester derby, however, referee Stuart Attwell’s decision would not prove decisive. Continue reading...",
+    "summary": "After the trials and tribulations of the transfer window, Everton can be content with fifth place, an unbeaten start and five clean sheets in seven games. There will also be relief, for Pro Ref as well as David Moyes, that another controversial call from a video assistant referee did not impede their progress against Ipswich. Thierno Barry decided a close-fought contest with his fifth goal of the campaign. He should have had a sixth but an offside Brennan Johnson was adjudged to have impacted Ipswich goalkeeper Christian Walton’s ability to save a ball he made no attempt to save and was nowhere near saving. Unlike last weekend’s Manchester derby, however, referee Stuart Attwell’s decision would not prove decisive. The game turned in Everton’s favour minutes later when Abdul Fatawu received a second yellow card for diving but, having failed to kill off Gary O’Neil’s 10 men, they ended up hanging on. VAR was therefore spared Moyes’s wrath. Continue reading...",
     "url": "https://www.theguardian.com/football/2026/sep/19/everton-ipswich-premier-league-match-report",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "尽管VAR存在争议，但由于Thierno Barry的进球，埃弗顿推迟了伊普斯维奇",
-    "candidate_summary_zh": "After the trials and tribulations of the transfer window Everton can be content to reach the international break unbeaten and up to fifth courtesy of victory over Ipswich"
+    "candidate_summary_zh": "After the trials and tribulations of the transfer window, Everton can be content with fifth place, an unbeaten start and five clean sheets in seven games"
   },
   {
-    "item_id": "norm_161",
+    "item_id": "norm_163",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
     "title": "Football Games, Results, Scores, Transfers, News | Sky Sports",
@@ -260,7 +234,7 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_186",
+    "item_id": "norm_188",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -269,11 +243,11 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Football News | Sky Sports",
+    "candidate_event_title_zh": "足球新闻|天空体育",
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_201",
+    "item_id": "norm_203",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -282,11 +256,24 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Football News | Sky Sports",
+    "candidate_event_title_zh": "足球新闻|天空体育",
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_248",
+    "item_id": "norm_205",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "ESPN Deportes - Stream deportes en vivo y ESPN originales",
+    "summary": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN.",
+    "url": "https://www.espndeportes.com/watch",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "ESPN Deportes -原创ESPN和现场体育直播",
+    "candidate_summary_zh": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN"
+  },
+  {
+    "item_id": "norm_250",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
     "title": "Fútbol en AS.com - AS.com",
@@ -299,7 +286,7 @@
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
   },
   {
-    "item_id": "norm_273",
+    "item_id": "norm_275",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
     "title": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
@@ -308,11 +295,24 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
+    "candidate_event_title_zh": "2026年世界杯-足球世界杯- AS.com",
     "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
   },
   {
-    "item_id": "norm_298",
+    "item_id": "norm_284",
+    "source_id": "media_as_futbol_mundial2026",
+    "source_name": "AS Fútbol Mundial 2026",
+    "title": "Solo ha entrenado a Bosnia y era jugador profesional de póker: la historia de Sergej Barbarez, el seleccionador bosnio",
+    "summary": "",
+    "url": "https://as.com/futbol/mundial/solo-ha-entrenado-a-bosnia-y-era-jugador-profesional-de-poker-la-historia-de-sergej-barbarez-el-seleccionador-bosnio-f202606-n/",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "他只执教过波斯尼亚，是一名职业扑克玩家：波斯尼亚教练Sergej Barbarez的故事",
+    "candidate_summary_zh": "他只执教过波斯尼亚，是一名职业扑克玩家：波斯尼亚教练Sergej Barbarez的故事"
+  },
+  {
+    "item_id": "norm_300",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
     "title": "Fútbol - Últimas noticias",
@@ -325,7 +325,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_323",
+    "item_id": "norm_325",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
     "title": "Fútbol - Últimas noticias",
@@ -338,7 +338,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_348",
+    "item_id": "norm_350",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
     "title": "Foot - actualités, mercato, info & vidéo en continu",
@@ -351,7 +351,7 @@
     "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
   },
   {
-    "item_id": "norm_373",
+    "item_id": "norm_375",
     "source_id": "media_lequipe_football_coupedumonde",
     "source_name": "L'Équipe Football Coupe du Monde",
     "title": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
@@ -364,7 +364,7 @@
     "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
-    "item_id": "norm_398",
+    "item_id": "norm_400",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -377,7 +377,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_409",
+    "item_id": "norm_411",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -390,7 +390,7 @@
     "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
-    "item_id": "norm_410",
+    "item_id": "norm_412",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -403,7 +403,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_420",
+    "item_id": "norm_422",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -416,7 +416,7 @@
     "candidate_summary_zh": "Tabela e jogos da Copa do Mundo 2026 | ge"
   },
   {
-    "item_id": "norm_421",
+    "item_id": "norm_423",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -429,7 +429,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_441",
+    "item_id": "norm_443",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -442,7 +442,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_615",
+    "item_id": "norm_617",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -455,7 +455,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_640",
+    "item_id": "norm_642",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -468,7 +468,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_665",
+    "item_id": "norm_667",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -481,7 +481,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_678",
+    "item_id": "norm_680",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -494,7 +494,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_689",
+    "item_id": "norm_691",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -507,7 +507,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_691",
+    "item_id": "norm_693",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -520,7 +520,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_692",
+    "item_id": "norm_694",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -533,7 +533,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_695",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -546,7 +546,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_694",
+    "item_id": "norm_696",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -559,7 +559,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_697",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -572,7 +572,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_696",
+    "item_id": "norm_698",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -585,7 +585,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_721",
+    "item_id": "norm_723",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -598,7 +598,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_732",
+    "item_id": "norm_734",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -611,7 +611,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_734",
+    "item_id": "norm_736",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -624,7 +624,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_748",
+    "item_id": "norm_750",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -637,7 +637,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_749",
+    "item_id": "norm_751",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -650,7 +650,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_774",
+    "item_id": "norm_776",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -663,7 +663,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_799",
+    "item_id": "norm_801",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -676,7 +676,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_824",
+    "item_id": "norm_826",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -689,7 +689,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_849",
+    "item_id": "norm_851",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -702,7 +702,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_874",
+    "item_id": "norm_876",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -715,7 +715,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_896",
+    "item_id": "norm_898",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -728,7 +728,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_897",
+    "item_id": "norm_899",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -741,7 +741,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_911",
+    "item_id": "norm_913",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
