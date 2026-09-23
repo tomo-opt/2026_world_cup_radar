@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-23T13:05:55.942Z",
+  "generated_at": "2026-09-23T17:52:23.488Z",
   "total_sources": 102,
   "enabled_sources": 102,
-  "success_sources": 84,
-  "failed_sources": 18,
-  "included_in_frontend_sources": 11,
-  "success_rate": 82.35,
+  "success_sources": 83,
+  "failed_sources": 19,
+  "included_in_frontend_sources": 14,
+  "success_rate": 81.37,
   "target_success_rate": 60,
   "items": [
     {
@@ -545,7 +545,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "media_guardian_football_worldcup2026",
@@ -580,7 +580,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "media_guardian_football",
@@ -606,7 +606,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "media_sky_sports_football",
@@ -623,8 +623,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 23,
-      "discarded_count": 17,
+      "valid_items_count": 22,
+      "discarded_count": 18,
       "discovered_feeds": [
         "https://www.skysports.com/feed",
         "https://www.skysports.com/rss",
@@ -657,7 +657,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 16,
-      "valid_items_count": 10,
+      "valid_items_count": 8,
       "discarded_count": 10,
       "discovered_feeds": [
         "https://www.skysports.com/feed",
@@ -852,7 +852,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_marca_futbol_noticias",
@@ -888,7 +888,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_lequipe_football",
@@ -912,7 +912,7 @@
       "failure_category": "html_parse_no_items",
       "failure_reason": "No usable HTML items found",
       "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_lequipe_football_coupedumonde",
@@ -988,8 +988,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 12,
-      "valid_items_count": 12,
-      "discarded_count": 8,
+      "valid_items_count": 10,
+      "discarded_count": 10,
       "discovered_feeds": [
         "https://ge.globo.com/feed",
         "https://ge.globo.com/rss",
@@ -1005,7 +1005,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_globo_esporte_copadomundo",
@@ -1039,7 +1039,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_ole_argentina_mundial 2026",
@@ -1073,7 +1073,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "forum_reddit_soccer",
@@ -1270,7 +1270,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 20,
+      "fetched_count": 19,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1373,7 +1373,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 24,
       "valid_items_count": 5,
-      "discarded_count": 31,
+      "discarded_count": 21,
       "discovered_feeds": [
         "https://www.fourfourtwo.com/feeds.xml",
         "https://www.fourfourtwo.com/feeds/articletype/news",
@@ -1478,8 +1478,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 20,
-      "discarded_count": 20,
+      "valid_items_count": 21,
+      "discarded_count": 21,
       "discovered_feeds": [
         "https://sports.yahoo.com/rss/",
         "https://sports.yahoo.com/feed",
@@ -1508,18 +1508,29 @@
       "batch": "expanded",
       "crawl_mode": "html_list",
       "attempted_strategies": [
-        "sitemap"
+        "html_list",
+        "json_ld",
+        "wp_json"
       ],
-      "successful_strategy": null,
+      "successful_strategy": "html_list",
       "fetched_count": 12,
-      "valid_items_count": 0,
-      "discarded_count": 0,
-      "discovered_feeds": [],
+      "valid_items_count": 10,
+      "discarded_count": 10,
+      "discovered_feeds": [
+        "https://onefootball.com/feed",
+        "https://onefootball.com/rss",
+        "https://onefootball.com/rss.xml",
+        "https://onefootball.com/feed.xml",
+        "https://onefootball.com/football/rss",
+        "https://onefootball.com/soccer/rss",
+        "https://onefootball.com/world-cup/rss",
+        "https://onefootball.com/feed/"
+      ],
       "discovered_sitemaps": [],
-      "status": "partial",
-      "failure_category": "html_parse_no_items",
-      "failure_reason": "No usable HTML items found",
-      "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
+      "status": "ok",
+      "failure_category": null,
+      "failure_reason": null,
+      "next_action": "已抓到有效条目，可继续优化相关性。",
       "included_in_frontend": false
     },
     {
@@ -1537,7 +1548,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 1,
-      "valid_items_count": 24,
+      "valid_items_count": 23,
       "discarded_count": 24,
       "discovered_feeds": [
         "https://www.si.com/feed",
@@ -1571,8 +1582,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 15,
-      "valid_items_count": 11,
-      "discarded_count": 13,
+      "valid_items_count": 13,
+      "discarded_count": 15,
       "discovered_feeds": [
         "https://www.nbcsports.com/soccer/world-cup.atom",
         "https://www.nbcsports.com/feed",
@@ -1601,28 +1612,18 @@
       "batch": "core",
       "crawl_mode": "html_list",
       "attempted_strategies": [
-        "html_list",
-        "json_ld"
+        "sitemap"
       ],
-      "successful_strategy": "html_list",
+      "successful_strategy": null,
       "fetched_count": 25,
-      "valid_items_count": 10,
-      "discarded_count": 55,
-      "discovered_feeds": [
-        "https://www.goal.com/feed",
-        "https://www.goal.com/rss",
-        "https://www.goal.com/rss.xml",
-        "https://www.goal.com/feed.xml",
-        "https://www.goal.com/football/rss",
-        "https://www.goal.com/soccer/rss",
-        "https://www.goal.com/world-cup/rss",
-        "https://www.goal.com/feed/"
-      ],
+      "valid_items_count": 0,
+      "discarded_count": 0,
+      "discovered_feeds": [],
       "discovered_sitemaps": [],
-      "status": "ok",
-      "failure_category": null,
-      "failure_reason": null,
-      "next_action": "已抓到有效条目，可继续优化相关性。",
+      "status": "partial",
+      "failure_category": "html_parse_no_items",
+      "failure_reason": "No usable HTML items found",
+      "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
       "included_in_frontend": false
     },
     {
@@ -1640,8 +1641,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 24,
-      "discarded_count": 4,
+      "valid_items_count": 22,
+      "discarded_count": 6,
       "discovered_feeds": [
         "https://www.foxsports.com/feed",
         "https://www.foxsports.com/rss",
@@ -2685,28 +2686,18 @@
       "batch": "expanded",
       "crawl_mode": "html_list",
       "attempted_strategies": [
-        "html_list",
-        "json_ld"
+        "sitemap"
       ],
-      "successful_strategy": "html_list",
+      "successful_strategy": null,
       "fetched_count": 25,
-      "valid_items_count": 17,
-      "discarded_count": 19,
-      "discovered_feeds": [
-        "https://www.beinsports.com/feed",
-        "https://www.beinsports.com/rss",
-        "https://www.beinsports.com/rss.xml",
-        "https://www.beinsports.com/feed.xml",
-        "https://www.beinsports.com/football/rss",
-        "https://www.beinsports.com/soccer/rss",
-        "https://www.beinsports.com/world-cup/rss",
-        "https://www.beinsports.com/feed/"
-      ],
+      "valid_items_count": 0,
+      "discarded_count": 0,
+      "discovered_feeds": [],
       "discovered_sitemaps": [],
-      "status": "ok",
-      "failure_category": null,
-      "failure_reason": null,
-      "next_action": "已抓到有效条目，可继续优化相关性。",
+      "status": "partial",
+      "failure_category": "html_parse_no_items",
+      "failure_reason": "No usable HTML items found",
+      "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
       "included_in_frontend": false
     },
     {
@@ -2724,7 +2715,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 23,
-      "valid_items_count": 19,
+      "valid_items_count": 20,
       "discarded_count": 9,
       "discovered_feeds": [
         "https://supersport.com/feed",
@@ -2758,8 +2749,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 22,
-      "valid_items_count": 21,
-      "discarded_count": 2,
+      "valid_items_count": 23,
+      "discarded_count": 1,
       "discovered_feeds": [
         "https://www.abola.pt/rss-articles.xml",
         "https://www.abola.pt/feed",
