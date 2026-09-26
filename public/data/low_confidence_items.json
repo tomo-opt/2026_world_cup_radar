@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
+    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
   },
   {
     "item_id": "norm_2",
@@ -22,7 +22,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
+    "candidate_event_title_zh": "FIFA World Cup 2026 Scores & Fixtures",
     "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
@@ -49,7 +49,33 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstars quest"
+  },
+  {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
   },
   {
     "item_id": "norm_53",
@@ -61,7 +87,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
     "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
   },
   {
@@ -74,8 +100,21 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "世界杯",
+    "candidate_event_title_zh": "FIFA World Cup 2026",
     "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
+  },
+  {
+    "item_id": "norm_89",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Liver transplant anniversary inspired team talk - Southend boss Dyer",
+    "summary": "Southend United boss Kieron Dyer says the anniversary of his life-saving liver transplant inspired an \"emotional\" pre-match team talk.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm0e3jvn3rvyo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "肝移植周年纪念启发团队讲座- Southend BOSS Dyer",
+    "candidate_summary_zh": "Southend United boss Kieron Dyer says the anniversary of his life-saving liver transplant inspired an emotional pre-match team talk"
   },
   {
     "item_id": "norm_109",
@@ -102,6 +141,19 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
     "candidate_summary_zh": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach"
+  },
+  {
+    "item_id": "norm_138",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Thomas Tuchel warns Cole Palmer about ‘missing way too many’ England camps",
+    "summary": "Head coach said latest withdrawal is ‘missed opportunity’ England host Spain in Nations League on Saturday Thomas Tuchel has thrown Cole Palmer’s England future into major doubt by questioning whether the Chelsea attacker wants to be part of his squad. England’s head coach did not hold back on Palmer’s latest withdrawal from international duty, warning that the 24-year-old has missed too many opportunities to play for his country. Palmer has only 14 caps and his decision not to join up with the squad this week, because of a minor muscular injury, caused disappointment given he was left out of Tuchel’s World Cup squad after struggling with form and fitness last season. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/sep/25/thomas-tuchel-cole-palmer-england-spain-nations-league",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "托马斯·图切尔（Thomas Tuchel）警告科尔·帕尔默（Cole Palmer）关于“失踪太多",
+    "candidate_summary_zh": "Head coach said latest withdrawal is ‘missed opportunity’ England host Spain in Nations League on Saturday Thomas Tuchel has thrown Cole Palmer’s England future into major doubt by questioning whether the Chelsea attacker wants to be part of his squad"
   },
   {
     "item_id": "norm_164",
@@ -143,6 +195,19 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
+    "item_id": "norm_212",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "Real Madrid ofrece 150 mde por Julián Álvarez; Atlético lo rechaza",
+    "summary": "",
+    "url": "https://espndeportes.espn.com/futbol/espana/nota/_/id/16816131/real-madrid-julian-alvarez-oferta-150-millones-euros-atletico",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "皇家马德里出价1.5亿美元收购Julián Álvarez；马德里竞技拒绝接受",
+    "candidate_summary_zh": "皇家马德里出价1.5亿美元收购Julián Álvarez；马德里竞技拒绝接受"
+  },
+  {
     "item_id": "norm_251",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
@@ -156,32 +221,6 @@
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
   },
   {
-    "item_id": "norm_268",
-    "source_id": "media_as_futbol",
-    "source_name": "AS Fútbol",
-    "title": "El ojo que todo lo ve",
-    "summary": "",
-    "url": "https://as.com/futbol/el-ojo-que-todo-lo-ve-f202606-n/",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "全视之眼",
-    "candidate_summary_zh": "全视之眼"
-  },
-  {
-    "item_id": "norm_273",
-    "source_id": "media_as_futbol",
-    "source_name": "AS Fútbol",
-    "title": "Ferran Costa: “Lo del otro día fue mágico, pero los mejores momentos están por llegar”",
-    "summary": "",
-    "url": "https://as.com/futbol/primera-rfef/ferran-costa-lo-del-otro-dia-fue-magico-pero-los-mejores-momentos-estan-por-llegar-f202606-n/",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Ferran Costa：前几天很神奇，但最好的时刻还没有到来",
-    "candidate_summary_zh": "Ferran Costa：前几天很神奇，但最好的时刻还没有到来"
-  },
-  {
     "item_id": "norm_276",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
@@ -191,7 +230,7 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯-足球世界杯- AS.com",
+    "candidate_event_title_zh": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
     "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
   },
   {
@@ -205,59 +244,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Fútbol - Últimas noticias",
-    "candidate_summary_zh": "足球"
-  },
-  {
-    "item_id": "norm_306",
-    "source_id": "media_marca_futbol",
-    "source_name": "Marca Fútbol",
-    "title": "Funes calma la rivalidad con el Almería: \"Lo que haya que decir lo diremos con la pelota\"",
-    "summary": "El entrenador malaguista espera una eliminatoria abierta con el Almería como favorito",
-    "url": "https://www.marca.com/futbol/malaga/2026/06/12/funes-calma-rivalidad-almeria-tengamos-decir-diremos-pelota.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Funes平息了与Almería的竞争：我们要用球说些什么",
-    "candidate_summary_zh": "这位马拉吉斯塔教练希望与阿尔梅里亚保持开放关系，因为最受欢迎的马拉加教练希望与Indalic车队保持开放关系，因为最受欢迎的马拉加已经再次闻起来像一个重要的周末"
-  },
-  {
-    "item_id": "norm_307",
-    "source_id": "media_marca_futbol",
-    "source_name": "Marca Fútbol",
-    "title": "El Girona hace oficial la llegada de Oleksandr Pyshchur",
-    "summary": "El ariete ucraniano llega procedente del ETO FC húngaro y firma hasta el 2031",
-    "url": "https://www.marca.com/futbol/girona/2026/06/12/girona-oficial-llegada-oleksandr-pyshchur.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Girona正式宣布Oleksandr Pyshchur的到来",
-    "candidate_summary_zh": "乌克兰击球公羊从匈牙利ETO足球俱乐部到达，标志到2031年乌克兰击球公羊从匈牙利ETO足球俱乐部到达，标志到2031年赫罗纳正式宣布其2026/27学年第一张新面孔的到来，它将在第二学年再次参加比赛"
-  },
-  {
-    "item_id": "norm_310",
-    "source_id": "media_marca_futbol",
-    "source_name": "Marca Fútbol",
-    "title": "Navarro sobre la renovación de Alexis: \"La intención es llegar a un acuerdo\"",
-    "summary": "",
-    "url": "https://www.marca.com/futbol/sevilla/2026/06/12/navarro-sobre-renovacion-alexis-intencion-llegar-acuerdo.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Navarro谈Alexis的续约：意图是达成协议",
-    "candidate_summary_zh": "Navarro谈Alexis的续约：意图是达成协议"
-  },
-  {
-    "item_id": "norm_317",
-    "source_id": "media_marca_futbol",
-    "source_name": "Marca Fútbol",
-    "title": "Miguel Marí, llamado para los ascensos en tiempos modernos: ¡cuatro casi seguidos a 1ª RFEF!",
-    "summary": "",
-    "url": "https://www.marca.com/futbol/primera-rfef/2026/06/12/miguel-mari-llamado-ascensos-tiempos-modernos-cuatro-seguidos-1-rfef.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！",
-    "candidate_summary_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！"
+    "candidate_summary_zh": "Fútbol"
   },
   {
     "item_id": "norm_326",
@@ -270,59 +257,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Fútbol - Últimas noticias",
-    "candidate_summary_zh": "足球"
-  },
-  {
-    "item_id": "norm_331",
-    "source_id": "media_marca_futbol_noticias",
-    "source_name": "Marca Fútbol Noticias",
-    "title": "Funes calma la rivalidad con el Almería: \"Lo que haya que decir lo diremos con la pelota\"",
-    "summary": "El entrenador malaguista espera una eliminatoria abierta con el Almería como favorito",
-    "url": "https://www.marca.com/futbol/malaga/2026/06/12/funes-calma-rivalidad-almeria-tengamos-decir-diremos-pelota.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Funes平息了与Almería的竞争：我们要用球说些什么",
-    "candidate_summary_zh": "这位马拉吉斯塔教练希望与阿尔梅里亚保持开放关系，因为最受欢迎的马拉加教练希望与Indalic车队保持开放关系，因为最受欢迎的马拉加已经再次闻起来像一个重要的周末"
-  },
-  {
-    "item_id": "norm_332",
-    "source_id": "media_marca_futbol_noticias",
-    "source_name": "Marca Fútbol Noticias",
-    "title": "El Girona hace oficial la llegada de Oleksandr Pyshchur",
-    "summary": "El ariete ucraniano llega procedente del ETO FC húngaro y firma hasta el 2031",
-    "url": "https://www.marca.com/futbol/girona/2026/06/12/girona-oficial-llegada-oleksandr-pyshchur.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Girona正式宣布Oleksandr Pyshchur的到来",
-    "candidate_summary_zh": "乌克兰击球公羊从匈牙利ETO足球俱乐部到达，标志到2031年乌克兰击球公羊从匈牙利ETO足球俱乐部到达，标志到2031年赫罗纳正式宣布其2026/27学年第一张新面孔的到来，它将在第二学年再次参加比赛"
-  },
-  {
-    "item_id": "norm_335",
-    "source_id": "media_marca_futbol_noticias",
-    "source_name": "Marca Fútbol Noticias",
-    "title": "Navarro sobre la renovación de Alexis: \"La intención es llegar a un acuerdo\"",
-    "summary": "",
-    "url": "https://www.marca.com/futbol/sevilla/2026/06/12/navarro-sobre-renovacion-alexis-intencion-llegar-acuerdo.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Navarro谈Alexis的续约：意图是达成协议",
-    "candidate_summary_zh": "Navarro谈Alexis的续约：意图是达成协议"
-  },
-  {
-    "item_id": "norm_342",
-    "source_id": "media_marca_futbol_noticias",
-    "source_name": "Marca Fútbol Noticias",
-    "title": "Miguel Marí, llamado para los ascensos en tiempos modernos: ¡cuatro casi seguidos a 1ª RFEF!",
-    "summary": "",
-    "url": "https://www.marca.com/futbol/primera-rfef/2026/06/12/miguel-mari-llamado-ascensos-tiempos-modernos-cuatro-seguidos-1-rfef.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！",
-    "candidate_summary_zh": "Miguel Marí呼吁在现代进行晋升：几乎连续四次获得第一次RFEF！"
+    "candidate_summary_zh": "Fútbol"
   },
   {
     "item_id": "norm_351",
@@ -334,21 +269,8 @@
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "足球-新闻、市场、信息和流媒体视频",
+    "candidate_event_title_zh": "Foot - actualités, mercato, info & vidéo en continu",
     "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
-  },
-  {
-    "item_id": "norm_364",
-    "source_id": "media_lequipe_football",
-    "source_name": "L'Équipe Football",
-    "title": "Pierrot, l'attaquant qui voulait devenir agent du FBI",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/Article/Frantzdy-pierrot-l-attaquant-haitien-qui-envisage-de-devenir-agent-du-fbi-je-veux-participer-a-resoudre-des-problemes-plus-grands/1683584",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "想成为联邦调查局特工的Pierrot， Lattaquant",
-    "candidate_summary_zh": "想成为联邦调查局特工的Pierrot， Lattaquant"
   },
   {
     "item_id": "norm_376",
@@ -360,60 +282,8 @@
     "language": "fr",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯足球赛：新闻、赛程和结果",
-    "candidate_summary_zh": "关注有关足球世界杯的所有新闻"
-  },
-  {
-    "item_id": "norm_379",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Les États-Unis lancent leurs débuts dans la Coupe du monde contre le Paraguay, Folarin Balogun double buteur",
-    "summary": "Sans trembler, les États-Unis se sont facilement imposés face au Paraguay pour leurs débuts dans « leur » Coupe du monde, ce samedi à Los Angeles (4-1). L'attaquant monégasque Folarin Balogun s'est distingué avec un doublé.",
-    "url": "https://www.lequipe.fr/Football/Actualites/Les-etats-unis-lancent-idealement-leur-coupe-du-monde-contre-le-paraguay-folarin-balogun-double-buteur/1684403",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "美国首次亮相世界杯对阵巴拉圭， Folarin Balogun双射手",
-    "candidate_summary_zh": "在没有动摇的情况下，美国轻松赢得了本周六在洛杉矶举行的“他们的”世界杯上首次亮相的巴拉圭（4-1）"
-  },
-  {
-    "item_id": "norm_387",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Pierrot, l'attaquant qui voulait devenir agent du FBI",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/Article/Frantzdy-pierrot-l-attaquant-haitien-qui-envisage-de-devenir-agent-du-fbi-je-veux-participer-a-resoudre-des-problemes-plus-grands/1683584",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "想成为联邦调查局特工的Pierrot， Lattaquant",
-    "candidate_summary_zh": "想成为联邦调查局特工的Pierrot， Lattaquant"
-  },
-  {
-    "item_id": "norm_389",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Le guide des joueurs",
-    "summary": "",
-    "url": "https://www.lequipe.fr/special/extra/carte-des-joueurs/",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "玩家指南",
-    "candidate_summary_zh": "玩家指南"
-  },
-  {
-    "item_id": "norm_393",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Doué-Barcola, une place pour deux",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/Actualites/Un-duel-doue-barcola-pour-une-place-de-titulaire-avec-les-bleus-face-au-senegal-a-la-coupe-du-monde-2026/1684068",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Gifted-Barcola，适合双人入住的地方",
-    "candidate_summary_zh": "Gifted-Barcola，适合双人入住的地方"
+    "candidate_event_title_zh": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
+    "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
     "item_id": "norm_401",
@@ -439,7 +309,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Futebol | ge",
-    "candidate_summary_zh": "在ge.globo上关注足球新闻"
+    "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
     "item_id": "norm_413",
@@ -492,19 +362,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Mundial 2026",
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
-  },
-  {
-    "item_id": "norm_457",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "On this day, 15 years ago (Sep. 25, 2011), Jone Samuelsen scored a 58.13-meter world record headed goal",
-    "summary": "submitted by /u/MOinthepast [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1wptqiy/on_this_day_15_years_ago_sep_25_2011_jone/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "15年前的这一天（2011年9月25日），琼·萨缪尔森（Jone Samuelsen）打进了58.13米的世界纪录",
-    "candidate_summary_zh": "submitted by /u/MOinthepast [link] [comments]"
   },
   {
     "item_id": "norm_617",
