@@ -9,7 +9,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
     "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
-    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
+    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
     "item_id": "norm_3",
@@ -49,20 +49,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
-  },
-  {
-    "item_id": "norm_11",
-    "source_id": "media_espn_soccer",
-    "source_name": "ESPN Soccer",
-    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
-    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
-    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：通往1000个职业目标的道路",
-    "candidate_summary_zh": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstars quest"
+    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
   },
   {
     "item_id": "norm_27",
@@ -89,6 +76,19 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
     "candidate_summary_zh": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup"
+  },
+  {
+    "item_id": "norm_42",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
   },
   {
     "item_id": "norm_50",
@@ -127,10 +127,23 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "FIFA World Cup 2026",
-    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
+    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
   },
   {
-    "item_id": "norm_88",
+    "item_id": "norm_94",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Football Daily",
+    "summary": "John Murray & Ali Bruce-Ball are joined by Conor McNamara to chat commentator life.",
+    "url": "https://www.bbc.co.uk/sounds/play/m0032m7b?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "足球日报",
+    "candidate_summary_zh": "约翰·默里（John Murray）和阿里·布鲁斯-鲍尔（Ali Bruce-Ball）与康纳·麦克纳马拉（Con"
+  },
+  {
+    "item_id": "norm_104",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Peterborough appoint Forest Green boss Savage",
@@ -140,46 +153,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Peterborough任命Forest Green BOSS Savage",
-    "candidate_summary_zh": "Peterborough United appoint Forest Green Rovers boss Robbie Savage as Luke Williams successor"
-  },
-  {
-    "item_id": "norm_92",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Real submit 'substantial' dossier in Barca payments case",
-    "summary": "Real Madrid have sent Uefa \"evidence of extraordinary gravity\" relating to payments made by Barcelona to a former vice-president of Spain's referees' committee.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwddvdq3pzego?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在BARCA PAYMENTS个案中， REAL提交大量档案",
-    "candidate_summary_zh": "Real Madrid have sent Uefa evidence of extraordinary gravity relating to payments made by Barcelona to a former vice-president of Spains referees committee"
-  },
-  {
-    "item_id": "norm_99",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Swindon's Holloway labels himself dead man walking",
-    "summary": "Swindon manager Ian Holloway calls himself a \"dead man walking\" if the team's form does not turn around.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmn8e80ln99lo?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Swindons Holloway给自己贴上死人行走的标签",
-    "candidate_summary_zh": "斯温顿经理伊恩·霍洛威（Ian Holloway）称自己是一个死人，如果球队形式不转身的话"
-  },
-  {
-    "item_id": "norm_107",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Start Gannon-Doak and Bowie, but not McGinn? Key Scotland questions",
-    "summary": "Scotland head coach Sebastien Pocognoli has decisions to make as he searches for his first win in North Macedonia on Saturday.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6x2ze5zm93go?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "开始Gannon-Doak和Bowie，但不是McGinn？苏格兰的关键问题",
-    "candidate_summary_zh": "Scotland head coach Sebastien Pocognoli has decisions to make as he searches for his first win in North Macedonia on Saturday"
+    "candidate_summary_zh": "彼得堡联队任命Forest Green Rovers老板Robbie Savage为Luke Williams的继任者"
   },
   {
     "item_id": "norm_109",
@@ -191,24 +165,37 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
+    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
   },
   {
-    "item_id": "norm_132",
+    "item_id": "norm_113",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
+    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
   },
   {
-    "item_id": "norm_135",
+    "item_id": "norm_120",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
+    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
+  },
+  {
+    "item_id": "norm_140",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
     "title": "Robbie Savage steps up to take Peterborough job: ‘All I want is a chance’",
@@ -218,20 +205,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "罗比·萨维奇（Robbie Savage）站出来接受彼得堡的工作： “我只想要一个机会”",
-    "candidate_summary_zh": "萨维奇离开Forest Green担任联赛一号角色“Excitement is the word I can use”，麦克安东尼·罗比·萨维奇（MacAnthony Robbie Savage）已被确认为联赛一号挣扎者的新经理彼得伯勒（Peterborough）"
-  },
-  {
-    "item_id": "norm_146",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Sign up for the Moving the Goalposts newsletter: our free women’s football email",
-    "summary": "Get our roundup of women’s football for free twice a week, featuring the insights of experts such as Ada Hegerberg and Magdalena Eriksson Join us as we delve deeper into the wonderful world of women’s football in our weekly newsletter. It is informative, entertaining, global, critical – when needed – and, above all, passionate. Written mainly by Júlia Belas Trindade and Sophie Downey, expect guest appearances from stars such as Anita Asante, Ada Hegerberg and many more. Try our other sports emails: as well as the occasionally funny football email The Fiver from Monday to Friday, there are weekly catch-ups for cricket in The Spin and rugby union in The Breakdown, and our seven-day roundup of the best of our sports journalism in The Recap. Living in Australia? Try the Guardian Australia’s daily sports newsletter Continue reading...",
-    "url": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "订阅Moving the Goalposts时事通讯：我们的免费女子足球电子邮件",
-    "candidate_summary_zh": "Get our roundup of women’s football for free twice a week, featuring the insights of experts such as Ada Hegerberg and Magdalena Eriksson Join us as we delve deeper into the wonderful world of women’s football in our weekly newsletter"
+    "candidate_summary_zh": "Savage leaves Forest Green to take League One role ‘Excitement is the word I can use,’ say MacAnthony Robbie Savage has been confirmed as the new manager of League One strugglers Peterborough"
   },
   {
     "item_id": "norm_163",
@@ -247,19 +221,6 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_186",
-    "source_id": "media_sky_sports_football",
-    "source_name": "Sky Sports Football",
-    "title": "Sinfield knighted as Donald, Scarratt, Murphy made OBEs",
-    "summary": "",
-    "url": "https://www.skysports.com/rugby-league/news/12196/13553285/kevin-sinfield-leeds-rhinos-great-knighted-in-kings-birthday-honours-as-luke-donald-emily-scarratt-shaun-murphy-made-obes",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "辛菲尔德（Sinfield）被封为唐纳德（Donald）、斯卡拉特（Scarratt）、墨菲（Murph",
-    "candidate_summary_zh": "辛菲尔德（Sinfield）被封为唐纳德（Donald）、斯卡拉特（Scarratt）、墨菲（Murph"
-  },
-  {
     "item_id": "norm_188",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
@@ -271,19 +232,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
-  },
-  {
-    "item_id": "norm_191",
-    "source_id": "media_sky_sports_football_news",
-    "source_name": "Sky Sports Football News Page",
-    "title": "Kevin Sinfield: Leeds Rhinos great knighted in King's Birthday Honours as Luke Donald, Emily Scarratt, Shaun Murphy made OBEs",
-    "summary": "Kevin Sinfield awarded knighthood for services to rugby and the MND community; Sinfield will run an ultra marathon every day for seven days between September 28 and Super League Grand Final on October 3; Golfs Luke Donald, rugbys Emily Scarratt, snookers Shaun Murphy made OBEs",
-    "url": "https://www.skysports.com/rugby-league/news/12196/13553285/kevin-sinfield-leeds-rhinos-great-knighted-in-kings-birthday-honours-as-luke-donald-emily-scarratt-shaun-murphy-made-obes",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "凯文·辛菲尔德（Kevin Sinfield）：利兹犀牛在国王生日荣誉中的伟大骑士，卢克·唐纳德（Luke Donald）、艾米丽·斯卡拉特（Emily Scarratt）、肖恩·墨菲（Sha",
-    "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
     "item_id": "norm_203",
@@ -310,19 +258,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Fútbol en AS.com - AS.com",
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
-  },
-  {
-    "item_id": "norm_261",
-    "source_id": "media_as_futbol",
-    "source_name": "AS Fútbol",
-    "title": "‘The Objective’: la RFEF de Rubiales ocultó que Hacienda investigaba a Negreira",
-    "summary": "",
-    "url": "https://as.com/futbol/primera/la-rfef-de-rubiales-oculto-que-hacienda-investigaba-a-negreira-f202606-n/",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "“目标”： Rubiales的RFEF隐瞒了财政部正在调查Negreira",
-    "candidate_summary_zh": "“目标”： Rubiales的RFEF隐瞒了财政部正在调查Negreira"
   },
   {
     "item_id": "norm_275",
@@ -738,7 +673,20 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football Home - SuperSport",
-    "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
+    "candidate_summary_zh": "SuperSport的最新足球新闻、比分和更新"
+  },
+  {
+    "item_id": "norm_887",
+    "source_id": "media_supersport_football",
+    "source_name": "SuperSport Football",
+    "title": "Africa Cup of Nations",
+    "summary": "",
+    "url": "https://supersport.com/football/tour/7cd3e304-f089-436f-85e0-135114525b9e",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "非洲国家杯",
+    "candidate_summary_zh": "非洲国家杯"
   },
   {
     "item_id": "norm_897",
@@ -751,7 +699,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football Home - SuperSport",
-    "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
+    "candidate_summary_zh": "SuperSport的最新足球新闻、比分和更新"
   },
   {
     "item_id": "norm_898",
@@ -776,7 +724,7 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
+    "candidate_event_title_zh": "关于足球的第2页-新闻、转会和现场结果| The Ball",
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   }
 ]
