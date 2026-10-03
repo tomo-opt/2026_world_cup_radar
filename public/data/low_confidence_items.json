@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
+    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
     "item_id": "norm_2",
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
-    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
+    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
     "item_id": "norm_3",
@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -48,8 +48,47 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
+    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
     "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
+  },
+  {
+    "item_id": "norm_27",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
+    "summary": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
+    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+  },
+  {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
   },
   {
     "item_id": "norm_42",
@@ -65,6 +104,19 @@
     "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
   },
   {
+    "item_id": "norm_50",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
+    "summary": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
+    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+  },
+  {
     "item_id": "norm_53",
     "source_id": "media_espn_rss_info",
     "source_name": "ESPN Soccer RSS Feeds Info Page",
@@ -74,7 +126,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
     "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
   },
   {
@@ -87,8 +139,60 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_event_title_zh": "世界杯",
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
+  },
+  {
+    "item_id": "norm_71",
+    "source_id": "media_bbc_sport_football_worldcup",
+    "source_name": "BBC Sport Football Worldcup Page",
+    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
+    "summary": "",
+    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
+    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
+  },
+  {
+    "item_id": "norm_82",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Desmond targeted by Celtic fan protest at Alfred Dunhill",
+    "summary": "Celtic's largest shareholder Dermot Desmond is targeted in a protest at the Alfred Dunhill Links golf tournament in St Andrews as tennis balls were thrown towards him.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c60qke217knjo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "戴斯蒙德成为凯尔特人球迷抗议Alfred Dunhill的目标",
+    "candidate_summary_zh": "Celtics largest shareholder Dermot Desmond is targeted in a protest at the Alfred Dunhill Links golf tournament in St Andrews as tennis balls were thrown towards him"
+  },
+  {
+    "item_id": "norm_91",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Learning from Arteta and inspiring youngsters - Wilshere on management",
+    "summary": "Luton Town manager Jack Wilshere speaks about being back where he started as an eight-year-old and the lessons he learned from his time at Arsenal.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c65y51nvn24wo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "向Arteta学习并激励年轻人- Wilshere的管理",
+    "candidate_summary_zh": "卢顿镇经理杰克·威尔希尔（Jack Wilshere）讲述了他回到8岁时开始的地方，以及他在阿森纳期间学到的经验教训"
+  },
+  {
+    "item_id": "norm_98",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Arteta helped me understand the game - Wilshere",
+    "summary": "Luton Town manager Jack Wilshere shares his love for coaching and explains how Arsenal boss Mikel Arteta influnced his style.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cq20v0p5xp8eo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Arteta帮助我理解了游戏- Wilshere",
+    "candidate_summary_zh": "卢顿城经理杰克·威尔希尔（Jack Wilshere）分享了他对教练的热爱，并解释了阿森纳老板米克尔·阿尔特塔（Mikel Arteta）如何"
   },
   {
     "item_id": "norm_109",
@@ -102,6 +206,32 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
     "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+  },
+  {
+    "item_id": "norm_116",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
+    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
+    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
+    "candidate_summary_zh": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach"
+  },
+  {
+    "item_id": "norm_120",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
+    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
   },
   {
     "item_id": "norm_163",
@@ -282,34 +412,8 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯",
+    "candidate_event_title_zh": "Mundial 2026",
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
-  },
-  {
-    "item_id": "norm_434",
-    "source_id": "media_ole_argentina_mundial 2026",
-    "source_name": "Olé Argentina Mundial 2026 Page",
-    "title": "Las sensaciones de Dibu Martínez: del \"está todo bien\" al dolor que sintió en la práctica",
-    "summary": "En la práctica abierta, el arquero de la Selección levantó el pulgar hacia el sector de las cámaras y dejó un mensaje optimista.",
-    "url": "https://www.ole.com.ar/seleccion/dibumartinez-seleccionargentina-lesion-recuperacion_0_n7m3aEhhQx.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "迪布·马丁内斯（Dibu Martínez）的感觉：他在实践中感受到的痛苦一切都很好",
-    "candidate_summary_zh": "在公开练习中，国家队守门员竖起大拇指向相机领域，并留下了乐观的信息"
-  },
-  {
-    "item_id": "norm_442",
-    "source_id": "media_ole_argentina_mundial 2026",
-    "source_name": "Olé Argentina Mundial 2026 Page",
-    "title": "La opinión del Turco Mohamed: el buen debut de México y su camino posible hasta cuartos de final",
-    "summary": "El entrenador argentino que no para de ganar títulos en Toluca, analizó el debut del Tri y lo que viene.",
-    "url": "https://www.ole.com.ar/mundial/mundial-2026/opinion-turco-mohamed-mexico-debut-mundial-camino-cuartos-final_0_Bd0IrrscUp.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Turco Mohamed的意见：墨西哥的首次亮相及其进入四分之一决赛的可能途径",
-    "candidate_summary_zh": "El entrenador argentino que no para de ganar títulos en Toluca, analizó el debut del Tri y lo que viene"
   },
   {
     "item_id": "norm_443",
@@ -321,206 +425,11 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯",
+    "candidate_event_title_zh": "Mundial 2026",
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_447",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "[Athletic] City placed the disclosed documents on a server where the club could track which individuals accessed the information, and which did not allow text to be copied and pasted. This slowed down the Premier League’s investigation significantly",
-    "summary": "submitted by /u/ShatPumba [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1wwhegy/athletic_city_placed_the_disclosed_documents_on_a/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "[Athletic] City将披露的文件放在服务器上，俱乐部可以跟踪哪些人访问了信息，哪些人不允许复制和粘贴文本。这大大减缓了英超联赛的调查",
-    "candidate_summary_zh": "提交者/u/ShatPumba [link] [comments]"
-  },
-  {
-    "item_id": "norm_453",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Sean Dyche on football fans: “The marvel is fans have a better understanding. The madness is fans now presume they know everything.” “My mates do it all the time — I just tell them to shut up. My mate is a plasterer, how does he think he knows more than me? Actually; he believes he does.”",
-    "summary": "“Eddie Howe got overlooked for the England job. If you want to change it, that was a pretty simple fit,” Dyche says. “You’ve got to earn the right, haven’t you? You’ve got to earn the right and you’ve got to be on brand.” On brand? “Well, you’ve got to play the right way, they say. OK, well, I think we would have all taken us winning the World Cup the wrong way.” Like going long against Argentina? “Well yeah, when we needed to do that, we didn’t do it anyway,” Dyche says. “You could easily have said, ‘Just turn them in behind and just back off the pressure’ and we didn’t do it.” “These things are all massively debated now in the game and that’s the challenge for the modern manager. What do you stand for? What does the FA want to project in the team? There was a time in all of our lives when winning was the key thing. I’m not sure it is now. How can winning not be the key thing in a game you need to win?” Dyche believes the focus now on how stems from the amount of data and analysis available to everyone. “The marvel is fans have a better understanding. The madness is fans now presume they know everything,” Dyche says. “They used to just debate a result and say the odd player didn’t play well. Now it’s a tactical debate. My mates do it all the time — I just tell them to shut up. My mate is a plasterer, how does he think he knows more than me? He doesn’t just think he does, actually; he believes he does.” submitted by /u/Sparky-moon [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1wwkaer/sean_dyche_on_football_fans_the_marvel_is_fans/",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Sean Dyche谈足球迷：奇迹是球迷们有了更好的理解。疯狂之处在于粉丝们现在认为他们什么都知道。我的朋友们一直都这么做--我只是告诉他们闭嘴。我的伴侣是一个泥水匠，他怎么会认为他知道的比我多？实际上，他相信他做到了",
-    "candidate_summary_zh": "埃迪·豪（Eddie Howe）在英格兰的工作中被忽视了"
-  },
-  {
-    "item_id": "norm_460",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Mason Greenwood (Fenerbahçe) red card against Turan Tovuz 32’",
-    "summary": "submitted by /u/CautiousCottager [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1wwrzq3/mason_greenwood_fenerbah%C3%A7e_red_card_against_turan/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mason Greenwood （Fenerbahçe）红牌对阵Turan Tovuz 32 ’",
-    "candidate_summary_zh": "提交者/u/CautiousCottager [link] [comments]"
-  },
-  {
-    "item_id": "norm_463",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Edin Dzeko is given a guard of honour as he is substituted off for the final time for Bosnia & Herzegovina.",
-    "summary": "submitted by /u/OptimusCloyster [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1ww3zmw/edin_dzeko_is_given_a_guard_of_honour_as_he_is/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Edin Dzeko在波斯尼亚和黑塞哥维那最后一次被替换时获得了荣誉后卫",
-    "candidate_summary_zh": "提交者/u/OptimusCloyster [link] [comments]"
-  },
-  {
-    "item_id": "norm_464",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Rasmus Højlund denied a quote posted by Globe Soccer, claiming his celebration against Portugal was to back Cristiano Ronaldo.",
-    "summary": "submitted by /u/zacaa09 [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1wwbepd/rasmus_h%C3%B8jlund_denied_a_quote_posted_by_globe/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Rasmus Højlund否认了Globe Soccer发布的一句话，声称他对葡萄牙的庆祝活动是为了支持克里斯蒂亚诺·罗纳尔多",
-    "candidate_summary_zh": "提交者/u/zacaa09 [link] [comments]"
-  },
-  {
-    "item_id": "norm_465",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "[Falsche9] Chemie Leipzig of the semi-professional Regional League Northeast has overtaken RB Leipzig in the away attendance table. The German team backed by the energy drink Red Bull drops to 48th in the German rankings, averaging less than 800 away fans in the Bundesliga!",
-    "summary": "submitted by /u/stoneapplefruit [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1wwlgtg/falsche9_chemie_leipzig_of_the_semiprofessional/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "[Falsche9]半职业东北地区联赛的Chemie Leipzig在客场出勤表中超过了RB Leipzig。由能量饮料红牛支持的德国队在德国排名中跌至第48位，德甲平均不到800名客场球迷！",
-    "candidate_summary_zh": "提交者/u/stoneapplefruit [link] [comments]"
-  },
-  {
-    "item_id": "norm_467",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Baris Alper Yilmaz Fallon d’Floor nomination vs Belgium",
-    "summary": "submitted by /u/yusssss- [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1wwh2y4/baris_alper_yilmaz_fallon_dfloor_nomination_vs/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Baris Alper Yilmaz Fallon d 'Floor提名对比利时",
-    "candidate_summary_zh": "提交者/u/yusssss- [link] [comments]"
-  },
-  {
-    "item_id": "norm_477",
-    "source_id": "forum_reddit_football",
-    "source_name": "Reddit r/football",
-    "title": "I have a question why are football matches not discussed anywhere? For example yesterday sociedad betis game, i could not find any live thread in any subreddit at all.",
-    "summary": "Maybe I am overlookjng something submitted by /u/ThinkIntroduction430 [link] [comments]",
-    "url": "https://www.reddit.com/r/football/comments/1vv4lpe/i_have_a_question_why_are_football_matches_not/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "我有一个问题，为什么在任何地方都没有讨论足球比赛？例如，昨天在sociedad betis游戏中，我在任何subreddit中都找不到任何实时主题",
-    "candidate_summary_zh": "也许我忽略了/u/ThinkIntroduction430提交的内容[link] [comments]"
-  },
-  {
-    "item_id": "norm_494",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Tyler Adams has officially been named as the new captain of the #USMNT by Mauricio Pochettino. 🇺🇸©️",
-    "summary": "submitted by /u/limitlesshamster [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1ww75k4/tyler_adams_has_officially_been_named_as_the_new/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Tyler Adams正式被Mauricio Pochettino任命为# USMNT的新队长。🇺🇸©️",
-    "candidate_summary_zh": "submitted by /u/limitlesshamster [link] [comments]"
-  },
-  {
-    "item_id": "norm_495",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Since Mauricio Pochettino took over, the USMNT have faced six CONMEBOL teams in seven matches. They’ve won six of those and drawn one, scoring 23 goals and conceding eight. Great record so far.",
-    "summary": "submitted by /u/antoniok95 [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1wvwzzh/since_mauricio_pochettino_took_over_the_usmnt/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "自毛里西奥·波切蒂诺（Mauricio Pochettino）接任以来， USMNT已经在七场比赛中面对六支CONMEBOL球队。他们赢得了其中的六场比赛，并取得了一场比赛，打入了23个进球，并承认了8个进球。迄今为止的良好记录",
-    "candidate_summary_zh": "submitted by /u/antoniok95 [link] [comments]"
-  },
-  {
-    "item_id": "norm_499",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Rebecca Lowe to present Netflix’s Women’s World Cup coverage as lead host",
-    "summary": "submitted by /u/Ok-Soil-5133 [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1wv5i6r/rebecca_lowe_to_present_netflixs_womens_world_cup/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Rebecca Lowe将作为首席主持人介绍Netflix的女足世界杯报道",
-    "candidate_summary_zh": "提交者/u/Ok-Soil-5133 [link] [comments]"
-  },
-  {
-    "item_id": "norm_507",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Watched the game back",
-    "summary": "Honestly thought Dest had a (very) bad game against Chile after my first watch. Many people in this subreddit shared that opinion, however I checked the game back and come to the conclusion he just had an average performance. Definitely had his good moments aswell (the assist among others). He’s known to be really good against Mexico so I hope to see a banger performance from Serge against them✌️ submitted by /u/Key-Entertainer-5080 [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1wvcyrx/watched_the_game_back/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "回头看了比赛",
-    "candidate_summary_zh": "Honestly thought Dest had a (very) bad game against Chile after my first watch"
-  },
-  {
-    "item_id": "norm_508",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Off the Ball - human interest piece on Neil Pierre and Philly teammates",
-    "summary": "submitted by /u/ProfessorPlum168 [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1wvb0am/off_the_ball_human_interest_piece_on_neil_pierre/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "舞会场外- Neil Pierre和费城队友的人类兴趣作品",
-    "candidate_summary_zh": "提交者/u/ProfessorPlum168 [link] [comments]"
-  },
-  {
-    "item_id": "norm_514",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Philadelphia Union's Cavan Sullivan named MLS Player of the Month, becoming the youngest player to ever win the award by more than three years",
-    "summary": "submitted by /u/Pickleskennedy1 [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1wu5szt/philadelphia_unions_cavan_sullivan_named_mls/",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "费城工会卡文·沙利文（Cavan Sullivan）被评为MLS本月最佳球员，成为有史以来最年轻的赢得该奖项三年多的球员",
-    "candidate_summary_zh": "submitted by /u/Pickleskennedy1 [link] [comments]"
-  },
-  {
-    "item_id": "norm_516",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Emma Hayes on October Roster: ‘I Want to Prioritize the Development of Players’",
-    "summary": "submitted by /u/speedreeder [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1wujxyf/emma_hayes_on_october_roster_i_want_to_prioritize/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "艾玛·海耶斯（Emma Hayes）在10月名册上： “我想优先考虑球员的发展”",
-    "candidate_summary_zh": "submitted by /u/speedreeder [link] [comments]"
-  },
-  {
-    "item_id": "norm_615",
+    "item_id": "norm_614",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -533,7 +442,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_640",
+    "item_id": "norm_639",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -546,7 +455,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_665",
+    "item_id": "norm_664",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -559,7 +468,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_678",
+    "item_id": "norm_677",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -572,7 +481,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_689",
+    "item_id": "norm_688",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -585,7 +494,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_691",
+    "item_id": "norm_690",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -598,7 +507,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_692",
+    "item_id": "norm_691",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -611,7 +520,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_692",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -624,7 +533,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_694",
+    "item_id": "norm_693",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -637,7 +546,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_694",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -650,7 +559,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_696",
+    "item_id": "norm_695",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -663,7 +572,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_721",
+    "item_id": "norm_720",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -676,7 +585,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_732",
+    "item_id": "norm_731",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -689,7 +598,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_734",
+    "item_id": "norm_733",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -702,7 +611,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_748",
+    "item_id": "norm_747",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -715,7 +624,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_749",
+    "item_id": "norm_748",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -728,7 +637,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_774",
+    "item_id": "norm_773",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -741,7 +650,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_799",
+    "item_id": "norm_798",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -754,7 +663,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_824",
+    "item_id": "norm_823",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -767,7 +676,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_849",
+    "item_id": "norm_848",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -780,7 +689,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_874",
+    "item_id": "norm_873",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -793,7 +702,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_896",
+    "item_id": "norm_895",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -806,7 +715,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_897",
+    "item_id": "norm_896",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -819,7 +728,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_911",
+    "item_id": "norm_910",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
