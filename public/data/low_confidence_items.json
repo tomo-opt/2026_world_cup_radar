@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
+    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
     "item_id": "norm_2",
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
-    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
+    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
     "item_id": "norm_3",
@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -48,8 +48,73 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
-    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
+    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
+    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
+  },
+  {
+    "item_id": "norm_27",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
+    "summary": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
+    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+  },
+  {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
+  },
+  {
+    "item_id": "norm_42",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
+  },
+  {
+    "item_id": "norm_50",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
+    "summary": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
+    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
   },
   {
     "item_id": "norm_53",
@@ -61,8 +126,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
     "item_id": "norm_54",
@@ -74,8 +139,47 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_event_title_zh": "世界杯",
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
+  },
+  {
+    "item_id": "norm_71",
+    "source_id": "media_bbc_sport_football_worldcup",
+    "source_name": "BBC Sport Football Worldcup Page",
+    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
+    "summary": "",
+    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
+    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
+  },
+  {
+    "item_id": "norm_94",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Cardiff's Bielik banned over Portsmouth incident",
+    "summary": "The Football Association bans Cardiff City defender Krystian Bielik for two games and fines him £10,000 after he admitted a case of misconduct involving a Portsmouth fan.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cw99zr4edjrzo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Cardiffs Bielik因朴次茅斯事件被禁",
+    "candidate_summary_zh": "The Football Association bans Cardiff City defender Krystian Bielik for two games and fines him £10,000 after he admitted a case of misconduct involving a Portsmouth fan"
+  },
+  {
+    "item_id": "norm_95",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Humble Gilmour happy with new role as 50th cap beckons",
+    "summary": "Billy Gilmour is excited by the prospect of earning a 50th Scotland cap after a key role in Sebastien Pocognoli's first win as national head coach.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmly05el6gz2o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Humble Gilmour对第50帽召唤的新角色感到高兴",
+    "candidate_summary_zh": "Billy Gilmour is excited by the prospect of earning a 50th Scotland cap after a key role in Sebastien Pocognolis first win as national head coach"
   },
   {
     "item_id": "norm_109",
@@ -88,10 +192,49 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
   },
   {
-    "item_id": "norm_162",
+    "item_id": "norm_113",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
+  },
+  {
+    "item_id": "norm_132",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
+    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
+  },
+  {
+    "item_id": "norm_138",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Union Berlin’s Marie-Louise Eta: ‘I wanted to impress through my work, not because I am a woman’",
+    "summary": "The 35-year-old reflects on a momentous year after making history as the first woman to take charge of a men’s team in one of Europe’s top five leagues In April Marie-Louise Eta became the first woman to lead a men’s top-flight team in one of Europe’s big five leagues, stepping in as interim head coach of Union Berlin following the dismissal of Steffen Baumgart. Her job was to keep Union in the Bundesliga and she did just that with two wins, a draw and two losses in her five games. They finished 11th. It was not the first time the trailblazer had made history. Three years earlier she had become the first woman to serve as an assistant coach in the men’s Bundesliga and in 2024 she led the Union men’s team in one game. The Bayern Munich manager, Vincent Kompany, described her appointment as something that could open doors for younger women who want to become coaches. This is an extract from our free email about women’s football, Moving the Goalposts. To get the full edition, visit this page and follow the instructions. Moving the Goalposts is delivered to your inboxes every Tuesday and Thursday. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/06/union-berlin-marie-louise-eta-coach-bundesliga-history-maker",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "柏林联合大学的Marie-Louise Eta： “我想通过我的工作给人留下深刻印象，而不是因为我是一名女性”",
+    "candidate_summary_zh": "The 35-year-old reflects on a momentous year after making history as the first woman to take charge of a men’s team in one of Europe’s top five leagues In April Marie-Louise Eta became the first woman to lead a men’s top-flight team in one of Europe’s big five leagues, stepping in as interim head coach of Union Berlin following the dismissal of Steffen Baumgart"
+  },
+  {
+    "item_id": "norm_164",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
     "title": "Football Games, Results, Scores, Transfers, News | Sky Sports",
@@ -104,7 +247,7 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_187",
+    "item_id": "norm_189",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -117,7 +260,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_202",
+    "item_id": "norm_204",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -130,7 +273,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_249",
+    "item_id": "norm_251",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
     "title": "Fútbol en AS.com - AS.com",
@@ -143,7 +286,7 @@
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
   },
   {
-    "item_id": "norm_274",
+    "item_id": "norm_276",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
     "title": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
@@ -156,7 +299,7 @@
     "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
   },
   {
-    "item_id": "norm_299",
+    "item_id": "norm_301",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
     "title": "Fútbol - Últimas noticias",
@@ -169,7 +312,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_324",
+    "item_id": "norm_326",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
     "title": "Fútbol - Últimas noticias",
@@ -182,7 +325,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_349",
+    "item_id": "norm_351",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
     "title": "Foot - actualités, mercato, info & vidéo en continu",
@@ -195,7 +338,7 @@
     "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
   },
   {
-    "item_id": "norm_374",
+    "item_id": "norm_376",
     "source_id": "media_lequipe_football_coupedumonde",
     "source_name": "L'Équipe Football Coupe du Monde",
     "title": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
@@ -208,111 +351,7 @@
     "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
-    "item_id": "norm_377",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Les États-Unis lancent leurs débuts dans la Coupe du monde contre le Paraguay, Folarin Balogun double buteur",
-    "summary": "Sans trembler, les États-Unis se sont facilement imposés face au Paraguay pour leurs débuts dans « leur » Coupe du monde, ce samedi à Los Angeles (4-1). L'attaquant monégasque Folarin Balogun s'est distingué avec un doublé.",
-    "url": "https://www.lequipe.fr/Football/Actualites/Les-etats-unis-lancent-idealement-leur-coupe-du-monde-contre-le-paraguay-folarin-balogun-double-buteur/1684403",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "美国首次亮相世界杯对阵巴拉圭， Folarin Balogun双射手",
-    "candidate_summary_zh": "Sans trembler, les États-Unis se sont facilement imposés face au Paraguay pour leurs débuts dans « leur » Coupe du monde, ce samedi à Los Angeles (4-1)"
-  },
-  {
-    "item_id": "norm_381",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Faut-il s'inquiéter pour William Saliba, encore préservé à l'entraînement avec les Bleus vendredi ?",
-    "summary": "De nouveau préservé vendredi en raison de sa gêne au dos, William Saliba poursuit ses soins et son protocole de reprise. À quatre jours du premier match des Bleus à la Coupe du monde 2026, face au Sénégal, le cas du défenseur n'inquiète pas. Mais...",
-    "url": "https://www.lequipe.fr/Football/Actualites/Faut-il-s-inquieter-pour-william-saliba-encore-preserve-a-l-entrainement-avec-les-bleus-vendredi/1684382",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "我们是否应该将威廉·萨利巴（William Saliba）中国化？萨利巴在周五与蓝军一起训练期间仍然被保留",
-    "candidate_summary_zh": "威廉·萨利巴（William Saliba）因背部不适而于周五再次保存，他继续他的护理和康复方案"
-  },
-  {
-    "item_id": "norm_386",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Le guide des équipes",
-    "summary": "",
-    "url": "https://www.lequipe.fr/collection/guide-cdm-2026/",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "团队指南",
-    "candidate_summary_zh": "团队指南"
-  },
-  {
-    "item_id": "norm_387",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Le guide des joueurs",
-    "summary": "",
-    "url": "https://www.lequipe.fr/special/extra/carte-des-joueurs/",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "玩家指南",
-    "candidate_summary_zh": "玩家指南"
-  },
-  {
-    "item_id": "norm_391",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Doué-Barcola, une place pour deux",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/Actualites/Un-duel-doue-barcola-pour-une-place-de-titulaire-avec-les-bleus-face-au-senegal-a-la-coupe-du-monde-2026/1684068",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Gifted-Barcola，适合双人入住的地方",
-    "candidate_summary_zh": "Gifted-Barcola，适合双人入住的地方"
-  },
-  {
-    "item_id": "norm_392",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "FranceSénégalmar. 21h00beIN Sports 1, M6",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/match-direct/coupe-du-monde/2026/france-senegal-preview/686951",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "FranceSenegalmar. 21:00 beIN体育1, M6",
-    "candidate_summary_zh": "FranceSenegalmar. 21:00 beIN体育1, M6"
-  },
-  {
-    "item_id": "norm_394",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Mbappé : «Deschamps avec l'Italie ? Non, ce serait moche»",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/Actualites/Kylian-mbappe-ne-veut-pas-voir-didier-deschamps-entrainer-une-autre-selection-qu-ils-prennent-un-italien-l-italie/1684071",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Mbappé： “Deschamps与意大利？不，那会很丑。”",
-    "candidate_summary_zh": "Mbappé： “Deschamps与意大利？不，那会很丑。”"
-  },
-  {
-    "item_id": "norm_397",
-    "source_id": "media_lequipe_football_coupedumonde",
-    "source_name": "L'Équipe Football Coupe du Monde",
-    "title": "Rabiot et Saliba ménagés lors du premier entraînement à Boston",
-    "summary": "",
-    "url": "https://www.lequipe.fr/Football/Actualites/Rabiot-et-saliba-a-l-ecart-du-premier-entrainement-de-l-equipe-de-france-a-boston/1684070",
-    "language": "fr",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Rabiot和Saliba在波士顿的第一次训练中幸免于难",
-    "candidate_summary_zh": "Rabiot和Saliba在波士顿的第一次训练中幸免于难"
-  },
-  {
-    "item_id": "norm_399",
+    "item_id": "norm_401",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -321,37 +360,11 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "足球| ge",
+    "candidate_event_title_zh": "Futebol | ge",
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_401",
-    "source_id": "media_globo_esporte_futebol",
-    "source_name": "Globo Esporte Futebol",
-    "title": "Nem Vini Jr., nem Neymar: trio da Seleção esgota camisas na loja oficial; veja os nomes | Ge",
-    "summary": "Versões com os nomes de Alexsandro, Rayan e Douglas Santos aparecem indisponíveis para compra no site da fornecedora de material esportivo da Seleção Brasileira",
-    "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/13/nem-vini-jr-nem-neymar-trio-da-selecao-esgota-camisas-na-loja-oficial-veja-os-nomes.ghtml",
-    "language": "pt",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Vini Jr.和Neymar都没有： Seleção TRIO在官方商店出售衬衫；请参阅名称| Ge",
-    "candidate_summary_zh": "巴西国家队体育器材供应商的网站上似乎无法购买Alexsandro、Rayan和Douglas Santos的版本。作者： João Vitor dos Santos —里约热内卢06/13/2026 02:13 AM更新日期： 06/13/2026 Ancelotti课程：教练在新闻发布会上用五种语言回答问题。目前最难找到的巴西国家队的衬衫不是Vini Jr的衬衫"
-  },
-  {
-    "item_id": "norm_404",
-    "source_id": "media_globo_esporte_futebol",
-    "source_name": "Globo Esporte Futebol",
-    "title": "Oswin Appollis: o atacante da África do Sul com apelido de emergência | Ge",
-    "summary": "Oswin Appollis supera a infância difícil e o preconceito com sua altura para ser a arma de velocidade da África do Sul na estreia da Copa do Mundo.",
-    "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/13/por-que-um-atacante-da-africa-do-sul-tem-apelido-de-telefone-de-emergencia-da-policia.ghtml",
-    "language": "pt",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "奥斯温·阿波利斯（Oswin Appollis）：南非前锋，有紧急绰号| Ge",
-    "candidate_summary_zh": "奥斯温·阿波利斯克服了困难的童年和偏见，身高在世界杯首映式上成为南非的速度枪"
-  },
-  {
-    "item_id": "norm_410",
+    "item_id": "norm_412",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -360,11 +373,11 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "足球| ge",
-    "candidate_summary_zh": "在ge.globo上关注足球新闻"
+    "candidate_event_title_zh": "Futebol | ge",
+    "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
-    "item_id": "norm_411",
+    "item_id": "norm_413",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -373,37 +386,11 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯的表格和比赛| ge",
+    "candidate_event_title_zh": "Tabela e jogos da Copa do Mundo 2026 | ge",
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_413",
-    "source_id": "media_globo_esporte_copadomundo",
-    "source_name": "Globo Esporte Futebol Copa do Mundo",
-    "title": "Nem Vini Jr., nem Neymar: trio da Seleção esgota camisas na loja oficial; veja os nomes | Ge",
-    "summary": "Versões com os nomes de Alexsandro, Rayan e Douglas Santos aparecem indisponíveis para compra no site da fornecedora de material esportivo da Seleção Brasileira",
-    "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/13/nem-vini-jr-nem-neymar-trio-da-selecao-esgota-camisas-na-loja-oficial-veja-os-nomes.ghtml",
-    "language": "pt",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Vini Jr.和Neymar都没有： Seleção TRIO在官方商店出售衬衫；请参阅名称| Ge",
-    "candidate_summary_zh": "巴西国家队体育器材供应商的网站上似乎无法购买Alexsandro、Rayan和Douglas Santos的版本。作者： João Vitor dos Santos —里约热内卢06/13/2026 02:13 AM更新日期： 06/13/2026 Ancelotti课程：教练在新闻发布会上用五种语言回答问题。目前最难找到的巴西国家队的衬衫不是Vini Jr的衬衫"
-  },
-  {
-    "item_id": "norm_416",
-    "source_id": "media_globo_esporte_copadomundo",
-    "source_name": "Globo Esporte Futebol Copa do Mundo",
-    "title": "Oswin Appollis: o atacante da África do Sul com apelido de emergência | Ge",
-    "summary": "Oswin Appollis supera a infância difícil e o preconceito com sua altura para ser a arma de velocidade da África do Sul na estreia da Copa do Mundo.",
-    "url": "https://ge.globo.com/futebol/copa-do-mundo/noticia/2026/06/13/por-que-um-atacante-da-africa-do-sul-tem-apelido-de-telefone-de-emergencia-da-policia.ghtml",
-    "language": "pt",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "奥斯温·阿波利斯（Oswin Appollis）：南非前锋，有紧急绰号| Ge",
-    "candidate_summary_zh": "奥斯温·阿波利斯克服了困难的童年和偏见，身高在世界杯首映式上成为南非的速度枪"
-  },
-  {
-    "item_id": "norm_421",
+    "item_id": "norm_423",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -412,11 +399,11 @@
     "language": "pt",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯的表格和比赛| ge",
-    "candidate_summary_zh": "2026年世界杯的表格和比赛| ge"
+    "candidate_event_title_zh": "Tabela e jogos da Copa do Mundo 2026 | ge",
+    "candidate_summary_zh": "Tabela e jogos da Copa do Mundo 2026 | ge"
   },
   {
-    "item_id": "norm_422",
+    "item_id": "norm_424",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -425,37 +412,11 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯",
-    "candidate_summary_zh": "新闻全天候更新"
+    "candidate_event_title_zh": "Mundial 2026",
+    "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_433",
-    "source_id": "media_ole_argentina_mundial 2026",
-    "source_name": "Olé Argentina Mundial 2026 Page",
-    "title": "Las sensaciones de Dibu Martínez: del \"está todo bien\" al dolor que sintió en la práctica",
-    "summary": "En la práctica abierta, el arquero de la Selección levantó el pulgar hacia el sector de las cámaras y dejó un mensaje optimista.",
-    "url": "https://www.ole.com.ar/seleccion/dibumartinez-seleccionargentina-lesion-recuperacion_0_n7m3aEhhQx.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "迪布·马丁内斯（Dibu Martínez）的感觉：他在实践中感受到的痛苦一切都很好",
-    "candidate_summary_zh": "在公开练习中，国家队守门员竖起大拇指向相机领域，并留下了乐观的信息"
-  },
-  {
-    "item_id": "norm_441",
-    "source_id": "media_ole_argentina_mundial 2026",
-    "source_name": "Olé Argentina Mundial 2026 Page",
-    "title": "La opinión del Turco Mohamed: el buen debut de México y su camino posible hasta cuartos de final",
-    "summary": "El entrenador argentino que no para de ganar títulos en Toluca, analizó el debut del Tri y lo que viene.",
-    "url": "https://www.ole.com.ar/mundial/mundial-2026/opinion-turco-mohamed-mexico-debut-mundial-camino-cuartos-final_0_Bd0IrrscUp.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Turco Mohamed的意见：墨西哥的首次亮相及其进入四分之一决赛的可能途径",
-    "candidate_summary_zh": "这位阿根廷教练从未停止在托卢卡赢得冠军，他分析了Tri的首次亮相以及即将发生的事情"
-  },
-  {
-    "item_id": "norm_442",
+    "item_id": "norm_444",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -464,50 +425,11 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯",
-    "candidate_summary_zh": "新闻全天候更新"
+    "candidate_event_title_zh": "Mundial 2026",
+    "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_444",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Zidane controls Maarten Vandevoordt's clearance on the touchline",
-    "summary": "submitted by /u/Imaginary-Reading-63 [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1wyjz2p/zidane_controls_maarten_vandevoordts_clearance_on/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "齐达内在边线控制Maarten Vandevoordts的间隙",
-    "candidate_summary_zh": "提交者/u/Imaginary-Reading-63 [link] [comments]"
-  },
-  {
-    "item_id": "norm_449",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Ronaldo’s break with Portugal is sad, fitting, and long overdue | Cristiano Ronaldo",
-    "summary": "submitted by /u/jfshay [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1wytcio/ronaldos_break_with_portugal_is_sad_fitting_and/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）与葡萄牙的突破是悲伤的，合适的，而且早就应该了|克里",
-    "candidate_summary_zh": "submitted by /u/jfshay [link] [comments]"
-  },
-  {
-    "item_id": "norm_452",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Jules Kounde on his reduced playing time at Barcelona this season: It's a decision of my coach [Hansi Flick], It's a consequence of the previous season, in which I was below my standards.”",
-    "summary": "I don't have any injuries. It's a decision of my coach,\" Koundé explained when asked about the few minutes he is having at the beginning of this season with Barça. The French international also made self-criticism and directly related his current situation with his performance last year.\"It's a consequence of the previous season, in which I was below my standards,\" he acknowledged. Koundé did not want to hide behind excuses and took on the challenge of regaining the lost prominence. \"It's a challenge that I accept. It's up to me to recover my sensations because I know that, when I'm at my best, I can have minutes,\" submitted by /u/Goosedukee [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1wyjqel/jules_kounde_on_his_reduced_playing_time_at/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Jules Kounde本赛季在巴塞罗那的比赛时间减少：这是我的教练[Hansi Flick]的决定，这是上个赛季的后果，我低于我的标准",
-    "candidate_summary_zh": "这是我的教练的决定，当被问及他在本赛季开始时在巴萨的几分钟时， Koundé解释说"
-  },
-  {
-    "item_id": "norm_614",
+    "item_id": "norm_615",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -520,7 +442,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_639",
+    "item_id": "norm_640",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -533,7 +455,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_664",
+    "item_id": "norm_665",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -546,7 +468,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_677",
+    "item_id": "norm_678",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -559,7 +481,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_688",
+    "item_id": "norm_689",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -572,7 +494,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_690",
+    "item_id": "norm_691",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -585,7 +507,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_691",
+    "item_id": "norm_692",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -598,7 +520,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_692",
+    "item_id": "norm_693",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -611,7 +533,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_694",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -624,7 +546,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_694",
+    "item_id": "norm_695",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -637,7 +559,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_696",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -650,7 +572,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_720",
+    "item_id": "norm_721",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -663,7 +585,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_731",
+    "item_id": "norm_732",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -676,7 +598,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_733",
+    "item_id": "norm_734",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -689,7 +611,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_747",
+    "item_id": "norm_748",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -702,7 +624,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_748",
+    "item_id": "norm_749",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -715,7 +637,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_773",
+    "item_id": "norm_774",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -728,7 +650,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_798",
+    "item_id": "norm_799",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -741,7 +663,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_823",
+    "item_id": "norm_824",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -754,7 +676,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_848",
+    "item_id": "norm_849",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -767,7 +689,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_873",
+    "item_id": "norm_874",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -780,7 +702,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_895",
+    "item_id": "norm_896",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -793,7 +715,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_896",
+    "item_id": "norm_897",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -806,7 +728,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_910",
+    "item_id": "norm_911",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
