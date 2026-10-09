@@ -9,8 +9,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
+    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
+    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
   },
   {
     "item_id": "norm_2",
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "FIFA World Cup 2026 Scores & Fixtures",
-    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
+    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
   },
   {
     "item_id": "norm_3",
@@ -35,8 +35,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Sky Sports FIFA World Cup Scores & Fixtures",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -50,6 +50,19 @@
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
     "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_27",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
+    "summary": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
+    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
   },
   {
     "item_id": "norm_31",
@@ -78,6 +91,19 @@
     "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
   },
   {
+    "item_id": "norm_50",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
+    "summary": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
+    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+  },
+  {
     "item_id": "norm_53",
     "source_id": "media_espn_rss_info",
     "source_name": "ESPN Soccer RSS Feeds Info Page",
@@ -88,7 +114,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
-    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
+    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
   },
   {
     "item_id": "norm_54",
@@ -100,8 +126,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_event_title_zh": "世界杯",
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
     "item_id": "norm_71",
@@ -117,7 +143,7 @@
     "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
   },
   {
-    "item_id": "norm_83",
+    "item_id": "norm_85",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "'It's changed my life' - Eckert on Spygate scandal",
@@ -127,33 +153,20 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "它改变了我的生活- Eckert关于Spygate丑闻",
-    "candidate_summary_zh": "南安普敦主教练Tonda Eckert表示， Spygate丑闻改变了他的生活"
+    "candidate_summary_zh": "Southampton head coach Tonda Eckert says the Spygate scandal is an experience that has changed his life"
   },
   {
-    "item_id": "norm_84",
+    "item_id": "norm_90",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Real seek McTominay move - Friday's gossip",
-    "summary": "Real Madrid are interested in former Manchester United midfielder Scott McTominay and France forward Michael Olise, while Chelsea are keen on Frenkie de Jong.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/crgj96ww6x4eo?at_medium=RSS&at_campaign=rss",
+    "title": "Working with Iraola, car clauses and hope - the Liverpool academy approach",
+    "summary": "Liverpool academy director Alex Inglethorpe talks to BBC Sport about the value and future of Liverpool's academy.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmx2z9z10wezo?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "REAL SEEK McTominay MOVE：周五八卦",
-    "candidate_summary_zh": "皇家马德里对前曼联中场斯科特·麦克托米奈和法国前锋迈克尔·奥利斯感兴趣，而切尔西则热衷于弗伦基·德容"
-  },
-  {
-    "item_id": "norm_86",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Infantino given re-election boost as Montagliani seeks final Concacaf term",
-    "summary": "Gianni Infantino's chances of being re-elected as Fifa president appear to have been given a major boost as Victor Montagliani wants to remain as Concacaf chief.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cmn4ex2y53l8o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "随着蒙塔利亚尼寻求Concacaf的最终任期， Infantino获得连任提振",
-    "candidate_summary_zh": "Gianni Infantinos再次当选国际足联主席的机会似乎得到了很大的提升，因为Victor Montagliani希望继续担任Concacaf首席执行官"
+    "candidate_event_title_zh": "与Iraola、CAR条款和HOPE合作-利物浦学院的方法",
+    "candidate_summary_zh": "Liverpool academy director Alex Inglethorpe talks to BBC Sport about the value and future of Liverpools academy"
   },
   {
     "item_id": "norm_108",
@@ -169,56 +182,56 @@
     "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
   },
   {
-    "item_id": "norm_115",
+    "item_id": "norm_112",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma Hayes",
-    "candidate_summary_zh": "离开科尔·帕尔默让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练离开科尔·帕尔默在家里让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练在英格兰的托马斯·图切尔有一个精英教练"
+    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
   },
   {
-    "item_id": "norm_131",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
-  },
-  {
-    "item_id": "norm_134",
+    "item_id": "norm_137",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Khaldoon al-Mubarak: the tightrope walker who made rare misstep over City charges",
-    "summary": "Manchester City’s chair is key to the project of making Abu Dhabi a secure world power but his next move may be the sale of the club No one better understands the precarious tightrope Abu Dhabi walks when it tries to balance its relationships with western Europe while weighing the complex geopolitics of the Gulf region than Manchester City’s chair, Khaldoon al-Mubarak. He was eight when his father, ambassador Khalifa Ahmed Abdel Aziz al-Mubarak, left the family’s Paris apartment for work on 9 February 1984, and was assassinated on the street by a Palestinian terrorist. And no one outside the emirate’s royal family could be more wrapped up in the project of making and maintaining Abu Dhabi as a significant and secure world power and the dominant member of the United Arab Emirates, a nation state still only 55 years old. His paternal grandfather, Ahmad bin Abdul Aziz al-Mubarak, was chair of Abu Dhabi’s Sharia judicial department and senior adviser to Sheikh Zayed bin Sultan al-Nahyan, the founding president of the UAE. As such, Ahmad bin Abdul Aziz was the James Madison of the UAE (the founding father, not the Spurs player) in that he crafted the Islamic legal framework of the new nation in the 1970s. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/08/khaldoon-al-mubarak-manchester-city-charges-abu-dhabi",
+    "title": "Wiegman praises Toone’s attitude after late Lionesses recall for Greece playoff",
+    "summary": "Manchester United midfielder left out of initial squad First leg of World Cup playoff is on Friday in Crete Sarina Wiegman heaped praise on Ella Toone for her positive reaction to being left out of England’s initial squad for their Women’s World Cup playoff against Greece, after recalling the Manchester United midfielder for Friday’s first leg in Heraklion, Crete. An injury sustained by Lucy Bronze, described by Wiegman as “really small”, prompted the England right-back to return to Chelsea and Wiegman called up Toone, who travelled to Greece from Spain, where she had organised a training routine during the international window. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/08/sarina-wiegman-praises-ella-toone-attitude-late-england-lionesses-recall-greece-playoff",
     "language": "en",
-    "reason": "general_discussion_only",
+    "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Khaldoon al-Mubarak：钢丝绳步行者，在城市指控中犯下罕见的失误",
-    "candidate_summary_zh": "曼城的椅子是使阿布扎比成为安全世界强国项目的关键，但他的下一步行动可能是出售俱乐部没有人比曼城的椅子Khaldoon al-Mubarak更了解阿布扎比在平衡与西欧的关系时所走的不稳定的钢丝，同时权衡海湾地区复杂的地缘政治"
+    "candidate_event_title_zh": "Wiegman称赞Toone在Lionesses召回希腊季后赛后的态度",
+    "candidate_summary_zh": "Manchester United midfielder left out of initial squad First leg of World Cup playoff is on Friday in Crete Sarina Wiegman heaped praise on Ella Toone for her positive reaction to being left out of England’s initial squad for their Women’s World Cup playoff against Greece, after recalling the Manchester United midfielder for Friday’s first leg in Heraklion, Crete"
   },
   {
-    "item_id": "norm_140",
+    "item_id": "norm_141",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Victor Montagliani eyes re-election at Concacaf that would rule out Fifa presidency run",
-    "summary": "Confederation president clarifies his intentions to staff Canadian was eyed as potential rival to Gianni Infantino Victor Montagliani has told Concacaf staff he intends to stand for re-election as the confederation’s presidentnext year, which will rule him out of going up against Gianni Infantino for the top job at Fifa. The Canadian businessman is understood to have relayed the message to most of the 41 members of Concacaf, the North and Central American and Caribbean confederation. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/08/victor-montagliani-concacaf-reelection-fifa-presidency",
+    "title": "Mikel Arteta’s new contract reflects where the power now lies at Arsenal | Ed Aarons",
+    "summary": "From transfers to stadium works and even the training-ground dog, there is no doubting the Spaniard’s influence at the club If anyone doubts Mikel Arteta’s status as No 1 at Arsenal in the week he committed his future to the club until 2030, just ask Win the dog. The chocolate labrador who played a starring role in the celebrations when Arsenal were crowned Premier League champions in May has become part of the family at the training ground in Hertfordshire since being introduced by Arteta in May 2023. Kai Havertz, David Raya and Mikel Merino, who issues commands in Spanish and has spoken about spending time with Win when out for three months with a foot injury, are particular favourites. But, according to sources close to Win, a therapy dog trained not to bark, there is no contest when it comes to her preferred human: Arteta. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/08/mikel-arteta-arsenal-contract",
     "language": "en",
-    "reason": "general_discussion_only",
+    "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "维克多·蒙塔利亚尼（Victor Montagliani）注视着孔卡夫（Concacaf）的连任，这将排除国际足联（FIFA",
-    "candidate_summary_zh": "Confederation president clarifies his intentions to staff Canadian was eyed as potential rival to Gianni Infantino Victor Montagliani has told Concacaf staff he intends to stand for re-election as the confederation’s presidentnext year, which will rule him out of going up against Gianni Infantino for the top job at Fifa"
+    "candidate_event_title_zh": "Mikel Arteta的新合同反映了阿森纳现在的权力所在| Ed Aarons",
+    "candidate_summary_zh": "From transfers to stadium works and even the training-ground dog, there is no doubting the Spaniard’s influence at the club If anyone doubts Mikel Arteta’s status as No 1 at Arsenal in the week he committed his future to the club until 2030, just ask Win the dog"
+  },
+  {
+    "item_id": "norm_142",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Havertz, Isak, Dorgu … spate of injuries with national teams leaves sour taste for top clubs",
+    "summary": "Premier League clubs, and their European rivals, left with a long list of absentees after a gruelling international break A four-match international break has presented a stress test. “The intensity of the squad, the athleticism of it, really, I think it’s designed for the elite,” said the Wales head coach, Craig Bellamy, on the completion of four matches in 11 days. Elite club coaches would disagree. The Nations League and the wider set of international games staged across the globe have been accompanied by a daily list of casualties, club officials viewing matches through their fingers as players pull up and gesture to the bench. Hamstring and muscle problems have been rife. Sunderland, for example, will be without Brian Brobbey, a key striker, and Dan Ballard, a defensive mainstay, because of strains picked up playing for the Netherlands and Northern Ireland respectively. Bournemouth, yet to win a Premier League match, have lost Alex Scott for up to two months. His performance for England in their 7-0 victory against Croatia won rave reviews, a young player taking his chance and outshining Luka Modric. It came at a heavy cost. A quadriceps injury that had been diagnosed pre-match worsened. “There was zero risk taken from our side,” said Thomas Tuchel. The Bournemouth coach, Marco Rose, is unlikely to see it that way. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/08/premier-league-injuries-kai-havertz-alexander-isak-patrick-dorgu",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Havertz、Isak、Dorgu……国家队的一系列伤病给顶级俱乐部留下了酸味",
+    "candidate_summary_zh": "Premier League clubs, and their European rivals, left with a long list of absentees after a gruelling international break A four-match international break has presented a stress test"
   },
   {
     "item_id": "norm_163",
@@ -260,19 +273,6 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_205",
-    "source_id": "media_espn_deportes_futbol",
-    "source_name": "ESPN Deportes Fútbol",
-    "title": "ESPN Deportes - Stream deportes en vivo y ESPN originales",
-    "summary": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN.",
-    "url": "https://www.espndeportes.com/watch",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Deportes -原创ESPN和现场体育直播",
-    "candidate_summary_zh": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN"
-  },
-  {
     "item_id": "norm_219",
     "source_id": "media_espn_deportes_futbol",
     "source_name": "ESPN Deportes Fútbol",
@@ -286,6 +286,19 @@
     "candidate_summary_zh": "阿兹特克体育场（Estadio Azteca）拒绝让持箱人进入"
   },
   {
+    "item_id": "norm_226",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "Emotiva despedida de Keylor a Efraín Juárez",
+    "summary": "",
+    "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/16815348/pumas-keylor-navas-sobre-efrain-juarez-no-es-lindo-despedirse-de-un-gran-entrenador",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Keylor对Efrain Juarez的情感告别",
+    "candidate_summary_zh": "Keylor对Efrain Juarez的情感告别"
+  },
+  {
     "item_id": "norm_250",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
@@ -297,19 +310,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Fútbol en AS.com - AS.com",
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
-  },
-  {
-    "item_id": "norm_272",
-    "source_id": "media_as_futbol",
-    "source_name": "AS Fútbol",
-    "title": "Ferran Costa: “Lo del otro día fue mágico, pero los mejores momentos están por llegar”",
-    "summary": "",
-    "url": "https://as.com/futbol/primera-rfef/ferran-costa-lo-del-otro-dia-fue-magico-pero-los-mejores-momentos-estan-por-llegar-f202606-n/",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Ferran Costa：前几天很神奇，但最好的时刻还没有到来",
-    "candidate_summary_zh": "Ferran Costa：前几天很神奇，但最好的时刻还没有到来"
   },
   {
     "item_id": "norm_275",
@@ -455,7 +455,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_463",
+    "item_id": "norm_462",
     "source_id": "forum_reddit_soccer",
     "source_name": "Reddit r/soccer",
     "title": "Top 10 most valuable players in the world following Transfermarkt's latest market value update",
@@ -468,7 +468,7 @@
     "candidate_summary_zh": "submitted by /u/tekuoe [link] [comments]"
   },
   {
-    "item_id": "norm_614",
+    "item_id": "norm_610",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -481,7 +481,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_639",
+    "item_id": "norm_635",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -494,7 +494,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_664",
+    "item_id": "norm_660",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -507,7 +507,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_677",
+    "item_id": "norm_673",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -520,7 +520,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_688",
+    "item_id": "norm_684",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -533,7 +533,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_690",
+    "item_id": "norm_686",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -546,7 +546,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_691",
+    "item_id": "norm_687",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -559,7 +559,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_692",
+    "item_id": "norm_688",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -572,7 +572,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_689",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -585,7 +585,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_694",
+    "item_id": "norm_690",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -598,7 +598,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_691",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -611,7 +611,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_720",
+    "item_id": "norm_716",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -624,7 +624,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_731",
+    "item_id": "norm_727",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -637,7 +637,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_733",
+    "item_id": "norm_729",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -650,7 +650,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_747",
+    "item_id": "norm_743",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -663,7 +663,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_748",
+    "item_id": "norm_744",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -676,7 +676,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_773",
+    "item_id": "norm_769",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -689,7 +689,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_798",
+    "item_id": "norm_794",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -702,7 +702,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_823",
+    "item_id": "norm_819",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -715,7 +715,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_848",
+    "item_id": "norm_844",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -728,7 +728,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_873",
+    "item_id": "norm_869",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -741,7 +741,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_895",
+    "item_id": "norm_891",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -754,7 +754,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_896",
+    "item_id": "norm_892",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -767,7 +767,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_910",
+    "item_id": "norm_906",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
