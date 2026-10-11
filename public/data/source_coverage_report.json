@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T22:56:53.465Z",
+  "generated_at": "2026-10-11T01:50:57.462Z",
   "total_sources": 102,
   "enabled_sources": 102,
   "success_sources": 85,
   "failed_sources": 17,
-  "included_in_frontend_sources": 9,
+  "included_in_frontend_sources": 7,
   "success_rate": 83.33,
   "target_success_rate": 60,
   "items": [
@@ -1136,7 +1136,7 @@
       "failure_category": null,
       "failure_reason": "HTTP 429",
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "forum_reddit_worldcup",
@@ -1255,7 +1255,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 20,
+      "fetched_count": 17,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1703,7 +1703,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": true
+      "included_in_frontend": false
     },
     {
       "source_id": "google_trends_sports_au",
@@ -2770,7 +2770,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 22,
-      "valid_items_count": 20,
+      "valid_items_count": 21,
       "discarded_count": 2,
       "discovered_feeds": [
         "https://www.abola.pt/rss-articles.xml",
