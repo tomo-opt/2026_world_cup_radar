@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
+    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
   },
   {
     "item_id": "norm_4",
@@ -48,21 +48,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
-  },
-  {
-    "item_id": "norm_11",
-    "source_id": "media_espn_soccer",
-    "source_name": "ESPN Soccer",
-    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
-    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
-    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
-    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
+    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
+    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
   },
   {
     "item_id": "norm_27",
@@ -76,19 +63,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
     "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
-  },
-  {
-    "item_id": "norm_31",
-    "source_id": "media_espn_soccer_worldcup",
-    "source_name": "ESPN Soccer Worldcup Page",
-    "title": "USMNT's final World Cup roster has Pochettino taking risks",
-    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
-    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
-    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
   },
   {
     "item_id": "norm_42",
@@ -139,7 +113,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "世界杯",
+    "candidate_event_title_zh": "FIFA World Cup 2026",
     "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
@@ -159,17 +133,43 @@
     "item_id": "norm_86",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Chelsea's Martinez taken to hospital for 'precautionary tests'",
-    "summary": "Goalkeeper Emiliano Martinez was taken to hospital as Chelsea's 2-0 win at Everton on Saturday meant they secured their first clean sheet in nine months.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c6rryqq00yp4o?at_medium=RSS&at_campaign=rss",
+    "title": "Villa's Manzambi shows Newcastle what they missed out on",
+    "summary": "Aston Villa are a side back in form, with Johan Manzambi scoring the winner against a Newcastle team he turned down to move to Villa Park.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "曼赞比别墅（Villas Manzambi）向纽卡斯尔展示了他们错过的景点",
+    "candidate_summary_zh": "阿斯顿维拉是一支球队，约翰·曼赞比（Johan Manzambi）在对阵纽卡斯尔队的比赛中得分，他拒绝转会到维拉公园（Villa Park）"
+  },
+  {
+    "item_id": "norm_88",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "'Sick feeling in stomach' - are Reedijk's Hibs in relegation fight?",
+    "summary": "Two games in, no points gathered and a chorus of boos greeting him at full-time at Easter Road. The honeymoon is well and truly over for Marink Reedijk.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1e15g76jo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "胃部不适- Reedijks Hibs是否处于降级斗争中？",
+    "candidate_summary_zh": "Two games in, no points gathered and a chorus of boos greeting him at full-time at Easter Road"
+  },
+  {
+    "item_id": "norm_91",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "West Ham unstoppable, Norwich in trouble - Aaron McLean's EFL takeaways",
+    "summary": "BBC Final Score pundit Aaron McLean looks at the weekend's talking points in the EFL, including West Ham win over in-form Swansea City and Norwich City's woes.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ckgelq3gxx49o?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "切尔西·马丁内斯（Chelseas Martinez）被送往医院进行预防性检查",
-    "candidate_summary_zh": "Goalkeeper Emiliano Martinez was taken to hospital as Chelseas 2-0 win at Everton on Saturday meant they secured their first clean sheet in nine months"
+    "candidate_event_title_zh": "西汉姆联队势不可挡，诺里奇陷入困境- Aaron McLeans EFL外卖",
+    "candidate_summary_zh": "英国广播公司最终得分专家亚伦·麦克莱恩（Aaron McLean）关注EFL的周末谈话要点，包括西汉姆联队战胜形式上的斯旺西城（Swansea City）和诺里奇城（Norwich City）的困境"
   },
   {
-    "item_id": "norm_93",
+    "item_id": "norm_96",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Lamine Yamal opens the scoring as Barcelona beat Real Betis",
@@ -179,20 +179,7 @@
     "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "拉明·亚马尔（Lamine Yamal）在巴塞罗那击败皇家贝蒂斯（Real Betis）时",
-    "candidate_summary_zh": "拉明·亚马尔（Lamine Yamal）、罗德里（Rodri）、加布里埃尔·热苏斯（Gabriel Jesus）、埃里克·加西亚（Eric Garcia）和丹尼·奥尔莫（Dani Olmo）都为巴塞罗那进球，他们在一部七球惊悚片中横扫皇家贝蒂斯，在西甲"
-  },
-  {
-    "item_id": "norm_96",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Emery praises Manzambi's 'skills and intelligence'",
-    "summary": "Aston Villa manager Unai Emery reacts to his 100th Premier League win after victory against Newcastle at St James Park.",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cw80zpzx3vxjo?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Emery称赞Manzambis的技能和智慧",
-    "candidate_summary_zh": "Aston Villa manager Unai Emery reacts to his 100th Premier League win after victory against Newcastle at St James Park"
+    "candidate_summary_zh": "Lamine Yamal, Rodri, Gabriel Jesus, Eric Garcia and Dani Olmo all scored for Barcelona as they swept aside Real Betis in a seven-goal thriller to stay five points clear at the top of La Liga"
   },
   {
     "item_id": "norm_108",
@@ -204,47 +191,34 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
+    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
     "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
   },
   {
-    "item_id": "norm_112",
+    "item_id": "norm_119",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
-    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
-    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
-    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
-  },
-  {
-    "item_id": "norm_115",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Nobody should underestimate what Thomas Tuchel can do with England | Emma Hayes",
-    "summary": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword",
-    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-tuchel-england-world-cup",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
-    "candidate_summary_zh": "离开科尔·帕尔默让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练离开科尔·帕尔默在家里让我感到惊讶，但我知道切尔西的托马斯–他是那种死在剑上的教练在英格兰的托马斯·图切尔有一个精英教练"
-  },
-  {
-    "item_id": "norm_131",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
+    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
     "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
+    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
+    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
+    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
+  },
+  {
+    "item_id": "norm_136",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Pressure on Arbeloa lifted after Alex Iwobi sinks Hull for Fulham’s first win",
+    "summary": "It was not until his post-match lap of the pitch that Álvaro Arbeloa allowed himself a smile. After an uncomfortable week when his future was being called into question, the former Real Madrid manager has a Premier League win under his belt at the seventh attempt, lifting his side off the foot of the table. But it is not a win without caveats. Alex Iwobi’s goal in the first half should have been one of many, with the Nigeria winger among those guilty of missing gilt-edge chances. Gonzalo García, who has not scored in the league since the opening weekend of the season, headed against the crossbar from close range in the second half. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/17/fulham-hull-premier-league-match-report",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "在亚历克斯·伊沃比（Alex Iwobi）为富勒姆（Fulham）的首场胜利击沉船体后，阿贝洛亚（Arbeloa）的压力有所缓",
+    "candidate_summary_zh": "直到赛后的一圈球场上，阿尔瓦罗·阿尔贝洛亚才给自己一个微笑。"
   },
   {
     "item_id": "norm_163",
@@ -270,7 +244,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+    "candidate_summary_zh": "观看您最喜爱的体育运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会与比分"
   },
   {
     "item_id": "norm_203",
@@ -283,7 +257,46 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
+    "candidate_summary_zh": "观看您最喜爱的体育运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会与比分"
+  },
+  {
+    "item_id": "norm_205",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "ESPN Deportes - Stream deportes en vivo y ESPN originales",
+    "summary": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN.",
+    "url": "https://www.espndeportes.com/watch",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "ESPN Deportes -原创ESPN和现场体育直播",
+    "candidate_summary_zh": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN"
+  },
+  {
+    "item_id": "norm_212",
+    "source_id": "media_espn_deportes_futbol",
+    "source_name": "ESPN Deportes Fútbol",
+    "title": "La picante respuesta del Atlético de Madrid al Real Madrid por Julián Álvarez",
+    "summary": "",
+    "url": "https://espndeportes.espn.com/futbol/espana/nota/_/id/16816475/julian-alvarez-atletico-madrid-respuesta-burla-al-real-madrid",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Julián Álvarez的马德里竞技对皇家马德里的辛辣回应",
+    "candidate_summary_zh": "Julián Álvarez的马德里竞技对皇家马德里的辛辣回应"
+  },
+  {
+    "item_id": "norm_239",
+    "source_id": "media_espn_deportes_futbol_mundial",
+    "source_name": "ESPN Deportes Fútbol Mundial",
+    "title": "Uruguay al Mundial: la Celeste partió rumbo a Playa del Carmen",
+    "summary": "La Celeste viajó rumbo a México, donde instalará su base de operaciones durante la Copa del Mundo.",
+    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817640/seleccion-uruguaya-viajo-a-playa-del-carmen-concentracion-mundial-2026",
+    "language": "es",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "乌拉圭参加世界杯： Celeste前往Playa del Carmen",
+    "candidate_summary_zh": "La Celeste前往墨西哥，将在世界杯期间在那里建立运营基地"
   },
   {
     "item_id": "norm_250",
