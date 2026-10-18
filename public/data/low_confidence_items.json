@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -48,8 +48,21 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
-    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
+    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
+    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
   },
   {
     "item_id": "norm_27",
@@ -63,6 +76,19 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
     "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+  },
+  {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
   },
   {
     "item_id": "norm_42",
@@ -113,7 +139,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
+    "candidate_event_title_zh": "世界杯",
     "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
@@ -143,45 +169,6 @@
     "candidate_summary_zh": "阿斯顿维拉是一支球队，约翰·曼赞比（Johan Manzambi）在对阵纽卡斯尔队的比赛中得分，他拒绝转会到维拉公园（Villa Park）"
   },
   {
-    "item_id": "norm_88",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "'Sick feeling in stomach' - are Reedijk's Hibs in relegation fight?",
-    "summary": "Two games in, no points gathered and a chorus of boos greeting him at full-time at Easter Road. The honeymoon is well and truly over for Marink Reedijk.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1e15g76jo?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "胃部不适- Reedijks Hibs是否处于降级斗争中？",
-    "candidate_summary_zh": "Two games in, no points gathered and a chorus of boos greeting him at full-time at Easter Road"
-  },
-  {
-    "item_id": "norm_91",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "West Ham unstoppable, Norwich in trouble - Aaron McLean's EFL takeaways",
-    "summary": "BBC Final Score pundit Aaron McLean looks at the weekend's talking points in the EFL, including West Ham win over in-form Swansea City and Norwich City's woes.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/ckgelq3gxx49o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "西汉姆联队势不可挡，诺里奇陷入困境- Aaron McLeans EFL外卖",
-    "candidate_summary_zh": "英国广播公司最终得分专家亚伦·麦克莱恩（Aaron McLean）关注EFL的周末谈话要点，包括西汉姆联队战胜形式上的斯旺西城（Swansea City）和诺里奇城（Norwich City）的困境"
-  },
-  {
-    "item_id": "norm_96",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Lamine Yamal opens the scoring as Barcelona beat Real Betis",
-    "summary": "Lamine Yamal, Rodri, Gabriel Jesus, Eric Garcia and Dani Olmo all scored for Barcelona as they swept aside Real Betis in a seven-goal thriller to stay five points clear at the top of La Liga.",
-    "url": "https://www.bbc.co.uk/sport/football/videos/cmewe0wq0wj1o?at_medium=RSS&at_campaign=rss",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "拉明·亚马尔（Lamine Yamal）在巴塞罗那击败皇家贝蒂斯（Real Betis）时",
-    "candidate_summary_zh": "Lamine Yamal, Rodri, Gabriel Jesus, Eric Garcia and Dani Olmo all scored for Barcelona as they swept aside Real Betis in a seven-goal thriller to stay five points clear at the top of La Liga"
-  },
-  {
     "item_id": "norm_108",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
@@ -191,34 +178,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
+    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
     "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
-  },
-  {
-    "item_id": "norm_119",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
-    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
-  },
-  {
-    "item_id": "norm_136",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Pressure on Arbeloa lifted after Alex Iwobi sinks Hull for Fulham’s first win",
-    "summary": "It was not until his post-match lap of the pitch that Álvaro Arbeloa allowed himself a smile. After an uncomfortable week when his future was being called into question, the former Real Madrid manager has a Premier League win under his belt at the seventh attempt, lifting his side off the foot of the table. But it is not a win without caveats. Alex Iwobi’s goal in the first half should have been one of many, with the Nigeria winger among those guilty of missing gilt-edge chances. Gonzalo García, who has not scored in the league since the opening weekend of the season, headed against the crossbar from close range in the second half. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/17/fulham-hull-premier-league-match-report",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在亚历克斯·伊沃比（Alex Iwobi）为富勒姆（Fulham）的首场胜利击沉船体后，阿贝洛亚（Arbeloa）的压力有所缓",
-    "candidate_summary_zh": "直到赛后的一圈球场上，阿尔瓦罗·阿尔贝洛亚才给自己一个微笑。"
   },
   {
     "item_id": "norm_163",
@@ -244,7 +205,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "观看您最喜爱的体育运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会与比分"
+    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
     "item_id": "norm_203",
@@ -257,46 +218,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
-    "candidate_summary_zh": "观看您最喜爱的体育运动的最佳现场报道：足球、高尔夫、橄榄球、板球、网球、F1、拳击，以及最新的体育新闻、转会与比分"
-  },
-  {
-    "item_id": "norm_205",
-    "source_id": "media_espn_deportes_futbol",
-    "source_name": "ESPN Deportes Fútbol",
-    "title": "ESPN Deportes - Stream deportes en vivo y ESPN originales",
-    "summary": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN.",
-    "url": "https://www.espndeportes.com/watch",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Deportes -原创ESPN和现场体育直播",
-    "candidate_summary_zh": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN"
-  },
-  {
-    "item_id": "norm_212",
-    "source_id": "media_espn_deportes_futbol",
-    "source_name": "ESPN Deportes Fútbol",
-    "title": "La picante respuesta del Atlético de Madrid al Real Madrid por Julián Álvarez",
-    "summary": "",
-    "url": "https://espndeportes.espn.com/futbol/espana/nota/_/id/16816475/julian-alvarez-atletico-madrid-respuesta-burla-al-real-madrid",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Julián Álvarez的马德里竞技对皇家马德里的辛辣回应",
-    "candidate_summary_zh": "Julián Álvarez的马德里竞技对皇家马德里的辛辣回应"
-  },
-  {
-    "item_id": "norm_239",
-    "source_id": "media_espn_deportes_futbol_mundial",
-    "source_name": "ESPN Deportes Fútbol Mundial",
-    "title": "Uruguay al Mundial: la Celeste partió rumbo a Playa del Carmen",
-    "summary": "La Celeste viajó rumbo a México, donde instalará su base de operaciones durante la Copa del Mundo.",
-    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817640/seleccion-uruguaya-viajo-a-playa-del-carmen-concentracion-mundial-2026",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "乌拉圭参加世界杯： Celeste前往Playa del Carmen",
-    "candidate_summary_zh": "La Celeste前往墨西哥，将在世界杯期间在那里建立运营基地"
+    "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
     "item_id": "norm_250",
@@ -598,6 +520,84 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
+    "item_id": "norm_707",
+    "source_id": "media_yahoo_world_cup",
+    "source_name": "Yahoo Sport World Cup Page",
+    "title": "QatarQAT0-0-0QatarQATSwitzerlandSUI0-0-0SwitzerlandSUISUI -1.5O/U 2.5",
+    "summary": "",
+    "url": "https://sports.yahoo.com/soccer/fifa-world-cup/switzerland-qatar-13587194/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "卡塔尔QAT0-0-0卡塔尔QATSwitzerlandSUI0-0-0SwitzerlandSUISUI -1.5O/U 2.5",
+    "candidate_summary_zh": "卡塔尔QAT0-0-0卡塔尔QATSwitzerlandSUI0-0-0SwitzerlandSUISUI -1.5O/U 2.5"
+  },
+  {
+    "item_id": "norm_713",
+    "source_id": "media_yahoo_world_cup",
+    "source_name": "Yahoo Sport World Cup Page",
+    "title": "Ivory CoastCIV0-0-0Ivory CoastCIVEcuadorECU0-0-0EcuadorECUCIV +0.25O/U 1.5",
+    "summary": "",
+    "url": "https://sports.yahoo.com/soccer/fifa-world-cup/ecuador-ivory-coast-13587210/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "象牙海岸CIV0-0-0象牙海岸CIVEcuadorECU0-0-0EcuadorECUCIV +0.25 O/U 1.5",
+    "candidate_summary_zh": "象牙海岸CIV0-0-0象牙海岸CIVEcuadorECU0-0-0EcuadorECUCIV +0.25 O/U 1.5"
+  },
+  {
+    "item_id": "norm_714",
+    "source_id": "media_yahoo_world_cup",
+    "source_name": "Yahoo Sport World Cup Page",
+    "title": "SwedenSWE0-0-0SwedenSWETunisiaTUN0-0-0TunisiaTUNSWE -0.5O/U 2.5",
+    "summary": "",
+    "url": "https://sports.yahoo.com/soccer/fifa-world-cup/tunisia-sweden-13587254/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "瑞典SWE0-0-0瑞典SWETunisiaTUN0-0-0突尼斯TUNSWE -0.5O/U 2.5",
+    "candidate_summary_zh": "瑞典SWE0-0-0瑞典SWETunisiaTUN0-0-0突尼斯TUNSWE -0.5O/U 2.5"
+  },
+  {
+    "item_id": "norm_717",
+    "source_id": "media_yahoo_world_cup",
+    "source_name": "Yahoo Sport World Cup Page",
+    "title": "Saudi ArabiaKSA0-0-0Saudi ArabiaKSAUruguayURU0-0-0UruguayURUKSA +1.5O/U 2.5",
+    "summary": "",
+    "url": "https://sports.yahoo.com/soccer/fifa-world-cup/uruguay-saudi-arabia-13587222/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "沙特阿拉伯KSA0-0-0沙特阿拉伯KSAUruguayURU0-0UruguayURUKSA +1.5O/U 2.5",
+    "candidate_summary_zh": "沙特阿拉伯KSA0-0-0沙特阿拉伯KSAUruguayURU0-0UruguayURUKSA +1.5O/U 2.5"
+  },
+  {
+    "item_id": "norm_719",
+    "source_id": "media_yahoo_world_cup",
+    "source_name": "Yahoo Sport World Cup Page",
+    "title": "FranceFRA0-0-0FranceFRASenegalSEN0-0-0SenegalSENSEN +1.5O/U 2.5",
+    "summary": "",
+    "url": "https://sports.yahoo.com/soccer/fifa-world-cup/senegal-france-13587227/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "法国FRA0-0-0法国FRASenegalSEN0-0-0塞内加尔SENSEN +1.5O/U 2.5",
+    "candidate_summary_zh": "法国FRA0-0-0法国FRASenegalSEN0-0-0塞内加尔SENSEN +1.5O/U 2.5"
+  },
+  {
+    "item_id": "norm_723",
+    "source_id": "media_yahoo_world_cup",
+    "source_name": "Yahoo Sport World Cup Page",
+    "title": "PortugalPOR0-0-0PortugalPORCongo DRCOD0-0-0Congo DRCODPOR -1.5O/U 2.5",
+    "summary": "",
+    "url": "https://sports.yahoo.com/soccer/fifa-world-cup/congo-dr-portugal-13587260/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "葡萄牙POR0-0-0葡萄牙PORCongo DRCOD0-0-0刚果DRCODPOR -1.5O/U 2.5",
+    "candidate_summary_zh": "葡萄牙POR0-0-0葡萄牙PORCongo DRCOD0-0-0刚果DRCODPOR -1.5O/U 2.5"
+  },
+  {
     "item_id": "norm_724",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
@@ -607,8 +607,47 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Check out the latest FIFA World Cup™ results via OneFootball",
+    "candidate_event_title_zh": "通过OneFootball查看最新的FIFA世界杯™结果",
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
+  },
+  {
+    "item_id": "norm_727",
+    "source_id": "media_one_football_world_cup",
+    "source_name": "One Football World Cup Page",
+    "title": "Jesse Marsch issues update as Alphonso Davies to miss Canada's World Cup opener",
+    "summary": "Read this news on OneFootball.",
+    "url": "https://onefootball.com/en/news/jesse-marsch-issues-update-as-alphonso-davies-to-miss-canadas-world-cup-opener-43002560",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "杰西·马施（Jesse Marsch）发布更新，阿方索·戴维斯（Alphonso Davies）将错过加拿大世界杯揭幕",
+    "candidate_summary_zh": "Read this news on OneFootball"
+  },
+  {
+    "item_id": "norm_728",
+    "source_id": "media_one_football_world_cup",
+    "source_name": "One Football World Cup Page",
+    "title": "Everything you missed from day two at World Cup 2026: Partey denied entry, Marsch slammed and Pulisic scare",
+    "summary": "Read this news on OneFootball.",
+    "url": "https://onefootball.com/en/news/everything-you-missed-from-day-two-at-world-cup-2026-partey-denied-entry-marsch-slammed-and-pulisic-scare-43002530",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "您在2026年世界杯第二天错过的一切： Partey拒绝入场， Marsch猛烈抨击和Pulisic恐慌",
+    "candidate_summary_zh": "Read this news on OneFootball"
+  },
+  {
+    "item_id": "norm_734",
+    "source_id": "media_one_football_world_cup",
+    "source_name": "One Football World Cup Page",
+    "title": "Betting South Africa",
+    "summary": "",
+    "url": "https://onefootball.com/en/betting/za",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "投注南非",
+    "candidate_summary_zh": "投注南非"
   },
   {
     "item_id": "norm_735",
@@ -620,8 +659,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Check out the latest FIFA World Cup™ results via OneFootball",
-    "candidate_summary_zh": "Check out all the competition news on OneFootball"
+    "candidate_event_title_zh": "通过OneFootball查看最新的FIFA世界杯™结果",
+    "candidate_summary_zh": "查看OneFootball上的所有比赛新闻"
   },
   {
     "item_id": "norm_737",
@@ -633,8 +672,99 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "2026 FIFA World Cup",
-    "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
+    "candidate_event_title_zh": "世界杯",
+    "candidate_summary_zh": "2026年FIFA男足世界杯新闻、现场比分、日程安排、现场直播、统计数据、积分榜、分组等来自NBC Sports查看全部查看全部"
+  },
+  {
+    "item_id": "norm_739",
+    "source_id": "media_nbc_sports_world_cup",
+    "source_name": "NBC Sports World Cup Page",
+    "title": "Lachlan Turner dominates, wins WMX Moto 1 in Thunder Valley",
+    "summary": "Lachlan Turner was under intense pressure last week in Hangtown, so she stepped up he performance in Thunder Valley.",
+    "url": "https://www.nbcsports.com/motor-sports/news/lachlan-turner-dominates-wins-moto-1-in-thunder-valley",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Lachlan Turner占据主导地位，在Thunder Valley赢得WMX Moto 1",
+    "candidate_summary_zh": "Lachlan Turner上周在Hangtown承受着巨大的压力，所以她加强了他在Thunder Valley的表演"
+  },
+  {
+    "item_id": "norm_740",
+    "source_id": "media_nbc_sports_world_cup",
+    "source_name": "NBC Sports World Cup Page",
+    "title": "Citron hits winning jumper at the buzzer, Betts scores career-high 18 as Mystics beat Tempo 86-85",
+    "summary": "Sonia Citron scored 17 points and made the winning jumper as time expired, rookie Lauren Betts scored a season-high 18 points on 8-of-9 shooting and the Washington Mystics beat the Toronto Tempo 86-85 on Friday night.",
+    "url": "https://www.nbcsports.com/wnba/news/citron-hits-winning-jumper-at-the-buzzer-betts-scores-career-high-18-as-mystics-beat-tempo-86-85",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Citron在蜂鸣器上击中了跳投， Betts得到职业生涯最高的18分， Mystics以86-85击败Tempo",
+    "candidate_summary_zh": "Sonia Citron scored 17 points and made the winning jumper as time expired, rookie Lauren Betts scored a season-high 18 points on 8-of-9 shooting and the Washington Mystics beat the Toronto Tempo 86-85 on Friday night"
+  },
+  {
+    "item_id": "norm_741",
+    "source_id": "media_nbc_sports_world_cup",
+    "source_name": "NBC Sports World Cup Page",
+    "title": "Chase Sexton to miss Motocross Round 3 in Thunder Valley after heavy crash",
+    "summary": "Chase Sexton crashed on one of Thunder Valley's massive jumps during Press Day.",
+    "url": "https://www.nbcsports.com/motor-sports/news/chase-sexton-to-miss-motocross-round-3-in-thunder-valley-after-heavy-crash",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "蔡斯·塞克斯顿（Chase Sexton）在严重撞车事故后错过了雷谷（Thunder Valley）的第3轮越野摩",
+    "candidate_summary_zh": "在新闻发布日期间， Chase Sexton在Thunder Valleys的一次大规模跳跃中坠毁"
+  },
+  {
+    "item_id": "norm_745",
+    "source_id": "media_nbc_sports_world_cup",
+    "source_name": "NBC Sports World Cup Page",
+    "title": "For Alistair Johnston and many Canada supporters, Toronto took World Cup to new heights",
+    "summary": "",
+    "url": "https://www.nbcsports.com/soccer/news/for-canada-back-alistair-johnston-and-many-supporters-toronto-took-world-cup-to-new-heights",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "对于阿利斯泰尔·约翰斯顿（Alistair Johnston）和许多加拿大球迷来说，多伦多将世界杯带到了新的高度",
+    "candidate_summary_zh": "对于阿利斯泰尔·约翰斯顿（Alistair Johnston）和许多加拿大球迷来说，多伦多将世界杯带到了新的高度"
+  },
+  {
+    "item_id": "norm_747",
+    "source_id": "media_nbc_sports_world_cup",
+    "source_name": "NBC Sports World Cup Page",
+    "title": "USMNT upcoming schedule — The 2026 World Cup is here for Pochettino’s men",
+    "summary": "",
+    "url": "https://www.nbcsports.com/soccer/news/usmnt-2026-schedule-results",
+    "language": "en",
+    "reason": "summary_missing",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT即将举行的时间表— 2026年世界杯是为Pochettino的男子举办的",
+    "candidate_summary_zh": "USMNT即将举行的时间表— 2026年世界杯是为Pochettino的男子举办的"
+  },
+  {
+    "item_id": "norm_748",
+    "source_id": "media_nbc_sports_world_cup",
+    "source_name": "NBC Sports World Cup Page",
+    "title": "Canada 1-1 Bosnia and Herzegovina: World Cup hosts saved by Cyle Larin’s late equalizer",
+    "summary": "",
+    "url": "https://www.nbcsports.com/soccer/live/live-updates-canada-vs-bosnia-and-herzegovina-as-hosts-open-2026-world-cup-in-toronto",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "加拿大1-1波斯尼亚和黑塞哥维那： Cyle Larin的晚期均衡器拯救了世界杯东道主",
+    "candidate_summary_zh": "加拿大1-1波斯尼亚和黑塞哥维那： Cyle Larin的晚期均衡器拯救了世界杯东道主"
+  },
+  {
+    "item_id": "norm_750",
+    "source_id": "media_nbc_sports_world_cup",
+    "source_name": "NBC Sports World Cup Page",
+    "title": "Navy All-American Bowl",
+    "summary": "",
+    "url": "https://www.nbcsports.com/college-football/navy-all-american-bowl",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "海军全美碗",
+    "candidate_summary_zh": "海军全美碗"
   },
   {
     "item_id": "norm_751",
@@ -646,7 +776,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "2026 FIFA World Cup",
+    "candidate_event_title_zh": "世界杯",
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
@@ -659,8 +789,47 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Latest news, features & gossip from the World Cup | Goal.com US",
-    "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
+    "candidate_event_title_zh": "世界杯的最新消息、特色和八卦| Goal.com US",
+    "candidate_summary_zh": "揭开世界杯最新的进球新闻--阅读最新的预测、转会谣言、突发新闻、视频和足球比赛结果世界杯克里斯蒂安·普利西奇（Christian Pulisic）透露，他遭遇了踢球，最终导致他在世界杯主场揭幕战中以4比1击败巴拉圭的USMNT下半场被替换。"
+  },
+  {
+    "item_id": "norm_753",
+    "source_id": "media_goal_world_cup",
+    "source_name": "Goal World Cup News Page",
+    "title": "'I'm really hoping that it's nothing' - USMNT star Christian Pulisic reveals first-half kick led to early exit | Goal.com US",
+    "summary": "Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNT's 4-1 thrashing over Paraguay in their World Cup home opener. Despite the star winger missing the second half, Mauricio Pochettino's side padded their lead and scored the most World Cup goals in team history.",
+    "url": "https://www.goal.com/en-us/lists/usmnt-star-christian-pulisic/blt37b4ac135974c18c",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "我真的希望没什么- USMNT明星Christian Pulisic透露上半场踢球导致提前退出| Goal.com US",
+    "candidate_summary_zh": "克里斯蒂安·普利西奇（Christian Pulisic）透露，他遭遇了踢球，最终导致他在世界杯主场揭幕战中以4比1击败巴拉圭的USMNT下半场之前被替换。"
+  },
+  {
+    "item_id": "norm_759",
+    "source_id": "media_goal_world_cup",
+    "source_name": "Goal World Cup News Page",
+    "title": "Cyle Larin proves his worth, but can Jonathan David snap out of his slump? Winners and losers from Canada's 1-1 draw with Bosnia and Herzegovina | Goal.com US",
+    "summary": "Canada finally have their first men’s World Cup point, but after Cyle Larin’s late rescue act against Bosnia and Herzegovina, GOAL picks winners and losers from a tense opener.",
+    "url": "https://www.goal.com/en-us/lists/cyle-larin-proves-his-worth-but-can-jonathan-david-snap-out-of-his-slump-winners-and-losers-from-canada-s-1-1-draw-with-bosnia-and-herzegovina/blt39f5f834d4888b10",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Cyle Larin证明了他的价值，但Jonathan David能否摆脱他的低迷？来自加拿大的赢家和输家1-1平局与波斯尼亚和黑塞哥维那| Goal.com美国",
+    "candidate_summary_zh": "加拿大终于获得了他们的第一个男子世界杯积分，但在Cyle Larin对波斯尼亚和黑塞哥维那的晚期救援行动之后，从紧张的揭幕战中挑选了赢家和输家"
+  },
+  {
+    "item_id": "norm_763",
+    "source_id": "media_goal_world_cup",
+    "source_name": "Goal World Cup News Page",
+    "title": "USMNT vs Paraguay Predictions: USMNT to start strongly in LA",
+    "summary": "Explore our soccer expert’s USMNT vs Paraguay predictions, pre Friday’s 9:00pm ET World Cup clash (6/12).",
+    "url": "https://www.goal.com/en-us/betting/world-cup/usmnt-vs-paraguay-predictions-6-12-2026/A%3Ablt42541a1e2fcd0a08",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT与巴拉圭预测： USMNT在洛杉矶开局强劲",
+    "candidate_summary_zh": "探索我们的足球专家USMNT与巴拉圭的预测，周五晚上9:00 ET世界杯比赛（6/12）"
   },
   {
     "item_id": "norm_777",
@@ -676,6 +845,32 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
+    "item_id": "norm_783",
+    "source_id": "media_fox_sports_world_cup",
+    "source_name": "Fox Sports World Cup News Page",
+    "title": "'Start Believing': Ibrahimović And Henry Back USA For World Cup Run",
+    "summary": "The United States opened its home World Cup with a dominant 4-1 victory over Paraguay, prompting Zlatan Ibrahimović and Thierry Henry to back the Americans as potential contenders for a deep tournament run.",
+    "url": "https://www.foxsports.com/stories/soccer/start-believing-ibrahimovic-henry-back-usa-deep-world-cup-run",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "开始相信： Ibrahimović和Henry回到美国参加世界杯比赛",
+    "candidate_summary_zh": "The United States opened its home World Cup with a dominant 4-1 victory over Paraguay, prompting Zlatan Ibrahimović and Thierry Henry to back the Americans as potential contenders for a deep tournament run"
+  },
+  {
+    "item_id": "norm_798",
+    "source_id": "media_fox_sports_world_cup",
+    "source_name": "Fox Sports World Cup News Page",
+    "title": "Cyle Larin Rescues Canada’s World Cup Opener, Says ‘I Score When Canada Needs Me’",
+    "summary": "",
+    "url": "https://www.foxsports.com/stories/soccer/cyle-larin-rescues-canadas-world-cup-opener-says-i-score-when-canada-needs-me",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Cyle Larin拯救加拿大世界杯揭幕战，称“加拿大需要我时我得分”",
+    "candidate_summary_zh": "Cyle Larin拯救加拿大世界杯揭幕战，称“加拿大需要我时我得分”"
+  },
+  {
     "item_id": "norm_802",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
@@ -686,7 +881,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026 FIFA World Cup News, Scores and Standings",
-    "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
+    "candidate_summary_zh": "在CBSSports.com上获取2026年世界杯足球赛的最新消息、现场报道、比分和信息"
   },
   {
     "item_id": "norm_827",
