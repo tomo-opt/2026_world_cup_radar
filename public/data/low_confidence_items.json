@@ -9,8 +9,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
-    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
+    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
     "item_id": "norm_2",
@@ -22,8 +22,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Scores & Fixtures",
-    "candidate_summary_zh": "Official FIFA scores and fixtures page; better candidate for live scores, results and upcoming fixtures than the schedule article"
+    "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
+    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
     "item_id": "norm_3",
@@ -35,8 +35,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "Sky Sports FIFA World Cup Scores & Fixtures",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -48,8 +48,60 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
-    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
+    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
+    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
+  },
+  {
+    "item_id": "norm_27",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
+    "summary": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
+    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+  },
+  {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
+  },
+  {
+    "item_id": "norm_50",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "Roldan: USMNT can't be 'too honest' vs. Paraguay",
+    "summary": "",
+    "url": "https://www.espn.com/soccer/story/_/id/49012798/cristian-roldan-usa-paraguay-2026-world-cup-savvy",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
+    "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
   },
   {
     "item_id": "norm_53",
@@ -61,8 +113,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
     "item_id": "norm_54",
@@ -75,7 +127,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "FIFA World Cup 2026",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
     "item_id": "norm_109",
@@ -284,6 +336,201 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Mundial 2026",
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
+  },
+  {
+    "item_id": "norm_448",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Ref-cam view of James Maddison's goal vs Coventry.",
+    "summary": "submitted by /u/OptimusCloyster [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1xa6nov/refcam_view_of_james_maddisons_goal_vs_coventry/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "James Maddisons进球对考文垂的Ref-cam视图",
+    "candidate_summary_zh": "submitted by /u/OptimusCloyster [link] [comments]"
+  },
+  {
+    "item_id": "norm_451",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Diogo Dalot defending against Leeds",
+    "summary": "submitted by /u/cheekyirishguy [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1x9zvi7/diogo_dalot_defending_against_leeds/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Diogo Dalot防守利兹",
+    "candidate_summary_zh": "提交者/u/cheekyirishguy [link] [comments]"
+  },
+  {
+    "item_id": "norm_454",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Tottenham [2] - 1 Coventry City - Omar Marmoush 59'",
+    "summary": "submitted by /u/Lazy_Banana_1636 [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1xa7up8/tottenham_2_1_coventry_city_omar_marmoush_59/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "托特纳姆热刺[2] - 1考文垂市- Omar Marmoush 59",
+    "candidate_summary_zh": "提交者/u/Lazy_Banana_1636 [link] [comments]"
+  },
+  {
+    "item_id": "norm_455",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Thierry Henry and Kate Scott will host the 2026 Ballon d’Or ceremony",
+    "summary": "submitted by /u/AgeNovel3566 [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1x9xvt8/thierry_henry_and_kate_scott_will_host_the_2026/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "蒂埃里·亨利（Thierry Henry）和凯特·斯科特（Kate Scott）将主持2026年金球奖颁奖典",
+    "candidate_summary_zh": "提交者/u/AgeNovel3566 [link] [comments]"
+  },
+  {
+    "item_id": "norm_458",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Tottenham 1 - [1] Coventry City - Jack Rudoni 50'",
+    "summary": "submitted by /u/Lazy_Banana_1636 [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1xa7lyp/tottenham_1_1_coventry_city_jack_rudoni_50/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "托特纳姆热刺1 - [1]考文垂市- Jack Rudoni 50",
+    "candidate_summary_zh": "提交者/u/Lazy_Banana_1636 [link] [comments]"
+  },
+  {
+    "item_id": "norm_461",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "3-time CL winner Luis Enrique: \"Hansi Flick has improved Barca's results and solidified an idea similar to the one he had at Bayern Munich. We will have to attack if we want to win. We have a strong motivation to take the ball from them. They are the team that's most similar to PSG's style of play.\"",
+    "summary": "submitted by /u/mynamestartswithCa [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1x9vlt3/3time_cl_winner_luis_enrique_hansi_flick_has/",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "三届CL冠军Luis Enrique： Hansi Flick改善了Barcas的成绩，并巩固了他在拜仁慕尼黑的想法。如果我们想赢，就必须进攻。我们有强烈的动机从他们手中接过球。他们是与PSG的比赛风格最相似的球队",
+    "candidate_summary_zh": "提交者/u/mynamestartswithCa [link] [comments]"
+  },
+  {
+    "item_id": "norm_462",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Zoomed in angle of Arda Guler's elbow on Peque",
+    "summary": "submitted by /u/AgeNovel3566 [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1x9q5gf/zoomed_in_angle_of_arda_gulers_elbow_on_peque/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "放大Arda Gulers肘部在Peque上的角度",
+    "candidate_summary_zh": "提交者/u/AgeNovel3566 [link] [comments]"
+  },
+  {
+    "item_id": "norm_463",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "[NSFW] Edon Pruti (Grimsby Town) fractures his leg in a bad tackle and receives a straight red card against Northampton Town",
+    "summary": "submitted by /u/wokwok__ [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1xa0ky0/nsfw_edon_pruti_grimsby_town_fractures_his_leg_in/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "[NSFW] Edon Pruti （格里姆斯比镇）在一次糟糕的铲球中腿部骨折，并获得一张对阵北安普顿镇的红牌",
+    "candidate_summary_zh": "提交者/u/wokwok __ [link] [comments]"
+  },
+  {
+    "item_id": "norm_465",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Luka Modrić is now third on the all-time list of outfield players with the most official appearances, trailing only Cristiano Ronaldo and Lionel Messi",
+    "summary": "Source. If Reddit isn't showing you the image in full definition, here it is in HD. submitted by /u/malalatargaryen [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1xa52hd/luka_modri%C4%87_is_now_third_on_the_alltime_list_of/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "卢卡·莫德里奇（Luka Modrić）现在是有史以来出场次数最多的外场球员名单中的第三名，仅次于克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）和莱昂内尔",
+    "candidate_summary_zh": "如果Reddit未以全清晰度显示图像，则此处为高清"
+  },
+  {
+    "item_id": "norm_467",
+    "source_id": "forum_reddit_soccer",
+    "source_name": "Reddit r/soccer",
+    "title": "Charity offers to meet James McClean over therapy comments. McClean recently said \"As a man I see that as weakness. I see it as a weakness that I’d have to speak to someone about my feelings; my emotions.\"",
+    "summary": "submitted by /u/TherewiIlbegoals [link] [comments]",
+    "url": "https://www.reddit.com/r/soccer/comments/1x9vq8s/charity_offers_to_meet_james_mcclean_over_therapy/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "慈善机构主动提出与詹姆斯·麦克莱恩（James McClean）见面，讨论治疗意见。McClean最近说，作为一个男人，我认为这是弱点。我认为这是一个弱点，我必须和别人谈谈我的感受；我的情绪",
+    "candidate_summary_zh": "提交者/u/TherewiIlbegoals [link] [comments]"
+  },
+  {
+    "item_id": "norm_486",
+    "source_id": "forum_reddit_football",
+    "source_name": "Reddit r/football",
+    "title": "Napoli: De Bruyne-Allegri Tension, Shouts and Gestures on the Pitch – Here's What Happened",
+    "summary": "https://www.gazzetta.it/en/football/teams/napoli/news/14-10-2026/allegri-de-bruyne-row-what-happened-and-what-was-said.shtml \"Max spent much of the first half shouting \"Kevin, Kevin\" to get the attention of his most talented player. He wanted more from him; he wanted him to drop deeper into a playmaking role to find new avenues of attack and free up McTominay closer to goal. But Kevin didn't respond, he didn't even turn to meet his manager's gaze\" submitted by /u/lochshoogly [link] [comments]",
+    "url": "https://www.reddit.com/r/football/comments/1x5t19h/napoli_de_bruyneallegri_tension_shouts_and/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "那不勒斯： De Bruyne-Allegri球场上的紧张气氛、呼喊和手势",
+    "candidate_summary_zh": "https://www.gazzetta.it/en/football/teams/napoli/news/14-10-2026/allegri-de-bruyne-row-what-happened-and-what-was-said.shtml Max在上半场大部分时间都在喊凯文，凯文，以引起他最有才华的球员的注意"
+  },
+  {
+    "item_id": "norm_489",
+    "source_id": "forum_reddit_football",
+    "source_name": "Reddit r/football",
+    "title": "Match Thread: Bodø / Glimt vs Borussia Dortmund | Champions League | League Stage | 14 Oct 19:00 UTC",
+    "summary": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
+    "url": "https://www.reddit.com/r/football/comments/1x5y7no/match_thread_bod%C3%B8_glimt_vs_borussia_dortmund/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "比赛主题： Bodø/Glimt vs Borussia Dortmund |冠军联赛|联赛阶段| 10月14日19:00 UTC",
+    "candidate_summary_zh": "This post contains content not supported on old Reddit"
+  },
+  {
+    "item_id": "norm_495",
+    "source_id": "forum_reddit_worldcup",
+    "source_name": "Reddit r/worldcup",
+    "title": "Tyler Adams has officially been named as the new captain of the #USMNT by Mauricio Pochettino. 🇺🇸©️",
+    "summary": "submitted by /u/limitlesshamster [link] [comments]",
+    "url": "https://www.reddit.com/r/ussoccer/comments/1ww75k4/tyler_adams_has_officially_been_named_as_the_new/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Tyler Adams正式被Mauricio Pochettino任命为# USMNT的新队长。🇺🇸©️",
+    "candidate_summary_zh": "提交者/u/limitlesshamster [link] [comments]"
+  },
+  {
+    "item_id": "norm_496",
+    "source_id": "forum_reddit_worldcup",
+    "source_name": "Reddit r/worldcup",
+    "title": "Since Mauricio Pochettino took over, the USMNT have faced six CONMEBOL teams in seven matches. They’ve won six of those and drawn one, scoring 23 goals and conceding eight. Great record so far.",
+    "summary": "submitted by /u/antoniok95 [link] [comments]",
+    "url": "https://www.reddit.com/r/ussoccer/comments/1wvwzzh/since_mauricio_pochettino_took_over_the_usmnt/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "自毛里西奥·波切蒂诺（Mauricio Pochettino）接任以来， USMNT已经在七场比赛中面对六支CONMEBOL球队。他们赢得了其中的六场比赛，并取得了一场比赛，打入了23个进球，并承认了8个进球。迄今为止的良好记录",
+    "candidate_summary_zh": "submitted by /u/antoniok95 [link] [comments]"
+  },
+  {
+    "item_id": "norm_500",
+    "source_id": "forum_reddit_worldcup",
+    "source_name": "Reddit r/worldcup",
+    "title": "Rebecca Lowe to present Netflix’s Women’s World Cup coverage as lead host",
+    "summary": "submitted by /u/Ok-Soil-5133 [link] [comments]",
+    "url": "https://www.reddit.com/r/ussoccer/comments/1wv5i6r/rebecca_lowe_to_present_netflixs_womens_world_cup/",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Rebecca Lowe将作为首席主持人介绍Netflix的女足世界杯报道",
+    "candidate_summary_zh": "提交者/u/Ok-Soil-5133 [link] [comments]"
   },
   {
     "item_id": "norm_618",
