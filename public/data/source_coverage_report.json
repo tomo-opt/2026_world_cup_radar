@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-20T14:33:55.759Z",
+  "generated_at": "2026-10-20T18:44:55.403Z",
   "total_sources": 102,
   "enabled_sources": 102,
-  "success_sources": 84,
-  "failed_sources": 18,
-  "included_in_frontend_sources": 8,
-  "success_rate": 82.35,
+  "success_sources": 83,
+  "failed_sources": 19,
+  "included_in_frontend_sources": 16,
+  "success_rate": 81.37,
   "target_success_rate": 60,
   "items": [
     {
@@ -558,12 +558,13 @@
       "crawl_mode": "html_list",
       "attempted_strategies": [
         "html_list",
-        "json_ld"
+        "json_ld",
+        "sitemap"
       ],
-      "successful_strategy": "html_list",
+      "successful_strategy": null,
       "fetched_count": 25,
-      "valid_items_count": 24,
-      "discarded_count": 5,
+      "valid_items_count": 0,
+      "discarded_count": 0,
       "discovered_feeds": [
         "https://www.theguardian.com/football/world-cup-2026/rss",
         "https://www.theguardian.com/feed",
@@ -576,11 +577,11 @@
         "https://www.theguardian.com/feed/"
       ],
       "discovered_sitemaps": [],
-      "status": "ok",
-      "failure_category": null,
-      "failure_reason": null,
-      "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "status": "partial",
+      "failure_category": "html_parse_no_items",
+      "failure_reason": "No usable HTML items found",
+      "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
+      "included_in_frontend": true
     },
     {
       "source_id": "media_guardian_football",
@@ -595,7 +596,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 30,
+      "fetched_count": 28,
       "valid_items_count": 30,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -623,8 +624,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 23,
-      "discarded_count": 17,
+      "valid_items_count": 20,
+      "discarded_count": 20,
       "discovered_feeds": [
         "https://www.skysports.com/feed",
         "https://www.skysports.com/rss",
@@ -640,7 +641,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_sky_sports_football_news",
@@ -657,8 +658,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 16,
-      "valid_items_count": 6,
-      "discarded_count": 6,
+      "valid_items_count": 8,
+      "discarded_count": 10,
       "discovered_feeds": [
         "https://www.skysports.com/feed",
         "https://www.skysports.com/rss",
@@ -1151,7 +1152,7 @@
       "failure_category": null,
       "failure_reason": "HTTP 429",
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "social_mastodon_worldcup",
@@ -1177,7 +1178,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "social_mastodon_fifaworldcup",
@@ -1203,7 +1204,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "social_mastodon_worldcup2026",
@@ -1229,7 +1230,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "social_mastodon_football",
@@ -1244,7 +1245,7 @@
         "rss_direct"
       ],
       "successful_strategy": "rss_direct",
-      "fetched_count": 20,
+      "fetched_count": 18,
       "valid_items_count": 20,
       "discarded_count": 0,
       "discovered_feeds": [
@@ -1372,8 +1373,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 24,
-      "valid_items_count": 6,
-      "discarded_count": 21,
+      "valid_items_count": 8,
+      "discarded_count": 18,
       "discovered_feeds": [
         "https://www.fourfourtwo.com/feeds.xml",
         "https://www.fourfourtwo.com/feeds/articletype/news",
@@ -1478,8 +1479,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 22,
-      "discarded_count": 22,
+      "valid_items_count": 21,
+      "discarded_count": 21,
       "discovered_feeds": [
         "https://sports.yahoo.com/rss/",
         "https://sports.yahoo.com/feed",
@@ -1624,7 +1625,7 @@
       "failure_category": "html_parse_no_items",
       "failure_reason": "No usable HTML items found",
       "next_action": "建议补充站点专用 selector、JSON-LD 或 sitemap 规则。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "media_fox_sports_world_cup",
@@ -1692,7 +1693,7 @@
       "failure_category": null,
       "failure_reason": null,
       "next_action": "已抓到有效条目，可继续优化相关性。",
-      "included_in_frontend": false
+      "included_in_frontend": true
     },
     {
       "source_id": "google_trends_sports_au",
@@ -2691,7 +2692,7 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 25,
-      "valid_items_count": 16,
+      "valid_items_count": 14,
       "discarded_count": 20,
       "discovered_feeds": [
         "https://www.beinsports.com/feed",
@@ -2726,7 +2727,7 @@
       "successful_strategy": "html_list",
       "fetched_count": 23,
       "valid_items_count": 17,
-      "discarded_count": 8,
+      "discarded_count": 11,
       "discovered_feeds": [
         "https://supersport.com/feed",
         "https://supersport.com/rss",
@@ -2759,8 +2760,8 @@
       ],
       "successful_strategy": "html_list",
       "fetched_count": 22,
-      "valid_items_count": 24,
-      "discarded_count": 3,
+      "valid_items_count": 23,
+      "discarded_count": 2,
       "discovered_feeds": [
         "https://www.abola.pt/rss-articles.xml",
         "https://www.abola.pt/feed",
