@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
+    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
   },
   {
     "item_id": "norm_4",
@@ -76,6 +76,19 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实",
     "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
+  },
+  {
+    "item_id": "norm_31",
+    "source_id": "media_espn_soccer_worldcup",
+    "source_name": "ESPN Soccer Worldcup Page",
+    "title": "USMNT's final World Cup roster has Pochettino taking risks",
+    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
+    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
+    "candidate_summary_zh": "USMNT教练毛里西奥·波切蒂诺（Mauricio Pochettino）忠于自己，但他在中场的风险可能会在世界杯上产生多米诺骨牌效应"
   },
   {
     "item_id": "norm_42",
@@ -126,24 +139,24 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "世界杯",
-    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+    "candidate_event_title_zh": "FIFA World Cup 2026",
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
   },
   {
-    "item_id": "norm_86",
+    "item_id": "norm_84",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Paz, Fabregas and Como teach Man Utd a lesson",
-    "summary": "Serie A success story Como have gone from Serie D to the Champions League - now they have taught Manchester United a lesson in Europe.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqrly2d6jnp7o?at_medium=RSS&at_campaign=rss",
+    "title": "Goal, assist... goal-kick - Kane underlines Ballon d'Or credentials",
+    "summary": "Why Declan Rice backs his England team-mate Harry Kane to win the Ballon d'Or after Arsenal's draw with Bayern Munich in the Champions League.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck79p7qq1q9ro?at_medium=RSS&at_campaign=rss",
     "language": "en",
-    "reason": "general_discussion_only",
+    "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Paz、Fabregas和COMO教会曼联一课",
-    "candidate_summary_zh": "Serie A success story Como have gone from Serie D to the Champions League - now they have taught Manchester United a lesson in Europe"
+    "candidate_event_title_zh": "进球、助攻...进球踢球- Kane强调Ballon dOr凭据",
+    "candidate_summary_zh": "为什么德克兰·赖斯（Declan Rice）在阿森纳队与拜仁慕尼黑队在欧洲冠军联赛中平局后，支持他的英格兰队友哈里·凯恩（Harry Kane）赢得Ballon d"
   },
   {
-    "item_id": "norm_97",
+    "item_id": "norm_100",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "McTominay scores twice as Napoli beat Bodo/Glimt",
@@ -153,33 +166,46 @@
     "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "McTominay的得分是那不勒斯击败Bodo/Glimt的两倍",
-    "candidate_summary_zh": "Scott McTominay scores his first goals since undergoing heart surgery as Napoli earn a thrilling 4-3 victory over Bodo/Glimt"
+    "candidate_summary_zh": "斯科特·麦克托米奈（Scott McTominay）自接受心脏手术以来首次进球，那不勒斯以4比3击败博多/格里姆特（Bodo/Glimt）"
   },
   {
-    "item_id": "norm_99",
+    "item_id": "norm_101",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "Isco the difference as Betis continue winning start against Feyenoord",
-    "summary": "Real Betis secure their third win on the bounce in the Champions League as Isco converts a penalty in the 59th minute against Feyenoord.",
-    "url": "https://www.bbc.co.uk/sport/football/videos/ckp8gjl3epr7o?at_medium=RSS&at_campaign=rss",
+    "title": "Is it 'phenomenal' Kane's year to lift the Ballon d'Or?",
+    "summary": "Stephen Warnock, Nedum Onuoha and Lars Sivertsen look at whether England captain and Bayern Munich forward Harry Kane should lift the Ballon d'Or following a \"phenomenal\" season.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/crpdg21y070jo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "举起Ballon dOr是否是非凡的Kanes年？",
+    "candidate_summary_zh": "Stephen Warnock, Nedum Onuoha and Lars Sivertsen look at whether England captain and Bayern Munich forward Harry Kane should lift the Ballon dOr following a phenomenal season"
+  },
+  {
+    "item_id": "norm_103",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Club Brugge ease to comfortable win over Lens",
+    "summary": "Club Brugge pick up their second straight win in the Champions League with an impressive 3-0 victory over Lens.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c50me40n871zo?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "topic_title_low_quality",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Isco的差异，因为Betis继续赢得对阵Feyenoord的开局",
-    "candidate_summary_zh": "皇家贝蒂斯在欧洲冠军联赛中获得了第三场胜利，因为伊斯科在对阵费耶诺德的第59分钟转换了点球"
+    "candidate_event_title_zh": "Club Brugge轻松赢得Lens的舒适体验",
+    "candidate_summary_zh": "Club Brugge pick up their second straight win in the Champions League with an impressive 3-0 victory over Lens"
   },
   {
-    "item_id": "norm_107",
+    "item_id": "norm_105",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "No Haaland, no problem - can Foden be Man City's alternative goalscorer?",
-    "summary": "Phil Foden's magnificent man-of-the-match display in Manchester City's Champions League win against AEK Athens serves as a reminder of his talent and ability to influence games.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cqx2vjdnwkyyo?at_medium=RSS&at_campaign=rss",
+    "title": "Football Daily",
+    "summary": "Reaction as Manchester United lose 4-1 at Como in the Champions League",
+    "url": "https://www.bbc.co.uk/sounds/play/p0phxkv1?at_medium=RSS&at_campaign=rss",
     "language": "en",
-    "reason": "topic_title_low_quality",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "没有Haaland，没有问题- Foden可以成为Man City的替代射手吗？",
-    "candidate_summary_zh": "Phil Fodens magnificent man-of-the-match display in Manchester Citys Champions League win against AEK Athens serves as a reminder of his talent and ability to influence games"
+    "candidate_event_title_zh": "足球日报",
+    "candidate_summary_zh": "曼联在冠军联赛中以4比1输给科莫时的反应"
   },
   {
     "item_id": "norm_109",
@@ -195,17 +221,17 @@
     "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
   },
   {
-    "item_id": "norm_120",
+    "item_id": "norm_113",
     "source_id": "media_guardian_football_worldcup2026",
     "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
-    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
+    "candidate_event_title_zh": "Cyle Larin的罢工释放了喜悦，将加拿大从“几乎”的诅咒中拯救出来",
+    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
   },
   {
     "item_id": "norm_131",
@@ -221,43 +247,30 @@
     "candidate_summary_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey"
   },
   {
-    "item_id": "norm_135",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "‘It doesn’t look good’: Arteta concerned as Saka limps off against Bayern Munich",
-    "summary": "‘A player off with really sharp pain is never good news’ Winger forced off 10 minutes into Arsenal’s 2-2 draw Mikel Arteta made no attempt to conceal his concern over the quad injury that forced Bukayo Saka out of Arsenal’s 2-2 Champions League draw at Bayern Munich, saying it did not “look good at all”. The manager was delighted with the fight that his players showed, Declan Rice earning a deserved point with an 82nd-minute equaliser. Arsenal had led through Eberechi Eze, who came on in the 10th minute for the stricken Saka, before Harry Kane took centre stage. The Bayern striker set up Alphonso Davies for 1-1 before giving his team the lead from the penalty spot. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/21/champions-league-bayern-munich-arsenal-mikel-arteta-bukayo-saka-injury",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "“看起来不太好”： Arteta担心Saka一瘸一拐地对阵拜仁慕尼黑",
-    "candidate_summary_zh": "“一个真正剧烈疼痛的球员绝不是好消息”边锋在阿森纳2-2平局中被迫离开10分钟米克尔·阿尔特塔（Mikel Arteta）没有试图掩饰他对四分卫伤病的担忧，这种伤病迫使布卡约·萨卡（Bukayo Saka）离开阿森纳在拜仁慕尼黑的2-2冠军联赛平局，称这看起来一点也不好看"
-  },
-  {
-    "item_id": "norm_137",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Champions League: Silva sparks Real Madrid’s demolition of Leipzig as Lask stun Sporting",
-    "summary": "Bernardo Silva opens scoring as Madrid win 4-1 Galatasaray sweep past Lille; 10-man Inter edge Shakhtar Real Madrid claimed a third Champions League victory in as many games by thrashing RB Leipzig 4-1 on Wednesday, with Kylian Mbappé and Yan Diomande among the goals for José Mourinho’s side. Bernardo Silva opened the scoring for Madrid from close range towards the end of a tight first half, with Arda Guler doubling the record 15-time European champions’ advantage soon after the interval. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/21/champions-league-roundup-real-madrid-leipzig-inter-shakhtar-sporting-lask-brugge-lens-betis-feyenoord",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "欧洲冠军联赛：席尔瓦引发了皇家马德里拆除莱比锡的LASK STUN Sporting",
-    "candidate_summary_zh": "贝尔纳多·席尔瓦（Bernardo Silva）在马德里以4比1战胜加拉塔萨雷（Galatasaray）横扫里尔（Lille）时开始得分； 10人组成的国际边缘沙赫塔尔皇家马德里（Inter edge Shakhtar Real Madrid）在周三以4比1击败莱比锡（RB Leipzig）夺得冠军联赛的第三场胜利， Kylian Mbappé和Yan Diomande是何塞·穆里尼奥（J"
-  },
-  {
     "item_id": "norm_139",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Cristiano Ronaldo asked for punishment ‘without mitigation’, then fought to cut it",
-    "summary": "He presented several arguments after Portugal walkout Inquiry chose to halve, then halve again his punishment Cristiano Ronaldo successfully fought to reduce his punishment for walking out on a Portugal training camp, after saying publicly that his sanction should be imposed “without mitigating circumstances”. After leaving the training camp in Denmark last month, Ronaldo said in a lengthy statement on social media that he should be punished as the Portuguese Football Federation saw fit and that his role as captain constituted “an aggravating factor”. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/21/cristiano-ronaldo-punishment-portugal-walkout-without-mitigation-fought-to-cut-it",
+    "title": "Enzo Maresca says honest talks have revitalised Foden’s Manchester City form",
+    "summary": "Player has scored four goals in last two games for City Aston Villa the next test for Premier League leaders Enzo Maresca has revealed he held heart-to-heart conversations with Phil Foden to help the midfielder back to his best. Foden has struggled over the past two years but has scored four goals in his past two games to give hope he can recapture the form that won him the a Professional Footballers’ Association players’ player of the year award in 2023-24. City travel to Aston Villa on Saturday lunchtime aiming to continue their perfect Premier League start under Maresca, with Erling Haaland fit after sitting on the bench for Wednesday’s Champions League win over AEK Athens. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/22/enzo-maresca-phil-foden-manchester-city-form",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "恩佐·马雷斯卡（Enzo Maresca）表示，诚实的会谈重振了福登的曼城形态",
+    "candidate_summary_zh": "Player has scored four goals in last two games for City Aston Villa the next test for Premier League leaders Enzo Maresca has revealed he held heart-to-heart conversations with Phil Foden to help the midfielder back to his best"
+  },
+  {
+    "item_id": "norm_143",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "‘We can go all the way’: Jonas Eidevall on life at San Diego Wave and lessons learned from Arsenal",
+    "summary": "The Swede’s team are second in the NWSL and hope to create special memories at their Snapdragon Stadium “I love the ocean,” Jonas Eidevall says, and he references walks along the beach at Del Mar. “People are very relaxed, life is lived at a slower pace here. I’m a very simple person. I like to read a book, go to the gym and spend time with my wife and kids, that’s sort of all I need.” The former Arsenal head coach is revelling in a calmer world as the head coach of San Diego Wave but it is not merely the beaches that are lowering his stress levels; his team are on a five-game winning streak in the NWSL and sit second in the table, one point off top spot, with two matches to go before the playoffs. Winning feels good and the club are targeting silverware, as he tells the Guardian: “It would mean everything. There are no guarantees in the playoffs, but the exciting part is saying: ‘We can also go all the way’ – that’s a possibility for us and we need to believe.” Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/21/jonas-eidevall-interview-san-diego-wave-nwsl-arsenal",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）要求“没有减轻”的惩罚，然后努力削减它",
-    "candidate_summary_zh": "在葡萄牙罢工调查选择减半后，他提出了几个论点，然后再次减半他的惩罚克里斯蒂亚诺·罗纳尔多在公开表示他的制裁应该在没有减轻情节的情况下实施后，成功地为减少他在葡萄牙训练营罢工的惩罚而奋斗"
+    "candidate_event_title_zh": "“我们可以一路走下去”：乔纳斯·艾德瓦尔（Jonas Eidevall）讲述圣地亚哥浪潮的生活以及从阿森纳学到的经验教训",
+    "candidate_summary_zh": "The Swede’s team are second in the NWSL and hope to create special memories at their Snapdragon Stadium I love the ocean, Jonas Eidevall says, and he references walks along the beach at Del Mar"
   },
   {
     "item_id": "norm_164",
@@ -271,6 +284,19 @@
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "Football Games, Results, Scores, Transfers, News | Sky Sports",
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
+  },
+  {
+    "item_id": "norm_165",
+    "source_id": "media_sky_sports_football",
+    "source_name": "Sky Sports Football",
+    "title": "World Cup 2026: USA 4-1 Paraguay - Folarin Balogun at double as Mauricio Pochettino's hosts deliver statement victory",
+    "summary": "The USA kicked off their World Cup on home soil with their joint best-ever victory in the tournament's history as a sizzling performance saw them thrash Paraguay 4-1 in Los Angeles.",
+    "url": "https://www.skysports.com/football/united-states-of-america-vs-paraguay/report/549769",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "2026年世界杯：美国4-1巴拉圭- Folarin Balogun作为Mauricio Pochettinos的主持人发表声明胜利",
+    "candidate_summary_zh": "The USA kicked off their World Cup on home soil with their joint best-ever victory in the tournaments history as a sizzling performance saw them thrash Paraguay 4-1 in Los Angeles"
   },
   {
     "item_id": "norm_189",
@@ -309,7 +335,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Fútbol en AS.com - AS.com",
-    "candidate_summary_zh": "来自一、二级足球队、冠军联赛、欧洲联赛、国王杯、国家队、英超联赛等的新闻、结果和现场表演"
+    "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
   },
   {
     "item_id": "norm_276",
@@ -455,7 +481,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_619",
+    "item_id": "norm_618",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -468,7 +494,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_644",
+    "item_id": "norm_643",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -481,7 +507,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_669",
+    "item_id": "norm_668",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -494,7 +520,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_682",
+    "item_id": "norm_681",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -507,7 +533,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_693",
+    "item_id": "norm_692",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -520,7 +546,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_695",
+    "item_id": "norm_694",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -533,7 +559,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_696",
+    "item_id": "norm_695",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -546,7 +572,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_697",
+    "item_id": "norm_696",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -559,7 +585,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_698",
+    "item_id": "norm_697",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -572,7 +598,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_699",
+    "item_id": "norm_698",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -585,7 +611,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_700",
+    "item_id": "norm_699",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -598,7 +624,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_725",
+    "item_id": "norm_724",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -611,7 +637,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_736",
+    "item_id": "norm_735",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -624,7 +650,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_738",
+    "item_id": "norm_737",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -637,7 +663,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_752",
+    "item_id": "norm_751",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -650,7 +676,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_753",
+    "item_id": "norm_752",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -663,7 +689,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_778",
+    "item_id": "norm_777",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -676,7 +702,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_803",
+    "item_id": "norm_802",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -689,7 +715,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_828",
+    "item_id": "norm_827",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -702,7 +728,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_853",
+    "item_id": "norm_852",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -715,7 +741,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_878",
+    "item_id": "norm_877",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -728,7 +754,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_900",
+    "item_id": "norm_899",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -741,7 +767,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_901",
+    "item_id": "norm_900",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -754,7 +780,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_915",
+    "item_id": "norm_914",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
