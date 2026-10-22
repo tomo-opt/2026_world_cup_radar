@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
+    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
   },
   {
     "item_id": "norm_4",
@@ -48,8 +48,21 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
+    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
     "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
   },
   {
     "item_id": "norm_27",
@@ -65,17 +78,17 @@
     "candidate_summary_zh": "Roldan：与巴拉圭相比， USMNT不能太诚实"
   },
   {
-    "item_id": "norm_31",
+    "item_id": "norm_42",
     "source_id": "media_espn_soccer_worldcup",
     "source_name": "ESPN Soccer Worldcup Page",
-    "title": "USMNT's final World Cup roster has Pochettino taking risks",
-    "summary": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup.",
-    "url": "https://www.espn.com/soccer/story/_/id/48882849/usmnt-final-world-cup-roster-pochettino-taking-risks",
+    "title": "Inside Nike's bet on soccer kits as fashion language",
+    "summary": "",
+    "url": "https://andscape.com/features/nike-world-cup-kits-soccer-fashion-usa-england-france-nigeria/",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "USMNT的最终世界杯名单让Pochettino承担风险",
-    "candidate_summary_zh": "USMNT coach Mauricio Pochettino stayed true to himself, but his risks in the midfield could have a domino effect at the World Cup"
+    "candidate_event_title_zh": "Inside Nikes押注足球套装作为时尚语言",
+    "candidate_summary_zh": "Inside Nikes押注足球套装作为时尚语言"
   },
   {
     "item_id": "norm_50",
@@ -100,8 +113,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
     "item_id": "norm_54",
@@ -113,8 +126,60 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026",
+    "candidate_event_title_zh": "世界杯",
     "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
+  },
+  {
+    "item_id": "norm_86",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Paz, Fabregas and Como teach Man Utd a lesson",
+    "summary": "Serie A success story Como have gone from Serie D to the Champions League - now they have taught Manchester United a lesson in Europe.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqrly2d6jnp7o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Paz、Fabregas和COMO教会曼联一课",
+    "candidate_summary_zh": "Serie A success story Como have gone from Serie D to the Champions League - now they have taught Manchester United a lesson in Europe"
+  },
+  {
+    "item_id": "norm_97",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "McTominay scores twice as Napoli beat Bodo/Glimt",
+    "summary": "Scott McTominay scores his first goals since undergoing heart surgery as Napoli earn a thrilling 4-3 victory over Bodo/Glimt.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cq99zg052g38o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "McTominay的得分是那不勒斯击败Bodo/Glimt的两倍",
+    "candidate_summary_zh": "Scott McTominay scores his first goals since undergoing heart surgery as Napoli earn a thrilling 4-3 victory over Bodo/Glimt"
+  },
+  {
+    "item_id": "norm_99",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Isco the difference as Betis continue winning start against Feyenoord",
+    "summary": "Real Betis secure their third win on the bounce in the Champions League as Isco converts a penalty in the 59th minute against Feyenoord.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/ckp8gjl3epr7o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Isco的差异，因为Betis继续赢得对阵Feyenoord的开局",
+    "candidate_summary_zh": "皇家贝蒂斯在欧洲冠军联赛中获得了第三场胜利，因为伊斯科在对阵费耶诺德的第59分钟转换了点球"
+  },
+  {
+    "item_id": "norm_107",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "No Haaland, no problem - can Foden be Man City's alternative goalscorer?",
+    "summary": "Phil Foden's magnificent man-of-the-match display in Manchester City's Champions League win against AEK Athens serves as a reminder of his talent and ability to influence games.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqx2vjdnwkyyo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "没有Haaland，没有问题- Foden可以成为Man City的替代射手吗？",
+    "candidate_summary_zh": "Phil Fodens magnificent man-of-the-match display in Manchester Citys Champions League win against AEK Athens serves as a reminder of his talent and ability to influence games"
   },
   {
     "item_id": "norm_109",
@@ -127,7 +192,72 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
-    "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
+    "candidate_summary_zh": "世界领先的自由主义之声《卫报》的最新2026年世界杯新闻、评论和分析"
+  },
+  {
+    "item_id": "norm_120",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
+    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
+  },
+  {
+    "item_id": "norm_131",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Thomas Partey out of Ghana’s World Cup opener after visa application to Canada refused",
+    "summary": "",
+    "url": "https://www.theguardian.com/football/2026/jun/12/thomas-partey-ghana-world-cup-visa-application-to-canada-refused",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey",
+    "candidate_summary_zh": "在加拿大签证申请被拒绝后，加纳世界杯揭幕战的Thomas Partey"
+  },
+  {
+    "item_id": "norm_135",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "‘It doesn’t look good’: Arteta concerned as Saka limps off against Bayern Munich",
+    "summary": "‘A player off with really sharp pain is never good news’ Winger forced off 10 minutes into Arsenal’s 2-2 draw Mikel Arteta made no attempt to conceal his concern over the quad injury that forced Bukayo Saka out of Arsenal’s 2-2 Champions League draw at Bayern Munich, saying it did not “look good at all”. The manager was delighted with the fight that his players showed, Declan Rice earning a deserved point with an 82nd-minute equaliser. Arsenal had led through Eberechi Eze, who came on in the 10th minute for the stricken Saka, before Harry Kane took centre stage. The Bayern striker set up Alphonso Davies for 1-1 before giving his team the lead from the penalty spot. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/21/champions-league-bayern-munich-arsenal-mikel-arteta-bukayo-saka-injury",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "“看起来不太好”： Arteta担心Saka一瘸一拐地对阵拜仁慕尼黑",
+    "candidate_summary_zh": "“一个真正剧烈疼痛的球员绝不是好消息”边锋在阿森纳2-2平局中被迫离开10分钟米克尔·阿尔特塔（Mikel Arteta）没有试图掩饰他对四分卫伤病的担忧，这种伤病迫使布卡约·萨卡（Bukayo Saka）离开阿森纳在拜仁慕尼黑的2-2冠军联赛平局，称这看起来一点也不好看"
+  },
+  {
+    "item_id": "norm_137",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Champions League: Silva sparks Real Madrid’s demolition of Leipzig as Lask stun Sporting",
+    "summary": "Bernardo Silva opens scoring as Madrid win 4-1 Galatasaray sweep past Lille; 10-man Inter edge Shakhtar Real Madrid claimed a third Champions League victory in as many games by thrashing RB Leipzig 4-1 on Wednesday, with Kylian Mbappé and Yan Diomande among the goals for José Mourinho’s side. Bernardo Silva opened the scoring for Madrid from close range towards the end of a tight first half, with Arda Guler doubling the record 15-time European champions’ advantage soon after the interval. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/21/champions-league-roundup-real-madrid-leipzig-inter-shakhtar-sporting-lask-brugge-lens-betis-feyenoord",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "欧洲冠军联赛：席尔瓦引发了皇家马德里拆除莱比锡的LASK STUN Sporting",
+    "candidate_summary_zh": "贝尔纳多·席尔瓦（Bernardo Silva）在马德里以4比1战胜加拉塔萨雷（Galatasaray）横扫里尔（Lille）时开始得分； 10人组成的国际边缘沙赫塔尔皇家马德里（Inter edge Shakhtar Real Madrid）在周三以4比1击败莱比锡（RB Leipzig）夺得冠军联赛的第三场胜利， Kylian Mbappé和Yan Diomande是何塞·穆里尼奥（J"
+  },
+  {
+    "item_id": "norm_139",
+    "source_id": "media_guardian_football",
+    "source_name": "The Guardian Football",
+    "title": "Cristiano Ronaldo asked for punishment ‘without mitigation’, then fought to cut it",
+    "summary": "He presented several arguments after Portugal walkout Inquiry chose to halve, then halve again his punishment Cristiano Ronaldo successfully fought to reduce his punishment for walking out on a Portugal training camp, after saying publicly that his sanction should be imposed “without mitigating circumstances”. After leaving the training camp in Denmark last month, Ronaldo said in a lengthy statement on social media that he should be punished as the Portuguese Football Federation saw fit and that his role as captain constituted “an aggravating factor”. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/21/cristiano-ronaldo-punishment-portugal-walkout-without-mitigation-fought-to-cut-it",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）要求“没有减轻”的惩罚，然后努力削减它",
+    "candidate_summary_zh": "在葡萄牙罢工调查选择减半后，他提出了几个论点，然后再次减半他的惩罚克里斯蒂亚诺·罗纳尔多在公开表示他的制裁应该在没有减轻情节的情况下实施后，成功地为减少他在葡萄牙训练营罢工的惩罚而奋斗"
   },
   {
     "item_id": "norm_164",
@@ -179,7 +309,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Fútbol en AS.com - AS.com",
-    "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
+    "candidate_summary_zh": "来自一、二级足球队、冠军联赛、欧洲联赛、国王杯、国家队、英超联赛等的新闻、结果和现场表演"
   },
   {
     "item_id": "norm_276",
@@ -312,32 +442,6 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_435",
-    "source_id": "media_ole_argentina_mundial 2026",
-    "source_name": "Olé Argentina Mundial 2026 Page",
-    "title": "Las sensaciones de Dibu Martínez: del \"está todo bien\" al dolor que sintió en la práctica",
-    "summary": "En la práctica abierta, el arquero de la Selección levantó el pulgar hacia el sector de las cámaras y dejó un mensaje optimista.",
-    "url": "https://www.ole.com.ar/seleccion/dibumartinez-seleccionargentina-lesion-recuperacion_0_n7m3aEhhQx.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "迪布·马丁内斯（Dibu Martínez）的感觉：他在实践中感受到的痛苦一切都很好",
-    "candidate_summary_zh": "在公开练习中，国家队守门员竖起大拇指向相机领域，并留下了乐观的信息"
-  },
-  {
-    "item_id": "norm_443",
-    "source_id": "media_ole_argentina_mundial 2026",
-    "source_name": "Olé Argentina Mundial 2026 Page",
-    "title": "La opinión del Turco Mohamed: el buen debut de México y su camino posible hasta cuartos de final",
-    "summary": "El entrenador argentino que no para de ganar títulos en Toluca, analizó el debut del Tri y lo que viene.",
-    "url": "https://www.ole.com.ar/mundial/mundial-2026/opinion-turco-mohamed-mexico-debut-mundial-camino-cuartos-final_0_Bd0IrrscUp.html",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Turco Mohamed的意见：墨西哥的首次亮相及其进入四分之一决赛的可能途径",
-    "candidate_summary_zh": "El entrenador argentino que no para de ganar títulos en Toluca, analizó el debut del Tri y lo que viene"
-  },
-  {
     "item_id": "norm_444",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
@@ -349,175 +453,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Mundial 2026",
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
-  },
-  {
-    "item_id": "norm_447",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Como [1] - 0 Man United - Nico Paz 2'",
-    "summary": "submitted by /u/OptimusCloyster [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1xbssg7/como_1_0_man_united_nico_paz_2/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "COMO [1] - 0曼联- Nico Paz 2",
-    "candidate_summary_zh": "提交者/u/OptimusCloyster [link] [comments]"
-  },
-  {
-    "item_id": "norm_450",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Bruno Fernandes: \"It's the staff's decision to not press man-to-man and sometimes leave a little bit of space behind to get the ball in the first moment - to wait for them, to give them the ball. But sometimes when you give the ball too much to these teams they get confidence.\"",
-    "summary": "submitted by /u/Blodgharm [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1xbw76z/bruno_fernandes_its_the_staffs_decision_to_not/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "布鲁诺·费尔南德斯（Bruno Fernandes）：工作人员决定不按人对人，有时会留下一点空间在第一时间拿到球-等待他们，给他们球。但有时当你给这些球队太多球时，他们会获得信心",
-    "candidate_summary_zh": "提交者/u/Blodgharm [link] [comments]"
-  },
-  {
-    "item_id": "norm_457",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Bukayo Saka non-contact injury against Bayern Munich 10'",
-    "summary": "submitted by /u/xggq [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1xbwi2p/bukayo_saka_noncontact_injury_against_bayern/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Bukayo Saka对拜仁慕尼黑的非接触性伤害10",
-    "candidate_summary_zh": "提交者/u/xggq [link] [comments]"
-  },
-  {
-    "item_id": "norm_458",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Ashley Young \"I've worked with Conte at Inter: he's crazy. On the sideline you hear him non-stop. Training is intense, there's a lot of running, it's a little bit boring. Meetings were long, even up to 4 hours if we lost a game. If United sign him and players don't run, it's going to be a disaster\"",
-    "summary": "submitted by /u/PianoJealous307 [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1xbx6s7/ashley_young_ive_worked_with_conte_at_inter_hes/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Ashley Young Ive与国际米兰的Conte合作：他疯了。在场边，你可以不停地听到他的声音。训练很激烈，跑步很多，有点无聊。会议很长，如果我们输了一场比赛，甚至长达4个小时。如果曼联签下他，球员不跑，那将是一场灾难",
-    "candidate_summary_zh": "提交者/u/PianoJealous307 [link] [comments]"
-  },
-  {
-    "item_id": "norm_461",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Michael Carrick on captain Bruno Fernandes calling out his tactics of not pressing man to man: \"Well, we actually did half press man to man in the 2nd half, & then ended up conceding a goal from that. Whatever tactics or system, if you dont run forward and you dont run backwards, you aint gonna win\"",
-    "summary": ". submitted by /u/ChiefLeef22 [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1xbzdxd/michael_carrick_on_captain_bruno_fernandes/",
-    "language": "en",
-    "reason": "topic_title_low_quality",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "迈克尔·卡里克（Michael Carrick）对队长布鲁诺·费尔南德斯（Bruno Fernandes）大喊大叫：嗯，我们实际上在下半场半人半人，然后最终承认了进球。无论什么战术或系统，如果你不向前跑，不向后跑，你就不会赢",
-    "candidate_summary_zh": "提交者/u/ChiefLeef22 [link] [comments]"
-  },
-  {
-    "item_id": "norm_465",
-    "source_id": "forum_reddit_soccer",
-    "source_name": "Reddit r/soccer",
-    "title": "Como [2] - 0 Manchester Utd - T. Douvikas 49'",
-    "summary": "submitted by /u/eliseihado [link] [comments]",
-    "url": "https://www.reddit.com/r/soccer/comments/1xbu8mm/como_2_0_manchester_utd_t_douvikas_49/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "COMO [2] - 0曼联- T. Douvikas 49",
-    "candidate_summary_zh": "提交者/u/eliseihado [link] [comments]"
-  },
-  {
-    "item_id": "norm_490",
-    "source_id": "forum_reddit_football",
-    "source_name": "Reddit r/football",
-    "title": "Match Thread: Bodø / Glimt vs Borussia Dortmund | Champions League | League Stage | 14 Oct 19:00 UTC",
-    "summary": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/matchpal-live [link] [comments]",
-    "url": "https://www.reddit.com/r/football/comments/1x5y7no/match_thread_bod%C3%B8_glimt_vs_borussia_dortmund/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "比赛主题： Bodø/Glimt vs Borussia Dortmund |冠军联赛|联赛阶段| 10月14日19:00 UTC",
-    "candidate_summary_zh": "此帖子包含旧版Reddit不支持的内容"
-  },
-  {
-    "item_id": "norm_496",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Tyler Adams has officially been named as the new captain of the #USMNT by Mauricio Pochettino. 🇺🇸©️",
-    "summary": "submitted by /u/limitlesshamster [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1ww75k4/tyler_adams_has_officially_been_named_as_the_new/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Tyler Adams正式被Mauricio Pochettino任命为# USMNT的新队长。🇺🇸©️",
-    "candidate_summary_zh": "提交者/u/limitlesshamster [link] [comments]"
-  },
-  {
-    "item_id": "norm_497",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Since Mauricio Pochettino took over, the USMNT have faced six CONMEBOL teams in seven matches. They’ve won six of those and drawn one, scoring 23 goals and conceding eight. Great record so far.",
-    "summary": "submitted by /u/antoniok95 [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1wvwzzh/since_mauricio_pochettino_took_over_the_usmnt/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "自毛里西奥·波切蒂诺（Mauricio Pochettino）接任以来， USMNT已经在七场比赛中面对六支CONMEBOL球队。他们赢得了其中的六场比赛，并取得了一场比赛，打入了23个进球，并承认了8个进球。迄今为止的良好记录",
-    "candidate_summary_zh": "提交者/u/antoniok95 [link] [comments]"
-  },
-  {
-    "item_id": "norm_502",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Why has over-the-top to Hall had more success?",
-    "summary": "Not knocking Balogun, he's clearly one of our best players and I still want him getting the ball. But I've noticed that when we go direct and send it over the top specifically to Hall, it just seems to work more often. Is it his pace, his movement, something about his timing? Curious if others have noticed the same pattern, or if it's still too small a sample to mean much. submitted by /u/huejazz [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1ww7ubc/why_has_overthetop_to_hall_had_more_success/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "为什么Over-the-top to Hall取得了更大的成功？",
-    "candidate_summary_zh": "不敲Balogun，他显然是我们最好的球员之一，我仍然希望他得到球"
-  },
-  {
-    "item_id": "norm_503",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Chris Richards linked to Inter Milan transfer in January",
-    "summary": "submitted by /u/WackyHumanSlop [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1wv76uu/chris_richards_linked_to_inter_milan_transfer_in/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "克里斯·理查兹（Chris Richards）于1月份与国际米兰转会",
-    "candidate_summary_zh": "提交者/u/WackyHumanSlop [link] [comments]"
-  },
-  {
-    "item_id": "norm_509",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "Watched the game back",
-    "summary": "Honestly thought Dest had a (very) bad game against Chile after my first watch. Many people in this subreddit shared that opinion, however I checked the game back and come to the conclusion he just had an average performance. Definitely had his good moments aswell (the assist among others). He’s known to be really good against Mexico so I hope to see a banger performance from Serge against them✌️ submitted by /u/Key-Entertainer-5080 [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1wvcyrx/watched_the_game_back/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "回头看了比赛",
-    "candidate_summary_zh": "老实说，在我第一次观看比赛后， Dest对智利的比赛（非常）糟糕"
-  },
-  {
-    "item_id": "norm_513",
-    "source_id": "forum_reddit_worldcup",
-    "source_name": "Reddit r/worldcup",
-    "title": "When asked by The Athletic, Chris Richards had this to say about the clash with Chilean players last night: “If you mess with our family, this is what happens.” He also spoke on TV with TNT Sports, and said: “I mean you’re on our home soil. That’s not gonna fly.”",
-    "summary": "submitted by /u/antoniok95 [link] [comments]",
-    "url": "https://www.reddit.com/r/ussoccer/comments/1wu63pb/when_asked_by_the_athletic_chris_richards_had/",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "当被The Athletic询问时，克里斯·理查兹（Chris Richards）对昨晚与智利球员的冲突有这样的说法：如果你惹恼了我们的家人，这就是发生的事情。他还在电视上与TNT Sports进行了交谈，并说：我的意思是你在我们的家乡。那不会飞",
-    "candidate_summary_zh": "提交者/u/antoniok95 [link] [comments]"
   },
   {
     "item_id": "norm_619",
