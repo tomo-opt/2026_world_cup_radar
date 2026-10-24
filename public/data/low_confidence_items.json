@@ -9,7 +9,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
+    "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
     "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
   },
   {
@@ -22,7 +22,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Scores & Fixtures",
+    "candidate_event_title_zh": "2026年世界杯足球赛比分和赛程",
     "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合现场比分、成绩和即将举行的比赛"
   },
   {
@@ -36,7 +36,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "天空体育FIFA世界杯比分和比赛",
-    "candidate_summary_zh": "用于交叉检查比赛时间和比赛的辅助夹具来源；如果FIFA页面难以解析，则非常有用"
+    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
   },
   {
     "item_id": "norm_4",
@@ -49,7 +49,20 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
+  },
+  {
+    "item_id": "norm_11",
+    "source_id": "media_espn_soccer",
+    "source_name": "ESPN Soccer",
+    "title": "Cristiano Ronaldo goal tracker: Road to 1,000 career goals",
+    "summary": "With Cristiano Ronaldo on the quest to score 1,000 goals, ESPN provides goal-by-goal analysis of the Portuguese superstar's quest.",
+    "url": "https://www.espn.com/soccer/story/_/id/46751020/cristiano-ronaldo-goal-tracker-road-1000-career-goals",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）进球追踪器：通往1000个职业目标的道路",
+    "candidate_summary_zh": "随着克里斯蒂亚诺·罗纳尔多（Cristiano Ronaldo）追求1000个进球， ESPN提供了对葡萄牙超级巨星追求的逐球分析"
   },
   {
     "item_id": "norm_27",
@@ -113,7 +126,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
+    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
     "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
   },
   {
@@ -128,6 +141,58 @@
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "FIFA World Cup 2026",
     "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
+  },
+  {
+    "item_id": "norm_71",
+    "source_id": "media_bbc_sport_football_worldcup",
+    "source_name": "BBC Sport Football Worldcup Page",
+    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
+    "summary": "",
+    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
+    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
+  },
+  {
+    "item_id": "norm_85",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Emery's Villa 2.0 reboot restores optimism before Man City meeting",
+    "summary": "Unai Emery's impressive 2.0 reboot has Aston Villa's fans in buoyant mood on the fourth anniversary of his appointment, says chief football writer Phil McNulty.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwg7xvz8e8dpo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Emerys Villa 2.0重新启动，在曼城会议之前恢复乐观情绪",
+    "candidate_summary_zh": "Unai Emerys impressive 2.0 reboot has Aston Villas fans in buoyant mood on the fourth anniversary of his appointment, says chief football writer Phil McNulty"
+  },
+  {
+    "item_id": "norm_96",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "'We had to scrap' - O'Neil praises Ipswich resilience after Forest draw",
+    "summary": "Ipswich manager Gary O'Neil praises his side's ability to \"dig in and fight\" as his side come from behind to earn a 1-1 draw against Nottingham Forest at Portman Road in the Premier League.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/ckrey3ndyyw0o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "我们不得不报废- ONeil称赞Ipswich在森林平局后的复原力",
+    "candidate_summary_zh": "Ipswich manager Gary ONeil praises his sides ability to dig in and fight as his side come from behind to earn a 1-1 draw against Nottingham Forest at Portman Road in the Premier League"
+  },
+  {
+    "item_id": "norm_97",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Borussia M'gladbach finally get first win after five-goal thriller",
+    "summary": "Bundesliga's bottom side Borussia Monchengladbach come from behind to beat Stuttgart 3-2, as the away side secure their first league win of the season, at the seventh attempt.",
+    "url": "https://www.bbc.co.uk/sport/football/videos/ck87zl4v2ld8o?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "topic_title_low_quality",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Borussia Mgladbach终于在五球惊悚后获得了第一场胜利",
+    "candidate_summary_zh": "Bundesligas bottom side Borussia Monchengladbach come from behind to beat Stuttgart 3-2, as the away side secure their first league win of the season, at the seventh attempt"
   },
   {
     "item_id": "norm_106",
@@ -152,47 +217,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma H",
+    "candidate_event_title_zh": "任何人都不应低估托马斯·图切尔（Thomas Tuchel）对英格兰的影响|艾玛·海耶斯（Emma Hayes）",
     "candidate_summary_zh": "Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword Leaving Cole Palmer at home surprised me, but I know Thomas from Chelsea – he’s the type of coach to die on his sword In Thomas Tuchel, England have an elite coach"
-  },
-  {
-    "item_id": "norm_129",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Supersub Cyle Larin rescues point for Canada against Bosnia and Herzegovina",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/canada-bosnia-herzegovina-world-cup-2026-group-b-match-report",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救",
-    "candidate_summary_zh": "超级潜艇Cyle Larin在加拿大对阵波斯尼亚和黑塞哥维那的比赛中获救"
-  },
-  {
-    "item_id": "norm_132",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Enciso rescues point in storm for Ipswich to deny Nottingham Forest",
-    "summary": "Amid a Suffolk squall, winds whipping, a constant drum of rain, an encounter full of half-chances, mistakes, the obligatory refereeing controversy and searching questions. Do Ipswich possess the stones to deal with the big league? Perhaps so. How long can Nottingham Forest’s dip sustain before their president, Evangelos Marinakis, takes his usual course of action. Perhaps not much longer. Ipswich’s Gary O’Neil was the happier manager, Forest had created the cleaner opportunities, only for familiar failings to cost them. “We were never quite good enough with the ball to turn it into a football match,” said O’Neil. Further adding to Forest’s disappointment, Ipswich’s Issa Diop escaped what looked, on first glance, a red card for a last-man foul. A first-half exchange of goals, both owing much to defensive laxness, determined the result. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/23/ipswich-nottingham-forest-premier-league-match-report",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "恩西索（Enciso）在风暴中拯救伊普斯维奇（Ipswich），拒绝诺丁汉森林（",
-    "candidate_summary_zh": "Amid a Suffolk squall, winds whipping, a constant drum of rain, an encounter full of half-chances, mistakes, the obligatory refereeing controversy and searching questions"
-  },
-  {
-    "item_id": "norm_135",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Vincent Kompany taken to hospital after collapsing at Bayern training",
-    "summary": "Bayern Munich head coach had been nursing a virus Coach ‘undergoing thorough examinations’, club say Vincent Kompany has been ⁠taken ⁠to ​hospital after the Bayern Munich coach felt unwell during training ⁠on Friday. The Belgian, ​who ‌had been ‌nursing a virus in ‌recent days, was coaching his team before feeling unwell and being taken to ‌hospital. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/23/vincent-kompany-hospital-collapsing-bayern-munich-training",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "文森特·康帕尼（Vincent Kompany）在拜仁训练中晕倒后被送往医院",
-    "candidate_summary_zh": "拜仁慕尼黑主教练一直在护理一名“正在接受彻底检查”的病毒教练，俱乐部表示，在拜仁慕尼黑主教练周五在训练期间感到不适后， Vincent Kompany已被送往医院"
   },
   {
     "item_id": "norm_137",
@@ -205,33 +231,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "帕斯卡·格罗斯（Pascal Gross）：在快速启动后让布莱顿“领先一步”的痴迷跑步者",
-    "candidate_summary_zh": "Midfielder ‘who can never stand still’ has brought renewed energy to Seagulls since return to the club in January Most footballers like to spend their summers unwinding after a long season but not Pascal Gross"
-  },
-  {
-    "item_id": "norm_139",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Chaotic state of football in Brazil epitomises a nation where greed has conquered glory | Jonathan Liew",
-    "summary": "The national game merely reflects the mood in a divided nation which is going to the polls with very little faith in the power of democracy Look, cards on the table: I don’t know for certain, and nor do you, whether Flávio Bolsonaro – the man widely tipped to become the next president of Brazil after Sunday night’s election – really did steal an island from Richarlison. There are lawyers involved, claims and counter-claims, and in any case, adjudicating land ownership disputes between right-wing strongmen and Tottenham reserve-team strikers lies very much beyond this column’s spectrum of expertise. It’s why, for example, this newspaper took no official position on the well-publicised battle between Rodrigo Duterte and Vincent Janssen over that Polynesian isthmus. According to Richarlison, a few years ago he purchased an island off the southern coast of Rio de Janeiro, and has the documentation to prove it. Richarlison says Bolsonaro tried to buy it from him, and when he refused a lawyer named Willer Tomaz simply turned up and annexed it. “These guys took the island without spending a penny, as far as I know,” Richarlison claimed in an Instagram video that has been viewed more than 31 million times. Tomaz has accused Richarlison of lying, arguing that he has a public deed registered at the notary’s office. Bolsonaro, for his part, has denied any connection with the island in question and described Richarlison’s intervention as “politically motivated”. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/23/chaotic-football-brazil-politics-election-flavio-bolsonaro-lula",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "巴西足球的混乱状态体现了一个贪婪征服了荣耀的国家| Jonathan Liew",
-    "candidate_summary_zh": "全国比赛仅仅反映了一个分裂国家的情绪，这个国家对民主的力量几乎没有信心。看，桌上的牌：我不确定，你也不知道，弗拉维奥·博尔索纳罗（FlávioBolsonaro） --周日晚上选举后被广泛提示成为巴西下一任总统的人--是否真的从理查利森（Richarlison）偷了一个岛屿"
-  },
-  {
-    "item_id": "norm_155",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "‘We can go all the way’: Jonas Eidevall on life at San Diego Wave and lessons learned from Arsenal",
-    "summary": "The Swede’s team are second in the NWSL and hope to create special memories at their Snapdragon Stadium “I love the ocean,” Jonas Eidevall says, and he references walks along the beach at Del Mar. “People are very relaxed, life is lived at a slower pace here. I’m a very simple person. I like to read a book, go to the gym and spend time with my wife and kids, that’s sort of all I need.” The former Arsenal head coach is revelling in a calmer world as the head coach of San Diego Wave but it is not merely the beaches that are lowering his stress levels; his team are on a five-game winning streak in the NWSL and sit second in the table, one point off top spot, with two matches to go before the playoffs. Winning feels good and the club are targeting silverware, as he tells the Guardian: “It would mean everything. There are no guarantees in the playoffs, but the exciting part is saying: ‘We can also go all the way’ – that’s a possibility for us and we need to believe.” Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/21/jonas-eidevall-interview-san-diego-wave-nwsl-arsenal",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "“我们可以一路走下去”：乔纳斯·艾德瓦尔（Jonas Eidevall）讲述圣地亚哥浪潮的生活以及从阿森纳学到的经验教训",
-    "candidate_summary_zh": "The Swede’s team are second in the NWSL and hope to create special memories at their Snapdragon Stadium I love the ocean, Jonas Eidevall says, and he references walks along the beach at Del Mar"
+    "candidate_summary_zh": "自1月份重返俱乐部以来， “永远站不住脚”的中场球员为海鸥队带来了新的活力。大多数足球运动员喜欢在漫长的赛季后度过夏天，但不喜欢帕斯卡·格罗斯"
   },
   {
     "item_id": "norm_160",
@@ -271,45 +271,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
-  },
-  {
-    "item_id": "norm_230",
-    "source_id": "media_espn_deportes_futbol_mundial",
-    "source_name": "ESPN Deportes Fútbol Mundial",
-    "title": "¿Cómo fue el desempeño de Oliver Sonne ante Haití y España?",
-    "summary": "La selección peruana ganó un partido y perdió otro, en ambos jugó el danés-peruano.",
-    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818546/asi-jugo-oliver-sonne-los-amistosos-de-peru-vs-haiti-vs-espana",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Oliver Sonne对海地和西班牙的表现如何？",
-    "candidate_summary_zh": "秘鲁国家队赢了一场比赛，输了另一场比赛，在丹麦-秘鲁两场比赛中"
-  },
-  {
-    "item_id": "norm_236",
-    "source_id": "media_espn_deportes_futbol_mundial",
-    "source_name": "ESPN Deportes Fútbol Mundial",
-    "title": "Uruguay al Mundial: la Celeste partió rumbo a Playa del Carmen",
-    "summary": "La Celeste viajó rumbo a México, donde instalará su base de operaciones durante la Copa del Mundo.",
-    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817640/seleccion-uruguaya-viajo-a-playa-del-carmen-concentracion-mundial-2026",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "乌拉圭参加世界杯： Celeste前往Playa del Carmen",
-    "candidate_summary_zh": "La Celeste viajó rumbo a México, donde instalará su base de operaciones durante la Copa del Mundo"
-  },
-  {
-    "item_id": "norm_241",
-    "source_id": "media_espn_deportes_futbol_mundial",
-    "source_name": "ESPN Deportes Fútbol Mundial",
-    "title": "Enner Valencia aseguró que se encuentra bien para el debut mundialista con Ecuador",
-    "summary": "El atacante está a disposición de Sebastián Beccacece de cara al duelo ante Costa de Marfil.",
-    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16817824/enner-valencia-aseguro-que-se-encuentra-bien-para-el-debut-mundialista-con-ecuador",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "恩纳·瓦伦西亚（Enner Valencia）保证，他在厄瓜多尔的世界杯首秀中表现出色",
-    "candidate_summary_zh": "El atacante está a disposición de Sebastián Beccacece de cara al duelo ante Costa de Marfil"
   },
   {
     "item_id": "norm_247",
