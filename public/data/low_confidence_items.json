@@ -10,7 +10,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026年世界杯官方比赛日程文章",
-    "candidate_summary_zh": "国际足联官方文章风格的赛程页面；可用作比赛日程、场地和结果的权威参考，但不应是唯一的自动化赛程来源"
+    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
   },
   {
     "item_id": "norm_2",
@@ -49,7 +49,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "ESPN 2026 FIFA世界杯比赛时间表",
-    "candidate_summary_zh": "媒体日程安排文章；可用作备用/交叉检查，但不是主要的官方来源"
+    "candidate_summary_zh": "Media schedule article; useful as fallback/cross-check but not primary official source"
   },
   {
     "item_id": "norm_11",
@@ -126,7 +126,7 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Soccer RSS Feeds Info Page",
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页面",
     "candidate_summary_zh": "使用它来定位特定的ESPN足球提要;本身不是新闻提要"
   },
   {
@@ -140,36 +140,62 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "世界杯",
-    "candidate_summary_zh": "最新消息、更新和视频亮点美国以时尚的方式开始世界杯-但他们最终会加入精英吗？"
+    "candidate_summary_zh": "Latest News, Updates & Video Highlights USA start World Cup in style - but will they finally join the elite?"
   },
   {
-    "item_id": "norm_79",
-    "source_id": "media_bbc_sport_football",
-    "source_name": "BBC Sport Football",
-    "title": "Shearer discusses scoring record, MOTD & a brush with Cardiff",
-    "summary": "Alan Shearer discusses his love of Newcastle, almost continuing his managerial career and swapping the pitch for the commentary box in The Football Interview.",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwkg5l822k3no?at_medium=RSS&at_campaign=rss",
+    "item_id": "norm_71",
+    "source_id": "media_bbc_sport_football_worldcup",
+    "source_name": "BBC Sport Football Worldcup Page",
+    "title": "FIFA World Cup AustraliaAustraliaplays TurkeyTurkeyat05:0005:00 onSunthe14 ofJun",
+    "summary": "",
+    "url": "https://www.bbc.co.uk/sport/football/live/cn8kgrx2pl7t",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Shearer与Cardiff讨论得分记录、MOTD和刷子",
-    "candidate_summary_zh": "Alan Shearer discusses his love of Newcastle, almost continuing his managerial career and swapping the pitch for the commentary box in The Football Interview"
+    "candidate_event_title_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun",
+    "candidate_summary_zh": "FIFA世界杯澳大利亚Australianiaplays TurkeyTurkeyat05: 0005: 00 onSunthe14 ofJun"
+  },
+  {
+    "item_id": "norm_87",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Can Robinson work Hampden magic against McInnes' Rangers?",
+    "summary": "Under-pressure Aberdeen manager Stephen Robinson has an excellent record in Hampden semi-finals. But is Saturday's meeting with Rangers a bridge too far?",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cwx281x2p28do?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Robinson可以用汉普顿魔法对抗McInnes Rangers吗？",
+    "candidate_summary_zh": "Under-pressure Aberdeen manager Stephen Robinson has an excellent record in Hampden semi-finals"
   },
   {
     "item_id": "norm_91",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
-    "title": "O'Neill agrees with McGregor about Celtic issues",
-    "summary": "Manager Martin O'Neill says he is in \"full agreement\" with captain Callum McGregor's assessment of Celtic's issues, but insisted they will \"sort it out\".",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cwrkypzzp6xeo?at_medium=RSS&at_campaign=rss",
+    "title": "Listen: Shearer on MOTD, managerial jobs & scoring record",
+    "summary": "Kelly Somers speaks to former Premier League striker and pundit Alan Shearer.",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pkgq2g?at_medium=RSS&at_campaign=rss",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ONeill同意McGregor关于凯尔特人的问题",
-    "candidate_summary_zh": "经理Martin ONeill表示，他完全同意队长Callum McGregors对凯尔特人队问题的评估，但坚称他们会解决这个问题"
+    "candidate_event_title_zh": "倾听： MOTD、管理职位和评分记录上的Shearer",
+    "candidate_summary_zh": "凯利·萨默斯（Kelly Somers）与前英超前锋、权威人士艾伦·希勒（Alan Shearer）"
   },
   {
-    "item_id": "norm_96",
+    "item_id": "norm_92",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Fears Chelsea's Lacroix could be out until January",
+    "summary": "Chelsea fear Maxence Lacroix will have a lengthy lay-off having suffered a serious hamstring injury.",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cmkgkpexjzneo?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "担心切尔西·拉克鲁瓦（Chelseas Lacroix）可能会出局到1月",
+    "candidate_summary_zh": "切尔西担心马克森斯·拉克鲁瓦（Maxence Lacroix）会因腿筋严重受伤而长期下岗"
+  },
+  {
+    "item_id": "norm_104",
     "source_id": "media_bbc_sport_football",
     "source_name": "BBC Sport Football",
     "title": "Calvert-Lewin set for new Leeds deal",
@@ -179,7 +205,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Calvert-Lewin为新的利兹交易做准备",
-    "candidate_summary_zh": "英格兰前锋Dominic Calvert-Lewin将在利兹联队签下新合同"
+    "candidate_summary_zh": "England striker Dominic Calvert-Lewin is set to sign a new contract at Leeds United"
   },
   {
     "item_id": "norm_108",
@@ -191,47 +217,21 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯| Guardiandouble引号双引号",
+    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
     "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
   },
   {
-    "item_id": "norm_119",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "FranceLes Bleus followed to World Cup by home politics after Mbappé’s swipe at far right",
-    "summary": "",
-    "url": "https://www.theguardian.com/football/2026/jun/12/france-followed-to-world-cup-by-home-politics-after-mbappes-swipe-at-far-right",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治",
-    "candidate_summary_zh": "在Mbappé向右滑动后， FranceLes Bleus紧随其后的是国内政治"
-  },
-  {
-    "item_id": "norm_135",
+    "item_id": "norm_140",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
-    "title": "Aston Villa to take legal action against Jamie Carragher for ‘unacceptable insults’",
-    "summary": "Villa chair announces plan on social media Carragher said club will ‘never be Man United’ Aston Villa have announced plans to take legal action against Jamie Carragher following his “unacceptable insults” about the club and its supporters. Carragher told Villa fans to “shut the fuck up” after facing criticism for suggesting Unai Emery should consider taking the Manchester United job. Villa responded on Friday evening with a statement on X signed by their chair, Nassef Sawiris. Continue reading...",
-    "url": "https://www.theguardian.com/football/2026/oct/30/aston-villa-to-take-legal-action-against-jamie-carragher-for-unacceptable-insults",
+    "title": "How can playing for Manchester City fit into Marc Guéhi’s moral universe? | Barney Ronay",
+    "summary": "Club’s predicament raises interesting questions about principles, both for individuals and the Premier League I felt unbelievably ponderous. My head was made of Aztec stone. I realised I didn’t want to be with all these people. Somebody came at me, a huge individual in silver and blue. I fell at his feet and grabbed one shoe. I started untying the lace. He kicked away from me. I got up and walked off. I was exceedingly hungry. Not my words. Also not the words of the Manchester City centre-back Marc Guéhi, despite what you were thinking there. This is instead a condensed quote from the mind of Gary Harkness, existentially curious college running-back and the narrator of Don DeLillo’s great American football novel End Zone. Continue reading...",
+    "url": "https://www.theguardian.com/football/2026/oct/30/manchester-city-financial-charges-guilty-marc-guehi-premier-league",
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "阿斯顿维拉将对杰米·卡拉格（Jamie Carragher）的“不可接受的侮辱”采取法律行动",
-    "candidate_summary_zh": "Villa chair announces plan on social media Carragher said club will ‘never be Man United’ Aston Villa have announced plans to take legal action against Jamie Carragher following his unacceptable insults about the club and its supporters"
-  },
-  {
-    "item_id": "norm_147",
-    "source_id": "media_guardian_football",
-    "source_name": "The Guardian Football",
-    "title": "Sign up to the Sport in Focus newsletter: the sporting week in photos",
-    "summary": "Our editors’ favourite sporting images from the past week, from the spectacular to the powerful, and with a little bit of fun thrown in Continue reading...",
-    "url": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "订阅Sport in Focus时事通讯：照片中的体育周",
-    "candidate_summary_zh": "Our editors’ favourite sporting images from the past week, from the spectacular to the powerful, and with a little bit of fun thrown in Continue reading"
+    "candidate_event_title_zh": "为曼城踢球如何融入Marc Guéhi的道德世界？ | Barney Ronay",
+    "candidate_summary_zh": "Club’s predicament raises interesting questions about principles, both for individuals and the Premier League I felt unbelievably ponderous"
   },
   {
     "item_id": "norm_161",
@@ -247,19 +247,6 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_182",
-    "source_id": "media_sky_sports_football",
-    "source_name": "Sky Sports Football",
-    "title": "Brighton make £30m Vuskovic offer as Spurs maintain Van Hecke interest",
-    "summary": "",
-    "url": "https://www.skysports.com/football/news/11095/13553329/luka-vuskovic-brighton-make-lb30m-offer-for-spurs-defender-as-roberto-de-zerbi-maintains-jan-paul-van-hecke-interest",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "布莱顿提出3000万英镑的Vuskovic报价，因为马刺保持了Van Hecke的兴趣",
-    "candidate_summary_zh": "布莱顿提出3000万英镑的Vuskovic报价，因为马刺保持了Van Hecke的兴趣"
-  },
-  {
     "item_id": "norm_186",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
@@ -271,19 +258,6 @@
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Football News | Sky Sports",
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
-  },
-  {
-    "item_id": "norm_199",
-    "source_id": "media_sky_sports_football_news",
-    "source_name": "Sky Sports Football News Page",
-    "title": "British South Asians in Football",
-    "summary": "",
-    "url": "https://www.skysports.com/football/news/topic/9087/south-asians-in-football",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "英式南亚足球",
-    "candidate_summary_zh": "英式南亚足球"
   },
   {
     "item_id": "norm_201",
@@ -455,7 +429,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_599",
+    "item_id": "norm_601",
     "source_id": "media_daily_mail_football",
     "source_name": "Daily Mail Football Page",
     "title": "Football & Soccer| Latest Football News and Results | Daily Mail Online",
@@ -468,7 +442,7 @@
     "candidate_summary_zh": "Read about football news including transfers, results and headlines"
   },
   {
-    "item_id": "norm_624",
+    "item_id": "norm_626",
     "source_id": "media_daily_mail_worldcup",
     "source_name": "Daily Mail World Cup Page",
     "title": "2026 FIFA World Cup: Latest News and Updates | Daily Mail Online",
@@ -481,7 +455,7 @@
     "candidate_summary_zh": "FIFA World Cup 2026 - Latest news on the tournament including scores and highlights"
   },
   {
-    "item_id": "norm_649",
+    "item_id": "norm_651",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News | FourFourTwo",
@@ -494,7 +468,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_662",
+    "item_id": "norm_664",
     "source_id": "media_fourfourtwo_news",
     "source_name": "Four Four Two News",
     "title": "News - Page 2 | FourFourTwo",
@@ -507,7 +481,7 @@
     "candidate_summary_zh": "News | FourFourTwo"
   },
   {
-    "item_id": "norm_673",
+    "item_id": "norm_675",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition",
@@ -520,7 +494,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_675",
+    "item_id": "norm_677",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -533,7 +507,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_676",
+    "item_id": "norm_678",
     "source_id": "media_transfermarkt_news",
     "source_name": "Transfermarkt News",
     "title": "World Cup - All news about this competition | Page 2",
@@ -546,7 +520,7 @@
     "candidate_summary_zh": "Diese Seite enthält die News des Wettbewerbs World Cup"
   },
   {
-    "item_id": "norm_677",
+    "item_id": "norm_679",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -559,7 +533,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_678",
+    "item_id": "norm_680",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -572,7 +546,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_679",
+    "item_id": "norm_681",
     "source_id": "media_the_sun_world_cup",
     "source_name": "The Sun World Cup Page",
     "title": "Verifying Device",
@@ -585,7 +559,7 @@
     "candidate_summary_zh": "Verifying Device"
   },
   {
-    "item_id": "norm_680",
+    "item_id": "norm_682",
     "source_id": "media_yahoo_world_cup",
     "source_name": "Yahoo Sport World Cup Page",
     "title": "FIFA World Cup News, Scores, Standings, Schedules, Videos and more - Yahoo Sports",
@@ -598,7 +572,7 @@
     "candidate_summary_zh": "Sports News, Scores, Fantasy Games"
   },
   {
-    "item_id": "norm_705",
+    "item_id": "norm_707",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -611,7 +585,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball Open menu OneFootballs home page Search Settings Sign In FIFA World Cup™ Germany ‘to use’ Major Tom as World Cup goal song Germany have selected the songs that will play during their 2026 World Cup games, Bild reports"
   },
   {
-    "item_id": "norm_716",
+    "item_id": "norm_718",
     "source_id": "media_one_football_world_cup",
     "source_name": "One Football World Cup Page",
     "title": "Check out the latest FIFA World Cup™ results via OneFootball",
@@ -624,7 +598,7 @@
     "candidate_summary_zh": "Check out all the competition news on OneFootball"
   },
   {
-    "item_id": "norm_718",
+    "item_id": "norm_720",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -637,7 +611,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports See All See All"
   },
   {
-    "item_id": "norm_732",
+    "item_id": "norm_734",
     "source_id": "media_nbc_sports_world_cup",
     "source_name": "NBC Sports World Cup Page",
     "title": "2026 FIFA World Cup",
@@ -650,7 +624,7 @@
     "candidate_summary_zh": "2026 FIFA Mens World Cup news, live scores, schedules, live streams, stats, standings, bracket and more from NBC Sports"
   },
   {
-    "item_id": "norm_733",
+    "item_id": "norm_735",
     "source_id": "media_goal_world_cup",
     "source_name": "Goal World Cup News Page",
     "title": "Latest news, features & gossip from the World Cup | Goal.com US",
@@ -663,7 +637,7 @@
     "candidate_summary_zh": "Uncover the latest in World Cup news with GOAL - read about the latest predictions, transfer rumours, breaking stories, videos and football results World Cup Christian Pulisic revealed he suffered a kick, which ultimately led to his substitution ahead of the second half of the USMNTs 4-1 thrashing over Paraguay in their World Cup home opener"
   },
   {
-    "item_id": "norm_758",
+    "item_id": "norm_760",
     "source_id": "media_fox_sports_world_cup",
     "source_name": "Fox Sports World Cup News Page",
     "title": "FIFA Men's World Cup 2026 News",
@@ -676,7 +650,7 @@
     "candidate_summary_zh": "Stay up-to-date with the latest news from the 2026 FIFA World Cup"
   },
   {
-    "item_id": "norm_783",
+    "item_id": "norm_785",
     "source_id": "media_cbs_sports_world_cup",
     "source_name": "CBS Sports World Cup News Page",
     "title": "2026 FIFA World Cup News, Scores and Standings",
@@ -689,7 +663,7 @@
     "candidate_summary_zh": "Get the latest news, live coverage, scores and information for the 2026 FIFA World Cup on CBSSports.com"
   },
   {
-    "item_id": "norm_808",
+    "item_id": "norm_810",
     "source_id": "media_ap_news_soccer",
     "source_name": "AP News Soccer",
     "title": "Soccer",
@@ -702,7 +676,7 @@
     "candidate_summary_zh": "Check out the latest soccer news surrounding the players, league, and scheduled games"
   },
   {
-    "item_id": "norm_833",
+    "item_id": "norm_835",
     "source_id": "media_bein_sports_football",
     "source_name": "beIN SPORTS Football",
     "title": "Soccer",
@@ -715,7 +689,7 @@
     "candidate_summary_zh": "sport"
   },
   {
-    "item_id": "norm_858",
+    "item_id": "norm_860",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -728,7 +702,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_880",
+    "item_id": "norm_882",
     "source_id": "media_supersport_football",
     "source_name": "SuperSport Football",
     "title": "Football Home - SuperSport",
@@ -741,7 +715,7 @@
     "candidate_summary_zh": "Latest football news, scores, and updates from SuperSport"
   },
   {
-    "item_id": "norm_881",
+    "item_id": "norm_883",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Futebol - Notícias, transferências e resultados ao vivo | A Bola",
@@ -754,7 +728,7 @@
     "candidate_summary_zh": "Acompanhe as últimas notícias, curiosidades, transferências e resultados ao vivo do mundo do futebol no portal A Bola"
   },
   {
-    "item_id": "norm_895",
+    "item_id": "norm_897",
     "source_id": "media_abola_futebol",
     "source_name": "A Bola Futebol",
     "title": "Página 2 sobre futebol - Notícias, transferências e resultados ao vivo | A Bola",
