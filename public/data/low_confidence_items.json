@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026 年 FIFA 世界杯比分和赛程",
-    "candidate_summary_zh": "国际足联官方比分和赛程页面；比赛程文章更适合用于提供即时比分、比赛结果和即将举行的赛事"
+    "candidate_summary_zh": "FIFA官方比分和赛程页面；比赛程文章更适合用于显示即时比分、比赛结果和即将举行的赛事"
   },
   {
     "item_id": "norm_3",
@@ -35,8 +35,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "天空体育 FIFA世界杯比分和赛程",
-    "candidate_summary_zh": "用于交叉核对比赛时间和对阵情况的备用赛程来源；如果FIFA页面难以解析，则此来源很有用"
+    "candidate_event_title_zh": "天空体育FIFA世界杯比分和赛程",
+    "candidate_summary_zh": "用于交叉核对比赛时间和对阵情况的备用赛程来源；如果 FIFA 页面难以解析，则此来源很有用"
   },
   {
     "item_id": "norm_4",
@@ -61,8 +61,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN足球RSS订阅信息页",
-    "candidate_summary_zh": "使用它来查找特定的 ESPN 足球资讯；它本身不是资讯订阅"
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页",
+    "candidate_summary_zh": "使用它来查找特定的 ESPN 足球资讯；它本身不是资讯源"
   },
   {
     "item_id": "norm_54",
@@ -75,7 +75,20 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "世界杯",
-    "candidate_summary_zh": "最新消息、更新和视频亮点美国队以出色的表现开启世界杯征程，但他们最终能否跻身精英行列？"
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以精彩表现开启世界杯征程——但他们最终能否跻身豪强之列？"
+  },
+  {
+    "item_id": "norm_100",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Football Daily",
+    "summary": "Simon Stone, Jay Motty & Tom Allnutt join Rick & Lloyd for reaction to Carrick’s sacking.",
+    "url": "https://www.bbc.co.uk/sounds/play/m0034dz1?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "足球日报",
+    "candidate_summary_zh": "Simon Stone、Jay Motty和Tom Allnutt与Rick和Lloyd一起讨论卡里克被解雇一事"
   },
   {
     "item_id": "norm_109",
@@ -87,11 +100,24 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
+    "candidate_event_title_zh": "2026年世界杯 | 《卫报》",
     "candidate_summary_zh": "Latest World Cup 2026 news, comment and analysis from the Guardian, the worlds leading liberal voice"
   },
   {
-    "item_id": "norm_161",
+    "item_id": "norm_113",
+    "source_id": "media_guardian_football_worldcup2026",
+    "source_name": "The Guardian Football Worldcup 2026 Page",
+    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
+    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
+    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "Cyle Larin 的进球点燃了喜悦，让加拿大摆脱了“差点”的魔咒",
+    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
+  },
+  {
+    "item_id": "norm_162",
     "source_id": "media_sky_sports_football",
     "source_name": "Sky Sports Football",
     "title": "Football Games, Results, Scores, Transfers, News | Sky Sports",
@@ -104,7 +130,7 @@
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
-    "item_id": "norm_186",
+    "item_id": "norm_187",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -117,7 +143,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_201",
+    "item_id": "norm_202",
     "source_id": "media_sky_sports_football_news",
     "source_name": "Sky Sports Football News Page",
     "title": "Football News | Sky Sports",
@@ -130,59 +156,7 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_203",
-    "source_id": "media_espn_deportes_futbol",
-    "source_name": "ESPN Deportes Fútbol",
-    "title": "ESPN Deportes - Stream deportes en vivo y ESPN originales",
-    "summary": "Con ESPN Deportes puedes stream deportes en vivo e ESPN originales, ve las repeticiones de los partidos más recientes y los resúmenes; además, accesa a la programación especial de ESPN.",
-    "url": "https://www.espndeportes.com/watch",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN Deportes - 观看体育赛事直播和 ESPN 原创节目",
-    "candidate_summary_zh": "通过 ESPN Deportes，您可以观看体育赛事直播和 ESPN 原创节目，观看最新比赛的回放和集锦；此外，您还可以观看 ESPN 的特别节目。"
-  },
-  {
-    "item_id": "norm_213",
-    "source_id": "media_espn_deportes_futbol",
-    "source_name": "ESPN Deportes Fútbol",
-    "title": "Luis Malagón aprueba la llegada de Guillermo Almada al América",
-    "summary": "",
-    "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/16811097/america-guillermo-almada-director-tecnico-malagon-elogios-lesion",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "路易斯·马拉贡（Luis Malagón）对吉列尔莫·阿尔马达（Guillermo Almada）加盟美洲队表示赞同。",
-    "candidate_summary_zh": "路易斯·马拉贡（Luis Malagón）对吉列尔莫·阿尔马达（Guillermo Almada）加盟美洲队表示赞同。"
-  },
-  {
-    "item_id": "norm_226",
-    "source_id": "media_espn_deportes_futbol_mundial",
-    "source_name": "ESPN Deportes Fútbol Mundial",
-    "title": "Funcionario de EE. UU.: El somalí Omar Artan tenía presuntos vínculos terroristas",
-    "summary": "Omar Artan, el árbitro somalí a quien se le denegó la entrada a EEUU, se le rechazó el acceso debido a su \"asociación con presuntos miembros de organizaciones terroristas\".",
-    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818754/omar-artan-somali-arbitro-vinculos-terroristas-estados-unidos-mundial",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "美国官员：索马里人奥马尔·阿尔坦（Omar Artan）涉嫌与恐怖组织有联系",
-    "candidate_summary_zh": "Omar Artan, el árbitro somalí a quien se le denegó la entrada a EEUU, se le rechazó el acceso debido a su asociación con presuntos miembros de organizaciones terroristas"
-  },
-  {
-    "item_id": "norm_231",
-    "source_id": "media_espn_deportes_futbol_mundial",
-    "source_name": "ESPN Deportes Fútbol Mundial",
-    "title": "¿Cómo fue el desempeño de Oliver Sonne ante Haití y España?",
-    "summary": "La selección peruana ganó un partido y perdió otro, en ambos jugó el danés-peruano.",
-    "url": "https://espndeportes.espn.com/futbol/mundial/nota/_/id/16818546/asi-jugo-oliver-sonne-los-amistosos-de-peru-vs-haiti-vs-espana",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "奥利弗·索内 (Oliver Sonne) 在对阵海地和西班牙的比赛中表现如何？",
-    "candidate_summary_zh": "秘鲁国家队赢了一场比赛，输了另一场，丹麦裔秘鲁球员在这两场比赛中均有上场。"
-  },
-  {
-    "item_id": "norm_248",
+    "item_id": "norm_249",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
     "title": "Fútbol en AS.com - AS.com",
@@ -195,7 +169,7 @@
     "candidate_summary_zh": "Noticias, resultados y directos de los equipos de fútbol de 1ª y 2ª división, Champions, Europa League, Copa del Rey, la Selección, la Premier y mucho más"
   },
   {
-    "item_id": "norm_273",
+    "item_id": "norm_274",
     "source_id": "media_as_futbol_mundial2026",
     "source_name": "AS Fútbol Mundial 2026",
     "title": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
@@ -204,11 +178,11 @@
     "language": "es",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "2026年世界杯 - 世界杯足球赛 - AS.com",
+    "candidate_event_title_zh": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
     "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
   },
   {
-    "item_id": "norm_298",
+    "item_id": "norm_299",
     "source_id": "media_marca_futbol",
     "source_name": "Marca Fútbol",
     "title": "Fútbol - Últimas noticias",
@@ -221,7 +195,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_323",
+    "item_id": "norm_324",
     "source_id": "media_marca_futbol_noticias",
     "source_name": "Marca Fútbol Noticias",
     "title": "Fútbol - Últimas noticias",
@@ -234,7 +208,7 @@
     "candidate_summary_zh": "Fútbol"
   },
   {
-    "item_id": "norm_348",
+    "item_id": "norm_349",
     "source_id": "media_lequipe_football",
     "source_name": "L'Équipe Football",
     "title": "Foot - actualités, mercato, info & vidéo en continu",
@@ -247,7 +221,7 @@
     "candidate_summary_zh": "Retrouvez toute lactualité du football sur LÉquipe"
   },
   {
-    "item_id": "norm_373",
+    "item_id": "norm_374",
     "source_id": "media_lequipe_football_coupedumonde",
     "source_name": "L'Équipe Football Coupe du Monde",
     "title": "Coupe du monde de football 2026 : actualités, calendrier et résultats",
@@ -260,7 +234,7 @@
     "candidate_summary_zh": "Suivez toute l’actualité de la Coupe du Monde de foot"
   },
   {
-    "item_id": "norm_398",
+    "item_id": "norm_399",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -273,7 +247,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_409",
+    "item_id": "norm_410",
     "source_id": "media_globo_esporte_futebol",
     "source_name": "Globo Esporte Futebol",
     "title": "Futebol | ge",
@@ -286,7 +260,7 @@
     "candidate_summary_zh": "Acompanhe as notícias de Futebol no ge.globo"
   },
   {
-    "item_id": "norm_410",
+    "item_id": "norm_411",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -299,7 +273,7 @@
     "candidate_summary_zh": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
   },
   {
-    "item_id": "norm_420",
+    "item_id": "norm_421",
     "source_id": "media_globo_esporte_copadomundo",
     "source_name": "Globo Esporte Futebol Copa do Mundo",
     "title": "Tabela e jogos da Copa do Mundo 2026 | ge",
@@ -312,7 +286,7 @@
     "candidate_summary_zh": "Tabela e jogos da Copa do Mundo 2026 | ge"
   },
   {
-    "item_id": "norm_421",
+    "item_id": "norm_422",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
@@ -325,7 +299,7 @@
     "candidate_summary_zh": "Noticias actualizadas las 24 horas"
   },
   {
-    "item_id": "norm_441",
+    "item_id": "norm_442",
     "source_id": "media_ole_argentina_mundial 2026",
     "source_name": "Olé Argentina Mundial 2026 Page",
     "title": "Mundial 2026",
