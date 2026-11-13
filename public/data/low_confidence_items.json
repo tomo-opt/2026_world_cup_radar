@@ -9,8 +9,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "FIFA World Cup 2026 Official Match Schedule Article",
-    "candidate_summary_zh": "国际足联官方文章式赛程页面；可作为比赛赛程、场馆和结果的权威参考，但不应是唯一的自动化赛程来源"
+    "candidate_event_title_zh": "2026年FIFA世界杯官方赛程文章",
+    "candidate_summary_zh": "FIFA official article-style schedule page; useful as authoritative reference for match schedule, venues and results, but should not be the only automated fixture source"
   },
   {
     "item_id": "norm_2",
@@ -23,7 +23,7 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "2026 年 FIFA 世界杯比分和赛程",
-    "candidate_summary_zh": "FIFA官方比分和赛程页面；比赛程文章更适合用于提供即时比分、比赛结果和即将举行的赛事"
+    "candidate_summary_zh": "FIFA官方比分和赛程页面；比赛程文章更适合用于显示即时比分、比赛结果和即将举行的赛事"
   },
   {
     "item_id": "norm_3",
@@ -35,8 +35,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "天空体育FIFA世界杯比分和赛程",
-    "candidate_summary_zh": "用于交叉核对比赛时间和对阵情况的备用赛程来源；如果 FIFA 页面难以解析，则此来源很有用"
+    "candidate_event_title_zh": "天空体育 FIFA世界杯比分和赛程",
+    "candidate_summary_zh": "Secondary fixture source for cross-checking match times and matchups; useful if FIFA page is difficult to parse"
   },
   {
     "item_id": "norm_4",
@@ -48,8 +48,8 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "ESPN 2026 FIFA World Cup Match Schedule",
-    "candidate_summary_zh": "媒体日程安排文章；可作为备用/交叉核对的有用信息，但不是主要的官方来源"
+    "candidate_event_title_zh": "ESPN 2026年FIFA世界杯赛程",
+    "candidate_summary_zh": "媒体日程安排文章；可作为备选/交叉核对之用，但并非主要官方来源"
   },
   {
     "item_id": "norm_53",
@@ -61,8 +61,8 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "ESPN足球RSS订阅信息页",
-    "candidate_summary_zh": "Use it to locate specific ESPN soccer feeds; not itself a news feed"
+    "candidate_event_title_zh": "ESPN足球RSS订阅源信息页",
+    "candidate_summary_zh": "使用它来查找特定的 ESPN 足球资讯；它本身不是资讯源"
   },
   {
     "item_id": "norm_54",
@@ -75,7 +75,33 @@
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
     "candidate_event_title_zh": "世界杯",
-    "candidate_summary_zh": "最新消息、动态和视频亮点美国以精彩表现开启世界杯征程，但他们最终能否跻身豪强之列？"
+    "candidate_summary_zh": "最新消息、更新和视频亮点美国以出色的表现开启世界杯征程——但他们最终能否跻身精英行列？"
+  },
+  {
+    "item_id": "norm_100",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Football Daily",
+    "summary": "Harry Kane becomes the most-capped England men's player in history.",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pmqwrn?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "足球日报",
+    "candidate_summary_zh": "哈里·凯恩成为英格兰男子足球队历史上出场次数最多的球员"
+  },
+  {
+    "item_id": "norm_102",
+    "source_id": "media_bbc_sport_football",
+    "source_name": "BBC Sport Football",
+    "title": "Football Daily",
+    "summary": "Simon Stone, Jay Motty & Tom Allnutt join Rick & Lloyd for reaction to Carrick’s sacking.",
+    "url": "https://www.bbc.co.uk/sounds/play/m0034dz1?at_medium=RSS&at_campaign=rss",
+    "language": "en",
+    "reason": "general_discussion_only",
+    "next_action": "needs_manual_review",
+    "candidate_event_title_zh": "足球日报",
+    "candidate_summary_zh": "Simon Stone, Jay Motty & Tom Allnutt join Rick & Lloyd for reaction to Carrick’s sacking"
   },
   {
     "item_id": "norm_109",
@@ -87,34 +113,21 @@
     "language": "en",
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "World Cup 2026 | The Guardiandouble quotation markdouble quotation mark",
+    "candidate_event_title_zh": "2026年世界杯 | 《卫报》",
     "candidate_summary_zh": "来自世界领先的自由派媒体《卫报》的最新2026年世界杯新闻、评论和分析"
-  },
-  {
-    "item_id": "norm_113",
-    "source_id": "media_guardian_football_worldcup2026",
-    "source_name": "The Guardian Football Worldcup 2026 Page",
-    "title": "Cyle Larin’s strike unleashes joy and saves Canada from the curse of ‘almost’",
-    "summary": "For the first time in the history of the men’s World Cup, Les Rouges have a point. It lifted pressure on a team scarred by disappointment on the biggest stage",
-    "url": "https://www.theguardian.com/football/2026/jun/12/cyle-larin-canada-world-cup-goal",
-    "language": "en",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "Cyle Larin 的进球点燃了喜悦，让加拿大摆脱了“差点”的魔咒",
-    "candidate_summary_zh": "For the first time in the history of the men’s World Cup, Les Rouges have a point"
   },
   {
     "item_id": "norm_143",
     "source_id": "media_guardian_football",
     "source_name": "The Guardian Football",
     "title": "It’s Happy Harry Kane day as England’s finest seizes his moment in style | Barney Ronay",
-    "summary": "The Ballon d’Or validated the forward’s career and he extended his incredible record for England with yet another goal on his 126th appearance Happy Harry Kane day! And many happy Harry returns. There is a process in clinical psychology known as semantic satiation. Subjects are asked to repeat a word or phrase so many times that it loses any kind of meaning. Suddenly “daffodils” is just an absurd, empty set of sounds. So it was in the build-up to Harry Kane’s record-breaking 126th cap, at the end of Harry Kane Ballon d’Or fortnight, as Harry Kane’s England were led out by top scorer Harry Kane, climax to a week of Harry Kane tributes, Harry Kane montages, 26-page Harry Kane … wait. Where were we? This was that kind of occasion from start to finish, a night where you expected to look up from your desk mid-match to see Kane’s head looming helpfully over your shoulder, to enter the Wembley toilets at half-time and find him silently offering you a breath mint and a scented tissue. Continue reading...",
+    "summary": "The Ballon d’Or validated the forward’s career and he extended his incredible record for England with yet another goal on his 126th appearance Happy Harry Kane day! And many happy Harry returns. There is a process in clinical psychology known as semantic satiation. Subjects are asked to repeat a word or phrase so many times that it loses any kind of meaning. Suddenly “daffodils” is just an absurd, empty set of sounds. So it was in the buildup to Harry Kane’s record-breaking 126th cap, at the end of Harry Kane Ballon d’Or fortnight, as Harry Kane’s England were led out by top scorer Harry Kane, climax to a week of Harry Kane tributes, Harry Kane montages, 26-page Harry Kane … wait. Where were we? This was that kind of occasion from start to finish, a night where you expected to look up from your desk mid-match to see Kane’s head looming helpfully over your shoulder, to enter the Wembley toilets at half-time and find him silently offering you a breath mint and a scented tissue. Continue reading...",
     "url": "https://www.theguardian.com/football/2026/nov/13/happy-harry-kane-day-englands-finest-seizes-his-moment-croatia-nations-league",
     "language": "en",
-    "reason": "topic_title_low_quality",
+    "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "今天是哈里·凯恩的幸运日，这位英格兰最优秀的球员以出色的表现把握住了机会 | 巴尼·罗内（Barney Ronay）",
-    "candidate_summary_zh": "The Ballon d’Or validated the forward’s career and he extended his incredible record for England with yet another goal on his 126th appearance Happy Harry Kane day!"
+    "candidate_event_title_zh": "今天是哈里·凯恩的幸运日，这位英格兰最出色的球员以精彩的表现把握住了机会 | 巴尼·罗内（Barney Ronay）",
+    "candidate_summary_zh": "金球奖是对这位前锋职业生涯的认可，他在第126次出场时又进一球，刷新了他在英格兰队令人难以置信的纪录。祝哈里·凯恩日快乐！"
   },
   {
     "item_id": "norm_164",
@@ -126,7 +139,7 @@
     "language": "en",
     "reason": "page_reference_only",
     "next_action": "needs_selector_improvement",
-    "candidate_event_title_zh": "足球赛事、赛果、比分、转会、新闻 | Sky Sports",
+    "candidate_event_title_zh": "Football Games, Results, Scores, Transfers, News | Sky Sports",
     "candidate_summary_zh": "Sky Sports Football - Live games, scores, latest football news, transfers, results, fixtures and team news from the Premier to the Champions League"
   },
   {
@@ -156,19 +169,6 @@
     "candidate_summary_zh": "Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, Tennis, F1, Boxing, plus the latest sports news, transfers & scores"
   },
   {
-    "item_id": "norm_216",
-    "source_id": "media_espn_deportes_futbol",
-    "source_name": "ESPN Deportes Fútbol",
-    "title": "Luis Malagón aprueba la llegada de Guillermo Almada al América",
-    "summary": "",
-    "url": "https://espndeportes.espn.com/futbol/mexico/nota/_/id/16811097/america-guillermo-almada-director-tecnico-malagon-elogios-lesion",
-    "language": "es",
-    "reason": "general_discussion_only",
-    "next_action": "needs_manual_review",
-    "candidate_event_title_zh": "路易斯·马拉贡（Luis Malagón）对吉列尔莫·阿尔马达（Guillermo Almada）加盟美洲队表示赞同。",
-    "candidate_summary_zh": "路易斯·马拉贡（Luis Malagón）对吉列尔莫·阿尔马达（Guillermo Almada）加盟美洲队表示赞同。"
-  },
-  {
     "item_id": "norm_251",
     "source_id": "media_as_futbol",
     "source_name": "AS Fútbol",
@@ -192,7 +192,7 @@
     "reason": "general_discussion_only",
     "next_action": "needs_manual_review",
     "candidate_event_title_zh": "Mundial 2026 - Copa del Mundo de fútbol - AS.com",
-    "candidate_summary_zh": "Sigue la última hora del Mundial de Qatar 2026: noticias, partidos, calendario y todo lo que necesitas saber sobre la gran cita del fútbol mundial en As.com"
+    "candidate_summary_zh": "关注 2026 年卡塔尔世界杯的最新动态：新闻、赛事、赛程以及有关这场全球足球盛事的所有须知事项，尽在 As.com。"
   },
   {
     "item_id": "norm_301",
